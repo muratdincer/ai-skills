@@ -33,7 +33,7 @@ Somut bir örnek yoksa iste; genel övgünün değeri düşüktür.
 
 ## Süreç
 1. Belirli davranışı (ne yaptı) belirle ve sonuçtan (bunun sayesinde ne değişti) ayır.
-2. Etkiyi yalnızca kullanıcının verdiği sayılarla nicelleştir; yoksa nitel olarak anlat. Rakam uydurma.
+2. Etkiyi yalnızca kullanıcının verdiği sayılarla nicelleştir; yoksa nitel olarak anlat. Rakam uydurma; çıkarım yaptığın her etkiyi `[VARSAYIM]` olarak işaretle ve göndermeden önce kullanıcıya teyit ettir.
 3. Neden önemli olduğunu açıkla: kullanıcı, müşteri, ekip veya iş sonucu ya da gösterdiği bir değer.
 4. Anlamlı katkı veren herkesi an; gözden kaçan katkıcıları kontrol et (inceleyenler, test edenler, nöbetçiler, destek, dokümantasyon).
 5. Kanala uy: Özel notlar kişisel olabilir; açık mesajlar profesyonel kalır ve özel ayrıntı içermez.

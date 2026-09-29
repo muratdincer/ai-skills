@@ -73,7 +73,7 @@ Status: Draft | In review | Accepted | Rejected · Author: <name> · Reviewers: 
 - [ ] At least two real alternatives are compared with a rejection reason.
 - [ ] The failure path is designed, not only the happy path (timeouts, retries, duplicates, partial failure).
 - [ ] Rollout is reversible or the irreversible step is explicitly called out.
-- [ ] No volumes, SLAs or dates are invented; unknowns are marked.
+- [ ] No volumes, SLAs or dates are invented; unknowns are marked `[UNKNOWN]` and inferences `[ASSUMPTION]`.
 - [ ] A reviewer can find the decision they are asked to approve within one minute.
 - [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 

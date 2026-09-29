@@ -73,7 +73,7 @@ Durum: Taslak | İncelemede | Kabul edildi | Reddedildi · Yazar: <ad> · İncel
 - [ ] En az iki gerçek alternatif red gerekçesiyle karşılaştırıldı.
 - [ ] Yalnızca mutlu yol değil, hata yolu da tasarlandı (zaman aşımı, yeniden deneme, mükerrer mesaj, kısmi hata).
 - [ ] Yayına alma geri alınabilir ya da geri alınamayan adım açıkça belirtildi.
-- [ ] Hacim, SLA veya tarih uydurulmadı; bilinmeyenler işaretlendi.
+- [ ] Hacim, SLA veya tarih uydurulmadı; bilinmeyenler `[BİLİNMİYOR]`, çıkarımlar `[VARSAYIM]` olarak işaretlendi.
 - [ ] İnceleyen kişi onaylaması istenen kararı bir dakika içinde bulabiliyor.
 - [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 

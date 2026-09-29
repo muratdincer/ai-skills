@@ -34,7 +34,7 @@ Sözleşmesel temel veya dönem kanıtı yoksa iste. Kanıtlanamayanı puanlama.
 ## Süreç
 1. Değerlendirme dönemini belirle ve bu dönemde vadesi gelen yükümlülükleri listele: teslimatlar, kilometre taşları, SLA/KPI hedefleri, kadro taahhütleri, raporlama görevleri.
 2. Müşterinin kendi yükümlülüklerini de (erişim, kararlar, ortamlar, gözden geçirmeler) ve karşılanıp karşılanmadığını listele; müşteri bağımlılıklarından kaynaklanan tedarikçi gecikmeleri ayrılmalıdır.
-3. Her yükümlülüğü kanıtla karşılaştır: karşılandı, kısmen karşılandı, karşılanmadı, ölçülemedi. Her biri için kaynak göster.
+3. Her yükümlülüğü kanıtla karşılaştır: karşılandı, kısmen karşılandı, karşılanmadı, ölçülemedi. Her biri için kaynak göster; kanıt yoksa `[BİLİNMİYOR]` yaz, her çıkarımı `[VARSAYIM]` olarak etiketle ve açık sorulara taşı.
 4. SLA/KPI sonuçlarını sözleşmedeki formüle göre değerlendir (ölçüm penceresi, istisnalar, hizmet kredileri); hedefleri yeniden tanımlama.
 5. Kalite sinyallerini değerlendir: hata oranları, yeniden çalışma, kabul retleri, dokümantasyonun eksiksizliği.
 6. Ticari durumu kontrol et: faturalanan ve kabul edilen teslimatlar, bekleyen değişiklik talepleri, doğan krediler; kabul edilmemiş iş için kesilen faturaları işaretle.
@@ -66,6 +66,7 @@ Sözleşme / SOW ref: <...> | Değerlendirenler: <...>
 
 ## Ticari Durum
 ## Sorunlar, Riskler ve Eskalasyonlar
+## Varsayımlar ve Açık Sorular
 ## Aksiyonlar
 | # | Aksiyon | Taraf | Sahip | Bitiş | Durum |
 ```

@@ -69,7 +69,7 @@ Engine: <engine> · Mode: <validate whole string / extract> · Flags: <...>
 - [ ] The test table has both should-match and should-not-match rows, including boundaries.
 - [ ] Anchoring matches the mode (validation vs extraction).
 - [ ] No nested or ambiguous quantifiers remain without a stated mitigation.
-- [ ] Cases not verified with certainty are marked `[VERIFY]`.
+- [ ] Cases not verified with certainty are marked `[VERIFY]`; inferred input formats are labeled `[ASSUMPTION]`.
 - [ ] A parser or library alternative was considered for standard formats.
 - [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 

@@ -72,7 +72,7 @@ Reason: <security/EOL/feature> · Scheme: <SemVer?> · Stepping: <direct / via X
 - [ ] Steps are ordered so the build stays green after each one.
 - [ ] Silent behavior changes (defaults, serialization, time, security) are listed.
 - [ ] Rollback covers one-way migrations explicitly.
-- [ ] Unknown impact is listed as open questions, not assumed safe.
+- [ ] Unknown impact is listed as open questions, not assumed safe; every inference is labeled `[ASSUMPTION]`.
 - [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls

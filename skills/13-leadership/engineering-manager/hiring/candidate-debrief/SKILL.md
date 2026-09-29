@@ -32,7 +32,7 @@ If scorecards are missing for any stage, list the gap and do not infer that stag
 1. Confirm every scorecard was submitted before discussion; flag any written or changed after the debrief started.
 2. Build a coverage matrix: competency × stage with score and one-line evidence; mark competencies with no or weak signal.
 3. Identify conflicts (same competency, different scores) and state the evidence behind each side, not the interviewer's seniority.
-4. Separate evidence from impressions: remove or flag statements without behavior, and non-job-related remarks.
+4. Separate evidence from impressions: remove or flag statements without behavior, and non-job-related remarks; label any conclusion you draw beyond the scorecards `[ASSUMPTION]` and move it to open questions.
 5. Record what the discussion resolved (new evidence, clarified rubric reading) and what stays unresolved.
 6. Assess against the level bar, not against other candidates in the pipeline; if the evidence fits a different level, state which and why.
 7. Apply the organization's decision rule (e.g. hiring manager decides, strong no requires rebuttal evidence); state which rule was used.

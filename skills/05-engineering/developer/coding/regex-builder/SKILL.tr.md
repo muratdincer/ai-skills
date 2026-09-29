@@ -69,7 +69,7 @@ Motor: <motor> · Mod: <tüm metni doğrula / çıkar> · Bayraklar: <...>
 - [ ] Test tablosunda sınırlar dahil hem eşleşmeli hem eşleşmemeli satırlar var.
 - [ ] Çapa, moda (doğrulama veya çıkarma) uygun.
 - [ ] Belirtilmiş bir önlem olmadan iç içe veya belirsiz niceleyici kalmadı.
-- [ ] Kesin doğrulanmayan durumlar `[DOĞRULA]` olarak işaretli.
+- [ ] Kesin doğrulanmayan durumlar `[DOĞRULA]`, çıkarılan girdi formatları `[VARSAYIM]` olarak işaretli.
 - [ ] Standart formatlar için ayrıştırıcı veya kütüphane alternatifi değerlendirildi.
 - [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 

@@ -72,7 +72,7 @@ Neden: <güvenlik/destek sonu/özellik> · Şema: <SemVer?> · Geçiş: <doğrud
 - [ ] Adımlar her birinden sonra build yeşil kalacak şekilde sıralı.
 - [ ] Sessiz davranış değişiklikleri (varsayılanlar, serileştirme, zaman, güvenlik) listelendi.
 - [ ] Geri dönüş tek yönlü geçişleri açıkça kapsıyor.
-- [ ] Bilinmeyen etki güvenli varsayılmadı, açık soru olarak listelendi.
+- [ ] Bilinmeyen etki güvenli varsayılmadı, açık soru olarak listelendi; her çıkarım `[VARSAYIM]` olarak etiketlendi.
 - [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar

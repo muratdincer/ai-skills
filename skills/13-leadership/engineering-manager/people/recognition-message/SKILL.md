@@ -33,7 +33,7 @@ If there is no concrete example, ask for one; generic praise has little value.
 
 ## Process
 1. Identify the specific behavior (what they did) and separate it from the outcome (what changed because of it).
-2. Quantify impact only with numbers the user provided; otherwise describe it qualitatively. Do not invent figures.
+2. Quantify impact only with numbers the user provided; otherwise describe it qualitatively. Do not invent figures; mark any impact you infer as `[ASSUMPTION]` and ask the user to confirm it before sending.
 3. Explain why it mattered: user, customer, team or business consequence, or a value it demonstrates.
 4. Credit everyone who materially contributed; check for overlooked contributors (reviewers, testers, on-call, support, documentation).
 5. Match the channel: private notes can be personal; public messages stay professional and avoid private details.

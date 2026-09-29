@@ -32,7 +32,7 @@ Herhangi bir aşamanın formu eksikse eksikliği listele ve o aşamanın sonucun
 1. Tüm formların tartışmadan önce gönderildiğini doğrula; toplantı başladıktan sonra yazılan veya değiştirilenleri işaretle.
 2. Kapsama matrisi kur: yetkinlik × aşama, puan ve tek satırlık kanıtla; sinyali olmayan veya zayıf yetkinlikleri işaretle.
 3. Çelişkileri (aynı yetkinlik, farklı puan) belirle ve mülakatçının kıdemini değil, her iki tarafın kanıtını yaz.
-4. Kanıtı izlenimden ayır: Davranışa dayanmayan ifadeleri ve işle ilgisiz yorumları çıkar veya işaretle.
+4. Kanıtı izlenimden ayır: Davranışa dayanmayan ifadeleri ve işle ilgisiz yorumları çıkar veya işaretle; formların ötesinde vardığın her sonucu `[VARSAYIM]` olarak etiketle ve açık sorulara taşı.
 5. Tartışmada neyin netleştiğini (yeni kanıt, ölçeğin ortak yorumu) ve neyin açık kaldığını kaydet.
 6. Adayı süreçteki diğer adaylara göre değil, seviye çıtasına göre değerlendir; kanıt başka bir seviyeye uyuyorsa hangisi olduğunu ve nedenini belirt.
 7. Kurumun karar kuralını uygula (ör. işe alım yöneticisi karar verir, kesin hayır ancak karşı kanıtla aşılır); hangi kuralın kullanıldığını yaz.

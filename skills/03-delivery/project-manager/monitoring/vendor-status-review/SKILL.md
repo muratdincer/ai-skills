@@ -34,7 +34,7 @@ If the contractual baseline or the period's evidence is missing, ask for it. Do 
 ## Process
 1. Set the review period and list the obligations due in it: deliverables, milestones, SLA/KPI targets, staffing commitments, reporting duties.
 2. Also list the client's own obligations (access, decisions, environments, reviews) and whether they were met; vendor delays caused by client dependencies must be separated.
-3. Compare each obligation to evidence: met, partially met, not met, not measurable. Cite the source for each.
+3. Compare each obligation to evidence: met, partially met, not met, not measurable. Cite the source for each; where evidence is missing write `[UNKNOWN]`, and label every inference `[ASSUMPTION]` and move it to open questions.
 4. Evaluate SLA/KPI results against the contract formula (measurement window, exclusions, service credits); do not re-define targets.
 5. Assess quality signals: defect rates, rework, acceptance rejections, documentation completeness.
 6. Check commercial position: invoiced vs accepted deliverables, pending change orders, credits due; flag invoices for unaccepted work.
@@ -66,6 +66,7 @@ Contract / SOW ref: <...> | Reviewers: <...>
 
 ## Commercial Position
 ## Issues, Risks and Escalations
+## Assumptions and Open Questions
 ## Actions
 | # | Action | Party | Owner | Due | Status |
 ```
