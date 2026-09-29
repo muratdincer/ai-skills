@@ -39,6 +39,7 @@ Fikir yoksa sor. Kanvas belirtilmemişse ürün-pazar uyumu öncesindeki fikirle
 7. Her girdiyi K (kanıt, kaynağıyla) veya V (varsayım) olarak etiketle.
 8. İç tutarlılığı kontrol et: kanal segmente, gelir modeli ilişki türüne uyuyor mu, maliyetler faaliyetleri destekliyor mu.
 9. Varsayımları riske göre (yanlışsa etkisi x belirsizlik) sırala ve ilk 3 için ucuz bir test öner.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: en riskli bloklar için `assumption-mapping` veya `hypothesis-statement`, açık soru gelir akışlarıysa `pricing-analysis`.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Kanvas seçimi: <gerekçe>
 - [ ] Gelir ve maliyet blokları model ve itici değişken içeriyor, uydurma rakam yok.
 - [ ] Değer önerisi belirtilen bir probleme karşılık geliyor.
 - [ ] En riskli 3 varsayımın her birinin testi ve başarı sinyali var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her bloğu kendinden emin cümlelerle doldurmak. Varsayımları işaretlenmemiş bir kanvas riski gizler.

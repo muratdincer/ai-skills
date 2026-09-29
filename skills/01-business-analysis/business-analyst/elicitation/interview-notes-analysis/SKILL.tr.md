@@ -30,12 +30,13 @@ Notlar yoksa iste. Roller yoksa kaynakları Görüşmeci A, B, C olarak etiketle
 ## Süreç
 1. Gerekmeyen kişisel verileri maskele (üçüncü kişilerin adları, müşteri bilgileri); görüşülenlere rol veya kodla atıf yap.
 2. Notları ifadelere böl; her birini etiketle: Olgu (gözlenen/anlatılan uygulama), Görüş, İhtiyaç, Sorun, Kural, İstisna, Geçici çözüm, Veri/Sistem, Metrik veya Fikir/çözüm önerisi.
-3. İhtiyaçları problem odaklı ifadelerle yeniden yaz ("Y'den önce X'i bilmem gerekiyor"); çözüm fikirlerini ayrı tut.
+3. İhtiyaçları problem odaklı ifadelerle yeniden yaz ("Y'den önce X'i bilmem gerekiyor"); çözüm fikirlerini ayrı tut. Doğrudan duyulmayıp sorunlardan çıkarılan ihtiyaçları `[VARSAYIM]` olarak etiketle.
 4. İş kurallarını standart biçimde (koşul → eylem) ve belirtilen kaynağıyla çıkar; yalnızca bir kişiden duyulan kuralları `[TEYİT EDİLECEK]` olarak işaretle.
 5. Notların izin verdiği yerde sayısallaştır (sıklık, hacim, süre); asla rakam uydurma.
 6. Görüşülenleri karşılaştır: uzlaşmaları, çelişkileri ve aynı adım için farklı uygulamaları bul.
 7. Bulguları kişiler arası tekrar sıklığına ve belirtilen etkiye göre önceliklendir.
 8. Açık soruları ve takip konularını, her birini kimin cevaplayabileceğiyle listele.
+9. Hedef devam ediyorsa çıkarılan kurallar için `business-rules-catalog`, çelişkiler için `requirements-consistency-check`, takip konuları için `open-questions-tracker` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -75,6 +76,7 @@ Kaynaklar: <kodlar ve roller> · Tarih(ler): <...>
 - [ ] Çelişkiler ortalaması alınarak yok edilmedi, gösterildi.
 - [ ] Gerekmeyen kişisel veriler maskelendi.
 - [ ] Notlarda olmayan hiçbir rakam yok.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Güçlü bir görüşü gereksinime yükseltmek. Kaynakları say ve kanıt ara.

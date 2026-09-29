@@ -42,6 +42,7 @@ If the role's purpose or level is unclear, ask; do not invent compensation, bene
 8. Add practicals: location, work model, employment type, salary range if allowed, accommodations statement, how to apply, process steps.
 9. Add an equal opportunity and accommodation line consistent with local law and the organization's policy.
 10. Check length (400-700 words) and readability; mark unknown facts `[TBD]`.
+11. If the user's goal continues, suggest `interview-plan` to design the loop against the same requirements, or `onboarding-plan-30-60-90` for the new hire.
 
 ## Output format
 ```markdown
@@ -79,6 +80,7 @@ Location / model: <...> · Type: <...> · Salary: <range or [TBD]>
 - [ ] On-call, travel and work model are stated honestly.
 - [ ] No invented salary, benefits or company claims; unknowns marked `[TBD]`.
 - [ ] Hiring process steps are listed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Wish lists of 15 technologies. They deter qualified candidates who apply only when meeting all criteria. Move extras to nice-to-have.

@@ -39,6 +39,7 @@ If the idea is missing, ask. If no canvas is specified, choose Lean Canvas for p
 7. Tag every entry as E (evidence, cite source) or A (assumption).
 8. Check internal consistency: channel fits segment, revenue model fits relationship type, costs support the activities.
 9. Rank assumptions by risk (impact if wrong x uncertainty) and propose a cheap test for the top 3.
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `assumption-mapping` or `hypothesis-statement` for the riskiest blocks, or `pricing-analysis` if revenue streams are the open question.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Canvas choice: <reason>
 - [ ] Revenue and cost blocks name models and drivers, no invented numbers.
 - [ ] The value proposition maps to a stated problem.
 - [ ] The top 3 risky assumptions each have a test and a success signal.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Filling every block with confident text. A canvas without assumptions flagged hides risk.

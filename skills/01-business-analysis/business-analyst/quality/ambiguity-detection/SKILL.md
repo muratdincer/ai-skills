@@ -40,6 +40,7 @@ If there are no IDs, number the statements yourself (R1, R2...) and say so.
 8. Flag untestable statements: absolutes (never, always, 100%), negatives without scope, subjective satisfaction.
 9. For each finding, write a rewrite that names actor, action, object, condition and measurable criterion; unknown values become `[TBD]` placeholders, never invented numbers.
 10. Collect terms needing definition into a glossary candidate list.
+11. If the user wants to continue, suggest `requirements-gap-analysis` for missing content, `glossary-builder` for the collected terms or `acceptance-criteria` to make rewritten statements testable.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ If there are no IDs, number the statements yourself (R1, R2...) and say so.
 - [ ] No numeric target is invented; unknown thresholds are `[TBD]` with a question.
 - [ ] Each rewrite is verifiable by a test, inspection, analysis or demonstration.
 - [ ] Undefined terms are collected in the glossary candidates.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Replacing a vague word with another vague word ("fast" to "performant"). Always add a measurable criterion or a `[TBD]` placeholder.

@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-Bir yazılım departmanındaki tüm rolleri kapsayan, araçtan bağımsız **410 YZ skill'i**. Kütüphane talep almadan ve toplantı özetinden mimari kararlara, test tasarımına, olay sonrası analize ve işe alıma kadar uzanıyor. Her skill, herhangi bir YZ asistanının uygulayabileceği küçük ve odaklı bir iş tanımıdır. Tüm skill'ler **Türkçe ve İngilizce** olarak hazırlandı.
+Bir yazılım departmanındaki tüm rolleri kapsayan, araçtan bağımsız **420 YZ skill'i**. Kütüphane talep almadan ve toplantı özetinden mimari kararlara, test tasarımına, olay sonrası analize ve işe alıma kadar uzanıyor. Her skill, herhangi bir YZ asistanının uygulayabileceği küçük ve odaklı bir iş tanımıdır. Tüm skill'ler **Türkçe ve İngilizce** olarak hazırlandı.
 
 - **Taşınabilir:** Açık Agent Skills formatında düz Markdown (`SKILL.md` + YAML başlığı). Yerleşik skill, kural dosyası, bilgi dosyası, sistem prompt'u veya yapıştırılan prompt olarak çalışır.
 - **Parçalı:** Bir skill tek bir iş yapar ("gereksinimlerde eksik bulma", "aksiyon maddelerini çıkarma", "geri dönüş planı yazma"). Bu sayede skill'ler zincirlenebilir.
@@ -70,6 +70,18 @@ Hiç kurulum yapmak istemiyor musun? Herhangi bir `SKILL.tr.md` dosyasını aç,
 2. [AUTHORING.md](AUTHORING.md) kurallarına göre `SKILL.md` ve `SKILL.tr.md` dosyalarını yaz.
 3. `python3 scripts/catalog.py && python3 scripts/sync.py && python3 scripts/guide.py` komutunu çalıştır.
 4. Pull request aç. CI, `sync.py --check` çalıştırır.
+
+## Teşekkür
+
+Yapı ve uygulamalar aşağıdaki açık skill kütüphaneleri ve rehberlerle karşılaştırıldı, kısmen onlardan ilham alındı:
+[Anthropic skill yazım rehberi](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices),
+[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills),
+[obra/superpowers](https://github.com/obra/superpowers),
+[deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills),
+[product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills),
+[phuryn/pm-skills](https://github.com/phuryn/pm-skills),
+[45ck/business-analysis-skills](https://github.com/45ck/business-analysis-skills).
+İçerik kopyalanmadı. Öz-kontrol döngüsü, önem etiketleri, talebin sözel isteğini altta yatan ihtiyaçtan ayırma ve eksiklerin yok/zayıf/ertelenmiş olarak sınıflandırılması gibi fikirler bu kütüphanenin formatında yeniden yazıldı.
 
 ## Lisans
 

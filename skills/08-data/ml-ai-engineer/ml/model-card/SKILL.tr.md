@@ -41,6 +41,7 @@ Değerlendirme sonuçları yoksa, performans alanları `[BİLİNMİYOR]` olarak 
 8. Etik değerlendirmeleri belgele: etkilenen kişiler, olası zararlar, adillik ölçütü ve sonuçları, önlemler, etkilenen bireyler için itiraz yolu.
 9. İzlemeyi, yeniden eğitim sıklığını ve emekliye ayırma kriterlerini açıkla; izleme planına atıf yap.
 10. Dili uzman olmayan bir inceleyicinin anlayacağı sadelikte tut; teknik ayrıntıyı referanslara taşı.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa üretim için `ml-monitoring-plan` veya kişisel veri söz konusuysa `privacy-impact-assessment` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -91,6 +92,7 @@ Değerlendirme sonuçları yoksa, performans alanları `[BİLİNMİYOR]` olarak 
 - [ ] İnsanlarla ilgili kararlar için insan gözetimi ve itiraz yolu tanımlı.
 - [ ] Hiçbir metrik veya veri bilgisi uydurulmadı; boşluklar işaretli.
 - [ ] Uzman olmayan biri kullanım amacını ve sınırları anlayabiliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sınırlamalar yerine pazarlama metni yazmak. Her kart, en az bir okuyucunun modeli bir iş için kullanmamaya karar vermesini sağlamalı.

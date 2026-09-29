@@ -34,12 +34,13 @@ Kabul kriterleri yoksa iste ya da aday kriterler türet ve `[VARSAYIM]` olarak i
 2. Etkilenen katmanları ve varlıkları belirle: sözleşme/API, veri şeması, alan mantığı, arayüz, entegrasyonlar, yapılandırma, altyapı, dokümantasyon.
 3. Mümkün olduğunca dikey dilimle (önce uçtan uca ince bir yol), sonra genişlet. "Önce tüm backend, sonra tüm frontend" yaklaşımından kaçın.
 4. Destekleyici görevleri açıkça ekle: şema migration'ı, feature flag, sözleşme stub'ı veya mock, test verisi, yetkiler, gözlemlenebilirlik.
-5. Her görevi yaklaşık bir günde (veya ekibin sınırında) bitirilip merge edilebilecek kadar küçük tut ve net bir tamamlanma koşulu ver.
+5. Her görevi yaklaşık bir günde (veya ekibin sınırında) bitirilip merge edilebilecek kadar küçük tut ve net bir tamamlanma koşuluyla açık bir doğrulama adımı (bunu kanıtlayan test, kontrol veya demo) ver.
 6. Görevleri bağımlılığa göre sırala ve paralel yürüyebilecekleri işaretle. Riskli veya bilinmeyen işi başa al.
 7. Diğer görevlerin içinde olmayan doğrulama görevlerini ekle: entegrasyon veya uçtan uca test, performans kontrolü, kişisel veri ya da yetkilendirme varsa güvenlik incelemesi.
 8. Yayın görevlerini ekle: flag açılışı, dokümantasyon veya changelog, geçici kodun kaldırılması.
 9. Ekibin biriminde göreli tahmin ver; belirsiz olanları işaretle, ekip saat kullanmıyorsa saat uydurma.
 10. Kapsamı kontrol et: her kabul kriterini en az bir göreve eşle.
+11. Hedef devam ediyorsa varsayımlı aralık tahmini için `technical-estimation` veya ilk göreve başlamak için `implement-from-story` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Hikaye: <no/bağlantı> · Varsayımlar: <liste veya yok>
 - [ ] Migration, flag, test verisi ve temizlik görevleri açıkça yazıldı.
 - [ ] İlk görevler en büyük riski veya bilinmeyeni azaltıyor.
 - [ ] Tahminler ekibin biriminde; hiçbiri uydurulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sonuna kadar doğrulanabilir hiçbir şey teslim etmeyen katman bazlı bölme ("backend", "frontend", "testler"). İnce dikey dilimleri tercih et.

@@ -41,6 +41,7 @@ Karar veya süreç yoksa sor; karar olmadan ML problemi tanımlanmış sayılmaz
 8. Riskleri belirle: geri besleme döngüleri (modelin aksiyonları gelecekteki etiketleri değiştirir), korunan gruplarda adillik, kavram kayması, açıklanabilirlik gereksinimleri, olumsuz kararların otomasyonu.
 9. Dağıtım biçimini tanımla: toplu mu gerçek zamanlı mı, gecikme, hacim, döngüde insan, model erişilemezken yedek yol.
 10. Belirsizliği azaltacak en küçük deneyle birlikte devam / dur / keşif çalışması (spike) önerisi ver.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa devam kararında `feature-engineering-plan`, iş gerekçesi hâlâ açıksa `ai-use-case-assessment` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -88,6 +89,7 @@ Devam / Dur / Spike: <en küçük sonraki deney>
 - [ ] ML olmayan bir taban çizgisi tanımlandı.
 - [ ] Çevrim dışı metrik iş hata maliyetlerini ve kapasiteyi yansıtıyor.
 - [ ] Gizlilik, adillik ve geri besleme döngüsü riskleri ele alındı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Dengesiz sınıflarda accuracy'yi optimize etmek. Kapasiteye (precision@k) ve maliyete bağlı metrikler kullan.

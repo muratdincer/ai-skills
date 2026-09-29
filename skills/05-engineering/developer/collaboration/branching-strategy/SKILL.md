@@ -43,6 +43,7 @@ If the release model or supported version count is missing, ask; the recommendat
 6. Define release and hotfix flow: where tags are cut, how fixes are forward- or back-ported (cherry-pick direction), versioning scheme.
 7. Define prerequisites and a migration plan from the current model, with measurable signals (branch age, PR lead time, merge conflict frequency, hotfix lead time).
 8. Summarize as a one-page policy the team can adopt in its working agreement.
+9. Suggest the follow-ups the policy implies: `pipeline-design` to enforce it in CI, `semantic-versioning` and `release-plan` for release branches and tags, `working-agreement` to record it with the team.
 
 ## Output format
 ```markdown
@@ -83,6 +84,7 @@ Rejected: <model> — <reason>
 - [ ] Branch lifetime limits and protection rules are concrete.
 - [ ] Prerequisites (CI speed, flags, tests) are listed with gaps.
 - [ ] Current metrics that were not provided are `[UNKNOWN]`, not invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Adopting GitFlow for a continuously deployed web service. The develop branch adds a second integration point and slows every fix.

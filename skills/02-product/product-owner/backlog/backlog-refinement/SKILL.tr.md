@@ -43,6 +43,7 @@ Madde verilmediyse iste. Eksik isteğe bağlı girdileri açık soru olarak ele 
 8. Her maddeyi Hazır Tanımına göre değerlendir (yoksa varsayılan: değer net, kabul kriterleri test edilebilir, yeterince küçük, bağımlılıklar biliniyor, engelleyici soru yok).
 9. İyileştirilen maddeler için tek satırlık gerekçeyle bir sıra öner; ayrıntılı puanlamayı `backlog-prioritization` becerisine bırak.
 10. Çıktıyı ve yalnızca ekip tartışması gerektiren maddeleri kapsayan kısa bir iyileştirme oturumu gündemini üret.
+11. Kullanıcının hedefi devam ediyorsa hâlâ büyük olan maddeler için `story-splitting`, kriteri eksik maddeler için `acceptance-criteria`, boyutlandırma için `estimation-session` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -76,6 +77,7 @@ Hedef/tema: <hedef veya [BİLİNMİYOR]>
 - [ ] Hazır olma kararları belirtilen Hazır Tanımı ile tutarlı.
 - [ ] Hiçbir şey uydurulmadı: tahminler, tarihler ve sahipler girdiden geliyor ya da işaretli.
 - [ ] Oturum gündemi yalnızca ortak tartışma gerektiren maddeleri içeriyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Çok ileriyi iyileştirmek. Ayrıntı zamanla eskir; yalnızca yakında çekilecek maddeleri iyileştir.

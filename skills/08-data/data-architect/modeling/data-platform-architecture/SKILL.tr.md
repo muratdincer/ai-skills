@@ -41,6 +41,7 @@ Sürücüler veya kaynaklar yoksa sor; aksi halde tasarım seçimlerini `[VARSAY
 9. Seçenekleri (ör. warehouse merkezli, lakehouse, hibrit) gereksinimlere karşı bir ödünleşim tablosunda değerlendir; kritik seçimleri ADR adayı olarak kaydet.
 10. Eski bir platform değiştiriliyorsa geçiş yaklaşımını ve fazlarını belirle (alan/tüketici bazında strangler, paralel koşum, mutabakat).
 11. Riskleri, açık soruları ve vazgeçilmezleri listele.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: temel kararları kaydetmek için `adr`, katman bazında ürün seçimi için `technology-selection` veya ilk veri ürünleri için `data-contract`.
 
 ## Çıktı formatı
 ```markdown
@@ -87,6 +88,7 @@ Sürücüler veya kaynaklar yoksa sor; aksi halde tasarım seçimlerini `[VARSAY
 - [ ] Organizasyonel örüntü ekip yetkinliğiyle uyumlu.
 - [ ] Seçenekler özellik listelerine değil gereksinimlere göre karşılaştırıldı; tasarım tedarikçiden bağımsız.
 - [ ] Maliyet sürücüleri ve maliyet dağıtımı ele alındı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Önce ürünleri seçip mimariyi onların etrafına çizmek. Yetkinlikleri gereksinimlerden türet, sonra seç.

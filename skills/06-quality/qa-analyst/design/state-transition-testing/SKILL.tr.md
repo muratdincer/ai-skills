@@ -41,6 +41,7 @@ Zorunlu:
 9. Zamanlama ve eşzamanlılık case'leri ekle: sınırda zaman aşımı, iki aktörün aynı anda çelişen olayları tetiklemesi.
 10. Her geçişin yan etkilerini doğrula: denetim izi, bildirimler, bağımlı varlıklar.
 11. Tanımsız hücreler için açık soruları listele.
+12. Çıkarımla eklenen geçişleri `[VARSAYIM]` ile işaretle; kullanıcı devam ederse koşturulabilir case'ler için `test-case-writing`, geçişler API üzerinden tetikleniyorsa `api-test-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -63,6 +64,7 @@ Zorunlu:
 - [ ] Bitiş durumlarının tüm olayları reddettiği test ediliyor.
 - [ ] Koşullar, rol kontrolleri dahil doğru ve yanlış varyantlarıyla test ediliyor.
 - [ ] Yalnızca sonuç durumu değil, yan etkiler de doğrulanıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Geçersiz butonların gizlendiği arayüz üzerinden test etmekle yetinmek. Alttaki API'yi veya servisi doğrudan çağır.

@@ -39,6 +39,7 @@ If findings are missing, offer to write the planning half (question, time box, e
 7. Give one recommendation with confidence level (high/medium/low) and what would change the recommendation.
 8. State what the spike did not cover and the residual risks.
 9. List follow-up work as candidate backlog items with rough size, and note that prototype code is throwaway unless stated otherwise.
+10. If the goal continues, suggest `adr` to record the decision, `technical-design-doc` to detail the chosen option or `task-breakdown` to plan the follow-up work.
 
 ## Output format
 ```markdown
@@ -69,6 +70,8 @@ Time box: <planned> / Spent: <actual> · Ended by: answer | time box · Author: 
 - [ ] A single recommendation is given with confidence and change conditions.
 - [ ] Gaps in coverage are explicit.
 - [ ] Follow-up items are concrete enough to enter the backlog.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Spikes without a question or time box that become unplanned feature work. Fix the question and exit criteria first.

@@ -40,6 +40,7 @@ Zorunlu:
 7. Aday segmentleri çekicilik (büyüklük, büyüme, acı, ödeme isteği, erişilebilirlik) ve uyum (yetkinlik, avantaj) açısından puanla.
 8. Her rakam için güven düzeyini (Yüksek/Orta/Düşük) ve ana duyarlılığı (sonucu en çok hangi girdinin oynattığını) belirt.
 9. Bir odak segment öner ve hâlâ gereken kanıtları yaz.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: seçilen segment için `competitor-analysis`, nerede oynanacağına karar vermek için `product-strategy-one-pager`.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ Ana duyarlılık: ...
 - [ ] SOM "TAM'ın %1'i" değil, gerçekçi kapasite ve benimsenmeyi yansıtıyor.
 - [ ] Segmentler satın alma davranışına göre tanımlandı.
 - [ ] Net bir öneri ve kalan kanıt boşlukları belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Bir rapordaki yukarıdan aşağı TAM'ı fırsat olarak sunmak. Erişilemeyen veya hizmet verilemeyen alıcılar sizin pazarınız değildir.

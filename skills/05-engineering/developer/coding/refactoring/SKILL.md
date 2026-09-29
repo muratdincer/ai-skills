@@ -38,6 +38,7 @@ If there are no tests and none can be run, say so and start with characterizatio
 7. Watch for semantic traps: evaluation order, side effects in moved code, null/empty handling, exception types, floating-point or rounding differences, thread safety of extracted state.
 8. After the sequence, compare before/after against the goal and remove scaffolding.
 9. Report each step with its refactoring name, suggested commit boundary and any behavior quirk discovered.
+10. If the goal continues, suggest `unit-test-writing` where characterization tests were missing or `code-review` to review the refactored change.
 
 ## Output format
 ```markdown
@@ -66,6 +67,8 @@ Safety net: <existing tests / added characterization tests>
 - [ ] No bug fixes or features are mixed in; quirks are reported separately.
 - [ ] Public API is unchanged or changed via parallel change.
 - [ ] The result demonstrably makes the stated next change easier.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - "Big bang" rewrite labeled as refactoring. If it cannot be done in green steps, it is a rewrite and needs its own plan.

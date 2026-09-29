@@ -38,6 +38,7 @@ If speaker mapping is missing, keep the original labels and propose a mapping wi
 8. Keep timestamps at turn or paragraph level if they exist in the source.
 9. Mask sensitive personal data not needed for the purpose (phone numbers, IDs, health details) as `[REDACTED]`.
 10. Append a short change log: cleanup level, speaker mapping used, number of uncertain spots.
+11. If the user's goal continues, suggest `meeting-notes` to structure the cleaned transcript or `meeting-summary` for a short recap.
 
 ## Output format
 ```markdown
@@ -65,6 +66,8 @@ Cleanup notes
 - [ ] Every uncertain word is marked with `[?]`, not guessed.
 - [ ] Inaudible parts are marked, not invented.
 - [ ] Sensitive personal data is redacted.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Drifting into summarization. A cleaned transcript keeps every substantive turn.

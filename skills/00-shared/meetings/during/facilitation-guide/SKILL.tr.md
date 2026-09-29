@@ -34,12 +34,13 @@ Karar toplantısında karar verici bilinmiyorsa bunu rehberde engelleyici olarak
 2. Karar kuralını baştan seç: danışma sonrası karar verici, rıza (gerekçeli itiraz yok), oy çokluğu veya konsensüs. Açılışta ilan et.
 3. Süre kutuları zamanın %90'ını dolduran bir akış planı kur; %10 tampon ve kapanış için 5 dakika ayır.
 4. 60 saniyelik bir açılış yaz: amaç, çıktı, karar kuralı, gündem, temel kurallar (tek konuşma, park alanı, uzaktansa kameralar).
-5. Her gündem maddesi için uygun tekniği seç: sessiz yazma sonra sırayla paylaşım (ıraksama), nokta oylama veya sıralama (yakınsama), 1-2-4-hepsi (çok ses), beş parmak (rıza kontrolü).
+5. Her gündem maddesi için uygun tekniği seç: sessiz yazma sonra sırayla paylaşım (ıraksama), nokta oylama veya sıralama (yakınsama), 1-2-4-hepsi (çok ses), beş parmak (rıza kontrolü). Yaklaşık 8 kişiden kalabalık gruplarda sözcüsü belli, çıktı formatı sabit (ör. tek satır gerekçeli ilk 3 seçenek) 3-5 kişilik alt gruplar kullan; yakınsamayı not-ve-oy ile yap: bireysel sessiz not, tartışmasız paylaşım, sessiz nokta oylaması, ardından karar verici seçer ve gerekçesini söyler.
 6. Her madde için 2-3 açık uçlu soru ve bir yakınsama sorusu yaz ("A'yı seçmek için neye inanmamız gerekir?").
 7. Şu durumlar için müdahaleler hazırla: baskın bir ses, sessiz katılımcılar, konudan sapma, argümanların tekrarı, tartışmayı kapatan en kıdemli kişinin görüşü (HiPPO), açık çatışma.
 8. Park alanı kuralını tanımla: oraya ne gider ve nasıl takip edilir.
 9. Kapanışı yaz: kararları ve aksiyonları sorumlularıyla oku, karar kuralına uyulduğunu teyit et, kısa çıkış turu, özeti kimin göndereceği.
 10. Gerekiyorsa uzaktan/hibrit notu ekle: sohbet takibi, söz sırası, ortak pano.
+11. Kullanıcının hedefi devam ediyorsa seçeneklerin yapılandırılmış puanlanması gerekiyorsa `decision-matrix`, bilinen bir gerilim oturumdan önce hazırlık gerektiriyorsa `conflict-resolution` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,8 @@ Tamamlanma testi: <...>   Karar kuralı: <...>   Karar verici: <isim veya [BİL�
 - [ ] Süre kutuları tampon ve kapanış süresi içeriyor.
 - [ ] Her maddenin hem ıraksama hem yakınsama sorusu var.
 - [ ] Müdahaleler yalnızca tavsiye değil, somut ifadeler içeriyor.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Karar kuralını tartışmadan sonra seçmek; kaybeden taraf süreci sorgular. Açılışta ilan et.

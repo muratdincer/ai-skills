@@ -31,7 +31,7 @@ Zorunlu:
 Talep verilmemişse iste. Yönlendirme yolları bilinmiyorsa aşağıdaki varsayılan seti kullan ve bunu belirt.
 
 ## Süreç
-1. Her talebi tek satıra indir: talep sahibi, ihtiyaç, belirtilen tarih. Numarası yoksa geçici bir ID ver.
+1. Her talebi tek satıra indir: talep sahibi (rol, karar gücü, çıkar), birebir istenen, asıl ihtiyaç (çıkarımsa `[VARSAYIM]`), belirtilen tarih ve varsa kesin istenmeyen (açıkça istemediği şey). Numarası yoksa geçici bir ID ver.
 2. Mükerrer ve örtüşen talepleri bul; birleştir veya ilişkilendir, ilgili talep sahiplerini not et.
 3. Türü sınıflandır: yeni özellik, mevcut özellikte değişiklik, rapor/veri, entegrasyon, yasal/uyum, teknik/altyapı, hata/olay (yanlış kanal), soru/yetki talebi (yanlış kanal).
 4. Aciliyeti bir olaya bağlı gerekçeyle puanla: yasal tarih, sözleşme tarihi, dönemsel gelir/maliyet etkisi, operasyonel risk. Tek başına "en kısa sürede" zayıf bir kanıttır.
@@ -41,12 +41,13 @@ Talep verilmemişse iste. Yönlendirme yolları bilinmiyorsa aşağıdaki varsay
 8. Her talebi yönlendir. Varsayılan yollar: Hızlı yol (XS/S, düşük risk, net), Analiz, Fizibilite/tahmin, Proje/portföy kapısı, Servis masası/destek, Netleştir, Ret/beklet (saygılı bir gerekçeyle).
 9. Yönlendirilen maddeler için aciliyet ve değere dayalı bir sıra öner; gizli bir puan değil, gerekçeyi göster.
 10. Her talep sahibine gidecek tek satırlık cevabı taslak olarak yaz.
+11. Devret: analize yönlenenler için `request-intake-document`, netleştirmeye yönlenenler için `request-clarification-questions`, olgunlaşan maddeler için `backlog-prioritization` öner.
 
 ## Çıktı formatı
 ```markdown
 # Talep Sınıflandırma – <tarih / parti adı>
 
-| ID | Talep (tek satır) | Tür | Aciliyet | Değer | Efor aralığı | Risk işaretleri | Yol | Gerekçe |
+| ID | Talep (tek satır: istenen → ihtiyaç) | Tür | Aciliyet | Değer | Efor aralığı | Risk işaretleri | Yol | Gerekçe |
 |---|---|---|---|---|---|---|---|---|
 | T1 | ... | ... | Y – yasal tarih | O | S [VARSAYIM] | Kişisel veri | Analiz | ... |
 
@@ -70,9 +71,11 @@ Talep verilmemişse iste. Yönlendirme yolları bilinmiyorsa aşağıdaki varsay
 - [ ] Yanlış kanaldan gelen olaylar ve yetki talepleri analize değil, desteğe gönderildi.
 - [ ] Reddedilen veya bekletilen maddelerin saygılı ve somut bir gerekçesi var.
 - [ ] Mükerrerler ilişkilendirildi, hiçbir talep sahibi unutulmadı.
+- [ ] Yönlendirme yalnızca birebir istenene değil, asıl ihtiyaca dayanıyor; çıkarılan ihtiyaçlar `[VARSAYIM]` olarak etiketli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
-- En yüksek sesle isteyene veya kıdeme göre sıralamak. Belirtilen hedeflere ve olay tarihlerine dayan.
+- En yüksek sesle isteyene veya kıdeme göre sıralamak. Gönderenin gücünü ve çıkarını not et, ama puanı belirtilen hedeflere ve olay tarihlerine dayandır.
 - Her şeyi analize göndermek. Küçük, net ve düşük riskli değişiklikler için hızlı yol, analistleri gerçek problemlere ayırır.
 - Talepleri sessizce bekletmek. Her talep sahibi bir cevap ve bir sonraki adım almalı.
 

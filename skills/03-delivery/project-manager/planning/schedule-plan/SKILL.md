@@ -40,6 +40,7 @@ If activities or durations are missing, ask for them. Do not invent durations.
 8. Add explicit buffers (project or feeding buffers) instead of padding each task, sized from estimate uncertainty.
 9. If a target date is missed, propose compression options: fast-tracking (risk) and crashing (cost), with trade-offs.
 10. Produce the milestone table, critical path summary and key schedule risks.
+11. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `resource-plan` to check the schedule against capacity, or `dependency-map` for external dependencies.
 
 ## Output format
 ```markdown
@@ -64,6 +65,7 @@ Start <date> | Calendar <working days, holidays> | Baseline v<x>
 - [ ] Critical path is shown and explained.
 - [ ] Inferred dependencies and durations are marked `[ASSUMPTION]`.
 - [ ] Buffers are explicit, not hidden in activity durations.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Scheduling to a mandated date backwards and calling it a plan. Derive the date, then compare.

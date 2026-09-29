@@ -42,6 +42,7 @@ If no cost data is given, ask for it. Never invent amounts; compute only from pr
 8. Unit economics: cost per transaction/user/tenant where drivers exist.
 9. Prioritize actions by savings (from data), effort and risk; assign an owner and a verification metric.
 10. Recommend governance: tagging policy enforcement, budgets and anomaly alerts, showback/chargeback.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `capacity-planning` for demand-based sizing, `iac-review` to enforce tagging and sizing in code, or `budget-proposal` for the next budget cycle.
 
 ## Output format
 ```markdown
@@ -62,6 +63,7 @@ If no cost data is given, ask for it. Never invent amounts; compute only from pr
 - [ ] Commitments are sized only on stable baseline usage.
 - [ ] Each action has an owner and a way to verify the saving.
 - [ ] Unallocated spend is quantified and addressed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Buying commitments before rightsizing, locking in waste. Rightsize first.

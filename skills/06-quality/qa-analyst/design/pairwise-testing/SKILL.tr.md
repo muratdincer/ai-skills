@@ -39,6 +39,7 @@ Parametreler veya değerler eksikse iste. Değerler aralık ise önce sınıflar
 7. Kapasite izin veriyorsa yüksek riskli parametre alt kümeleri için (ör. ödeme x para birimi x ülke) dereceyi üçlüye çıkar.
 8. "Fark etmez" hücrelerini en sık kullanılan değerle doldur.
 9. Azaltmayı, kalan riski (test edilmeyen yüksek dereceli etkileşimler) ve satırların test case'lere nasıl eşleneceğini raporla.
+10. Varsayılan parametre değerlerini veya kısıtları `[VARSAYIM]` ile işaretle; kullanıcı devam ederse satırları case'e çevirmek için `test-case-writing`, veri için `test-data-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -64,6 +65,7 @@ Tüm kombinasyonlar: <n> · İkili satır: <n> · Derece: ikili (+ <alt küme> i
 - [ ] Yüksek kullanımlı ve bilinen riskli kombinasyonlar açıkça dahil.
 - [ ] Parametre değerleri rastgele örnekler değil, davranışsal olarak farklı sınıflar.
 - [ ] Kalan risk belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kısıtları unutup koşturulamayacak satırlar üretmek.

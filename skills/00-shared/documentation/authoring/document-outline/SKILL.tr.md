@@ -43,6 +43,8 @@ Amaç veya hedef kitle eksikse tek bir soruyla iste. Geri kalanı varsayım veya
 8. Amaca hizmet etmeyen bölümleri çıkar; olsa iyi olur içeriği eklere taşı.
 9. Toplam uzunluk sınıra sığsın diye bölüm başına uzunluk rehberi ver; başkalarından girdi gerektiren bölümleri sorumluyla veya `[TBD]` ile işaretle.
 10. Belirli bölümleri engelleyen açık soruları listele.
+11. Girdide okunmayıp çıkarımla belirlenen her bölümü, hedef kitleyi veya amacı `[VARSAYIM]` olarak işaretle; böylece talep sahibi yazıma başlamadan önce teyit edebilir.
+12. Kullanıcının hedefi devam ediyorsa iskeleti doldurmak için `technical-design-doc` veya `brd-writing`, ardından taslak için `document-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +72,7 @@ Hedef uzunluk: <sayfa veya kelime> | Zorunlu şablon/standart: <ad veya yok>
 - [ ] Zorunlu bölümler mevcut ve eşlenmiş, tekrarlanmamış.
 - [ ] Bölüm uzunlukları hedef uzunluğa denk geliyor.
 - [ ] Bilinmeyenler `[TBD]` olarak işaretli veya açık soru olarak listeli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İskeleti yazarın konuyu öğrendiği sırayla kurmak (önce tarihçe). Okuyucu önce sonucu ve talebi görmek ister.

@@ -39,6 +39,7 @@ If neither schema nor description is provided, ask. Everything else becomes `[UN
 8. Give usage guidance: correct join keys, common filters, pitfalls (double counting, cancelled records, currency), sample query in neutral SQL.
 9. Add tags and search synonyms the business actually uses.
 10. Set lifecycle fields: status (draft, published, deprecated), version, review date.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `data-lineage-doc` to document lineage in depth, `data-quality-rules` to back the quality section, or `data-classification` if sensitivity is unconfirmed.
 
 ## Output format
 ```markdown
@@ -82,6 +83,7 @@ Classification: <...> | Personal fields: <...> | Masking: <...> | Access request
 - [ ] Sensitivity and access process are present; personal fields are listed.
 - [ ] At least one pitfall and one sample query are given.
 - [ ] No invented SLAs, owners or quality claims.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Restating column names as descriptions ("customer_id: customer id"). Describe meaning, units and edge cases.

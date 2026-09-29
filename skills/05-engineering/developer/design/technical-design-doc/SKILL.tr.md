@@ -42,6 +42,7 @@ Problem tanımı yoksa iste. Diğer her şey `[BİLİNMİYOR]` ya da açık soru
 8. Başarının nasıl doğrulanacağını tanımla: testler, metrikler, SLO etkisi, yayın sonrası kabul sinyalleri.
 9. Riskleri olasılık/etki ve azaltma önlemiyle, ardından açık soruları sorumlusuyla listele.
 10. Dokümanı değişikliğe göre ölçekle: orta büyüklükte bir değişiklik için bir-iki sayfa; gerçekten geçerli olmayan bölümleri tek satırla belirterek atla.
+11. Hedef devam ediyorsa her önemli karar için `adr`, yeni arayüzler için `api-contract` ve uygulamayı planlamak için `task-breakdown` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ Durum: Taslak | İncelemede | Kabul edildi | Reddedildi · Yazar: <ad> · İncel
 - [ ] Yayına alma geri alınabilir ya da geri alınamayan adım açıkça belirtildi.
 - [ ] Hacim, SLA veya tarih uydurulmadı; bilinmeyenler işaretlendi.
 - [ ] İnceleyen kişi onaylaması istenen kararı bir dakika içinde bulabiliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tasarım yerine kod turu yazmak. Sorumluluklar, sözleşmeler ve veri düzeyinde kal; kodu pull request'e bırak.

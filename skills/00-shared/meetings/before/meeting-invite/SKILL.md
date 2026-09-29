@@ -42,6 +42,7 @@ Optional:
 6. Add logistics: time zone, link, dial-in, room.
 7. Add a line for those who cannot attend: how to send input or who to delegate to.
 8. Keep the whole invite under ~150 words.
+9. If the user's goal continues and no timeboxed agenda exists yet, suggest `meeting-agenda`; if attendees may question the need for the meeting, suggest `meeting-necessity-check`.
 
 ## Output format
 ```markdown
@@ -67,6 +68,8 @@ Can't attend? <how to give input or delegate>
 - [ ] Preparation is specific and linked.
 - [ ] Required vs optional attendees are separated.
 - [ ] Under ~150 words.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Invites that only contain the title; recipients cannot judge relevance.

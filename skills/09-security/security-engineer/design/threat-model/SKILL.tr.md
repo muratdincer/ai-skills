@@ -43,6 +43,7 @@ Sistem tanımı yoksa iste. Diğer her şey varsayım veya açık soru olarak ka
 8. Her tehdit için önleyici, tespit edici ve müdahale edici önlemler öner. Telafi edici kontroller yerine tasarım değişikliklerini tercih et.
 9. Her önlemi izlenebilir bir kalemle eşle: güvenlik gereksinimi, backlog kalemi, test senaryosu veya sorumlusu belli kabul edilmiş risk.
 10. Varsayımları, kapsam dışı alanları ve açık soruları listele; modelin ne zaman yeniden ele alınacağını yaz.
+11. Sonraki beceriyi öner: önlemleri kontrollere dönüştürmek için `security-requirements`, en yüksek riskleri doğrulamak için `pentest-scope`, kurum düzeyinde kabul edilen riskler için `it-risk-assessment`.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Sistem tanımı yoksa iste. Diğer her şey varsayım veya açık soru olarak ka
 - [ ] Kişisel veri akışları işaretlendi, mahremiyet tehditleri (ilişkilendirilebilirlik, fazla veri toplama) değerlendirildi.
 - [ ] Girdide olmayan hiçbir kontrol var sayılmadı; bilinmeyenler `[BİLİNMİYOR]` ile işaretli.
 - [ ] Önlemler gereksinim, backlog kalemi veya testlerle izlenebilir.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Genel tehditleri ("SQL injection") bir elemana ve giriş noktasına bağlamadan listelemek. Her tehdidi bir DFD elemanına bağla.

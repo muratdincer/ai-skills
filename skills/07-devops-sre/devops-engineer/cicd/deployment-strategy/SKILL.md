@@ -41,6 +41,7 @@ If the platform or the downtime tolerance is unknown, ask. Other gaps become ope
 7. Define abort criteria and the rollback mechanism per strategy (traffic switch, rollout undo, flag off).
 8. Address stateful parts: queue consumers, scheduled jobs, caches, migrations; state who runs them during overlap.
 9. Recommend one strategy (or combination) with rationale and prerequisites to build.
+10. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `rollback-plan` for the detailed undo path, `release-plan` for sequencing the release, or `slo-definition` if promotion criteria lack agreed SLOs.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ If the platform or the downtime tolerance is unknown, ask. Other gaps become ope
 - [ ] Canary is recommended only if traffic allows meaningful comparison.
 - [ ] Background jobs and consumers are covered, not only HTTP traffic.
 - [ ] Cost impact of duplicate capacity is stated qualitatively without invented numbers.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Choosing blue-green while sharing one database with a breaking migration. Use expand-and-contract first.

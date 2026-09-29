@@ -39,6 +39,7 @@ Zorunlu:
 8. Veri minimizasyonu fırsatlarını belirle: belirtilen amaç için gerekmeyen alanlar, hassasiyet düşürme (doğum tarihi yerine doğum yılı), toplulaştırma.
 9. Biliniyorsa yurt dışına aktarım ve üçüncü taraf erişimini işaretle.
 10. Belirsiz sınıflandırmaları veri sahibi/KVKK sorumlusu teyidi için kaydet.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: saklama ve silme kuralları için `retention-policy`, yüksek riskli işleme için `privacy-impact-assessment` veya yetkileri hizalamak için `access-review`.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Düzey: <...> | Özel nitelikli veri içeriyor: <evet/hayır> | Önerilen ayrı�
 - [ ] Her düzey yalnızca etikete değil somut kontrollere eşlendi.
 - [ ] Çıktıda gerçek kişisel değer yok.
 - [ ] Belirsiz maddeler sahip/KVKK sorumlusuna yönlendirildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca doğrudan tanımlayıcıları kişisel veri saymak. Yarı tanımlayıcılar ve takma adlandırılmış veri de kişisel veridir.

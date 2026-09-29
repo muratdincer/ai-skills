@@ -40,6 +40,7 @@ If the requirement is missing, ask for it. Unclear behavior becomes an open ques
 8. Give each scenario an ID, source reference (criterion, rule) and priority (High/Medium/Low from risk).
 9. Check coverage: every acceptance criterion and business rule maps to at least one scenario; list uncovered items.
 10. List open questions where expected behavior is not defined.
+11. Label inferred behavior `[ASSUMPTION]`; if the user continues, suggest `test-case-writing` for detailed cases or `bdd-feature-file` for Gherkin.
 
 ## Output format
 ```markdown
@@ -62,6 +63,7 @@ Uncovered: <items or "none">
 - [ ] Each scenario states a single intent and a condition, not steps.
 - [ ] No expected behavior is invented; unclear ones are open questions.
 - [ ] Priorities reflect risk, not order of appearance.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing test cases instead of scenarios. Keep it to one line of intent; details belong in `test-case-writing`.

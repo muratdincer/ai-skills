@@ -43,6 +43,8 @@ If purpose or audience is missing, ask for them in one question. Everything else
 8. Remove sections that do not serve the purpose; move nice-to-have material to appendices.
 9. Add length guidance per section so the total fits the limit, and mark sections needing input from others with an owner or `[TBD]`.
 10. List open questions that block specific sections.
+11. Label every section, audience or purpose you inferred rather than read in the input as `[ASSUMPTION]`, so the requester can confirm it before writing starts.
+12. If the user's goal continues, suggest `technical-design-doc` or `brd-writing` to fill the outline, then `document-review` on the draft.
 
 ## Output format
 ```markdown
@@ -70,6 +72,7 @@ Target length: <pages or words> | Mandated template/standard: <name or none>
 - [ ] Mandated sections are present and mapped, not duplicated.
 - [ ] Section lengths add up to the target length.
 - [ ] Unknowns are marked `[TBD]` or listed as open questions.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Outlining in the order the author learned things (history first). Readers want the conclusion and the ask first.

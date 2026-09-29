@@ -39,6 +39,7 @@ Optional, improves quality:
 7. Check order quality: top items align with current goals; bugs and technical debt are visible, not buried.
 8. Classify every finding as delete/archive, merge, split, re-parent, refine or keep, with a reason.
 9. Propose hygiene rules to prevent recurrence (intake filter, max age, max backlog size, review cadence) and a first cleanup session plan.
+10. If the user's goal continues, suggest `backlog-refinement` for items flagged as unclear or oversized and `backlog-prioritization` to re-order what remains.
 
 ## Output format
 ```markdown
@@ -72,6 +73,7 @@ Data: <n items, fields available, fields missing>
 - [ ] Duplicates are presented as candidates with a confidence note, not auto-deleted.
 - [ ] Every proposed deletion has a reason and can be reviewed by the product owner.
 - [ ] Recommendations tie back to current goals when those are provided.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Keeping everything "just in case". Deleted items with real value come back; archive with a note instead of hoarding.

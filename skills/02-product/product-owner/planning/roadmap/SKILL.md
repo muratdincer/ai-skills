@@ -41,6 +41,7 @@ Optional, improves quality:
 8. List what is explicitly not on the roadmap and why; this prevents silent expectations.
 9. Define the update cadence and change rule (e.g. reviewed monthly; changes to Now are communicated to stakeholders).
 10. Draft a short narrative (3-5 sentences) the owner can use when presenting.
+11. If the user's goal continues, suggest `release-planning` for the Now horizon, `okr-definition` if outcomes lack measures, or `program-roadmap` when several teams are involved.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Audience: <audience> · Last updated: <date> · Next review: <date or [TBD]>
 - [ ] A "Not on the roadmap" section exists.
 - [ ] Detail matches the audience (no ticket-level items for executives).
 - [ ] No capacity, revenue or date figures are invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Presenting a Later item with a date. Stakeholders treat it as a promise; keep dates for committed work.

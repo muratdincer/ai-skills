@@ -38,6 +38,7 @@ Zorunlu:
 6. Bir madde iterasyon/sprint sonunda veya sürümde DoD'yi geçemezse ne olacağını tanımla: bitmemiştir, backlog'a döner ve ilerlemeye sayılmaz.
 7. Gözden geçirme sıklığını ve DoD'yi zamanla güçlendirme kuralını belirle (kapasite elverdiğinde bir hedef kriter ekle).
 8. Ekip panosuna uygun tek sayfalık bir DoD üret.
+9. Kullanıcının hedefi devam ediyorsa eşleşen giriş kriterleri için `definition-of-ready`, madde DoD'sinin ötesindeki sürüm seviyesi kontroller için `release-quality-gate` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Sürüm: <n> · Anlaşma: <tarih veya [TBD]> · Kurumsal temelle birlikte uygula
 - [ ] Karşılanmayan kriterler karşılanıyor gibi değil, aksiyonlu hedef olarak gösterilmiş.
 - [ ] DoD'ye maddeye özel kabul kriterleri karışmamış.
 - [ ] Standartlar tam adıyla verilmiş (ör. WCAG 2.2 AA, OWASP ASVS seviyesi).
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Ekibin pratikte karşılayamayacağı bir DoD. Göz ardı edilir; ulaşılabilir olanla başla, hedefleri sonra ekle.

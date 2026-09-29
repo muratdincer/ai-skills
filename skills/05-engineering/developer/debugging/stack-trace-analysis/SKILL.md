@@ -31,14 +31,15 @@ If the trace is truncated ("... 42 more") and the missing part matters, say so a
 
 ## Process
 1. Identify runtime and format (JVM, .NET, Python, Node.js, Go, Swift/Kotlin crash, native). Note whether frames are ordered innermost-first or outermost-first.
-2. Unwrap the exception chain: list each exception type and message from outermost to root cause. The deepest cause is usually the most informative.
+2. Read the full trace, including every "Caused by", inner, aggregated and suppressed exception; do not stop at the first line. Unwrap the exception chain: list each exception type and message from outermost to root cause. The deepest cause is usually the most informative.
 3. Split frames into framework/library frames and application frames; find the topmost application frame in the root cause — that is the primary suspect location.
 4. Interpret the exception type precisely (null dereference, index out of range, timeout, deadlock detection, serialization, class loading/version mismatch, out of memory, cancellation) and what state must have been true for it to occur.
 5. For async or reactive traces, reconstruct the logical call path (continuations, thread pool, event loop) and note where context was lost.
 6. Check for environmental signatures: version conflicts (method not found, class cast between identical names), configuration (missing key, bad URL), resource exhaustion (pool, file handles, memory), permissions.
 7. Produce ranked cause candidates, each with the evidence from the trace, a quick verification (log to add, value to inspect, test to write) and a proposed fix.
-8. Distinguish the fix from the guard: fix the invalid state at its origin; add defensive handling only where the input is truly untrusted.
+8. Distinguish the fix from the guard: trace the bad value backwards through the data flow to where it was created, and fix the invalid state at its origin; add defensive handling only where the input is truly untrusted.
 9. Recommend a regression test that reproduces the failing state.
+10. If no candidate can be verified from the trace alone, suggest `debugging-hypotheses` (no fix until the root cause is confirmed) or `log-analysis` for surrounding events; if the fix concerns exception handling design, suggest `error-handling-review`.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ If the trace is truncated ("... 42 more") and the missing part matters, say so a
 - [ ] Fixes address the origin of the invalid state, not just catch the exception.
 - [ ] Secrets and personal data from the trace are not repeated in the output.
 - [ ] Assumptions about unseen code are marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Diagnosing the outermost exception (e.g., a generic "request failed") and ignoring the nested cause.

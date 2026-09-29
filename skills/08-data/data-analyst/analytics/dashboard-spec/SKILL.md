@@ -41,6 +41,7 @@ If the audience or purpose is missing, ask. Everything else becomes an open ques
 8. Define access: row-level security, who sees personal data, masking. Default to aggregated views.
 9. Define alerting or conditional formatting thresholds and their colors, with non-color cues for accessibility (WCAG 2.2 contrast).
 10. Define acceptance: reconciliation with source totals, performance target (load time), and a usage review date.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `metric-definition` for each KPI not yet formally defined, or `data-requirements` for the build team.
 
 ## Output format
 ```markdown
@@ -87,6 +88,7 @@ If the audience or purpose is missing, ask. Everything else becomes an open ques
 - [ ] Incomplete current period is handled (flagged or excluded).
 - [ ] Access and personal data rules are explicit.
 - [ ] Nothing is invented: unknown targets are `[TBD]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Building for "everyone". Pick one primary audience; create a separate view for others.

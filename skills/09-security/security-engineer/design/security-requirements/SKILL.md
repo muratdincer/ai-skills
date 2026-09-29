@@ -40,6 +40,7 @@ If the system description is missing, ask for it. If the ASVS level is not given
 7. Prioritize with MoSCoW or Must/Should/Could and tie Must items to release gates.
 8. Mark conflicts and trade-offs (e.g. session timeout vs usability) and who decides.
 9. List open questions and assumptions.
+10. Suggest the next skill: `acceptance-criteria` to make each requirement testable in work items, `threat-model` if threats have not yet been modeled, `secure-code-review` for verification.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Target level: OWASP ASVS <version> L<n> – <justification>
 - [ ] No ASVS text is quoted verbatim; references point to the section.
 - [ ] Must requirements are linked to a release gate.
 - [ ] Nothing about existing controls is invented; unknowns are marked.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing "the system shall be secure" style requirements. Each item must describe observable behavior.

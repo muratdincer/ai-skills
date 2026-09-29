@@ -41,6 +41,7 @@ ID'ler yoksa bir ID şeması öner ve eşlemeye başlamadan önce kullanıcıdan
 7. Kapsamı hesapla: en az bir testi olan, en az bir başarılı testi olan gereksinimler; önceliğe göre kırılım.
 8. Kapsamı zayıf yüksek öncelikli veya mevzuat kaynaklı gereksinimleri en başta vurgula.
 9. Bakım kurallarını belirt: matrisi kim, ne zaman günceller (her değişiklik talebinde, her test döngüsünde).
+10. Kullanıcı devam etmek isterse matrisi bir değişiklik için kullanmak üzere `impact-analysis`, kapsanmayan gereksinimler için `test-scenarios-from-requirements` veya temel sürüm için `requirements-sign-off` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ ID'ler yoksa bir ID şeması öner ve eşlemeye başlamadan önce kullanıcıdan
 - [ ] Kapsam yüzdeleri tahmin değil, matristen hesaplandı.
 - [ ] Eksiği olan yüksek öncelikli ve mevzuat kaynaklı gereksinimler en başta.
 - [ ] Her sorunun bir aksiyonu ve sorumlu rolü var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Test hiç koşulmadığı veya başarısız olduğu halde, test var diye gereksinimi karşılanmış saymak. "Test edildi" ile "geçti"yi ayrı raporla.

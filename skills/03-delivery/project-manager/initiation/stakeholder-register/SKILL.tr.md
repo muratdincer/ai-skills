@@ -40,6 +40,7 @@ Hiç taraf verilmemişse en azından sponsoru ve etkilenen birimleri iste.
 8. İletişim planını beslemek için iletişim ihtiyaçlarını (format, ayrıntı, dil, zamanlama) kaydet.
 9. Hassas kişisel değerlendirmeleri iç kullanıma özel işaretle; yalnızca işle ilgili bilgiyi tut, kişisel veriyi en aza indir.
 10. Kayıt için gözden geçirme sıklığını ve güncellemeyi tetikleyen olayları belirle.
+11. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: belirlenen ihtiyaçları karşılamak için `communication-plan` ya da karar yetkilerini netleştirmek için `raci-matrix`.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,7 @@ Sürüm <x> | Sahip <PM> | Sonraki gözden geçirme <tarih veya [TBD]> | Sınıf
 - [ ] Puanlar çıplak etiket değil, gerekçeli.
 - [ ] Dolaylı paydaşlar (operasyon, destek, denetim, düzenleyiciler) değerlendirildi.
 - [ ] Gereksiz kişisel veri veya yargılayıcı dil yok.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca destekleyen, görünür paydaşları listelemek. Değişiklikten bir şey kaybedenleri ara.

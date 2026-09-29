@@ -40,6 +40,7 @@ If raw notes are missing, ask for them. Do not reconstruct a conversation from m
 8. Remove or generalize sensitive personal data (health, family, legal) unless the report explicitly asked to record it, and note that it was minimized.
 9. Link to open items from previous notes; close those that were resolved.
 10. Produce a shareable version and flag anything that should stay in the manager's private notes.
+11. If the user's goal continues, suggest `one-on-one-prep` for the next session, or `career-development-plan` when career signals recur.
 
 ## Output format
 ```markdown
@@ -76,6 +77,7 @@ If raw notes are missing, ask for them. Do not reconstruct a conversation from m
 - [ ] Sensitive personal data is minimized or removed.
 - [ ] The shareable version would not surprise or embarrass the report.
 - [ ] Previous open items are closed or carried over explicitly.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing judgments ("lazy", "not a team player") into notes. Record behavior and impact only; notes can be read later in disputes.

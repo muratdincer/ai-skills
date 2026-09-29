@@ -47,6 +47,7 @@ Hikaye metni yoksa iste.
 6. Her dilimi INVEST'e göre, özellikle Bağımsız, Değerli ve Küçük ölçütlerine göre kontrol et; bilinçli bağımlılıkları not et.
 7. Bir sıra öner: en riskli varsayımı test eden ya da iskelet uçtan uca akışı (walking skeleton) sunan dilim önce gelir.
 8. Geri bildirim düşük değer gösterirse tamamen çıkarılabilecek dilimleri adlandır.
+9. Kullanıcının hedefi devam ediyorsa her dilimi doğrulamak için `invest-check`, korunan dilimlerin kriterlerini yazmak için `acceptance-criteria` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Kullanılan desenler: <desen listesi>
 - [ ] İlk dilim bir bileşen değil, ince bir uçtan uca yol.
 - [ ] Spike'ların sorusu, süre sınırı ve çıkış kriteri var.
 - [ ] Tahmin uydurulmadı; boyutlandırma ekibe bırakıldı veya `[VARSAYIM]` olarak işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Katmana veya ekibe göre bölmek ("frontend hikayesi", "API hikayesi"). Bu değeri ve entegrasyon riskini erteler; davranışa göre böl.

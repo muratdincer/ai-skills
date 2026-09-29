@@ -39,6 +39,7 @@ Optional, improves quality:
 8. Log pain points and workarounds per step with evidence (who said it, data point), and controls (approvals, reconciliations, audit points).
 9. Note personal or sensitive data handled in each step; mask real names or customer data from the source notes.
 10. List discrepancies between sources and questions for validation; recommend a walkthrough with practitioners.
+11. If the user wants to continue, suggest `to-be-process` to design the improvement, `bpmn-model` for a formal diagram or `value-stream-map` to quantify waste.
 
 ## Output format
 ```markdown
@@ -77,6 +78,7 @@ Volume: ... · Lead time: ... · Rework rate: ...
 - [ ] Pain points cite evidence; no numbers are invented.
 - [ ] Differences between procedure and practice are recorded.
 - [ ] No improvement ideas are mixed into the as-is description (park them separately).
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Documenting the procedure manual instead of reality. Validate with people who do the work.

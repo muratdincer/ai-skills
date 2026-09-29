@@ -40,6 +40,7 @@ Maliyet dayanağı verilmemişse yapıyı `[BİLİNMİYOR]` değerlerle üret ve
 7. Takvim ve ödeme koşullarını kullanarak maliyetleri aylara yay; nakit akışını ve kümülatif baz çizgisini (S eğrisi verisi) üret.
 8. Onay toplam sahip olma maliyeti gerektiriyorsa canlıya geçişte başlayan tekrarlayan maliyetleri proje maliyetinden açıkça ayırarak ekle.
 9. Varsayımları, hariç tutulanları (ör. vergiler, iç genel giderler), para birimini ve fiyat baz tarihini listele.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: gerçekleşenleri bu temele göre izlemek için `earned-value-analysis` ya da personel maliyetleri henüz açıksa `resource-plan`.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Para birimi <x> | Fiyat baz tarihi <tarih> | Sürüm <x>
 - [ ] Yedek pay yöntemi belirtildi ve risklere veya aralıklara bağlandı.
 - [ ] Nakit akışı toplamı maliyet baz çizgisine eşit.
 - [ ] Proje maliyeti ile tekrarlayan işletim maliyeti ayrıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yedek payı kalemlerin içine gizlemek; bu, sapma analizini anlamsız kılar.

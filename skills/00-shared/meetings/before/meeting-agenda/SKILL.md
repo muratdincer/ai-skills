@@ -46,6 +46,7 @@ Optional:
 7. Check the total against the duration. If it overflows, cut or move items to async.
 8. List pre-reads and what participants must prepare.
 9. Name the roles: facilitator, note taker, timekeeper.
+10. If the user's goal continues, suggest `meeting-invite` to send the agenda or `facilitation-guide` when the session needs a run script.
 
 ## Output format
 ```markdown
@@ -71,6 +72,8 @@ Optional:
 - [ ] Total time is within the meeting duration including buffer.
 - [ ] Decision items are explicit and placed early.
 - [ ] Wrap-up is reserved at the end.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Agendas that are only a list of nouns; nobody knows what "done" looks like for an item.

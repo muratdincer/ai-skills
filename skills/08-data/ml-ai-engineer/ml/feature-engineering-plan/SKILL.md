@@ -40,6 +40,7 @@ If the prediction point is missing, ask; leakage cannot be assessed without it.
 8. Flag sensitive or protected attributes and their proxies (postcode, name-derived gender); decide exclusion or fairness monitoring (KVKK/GDPR).
 9. Define validation: time-based split mirroring production, group split by entity, ablation of feature families, importance and stability checks across time slices.
 10. Define production parity: same code path for training and serving, feature tests, and monitoring of feature distributions.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `model-evaluation-report` once a model is trained, or `data-quality-rules` for feature pipeline checks.
 
 ## Output format
 ```markdown
@@ -79,6 +80,7 @@ Prediction point: ... | Feature window: ... | Label window: ... | Unit: ...
 - [ ] Validation split mirrors how the model is used in time.
 - [ ] Sensitive attributes and proxies are addressed.
 - [ ] Serving availability and latency are checked per feature.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Using the current snapshot of a slowly changing table instead of the as-of value, which leaks the future.

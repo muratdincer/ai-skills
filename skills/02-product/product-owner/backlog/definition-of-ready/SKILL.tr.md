@@ -38,6 +38,7 @@ Zorunlu:
 6. İstisna kuralını tanımla: hazır olmayan bir madde hangi durumda yine de çekilebilir (ör. acil düzeltme, ürün sahibinin açıkça kabul ettiği risk) ve nasıl etiketlenir.
 7. DoR'un nasıl gözden geçirileceğini (ör. retrospektiflerde, birkaç iterasyonda bir) ve çok katı olduğunu gösteren sinyali (maddelerin yalnızca hazır olma yüzünden uzun beklemesi) tanımla.
 8. DoR'u ekibin panosuna veya wiki'sine yapıştırabileceği tek sayfalık bir belge olarak yaz.
+9. Kullanıcının hedefi devam ediyorsa eşleşen çıkış kriterleri için `definition-of-done`, mevcut maddeleri yeni DoR'a göre sınamak için `invest-check` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,7 @@ Sürüm: <n> · Anlaşma tarihi: <tarih veya [TBD]> · Gözden geçirme sıklı�
 - [ ] DoR'un acil işi engellememesi için bir istisna kuralı var.
 - [ ] Hiçbir kriter Bitti Tanımını tekrar etmiyor.
 - [ ] Tarihler ve anlaşma durumu ekip onaylayana kadar `[TBD]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - DoR'u şelale tarzı bir geçiş kapısına çevirmek ("tüm spesifikasyon onaylandı"). Hazır olmak, her şeyin bilinmesi değil, güvenle başlamaya yetecek bilginin olmasıdır.

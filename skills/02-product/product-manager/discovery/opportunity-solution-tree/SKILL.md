@@ -38,6 +38,7 @@ If the outcome is missing or is an output ("launch X"), ask for or propose an ou
 6. For each solution list key assumptions by type: desirability, viability, feasibility, usability, ethics.
 7. Pick the riskiest assumptions and define small tests (prototype, fake door, one-question survey, data check), each with a success threshold.
 8. Present the tree as a nested list or diagram, plus the decision log and next tests.
+9. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `hypothesis-statement` and `experiment-design` for the top solution, or `assumption-mapping` to rank its riskiest assumptions.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ If the outcome is missing or is an output ("launch X"), ask for or propose an ou
 - [ ] At least three solutions exist for the target opportunity.
 - [ ] Each test has a success threshold defined before running it.
 - [ ] Evidence strength is visible for opportunities.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing solutions as opportunities ("need a chatbot"). Rephrase from the customer's view.

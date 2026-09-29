@@ -41,6 +41,7 @@ Ekip öncelikleri yoksa sor; onlarsız hedefler aktivite listesine dönüşür.
 8. Seti dengele: en fazla beş hedef, açıkça belirtilmiş en fazla bir iddialı (stretch) hedef.
 9. Adaleti kontrol et: Aynı seviyedeki ekip arkadaşlarıyla karşılaştırılabilir kapsam ve zorluk; yarı zamanlı çalışma veya planlı izin için kapasite ayarlanır ama seviye çıtası düşürülmez.
 10. Kişinin henüz onaylamadığı önerilen değerleri `[VARSAYIM]` olarak işaretle ve birlikte netleştirmeyi planla.
+11. Kullanıcının hedefi devam ediyorsa gelişim hedefleri için `career-development-plan` veya dönem sonunda değerlendirme için `performance-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Rol / seviye: <rol, seviye> · Bağlı ekip hedefleri: <liste>
 - [ ] En az bir hedef kişinin belirttiği gelişim hedefini destekliyor.
 - [ ] Yöneticinin taahhütleri listelendi.
 - [ ] Hedeflerin kapsamı aynı seviyedeki ekip arkadaşlarıyla karşılaştırılabilir.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kolayca manipüle edilebilen çıktı metrikleri (PR sayısı, story point). Sonuçları veya kanıtın niteliğini tercih et.

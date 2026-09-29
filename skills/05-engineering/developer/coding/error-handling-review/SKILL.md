@@ -39,6 +39,7 @@ If the external contract is unknown, state which findings depend on it and mark 
 8. Check fallbacks and circuit breaking: fallback is correct for the business, not just "return empty"; degraded mode is visible.
 9. Check reporting: one log entry per error at the right boundary with correlation id and no secrets or personal data; user-facing messages are actionable and leak no internals; API errors use a stable code.
 10. Prioritize findings (Critical: data loss/duplicate money movement; High: silent failure; Medium: poor diagnosis; Low: style) and give code-level fixes.
+11. If the goal continues, suggest `logging-instrumentation` for diagnosability gaps, `resilience-review` for system-level failure modes or `error-message-writing` for user-facing texts.
 
 ## Output format
 ```markdown
@@ -61,6 +62,8 @@ If the external contract is unknown, state which findings depend on it and mark 
 - [ ] No finding recommends catching everything without a boundary reason.
 - [ ] Consistency across failures (DB vs external side effect) is analyzed.
 - [ ] Logging advice avoids duplicates, secrets and personal data.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Retrying non-idempotent calls (payments, emails) and causing duplicates. Require an idempotency key or do not retry.

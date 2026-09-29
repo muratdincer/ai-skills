@@ -38,6 +38,7 @@ Konuşmacı eşleştirmesi yoksa orijinal etiketleri koru; içerikten açıkça 
 8. Kaynakta zaman damgası varsa konuşma veya paragraf düzeyinde koru.
 9. Amaç için gerekmeyen hassas kişisel verileri (telefon, kimlik bilgisi, sağlık ayrıntısı) `[GİZLENDİ]` olarak maskele.
 10. Sona kısa bir değişiklik notu ekle: temizlik düzeyi, kullanılan konuşmacı eşleştirmesi, belirsiz nokta sayısı.
+11. Kullanıcının hedefi devam ediyorsa temizlenmiş dökümü yapılandırmak için `meeting-notes`, kısa bir özet için `meeting-summary` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,8 @@ Temizlik notları
 - [ ] Belirsiz her sözcük tahmin edilmedi, `[?]` ile işaretlendi.
 - [ ] Duyulmayan kısımlar uydurulmadı, işaretlendi.
 - [ ] Hassas kişisel veriler gizlendi.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Özetlemeye kaymak. Temizlenmiş döküm içerik taşıyan her konuşmayı korur.

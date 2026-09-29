@@ -40,6 +40,7 @@ If context is missing, ask for a project summary. Use organizational scales if g
 8. Estimate residual score after response and define fallback plans for high residual risks.
 9. Where budgets allow, compute expected monetary value (probability × cost impact) to size contingency; never invent the cost impact.
 10. Set review cadence and closure criteria.
+11. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `raid-log` for ongoing tracking, or `pre-mortem` to surface risks the team has not yet named.
 
 ## Output format
 ```markdown
@@ -60,6 +61,7 @@ Scale: P and I 1-5 (anchors below) | Review cadence <x>
 - [ ] Scales are defined; scores are consistent.
 - [ ] Opportunities are considered, not only threats.
 - [ ] No impact value is fabricated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing generic risks that apply to every project. Make them specific to this context.

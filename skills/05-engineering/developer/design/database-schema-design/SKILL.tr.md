@@ -40,6 +40,7 @@ Motor bilinmiyorsa taşınabilir SQL yaz ve motora özgü seçimleri `[MOTORA-Ö
 8. Kişisel veri kolonlarını işaretle; saklama ve maskeleme ihtiyaçlarını yaz.
 9. DDL'i ve geriye dönük uyumlu bir migration taslağını yaz (genişlet, doldur, geçir, daralt).
 10. Varsayımları ve açık soruları, özellikle hacimler ve silme kuralları üzerine listele.
+11. Hedef devam ediyorsa şemayı güvenle devreye almak için `schema-migration-plan`, gerçek sorgu desenleri netleşince `index-recommendation` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -77,6 +78,8 @@ CREATE TABLE ...
 - [ ] Yabancı anahtar silme davranışı varsayılana bırakılmadı, bilinçli seçildi.
 - [ ] Kişisel veri kolonları işaretlendi ve saklama ele alındı.
 - [ ] Migration kesinti olmadan çalışabiliyor ya da neden çalışamadığı yazıldı.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tekilliği veya çakışmazlığı yalnızca uygulama kodunda zorlamak; eşzamanlı istekler bunu bozar. Kısıt veya açık kilitleme kullan.

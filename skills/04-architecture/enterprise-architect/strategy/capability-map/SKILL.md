@@ -43,6 +43,7 @@ If scope or goals are missing, ask. Maturity and importance scores must come fro
 8. Build the heatmap: high importance + low maturity = invest; commodity + high cost/duplication = rationalize or buy.
 9. Derive 3-7 investment themes and link each to capabilities and business goals.
 10. List open questions and validation sessions needed with business owners.
+11. Label every maturity or heat rating not confirmed by a business owner as `[ASSUMPTION]`; if the goal continues, suggest `application-portfolio-assessment` or `target-state-architecture`.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ Scales: Maturity 1-5 · Importance: Differentiating / Core / Commodity
 - [ ] Scales are defined before use and every score has a source or `[ASSUMPTION]`.
 - [ ] Applications and owners are mapped; duplicates and gaps are flagged.
 - [ ] Investment themes trace to both capabilities and goals.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Mirroring the org chart. It breaks at the next reorganization; model what, not who.

@@ -41,6 +41,7 @@ If the decision or process is missing, ask; ML without a decision is not framed.
 8. Identify risks: feedback loops (model actions change future labels), fairness on protected groups, concept drift, explainability requirements, automation of adverse decisions.
 9. Define deployment shape: batch vs real-time, latency, volume, human-in-the-loop, fallback when the model is unavailable.
 10. Give a go / no-go / do-a-spike recommendation with the smallest experiment that would reduce uncertainty.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `feature-engineering-plan` on a go decision, or `ai-use-case-assessment` if the business case is still open.
 
 ## Output format
 ```markdown
@@ -88,6 +89,7 @@ Go / No-go / Spike: <smallest next experiment>
 - [ ] A non-ML baseline is defined.
 - [ ] The offline metric reflects the business error costs and capacity.
 - [ ] Privacy, fairness and feedback-loop risks are addressed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Optimizing accuracy on imbalanced classes. Use metrics tied to capacity (precision@k) and cost.

@@ -40,6 +40,7 @@ If the per-variant numbers are missing, ask. Do not compute statistics from assu
 8. If peeking occurred without a sequential design, state that the error rate is inflated.
 9. Recommend: ship, ship to a subset, iterate, extend (if underpowered and justified), or stop. Tie the recommendation to the thresholds.
 10. Record learnings for the experiment log.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `insight-summary` to communicate the decision or `experiment-design` for the follow-up test.
 
 ## Output format
 ```markdown
@@ -83,6 +84,7 @@ If the per-variant numbers are missing, ask. Do not compute statistics from assu
 - [ ] Guardrails are evaluated and can veto the decision.
 - [ ] Segment findings are labeled pre-specified or exploratory.
 - [ ] All numbers are computed from the input; unknown values are marked.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Declaring a winner at the first significant peek. Use the planned sample or a sequential method.

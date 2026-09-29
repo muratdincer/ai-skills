@@ -44,6 +44,7 @@ Dağıtım hedefi veya ortamlar yoksa sor. Diğer her şeyi açık soru olarak k
 9. Hattın kendi güvenliğini tasarla: en az yetkili runner kimlikleri, kısa ömürlü kimlik bilgileri (mümkünse OIDC tarzı federasyon), sabitlenmiş eklenti sürümleri, korumalı branch'ler.
 10. Hattın gözlemlenebilirliğini tanımla: aşama süreleri, hata oranları, kararsız test takibi, DORA metrik kaynakları.
 11. Şablonu doldur, bilinmeyenleri işaretle.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa hedef ortamlar için `environment-strategy`, üretime çıkış için `deployment-strategy` veya pipeline kimlik bilgileri için `secrets-management-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Dağıtım hedefi veya ortamlar yoksa sor. Diğer her şeyi açık soru olarak k
 - [ ] Hat değişkenlerinde uzun ömürlü bulut kimlik bilgisi veya düz metin secret yok.
 - [ ] Rollback tanımlı ve yeni bir derlemeye bağlı değil.
 - [ ] Bilinmeyenler uydurulmadı, `[BİLİNMİYOR]` veya `[VARSAYIM]` olarak işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her ortam için yeniden derlemek; bu durumda üretimde test edilmemiş bir binary çalışır. Digest'i terfi ettir.

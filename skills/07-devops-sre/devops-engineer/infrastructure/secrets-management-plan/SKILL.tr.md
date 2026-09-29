@@ -43,6 +43,7 @@ Gerçek secret değerlerini asla isteme veya tekrar etme. Kullanıcı bir değer
 9. Denetim ve alarmları tanımla: saklanan erişim logları, olağandışı erişim alarmları, periyodik erişim gözden geçirmesi.
 10. Acil erişimi (break-glass) tanımla: mühürlü acil erişim, kim, nasıl loglanır, kullanım sonrası rotasyon.
 11. Mevcut durumdan aşamalı bir geçiş planı üret.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa uygulamayı kodda doğrulamak için `iac-review`, iş yükü kimliği için `authn-authz-design` veya CI/CD kimlik bilgisi akışı için `pipeline-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Gerçek secret değerlerini asla isteme veya tekrar etme. Kullanıcı bir değer
 - [ ] Saklamadan önce workload identity ile secret'ı ortadan kaldırma değerlendirildi.
 - [ ] Rotasyon stratejisi kesintiye yol açmıyor (örtüşme veya sürümleme).
 - [ ] Sızıntı müdahalesi yalnızca geçmişten silmeyi değil, önce rotasyonu söylüyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Secret'ları kasaya taşıyıp her servise her şeyi okuma yetkisi vermek. Kimlik ve ortam bazında kapsamla.

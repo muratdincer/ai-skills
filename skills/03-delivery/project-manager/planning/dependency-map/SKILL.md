@@ -38,6 +38,7 @@ If the parties or plan are unknown, ask for them; list suspected dependencies as
 7. Identify dependency chains and circular dependencies; flag clusters on one provider.
 8. Add escalation route per provider and a review cadence.
 9. Feed at-risk dependencies into the risk register or RAID log.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `raid-log` or `risk-register` to track at-risk dependencies, and `schedule-plan` to reflect them in the timeline.
 
 ## Output format
 ```markdown
@@ -58,6 +59,7 @@ If the parties or plan are unknown, ask for them; list suspected dependencies as
 - [ ] Every critical dependency has a fallback and decision date.
 - [ ] Outbound dependencies are included.
 - [ ] Names and dates are not invented; gaps are marked.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Recording dependencies without the provider's knowledge. Confirm in writing.

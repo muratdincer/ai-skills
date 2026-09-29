@@ -40,6 +40,7 @@ If product or geography is missing, ask. Never fill missing data with invented n
 7. Score candidate segments on attractiveness (size, growth, pain, willingness to pay, accessibility) and fit (capability, advantage).
 8. State confidence (High/Medium/Low) for each figure and the key sensitivity (which input moves the result most).
 9. Recommend a focus segment and the evidence still needed.
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `competitor-analysis` for the chosen segment, or `product-strategy-one-pager` to decide where to play.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ Key sensitivity: ...
 - [ ] SOM reflects realistic capacity and adoption, not "1% of TAM".
 - [ ] Segments are defined by buying behavior.
 - [ ] A clear recommendation and remaining evidence gaps are stated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Presenting a top-down TAM from a report as the opportunity. Buyers who cannot be reached or served are not your market.

@@ -43,6 +43,7 @@ If drivers or scope are missing, ask. Everything else becomes an open question.
 8. Define compliance: how a reviewer checks the principle (review question, fitness function, metric) and who owns it.
 9. Define the exception process: who approves, what is recorded (ADR), expiry or review date.
 10. Mark every assumption about strategy or organization as `[ASSUMPTION]` and list open questions for the architecture board.
+11. If the goal continues, suggest `architecture-review` to apply the principles to a design or `adr` to record principle exceptions.
 
 ## Output format
 ```markdown
@@ -77,6 +78,7 @@ Version: <x.y> · Owner: <role or [UNKNOWN]> · Review cycle: <e.g., yearly>
 - [ ] Known tensions have an explicit precedence rule or forum.
 - [ ] Exception handling is defined and time-boxed.
 - [ ] Nothing about the organization is invented; gaps are marked.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing 30 principles. Nobody applies them; merge or demote to standards.

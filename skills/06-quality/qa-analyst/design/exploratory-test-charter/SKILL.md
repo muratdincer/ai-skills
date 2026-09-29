@@ -39,6 +39,7 @@ If the area to explore is unknown, ask for it. Everything else can be assumed an
 7. Assign charters to testers by skill and risk; order by risk.
 8. Provide a session notes template: timestamps, what was tested, ideas, bugs, questions, % on-charter vs setup vs bug investigation.
 9. Provide debrief questions for after the session: what was covered, what was not, what new risks appeared, should a follow-up charter exist.
+10. If the user continues, suggest `bug-report` for findings from the session and `test-summary-report` to roll session results into reporting.
 
 ## Output format
 ```markdown
@@ -61,6 +62,7 @@ If the area to explore is unknown, ask for it. Everything else can be assumed an
 - [ ] Each charter names at least one heuristic and one oracle.
 - [ ] Test data is synthetic or masked.
 - [ ] The debrief makes coverage and new risks reportable.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Charters that are too broad ("explore the app"). Narrow to a target and a risk.

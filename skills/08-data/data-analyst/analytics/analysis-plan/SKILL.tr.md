@@ -42,6 +42,7 @@ Soru yoksa iste. Diğer tüm eksikleri planda açık soru olarak listele.
 9. Çıktıyı planla: format, hedef kitle, ayrıntı düzeyi ve tarih.
 10. Gizliliği ele al: kişisel veriyi en aza indir, tanımlayıcıları topla veya maskele, KVKK/GDPR amaçla sınırlılık ilkesine uy.
 11. Şablonu doldur ve açık soruları sorumlularıyla listele.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa veriyi profillemek için `data-exploration` veya hâlâ belirsiz metrikler için `metric-definition` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -94,6 +95,7 @@ Popülasyon: ... | Birim: ... | Pencere: ... | Karşılaştırma: ... | Hariç t
 - [ ] Karar eşikleri herhangi bir sonuç görülmeden yazıldı.
 - [ ] Veri kaynakları uydurulmadı; teyitsiz olanlar işaretli.
 - [ ] Kişisel verinin nasıl ele alınacağı belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Mevsimselliği veya eş zamanlı lansmanları hesaba katmadan önce/sonra karşılaştırması planlamak. Kontrol grubu veya geçen yılla karşılaştırma ekle.

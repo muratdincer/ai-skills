@@ -38,7 +38,8 @@ If activities are missing, derive a draft list from the scope and mark it `[ASSU
 5. Add C only where input is needed before completion (two-way); add I where notification after completion is enough (one-way).
 6. Validate: rows without A or R; rows with multiple A; columns with many A (bottleneck); columns with no R or A (why is the role here?); rows with excessive C (slow decisions).
 7. Highlight decisions that need escalation paths and state the escalation role.
-8. List open points where ownership is disputed or unknown; do not resolve them by guessing.
+8. List open points where ownership is disputed or unknown; do not resolve them by guessing. Any assignment inferred rather than stated by the user is marked `[ASSUMPTION]`.
+9. If the goal continues, suggest `communication-plan` to turn C and I into a communication rhythm, or `stakeholder-map` if engagement strategy is still missing.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Legend: R = Responsible, A = Accountable, C = Consulted, I = Informed
 - [ ] C is used sparingly and only where input is really required.
 - [ ] Disputed ownership is listed as an open question, not silently assigned.
 - [ ] Roles, not invented names, are used.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Making a committee Accountable. Name a single role; the committee can be Consulted.

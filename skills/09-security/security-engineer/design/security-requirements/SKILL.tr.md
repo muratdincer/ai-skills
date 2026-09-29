@@ -40,6 +40,7 @@ Sistem tanımı yoksa iste. ASVS seviyesi verilmemişse gerekçesiyle bir seviye
 7. MoSCoW veya Must/Should/Could ile önceliklendir; Must kalemlerini sürüm geçiş kapılarına (release gate) bağla.
 8. Çatışmaları ve ödünleşimleri (ör. oturum zaman aşımı ile kullanılabilirlik) ve kimin karar vereceğini işaretle.
 9. Açık soruları ve varsayımları listele.
+10. Sonraki beceriyi öner: her gereksinimi iş kalemlerinde test edilebilir kılmak için `acceptance-criteria`, tehditler henüz modellenmediyse `threat-model`, doğrulama için `secure-code-review`.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Hedef seviye: OWASP ASVS <sürüm> L<n> – <gerekçe>
 - [ ] ASVS metni birebir alıntılanmadı; referanslar bölüme işaret ediyor.
 - [ ] Must gereksinimleri bir sürüm geçiş kapısına bağlı.
 - [ ] Mevcut kontroller hakkında hiçbir şey uydurulmadı; bilinmeyenler işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Sistem güvenli olmalıdır" tarzı gereksinimler yazmak. Her madde gözlemlenebilir bir davranışı tarif etmeli.

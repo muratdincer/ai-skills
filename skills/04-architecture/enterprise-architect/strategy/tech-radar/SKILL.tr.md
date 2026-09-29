@@ -42,6 +42,7 @@ Bir öğe için kanıt yoksa onu Değerlendir'de tut veya `[KANIT GEREKLİ]` ola
 7. Her Beklet öğesi için geçiş yönlendirmesini ve çıkışın sorumlusunu yaz.
 8. Yönetişim etkilerini belirt: ekiplerin onaysız yapabilecekleri (Benimse), bildirim gerektirenler (Dene), ADR gerektirenler (Beklet istisnaları).
 9. Radar tablosunu ve ekipler için kısa bir "ne değişti" özetini üret.
+10. Ekip kanıtına değil duyuma dayanan halka değişikliklerini `[VARSAYIM]` olarak işaretle; hedef devam ediyorsa Değerlendir öğeleri için `technology-selection`, Benimse/Beklet geçişleri için `adr` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Halka tanımları: <tanımlandığı şekliyle Benimse / Dene / Değerlendir / B
 - [ ] Beklet öğelerinin yerine geçecek seçenek ve sorumlusu var.
 - [ ] Hiçbir iki Benimse öğesi belirtilmiş bir sınır olmadan çakışmıyor.
 - [ ] Adlar, sürümler ve lisans durumu doğru veya `[BİLİNMİYOR]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Radarı istek listesi olarak kullanmak. Kurum içi kanıtı olmayan öğeler Değerlendir'de kalır.

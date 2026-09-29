@@ -36,6 +36,7 @@ Zorunlu bir girdi eksikse sor. Tarih veya bağlantı verilmediyse davet taslağ�
 6. Lojistiği ekle: saat dilimi, bağlantı, telefonla katılım, salon.
 7. Katılamayacaklar için bir satır ekle: görüşlerini nasıl iletecekleri veya kimi yerine gönderecekleri.
 8. Davetin tamamını yaklaşık 150 kelimenin altında tut.
+9. Kullanıcının hedefi devam ediyorsa ve süreleri belli bir gündem henüz yoksa `meeting-agenda`, katılımcılar toplantının gerekliliğini sorgulayabilecekse `meeting-necessity-check` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,8 @@ Katılamıyor musunuz? <görüş iletme veya yetki devri yolu>
 - [ ] Hazırlık somut ve bağlantılı.
 - [ ] Zorunlu ve isteğe bağlı katılımcılar ayrılmış.
 - [ ] Yaklaşık 150 kelimenin altında.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca başlık içeren davetler; alıcılar toplantının kendileriyle ilgisini değerlendiremez.

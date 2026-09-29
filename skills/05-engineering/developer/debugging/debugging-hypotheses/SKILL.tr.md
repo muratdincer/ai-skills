@@ -30,15 +30,16 @@ Zorunlu:
 Kapsam veya başlangıç zamanı bilinmiyorsa tahmin etme; bunları belirlemeyi ilk ucuz testler olarak listele.
 
 ## Süreç
-1. Belirtiyi kapsam ve sıklıkla birlikte net biçimde yaz; olguları inançlardan ayrı listele.
+1. Teori kurmadan önce hata mesajını, trace'i ve kanıtı eksiksiz oku. Belirtiyi kapsam ve sıklıkla birlikte net biçimde yaz; olguları inançlardan ayrı listele ve her çıkarımı işaretle.
 2. Ayırt edici soruları sor: Ne değişti (kod, yapılandırma, veri, trafik, bağımlılıklar, altyapı)? Başarısız ve çalışan durumlar arasındaki fark ne? Hata deterministik mi?
 3. Hiçbir alan atlanmasın diye hipotezleri kategoriler boyunca üret: kod değişikliği, yapılandırma/feature flag, veri şekli veya hacmi, bağımlılık veya üçüncü taraf davranışı, altyapı/kaynaklar, eşzamanlılık/zamanlama, ortam/zaman (saat, yaz saati, sertifikalar, kotalar).
 4. Her hipotez için mekanizmayı tek cümleyle yaz (tam olarak bu belirtiye nasıl yol açar) ve lehine ve aleyhine kanıtı belirt.
 5. Bilinen olgularla çelişen hipotezleri ele; nedenini not et.
 6. Olasılığı kanıta göre (Yüksek/Orta/Düşük) ve test maliyetini (dakika, saat, gün, canlı ortam erişimi gerekir) tahmin et.
-7. Her biri için en ucuz ayırt edici testi tasarla: hipotez doğruysa farklı sonuç verecek bir gözlem veya deney (sorgu, metrik kırılımı, log alanı, flag açıp kapama, tek bir pod'u geri alma, bir isteği yeniden oynatma).
+7. Her deneyde tek bir değişkeni değiştirerek her biri için en ucuz ayırt edici testi tasarla: hipotez doğruysa farklı sonuç verecek bir gözlem veya deney (sorgu, metrik kırılımı, log alanı, flag açıp kapama, tek bir pod'u geri alma, bir isteği yeniden oynatma).
 8. Planı olasılık/maliyet oranına göre sırala; paralel çalışabilecek testleri grupla ve ekip varsa sorumlu ata.
-9. Durma koşulunu tanımla: hangi sonuç kök nedeni doğrular (hata, o faktör değiştirilerek açılıp kapanabiliyor) ve tüm hipotezler elenirse ne yapılacak (kapsamı genişlet, ölçümleme ekle).
+9. Durma koşulunu tanımla: hangi sonuç kök nedeni doğrular (hata, o faktör değiştirilerek açılıp kapanabiliyor) ve tüm hipotezler elenirse ne yapılacak (kapsamı genişlet, ölçümleme ekle). Demir kural: doğrulanmış kök neden olmadan düzeltme yok; üç düzeltme denemesi başarısız olduysa dördüncüyü denemek yerine dur, tasarımı ve varsayımları sorgula.
+10. Kök neden doğrulandığında bunu başarısız bir teste bağlamak için `bug-reproduction` öner; kanıt zayıfsa `log-analysis` veya `stack-trace-analysis`; tekrarlayan veya sistemik nedenler için `five-whys` veya `fishbone-analysis` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -69,11 +70,13 @@ Kapsam veya başlangıç zamanı bilinmiyorsa tahmin etme; bunları belirlemeyi 
 - [ ] Plan merakla değil, olasılık ve maliyetle sıralanmış.
 - [ ] Olgularla çelişen hipotezler açıkça elenmiş.
 - [ ] Doğrulama yalnızca korelasyon değil, hatanın açılıp kapatılabilmesini gerektiriyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Son dağıtıma takılıp aynı penceredeki veri veya trafik değişikliklerini göz ardı etmek.
 - Başarısız olamayacak testler çalıştırmak (ör. servisin ayakta olduğunu kontrol etmek). Her test bir şeyi eleyebilmeli.
 - İlk makul nedende durmak. Kök neden ilan etmeden önce faktörü açıp kapatarak doğrula.
+- Alarm işaretleri: "şimdilik hızlı bir düzeltme", "bir de X'i deneyelim", aynı anda birkaç değişiklik yapmak. Hepsi teşhisin yerini tahminin aldığını gösterir; hipotez tablosuna geri dön.
 
 ## Örnek
 Girdi: v4.12 dağıtımından sonra isteklerin ~%2'si 5 sn'yi aşıyor, yalnızca bazı pod'larda; CPU normal.

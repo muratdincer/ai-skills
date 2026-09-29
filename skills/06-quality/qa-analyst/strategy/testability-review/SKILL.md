@@ -40,6 +40,7 @@ If the requirement text is missing, ask for it.
 8. Rate severity by how much it blocks test design: Blocker, Major, Minor.
 9. Propose a rewrite or a precise question for each finding. Mark proposed thresholds `[ASSUMPTION]`; never present them as agreed.
 10. Summarize: testability score per item (Testable / Testable with questions / Not testable) and top questions for the product owner.
+11. Label every inferred interpretation `[ASSUMPTION]`; if the user continues, suggest `acceptance-criteria` to fix weak items or `test-scenarios-from-requirements` once items are testable.
 
 ## Output format
 ```markdown
@@ -62,6 +63,7 @@ Summary: <n> items reviewed · <n> testable · <n> need clarification · <n> not
 - [ ] Proposed numbers are marked `[ASSUMPTION]`.
 - [ ] Negative paths, limits and permissions were checked for every item.
 - [ ] Findings concern verifiability, not solution preference.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Flagging style instead of testability. Only raise what changes whether a test can decide pass/fail.

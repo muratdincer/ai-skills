@@ -41,6 +41,7 @@ If the entitlement export is missing, ask. If HR data is missing, flag orphan de
 8. Prepare a decision list per reviewer: Keep / Revoke / Modify / Exception, with reason; exceptions need compensating control and expiry.
 9. Track remediation: tickets for revocations, target dates, verification that access was actually removed.
 10. Summarize for auditors: population, completeness check (export totals vs system totals), findings by type, decisions, time to remediate.
+11. Label every finding based on inference (e.g. a role assumed to be toxic without a documented SoD rule) as `[ASSUMPTION]`; suggest `audit-preparation` or `control-mapping` when the review is evidence for an audit.
 
 ## Output format
 ```markdown
@@ -67,6 +68,7 @@ If the entitlement export is missing, ask. If HR data is missing, flag orphan de
 - [ ] Exceptions have an approver and expiry.
 - [ ] Personal data is minimized and accounts are pseudonymized in shared outputs.
 - [ ] Revocations include a verification step.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Rubber-stamping: managers approve everything in bulk. Present only the risky rows for decision and require a reason for Keep on privileged access.

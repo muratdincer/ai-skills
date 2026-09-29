@@ -43,6 +43,7 @@ If scope is missing, ask for it; the model is meaningless without a boundary.
 10. Mark personal and special-category data at entity level for later classification.
 11. Record open questions and conflicts in definitions; do not silently choose.
 12. Produce the model as a diagram-as-code block plus the entity catalogue.
+13. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `logical-data-model` to add attributes and keys, or `glossary-builder` to formalize the business terms.
 
 ## Output format
 ```markdown
@@ -80,6 +81,7 @@ erDiagram
 - [ ] Synonyms are merged and homonyms split, with aliases recorded.
 - [ ] Owners not given by the user are marked `[ASSUMPTION]`.
 - [ ] Entities carrying personal data are flagged.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Modelling the current system's tables and calling it conceptual. Derive from business language, then check against systems.

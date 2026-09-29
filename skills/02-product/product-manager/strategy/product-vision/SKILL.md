@@ -41,6 +41,7 @@ If the product or problem space is missing, ask for it. Everything else becomes 
 8. Test the statement: could a competitor say the same? Would it still hold in 3-5 years? Does it help say no to something? Revise until yes/no/yes.
 9. Add the "what this vision rules out" list to make trade-offs explicit.
 10. List assumptions to validate and open questions with owners.
+11. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `product-strategy-one-pager` to decide how to reach the vision, or `north-star-metric` to measure progress toward it.
 
 ## Output format
 ```markdown
@@ -72,6 +73,7 @@ If the product or problem space is missing, ask for it. Everything else becomes 
 - [ ] Business goals are qualitative or sourced; no invented numbers.
 - [ ] "Rules out" list contains at least two real trade-offs.
 - [ ] The vision can be read aloud in under 15 seconds.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing the mission of the whole company or a marketing tagline. Anchor on this product's users and the change it creates.

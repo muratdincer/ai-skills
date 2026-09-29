@@ -40,6 +40,8 @@ Sürümlerden biri eksikse iste. Yalnızca beyan edilen değişiklik listesi var
 7. Yazarın beyan ettiği değişiklik notlarıyla karşılaştır; beyan edilmemiş esaslı değişiklikleri ayrıca listele.
 8. Belirsiz, aleyhte veya açıklanmamış değişiklikler için sorular veya müzakere noktaları oluştur.
 9. En üste karar vericiler için 3-5 maddelik bir özet yaz.
+10. Metnin söylediğini etkisine dair kendi yorumundan ayır: çıkarımla belirlediğin her etkiyi veya niyeti `[VARSAYIM]` olarak işaretle ve doküman sahibinin teyidi için listele.
+11. Kullanıcının hedefi devam ediyorsa önemli değişiklikler için `impact-analysis` veya `change-request-analysis`, özeti yayımlamak için `changelog-entry` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -75,6 +77,7 @@ Okuyucu bakış açısı: <...> | Karşılaştırılan: <tam metin / bölümler>
 - [ ] Beyan edilmemiş esaslı değişiklikler vurgulanmış.
 - [ ] Etki, okuyucunun bakış açısından gerekçesiyle belirtilmiş.
 - [ ] İki ifade de gösterilmeden hiçbir şey değişmiş olarak raporlanmamış.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yazarın ön yazısına güvenmek. Her zaman metinlerin kendisini karşılaştır.

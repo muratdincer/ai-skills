@@ -39,6 +39,7 @@ If the charter summary or the audience/duration is missing, ask for it.
 6. Add an interactive element: risk brainstorm, assumptions check or expectations round.
 7. Prepare a pre-read list and a follow-up message with decisions and actions.
 8. List questions the PM must resolve before the session.
+9. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `communication-plan` to turn the agreed cadence into a plan, or `stakeholder-register` if sponsors or key users are still unmapped.
 
 ## Output format
 ```markdown
@@ -69,6 +70,7 @@ Date <date> | Duration <x min> | Audience <groups>
 - [ ] At least 20% of time is interactive or Q&A.
 - [ ] Roles and decision rights are explicit.
 - [ ] Next steps have owners and dates or `[TBD]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - A one-way presentation marathon. Build in structured interaction.

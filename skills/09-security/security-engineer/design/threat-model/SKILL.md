@@ -43,6 +43,7 @@ If the system description is missing, ask for it. Everything else becomes an ass
 8. Propose mitigations per threat: preventive, detective, responsive. Prefer design changes over compensating controls.
 9. Turn each mitigation into a traceable item: security requirement, backlog item, test case or accepted risk with an accountable owner.
 10. List assumptions, out-of-scope areas and open questions; state when the model must be revisited.
+11. Suggest the next skill: `security-requirements` to turn mitigations into controls, `pentest-scope` to validate the highest risks, `it-risk-assessment` for accepted risks at organization level.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ If the system description is missing, ask for it. Everything else becomes an ass
 - [ ] Personal data flows are marked and privacy threats (linkability, over-collection) are considered.
 - [ ] No control is claimed that the input does not support; unknowns are marked `[UNKNOWN]`.
 - [ ] Mitigations are traceable to requirements, backlog items or tests.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing generic threats ("SQL injection") without tying them to an element and entry point. Anchor each threat to a DFD element.

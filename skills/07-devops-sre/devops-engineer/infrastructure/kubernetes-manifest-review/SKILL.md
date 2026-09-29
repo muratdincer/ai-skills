@@ -41,6 +41,7 @@ If the YAML is missing, ask for it. If a chart is given unrendered, review value
 8. Networking: NetworkPolicy default deny with explicit allows; Service ports and selectors match; ingress TLS.
 9. Operability: labels (app, version, team), annotations for metrics scraping, log to stdout, resource names consistent.
 10. Rate findings and give corrected YAML snippets.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `capacity-planning` for requests and replica sizing, `resilience-review` for failure modes, or `deployment-strategy` for the rollout.
 
 ## Output format
 ```markdown
@@ -57,6 +58,7 @@ Summary: <production readiness verdict: Ready / Ready with fixes / Not ready>
 - [ ] Security context meets the restricted baseline or deviations are justified.
 - [ ] Serving workloads survive a single node drain (replicas, PDB, spread).
 - [ ] Suggested values not backed by data are marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Liveness probe calling the database: a database blip restarts every pod. Keep liveness local.

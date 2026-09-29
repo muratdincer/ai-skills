@@ -40,6 +40,7 @@ Yalnızca bir parça verildiyse onu incele ve hangi sonuçların görülmeyen ko
 9. Her bulguyu derecelendir: Blocker (hataya yol açar veya değişikliği engeller), Major (değişikliği yavaşlatır), Minor (okunabilirlik), Nit (stil). Genel kurallar yerine ekibin mevcut kurallarına saygı göster.
 10. Her bulgu için konum, etki ve somut düzeltmeyi, tercihen kısa bir önce/sonra ile adlandırılmış bir refactoring olarak ver.
 11. Güçlü yönler ve sıralı ilk 3 aksiyonla bitir.
+12. Hedef devam ediyorsa öncelikli aksiyonları güvenle uygulamak için `refactoring`, bulguları pull request yorumlarına çevirmek için `review-comment-writing` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,8 @@ Sorumluluk özeti: <2-3 cümle>
 - [ ] Önerilen düzeltmeler somut, dile ve mevcut kurallara uygun.
 - [ ] Bulgular tekilleştirildi; sistemik sorunlar örneklerle bir kez yazıldı.
 - [ ] Varsa en az bir güçlü yön belirtildi.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kodun aslında net olduğu yerde dogmatik kural uygulamak (örn. "fonksiyonlar N satırın altında olmalı"). Okunabilirliğe ve değişiklik maliyetine göre değerlendir.

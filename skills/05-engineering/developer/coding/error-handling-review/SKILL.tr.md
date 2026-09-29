@@ -39,6 +39,7 @@ Dış sözleşme bilinmiyorsa hangi bulguların ona bağlı olduğunu belirt ve 
 8. Yedek davranış ve circuit breaker'ı kontrol et: yedek davranış yalnızca "boş dön" değil, iş açısından doğru; kısıtlı çalışma modu görünür.
 9. Raporlamayı kontrol et: hata başına doğru sınırda, correlation id'li, gizli bilgi veya kişisel veri içermeyen tek log kaydı; kullanıcı mesajları uygulanabilir ve iç ayrıntı sızdırmıyor; API hataları kararlı bir kod kullanıyor.
 10. Bulguları önceliklendir (Kritik: veri kaybı/mükerrer para hareketi; Yüksek: sessiz hata; Orta: zayıf teşhis; Düşük: stil) ve kod düzeyinde düzeltmeler ver.
+11. Hedef devam ediyorsa teşhis boşlukları için `logging-instrumentation`, sistem düzeyindeki arıza modları için `resilience-review` veya kullanıcıya gösterilen metinler için `error-message-writing` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,8 @@ Dış sözleşme bilinmiyorsa hangi bulguların ona bağlı olduğunu belirt ve 
 - [ ] Hiçbir bulgu, sınır gerekçesi olmadan her şeyi yakalamayı önermiyor.
 - [ ] Hata anında tutarlılık (DB ve dış yan etki) analiz edildi.
 - [ ] Log önerileri mükerrer kayıt, gizli bilgi ve kişisel veri içermiyor.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İdempotent olmayan çağrıları (ödeme, e-posta) yeniden deneyip mükerrerliğe yol açmak. Idempotency key iste ya da yeniden deneme.

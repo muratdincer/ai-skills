@@ -44,6 +44,7 @@ Hedef verilmediyse iste: hedef yoksa cevap her zaman "henüz toplanma"dır.
 7. Asenkron ise formatı seç (yazılı güncelleme, yorum son tarihi olan karar dokümanı, kayıtlı anlatım, sohbet kanalı, anket) ve taslağını yaz.
 8. Periyodik toplantılar için bir gözden geçirme tarihi ve toplantının sürmesi için başarı sinyali öner.
 9. Önerini gerekçesiyle yaz ki toplantı sahibi bunu savunabilsin.
+10. Kullanıcının hedefi devam ediyorsa toplantı öneriliyorsa `meeting-agenda` ve `meeting-invite`, asenkron alternatif için `stakeholder-email` / `status-update` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,8 @@ Katılımcılar (zorunlu): ...  Yalnızca bilgilendirilecek: ...  Süre: ...  G�
 - [ ] Öneri alışkanlıktan değil sinyallerden çıkıyor.
 - [ ] Asenkron öneri hazır bir taslak ve yanıt son tarihi içeriyor.
 - [ ] Toplantı önerisi katılımcı sayısını ve süreyi kısıyor.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Toplantıyı son tarihi ve sorumlusu olmayan bir asenkron mesajla değiştirmek; sonuçta hiçbir şey olmaz. İkisini de mutlaka belirle.

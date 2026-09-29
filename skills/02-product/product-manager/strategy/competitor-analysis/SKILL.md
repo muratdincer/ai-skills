@@ -39,6 +39,7 @@ If your product or segment is missing, ask. Do not state competitor facts you ca
 7. Identify threats: where rivals are moving (recent launches, pricing changes, funding) and what it means.
 8. Recommend: differentiate on 1-2 areas, match parity on table stakes, deliberately ignore others.
 9. List evidence gaps and how to close them (win/loss interviews, trial sign-ups).
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `positioning-statement` to turn the gaps into a differentiated position, or `pricing-analysis` if price is the main battleground.
 
 ## Output format
 ```markdown
@@ -73,6 +74,7 @@ Segment · Core job · Pricing · GTM · Positioning · Strengths · Weaknesses 
 - [ ] Comparison criteria come from buyer priorities, not your feature list.
 - [ ] The analysis ends with explicit differentiate/parity/ignore choices.
 - [ ] Tone is factual; no disparaging claims.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Feature-count tables that make you look good but ignore what buyers value. Weight by buying criteria.

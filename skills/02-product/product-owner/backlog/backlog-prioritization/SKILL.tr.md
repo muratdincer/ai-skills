@@ -39,6 +39,7 @@ Zorunlu:
 7. Duyarlılık kontrolü yap: varsayılan bir puan bir adım değişirse hangi maddelerin sırası değişiyor? Bunları "sıraya duyarlı" olarak işaretle.
 8. Ertelenecek veya çıkarılacak adayları belirle (en düşük puanlılar, hedefle bağı olmayanlar) ve yapılmamalarının sonucunu yaz.
 9. Kapasite biliniyorsa listenin üst kısmını kapasiteyle karşılaştır; bilinmiyorsa kesme çizgisini `[TBD]` olarak göster.
+10. Kullanıcının hedefi devam ediyorsa en üstteki maddeleri hazır hale getirmek için `backlog-refinement` veya yeni sırayı plana yansıtmak için `roadmap` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Kapasite: <değer veya [TBD]> → 1–<n> arası maddeler sığıyor.
 - [ ] Hiçbir madde bağımlı olduğu maddenin üstünde değil.
 - [ ] Sıraya duyarlı maddeler işaretlendi.
 - [ ] Parasal veya kullanım rakamları yalnızca girdide verildiyse yer alıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sahte kesinlik: WSJF 4,33 ile 4,25 arasındaki farkı gerçek bir fark gibi sunmak. Yakın puanları eşit say ve hedefe uyuma göre karar ver.

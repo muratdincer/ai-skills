@@ -40,6 +40,7 @@ Dockerfile yoksa iste.
 7. Çalışma zamanı doğruluğu: sinyallerin sürece ulaşması için exec formunda `ENTRYPOINT`/`CMD`; doğru PID 1 yönetimi; `EXPOSE` ve `WORKDIR` tanımlı; `HEALTHCHECK` yalnızca orkestratör probe yapmıyorsa.
 8. Metadata: kaynak, revizyon ve sürüm için OCI etiketleri.
 9. Her bulguyu Kritik/Yüksek/Orta/Düşük olarak derecelendir ve düzeltilmiş kod parçası ver; değişiklikler kapsamlıysa gözden geçirilmiş Dockerfile'ın tamamını sun.
+10. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa çalışma zamanı yapılandırması için `kubernetes-manifest-review` veya base image ve paket bulguları için `dependency-vulnerability-review` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -59,6 +60,7 @@ Dockerfile yoksa iste.
 - [ ] Base image sabitlenmiş; `latest` yok.
 - [ ] Gözden geçirilmiş dosya sözdizimsel olarak geçerli ve orijinal davranışı koruyor.
 - [ ] Boyut veya CVE sayısı uydurulmadı; veri verilmediyse beklenen etkiler nitel.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Bağımlılıkları kurmadan önce tüm bağlamı kopyalamak; her değişiklikte önbellek bozulur. Önce manifestleri kopyala.

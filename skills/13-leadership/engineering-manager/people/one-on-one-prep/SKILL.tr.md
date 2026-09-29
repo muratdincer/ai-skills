@@ -43,6 +43,7 @@ Kişi veya amaç belirtilmemişse sor. Diğer her şey planda "kontrol edilecek"
 8. Dinlenecek sinyalleri not et: enerji değişimi, geri çekilme, aşırı yük, çatışma, ayrılma riski. Bunlar sonuç değil, doğrulanacak hipotezlerdir.
 9. Kapanışı planla: özet, sorumlu ve tarihli taahhütler, sonraki kontrol noktası.
 10. Planı önyargı açısından kontrol et: Aynı durumdaki başka bir ekip üyesiyle aynı konuyu aynı şekilde açar mıydın?
+11. Kullanıcının hedefi devam ediyorsa görüşmeyi kaydetmek için `one-on-one-notes` veya bir geri bildirimi yapılandırmak için `feedback-sbi` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Tür: <düzenli / ilk / konu odaklı> · Süre: <dk>
 - [ ] Sorular açık uçlu ve yönlendirmesiz.
 - [ ] Sinyaller yargı olarak değil, kontrol edilecek noktalar olarak yazıldı.
 - [ ] Hassas kişisel bilgiler (sağlık, aile) çalışanın paylaştığından fazla kaydedilmedi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Birebiri durum toplantısına çevirmek. Durum bilgisini asenkron kanallara taşı, bu zamanı kişiye ayır.

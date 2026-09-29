@@ -39,6 +39,7 @@ Zorunlu:
 8. Her hedef için etkileri nitel olarak veya verilen veriden açık hesapla tahmin et; varsayımları işaretle.
 9. Riskleri ve insanlar üzerindeki değişim etkisini (kaldırılan veya değişen roller, eğitim) not et.
 10. Doğrulama öner: süreç sahibiyle üzerinden geçme, simülasyon veya pilot.
+11. Kullanıcı devam etmek isterse değişiklikleri iş listesine çevirmek için `process-gap-analysis`, diyagram için `bpmn-model` veya yeni kurallar için `business-rules-catalog` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -81,6 +82,7 @@ Sahip: <rol> · Hedefler: <hedef değerler> · Dayandığı as-is: <sürüm/tari
 - [ ] Beklenen etkiler dayanağını gösteriyor; uydurulmuş tasarruf rakamı yok.
 - [ ] Bir sistem verili kısıt değilse tasarım teknolojiden bağımsız.
 - [ ] İnsan etkisi (roller, eğitim) belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Mevcut süreci olduğu gibi otomatikleştirmek. Otomatikleştirmeden önce her adımı sorgula.

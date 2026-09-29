@@ -39,6 +39,7 @@ Başlatma özeti veya katılımcı/süre bilgisi yoksa iste.
 6. Etkileşimli bir bölüm ekle: risk beyin fırtınası, varsayım kontrolü veya beklenti turu.
 7. Ön okuma listesi ve kararlarla aksiyonları içeren bir takip mesajı hazırla.
 8. PM'in toplantıdan önce çözmesi gereken soruları listele.
+9. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: `communication-plan` ile kararlaştırılan ritmi plana dönüştürmeyi ya da sponsorlar veya kilit kullanıcılar henüz eşlenmediyse `stakeholder-register`.
 
 ## Çıktı formatı
 ```markdown
@@ -69,6 +70,7 @@ Tarih <tarih> | Süre <x dk> | Katılımcılar <gruplar>
 - [ ] Sürenin en az %20'si etkileşim veya soru-cevap.
 - [ ] Roller ve karar yetkileri açık.
 - [ ] Sonraki adımların sahibi ve tarihi var ya da `[TBD]`.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tek yönlü sunum maratonu. Yapılandırılmış etkileşim ekle.

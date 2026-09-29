@@ -42,6 +42,7 @@ If business questions or sources are missing, ask for them; a model without a de
 10. Specify load rules per table: key lookup, SCD processing, restatement window, and reconciliation totals against the source.
 11. Map each business question to the fact(s) and dimensions that answer it; flag questions the design cannot answer.
 12. Note physical hints generically: partition facts by date, clustering on frequent filters, aggregate tables only for measured performance needs.
+13. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `source-to-target-mapping` to specify loads, or `metric-definition` to pin down the measures.
 
 ## Output format
 ```markdown
@@ -80,6 +81,7 @@ Special members: -1 Unknown, -2 Not applicable, inferred-member rule: <...>
 - [ ] SCD type is chosen per attribute and every Type 2 is justified.
 - [ ] Unknown and late-arriving member handling is defined.
 - [ ] Every business question maps to the model or is flagged as unanswerable.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Declaring the grain as a report ("monthly sales by region"). Start atomic; aggregate later.

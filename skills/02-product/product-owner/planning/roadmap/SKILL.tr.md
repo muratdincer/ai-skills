@@ -41,6 +41,7 @@ Zorunlu:
 8. Yol haritasında açıkça yer almayanları ve nedenini listele; bu, sessiz beklentileri önler.
 9. Güncelleme sıklığını ve değişiklik kuralını tanımla (ör. aylık gözden geçirilir; Şimdi'deki değişiklikler paydaşlara bildirilir).
 10. Sahibin sunumda kullanabileceği kısa bir anlatı (3-5 cümle) taslağı hazırla.
+11. Kullanıcının hedefi devam ediyorsa Şimdi ufku için `release-planning`, sonuçların ölçüsü yoksa `okr-definition`, birden çok ekip varsa `program-roadmap` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Hedef kitle: <kitle> · Son güncelleme: <tarih> · Sonraki gözden geçirme: <t
 - [ ] "Yol haritasında olmayanlar" bölümü var.
 - [ ] Ayrıntı düzeyi hedef kitleye uygun (yöneticiler için kayıt seviyesinde madde yok).
 - [ ] Kapasite, gelir veya tarih rakamı uydurulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Daha Sonra'daki bir maddeyi tarihle sunmak. Paydaşlar bunu söz olarak algılar; tarihleri taahhüt edilmiş iş için sakla.

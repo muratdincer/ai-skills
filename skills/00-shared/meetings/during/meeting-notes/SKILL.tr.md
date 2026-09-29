@@ -38,6 +38,7 @@ Ham içerik yoksa iste. Gündem yoksa konuları içerikten çıkar ve bunu belir
 7. Belirsiz bölümleri (duyulmayan, çelişkili, anlamı belirsiz kısaltma) düzeltmeye çalışmak yerine `[BELİRSİZ: ...]` olarak işaretle.
 8. Sohbeti, tekrarları ve kayıt dışı ifadeleri çıkar; kayıt için gerekmeyen kişisel verileri (telefon, sağlık, İK konuları) maskele.
 9. Toplantı bilgilerini içeren bir başlık ve atlanan gündem maddeleri için "Görüşülmeyen" satırı ekle.
+10. Kullanıcının hedefi devam ediyorsa eksiksiz taahhüt listesi için `action-item-extraction`, kısa bir özet için `meeting-summary` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -69,6 +70,8 @@ Gündem kapsamı: <görüşülenler> | Görüşülmeyen: <maddeler>
 - [ ] Sayılar, tarihler ve sistem adları kaynakla birebir aynı.
 - [ ] Belirsiz kısımlar tahmin edilmedi, işaretlendi.
 - [ ] Hassas kişisel veriler maskelendi veya çıkarıldı.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Galiba şunu yapmalıyız..." ifadesini karara çevirmek. Tartışma noktası veya SORU olarak bırak.

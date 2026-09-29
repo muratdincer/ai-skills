@@ -39,6 +39,7 @@ Optional, improves quality:
 8. Estimate effects per goal qualitatively or with stated calculation from given data; mark assumptions.
 9. Note risks and change impact on people (roles removed or changed, training).
 10. Recommend validation: walkthrough with process owner, simulation or pilot.
+11. If the user wants to continue, suggest `process-gap-analysis` to turn the changes into a work list, `bpmn-model` for the diagram or `business-rules-catalog` for the new rules.
 
 ## Output format
 ```markdown
@@ -81,6 +82,7 @@ Owner: <role> · Goals: <targets> · Based on as-is: <version/date>
 - [ ] Expected effects show their basis; no invented savings figures.
 - [ ] The design is technology-neutral unless a system is a given constraint.
 - [ ] People impact (roles, training) is stated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Automating the as-is ("paving the cow path"). Question each step before automating it.

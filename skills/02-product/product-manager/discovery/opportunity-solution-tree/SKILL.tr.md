@@ -38,6 +38,7 @@ Sonuç yoksa ya da bir çıktıysa ("X'i yayınla"), bir sonuç iste veya öner.
 6. Her çözüm için ana varsayımları türüne göre listele: arzu edilebilirlik, yaşayabilirlik (iş), yapılabilirlik, kullanılabilirlik, etik.
 7. En riskli varsayımları seç ve her biri başarı eşiğine sahip küçük testler tanımla (prototip, sahte kapı, tek soruluk anket, veri kontrolü).
 8. Ağacı iç içe liste veya diyagram olarak sun; karar kaydını ve sonraki testleri ekle.
+9. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: öne çıkan çözüm için `hypothesis-statement` ve `experiment-design`, en riskli varsayımları sıralamak için `assumption-mapping`.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Sonuç yoksa ya da bir çıktıysa ("X'i yayınla"), bir sonuç iste veya öner.
 - [ ] Hedef fırsat için en az üç çözüm var.
 - [ ] Her testin başarı eşiği test çalıştırılmadan önce tanımlandı.
 - [ ] Fırsatların kanıt gücü görünür.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Çözümleri fırsat olarak yazmak ("chatbot lazım"). Müşterinin bakış açısıyla yeniden ifade et.

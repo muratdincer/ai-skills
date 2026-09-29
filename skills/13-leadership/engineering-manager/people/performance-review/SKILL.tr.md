@@ -41,6 +41,7 @@ Puan ölçeği veya yetkinlik çerçevesi yoksa genel boyutları (etki, ustalık
 8. Önyargı taraması yap: yakınlık, hale/boynuz etkisi, benzerlik, atıf (bireysel ve ekip katkısı), cinsiyetçi veya kodlanmış dil ("sert", "agresif" / "kararlı"), esnek çalışma veya izin nedeniyle cezalandırma.
 9. Gelişim alanları ve kariyer hedefleriyle bağlantılı 2-4 sonraki dönem odağı belirle.
 10. Kanıtsız her iddiayı `[KANIT GEREKLİ]` olarak işaretle ve yönetici için açık soruları listele.
+11. Kullanıcının hedefi devam ediyorsa sonraki dönem hedefleri için `goal-setting` veya gelişim alanları için `career-development-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -80,6 +81,7 @@ Rol / seviye: <rol, seviye> · Değerlendiren: <yönetici> · Puan: <öneri> [ta
 - [ ] Kişilik etiketleri, kodlanmış dil veya izin, sağlık, aile ya da diğer korunan özelliklere atıf yok.
 - [ ] Dönem içinde geri bildirim verildiyse değerlendirmedeki hiçbir şey sürpriz olmaz.
 - [ ] Notlardaki kişisel veriler değerlendirmenin ihtiyacı kadarına indirildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yakınlık önyargısı. Metni yazmadan önce tüm döneme ait kanıt tablosunu oluştur.

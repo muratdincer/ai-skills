@@ -39,6 +39,7 @@ Optional, improves quality:
 7. Update the outlook: what comes next, changes to roadmap or release plan, risks needing stakeholder help.
 8. Build a timeboxed agenda: context (short) → demo/walkthrough → feedback → decisions → outlook → actions. Put decisions before the time is likely to run out.
 9. Prepare a pre-read (one page) and a follow-up template for capturing feedback and decisions.
+10. If the user's goal continues, suggest `demo-script` to script the walkthrough and `meeting-agenda` to send the invitation.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Context · Options · Recommendation · If not decided · Needed by
 - [ ] Delivered work is framed as outcomes, with evidence or an explicit "no data yet".
 - [ ] Undelivered commitments are disclosed with reasons.
 - [ ] The agenda reserves time for decisions and feedback, not only demo.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Running the review as a slide-based status report. Show working software or real screens and spend most time on input.

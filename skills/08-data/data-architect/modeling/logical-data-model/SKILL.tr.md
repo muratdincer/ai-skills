@@ -41,6 +41,7 @@ Varlık listesi ve nitelik kaynağı yoksa iste.
 9. Nitelikleri hassasiyetle (kişisel, özel nitelikli, gizli) etiketle; maskeleme veya veri minimizasyonu adaylarını işaretle.
 10. Her niteliği kaynak gereksinimine veya alanına izle; niteliği olmayan gereksinimleri ve gereksinimi olmayan nitelikleri listele.
 11. Açık konuları ve varsayımları kaydet.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: fiziksel tasarım için `database-schema-design` veya kişisel veri taşıyan nitelikler için `data-classification`.
 
 ## Çıktı formatı
 ```markdown
@@ -75,6 +76,7 @@ Tanım: <...> | İş anahtarı: <nitelikler> | Zaman: <güncel / geçerlilik tar
 - [ ] Zaman yönetimi her varlık için kararlaştırılmış ve gerekçelendirilmiş.
 - [ ] Hassas nitelikler etiketli.
 - [ ] Her nitelik bir kaynağa izlenebiliyor; boşluklar listelenmiş.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Modelleme kararlarından kaçmak için genel EAV "nitelik/değer" tabloları. Bilinen nitelikleri modelle; EAV'yi gerçekten kullanıcı tanımlı uzantılarla sınırla.

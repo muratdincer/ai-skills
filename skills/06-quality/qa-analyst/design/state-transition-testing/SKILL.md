@@ -41,6 +41,7 @@ If the workflow description is missing, ask for it. Transitions not stated as al
 9. Add timing and concurrency cases: timeout at boundary, two actors triggering conflicting events simultaneously.
 10. Verify side effects per transition: audit trail, notifications, dependent entities.
 11. List open questions for undefined cells.
+12. Label inferred transitions `[ASSUMPTION]`; if the user continues, suggest `test-case-writing` for executable cases or `api-test-design` when transitions are driven through an API.
 
 ## Output format
 ```markdown
@@ -63,6 +64,7 @@ If the workflow description is missing, ask for it. Transitions not stated as al
 - [ ] Terminal states are tested for rejection of all events.
 - [ ] Guards are tested in both true and false variants, including role checks.
 - [ ] Side effects are verified, not only the resulting status.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Testing only through the UI, where invalid buttons are hidden. Call the underlying API or service directly.

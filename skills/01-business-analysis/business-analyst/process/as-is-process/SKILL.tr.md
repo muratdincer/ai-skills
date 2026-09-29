@@ -39,6 +39,7 @@ Zorunlu:
 8. Adım bazında sorunları ve geçici çözümleri kanıtıyla (kim söyledi, veri noktası), kontrolleri de (onaylar, mutabakatlar, denetim noktaları) kaydet.
 9. Her adımda işlenen kişisel veya hassas veriyi not et; kaynak notlardaki gerçek isimleri veya müşteri verilerini maskele.
 10. Kaynaklar arasındaki farklılıkları ve doğrulama sorularını listele; uygulayıcılarla bir üzerinden geçme (walkthrough) oturumu öner.
+11. Kullanıcı devam etmek isterse iyileştirmeyi tasarlamak için `to-be-process`, biçimsel diyagram için `bpmn-model` veya israfı sayısallaştırmak için `value-stream-map` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -77,6 +78,7 @@ Hacim: ... · Toplam süre: ... · Yeniden iş oranı: ...
 - [ ] Sorunlar kanıta dayanıyor; hiçbir sayı uydurulmadı.
 - [ ] Prosedür ile uygulama arasındaki farklar kaydedildi.
 - [ ] As-is tarifine iyileştirme fikirleri karıştırılmadı (ayrı bir listede tutuldu).
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Gerçeklik yerine prosedür el kitabını belgelemek. İşi yapan kişilerle doğrula.

@@ -40,6 +40,7 @@ Varyant bazındaki sayılar yoksa iste. Varsayılan değerlerden istatistik hesa
 8. Ardışık (sequential) tasarım olmadan ara sonuçlara bakıldıysa hata oranının şiştiğini belirt.
 9. Öneri ver: yayına al, bir alt kümeye yayına al, iyileştir, uzat (güç yetersizse ve gerekçeliyse) veya durdur. Öneriyi eşiklere bağla.
 10. Deney kaydı için öğrenimleri not et.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa kararı aktarmak için `insight-summary` veya takip testi için `experiment-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -83,6 +84,7 @@ Varyant bazındaki sayılar yoksa iste. Varsayılan değerlerden istatistik hesa
 - [ ] Koruyucu metrikler değerlendirildi ve kararı veto edebiliyor.
 - [ ] Segment bulguları önceden belirlenmiş veya keşifsel olarak etiketlendi.
 - [ ] Tüm sayılar girdiden hesaplandı; bilinmeyen değerler işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İlk anlamlı ara bakışta kazanan ilan etmek. Planlanan örneklemi veya ardışık bir yöntemi kullan.

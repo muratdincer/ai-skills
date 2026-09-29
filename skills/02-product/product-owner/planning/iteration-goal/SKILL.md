@@ -38,6 +38,7 @@ Optional, improves quality:
 6. Keep independent work visible but secondary; a common guideline is that the goal-related work uses the majority of capacity `[ASSUMPTION: adjust to team norm]`.
 7. Check the goal against: one outcome, achievable within the iteration, meaningful to stakeholders, gives the team room to negotiate scope.
 8. Offer 2 alternative phrasings if the focus is debatable, with the trade-off of each.
+9. If the user's goal continues, suggest `iteration-planning` to size and break down the selected work, and `iteration-review-prep` to plan how the goal will be shown.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Advances: <release goal / OKR / theme>
 - [ ] Every candidate item is classified against the goal.
 - [ ] The goal allows scope negotiation (not all items are required to meet it).
 - [ ] The link to a higher-level objective is stated or marked `[UNKNOWN]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - "Complete all planned stories" as a goal. It gives no guidance for trade-offs; name the outcome instead.

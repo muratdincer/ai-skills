@@ -39,6 +39,7 @@ Zorunlu:
 8. Sürümleme ve değişiklik politikasını tanımla: semantic versioning; hangi değişiklikler kırıcı değil (isteğe bağlı alan ekleme), hangileri kırıcı (silme/yeniden adlandırma, tip daraltma, anlam değişikliği); bildirim süresi, paralel koşum süresi, kullanımdan kaldırma süreci.
 9. Uygulamayı (enforcement) tanımla: sözleşmenin nerede doğrulandığı (üretici CI, alım kapısı, schema registry uyumluluk modu) ve ihlallerin nasıl raporlandığı.
 10. Sözleşmeyi yapılandırılmış, makinece okunmaya uygun bir düzende ve kısa bir insan özetiyle üret.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: kalite bölümünü uygulamak için `data-quality-rules`, ilk planlı değişiklik için `schema-evolution-plan` veya yayımlamak için `data-catalog-entry`.
 
 ## Çıktı formatı
 ```markdown
@@ -79,6 +80,7 @@ Kırıcı değişiklikler: <liste> | Bildirim: <...> | Paralel koşum: <...> | K
 - [ ] SLA'lar sayısal; bilinmeyen değerler uydurulmadı, `[TBD]` olarak işaretlendi.
 - [ ] Kırıcı ve kırıcı olmayan değişiklikler ile bildirim süreleri tanımlı.
 - [ ] Kişisel veri, maskeleme ve saklama ele alındı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Şema dökümünü sözleşme diye sunmak. Asıl değer anlamda, SLA'larda ve değişiklik politikasındadır.

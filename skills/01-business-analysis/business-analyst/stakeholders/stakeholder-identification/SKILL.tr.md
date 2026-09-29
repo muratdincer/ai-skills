@@ -35,9 +35,10 @@ Girişim tanımı yoksa iste. Kişiler bilinmiyorsa isim uydurma, rol kullan.
 3. Sık atlanan gruplar listesini uygula: sponsor/bütçe sahibi, segmentlere göre son kullanıcılar, son kullanıcıların yöneticileri, operasyon/destek, etkilenen her sistemin BT sahibi, veri sahipleri/sorumluları, güvenlik, hukuk/uyum/KVKK irtibat kişisi, iç denetim, finans, İK/sendika (roller veya izleme değişiyorsa), satın alma, müşteriler, tedarikçiler/iş ortakları, düzenleyici kurumlar, eğitmenler.
 4. Veriyi ve sistemleri izle: dokunulan her sistem ve veri seti bir sahip demektir.
 5. Her paydaşı kategorilere ayır: Karar verir, Etkiler, Etkilenir, Bilgilendirilir; iç veya dış.
-6. Her biri için ilgisini (ne kazanıyor veya neden endişe ediyor) ve ondan ne gerektiğini (onay, girdi, veri, test, imza) yaz.
+6. Her biri için ilgisini (ne kazanıyor veya neden endişe ediyor) ve ondan ne gerektiğini (onay, girdi, veri, test, imza) yaz. Duymadığın, çıkardığın ilgileri `[VARSAYIM]` olarak işaretle.
 7. Veto sahiplerini ve yokluğu risk olan paydaşları işaretle.
 8. Eksikleri listele: kişisi bilinmeyen rolleri `[BİLİNMİYOR]` olarak işaretle ve kimin isim verebileceğini yaz.
+9. Hedef devam ediyorsa iletişimi planlamak için `stakeholder-map`, aktivite sahipliğini atamak için `raci-matrix` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -62,6 +63,7 @@ Kapsam: <tek cümle>
 - [ ] İsim uydurulmadı; bilinmeyen kişiler `[BİLİNMİYOR]` işaretli roller olarak yazıldı.
 - [ ] Her paydaşın somut bir "ondan beklenen" maddesi var.
 - [ ] Veto sahipleri işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca talep sahibinin departmanını listelemek. Süreci ve veriyi uçtan uca izle.

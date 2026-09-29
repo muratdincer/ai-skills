@@ -42,6 +42,7 @@ Teslimat kapsamı yoksa iste. Eksik tarihler tahmin edilmez, `[TBD]` olarak yaz�
 9. Teslimatları listele: test case'ler, koşum kayıtları, hata raporları, günlük durum, test özet raporu.
 10. Planlama risklerini (ürün riskleri değil) önlem ve B planıyla listele: geciken build'ler, paylaşılan ortamlar, kilit kişi bağımlılığı.
 11. Bilinmeyenleri işaretle; açık soruları ve gereken onayları topla.
+12. Kullanıcı devam ederse kapsamı önceliklendirmek için `risk-based-testing`, kabul için `uat-plan`, koşum bittiğinde `release-quality-gate` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Sürüm: <x.y> | Hazırlayan: <ad> | Onaylayanlar: <adlar veya [TBD]>
 - [ ] Ortam ve veri hazırlığının sorumlusu ve tarihi var ya da `[TBD]` olarak işaretli.
 - [ ] Hiçbir isim, tarih veya sayı uydurulmadı.
 - [ ] Planlama riskleri ürün risklerinden ayrı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Tüm testler geçti" gibi çıkış kriterleri. Gerekçeli istisnalara izin ver ve karar sahibini belirt.

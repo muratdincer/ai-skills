@@ -34,12 +34,13 @@ If acceptance criteria are missing, ask for them or derive candidates and mark t
 2. Identify touched layers and assets: contract/API, data schema, domain logic, UI, integrations, configuration, infrastructure, documentation.
 3. Slice vertically where possible (one thin end-to-end path first), then widen. Avoid "all backend, then all frontend".
 4. Add enabling tasks explicitly: schema migration, feature flag, contract stub or mock, test data, permissions, observability.
-5. Make each task small enough to finish and merge in about a day (or the team's limit), with a clear done condition.
+5. Make each task small enough to finish and merge in about a day (or the team's limit), with a clear done condition and an explicit verification step (the test, check or demo that proves it).
 6. Order tasks by dependency and mark which can run in parallel. Put risky or unknown work first.
 7. Add verification tasks that are not already inside other tasks: integration or end-to-end test, performance check, security review if personal data or auth is involved.
 8. Add release tasks: flag rollout, documentation or changelog, removal of temporary code.
 9. Give relative estimates in the team's unit; mark uncertain ones and do not invent hours if the team does not use them.
 10. Check coverage: map every acceptance criterion to at least one task.
+11. If the goal continues, suggest `technical-estimation` for a range estimate with assumptions or `implement-from-story` to start the first task.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Story: <id/link> · Assumptions: <list or none>
 - [ ] Migrations, flags, test data and cleanup tasks are explicit.
 - [ ] The first tasks reduce the biggest risk or unknown.
 - [ ] Estimates use the team's unit; none are fabricated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Layer-based splitting ("backend", "frontend", "tests") that delivers nothing verifiable until the end. Prefer thin vertical slices.

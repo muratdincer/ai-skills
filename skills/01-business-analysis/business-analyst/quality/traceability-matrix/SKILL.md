@@ -41,6 +41,7 @@ If IDs are missing, propose an ID scheme and ask the user to confirm before mapp
 7. Calculate coverage: requirements with at least one test, with at least one passed test, by priority.
 8. Highlight high-priority or regulatory requirements with weak coverage first.
 9. State maintenance rules: who updates the matrix, when (each change request, each test cycle).
+10. If the user wants to continue, suggest `impact-analysis` to use the matrix for a change, `test-scenarios-from-requirements` for uncovered requirements or `requirements-sign-off` to baseline it.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ If IDs are missing, propose an ID scheme and ask the user to confirm before mapp
 - [ ] Coverage percentages are computed from the matrix, not estimated.
 - [ ] High-priority and regulatory requirements with gaps are listed first.
 - [ ] Every issue has an action and an owner role.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Counting a requirement as covered because a test exists, even though the test never ran or failed. Report "tested" and "passed" separately.

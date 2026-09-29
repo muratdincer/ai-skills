@@ -42,6 +42,7 @@ If no source material or term list is given, ask for it. Never define a domain t
 8. Mark definitions inferred from limited evidence as `[ASSUMPTION]` and assign a likely owner to confirm.
 9. Sort alphabetically, expand acronyms, and cross-link related terms.
 10. List conflicts that need a decision (for example, "Sales and Billing define active customer differently").
+11. If the user's goal continues, suggest `business-rules-catalog` for rules hidden in definitions or `technical-translation` when the glossary must be bilingual.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Scope: <what this glossary covers> | Sources: <documents used> | Status: draft
 - [ ] Every definition cites its source or is marked `[ASSUMPTION]`.
 - [ ] Conflicts are surfaced, not silently resolved.
 - [ ] Acronyms are expanded.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Defining by example only ("A customer is e.g. ACME"). Give the class and distinguishing criteria, then the example.

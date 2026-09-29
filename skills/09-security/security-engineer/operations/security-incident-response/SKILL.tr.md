@@ -41,6 +41,7 @@ Gözlem yoksa sor. İsteğe bağlı detaylar için sınırlandırma önerisini g
 8. Kişisel veri ihlalini değerlendir: kişisel veri etkilenmiş olabilirse veri sorumlusunun kişisel veri sorumlusunu/DPO'sunu ve hukuku dahil et. GDPR'da, ihlal risk doğurmayacak nitelikte değilse farkına varılmasından itibaren 72 saat içinde denetim otoritesine bildirim yapılır; KVKK'da ihlal Kişisel Verileri Koruma Kurulu'na en kısa sürede (Kurul kararı 72 saat öngörür) bildirilir ve ilgili kişilere bilgi verilir. Kararı hukuk verir; bu beceri yalnızca olguları hazırlar.
 9. İletişim kur: iç paydaşlara sabit aralıklarla, müşteri ve iş ortaklarına yönetim ve hukukun kararına göre; açıklamaları olgusal ve onaylı tut.
 10. Kapat: sınırlandırma ve temizliğin tamamlandığını teyit et, takip aksiyonlarını sorumlularıyla listele, bir postmortem planla.
+11. Devret: paydaş güncellemeleri için `incident-communication`, suçlamasız değerlendirme için `postmortem`, istismar edilen her zafiyet için `security-finding-report`.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Gözlem yoksa sor. İsteğe bağlı detaylar için sınırlandırma önerisini g
 - [ ] Kişisel veri etkisi ve bildirim süreleri değerlendirildi, hukuk/kişisel veri sorumlusuna atandı.
 - [ ] Kimlik bilgileri, token'lar ve kişisel veriler kayıtta maskelendi.
 - [ ] Kanıt olmadan saldırgan kimliği veya veri hacmi belirtilmedi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sızan bir anahtarı döndürüp onun oluşturduğu oturumları, token'ları ve türetilmiş kimlik bilgilerini atlamak.

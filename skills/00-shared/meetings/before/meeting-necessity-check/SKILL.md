@@ -44,6 +44,7 @@ If the goal is missing, ask for it: without a goal the answer is always "do not 
 7. If async: pick the format (written update, decision document with comment deadline, recorded walkthrough, chat thread, poll) and draft it.
 8. For recurring meetings, propose a review date and a success signal to keep it.
 9. Write the recommendation with the reasoning so the organizer can defend it.
+10. If the user's goal continues, suggest `meeting-agenda` and `meeting-invite` when a meeting is recommended, or `stakeholder-email` / `status-update` for the async alternative.
 
 ## Output format
 ```markdown
@@ -78,6 +79,8 @@ Attendees (required): ...  Informed only: ...  Duration: ...  Review on: ...
 - [ ] The recommendation follows from the signals, not from habit.
 - [ ] An async recommendation includes a ready draft and a response deadline.
 - [ ] A meeting recommendation trims attendees and duration.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Replacing a meeting with an async message that has no deadline or owner; nothing happens. Always set both.

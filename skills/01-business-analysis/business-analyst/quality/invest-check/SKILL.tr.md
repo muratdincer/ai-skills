@@ -31,15 +31,16 @@ Zorunlu:
 Kabul kriteri yoksa yine değerlendir, ancak Test Edilebilir'i başarısız işaretle.
 
 ## Süreç
-1. Her hikayeyi tek satırda yeniden ifade et: kullanıcı, yetenek, fayda. Fayda yoksa veya teknikse ("API çağrılsın diye"), Değerli için not al.
+1. Her hikayeyi tek satırda yeniden ifade et: kullanıcı, yetenek, fayda. Fayda yoksa, teknikse ("API çağrılsın diye") ya da isteği tekrar ediyorsa Değerli için not al. Genel personaları ("bir kullanıcı olarak") ve hikaye gibi yazılmış teknik görevleri işaretle; teknik görevler hikaye listesine değil iş kırılımına aittir.
 2. Bağımsız: diğer hikayelere, ekiplere veya sistemlere bağımlılıkları listele. Sert (başlanamaz) ile yumuşak (sıralama tercihi) bağımlılığı ayır. Yeniden sıralama, taklit (stub) veya birleştirme öner.
 3. Tartışılabilir: hikayenin açık kalması gereken UI veya teknik çözüm ayrıntılarını dayatıp dayatmadığını kontrol et. Aşırı tanımlamayı işaretle.
 4. Değerli: sonucun bir kullanıcı veya iş paydaşı tarafından fark edilip edilmeyeceğini kontrol et. Yalnızca teknik hikayeler sağladığı sonucu belirtmeli veya bir değer hikayesine bağlanmalı.
 5. Tahmin Edilebilir: tahmini engelleyen bilinmeyenleri (alan, teknik, dış) belirle. Her biri için bir spike veya soru öner.
 6. Küçük: ekibin tipik büyüklüğüne göre değerlendir; bilinmiyorsa çok sayıda kabul kriteri, birden fazla rol, birden fazla iş akışı veya başlıkta "ve" olan hikayeleri işaretle. Bir bölme kalıbı adlandır (iş akışı adımı, iş kuralı, veri çeşitliliği, mutlu/mutsuz yol, arayüz).
-7. Test Edilebilir: kabul kriterlerinde gözlemlenebilir sonuçlar, veri koşulları ve hata durumları var mı kontrol et. Eksik kriterleri Given/When/Then veya kural biçiminde öner.
+7. Test Edilebilir: kabul kriterlerinde gözlemlenebilir sonuçlar, veri koşulları ve hata durumları var mı kontrol et. Eksik kriterleri Given/When/Then veya kural biçiminde öner; birden fazla When veya Then içeren senaryo bölme adayıdır.
 8. Her harfi Geçti / Kısmi / Kaldı olarak tek satırlık kanıtla puanla; genel karar: Hazır / İyileştirilmeli / Hazır değil.
 9. Ekip iyileştirme oturumunda harekete geçebilsin diye düzeltmeleri efor/etki oranına göre sırala.
+10. Kullanıcı devam etmek isterse Small kriterinden kalan hikayeler için `story-splitting`, Testable kriterinden kalanlar için `acceptance-criteria` veya tam hazırlık kapısı için `definition-of-ready` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Kabul kriteri yoksa yine değerlendir, ancak Test Edilebilir'i başarısız işa
 - [ ] Bölme önerileri bir bölme kalıbı adlandırıyor ve dikey kesilmiş, değerli hikayeler üretiyor.
 - [ ] Önerilen kabul kriterleri kararlaştırılmış kapsam olarak değil, öneri olarak işaretli.
 - [ ] Ekibin ölçeği verilmediyse story point cinsinden büyüklük yargısı yapılmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Teknik katmana göre bölmek (UI hikayesi, API hikayesi, DB hikayesi). Bu Değerli ve Bağımsız'ı bozar; davranışa göre böl.
@@ -80,3 +82,7 @@ Girdi: "S3: Kullanıcı olarak kart ve PayPal ile ödeme yapmak ve kartımı kay
 | S3 | Kısmi | Geçti | Geçti | Kısmi | Kaldı | Kaldı | Hazır değil |
 
 Düzeltmeler: ödeme yöntemine ve "kartı kaydet"e göre böl (iş kuralı çeşitliliği); reddedilen kart ve 3-D Secure hatası için kriter ekle; kart saklamanın ödeme sağlayıcısı tarafından token'lanıp token'lanmadığını Güvenlik ekibine sor `[BİLİNMİYOR]`.
+
+
+Zayıf yeniden yazım: "Bir kullanıcı olarak kolayca ödemek istiyorum ki ödeyebileyim." (genel persona, fayda isteği tekrar ediyor)
+Güçlü yeniden yazım: "Tekrar gelen bir müşteri olarak kayıtlı kartımla ödemek istiyorum ki kart bilgilerimi yeniden girmeden alışverişi tamamlayabileyim."

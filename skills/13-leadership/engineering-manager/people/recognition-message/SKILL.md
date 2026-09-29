@@ -41,6 +41,7 @@ If there is no concrete example, ask for one; generic praise has little value.
 7. Keep it short: 3-6 sentences, no superlatives stacked on each other, no comparison with other people.
 8. Avoid tying recognition to overwork as the ideal (e.g. praising weekend hours) without also addressing sustainability.
 9. Offer one alternate version (shorter or for another channel) if useful.
+10. If the user's goal continues, suggest `announcement` for a wider audience, or `performance-review` to log the evidence for the review cycle.
 
 ## Output format
 ```markdown
@@ -63,6 +64,7 @@ Alternate (<channel>): <short version>
 - [ ] Tone fits the channel; no private details in public messages.
 - [ ] Does not glorify unsustainable effort.
 - [ ] 3-6 sentences.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Generic praise ("rockstar", "amazing work") that could be sent to anyone. Name the action.

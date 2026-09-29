@@ -42,6 +42,7 @@ If the question is missing, ask for it. List every other gap as an open question
 9. Plan the deliverable: format, audience, level of detail, and date.
 10. Note privacy: minimize personal data, aggregate or mask identifiers, respect KVKK/GDPR purpose limitation.
 11. Fill the template and list open questions with owners.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `data-exploration` to profile the data or `metric-definition` for any metric still ambiguous.
 
 ## Output format
 ```markdown
@@ -94,6 +95,7 @@ Population: ... | Unit: ... | Window: ... | Comparison: ... | Exclusions: ...
 - [ ] Decision thresholds are written before any result is seen.
 - [ ] Data sources are not invented; unconfirmed ones are marked.
 - [ ] Personal data handling is addressed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Planning a before/after comparison without accounting for seasonality or concurrent launches. Add a control group or a year-over-year baseline.

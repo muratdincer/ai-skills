@@ -38,8 +38,9 @@ Zaman damgaları veya saat dilimleri belirsizse zaman çizelgesini kurmadan önc
 5. Kaynakları trace/correlation ID ile veya sıkı zaman hizalamasıyla ilişkilendir; karşılaştırma için bir başarısız ve bir başarılı isteği uçtan uca izle.
 6. Yayılımı haritala: yukarı akıştaki neden → aşağı akıştaki belirtiler (timeout'lar, yeniden denemeler, açılan circuit breaker'lar, kuyruk birikmesi). Yükü büyüten yeniden deneme fırtınalarına dikkat et.
 7. Eşzamanlı değişiklikleri kontrol et: dağıtımlar, yapılandırma yeniden yüklemeleri, sertifika süre dolumu, zamanlanmış işler, trafik artışları.
-8. Bulguları Doğrulanmış (loglarda doğrudan görülen), Çıkarım (loglarla tutarlı ama kanıtlanmamış) ve Bilinmeyen (kanıt eksik) olarak ayır.
+8. Kök neden doğrulanmadan düzeltme önerme. Bulguları Doğrulanmış (loglarda doğrudan görülen), Çıkarım (loglarla tutarlı ama kanıtlanmamış) ve Bilinmeyen (kanıt eksik) olarak ayır.
 9. Boşlukları listele: eksik alanlar, örneklenmiş veya düşürülmüş loglar, logu olmayan servisler ve sonra neyin toplanacağı.
+10. Devret: Çıkarım bulgularını `debugging-hypotheses` ile teste dönüştür; canlı bir olaysa `incident-response`, sonrasında `postmortem` ile devam et; log boşlukları analizi engellediyse `logging-instrumentation` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ Zaman damgaları veya saat dilimleri belirsizse zaman çizelgesini kurmadan önc
 - [ ] Doğrulanmış, çıkarım ve bilinmeyen bulgular açıkça ayrılmış.
 - [ ] Alıntılanan log satırlarında kişisel veri ve gizli bilgiler maskelenmiş.
 - [ ] Eşzamanlı değişiklikler (dağıtımlar, işler, trafik) kontrol edilmiş.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - En yüksek hacimli hatayı neden saymak. Aşağı akıştaki timeout'lar ve yeniden denemeler çoğu zaman yukarı akıştaki kök nedenden daha gürültülüdür.

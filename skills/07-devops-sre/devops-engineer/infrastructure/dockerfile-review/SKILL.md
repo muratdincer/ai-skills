@@ -40,6 +40,7 @@ If the Dockerfile is missing, ask for it.
 7. Runtime correctness: exec-form `ENTRYPOINT`/`CMD` so signals reach the process; proper PID 1 handling; `EXPOSE` and `WORKDIR` set; `HEALTHCHECK` only if the orchestrator does not probe.
 8. Metadata: OCI labels for source, revision, version.
 9. Rate each finding Critical/High/Medium/Low and give a corrected snippet; then provide the full revised Dockerfile if changes are substantial.
+10. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `kubernetes-manifest-review` for the runtime configuration or `dependency-vulnerability-review` for base image and package findings.
 
 ## Output format
 ````markdown
@@ -59,6 +60,7 @@ Summary: <2-3 lines: main risks, expected size/security effect (qualitative)>
 - [ ] Base image is pinned; no `latest`.
 - [ ] Revised file is syntactically valid and preserves the original behavior.
 - [ ] No invented size or CVE numbers; expected effects are qualitative unless data was given.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Copying the whole context before installing dependencies, which busts the cache on every change. Copy manifests first.

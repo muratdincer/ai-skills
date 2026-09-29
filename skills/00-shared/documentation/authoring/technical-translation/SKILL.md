@@ -42,6 +42,7 @@ If the source or direction is missing, ask. Do not guess domain terms with multi
 8. Preserve the source structure: headings, lists, tables, links, emphasis and numbering.
 9. Check UI strings against length limits and placeholder order; note where grammar forces reordering.
 10. Deliver the translation plus a translator's note listing term decisions, ambiguities and items to confirm.
+11. If the user's goal continues, suggest `glossary-builder` to lock the term decisions or `document-review` for a native-speaker review of the target text.
 
 ## Output format
 ```markdown
@@ -63,6 +64,7 @@ To confirm: <terms or sentences needing a domain owner>
 - [ ] Turkish suffixes, apostrophes and special characters are correct.
 - [ ] Structure and formatting match the source.
 - [ ] Ambiguities are flagged, not silently resolved.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Translating identifiers or log messages that users search for. Keep them in the original and explain in prose if needed.

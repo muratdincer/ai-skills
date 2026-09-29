@@ -38,6 +38,7 @@ Ne diff ne de açıklama verildiyse iste. Neden belirtilmemişse tahmin etme; g�
 6. Gövdeyi 72 sütunda satır kaydırarak yaz: problem veya motivasyon, neden bu yaklaşım, dikkat edilmesi gereken yan etkiler veya ödünleşimler. Diff'i satır satır tekrar etme.
 7. Alt bilgileri ekle: iş kaydı için `Refs:` veya `Closes:`, eşli çalışıldıysa `Co-authored-by:`, gerekiyorsa sign-off.
 8. Mesajda diff'ten kopyalanmış parola, müşteri verisi, iç sunucu adı veya kimlik bilgisi olmadığını kontrol et.
+9. Kullanıcı incelemeye veya sürüme doğru ilerliyorsa branch için `pull-request-description`, kullanıcıya dönük geçmiş için `changelog-entry`, kırıcı değişiklik sonraki sürüm numarasını etkiliyorsa `semantic-versioning` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -58,6 +59,7 @@ Bölme önerildiyse her commit'i içerdiği dosya veya parçalarla birlikte list
 - [ ] Gövde nedeni açıklıyor; yalnızca diff'e bakarak okunabilecek bilgiyi tekrarlamıyor.
 - [ ] Kırıcı değişiklikler hem `!` hem de `BREAKING CHANGE:` alt bilgisiyle işaretli.
 - [ ] Uydurma iş kaydı numarası yok; bilinmeyen referanslar `[TBD]`.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "fix bug" veya "update code" gibi belirsiz başlıklar. Davranışı adlandır: "fix: reject expired tokens in refresh flow".
@@ -67,7 +69,9 @@ Bölme önerildiyse her commit'i içerdiği dosya veya parçalarla birlikte list
 ## Örnek
 Girdi: "PaymentClient'a üstel backoff ile yeniden deneme eklendi (3 deneme); `payment.timeOut` yapılandırma anahtarı `payment.timeout` olarak değiştirildi."
 
-Çıktıdan bir bölüm (iki commit'e bölündü):
+Zayıf: `fix: update payment stuff` — iki değişikliği karıştırıyor, kırıcı yeniden adlandırmayı gizliyor, nedeni yok.
+
+Güçlü, çıktıdan bir bölüm (iki commit'e bölündü):
 ```
 fix(payment)!: rename timeout config key to payment.timeout
 

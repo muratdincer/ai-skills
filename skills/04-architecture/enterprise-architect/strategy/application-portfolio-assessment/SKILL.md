@@ -43,6 +43,7 @@ If the inventory is missing, ask for it. Do not invent costs or dates; mark them
 8. Sequence the plan into waves: quick wins (low dependency eliminations), risk-driven migrations, strategic investments.
 9. Estimate impact qualitatively or with given figures only; never invent savings.
 10. List decisions needed from owners and the data gaps that lowered confidence.
+11. Separate facts from owner-provided data from your inferences, labeling each inferred score `[ASSUMPTION]`; if the goal continues, suggest `modernization-assessment` for Migrate candidates, `build-vs-buy` for replacements or `target-state-architecture`.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Criteria and weights: <table> · Data as of: <date>
 - [ ] Every Eliminate/Migrate checks dependencies, data retention and archive needs.
 - [ ] Duplicate clusters have a named survivor and rationale.
 - [ ] No costs, savings or dates are invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Letting the loudest owner rescore their system. Use evidence and a fixed rubric.

@@ -39,6 +39,7 @@ If the meeting date is missing, keep relative dates as written and mark them `[c
 8. Merge duplicates and split compound actions ("Ali and Zeynep will review and deploy") into separate items.
 9. Separate items that are really questions or risks and list them below the table.
 10. Summarize gaps: count of actions without owner or date, to be resolved in the follow-up.
+11. If the user's goal continues, suggest `meeting-follow-up` to circulate the actions, `open-questions-tracker` for questions that are not commitments, or `task-breakdown` for actions too large to finish as one item.
 
 ## Output format
 ```markdown
@@ -60,6 +61,8 @@ Not actions (move to questions/risks):
 - [ ] Relative dates are resolved or flagged.
 - [ ] Questions and risks are not disguised as actions.
 - [ ] Each action links back to its source.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Assigning "the team" or two people as owner. Accountability needs one name.

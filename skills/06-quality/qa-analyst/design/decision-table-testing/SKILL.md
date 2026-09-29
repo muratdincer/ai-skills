@@ -40,6 +40,7 @@ If rules are missing, ask for them. Where the rule text does not determine an ou
 8. Derive one test case per remaining column, with concrete data that satisfies exactly that column; add boundary values for range-based conditions.
 9. Prioritize columns by business impact and frequency.
 10. Output the table, the tests and a list of rule gaps for the product owner.
+11. Label every inferred rule or outcome `[ASSUMPTION]`; if the user continues, suggest `test-case-writing` to turn rules into cases or `pairwise-testing` when conditions explode.
 
 ## Output format
 ```markdown
@@ -64,6 +65,7 @@ Impossible combinations: <list and reason>
 - [ ] Conflicts and gaps are listed as questions, not silently resolved.
 - [ ] Test data satisfies the column precisely, including boundary values for ranges.
 - [ ] Rule precedence (which rule wins) is stated or questioned.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Collapsing columns too early and missing an interaction (e.g. express + island + member).

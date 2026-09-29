@@ -38,6 +38,7 @@ Optional, improves quality:
 6. Define the exception rule: when a not-ready item may still be pulled (e.g. urgent fix, explicit risk accepted by product owner) and how it is labeled.
 7. Define how the DoR is reviewed (e.g. at retrospectives, every few iterations) and a signal that it is too strict (items waiting long only for readiness).
 8. Write the DoR as a one-page artifact the team can paste into its board or wiki.
+9. If the user's goal continues, suggest `definition-of-done` for the matching exit criteria or `invest-check` to test current items against the new DoR.
 
 ## Output format
 ```markdown
@@ -72,6 +73,7 @@ Version: <n> · Agreed on: <date or [TBD]> · Review cadence: <cadence>
 - [ ] An exception rule exists so the DoR does not block urgent work.
 - [ ] No criterion duplicates the Definition of Done.
 - [ ] Dates and agreement status are marked `[TBD]` until the team confirms them.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Turning the DoR into a waterfall gate ("full specification signed off"). Readiness means enough to start safely, not everything known.

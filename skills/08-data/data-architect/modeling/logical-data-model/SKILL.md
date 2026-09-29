@@ -41,6 +41,7 @@ If there is no entity list and no source of attributes, ask for them.
 9. Tag attributes with sensitivity (personal, special category, confidential) and flag candidates for masking or minimization.
 10. Trace each attribute to its source requirement or field; list requirements with no attribute and attributes with no requirement.
 11. Record open issues and assumptions.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `database-schema-design` for the physical design, or `data-classification` for attributes carrying personal data.
 
 ## Output format
 ```markdown
@@ -75,6 +76,7 @@ Definition: <...> | Business key: <attrs> | Temporal: <current / effective-dated
 - [ ] Temporal handling is decided per entity and justified.
 - [ ] Sensitive attributes are tagged.
 - [ ] Every attribute traces to a source; gaps are listed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Generic EAV "attribute/value" tables to avoid modelling decisions. Model known attributes; limit EAV to truly user-defined extensions.

@@ -42,6 +42,7 @@ If the scope system is unclear, ask which system is being described. Unknown tec
 8. Optionally add a Deployment view mapping containers to environments and nodes.
 9. Validate: every relationship has a label; no element appears with two names; each view fits in ~20 elements; a legend or key is present.
 10. Output the diagram code and a short element catalog table; list `[TBD]` items as open questions.
+11. Label every element or relationship inferred rather than stated as `[ASSUMPTION]`; if the goal continues, suggest `solution-architecture-document`, `adr` or `architecture-review`.
 
 ## Output format
 ````markdown
@@ -66,6 +67,7 @@ workspace { model { ... } views { systemContext ... container ... } }
 - [ ] Element names and responsibilities are identical across views and the catalog.
 - [ ] Data stores and brokers are shown explicitly.
 - [ ] The code is syntactically valid for the chosen notation.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Using "API" or "Service" as responsibilities. State what the element does for the business.

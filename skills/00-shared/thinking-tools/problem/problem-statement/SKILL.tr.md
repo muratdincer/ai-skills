@@ -38,16 +38,19 @@ Durum tarifi yoksa iste. Eksik veriler, onları dolduracak kanıtla birlikte `[B
 4. 5N2K ve Olan/Olmayan (Is/Is-Not) ile sınırla: nerede ve ne zaman oluyor, nerede ve ne zaman olmuyor; bu sınır sonrasında çoğu zaman nedenlere işaret eder.
 5. Etkiyi nicelleştir: sıklık, hacim, maliyet, süre, risk, müşteri veya çalışan etkisi. Yalnızca verilen veriyi kullan; yoksa `[BİLİNMİYOR]` yaz ve gereken ölçüyü belirt.
 6. Açığı adlandır: mevcut durum ile beklenen durum veya standart.
-7. İfadeyi bir-iki cümleyle yaz: "<Kim>, <bağlam> olduğunda <ne> yaşıyor ve bu <etki> doğuruyor; oysa <beklenen>."
+7. İfadeyi bir-iki cümleyle yaz: "<Kim>, <bağlam> olduğunda <ne> yaşıyor ve bu <etki> doğuruyor; oysa <beklenen>." Ardından çözümü adlandırmadan çözüm alanını açan bir "<Kim> için <beklenen duruma> nasıl ulaşabiliriz?" (How might we) yeniden çerçevelemesi ekle.
 8. Test et: çözüm içeriyor mu? İki okuyucu farklı problemler hayal edebilir mi? Üzerinde çalışılamayacak kadar geniş mi, nedeni önceden varsayacak kadar dar mı? Düzelt.
 9. Başarı sinyallerini tanımla: problemin çözüldüğünü gösterecek gözlemlenebilir metrik değişimi.
 10. Doğrulanacak varsayımları ve kanıt boşluklarını listele.
+11. Kullanıcının hedefi devam ediyorsa nedenleri bulmak için `five-whys` veya `fishbone-analysis`, önce neyin doğrulanacağını önceliklendirmek için `assumption-mapping` öner.
 
 ## Çıktı formatı
 ```markdown
 # Problem Tanımı: <kısa başlık>
 
 **İfade:** <Kim>, <bağlam> olduğunda <ne> yaşıyor ve bu <etki> doğuruyor; oysa <beklenen durum>.
+
+**Nasıl yapabiliriz:** <Kim> için <beklenen duruma> nasıl ulaşabiliriz?
 
 | Boyut | Olan | Olmayan |
 |---|---|---|
@@ -77,6 +80,7 @@ Durum tarifi yoksa iste. Eksik veriler, onları dolduracak kanıtla birlikte `[B
 - [ ] Bilgi olan yerlerde Olan/Olmayan sınırları dolu.
 - [ ] Başarı sinyalleri gözlemlenebilir ve etkiye bağlı.
 - [ ] Önerilen çözümler atılmamış, park edilmiş.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Dashboard'umuz yok" bir problem değil eksik bir çözümdür. İnsanların bugün neyi yapamadığını veya neye karar veremediğini sor.

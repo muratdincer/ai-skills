@@ -35,12 +35,13 @@ Gereksinim metni yoksa iste. Diğer her şeyi eksik olabilecek bağlam olarak el
 2. Hedef kapsamını kontrol et: her iş hedefi en az bir gereksinimle karşılanmalı, her gereksinim bir hedefe bağlanmalı.
 3. Her akışı CRUD+yaşam döngüsü merceğiyle yürü: oluşturma, okuma, güncelleme, silme/arşivleme, onay/ret, iptal, yeniden açma, süre dolumu. İş nesnesi bazında eksik yaşam döngüsü aksiyonlarını not et.
 4. Her akışı istisna merceğiyle yürü: geçersiz girdi, zaman aşımı, kısmi hata, mükerrer gönderim, eşzamanlı düzenleme, dış sistemin kapalı olması, yetkisiz erişim.
-5. Aktör ve rolleri kontrol et: kim neyi yapabilir, vekâlet, yedek kişi, yönetici/back-office, denetçi, batch/sistem aktörleri.
+5. Aktör, rol ve yetkileri kontrol et: kim neyi yapabilir, vekâlet, yedek kişi, yönetici/back-office, denetçi, batch/sistem aktörleri; ayrıca tetikleyiciler, ön/son koşullar, destek/operasyon (izleme, runbook ihtiyacı) ve raporlama/denetim izi.
 6. Veriyi kontrol et: zorunlu alanlar, doğrulama kuralları, varsayılanlar, hesaplamalar, yuvarlama, referans veri sahipleri, saklama süresi, kişisel verinin maskelenmesi.
 7. Sınırları kontrol et: hacimler, limitler, saat dilimleri, para birimleri, diller, tarih kesimleri, ay/yıl sonu.
 8. NFR kategorilerini kontrol et: performans, erişilebilirlik (availability), güvenlik, gizlilik, denetlenebilirlik, erişilebilirlik (WCAG 2.2), kullanılabilirlik, işletilebilirlik, ölçeklenebilirlik.
 9. Geçiş ihtiyaçlarını kontrol et: veri göçü, paralel çalışma, eğitim, iletişim, geri dönüş (rollback), eski sistemin kapatılması.
-10. Her eksiği geç bulunmasının maliyetine göre etki (Yüksek/Orta/Düşük) ile puanla; bir soru ya da `[VARSAYIM]` işaretli aday gereksinim yaz.
+10. Her bulguyu ABSENT (hiç geçmiyor), WEAK (geçiyor ama karar verilebilir veya test edilebilir değil) ya da DEFERRED (açıkça ertelenmiş) olarak sınıflandır, kanıtı alıntıla ve belirsizliğin üstünü örtme. Etkiyi geç bulunmasının maliyetine göre (Yüksek/Orta/Düşük) puanla; bir soru ya da `[VARSAYIM]` işaretli aday gereksinim yaz.
+11. Kullanıcı devam etmek isterse WEAK maddeler için `ambiguity-detection`, eksik kalite nitelikleri için `nfr-specification` veya eksik hata davranışları için `error-scenario-catalog` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -51,9 +52,9 @@ Gereksinim metni yoksa iste. Diğer her şeyi eksik olabilecek bağlam olarak el
 <3-5 satır: genel bütünlük, en önemli 3 risk>
 
 ## Eksik Listesi
-| # | Kategori | Konum (bölüm/hikaye) | Eksik | Etki | Soru veya önerilen gereksinim | Sorumlu |
-|---|---|---|---|---|---|---|
-| E1 | İstisna akışı | UC-03 | Kredi bürosuna ulaşılamadığında davranış yok | Yüksek | Başvuru sahibi ne görmeli, başvuru kaydedilebilir mi? | Ürün sahibi |
+| # | Kategori | Konum (bölüm/hikaye) | Eksik | Sınıf (ABSENT/WEAK/DEFERRED) | Etki | Soru veya önerilen gereksinim | Sorumlu |
+|---|---|---|---|---|---|---|---|
+| E1 | İstisna akışı | UC-03 | Kredi bürosuna ulaşılamadığında davranış yok | ABSENT | Yüksek | Başvuru sahibi ne görmeli, başvuru kaydedilebilir mi? | Ürün sahibi |
 
 ## Kapsam Kontrolü
 | Hedef / Alan | Karşılayan gereksinim | Durum (Karşılandı / Kısmi / Eksik) |
@@ -70,6 +71,7 @@ Gereksinim metni yoksa iste. Diğer her şeyi eksik olabilecek bağlam olarak el
 - [ ] Yalnızca fonksiyonel akışlar değil, NFR ve geçiş kategorileri de kontrol edildi.
 - [ ] Etki puanları sezgiyle değil sonuca göre gerekçelendirildi.
 - [ ] Kişisel veri geçen yerlerde veri işleme eksikleri işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Hangi kararın eksik olduğunu söylemeden genel eksikler yazmak ("güvenlik tanımlı değil"). Eksik kararı tam adıyla belirt, ör. oturum zaman aşımı, onaylayan rol.
@@ -80,8 +82,8 @@ Gereksinim metni yoksa iste. Diğer her şeyi eksik olabilecek bağlam olarak el
 Girdi: "Müşteri kredi başvurusunu online yapar; sistem kredi skorunu kontrol eder; yetkili onaylar; müşteri bilgilendirilir."
 
 Çıktıdan bir bölüm:
-| # | Kategori | Konum | Eksik | Etki | Soru veya önerilen gereksinim | Sorumlu |
-|---|---|---|---|---|---|---|
-| E1 | İstisna akışı | Kredi kontrolü | Skorlama servisi hata verirse davranış yok | Yüksek | Kuyruğa alıp yeniden denensin mi, manuel skorlamaya mı düşsün? | Kredi risk |
-| E2 | Yaşam döngüsü | Başvuru | Müşteri başvurusunu geri çekemiyor | Orta | [VARSAYIM] Müşteri yetkili kararına kadar başvuruyu geri çekebilir | Ürün sahibi |
-| E3 | Rol | Onay | Limite bağlı onay veya yedek yetkili yok | Yüksek | Hangi tutarlar ikinci onay gerektiriyor? | Operasyon |
+| # | Kategori | Konum | Eksik | Sınıf (ABSENT/WEAK/DEFERRED) | Etki | Soru veya önerilen gereksinim | Sorumlu |
+|---|---|---|---|---|---|---|---|
+| E1 | İstisna akışı | Kredi kontrolü | Skorlama servisi hata verirse davranış yok | ABSENT | Yüksek | Kuyruğa alıp yeniden denensin mi, manuel skorlamaya mı düşsün? | Kredi risk |
+| E2 | Yaşam döngüsü | Başvuru | Müşteri başvurusunu geri çekemiyor | ABSENT | Orta | [VARSAYIM] Müşteri yetkili kararına kadar başvuruyu geri çekebilir | Ürün sahibi |
+| E3 | Rol | Onay | Limite bağlı onay veya yedek yetkili yok | WEAK | Yüksek | Hangi tutarlar ikinci onay gerektiriyor? | Operasyon |

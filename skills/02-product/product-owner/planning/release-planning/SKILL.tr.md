@@ -40,6 +40,7 @@ Zorunlu:
 7. Riskleri ve öngörüye etkilerini belirle; hafifletme öner.
 8. Ödünleşim seçeneklerini (tarihi kaydırmak, esnek kapsamı kesmek, uyum süresi maliyetiyle kapasite eklemek) sonuçlarıyla sun.
 9. Yeniden öngörü tetikleyicilerini ve sıklığını tanımla (ör. her iterasyonda veya haftalık, gerçekleşen verimle).
+10. Kullanıcının hedefi devam ediyorsa olasılıksal tarih için `monte-carlo-forecast`, operasyonel sürüm ve deployment planı için `release-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -79,6 +80,7 @@ Kullanılan veri: <verim/hız örneklemi, dönem>
 - [ ] Kapsam büyümesi ve müsaitlik değişiklikleri dikkate alınmış.
 - [ ] Her kilometre taşının ve bağımlılığın bir tarihi ya da `[TBD]` işareti var.
 - [ ] Ödünleşimler gizlenmemiş, karar için seçenek olarak sunulmuş.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Ortalama hızın %100'üyle planlamak. Ortalamalar zamanın ancak yarısında tutar; kötümser veya 85. yüzdelik orana göre taahhüt ver.

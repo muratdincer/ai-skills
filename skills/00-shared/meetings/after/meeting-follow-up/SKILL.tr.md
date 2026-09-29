@@ -39,6 +39,7 @@ Dış alıcılar varsa neyin paylaşılabileceğini teyit et; yalnızca içeride
 8. Düzeltme satırı ekle: "Buradakilerden anladığınızla örtüşmeyen bir şey varsa lütfen <tarih> tarihine kadar yanıtlayın."
 9. Tonu hedef kitleye göre ayarla: dış taraf = daha resmi, iç jargon ve iç anlaşmazlıklar yok; iç ekip = doğrudan.
 10. Alıcılar dış taraf veya geniş bir liste ise hassas ayrıntıları (fiyat, kişisel veri, iç pozisyonlar) çıkar.
+11. Kullanıcının hedefi devam ediyorsa çözülmemiş noktaları canlı tutmak için `open-questions-tracker`, toplantıda olmayan kişilere ayrı bir mesaj için `stakeholder-email` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,8 @@ Buradakilerden anladığınızla örtüşmeyen bir şey varsa lütfen <tarih> ta
 - [ ] Her aksiyonun sorumlusu ve tarihi ya da `[TBD]` işareti var.
 - [ ] Bir düzeltme son tarihi eklendi.
 - [ ] İçerik en az güvenilen alıcıya (dış taraf, geniş liste) uygun.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Mesajı günler sonra göndermek. Değer hızdan gelir; aynı gün taslakla.

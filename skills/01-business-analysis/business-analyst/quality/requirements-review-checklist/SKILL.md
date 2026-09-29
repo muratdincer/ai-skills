@@ -40,6 +40,7 @@ If the review depth is not given, do a full review and state that.
 7. Readiness check: open issues have owners and dates; assumptions are listed; approvers are named.
 8. Record findings with location, checklist item, severity (Critical / Major / Minor / Editorial) and a suggested fix.
 9. Decide: Ready / Ready with conditions (list conditions) / Not ready. Critical findings always mean Not ready.
+10. If the user wants to continue, suggest `requirements-sign-off` when the verdict is Ready, or `requirements-gap-analysis` / `ambiguity-detection` to work off the findings.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Critical n · Major n · Minor n · Editorial n
 - [ ] Findings cite exact locations and are actionable.
 - [ ] The verdict follows from the severity rules, not from overall impression.
 - [ ] Editorial issues are not mixed with substantive ones.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Reviewing only the language and missing that whole areas (NFR, migration, reporting) are absent.

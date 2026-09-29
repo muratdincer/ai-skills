@@ -38,6 +38,7 @@ Kaynak yoksa iste. Okuyucu bilinmiyorsa ekip dışındaki üst düzey bir payda�
 7. Tartışma geçmişini, kimin ne dediğini ve okuyucunun bilmediği jargonu çıkar.
 8. Olguları söylendiği gibi koru; çıkarım olanları `[VARSAYIM]`, eksikleri `[BİLİNMİYOR]` olarak işaretle.
 9. Uzunluğu kontrol et: 80-150 kelime hedefle, asla yarım sayfayı geçme.
+10. Kullanıcının hedefi devam ediyorsa özeti göndermek için `meeting-follow-up`, taahhütlere sorumlu ve tarih atanması gerekiyorsa `action-item-extraction` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -63,6 +64,8 @@ Tam notlar: <atıf veya [TBD]>
 - [ ] Her sonraki adımın sorumlusu ve tarihi ya da `[BİLİNMİYOR]` işareti var.
 - [ ] Okuyucudan beklenen aksiyon açık.
 - [ ] En fazla 150 kelime, okuyucunun bilmediği jargon yok.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sonuç yerine tartışmayı özetlemek ("önbelleklemeyi konuştuk"). Neyin değiştiğini yaz.

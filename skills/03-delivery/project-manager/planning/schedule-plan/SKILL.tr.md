@@ -40,6 +40,7 @@ Faaliyetler veya süreler eksikse iste. Süre uydurma.
 8. Her görevi şişirmek yerine tahmin belirsizliğine göre boyutlandırılmış açık tamponlar (proje veya besleme tamponu) ekle.
 9. Hedef tarih kaçıyorsa sıkıştırma seçenekleri öner: hızlı izleme (fast-tracking, risk) ve kaynak ekleme (crashing, maliyet), ödünleşimleriyle.
 10. Kilometre taşı tablosunu, kritik yol özetini ve temel takvim risklerini üret.
+11. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: takvimi kapasiteyle sınamak için `resource-plan` ya da dış bağımlılıklar için `dependency-map`.
 
 ## Çıktı formatı
 ```markdown
@@ -64,6 +65,7 @@ Başlangıç <tarih> | Takvim <iş günleri, tatiller> | Baz v<x>
 - [ ] Kritik yol gösterildi ve açıklandı.
 - [ ] Çıkarılan bağımlılıklar ve süreler `[VARSAYIM]` olarak işaretli.
 - [ ] Tamponlar faaliyet sürelerine gizlenmedi, açıkça gösterildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Dayatılan tarihten geriye doğru planlayıp buna plan demek. Tarihi türet, sonra karşılaştır.

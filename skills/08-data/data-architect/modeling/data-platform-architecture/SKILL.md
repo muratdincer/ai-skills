@@ -41,6 +41,7 @@ If drivers or sources are missing, ask; otherwise mark design choices as `[ASSUM
 9. Assess options (e.g. warehouse-centric, lakehouse, hybrid) against requirements in a trade-off table; record key choices as ADR candidates.
 10. Identify migration approach and phases if replacing a legacy platform (strangler by domain/consumer, parallel run, reconciliation).
 11. List risks, open questions and non-negotiables.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `adr` to record the key decisions, `technology-selection` to choose products per layer, or `data-contract` for the first data products.
 
 ## Output format
 ```markdown
@@ -87,6 +88,7 @@ If drivers or sources are missing, ask; otherwise mark design choices as `[ASSUM
 - [ ] Organizational pattern matches team capability.
 - [ ] Options are compared against requirements, not feature lists; the design stays vendor-neutral.
 - [ ] Cost drivers and attribution are addressed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Choosing products first and drawing the architecture around them. Derive capabilities from requirements, then select.

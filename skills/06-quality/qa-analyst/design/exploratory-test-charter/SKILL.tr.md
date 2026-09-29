@@ -39,6 +39,7 @@ Keşfedilecek alan bilinmiyorsa iste. Diğer her şey varsayılıp `[VARSAYIM]` 
 7. Görev tanımlarını beceri ve riske göre test uzmanlarına ata; riske göre sırala.
 8. Oturum notu şablonu ver: zaman damgaları, test edilenler, fikirler, hatalar, sorular, görev içi / hazırlık / hata inceleme süre yüzdeleri.
 9. Oturum sonrası değerlendirme soruları ver: ne kapsandı, ne kapsanmadı, hangi yeni riskler çıktı, takip görev tanımı gerekiyor mu.
+10. Kullanıcı devam ederse oturum bulguları için `bug-report`, sonuçları raporlamaya taşımak için `test-summary-report` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,7 @@ Keşfedilecek alan bilinmiyorsa iste. Diğer her şey varsayılıp `[VARSAYIM]` 
 - [ ] Her görev tanımı en az bir sezgisel yöntem ve bir kâhin belirtiyor.
 - [ ] Test verisi sentetik veya maskelenmiş.
 - [ ] Değerlendirme, kapsamı ve yeni riskleri raporlanabilir kılıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Çok geniş görev tanımları ("uygulamayı keşfet"). Bir hedefe ve bir riske daralt.

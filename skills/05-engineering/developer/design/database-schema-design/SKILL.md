@@ -40,6 +40,7 @@ If the engine is unknown, write portable SQL and flag engine-specific choices as
 8. Mark personal data columns, and state retention and masking needs.
 9. Write DDL and a migration outline that is backward compatible (expand, backfill, switch, contract).
 10. List assumptions and open questions, especially on volumes and deletion rules.
+11. If the goal continues, suggest `schema-migration-plan` to roll the schema out safely or `index-recommendation` once real query patterns are known.
 
 ## Output format
 ````markdown
@@ -77,6 +78,8 @@ CREATE TABLE ...
 - [ ] Foreign key delete behavior is chosen deliberately, not left to default.
 - [ ] Personal data columns are marked and retention is addressed.
 - [ ] The migration can run without downtime or states why it cannot.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Enforcing uniqueness or non-overlap only in application code; concurrent requests will break it. Use constraints or explicit locking.

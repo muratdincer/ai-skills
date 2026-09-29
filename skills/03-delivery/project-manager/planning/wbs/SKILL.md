@@ -39,6 +39,7 @@ If no deliverable description is available, ask for it.
 7. Write a WBS dictionary entry for each work package: description, acceptance, owner role, key dependencies, assumptions.
 8. Flag packages with high uncertainty for three-point estimation.
 9. Trace every scope deliverable to at least one work package and list any gaps.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `estimation-three-point` to estimate the work packages, then `schedule-plan`.
 
 ## Output format
 ```markdown
@@ -62,6 +63,7 @@ If no deliverable description is available, ask for it.
 - [ ] Project management, testing, migration, training and deployment are present or explicitly excluded.
 - [ ] Every work package has a single owner role and acceptance.
 - [ ] Every scope deliverable traces to a package.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Mixing organizational units, phases and deliverables at the same level. Choose one decomposition principle per level.

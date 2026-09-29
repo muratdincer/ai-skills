@@ -40,6 +40,7 @@ Ham notlar yoksa iste. Konuşmayı hafızaya dayalı ipuçlarından yeniden kurg
 8. Hassas kişisel verileri (sağlık, aile, hukuki) çalışan açıkça istemedikçe çıkar veya genelleştir ve en aza indirildiğini not et.
 9. Önceki notlardaki açık maddelere bağlantı kur; çözülenleri kapat.
 10. Paylaşılabilir bir sürüm üret ve yöneticinin özel notlarında kalması gerekenleri işaretle.
+11. Kullanıcının hedefi devam ediyorsa bir sonraki görüşme için `one-on-one-prep` veya kariyer sinyalleri tekrarlanıyorsa `career-development-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -76,6 +77,7 @@ Ham notlar yoksa iste. Konuşmayı hafızaya dayalı ipuçlarından yeniden kurg
 - [ ] Hassas kişisel veriler en aza indirildi veya çıkarıldı.
 - [ ] Paylaşılabilir sürüm çalışanı şaşırtmaz veya mahcup etmez.
 - [ ] Önceki açık maddeler açıkça kapatıldı veya aktarıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Notlara yargı yazmak ("tembel", "takım oyuncusu değil"). Yalnızca davranışı ve etkiyi kaydet; notlar ileride bir anlaşmazlıkta okunabilir.

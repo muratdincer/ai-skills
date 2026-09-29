@@ -30,15 +30,16 @@ Optional, improves quality:
 If the scope or start time is unknown, list establishing them as the first cheap tests rather than guessing.
 
 ## Process
-1. Write the symptom precisely with scope and frequency; list facts separately from beliefs.
+1. Read the full error, trace and evidence before theorizing. Write the symptom precisely with scope and frequency; list facts separately from beliefs, and label every inference.
 2. Ask the discriminating questions: What changed (code, config, data, traffic, dependencies, infrastructure)? What is different between failing and working cases? Is it deterministic?
 3. Generate hypotheses across categories so none is skipped: code change, configuration/feature flag, data shape or volume, dependency or third-party behavior, infrastructure/resources, concurrency/timing, environment/time (clock, DST, certificates, quotas).
 4. For each hypothesis, state the mechanism in one sentence (how it would cause exactly this symptom) and the evidence for and against it.
 5. Discard hypotheses that contradict known facts; note why.
 6. Estimate likelihood (High/Medium/Low) from evidence, and cost to test (minutes, hours, days, needs production access).
-7. Design the cheapest discriminating test for each: an observation or experiment whose result differs depending on whether the hypothesis is true (query, metric split, log field, toggle flag, roll back one pod, replay a request).
+7. Design the cheapest discriminating test for each, changing one variable per experiment: an observation or experiment whose result differs depending on whether the hypothesis is true (query, metric split, log field, toggle flag, roll back one pod, replay a request).
 8. Order the plan by likelihood divided by cost; group tests that can run in parallel and assign owners if a team is involved.
-9. Define the stop condition: what result confirms root cause (the defect can be switched on and off by changing that factor), and what to do if all hypotheses are eliminated (widen scope, add instrumentation).
+9. Define the stop condition: what result confirms root cause (the defect can be switched on and off by changing that factor), and what to do if all hypotheses are eliminated (widen scope, add instrumentation). Iron law: no fix without a confirmed root cause; if three fixes have already failed, stop and question the design and the assumptions instead of trying a fourth.
+10. When root cause is confirmed, suggest `bug-reproduction` to lock it into a failing test; when evidence is thin, suggest `log-analysis` or `stack-trace-analysis`; for recurring or systemic causes, suggest `five-whys` or `fishbone-analysis`.
 
 ## Output format
 ```markdown
@@ -69,11 +70,13 @@ If the scope or start time is unknown, list establishing them as the first cheap
 - [ ] The plan is ordered by likelihood and cost, not by curiosity.
 - [ ] Hypotheses contradicted by facts are explicitly discarded.
 - [ ] Confirmation requires turning the defect on and off, not just correlation.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Anchoring on the recent deployment and ignoring data or traffic changes in the same window.
 - Running tests that cannot fail (e.g., checking that the service is up). Each test must be able to eliminate something.
 - Stopping at the first plausible cause. Confirm it by toggling the factor before declaring root cause.
+- Red flags: "quick fix for now", "just try X and see", stacking several changes at once. Each means guessing has replaced diagnosis; return to the hypothesis table.
 
 ## Example
 Input: After deploy v4.12, ~2% of requests exceed 5 s, only on some pods; CPU normal.

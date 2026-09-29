@@ -40,6 +40,7 @@ Yetkinlikler yoksa iş ilanından bir öneri çıkar ve onay için `[VARSAYIM]` 
 8. Karar kurallarını tanımla: Hangi puan kombinasyonu işe al / alma sonucuna götürür, kim karar verir, anlaşmazlıklar nasıl çözülür.
 9. Aday deneyimini planla: önceden ne söylenecek, hangi düzenlemeler sunulacak, geri bildirim takvimi.
 10. Süreç sağlığı metriklerini tanımla: karara kadar geçen süre, aşama başına geçiş oranı, teklif kabulü, mülakatçı kalibrasyon sapması.
+11. Kullanıcının hedefi devam ediyorsa aşama soruları için `technical-interview-questions`, değerlendirme formu için `interview-scorecard` veya karar toplantısı için `candidate-debrief` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Aday süresi: <toplam> · Karar sahibi: <rol>
 - [ ] Değerlendirme formları ortak toplantıdan önce bağımsız yazılıyor.
 - [ ] Karar kuralı ve sahibi açık.
 - [ ] Makul düzenleme ve aday iletişimi planlandı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Ayrı bir "kültür uyumu" aşaması. Benzerlik önyargısını davet eder; bunun yerine belirli değerlere dayalı davranışları ölç.

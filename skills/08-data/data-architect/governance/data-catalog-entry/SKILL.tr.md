@@ -39,6 +39,7 @@ Ne şema ne açıklama verilmişse iste. Diğer her şey tahmin yerine `[BİLİN
 8. Kullanım rehberi ver: doğru join anahtarları, yaygın filtreler, tuzaklar (çift sayım, iptal kayıtlar, para birimi), tarafsız SQL ile örnek sorgu.
 9. İşin gerçekten kullandığı etiketleri ve arama eş anlamlılarını ekle.
 10. Yaşam döngüsü alanlarını belirle: durum (taslak, yayımlandı, kullanımdan kalkıyor), sürüm, gözden geçirme tarihi.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: köken ayrıntısı için `data-lineage-doc`, kalite bölümünü desteklemek için `data-quality-rules` veya hassasiyet teyitli değilse `data-classification`.
 
 ## Çıktı formatı
 ```markdown
@@ -82,6 +83,7 @@ Sınıf: <...> | Kişisel alanlar: <...> | Maskeleme: <...> | Erişim talebi: <.
 - [ ] Hassasiyet ve erişim süreci mevcut; kişisel alanlar listelendi.
 - [ ] En az bir tuzak ve bir örnek sorgu verildi.
 - [ ] Uydurulmuş SLA, sahip veya kalite iddiası yok.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sütun adlarını açıklama olarak tekrarlamak ("customer_id: müşteri id"). Anlamı, birimleri ve uç durumları anlat.

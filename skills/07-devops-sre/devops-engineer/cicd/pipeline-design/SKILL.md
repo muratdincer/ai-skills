@@ -44,6 +44,7 @@ If the deployment target or environments are missing, ask. Record everything els
 9. Design for security of the pipeline itself: least-privilege runner identities, short-lived credentials (OIDC-style federation where available), pinned action/plugin versions, protected branches.
 10. Define observability of the pipeline: stage durations, failure rates, flaky-test tracking, DORA metric sources.
 11. Fill the template and mark unknowns.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `environment-strategy` for the target environments, `deployment-strategy` for the production rollout, or `secrets-management-plan` for pipeline credentials.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ If the deployment target or environments are missing, ask. Record everything els
 - [ ] No long-lived cloud credentials or plaintext secrets in pipeline variables.
 - [ ] Rollback is defined and does not depend on a new build.
 - [ ] Unknowns are marked `[UNKNOWN]` or `[ASSUMPTION]`, not invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Rebuilding for each environment, which means production runs an untested binary. Promote the digest.

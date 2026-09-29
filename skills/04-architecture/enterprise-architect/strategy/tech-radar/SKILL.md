@@ -42,6 +42,7 @@ If evidence is missing for an item, keep it in Assess or mark `[NEEDS EVIDENCE]`
 7. For every Hold item, state the migration guidance and the owner of the exit.
 8. Flag governance implications: what teams can do without approval (Adopt), what needs notification (Trial), what needs an ADR (Hold exceptions).
 9. Produce the radar table and a short "what changed" summary for teams.
+10. Mark ring moves based on hearsay rather than team evidence as `[ASSUMPTION]`; if the goal continues, suggest `technology-selection` for Assess items or `adr` for Adopt/Hold moves.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Ring definitions: <Adopt / Trial / Assess / Hold as defined>
 - [ ] Hold items have replacement guidance and an owner.
 - [ ] No two Adopt items overlap without a stated boundary.
 - [ ] Names, versions and license status are accurate or marked `[UNKNOWN]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Using the radar as a wish list. Items without local evidence stay in Assess.

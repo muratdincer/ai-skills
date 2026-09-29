@@ -42,6 +42,7 @@ Maliyet verisi yoksa iste. Asla tutar uydurma; yalnızca verilen veriden hesapla
 8. Birim ekonomisi: sürücüler varsa işlem/kullanıcı/kiracı başına maliyet.
 9. Aksiyonları tasarruf (veriden), efor ve riske göre önceliklendir; sahip ve doğrulama metriği ata.
 10. Yönetişim öner: etiketleme politikasının zorunlu kılınması, bütçeler ve anomali alarmları, showback/chargeback.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa talebe dayalı boyutlandırma için `capacity-planning`, etiketleme ve boyutlandırmayı kodda zorunlu kılmak için `iac-review` veya sonraki bütçe dönemi için `budget-proposal` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -62,6 +63,7 @@ Maliyet verisi yoksa iste. Asla tutar uydurma; yalnızca verilen veriden hesapla
 - [ ] Taahhütler yalnızca kararlı taban kullanıma göre boyutlandırıldı.
 - [ ] Her aksiyonun bir sahibi ve tasarrufu doğrulama yolu var.
 - [ ] Dağıtılmamış harcama ölçüldü ve ele alındı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Doğru boyutlandırmadan önce taahhüt alıp israfı kilitlemek. Önce boyutlandır.

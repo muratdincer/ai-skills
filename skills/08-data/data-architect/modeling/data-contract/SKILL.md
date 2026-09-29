@@ -39,6 +39,7 @@ If the schema or producer is unknown, ask; a contract without an accountable pro
 8. Define versioning and change policy: semantic versioning; which changes are non-breaking (add optional field) vs. breaking (remove/rename, type narrowing, semantic change); notice period, parallel-run duration, deprecation process.
 9. Define enforcement: where the contract is validated (producer CI, ingestion gate, schema registry compatibility mode) and how violations are reported.
 10. Produce the contract in a structured, machine-readable-friendly layout plus a short human summary.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `data-quality-rules` to implement the quality section, `schema-evolution-plan` for the first planned change, or `data-catalog-entry` to publish it.
 
 ## Output format
 ```markdown
@@ -79,6 +80,7 @@ Breaking changes: <list> | Notice: <...> | Parallel run: <...> | Deprecation: <.
 - [ ] SLAs are numeric; unknown values are `[TBD]`, not invented.
 - [ ] Breaking vs. non-breaking changes and notice periods are defined.
 - [ ] Personal data, masking and retention are addressed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - A schema dump labelled as a contract. Semantics, SLAs and change policy are the valuable part.

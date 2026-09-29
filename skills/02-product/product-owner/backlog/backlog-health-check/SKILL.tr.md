@@ -39,6 +39,7 @@ Zorunlu:
 7. Sıralama kalitesini kontrol et: üstteki maddeler güncel hedeflerle uyumlu mu; hatalar ve teknik borç görünür mü, yoksa gömülü mü?
 8. Her bulguyu gerekçesiyle sil/arşivle, birleştir, böl, yeniden bağla, iyileştir veya koru olarak sınıflandır.
 9. Tekrarı önleyecek düzen kuralları (giriş filtresi, azami yaş, azami backlog boyutu, gözden geçirme sıklığı) ve ilk temizlik oturumu planı öner.
+10. Kullanıcının hedefi devam ediyorsa belirsiz veya fazla büyük işaretlenen maddeler için `backlog-refinement`, kalanları yeniden sıralamak için `backlog-prioritization` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,7 @@ Veri: <n madde, mevcut alanlar, eksik alanlar>
 - [ ] Tekrarlar otomatik silinmedi, güven notuyla aday olarak sunuldu.
 - [ ] Önerilen her silmenin gerekçesi var ve ürün sahibi tarafından gözden geçirilebilir.
 - [ ] Öneriler, verildiyse güncel hedeflere bağlanıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her şeyi "ne olur ne olmaz" diye tutmak. Gerçek değeri olan maddeler geri gelir; biriktirmek yerine notla arşivle.

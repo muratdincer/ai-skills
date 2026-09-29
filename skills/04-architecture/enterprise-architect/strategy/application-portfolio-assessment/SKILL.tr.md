@@ -43,6 +43,7 @@ Envanter yoksa iste. Maliyet veya tarih uydurma; `[BİLİNMİYOR]` olarak işare
 8. Planı dalgalara böl: hızlı kazanımlar (az bağımlı kaldırmalar), risk kaynaklı taşımalar, stratejik yatırımlar.
 9. Etkiyi yalnızca nitel olarak ya da verilen rakamlarla tahmin et; tasarruf uydurma.
 10. Sahiplerden beklenen kararları ve güveni düşüren veri boşluklarını listele.
+11. Sahiplerden gelen verilerle kendi çıkarımlarını ayır, her çıkarımsal puanı `[VARSAYIM]` olarak işaretle; hedef devam ediyorsa Taşı adayları için `modernization-assessment`, yenileme için `build-vs-buy` veya `target-state-architecture` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Envanter yoksa iste. Maliyet veya tarih uydurma; `[BİLİNMİYOR]` olarak işare
 - [ ] Her Kaldır/Taşı kararında bağımlılıklar, veri saklama ve arşiv ihtiyacı kontrol edildi.
 - [ ] Mükerrer kümelerde kalacak uygulama ve gerekçesi belirtildi.
 - [ ] Hiçbir maliyet, tasarruf veya tarih uydurulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - En yüksek sesli sahibin kendi sistemini yeniden puanlamasına izin vermek. Kanıt ve sabit bir ölçek kullan.

@@ -40,6 +40,7 @@ If the text is missing, ask. If the audience is unknown, assume an informed non-
 7. Remove hedges and fillers ("it should be noted that", "in order to", "basically") unless the hedge expresses real uncertainty.
 8. Compare the result to the invariant list; every item must still be present with the same strength and value.
 9. Report the reduction (approximate word count before/after) and any content deliberately removed or moved.
+10. If the user's goal continues, suggest `document-review` for a full quality pass or `executive-summary` when a decision maker needs a one-page version.
 
 ## Output format
 ```markdown
@@ -61,6 +62,7 @@ If the text is missing, ask. If the audience is unknown, assume an informed non-
 - [ ] Each sentence has a clear actor and one main idea.
 - [ ] Jargon left in place is defined once.
 - [ ] Change notes list anything removed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Simplifying away conditions and exceptions ("unless", "only if"), which changes the rule. Protect them in the invariant list.

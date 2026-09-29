@@ -40,6 +40,7 @@ If attendance or quorum rules are missing, record them as `[UNKNOWN]` and list t
 9. Keep the tone third-person and neutral; no opinions, adjectives or verbatim arguments unless the body requires them.
 10. Add the next meeting date and the approval block (chair signature/approval date).
 11. List items to confirm before circulation (spelling of names, figures, resolution wording).
+12. If the user's goal continues, suggest `decision-log` to carry resolutions into the long-lived log or `meeting-summary` for a short version for a wider audience.
 
 ## Output format
 ```markdown
@@ -73,6 +74,8 @@ Approved by chair: ____________  Date: ______
 - [ ] Tone is neutral and third-person; no personal opinions.
 - [ ] Figures, dates and names match the source; gaps are marked `[UNKNOWN]`.
 - [ ] Next meeting and approval block are present.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing a transcript. Minutes record what was decided and the essential reasoning, not every argument.

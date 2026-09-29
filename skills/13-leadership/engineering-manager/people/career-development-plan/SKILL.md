@@ -41,6 +41,7 @@ If the target comes only from the manager, confirm the person's own aspiration f
 8. List manager commitments: sponsorship, visibility, time, budget, introductions.
 9. Set checkpoints and be explicit about what the plan does not guarantee (promotion depends on the process, business need and demonstrated evidence).
 10. Mark unconfirmed items `[ASSUMPTION]` or `[TBD]`.
+11. If the user's goal continues, suggest `goal-setting` to turn actions into period goals, or `one-on-one-prep` to schedule progress check-ins.
 
 ## Output format
 ```markdown
@@ -77,6 +78,7 @@ Current: <role, level> · Target: <level / path> · Horizon: <months> · Updated
 - [ ] Most actions are on-the-job experiences, not only courses.
 - [ ] Manager commitments and checkpoints are explicit.
 - [ ] Expectations about promotion timing are realistic and not promised.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Plans made entirely of trainings and certificates. Growth at senior levels comes from scope and ownership.

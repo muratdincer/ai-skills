@@ -39,6 +39,7 @@ If there is no log or error text, ask for it. Do not guess from the job name alo
 7. Decide on retry: retrying is acceptable only when the class is transient and evidence shows it. Otherwise do not recommend retry as the fix.
 8. Propose prevention: pinning, caching, a new check, quarantining a flaky test with a ticket, alerting on credential expiry.
 9. Note security concerns: if the log exposes a secret, recommend rotating it and masking logs.
+10. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `flaky-test-analysis` if the failure is an intermittent test, `dependency-upgrade` if a dependency change broke the build, or `pipeline-design` if the cause is structural.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ If there is no log or error text, ask for it. Do not guess from the job name alo
 - [ ] Retry is not proposed as a fix for a deterministic failure.
 - [ ] The fix distinguishes an immediate unblock from the durable fix.
 - [ ] Any exposed secret is flagged for rotation.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Reading the last error line, which is usually a consequence. Search upward for the first failure.

@@ -43,6 +43,7 @@ Sürüm modeli veya desteklenen sürüm sayısı eksikse sor; öneri bunlara ba�
 6. Sürüm ve hotfix akışını tanımla: tag'lerin nerede atıldığı, düzeltmelerin ileri veya geri nasıl taşındığı (cherry-pick yönü), sürümleme şeması.
 7. Ön koşulları ve mevcut modelden geçiş planını ölçülebilir sinyallerle yaz (branch yaşı, PR teslim süresi, merge çakışma sıklığı, hotfix teslim süresi).
 8. Ekibin çalışma anlaşmasına ekleyebileceği tek sayfalık bir politika olarak özetle.
+9. Politikanın gerektirdiği devam adımlarını öner: CI'da uygulatmak için `pipeline-design`, sürüm branch'leri ve etiketler için `semantic-versioning` ve `release-plan`, ekiple kayıt altına almak için `working-agreement`.
 
 ## Çıktı formatı
 ```markdown
@@ -83,6 +84,7 @@ Reddedilen: <model> — <gerekçe>
 - [ ] Branch ömrü sınırları ve koruma kuralları somut.
 - [ ] Ön koşullar (CI hızı, flag'ler, testler) boşluklarıyla listelenmiş.
 - [ ] Verilmeyen mevcut metrikler uydurulmamış, `[BİLİNMİYOR]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sürekli dağıtılan bir web servisi için GitFlow benimsemek. Develop branch'i ikinci bir entegrasyon noktası ekler ve her düzeltmeyi yavaşlatır.

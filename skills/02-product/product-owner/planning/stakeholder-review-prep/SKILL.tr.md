@@ -39,6 +39,7 @@ Zorunlu:
 7. Görünümü güncelle: sırada ne var, yol haritasında veya sürüm planında değişiklikler, paydaş desteği gereken riskler.
 8. Süreleri belli bir gündem oluştur: bağlam (kısa) → demo/gezinti → geri bildirim → kararlar → görünüm → aksiyonlar. Kararları zamanın yetmeme ihtimalinden önceye koy.
 9. Tek sayfalık bir ön okuma ve geri bildirim ile kararları kaydetmek için bir takip şablonu hazırla.
+10. Kullanıcının hedefi devam ediyorsa gösterimi senaryolaştırmak için `demo-script`, daveti göndermek için `meeting-agenda` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Bağlam · Seçenekler · Öneri · Karar verilmezse · Gereken tarih
 - [ ] Teslim edilen iş, kanıtla ya da açık bir "henüz veri yok" ifadesiyle sonuç olarak çerçevelenmiş.
 - [ ] Teslim edilmeyen taahhütler gerekçeleriyle açıklanmış.
 - [ ] Gündem yalnızca demoya değil, kararlara ve geri bildirime de zaman ayırıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Toplantıyı slayt tabanlı bir durum raporu gibi yürütmek. Çalışan yazılımı veya gerçek ekranları göster, zamanın çoğunu girdi almaya ayır.

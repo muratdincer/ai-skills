@@ -42,6 +42,7 @@ Zorunlu:
 8. İlk 5 riski, varsayımları ve kısıtları özet düzeyde kaydet.
 9. Proje kapanışı için başarı kriterlerini ve bunları kimin kabul edeceğini tanımla.
 10. Onay bloğu ekle ve açık soruları açılış toplantısını ne kadar engellediklerine göre sırala.
+11. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: kapsamı detaylandırmak için `scope-statement`, paydaşları eşlemek için `stakeholder-register`, ardından `kickoff-deck`.
 
 ## Çıktı formatı
 ```markdown
@@ -80,6 +81,7 @@ Zorunlu:
 - [ ] Hiçbir bütçe, tarih veya isim uydurulmadı.
 - [ ] Kapsam dışı maddeler listelendi.
 - [ ] Belge yaklaşık iki sayfaya sığıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Belgeye çözüm tasarımı yazmak. Yetki düzeyinde kal; tasarım sonra gelir.

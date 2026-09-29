@@ -41,6 +41,7 @@ If business keys cannot be identified for a source, ask; guessing keys breaks in
 9. Specify loading patterns: hubs and links insert-if-not-exists, satellites insert-if-hash-diff-changed; all loads idempotent and parallel within a layer.
 10. Map raw vault to downstream information marts (virtualized dimensions/facts from PIT + satellites).
 11. Check each source attribute lands in exactly one satellite; list unmapped attributes.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `incremental-load-design` for loading hubs, links and satellites, `dimensional-model` for the information marts, or `data-lineage-doc`.
 
 ## Output format
 ```markdown
@@ -80,6 +81,7 @@ If business keys cannot be identified for a source, ask; guessing keys breaks in
 - [ ] Hashing and load-date rules are specified once and applied everywhere.
 - [ ] Loads are insert-only and idempotent.
 - [ ] Every source attribute is mapped to exactly one satellite.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Source-system vault: one hub per source table with technical IDs, which integrates nothing. Model around business concepts.

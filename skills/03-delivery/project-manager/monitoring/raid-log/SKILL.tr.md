@@ -38,6 +38,7 @@ Ne yeni madde ne de mevcut kayıt verilmişse iste.
 7. Eskalasyon adaylarını belirle: PM düzeyinde uygulanabilir aksiyonu olmayan Yüksek öncelikliler veya kritik yolda gecikmiş olanlar.
 8. Kayıtları kapanış notu ve tarihle kapat; silme.
 9. Değişiklik özeti üret: yeni, değişen, kapanan, eskalasyonlar.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: çözüm yolu gereken sorunlar için `issue-management` ya da değişiklik özetini raporlamak için `project-status-report`.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,7 @@ Ne yeni madde ne de mevcut kayıt verilmişse iste.
 - [ ] Her açık kaydın sahibi ve tarihi var.
 - [ ] Geçişler (varsayım → sorun, risk → sorun) bağlantılarıyla kaydedildi.
 - [ ] Eskalasyon adayları açıkça belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sponsorları telaşlandırmamak için sorunları risk olarak kaydetmek. Şu an oluyorsa sorundur.

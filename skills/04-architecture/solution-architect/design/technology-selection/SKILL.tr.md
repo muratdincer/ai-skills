@@ -42,6 +42,7 @@ Gereksinimler veya kısıtlar yoksa sor. Benchmark sonucu, fiyat veya sürüm ö
 7. Duyarlılık kontrolü yap: en yüksek iki ağırlık ±10 puan değişirse kazanan değişiyor mu? Değişiyorsa belirt.
 8. Koşullu öneri ver: seçim, neden, azaltım önlemleriyle ana riskler, çıkış stratejisi ve PoC'nin neyi doğrulaması gerektiği.
 9. ADR özetini ve radar etkisini (ör. yeni Dene öğesi) taslak olarak yaz.
+10. Hedef devam ediyorsa kararı kaydetmek için `adr`, PoC sonuçları için `spike-report`, ürün ile özel geliştirme karşılaştırılıyorsa `build-vs-buy` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Gereksinimler veya kısıtlar yoksa sor. Benchmark sonucu, fiyat veya sürüm ö
 - [ ] PoC en riskli varsayımları ölçülebilir geçme eşikleriyle sınıyor.
 - [ ] Çıkış maliyeti ve bağımlılık değerlendirildi.
 - [ ] Öneri koşullarını belirtiyor ve ADR'ye dönüşmeye hazır.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Favori araçtan başlayıp ölçütleri ona göre uydurmak. Önce ihtiyacı çerçevele.

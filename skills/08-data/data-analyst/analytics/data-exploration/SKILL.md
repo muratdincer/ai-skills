@@ -40,6 +40,7 @@ If only a column list is available, produce the exploration plan with the checks
 8. Flag personal or sensitive data columns (name, e-mail, phone, national ID, location) and recommend masking or exclusion (KVKK/GDPR).
 9. Judge fitness for the intended use: usable as-is, usable with listed fixes, or not usable.
 10. Record issues with severity and the next check or owner.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `data-quality-rules` to turn issues into checks, or `analysis-plan` / `feature-engineering-plan` for the next analytical step.
 
 ## Output format
 ```markdown
@@ -77,6 +78,7 @@ If only a column list is available, produce the exploration plan with the checks
 - [ ] Outlier rule is explicit, and outliers are classified, not silently removed.
 - [ ] Sensitive columns are flagged with a handling recommendation.
 - [ ] A clear fitness-for-use verdict is given.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Trusting the mean on skewed data. Report median and percentiles.

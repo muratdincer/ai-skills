@@ -40,6 +40,7 @@ Kurallar yoksa iste. Kural metni bir sonucu belirlemiyorsa hücreyi `[BİLİNMİ
 8. Kalan her sütun için, tam olarak o sütunu sağlayan somut veriyle bir test case türet; aralık bazlı koşullar için sınır değerleri ekle.
 9. Sütunları iş etkisine ve sıklığa göre önceliklendir.
 10. Tabloyu, testleri ve ürün sahibi için kural boşlukları listesini çıktı olarak ver.
+11. Çıkarımla eklenen her kuralı veya sonucu `[VARSAYIM]` ile işaretle; kullanıcı devam ederse kuralları case'e çevirmek için `test-case-writing`, koşullar patlıyorsa `pairwise-testing` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -64,6 +65,7 @@ Kurallar yoksa iste. Kural metni bir sonucu belirlemiyorsa hücreyi `[BİLİNMİ
 - [ ] Çelişkiler ve boşluklar sessizce çözülmedi, soru olarak listelendi.
 - [ ] Test verisi sütunu, aralıklar için sınır değerler dahil, tam olarak sağlıyor.
 - [ ] Kural önceliği (hangi kuralın kazandığı) belirtildi veya soruldu.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sütunları erken daraltıp bir etkileşimi kaçırmak (ör. ekspres + ada + üye).

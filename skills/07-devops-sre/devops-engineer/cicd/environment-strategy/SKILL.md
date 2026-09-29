@@ -42,6 +42,7 @@ If the component list is missing, ask for it; other gaps go to open questions.
 8. Define refresh and reset cadence, and stability windows (e.g. UAT freeze during acceptance).
 9. Define ownership and cost controls: owner per environment, schedules to shut down idle non-prod, tagging.
 10. Fill the template and list gaps and migration steps from the current state.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `pipeline-design` for promotion between environments, `secrets-management-plan` for per-environment secrets, or `test-data-design` for non-production data.
 
 ## Output format
 ```markdown
@@ -63,6 +64,7 @@ If the component list is missing, ask for it; other gaps go to open questions.
 - [ ] No unmasked production personal data outside production.
 - [ ] Manual changes and who may deploy are defined per environment.
 - [ ] All environments are provisioned from the same code with variables.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - A staging environment that differs in database engine version or network policy, so it proves nothing. Record and close parity gaps.

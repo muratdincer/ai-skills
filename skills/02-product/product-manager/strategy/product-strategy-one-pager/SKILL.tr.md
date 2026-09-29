@@ -40,6 +40,7 @@ Zorunlu:
 7. Gerekli yetkinlikleri veya yatırımları (ekip becerileri, platform işi, ortaklıklar) ve ana riskleri listele.
 8. Tutarlılığı kontrol et: bahisler nasıl kazanılacağını destekliyor, hedef dışı konular bahislerle çelişmiyor, bütün mevcut kapasiteye sığıyor.
 9. Tek sayfada tut; ayrıntıları eklere veya bağlantılı dokümanlara taşı.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: bahisleri ölçülebilir hedeflere çevirmek için `okr-definition`, sıraya koymak için `roadmap`.
 
 ## Çıktı formatı
 ```markdown
@@ -77,6 +78,7 @@ Zorunlu:
 - [ ] Hedef dışı konular birilerinin gerçekten istediği şeyler, uydurma örnekler değil.
 - [ ] Uydurma pazar büyüklüğü, gelir veya hedef yok.
 - [ ] Tek sayfaya sığıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Hedefleri ("geliri %30 artır") listeleyip strateji demek. Strateji, bir teşhise dayanarak "nasıl" sorusuna verilen seçimdir.

@@ -38,6 +38,7 @@ Zorunlu:
 6. Bağımsız işi görünür ama ikincil tut; yaygın bir yaklaşım hedefle ilgili işin kapasitenin çoğunu kullanmasıdır `[VARSAYIM: ekip normuna göre ayarla]`.
 7. Hedefi şu ölçütlerle kontrol et: tek sonuç, iterasyon içinde ulaşılabilir, paydaşlar için anlamlı, ekibe kapsam pazarlığı için alan bırakıyor.
 8. Odak tartışmalıysa her birinin ödünleşimiyle birlikte 2 alternatif ifade öner.
+9. Kullanıcının hedefi devam ediyorsa seçilen işi boyutlandırıp kırmak için `iteration-planning`, hedefin nasıl gösterileceğini planlamak için `iteration-review-prep` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Zorunlu:
 - [ ] Her aday madde hedefe göre sınıflandırılmış.
 - [ ] Hedef kapsam pazarlığına izin veriyor (hedefe ulaşmak için tüm maddeler şart değil).
 - [ ] Üst seviye amaçla bağ belirtilmiş veya `[BİLİNMİYOR]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Hedef olarak "planlanan tüm hikayeleri tamamla" yazmak. Ödünleşimlere yön vermez; bunun yerine sonucu adlandır.

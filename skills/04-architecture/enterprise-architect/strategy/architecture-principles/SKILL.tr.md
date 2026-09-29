@@ -43,6 +43,7 @@ Hedefler veya kapsam yoksa sor. Diğer her şey açık soru olur.
 8. Uyumu tanımla: inceleyen ilkeyi nasıl denetler (inceleme sorusu, fitness function, metrik) ve sahibi kim.
 9. İstisna sürecini tanımla: kim onaylar, ne kaydedilir (ADR), bitiş veya gözden geçirme tarihi.
 10. Strateji ve organizasyonla ilgili her varsayımı `[VARSAYIM]` olarak işaretle, mimari kurul için açık soruları listele.
+11. Hedef devam ediyorsa ilkeleri bir tasarıma uygulamak için `architecture-review`, ilke istisnalarını kaydetmek için `adr` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -77,6 +78,7 @@ Sürüm: <x.y> · Sahibi: <rol veya [BİLİNMİYOR]> · Gözden geçirme: <ör. 
 - [ ] Bilinen gerilimler için açık bir öncelik kuralı veya karar mercisi var.
 - [ ] İstisna süreci tanımlı ve süreli.
 - [ ] Organizasyonla ilgili hiçbir şey uydurulmadı; boşluklar işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - 30 ilke yazmak. Kimse uygulamaz; birleştir ya da standart düzeyine indir.

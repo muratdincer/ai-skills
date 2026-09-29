@@ -41,6 +41,7 @@ Karşılaştırma noktası yoksa önerinin sınırlı olduğunu belirt ve taban 
 8. Sağlamlığı ve operasyonel uygunluğu değerlendir: zaman dilimleri arasında kararlılık, eksik özniteliklere duyarlılık, gecikme, bellek, çıkarım maliyeti.
 9. Sızıntı sinyallerini kontrol et: şüpheli derecede yüksek metrikler, baskın tek öznitelik, en güncel dilimde performans düşüşü.
 10. Öneri ver: yayınla, koşullu yayınla (gölge, kanarya, sınırlı segment) veya reddet; koşulları ve izleme gereksinimlerini listele.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa yayınlanan modeli belgelemek için `model-card`, yayın koşulları için `ml-monitoring-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -88,6 +89,7 @@ Karşılaştırma noktası yoksa önerinin sınırlı olduğunu belirt ve taban 
 - [ ] Hata analizi yalnızca sayı değil neden veriyor.
 - [ ] Adillik değerlendirildi ya da neden uygulanmadığı belirtildi.
 - [ ] Tüm sayılar verilen sonuçlardan geliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İş tarafı sabit bir eşik kullanırken yalnızca AUC raporlamak. O eşikteki precision/recall'u raporla.

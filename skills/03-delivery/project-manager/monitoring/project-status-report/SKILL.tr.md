@@ -40,6 +40,7 @@ Zorunlu:
 8. Gereken kararları seçenekler, öneri ve son tarihle açık talepler olarak formüle et.
 9. 3 cümlelik yönetici özetini en son yaz.
 10. Eksik veriyi `[BİLİNMİYOR]` olarak işaretle ve Kırmızı durumu gizleyen yumuşatıcı dilden kaçın.
+11. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: altta yatan kayıtları güncellemek için `raid-log`, maliyet ve takvim endeksleri gerekiyorsa `earned-value-analysis` ya da karar toplantısı için `steering-committee-pack`.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Genel: <RAG> (eğilim <↑/→/↓>) | PM <ad> | Tarih <tarih>
 - [ ] Kararlar son tarihli açık talepler olarak yazıldı.
 - [ ] Karpuz raporlama yok: sorunlar metne gömülmemiş, görünür.
 - [ ] Eksik veri Yeşil varsayılmadı, işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Birden Kırmızıya dönene kadar Yeşil göstermek. Sarıyı erken ve düzeltme planıyla raporla.

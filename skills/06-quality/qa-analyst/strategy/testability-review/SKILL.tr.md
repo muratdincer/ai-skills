@@ -40,6 +40,7 @@ Gereksinim metni yoksa iste.
 8. Önem derecesini test tasarımını ne kadar engellediğine göre belirle: Engelleyici, Büyük, Küçük.
 9. Her bulgu için yeniden yazım veya net bir soru öner. Önerilen eşikleri `[VARSAYIM]` ile işaretle; asla kararlaştırılmış gibi sunma.
 10. Özetle: madde bazında test edilebilirlik durumu (Test edilebilir / Sorularla test edilebilir / Test edilemez) ve ürün sahibine sorulacak öncelikli sorular.
+11. Çıkarımla yapılan her yorumu `[VARSAYIM]` ile işaretle; kullanıcı devam ederse zayıf maddeleri düzeltmek için `acceptance-criteria`, maddeler test edilebilir olunca `test-scenarios-from-requirements` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -62,6 +63,7 @@ Gereksinim metni yoksa iste.
 - [ ] Önerilen sayılar `[VARSAYIM]` ile işaretli.
 - [ ] Her madde için negatif yollar, sınırlar ve yetkiler kontrol edildi.
 - [ ] Bulgular çözüm tercihi değil doğrulanabilirlikle ilgili.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Test edilebilirlik yerine üslubu işaretlemek. Yalnızca bir testin geçti/kaldı kararı verebilmesini etkileyen konuları yükselt.

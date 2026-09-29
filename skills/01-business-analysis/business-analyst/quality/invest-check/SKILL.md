@@ -31,15 +31,16 @@ Optional, improves quality:
 If acceptance criteria are absent, still evaluate, but mark Testable as failing.
 
 ## Process
-1. Restate each story in one line: user, capability, benefit. If the benefit is missing or technical ("so that the API is called"), note it for Valuable.
+1. Restate each story in one line: user, capability, benefit. If the benefit is missing, technical ("so that the API is called") or merely restates the want, note it for Valuable. Flag generic personas ("as a user") and technical tasks written as stories; the latter belong in the work breakdown, not the story list.
 2. Independent: list dependencies on other stories, teams or systems. Distinguish hard (cannot start) from soft (ordering preference). Suggest reordering, stubbing or merging.
 3. Negotiable: check whether the story prescribes UI or technical solution details that should be open. Flag over-specification.
 4. Valuable: check that a user or business stakeholder would notice the result. Technical-only stories should state the enabled outcome or be tied to a value story.
 5. Estimable: identify unknowns blocking estimation (domain, technical, external). Suggest a spike or question for each.
 6. Small: judge against the team's typical size; if unknown, flag stories with many acceptance criteria, several roles, multiple workflows or "and" in the title. Name a split pattern (workflow step, business rule, data variation, happy/unhappy path, interface).
-7. Testable: check acceptance criteria for observable outcomes, data conditions and error cases. Propose missing criteria in Given/When/Then or rule form.
+7. Testable: check acceptance criteria for observable outcomes, data conditions and error cases. Propose missing criteria in Given/When/Then or rule form; a scenario with more than one When or Then is a split candidate.
 8. Score each letter Pass / Partial / Fail with one-line evidence; overall verdict: Ready / Needs work / Not ready.
 9. Order fixes by effort-to-impact so the team can act in the refinement session.
+10. If the user wants to continue, suggest `story-splitting` for stories failing Small, `acceptance-criteria` for stories failing Testable, or `definition-of-ready` for the full readiness gate.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ If acceptance criteria are absent, still evaluate, but mark Testable as failing.
 - [ ] Split suggestions name a split pattern and yield vertically sliced, valuable stories.
 - [ ] Proposed acceptance criteria are marked as proposals, not as agreed scope.
 - [ ] No size judgment is made in story points unless the team's scale was given.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Splitting by technical layer (UI story, API story, DB story). This breaks Valuable and Independent; split by behavior instead.
@@ -80,3 +82,7 @@ Excerpt of output:
 | S3 | Partial | Pass | Pass | Partial | Fail | Fail | Not ready |
 
 Fixes: split by payment method and by "save card" (business rule variation); add criteria for declined card and 3-D Secure failure; ask Security whether card storage is tokenized by the payment provider `[UNKNOWN]`.
+
+
+Weak rewrite: "As a user I want to pay easily so that I can pay." (generic persona, benefit restates the want)
+Strong rewrite: "As a returning customer I want to pay with a saved card so that I can complete checkout without re-entering card details."

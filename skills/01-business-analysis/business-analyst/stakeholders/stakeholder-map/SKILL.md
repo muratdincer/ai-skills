@@ -34,11 +34,12 @@ If the stakeholder list is missing, ask for it or offer to run `stakeholder-iden
 1. Define power for this initiative: formal authority (budget, approval, veto) plus informal influence (expertise, network, control of resources or data).
 2. Define interest: how much the outcome changes their work, goals or risk.
 3. Rate each stakeholder High/Low on both axes and write the evidence in one clause. Mark guesses as `[ASSUMPTION]`.
-4. Record current attitude (champion, supporter, neutral, sceptic, blocker, unknown) and the desired attitude by a named milestone.
+4. Record current attitude (champion, supporter, neutral, sceptic, blocker, unknown) and the desired attitude by a named milestone. Attitude based on hearsay rather than direct evidence is `[ASSUMPTION]`.
 5. Place them in quadrants: Manage closely (high/high), Keep satisfied (high power, low interest), Keep informed (low power, high interest), Monitor (low/low).
 6. For each quadrant define strategy, channel and frequency; for each high-power stakeholder add a personal action (what message, by whom, by when).
 7. Identify gaps: high-power sceptics without an owner, champions not leveraged, stakeholders with unknown attitude.
 8. Note that positions move; set a review trigger (phase change, key decision, reorganization).
+9. If the goal continues, suggest `communication-plan` to schedule the engagement actions or `raci-matrix` to formalize decision ownership.
 
 ## Output format
 ```markdown
@@ -69,6 +70,7 @@ Review trigger: <event>
 - [ ] Blockers and sceptics have a specific engagement action, not just "inform".
 - [ ] The map is free of judgmental language about individuals.
 - [ ] A review trigger is defined.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Equating hierarchy with power. A system owner or a senior specialist can block more than a director.

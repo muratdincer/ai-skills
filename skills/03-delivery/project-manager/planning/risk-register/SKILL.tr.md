@@ -40,6 +40,7 @@ Bağlam yoksa proje özetini iste. Verilmişse kurumsal ölçekleri kullan; yoks
 8. Yanıt sonrası kalıntı puanı tahmin et; kalıntısı yüksek riskler için geri dönüş (fallback) planları tanımla.
 9. Bütçe elveriyorsa yedek payı boyutlandırmak için beklenen parasal değeri (olasılık × maliyet etkisi) hesapla; maliyet etkisini asla uydurma.
 10. Gözden geçirme sıklığını ve kapanış kriterlerini belirle.
+11. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: sürekli takip için `raid-log` ya da ekibin henüz adlandırmadığı riskleri ortaya çıkarmak için `pre-mortem`.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,7 @@ Bağlam yoksa proje özetini iste. Verilmişse kurumsal ölçekleri kullan; yoks
 - [ ] Ölçekler tanımlı; puanlar tutarlı.
 - [ ] Yalnızca tehditler değil fırsatlar da değerlendirildi.
 - [ ] Hiçbir etki değeri uydurulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her projeye uyan genel riskler listelemek. Bu bağlama özgü yaz.

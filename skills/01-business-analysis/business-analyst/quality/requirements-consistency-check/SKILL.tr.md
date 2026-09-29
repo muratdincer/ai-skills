@@ -40,6 +40,7 @@ Kaynaklarda ID yoksa `<kaynak>-<n>` biçiminde ID ata ve eşlemeyi belirt.
 8. Tekrar ve örtüşmeleri bul: aynı veya neredeyse aynı gereksinimler; zamanla birbirinden kopacak kısmi örtüşmeler.
 9. Her bulgu için önem derecesi (Engelleyici / Büyük / Küçük) belirle, iki kaynağı da göster ve çözüm öner: belirtilen öncelik sırasına göre hangi kaynağın geçerli olduğu, birleştirme veya adı belli bir karar vericiye eskalasyon. Tahminle kazanan seçme.
 10. Gereken kararları özetle ve çözümün net olduğu yerlerde birleştirilmiş ifade öner.
+11. Kullanıcı devam etmek isterse çözülen kuralları birleştirmek için `business-rules-catalog`, çelişen terimler için `glossary-builder` veya birleştirilen ID'lerin izlenebilirliği için `traceability-matrix` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Kaynaklar: <sürümleriyle liste> · Öncelik: <sıra veya [BİLİNMİYOR]>
 - [ ] Değer çatışmaları iki kaynaktaki sayı ve birimleri birebir aktarıyor.
 - [ ] Her terim bulgusu tek bir önerilen terime bağlanıyor.
 - [ ] Tekrarlarda hangi ID'nin kalacağı belli, izlenebilirlik kaybolmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Farklı ayrıntı düzeylerini çelişki saymak (bir BRD hedefi ile onu detaylandıran hikaye). Çelişki, ikisinin aynı anda doğru olamaması demektir.

@@ -38,7 +38,8 @@ Aktiviteler yoksa kapsamdan taslak bir liste türet ve teyit için `[VARSAYIM]` 
 5. C'yi yalnızca iş tamamlanmadan önce girdi gerekiyorsa (çift yönlü), I'yı tamamlandıktan sonra haber vermek yetiyorsa (tek yönlü) ekle.
 6. Doğrula: A'sı veya R'si olmayan satırlar; birden çok A'lı satırlar; çok sayıda A'sı olan sütunlar (darboğaz); hiç R veya A'sı olmayan sütunlar (bu rol neden burada?); aşırı C içeren satırlar (yavaş kararlar).
 7. Eskalasyon yolu gerektiren kararları vurgula ve eskalasyon rolünü belirt.
-8. Sahipliği tartışmalı veya bilinmeyen noktaları açık konu olarak listele; tahminle çözme.
+8. Sahipliği tartışmalı veya bilinmeyen noktaları açık konu olarak listele; tahminle çözme. Kullanıcının söylemediği, senin çıkardığın her atamayı `[VARSAYIM]` olarak işaretle.
+9. Hedef devam ediyorsa C ve I atamalarını iletişim ritmine çevirmek için `communication-plan`, iletişim stratejisi hâlâ eksikse `stakeholder-map` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Açıklama: R = Sorumlu, A = Hesap Veren, C = Danışılan, I = Bilgilendirilen
 - [ ] C idareli ve yalnızca gerçekten girdi gerektiğinde kullanıldı.
 - [ ] Tartışmalı sahiplik sessizce atanmadı, açık soru olarak listelendi.
 - [ ] Uydurma isimler değil roller kullanıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Bir kurulu Hesap Veren yapmak. Tek bir rol belirle; kurul Danışılan olabilir.

@@ -40,6 +40,7 @@ Zorunlu:
 7. Hazırlık kontrolü: açık konuların sorumlusu ve tarihi var; varsayımlar listelenmiş; onaylayanlar adlandırılmış.
 8. Bulguları konum, kontrol maddesi, önem derecesi (Kritik / Büyük / Küçük / Yazım) ve önerilen düzeltmeyle kaydet.
 9. Karar ver: Hazır / Koşullu hazır (koşulları listele) / Hazır değil. Kritik bulgu her zaman Hazır değil demektir.
+10. Kullanıcı devam etmek isterse karar Hazır ise `requirements-sign-off`, bulguları kapatmak için ise `requirements-gap-analysis` / `ambiguity-detection` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Kritik n · Büyük n · Küçük n · Yazım n
 - [ ] Bulgular tam konumu gösteriyor ve uygulanabilir.
 - [ ] Karar genel izlenime göre değil, önem derecesi kurallarına göre verildi.
 - [ ] Yazım sorunları esasa ilişkin bulgularla karıştırılmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca dile bakıp bütün alanların (NFR, göç, raporlama) eksik olduğunu kaçırmak.

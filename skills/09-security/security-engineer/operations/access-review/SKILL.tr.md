@@ -41,6 +41,7 @@ Yetki dökümü yoksa iste. İK verisi yoksa sahipsiz hesap tespitinin mümkün 
 8. Gözden geçiren başına karar listesi hazırla: Koru / Kaldır / Değiştir / İstisna, gerekçesiyle; istisnalar telafi edici kontrol ve bitiş tarihi gerektirir.
 9. Düzeltmeleri takip et: kaldırmalar için kayıtlar, hedef tarihler, erişimin gerçekten kaldırıldığının doğrulanması.
 10. Denetçiler için özetle: popülasyon, bütünlük kontrolü (döküm toplamı ile sistem toplamı), türüne göre bulgular, kararlar, düzeltme süresi.
+11. Çıkarıma dayanan her bulguyu (ör. belgelenmiş bir görev ayrılığı kuralı olmadan çakışan sayılan rol) `[VARSAYIM]` olarak işaretle; gözden geçirme bir denetimin kanıtı olacaksa `audit-preparation` veya `control-mapping` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -67,6 +68,7 @@ Yetki dökümü yoksa iste. İK verisi yoksa sahipsiz hesap tespitinin mümkün 
 - [ ] İstisnaların onaylayanı ve bitiş tarihi var.
 - [ ] Kişisel veri en aza indirildi, paylaşılan çıktılarda hesaplar takma adlandırıldı.
 - [ ] Kaldırmalar bir doğrulama adımı içeriyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Göstermelik onay: yöneticilerin her şeyi toplu onaylaması. Karar için yalnızca riskli satırları sun, ayrıcalıklı erişimde Koru kararı için gerekçe iste.

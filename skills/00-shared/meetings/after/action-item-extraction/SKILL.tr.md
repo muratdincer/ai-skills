@@ -39,6 +39,7 @@ Toplantı tarihi yoksa göreli tarihleri yazıldığı gibi bırak ve `[tarihi t
 8. Tekrarları birleştir, bileşik aksiyonları ("Ali ve Zeynep inceleyip deploy edecek") ayrı maddelere böl.
 9. Aslında soru veya risk olan maddeleri ayır ve tablonun altında listele.
 10. Eksikleri özetle: takip mesajında çözülmesi gereken sorumlusuz veya tarihsiz aksiyon sayısı.
+11. Kullanıcının hedefi devam ediyorsa aksiyonları paylaşmak için `meeting-follow-up`, taahhüt olmayan sorular için `open-questions-tracker`, tek maddede bitmeyecek kadar büyük aksiyonlar için `task-breakdown` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,8 @@ Aksiyon olmayanlar (sorulara/risklere taşı):
 - [ ] Göreli tarihler çözüldü veya işaretlendi.
 - [ ] Sorular ve riskler aksiyon kılığına sokulmadı.
 - [ ] Her aksiyon kaynağına bağlı.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Ekip"i veya iki kişiyi sorumlu yazmak. Hesap verebilirlik tek bir isim gerektirir.

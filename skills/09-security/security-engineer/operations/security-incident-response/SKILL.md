@@ -41,6 +41,7 @@ If the observation is missing, ask. Do not delay containment advice for optional
 8. Assess personal data breach: if personal data may be affected, involve the data controller's privacy officer and legal. Under GDPR, notify the supervisory authority within 72 hours of becoming aware unless the breach is unlikely to result in a risk; under KVKK, notify the KVK Board as soon as possible (the Board's guidance expects within 72 hours) and inform data subjects. Legal decides; the skill only prepares facts.
 9. Communicate: internal stakeholders on a fixed cadence, customers and partners as decided by leadership and legal; keep statements factual and approved.
 10. Close: confirm containment and eradication, list follow-up actions with owners, schedule a postmortem.
+11. Hand off: `incident-communication` for stakeholder updates, `postmortem` for the blameless review, `security-finding-report` for each exploited weakness.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ If the observation is missing, ask. Do not delay containment advice for optional
 - [ ] Personal data impact and notification deadlines are assessed and assigned to legal/privacy.
 - [ ] Credentials, tokens and personal data are masked in the log.
 - [ ] No attribution or data volumes are stated without evidence.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Rotating one leaked key but missing the sessions, tokens and derived credentials it created.

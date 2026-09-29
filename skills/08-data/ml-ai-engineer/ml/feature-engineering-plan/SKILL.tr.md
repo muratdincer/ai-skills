@@ -40,6 +40,7 @@ Tahmin anı yoksa sor; o olmadan sızıntı değerlendirilemez.
 8. Hassas veya korunan nitelikleri ve vekillerini (posta kodu, isimden türetilen cinsiyet) işaretle; hariç tutma veya adillik izleme kararı ver (KVKK/GDPR).
 9. Doğrulamayı tanımla: üretimi yansıtan zamana dayalı bölme, varlık bazında grup bölme, öznitelik ailelerinin ablasyonu, zaman dilimleri arasında önem ve kararlılık kontrolleri.
 10. Üretim eşdeğerliğini tanımla: eğitim ve sunum için aynı kod yolu, öznitelik testleri ve öznitelik dağılımlarının izlenmesi.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa model eğitildikten sonra `model-evaluation-report` veya öznitelik hattı kontrolleri için `data-quality-rules` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -79,6 +80,7 @@ Tahmin anı: ... | Öznitelik penceresi: ... | Etiket penceresi: ... | Birim: ..
 - [ ] Doğrulama bölmesi modelin zaman içinde nasıl kullanıldığını yansıtıyor.
 - [ ] Hassas nitelikler ve vekilleri ele alındı.
 - [ ] Her öznitelik için sunum anında erişilebilirlik ve gecikme kontrol edildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yavaş değişen bir tablonun as-of değeri yerine güncel görüntüsünü kullanmak; bu geleceği sızdırır.

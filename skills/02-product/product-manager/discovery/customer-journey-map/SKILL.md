@@ -38,6 +38,7 @@ If persona or scenario is missing, ask. Items not backed by evidence are marked 
 6. Add backstage: internal teams, systems and policies behind each touchpoint, and the owner.
 7. Identify opportunities: each tied to a pain, with expected impact and effort (H/M/L) and the owner.
 8. Rank opportunities and propose 2-3 to address first, plus the metrics that should move.
+9. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `funnel-analysis` to quantify drop-offs at the painful stages, or `persona` / `jobs-to-be-done` if the actor or goal is still weakly evidenced.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ Trigger: ... · End: ... · Evidence: <sources>
 - [ ] Emotions and pains are backed by evidence or marked `[ASSUMPTION]`.
 - [ ] Every opportunity links to a specific pain and has an owner.
 - [ ] Backstage owners are named for broken touchpoints.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Mapping the ideal journey and calling it current state. Use real evidence of what happens.

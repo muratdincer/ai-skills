@@ -47,6 +47,7 @@ If the story text is missing, ask for it.
 6. Check each slice against INVEST, especially Independent, Valuable and Small; note deliberate dependencies.
 7. Propose an order: the slice that tests the riskiest assumption or delivers the walking skeleton first.
 8. Name slices that could be dropped entirely if feedback shows low value.
+9. If the user's goal continues, suggest `invest-check` to validate each slice and `acceptance-criteria` to write criteria for the retained slices.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Patterns used: <pattern list>
 - [ ] The first slice is a thin end-to-end path, not a component.
 - [ ] Spikes have a question, a timebox and an exit criterion.
 - [ ] No estimates are invented; sizing is left to the team or marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Splitting by layer or by team ("frontend story", "API story"). This defers value and integration risk; slice by behavior instead.

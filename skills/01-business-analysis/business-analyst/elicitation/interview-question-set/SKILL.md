@@ -38,7 +38,9 @@ If the interviewee type is missing, ask; the questions depend on it.
 5. For each open question add 2-3 probes: frequency, volume, exceptions, what happens when it goes wrong, who else is involved, how they know it worked.
 6. Add validation questions that confirm current hypotheses without leading ("Some people told us X; how does that match your experience?").
 7. Add a closing: priorities ("if only one thing changed..."), who else to talk to, documents or samples to share, follow-up consent.
-8. Timebox sections to fit the duration, mark must-ask questions, and remove any question that suggests a solution.
+8. Order each section as a funnel (pyramid): broad open context first, then narrower episode questions and probes, then closed confirmation questions last, so early answers are not anchored by your framing.
+9. Timebox sections to fit the duration, mark must-ask questions, and remove any question that suggests a solution. Label hypotheses you bring in as `[ASSUMPTION]` in the interviewer notes, never in the question wording.
+10. If the goal continues, suggest `interview-notes-analysis` for the notes afterwards, or `workshop-plan` when conflicting views need a joint session.
 
 ## Output format
 ```markdown
@@ -72,6 +74,8 @@ Duration: <min> · Objectives: 1) ... 2) ...
 - [ ] The timeboxes add up to the duration with buffer.
 - [ ] Recording consent and personal data handling are addressed in the opening.
 - [ ] The angle clearly matches the stakeholder type.
+- [ ] Each section runs as a funnel from broad open questions to narrow closed ones.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Asking hypotheticals ("Would you use...?"). Ask what they did last time and why.

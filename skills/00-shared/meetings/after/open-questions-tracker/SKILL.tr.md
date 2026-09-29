@@ -39,6 +39,7 @@ Kilometre taşı tarihleri verilmediyse "gereken tarih"i sorunun engellediği i�
 8. Durumu belirle: Açık, Soruldu (tarih), Cevaplandı, Kapandı-artık geçerli değil, Eskale edildi. Cevapları kaynak ve tarihle birebir kaydet.
 9. Mevcut listeyi güncellerken cevaplanan soruları kapalı bölüme taşı ve hangi karar veya dokümanların güncellenmesi gerektiğini not et.
 10. Gereken tarihi geçmiş soruları eskalasyon için işaretle.
+11. Kullanıcının hedefi devam ediyorsa risk veya soruna dönüşmüş sorular için `raid-log`, bir kararı kesinleştiren cevapları kaydetmek için `decision-log` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,8 @@ Gecikmiş / eskale edilecek: <numaralar>
 - [ ] Her birinin sorumlusu ya da önerilen rolle `[SORUMLU BİLİNMİYOR]` işareti var.
 - [ ] Gereken tarihler engellenen işten türetildi, varsayımlar işaretli.
 - [ ] Cevaplanan maddeler cevabı, kaynağı ve gereken güncellemeleri içeriyor.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kimsenin cevaplayamayacağı muğlak sorular ("performans?"). Somut ve ölçülebilir hâle getir.

@@ -39,6 +39,7 @@ If external recipients are included, confirm what may be shared; do not include 
 8. Add a correction line: "If anything here does not match your understanding, reply by <date>."
 9. Adjust tone for audience: external = more formal, no internal jargon or internal disagreements; internal = direct.
 10. Remove sensitive details (pricing, personal data, internal positions) if recipients are external or broad.
+11. If the user's goal continues, suggest `open-questions-tracker` to keep unresolved points alive or `stakeholder-email` for a separate message to people who were not in the meeting.
 
 ## Output format
 ```markdown
@@ -72,6 +73,8 @@ If anything here does not match your understanding, please reply by <date>.
 - [ ] Every action has owner and due date or `[TBD]`.
 - [ ] A correction deadline is included.
 - [ ] Content is appropriate for the least-trusted recipient (external, broad list).
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Sending it days later. The value comes from speed; draft it the same day.

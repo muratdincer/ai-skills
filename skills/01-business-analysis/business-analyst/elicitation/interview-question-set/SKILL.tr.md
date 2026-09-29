@@ -38,7 +38,9 @@ Görüşülecek kişinin tipi yoksa sor; sorular buna bağlıdır.
 5. Her açık soruya 2-3 derinleştirici soru ekle: sıklık, hacim, istisnalar, işler ters gittiğinde ne olduğu, başka kimlerin dahil olduğu, işin doğru yapıldığını nasıl anladıkları.
 6. Mevcut hipotezleri yönlendirmeden teyit eden doğrulama soruları ekle ("Bazı kişiler X dedi; bu sizin deneyiminizle ne kadar örtüşüyor?").
 7. Bir kapanış ekle: öncelikler ("tek bir şey değişecek olsa..."), başka kimlerle konuşulmalı, paylaşılacak doküman veya örnekler, takip izni.
-8. Bölümleri süreye göre planla, mutlaka sorulacak soruları işaretle ve çözüm ima eden her soruyu çıkar.
+8. Her bölümü huni (piramit) düzeninde sırala: önce geniş ve açık bağlam soruları, sonra daha dar olay soruları ve derinleştirmeler, en sonda kapalı teyit soruları. Böylece ilk cevaplar senin çerçevene çıpalanmaz.
+9. Bölümleri süreye göre planla, mutlaka sorulacak soruları işaretle ve çözüm ima eden her soruyu çıkar. Getirdiğin hipotezleri soru metninde değil, görüşmeci notlarında `[VARSAYIM]` olarak etiketle.
+10. Hedef devam ediyorsa görüşme sonrası notlar için `interview-notes-analysis`, çelişen görüşler ortak oturum gerektiriyorsa `workshop-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +74,8 @@ Süre: <dk> · Hedefler: 1) ... 2) ...
 - [ ] Bölüm süreleri toplam süreye tampon payıyla sığıyor.
 - [ ] Açılışta kayıt izni ve kişisel verilerin ele alınışı konuşuluyor.
 - [ ] Açı paydaş tipine açıkça uyuyor.
+- [ ] Her bölüm geniş açık sorulardan dar kapalı sorulara doğru huni düzeninde ilerliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Varsayımsal sorular sormak ("... kullanır mıydınız?"). Son seferde ne yaptıklarını ve nedenini sor.

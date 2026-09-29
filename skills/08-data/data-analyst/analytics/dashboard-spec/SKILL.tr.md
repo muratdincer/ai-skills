@@ -41,6 +41,7 @@ Hedef kitle veya amaç yoksa sor. Diğer her şey açık soru olur.
 8. Erişimi tanımla: satır bazlı güvenlik, kişisel veriyi kimin göreceği, maskeleme. Varsayılan olarak toplulaştırılmış görünüm kullan.
 9. Uyarı veya koşullu biçimlendirme eşiklerini ve renklerini, erişilebilirlik için renk dışı işaretlerle birlikte tanımla (WCAG 2.2 kontrast).
 10. Kabulü tanımla: kaynak toplamlarla mutabakat, performans hedefi (yüklenme süresi) ve bir kullanım gözden geçirme tarihi.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa henüz resmi tanımı olmayan her KPI için `metric-definition` veya geliştirme ekibi için `data-requirements` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -87,6 +88,7 @@ Hedef kitle veya amaç yoksa sor. Diğer her şey açık soru olur.
 - [ ] Tamamlanmamış güncel dönem ele alınmış (işaretli veya hariç).
 - [ ] Erişim ve kişisel veri kuralları açık.
 - [ ] Hiçbir şey uydurulmadı: bilinmeyen hedefler `[TBD]`.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Herkes için" tasarlamak. Tek bir birincil kitle seç; diğerleri için ayrı görünüm oluştur.

@@ -40,6 +40,7 @@ If the product situation or horizon is missing, ask for it.
 7. List capabilities or investments needed (team skills, platform work, partnerships) and key risks.
 8. Check coherence: bets support how-to-win; non-goals do not contradict bets; the whole fits available capacity.
 9. Keep it to one page; move detail to appendices or linked documents.
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `okr-definition` to turn the bets into measurable goals, or `roadmap` to sequence them.
 
 ## Output format
 ```markdown
@@ -77,6 +78,7 @@ If the product situation or horizon is missing, ask for it.
 - [ ] Non-goals are things someone actually wants, not straw men.
 - [ ] No invented market sizes, revenue or targets.
 - [ ] It fits on one page.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing goals ("grow revenue 30%") and calling it strategy. Strategy is the choice of how, given a diagnosis.

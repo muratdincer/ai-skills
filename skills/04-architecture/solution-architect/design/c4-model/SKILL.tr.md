@@ -42,6 +42,7 @@ Kapsamdaki sistem belirsizse hangi sistemin tanımlandığını sor. Bilinmeyen 
 8. İsteğe bağlı olarak konteynerleri ortam ve düğümlere eşleyen bir Dağıtım görünümü ekle.
 9. Doğrula: her ilişkinin etiketi var; hiçbir öğe iki farklı adla geçmiyor; her görünüm ~20 öğeye sığıyor; bir açıklama (legend) mevcut.
 10. Diyagram kodunu ve kısa bir öğe kataloğu tablosunu ver; `[TBD]` öğeleri açık soru olarak listele.
+11. Belirtilmeyip çıkarım yapılan her öğe veya ilişkiyi `[VARSAYIM]` olarak işaretle; hedef devam ediyorsa `solution-architecture-document`, `adr` veya `architecture-review` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -66,6 +67,7 @@ workspace { model { ... } views { systemContext ... container ... } }
 - [ ] Öğe adları ve sorumlulukları görünümlerde ve katalogda aynı.
 - [ ] Veri depoları ve mesaj kuyrukları açıkça gösterildi.
 - [ ] Kod seçilen gösterim için sözdizimsel olarak geçerli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sorumluluk olarak "API" veya "Servis" yazmak. Öğenin iş için ne yaptığını belirt.

@@ -43,6 +43,7 @@ Kapsam veya hedefler yoksa sor. Olgunluk ve önem puanları paydaşlardan gelmel
 8. Isı haritasını oluştur: yüksek önem + düşük olgunluk = yatırım; sıradan + yüksek maliyet/mükerrerlik = sadeleştir veya satın al.
 9. 3-7 yatırım teması çıkar; her birini yetkinliklere ve iş hedeflerine bağla.
 10. Açık soruları ve iş sahipleriyle yapılması gereken doğrulama oturumlarını listele.
+11. İş sahibi tarafından doğrulanmamış her olgunluk veya ısı puanını `[VARSAYIM]` olarak işaretle; hedef devam ediyorsa `application-portfolio-assessment` veya `target-state-architecture` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ Kapsam veya hedefler yoksa sor. Olgunluk ve önem puanları paydaşlardan gelmel
 - [ ] Ölçekler kullanılmadan önce tanımlandı; her puanın kaynağı veya `[VARSAYIM]` etiketi var.
 - [ ] Uygulamalar ve sahipler eşlendi; mükerrerler ve boşluklar işaretlendi.
 - [ ] Yatırım temaları hem yetkinliklere hem hedeflere bağlı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Organizasyon şemasını kopyalamak. İlk yeniden yapılanmada bozulur; "kim"i değil "ne"yi modelle.

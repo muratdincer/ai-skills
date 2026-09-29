@@ -43,6 +43,7 @@ If goal or requirements are missing, ask. Sections without input stay in the doc
 8. Section 8 Crosscutting concepts: security (authN/Z, secrets, data protection), observability, error handling, persistence, integration, configuration.
 9. Sections 9-11: decisions index, quality scenarios (stimulus/response/measure), risks and technical debt with mitigations.
 10. Section 12 Glossary. Run a consistency pass: every container in section 5 appears in 7; every quality goal in 1 is addressed in 4, 8 or 10.
+11. If the goal continues, suggest `architecture-review` before sign-off, `nfr-to-architecture` for weak quality sections or `technical-design-doc` for component-level design.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Open Questions
 - [ ] Runtime view includes at least one failure scenario.
 - [ ] Personal data flows and their protection are explicit.
 - [ ] Unknowns are `[TBD]` with an open question, not invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Documenting technology lists instead of reasons. Section 4 must say why.

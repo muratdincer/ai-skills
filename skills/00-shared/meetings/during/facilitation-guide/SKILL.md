@@ -34,12 +34,13 @@ If the decision maker is unknown for a decision meeting, flag it as a blocker in
 2. Choose the decision rule up front: decider after consultation, consent (no reasoned objection), majority vote, or consensus. State it in the opening.
 3. Build the run sheet with timeboxes that sum to 90% of the slot; keep 10% buffer and 5 minutes for closing.
 4. Write a 60-second opening: purpose, outcome, decision rule, agenda, ground rules (one conversation, parking lot, cameras if remote).
-5. For each agenda item, pick a technique that fits: silent writing then round-robin (divergence), dot voting or ranking (convergence), 1-2-4-all (many voices), fist-of-five (consent check).
+5. For each agenda item, pick a technique that fits: silent writing then round-robin (divergence), dot voting or ranking (convergence), 1-2-4-all (many voices), fist-of-five (consent check). With more than ~8 people, use breakouts of 3-5 with a named reporter and a fixed output format (e.g. top 3 options with one-line rationale); converge with note-and-vote: silent individual notes, share without debate, silent dot vote, then the decider picks and states why.
 6. Write 2-3 open prompts per item, plus one convergence prompt ("What would we need to believe to choose A?").
 7. Prepare interventions for: a dominant voice, silent participants, going off-topic, repeating arguments, a HiPPO shutting down debate, open conflict.
 8. Define the parking lot rule: what goes there and how it will be followed up.
 9. Write the closing: read back decisions and actions with owners, confirm the decision rule was met, quick check-out, who sends the summary.
 10. Add a remote/hybrid note if relevant: chat monitor, turn order, shared board.
+11. If the user's goal continues, suggest `decision-matrix` when options need structured scoring or `conflict-resolution` when a known tension needs preparation before the session.
 
 ## Output format
 ```markdown
@@ -72,6 +73,8 @@ Outcome test: <...>   Decision rule: <...>   Decider: <name or [UNKNOWN] – blo
 - [ ] Timeboxes include buffer and closing time.
 - [ ] Every item has both divergence and convergence prompts.
 - [ ] Interventions include exact wording, not just advice.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Choosing the decision rule after the discussion; losers then contest the process. Announce it in the opening.

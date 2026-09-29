@@ -38,6 +38,7 @@ Optional, improves quality:
 6. Define what happens when an item fails the DoD at iteration/sprint end or at release: it is not done, returns to the backlog, and is not counted in progress.
 7. Set a review cadence and a rule for strengthening the DoD over time (add one target criterion when capacity allows).
 8. Produce a one-page DoD suitable for the team board.
+9. If the user's goal continues, suggest `definition-of-ready` for the matching entry criteria or `release-quality-gate` for release-level checks beyond the item DoD.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ Version: <n> · Agreed: <date or [TBD]> · Applies with org baseline: <yes/no>
 - [ ] Unmet criteria are shown as targets with actions, not as met.
 - [ ] No item-specific acceptance criteria are mixed into the DoD.
 - [ ] Standards are named precisely (e.g. WCAG 2.2 AA, OWASP ASVS level).
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - A DoD the team cannot meet in practice. It gets ignored; start with what is achievable and add targets.

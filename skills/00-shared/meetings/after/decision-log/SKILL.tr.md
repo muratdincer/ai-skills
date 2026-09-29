@@ -38,6 +38,7 @@ Bir şeye gerçekten karar verilip verilmediği belirsizse `Önerildi` olarak ka
 8. Geri alınabilirliği sınıflandır: tek yönlü kapı (geri almak maliyetli) veya çift yönlü kapı; bir gözden geçirme tetikleyicisi belirle (tarih, metrik veya olay).
 9. Durumu belirle: Önerildi, Kabul edildi, D-xxx ile geçersiz kılındı, Reddedildi.
 10. Mevcut kayıtla karşılaştır; yeni karar öncekiyle çelişiyorsa öncekini Geçersiz kılındı olarak işaretle ve bunu açıkça yaz.
+11. Kullanıcının hedefi devam ediyorsa mimari açıdan önemli kararlar için `adr`, alternatifler yeterince karşılaştırılmadıysa `trade-off-analysis` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,8 @@ Kaynak: <toplantı, tarih, bağlantı>
 - [ ] En az bir alternatif ve gerekçe kaydedildi.
 - [ ] Sonuçlar ve bir gözden geçirme tetikleyicisi belirtildi.
 - [ ] Önceki kararlarla çelişkiler Geçersiz kılındı durumuyla çözüldü.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca sonucu kaydetmek. Bağlam ve reddedilen seçenekler olmadan karar yeniden açılır.

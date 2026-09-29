@@ -38,6 +38,7 @@ If neither a diff nor a description is given, ask for one. If the reason is miss
 6. Write the body, wrapped at 72 columns: the problem or motivation, why this approach, notable side effects or trade-offs. Do not restate the diff line by line.
 7. Add footers: `Refs:` or `Closes:` with work item IDs, `Co-authored-by:` if pairing, and any required sign-off.
 8. Check that the message contains no secrets, customer data, internal hostnames or credentials copied from the diff.
+9. If the user continues toward review or release, suggest `pull-request-description` for the branch, `changelog-entry` for user-facing history, or `semantic-versioning` when a breaking change affects the next version number.
 
 ## Output format
 ```markdown
@@ -58,6 +59,7 @@ If splitting is recommended, list each proposed commit with the files or hunks i
 - [ ] Body explains why; nothing in it can be read directly from the diff alone.
 - [ ] Breaking changes are marked both with `!` and a `BREAKING CHANGE:` footer.
 - [ ] No invented issue IDs; unknown references are `[TBD]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Vague subjects such as "fix bug" or "update code". Name the behavior: "fix: reject expired tokens in refresh flow".
@@ -67,7 +69,9 @@ If splitting is recommended, list each proposed commit with the files or hunks i
 ## Example
 Input: "Added exponential backoff retry (3 attempts) to PaymentClient; renamed config key `payment.timeOut` to `payment.timeout`."
 
-Excerpt of output (split into two commits):
+Weak: `fix: update payment stuff` — mixes two changes, hides a breaking rename, no why.
+
+Strong, excerpt of output (split into two commits):
 ```
 fix(payment)!: rename timeout config key to payment.timeout
 

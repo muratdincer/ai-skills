@@ -39,6 +39,7 @@ If no milestone dates are given, derive "needed-by" from what the question block
 8. Set status: Open, Asked (date), Answered, Closed-no-longer-relevant, Escalated. Record answers verbatim with source and date.
 9. When updating an existing list, move answered questions to a closed section and note which decisions or documents must be updated.
 10. Flag questions past needed-by for escalation.
+11. If the user's goal continues, suggest `raid-log` for questions that have become risks or issues and `decision-log` to record answers that settle a decision.
 
 ## Output format
 ```markdown
@@ -60,6 +61,8 @@ Overdue / escalate: <IDs>
 - [ ] Each has an owner or `[OWNER UNKNOWN]` with a suggested role.
 - [ ] Needed-by dates derive from blocked work, assumptions are marked.
 - [ ] Answered items record the answer, source and follow-up updates.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Vague questions ("performance?") that nobody can answer. Make them specific and measurable.

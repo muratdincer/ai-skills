@@ -42,6 +42,7 @@ Rolün amacı veya seviyesi belirsizse sor; ücret, yan hak veya şirket bilgisi
 8. Pratik bilgileri ekle: lokasyon, çalışma modeli, istihdam türü, izin verilirse ücret aralığı, makul düzenleme beyanı, başvuru şekli, süreç adımları.
 9. Yerel mevzuat ve kurum politikasıyla uyumlu bir fırsat eşitliği ve düzenleme cümlesi ekle.
 10. Uzunluğu (400-700 kelime) ve okunabilirliği kontrol et; bilinmeyen bilgileri `[TBD]` olarak işaretle.
+11. Kullanıcının hedefi devam ediyorsa aynı gereksinimlere göre mülakat sürecini tasarlamak için `interview-plan` veya yeni çalışan için `onboarding-plan-30-60-90` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -79,6 +80,7 @@ Lokasyon / model: <...> · Tür: <...> · Ücret: <aralık veya [TBD]>
 - [ ] Nöbet, seyahat ve çalışma modeli dürüstçe belirtildi.
 - [ ] Uydurulmuş ücret, yan hak veya şirket iddiası yok; bilinmeyenler `[TBD]`.
 - [ ] İşe alım süreci adımları listelendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - 15 teknolojilik istek listeleri. Tüm kriterleri karşılamadıkça başvurmayan nitelikli adayları caydırır. Fazlalıkları tercih sebebine taşı.

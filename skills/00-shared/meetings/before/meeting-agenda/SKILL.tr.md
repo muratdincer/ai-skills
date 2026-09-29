@@ -46,6 +46,7 @@ Zorunlu:
 7. Toplamı süreyle karşılaştır. Taşıyorsa maddeleri kes veya asenkron yürütülecek şekilde dışarı al.
 8. Ön okumaları ve katılımcıların hazırlaması gerekenleri listele.
 9. Rolleri belirle: kolaylaştırıcı, not tutan, zaman tutan.
+10. Kullanıcının hedefi devam ediyorsa gündemi göndermek için `meeting-invite`, oturum bir yönetim metni gerektiriyorsa `facilitation-guide` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,8 @@ Zorunlu:
 - [ ] Toplam süre, tampon dahil toplantı süresine sığıyor.
 - [ ] Karar maddeleri açık ve başta.
 - [ ] Sonda kapanışa zaman ayrılmış.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Gündemin yalnızca isimlerden oluşması; bir maddenin ne zaman "bitmiş" sayılacağı belli olmaz.

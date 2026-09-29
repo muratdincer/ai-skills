@@ -34,10 +34,11 @@ If the decision the survey supports is missing, ask; otherwise questions drift i
 3. Draft questions per objective. Prefer behavior and frequency ("In the last week, how many times...") over opinions and hypotheticals.
 4. Choose types deliberately: single/multiple choice with "Other (specify)" and "Not applicable", rating scales with labelled points, ranking (max 5-7 items), few open text fields.
 5. Remove bias: no leading or loaded wording, one topic per question, balanced scales, neutral order, avoid jargon, randomize option order where sensible.
-6. Add branching so respondents only see relevant questions; keep completion time at about 5-10 minutes.
+6. Order as a funnel (pyramid): easy, general behavior questions first, then specific and sensitive ones, demographics last; add branching so respondents only see relevant questions; keep completion time at about 5-10 minutes.
 7. Write the intro: purpose, time needed, anonymity or not, data use and retention (KVKK/GDPR notice); collect no personal data you do not need.
-8. Plan a pilot with 3-5 people from the population; check understanding and time.
-9. Define the analysis plan: metrics per question, segment cuts, minimum response count for reliable conclusions `[ASSUMPTION until agreed]`.
+8. Pilot with 3-5 people from the population before sending: check understanding, time and branching, then revise. Do not launch an unpiloted questionnaire.
+9. Define the analysis plan: metrics per question, segment cuts, minimum response count for reliable conclusions `[ASSUMPTION until agreed]`. Hypotheses carried over from interviews are labeled as such, not stated as findings.
+10. If the goal continues, suggest `feedback-synthesis` to analyze the responses, or `interview-question-set` to follow up on surprising results in depth.
 
 ## Output format
 ```markdown
@@ -68,6 +69,8 @@ Audience: <population> · Target time: <min> · Anonymous: <yes/no>
 - [ ] Estimated completion time is 10 minutes or less.
 - [ ] Privacy notice is present and personal data is minimized.
 - [ ] A pilot and an analysis plan are defined.
+- [ ] Questions run as a funnel from general to specific, with demographics at the end.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Asking users to design the solution ("Which features do you want?"). Ask about tasks, frequency and pain instead.

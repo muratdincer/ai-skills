@@ -41,6 +41,7 @@ Zorunlu:
 8. Cümleyi sına: Bir rakip de aynısını söyleyebilir mi? 3-5 yıl sonra da geçerli olur mu? Bir şeye "hayır" demeye yardım ediyor mu? Cevaplar hayır/evet/evet olana kadar düzelt.
 9. Ödünleşimleri açık hale getirmek için "bu vizyonun dışarıda bıraktıkları" listesini ekle.
 10. Doğrulanacak varsayımları ve sorumlusu belli açık soruları listele.
+11. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: vizyona nasıl ulaşılacağına karar vermek için `product-strategy-one-pager`, ilerlemeyi ölçmek için `north-star-metric`.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,7 @@ Zorunlu:
 - [ ] İş hedefleri nitel veya kaynaklı; uydurma rakam yok.
 - [ ] "Dışarıda bıraktıkları" listesinde en az iki gerçek ödünleşim var.
 - [ ] Vizyon 15 saniyeden kısa sürede sesli okunabiliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tüm şirketin misyonunu veya bir pazarlama sloganını yazmak. Bu ürünün kullanıcılarına ve yarattığı değişime odaklan.

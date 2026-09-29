@@ -41,6 +41,7 @@ If the business question is missing, ask; otherwise mark gaps `[TBD]`.
 8. If existing definitions conflict, show a reconciliation table (definition A vs B, difference driver, estimated direction of gap) and recommend one.
 9. Set owner, review cadence, version and effective date; note that historic values must be restated or annotated when the definition changes.
 10. Add guidance for interpretation: known seasonality, related guardrail metrics, anti-gaming notes.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `dashboard-spec` to visualize the metric or `data-quality-rules` to guard its inputs.
 
 ## Output format
 ````markdown
@@ -87,6 +88,7 @@ SELECT ... FROM ... WHERE ... GROUP BY ...
 - [ ] Time zone, period boundaries and late-data handling are stated.
 - [ ] Every edge case has a stated treatment.
 - [ ] Owner and version are set; unknowns are `[TBD]`, not guessed.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - "Active" without an activity definition. Name the qualifying events and the look-back window.

@@ -41,6 +41,7 @@ Hedef yalnızca yöneticiden geliyorsa önce kişinin kendi beklentisini teyit e
 8. Yönetici taahhütlerini listele: sponsorluk, görünürlük, zaman, bütçe, tanıştırmalar.
 9. Kontrol noktaları belirle ve planın neyi garanti etmediğini açıkça yaz (terfi; sürece, iş ihtiyacına ve gösterilen kanıta bağlıdır).
 10. Onaylanmamış maddeleri `[VARSAYIM]` veya `[TBD]` olarak işaretle.
+11. Kullanıcının hedefi devam ediyorsa aksiyonları dönem hedeflerine çevirmek için `goal-setting` veya ilerleme görüşmelerini planlamak için `one-on-one-prep` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -77,6 +78,7 @@ Mevcut: <rol, seviye> · Hedef: <seviye / yol> · Süre: <ay> · Güncelleme: <t
 - [ ] Aksiyonların çoğu yalnızca kurs değil, iş başında deneyim.
 - [ ] Yönetici taahhütleri ve kontrol noktaları açık.
 - [ ] Terfi zamanlamasına dair beklentiler gerçekçi ve söz verilmedi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tamamen eğitim ve sertifikalardan oluşan planlar. Kıdemli seviyelerde gelişim kapsam ve sahiplikten gelir.

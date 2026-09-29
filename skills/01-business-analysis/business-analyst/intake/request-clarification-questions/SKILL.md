@@ -30,26 +30,29 @@ Optional, improves quality:
 If the request text is missing, ask for it. Never ask what the request already answers.
 
 ## Process
-1. Read the request and list what is known (facts), what is implied (interpretation) and what is absent.
-2. Walk through every category in the question bank below. Keep only questions whose answer is not in the request and would change scope, design, estimate or risk.
-3. Rewrite each kept question to be specific to this request (name the screen, entity, user group, date). Remove generic wording.
-4. Prefer closed or option-based questions where possible ("A or B?", "Is it X, Y or something else?") to speed up answers.
-5. Tag each question with priority: P1 blocks analysis/estimation, P2 affects design, P3 can wait until detailed analysis.
-6. Add why it matters (one short clause) and the likely answer owner.
-7. Limit the first round to about 10-15 questions; move the rest to a "later" list.
-8. Order for the channel: meeting = conversational flow from goal to detail; email = numbered, P1 first, answerable in writing.
+1. Read the request and list what is known (facts), what is implied (interpretation, labeled `[ASSUMPTION]`) and what is absent. Note the sender's role, decision power and stake; a sponsor's ask and an end user's ask need different questions.
+2. Separate the literal ask from the underlying need (job to be done). If they may differ, the first question confirms the need. Check whether must-haves, success criteria and hard negatives (what they explicitly do not want) are known; each unknown one becomes a question.
+3. Walk through every category in the question bank below. Keep only questions whose answer is not in the request and would change scope, design, estimate or risk.
+4. Rewrite each kept question to be specific to this request (name the screen, entity, user group, date). Remove generic wording.
+5. Prefer closed or option-based questions where possible ("A or B?", "Is it X, Y or something else?") to speed up answers.
+6. Tag each question with priority: P1 blocks analysis/estimation, P2 affects design, P3 can wait until detailed analysis.
+7. Add why it matters (one short clause) and the likely answer owner.
+8. Limit the first round to about 10-15 questions; move the rest to a "later" list.
+9. Order for the channel: meeting = conversational flow from goal to detail; email = numbered, P1 first, answerable in writing.
+10. When the answers arrive, suggest `request-intake-document` to record them, `request-completeness-check` to confirm readiness, or `open-questions-tracker` for what stays open.
 
 Question bank (adapt, never paste blindly):
-- **Business and goal:** What problem happens today and how often? What triggers the date? How will we know it worked (metric, baseline, target)? What happens if we do nothing? Who decides and who pays?
-- **Users and roles:** Which user groups, how many, internal or external? Who must not see or do this? Channels and devices? Accessibility needs?
-- **Process and rules:** Which process step changes? Business rules, approvals, exceptions? What happens on the unhappy path?
+- **Business and goal:** What problem happens today, to whom and how often? What is the underlying need behind the proposed solution? What triggers the date, and what happens if it slips? How will we know it worked (metric, baseline, target)? What happens if we do nothing? Who decides and who pays?
+- **Scope and expectations:** What must the result contain on day one? What explicitly must not change or must not be built? Which related initiatives or earlier requests overlap? Is a partial or phased delivery acceptable?
+- **Users and roles:** Which user groups, how many, internal or external? Who must not see or do this? Channels and devices? Accessibility needs? Which permissions or segregation-of-duties rules apply?
+- **Process and rules:** Which process step changes? Business rules, approvals, exceptions? What happens on the unhappy path (rejection, timeout, invalid input, duplicate)? Which validations apply, and who fixes errors? What manual workaround exists today?
 - **Data:** Which entities and fields? Source of truth? Volumes and growth? Quality issues? Personal or sensitive data? Retention?
 - **Integration:** Which systems send or receive data? Real-time or batch? Who owns the interface? Error and retry expectations?
-- **Non-functional:** Response time, peak load, availability window, security level, audit trail, localization?
+- **Non-functional:** Response time, peak load and when it occurs, availability window, recovery expectations, security level, audit trail (who, what, when), localization, browser/device support?
 - **Legal and compliance:** KVKK/GDPR, sector regulation, contractual obligations, consent, audit requirements?
 - **Operations and support:** Who supports it after go-live? Monitoring, alerts, manual fallback, training, runbooks?
-- **Reporting:** Which KPIs or reports must reflect this change? Who consumes them, how often?
-- **Migration and transition:** Existing data to migrate or clean? Cut-over constraints, parallel run, backward compatibility?
+- **Reporting:** Which KPIs or reports must reflect this change? Who consumes them, how often? Must history stay comparable before and after?
+- **Migration and transition:** Existing data to migrate or clean? Cut-over constraints and freeze periods, parallel run, backward compatibility, rollback expectation, what gets decommissioned?
 
 ## Output format
 ```markdown
@@ -57,7 +60,9 @@ Question bank (adapt, never paste blindly):
 Audience: <requester / sponsor / ...> · Channel: <meeting / email>
 
 ## What we understood
-<2-3 sentence restatement, to confirm or correct>
+- Literal ask: <in their words>
+- Underlying need [ASSUMPTION]: <to confirm or correct>
+- Known must-haves / success criteria / hard negatives: <or [UNKNOWN]>
 
 ## Priority 1 – blocks analysis
 | # | Topic | Question | Why it matters | Owner |
@@ -81,6 +86,8 @@ Audience: <requester / sponsor / ...> · Channel: <meeting / email>
 - [ ] Questions are neutral and do not push a solution.
 - [ ] P1 questions are 10 or fewer and each has an owner.
 - [ ] Data, legal and NFR topics were considered even if the request is "just UI".
+- [ ] The literal ask and the underlying need are separated, and the questions cover must-haves, success criteria and hard negatives.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Dumping the whole bank on the requester. Filter hard; unanswered long lists damage trust.

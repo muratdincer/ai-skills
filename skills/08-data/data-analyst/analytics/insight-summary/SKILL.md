@@ -40,6 +40,7 @@ If results are missing, ask for them. Never fill in numbers not present in the i
 7. Translate to implications: impact on revenue, cost, customers or risk, qualitatively unless figures are given.
 8. Recommend 1-3 actions with owners, and next analyses if confidence is low.
 9. Keep it to one screen; put supporting tables in an appendix.
+10. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `executive-summary` or `presentation-outline` to take the insight to leadership.
 
 ## Output format
 ```markdown
@@ -72,6 +73,7 @@ If results are missing, ask for them. Never fill in numbers not present in the i
 - [ ] Absolute and relative changes are not confused (pts vs %).
 - [ ] At least one concrete action is recommended.
 - [ ] Caveats that could reverse the conclusion are visible.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Narrating every chart ("metric A went up, metric B went down"). Lead with the one finding that matters.

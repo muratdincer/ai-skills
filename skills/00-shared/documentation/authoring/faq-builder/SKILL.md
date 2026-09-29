@@ -41,6 +41,8 @@ If source material or audience is missing, ask. Do not answer from general knowl
 7. Group questions under 3-7 audience-oriented headings, ordered from most to least common.
 8. Check consistency: dates, names and numbers must match across answers and the source.
 9. Add links or references to the full documentation and a final "Still have questions?" entry with the support channel.
+10. Mark every answer that rests on inference rather than the source material as `[ASSUMPTION]` and move it to the gap list for an owner to confirm.
+11. If the user's goal continues, suggest `kb-article` for answers that need a full how-to, or `announcement` when the FAQ accompanies a change.
 
 ## Output format
 ```markdown
@@ -70,6 +72,7 @@ A: <direct answer first>. <supporting detail>. See: <reference>.
 - [ ] Dates, names and numbers are consistent across entries.
 - [ ] The "do nothing" and "where to get help" questions are covered.
 - [ ] The gap list is separated from publishable content.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing marketing questions nobody asks ("Why is the new tool so great?"). Use real and anticipated concerns.

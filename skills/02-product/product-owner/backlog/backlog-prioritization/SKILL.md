@@ -39,6 +39,7 @@ Optional, improves quality:
 7. Run a sensitivity check: which items change rank if one assumed score moves by one step? Flag them as "rank-sensitive".
 8. Identify candidates to defer or drop (lowest scores, no link to the goal) and state the consequence of not doing them.
 9. Summarize the top of the list against available capacity if known; otherwise present the cut line as `[TBD]`.
+10. If the user's goal continues, suggest `backlog-refinement` to make the top items ready, or `roadmap` to reflect the new order in the plan.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Capacity: <value or [TBD]> → items 1–<n> fit.
 - [ ] No item ranks above an item it depends on.
 - [ ] Rank-sensitive items are flagged.
 - [ ] Monetary or usage figures appear only if given in the input.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - False precision: presenting WSJF 4.33 vs 4.25 as a real difference. Treat close scores as ties and decide on goal fit.

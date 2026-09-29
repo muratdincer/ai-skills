@@ -41,6 +41,7 @@ If team priorities are missing, ask; goals without them drift into activity list
 8. Balance the set: no more than five goals, at most one stretch goal clearly labeled as such.
 9. Check fairness: comparable scope and difficulty to peers at the same level; capacity adjusted for part-time or planned leave without lowering the bar for the level.
 10. Mark proposed values the person has not confirmed as `[ASSUMPTION]` and plan to finalize them together.
+11. If the user's goal continues, suggest `career-development-plan` for growth goals, or `performance-review` at period end to assess them.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Role / level: <role, level> · Linked team objectives: <list>
 - [ ] At least one goal supports growth toward their stated aspiration.
 - [ ] Manager commitments are listed.
 - [ ] Goals are comparable in scope to peers at the same level.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Output metrics that are easy to game (number of PRs, story points). Prefer outcomes or quality of evidence.

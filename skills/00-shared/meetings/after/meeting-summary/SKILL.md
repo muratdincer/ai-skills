@@ -38,6 +38,7 @@ If the source is missing, ask for it. If the reader is unknown, write for a seni
 7. Remove discussion history, who-said-what and jargon the reader does not share.
 8. Keep facts as stated; mark anything inferred as `[ASSUMPTION]` and anything missing as `[UNKNOWN]`.
 9. Check length: aim for 80-150 words, never more than half a page.
+10. If the user's goal continues, suggest `meeting-follow-up` to send the recap or `action-item-extraction` when commitments need owners and dates.
 
 ## Output format
 ```markdown
@@ -63,6 +64,8 @@ Full notes: <reference or [TBD]>
 - [ ] Every next step has an owner and date or an `[UNKNOWN]` marker.
 - [ ] The reader's required action is explicit.
 - [ ] 150 words or fewer, no jargon unknown to the reader.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Summarizing the discussion instead of the outcome ("we talked about caching"). State what changed.

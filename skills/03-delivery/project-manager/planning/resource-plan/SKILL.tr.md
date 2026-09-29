@@ -39,6 +39,7 @@ Ne takvim ne de gereken roller verilmişse iste. Bir kişinin müsaitliğini asl
 6. Kritik yolla uyumu kontrol et: kritik faaliyetlerdeki açıklar önceliklidir.
 7. Yeni üyeler için oryantasyon süresini, ayrılanlar için bilgi aktarımını planla.
 8. Varsayımları ve gözden geçirme sıklığını kaydet.
+9. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: atamayı maliyetlendirmek için `budget-plan` ya da sorumlulukları netleştirmek için `raci-matrix`.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,7 @@ Dönem birimi <hafta/ay> | Verimli pay varsayımı <%x>
 - [ ] %100'ü aşan hiçbir kişi işaretsiz bırakılmadı.
 - [ ] Her açığın en az bir seçeneği ve karar sahibi var.
 - [ ] Kişisel veri planlamanın gerektirdiğiyle sınırlı (izin nedenleri veya sağlık verisi yok).
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Paylaşılan uzmanları tam zamanlı saymak. Gerçek atamalarını bağlı oldukları yöneticiyle teyit et.

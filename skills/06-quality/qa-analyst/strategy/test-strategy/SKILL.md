@@ -44,6 +44,7 @@ If the system description or business context is missing, ask for it. Everything
 9. Define quality gates and metrics: entry/exit criteria per level, coverage expectations, escaped defects, flaky rate.
 10. List roles and responsibilities (developers, QA, product, ops) and how testing fits into the delivery cadence, whatever the methodology.
 11. Record assumptions, constraints and open questions. Mark unsupported content `[ASSUMPTION]` or `[UNKNOWN]`.
+12. If the user continues, suggest `test-plan` for a specific release or `automation-framework-design` for the automation layer.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ Version: <x.y> | Owner: <name or [UNKNOWN]> | Status: Draft
 - [ ] Test data approach respects privacy law; production data is never used unmasked.
 - [ ] No tool, number or owner is invented; gaps are marked.
 - [ ] The strategy is methodology-neutral and usable by several teams.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing a test plan with dates and names. Keep the strategy stable; put schedules in `test-plan`.

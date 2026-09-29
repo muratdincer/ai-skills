@@ -40,6 +40,7 @@ If sources have no IDs, assign `<source>-<n>` IDs and state the mapping.
 8. Detect duplicates and overlaps: identical or near-identical requirements; partial overlaps that will drift.
 9. For each finding, classify severity (Blocking / Major / Minor), cite both sources, and propose a resolution: which source prevails under the stated precedence, merge, or escalate to a named decision owner. Never pick a winner by guessing.
 10. Summarize decisions needed and suggest a consolidated wording where the resolution is clear.
+11. If the user wants to continue, suggest `business-rules-catalog` to consolidate the resolved rules, `glossary-builder` for conflicting terms or `traceability-matrix` to keep merged IDs traceable.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Sources: <list with versions> · Precedence: <order or [UNKNOWN]>
 - [ ] Value conflicts quote exact numbers/units from both sources.
 - [ ] Terminology findings map to one proposed term each.
 - [ ] Duplicates identify which ID survives so traceability is not lost.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Flagging different detail levels as conflicts (a BRD goal and a story that refines it). Conflict means both cannot be true at once.

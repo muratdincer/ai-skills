@@ -39,6 +39,7 @@ Zorunlu:
 7. Varyansa en çok katkı yapan öğeleri (en büyük SS²) belirle ve belirsizliklerini neyin azaltacağını not et.
 8. Yedek payı, seçilen güven değeri ile B arasındaki fark olarak öner.
 9. Her tahminin varsayımlarını belgele; süre tahmin edilmediyse sonucun takvim süresi değil efor olduğunu belirt.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: tahminleri sıralamak için `schedule-plan` ya da maliyetlendirmek için `budget-plan`.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Birim: <birim> | Yöntem: <PERT/üçgen> | Tahmin edenler: <roller>
 - [ ] Hiçbir İ/O/K değeri uydurulmadı; örnekler etiketli.
 - [ ] Toplam verilmeden önce korelasyonlar ele alındı.
 - [ ] Sonuçlar tek sayı değil, güven düzeyiyle aralık olarak verildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "Güvenli" toplam için kötümser değerleri toplamak; bu riski aşırı büyütür. Bunun yerine SS'leri topla.

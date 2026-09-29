@@ -35,12 +35,13 @@ If the requirements text is missing, ask for it. Treat everything else as contex
 2. Check goal coverage: every business goal must be served by at least one requirement; every requirement should trace to a goal.
 3. Walk each flow with the CRUD+lifecycle lens: create, read, update, delete/archive, approve/reject, cancel, reopen, expire. Note missing lifecycle actions per business object.
 4. Walk each flow with the exception lens: invalid input, timeouts, partial failure, duplicate submission, concurrent edit, external system down, no permission.
-5. Check actors and roles: who can do what, delegation, substitution, admin/back-office, auditors, batch/system actors.
+5. Check actors, roles and permissions: who can do what, delegation, substitution, admin/back-office, auditors, batch/system actors; also triggers, pre/postconditions, support/operations (monitoring, runbook needs) and reporting/audit trail.
 6. Check data: mandatory fields, validation rules, defaults, calculations, rounding, reference data owners, retention, masking of personal data.
 7. Check boundaries: volumes, limits, time zones, currencies, languages, date cut-offs, month/year end.
 8. Check NFR categories: performance, availability, security, privacy, auditability, accessibility (WCAG 2.2), usability, operability, scalability.
 9. Check transition needs: data migration, parallel run, training, communication, rollback, legacy decommissioning.
-10. Rate each gap by impact (High/Medium/Low) based on cost if found late, and write a question or a candidate requirement marked `[ASSUMPTION]`.
+10. Classify each finding as ABSENT (not mentioned), WEAK (mentioned but not decidable or testable) or DEFERRED (explicitly postponed), quote the evidence, and do not polish over ambiguity. Rate impact (High/Medium/Low) by cost if found late and write a question or a candidate requirement marked `[ASSUMPTION]`.
+11. If the user wants to continue, suggest `ambiguity-detection` for WEAK items, `nfr-specification` for missing quality attributes or `error-scenario-catalog` for missing exception behavior.
 
 ## Output format
 ```markdown
@@ -51,9 +52,9 @@ Reviewed: <document name, version> · Coverage basis: <goals / process / data mo
 <3-5 lines: overall completeness, top 3 risks>
 
 ## Gap List
-| # | Category | Location (section/story) | Gap | Impact | Question or proposed requirement | Owner |
-|---|---|---|---|---|---|---|
-| G1 | Exception flow | UC-03 | No behavior when credit bureau is unreachable | High | What should the applicant see and can the application be saved? | Product owner |
+| # | Category | Location (section/story) | Gap | Class (ABSENT/WEAK/DEFERRED) | Impact | Question or proposed requirement | Owner |
+|---|---|---|---|---|---|---|---|
+| G1 | Exception flow | UC-03 | No behavior when credit bureau is unreachable | ABSENT | High | What should the applicant see and can the application be saved? | Product owner |
 
 ## Coverage Check
 | Goal / Area | Covered by | Status (Covered / Partial / Missing) |
@@ -70,6 +71,7 @@ Reviewed: <document name, version> · Coverage basis: <goals / process / data mo
 - [ ] NFR and transition categories were checked, not only functional flows.
 - [ ] Impact ratings are justified by consequence, not by gut feel.
 - [ ] Personal-data handling gaps are flagged where personal data appears.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing generic gaps ("security not defined") without saying what decision is missing. Name the exact decision, e.g. session timeout, role for approval.
@@ -80,8 +82,8 @@ Reviewed: <document name, version> · Coverage basis: <goals / process / data mo
 Input: "Customer submits loan application online; system checks credit score; officer approves; customer is notified."
 
 Excerpt of output:
-| # | Category | Location | Gap | Impact | Question or proposed requirement | Owner |
-|---|---|---|---|---|---|---|
-| G1 | Exception flow | Credit check | No behavior if scoring service fails | High | Queue and retry, or allow manual scoring? | Credit risk |
-| G2 | Lifecycle | Application | Customer cannot withdraw an application | Medium | [ASSUMPTION] Customer can withdraw until officer decision | Product owner |
-| G3 | Role | Approval | No limit-based approval or substitute officer | High | Which amounts need a second approver? | Operations |
+| # | Category | Location | Gap | Class (ABSENT/WEAK/DEFERRED) | Impact | Question or proposed requirement | Owner |
+|---|---|---|---|---|---|---|---|
+| G1 | Exception flow | Credit check | No behavior if scoring service fails | ABSENT | High | Queue and retry, or allow manual scoring? | Credit risk |
+| G2 | Lifecycle | Application | Customer cannot withdraw an application | ABSENT | Medium | [ASSUMPTION] Customer can withdraw until officer decision | Product owner |
+| G3 | Role | Approval | No limit-based approval or substitute officer | WEAK | High | Which amounts need a second approver? | Operations |

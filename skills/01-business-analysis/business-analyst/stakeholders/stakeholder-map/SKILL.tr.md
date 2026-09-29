@@ -34,11 +34,12 @@ Paydaş listesi yoksa iste veya önce `stakeholder-identification` çalıştırm
 1. Bu girişim için gücü tanımla: resmi yetki (bütçe, onay, veto) ve gayriresmi etki (uzmanlık, ilişki ağı, kaynak veya veri üzerindeki kontrol).
 2. İlgiyi tanımla: sonuç, kişinin işini, hedeflerini veya riskini ne kadar değiştiriyor.
 3. Her paydaşı iki eksende Yüksek/Düşük olarak puanla ve kanıtı tek ifadeyle yaz. Tahminleri `[VARSAYIM]` olarak işaretle.
-4. Mevcut tutumu (şampiyon, destekçi, tarafsız, şüpheci, engelleyici, bilinmiyor) ve belirli bir kilometre taşına kadar hedeflenen tutumu kaydet.
+4. Mevcut tutumu (şampiyon, destekçi, tarafsız, şüpheci, engelleyici, bilinmiyor) ve belirli bir kilometre taşına kadar hedeflenen tutumu kaydet. Doğrudan kanıta değil duyuma dayanan tutum `[VARSAYIM]` olarak işaretlenir.
 5. Çeyreklere yerleştir: Yakından yönet (yüksek/yüksek), Memnun tut (yüksek güç, düşük ilgi), Bilgilendir (düşük güç, yüksek ilgi), İzle (düşük/düşük).
 6. Her çeyrek için strateji, kanal ve sıklık belirle; yüksek güçlü her paydaş için kişisel bir aksiyon ekle (hangi mesaj, kim tarafından, ne zamana kadar).
 7. Boşlukları bul: sahibi olmayan yüksek güçlü şüpheciler, değerlendirilmeyen şampiyonlar, tutumu bilinmeyen paydaşlar.
 8. Konumların değiştiğini unutma; bir gözden geçirme tetikleyicisi belirle (faz değişimi, kilit karar, yeniden yapılanma).
+9. Hedef devam ediyorsa iletişim aksiyonlarını takvime bağlamak için `communication-plan`, karar sahipliğini netleştirmek için `raci-matrix` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -69,6 +70,7 @@ Gözden geçirme tetikleyicisi: <olay>
 - [ ] Engelleyiciler ve şüpheciler için yalnızca "bilgilendir" değil, somut bir aksiyon var.
 - [ ] Haritada kişiler hakkında yargılayıcı ifade yok.
 - [ ] Bir gözden geçirme tetikleyicisi tanımlandı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Hiyerarşiyi güçle eşitlemek. Bir sistem sahibi veya kıdemli bir uzman, bir direktörden daha fazla engel olabilir.

@@ -38,8 +38,9 @@ If timestamps or time zones are ambiguous, state the assumption explicitly befor
 5. Correlate across sources by trace/correlation ID or tight time alignment; follow one failing request end to end and one successful request for contrast.
 6. Map propagation: upstream cause → downstream symptoms (timeouts, retries, circuit breaker opens, queue backlog). Watch for retry storms amplifying load.
 7. Check coincident changes: deployments, config reloads, certificate expiry, scheduled jobs, traffic spikes.
-8. Separate findings into Confirmed (directly seen in logs), Inferred (consistent with logs but not proven) and Unknown (evidence missing).
+8. Do not propose a fix until the root cause is confirmed. Separate findings into Confirmed (directly seen in logs), Inferred (consistent with logs but not proven) and Unknown (evidence missing).
 9. List the gaps: missing fields, sampled or dropped logs, services without logs, and what to collect next.
+10. Hand over: turn Inferred findings into tests with `debugging-hypotheses`; if this is a live incident, continue with `incident-response`, and afterwards with `postmortem`; if logging gaps blocked the analysis, suggest `logging-instrumentation`.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ If timestamps or time zones are ambiguous, state the assumption explicitly befor
 - [ ] Confirmed, inferred and unknown findings are clearly separated.
 - [ ] Quoted log lines are masked for personal data and secrets.
 - [ ] Coincident changes (deploys, jobs, traffic) were checked.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Treating the highest-volume error as the cause. Downstream timeouts and retries are often louder than the upstream root cause.

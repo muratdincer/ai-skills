@@ -38,7 +38,9 @@ Beklenen çıktı yoksa sor: çıktısı tanımlanmamış bir çalıştay sadece
 6. Karar kurallarını baştan açıkla: uzlaşma olmazsa kim karar verir, ne "park alanına" gider.
 7. Materyalleri hazırla: her aktivite için şablonlar, pano düzeni (fiziksel veya dijital), örnek çıktılar.
 8. Uzaktan formatta daha kısa bloklar, açık söz sırası, ara odalar ve tek bir ortak pano planla.
-9. Çalıştay sonrası yazılı özetin ve takiplerin çıktısını, sahibini ve tarihini belirle.
+9. Iraksama ve yakınsamayı açıkça planla: tek görev, tek şablon ve süre sınırıyla 3-5 kişilik ara gruplar, her biri 2-3 dakikada sunum yapar; yakınsamada not-ve-oy yöntemini kullan (3-5 dakika sessiz bireysel not, tartışmasız okuma, herkese sabit sayıda nokta ile oylama, karar sahibi sonucu onaylar ya da gerekçesini söyleyerek değiştirir).
+10. Çalıştay sonrası yazılı özetin ve takiplerin çıktısını, sahibini ve tarihini belirle. Katılımcılar veya uygunluk hakkında varsaydığın her şeyi `[VARSAYIM]` olarak işaretle.
+11. Hedef devam ediyorsa kolaylaştırıcı metni için `facilitation-guide`, davet gündemi için `meeting-agenda` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -75,6 +77,8 @@ Tarih/format: <...> · Süre: <...> · Karar sahibi: <rol>
 - [ ] Süreler tampon ve mola içeriyor.
 - [ ] Ön hazırlık ve materyaller tanımlı.
 - [ ] Uzaktan/hibrit format yalnızca davette değil, yöntemlerde de yansıtılmış.
+- [ ] Her ıraksama aktivitesinin eşleşen bir yakınsama mekaniği (ör. not-ve-oy) ve bir karar sahibi var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Çok fazla kişi davet etmek. Oturumlara böl veya diğerleri için bir görüş grubu kullan.

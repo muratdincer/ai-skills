@@ -40,6 +40,8 @@ If either version is missing, ask. If only a list of claimed changes is availabl
 7. Compare with the author's stated change notes; list undeclared substantive changes separately.
 8. Formulate questions or negotiation points for changes that are unclear, unfavorable or unexplained.
 9. Summarize in 3-5 bullets for decision makers at the top.
+10. Separate what the text states from your reading of its effect: label every impact or intent you infer as `[ASSUMPTION]` and list it for the document owner to confirm.
+11. If the user's goal continues, suggest `impact-analysis` or `change-request-analysis` for material changes, or `changelog-entry` to publish the summary.
 
 ## Output format
 ```markdown
@@ -75,6 +77,7 @@ Reader perspective: <...> | Compared: <full text / excerpts>
 - [ ] Undeclared substantive changes are highlighted.
 - [ ] Impact is stated from the reader's perspective with a reason.
 - [ ] Nothing is reported as changed without citing both wordings.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Trusting the author's cover note. Always compare the texts themselves.

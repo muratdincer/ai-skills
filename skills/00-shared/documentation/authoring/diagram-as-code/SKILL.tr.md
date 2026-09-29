@@ -41,6 +41,7 @@ Tarif yoksa iste. Sözdizimi belirtilmemişse Mermaid'i varsayılan al ve bunu b
 8. Anlamı kontrol et: her öğe bağlı ya da bilinçli olarak bağımsız, ok yönleri akışla uyumlu, kardinaliteler ve durumlar metinle tutarlı.
 9. Yalnızca notasyon açık değilse lejant veya not ekle; süsleme amaçlı stil kullanma.
 10. Kodu, iki satırlık okuma rehberini ve varsayım listesini ver.
+11. Kullanıcının hedefi devam ediyorsa mimari görünümler için `c4-model`, etkileşim ayrıntısı için `sequence-flow` veya yaşam döngüsü kuralları için `state-model` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -63,6 +64,7 @@ Açık sorular: <diyagramı değiştirebilecek noktalar>
 - [ ] Düğüm sayısı okunabilir (yaklaşık 15 veya altı) ya da diyagram bölünmüş.
 - [ ] Bağlantılar etiketli; gerektiğinde senkron/asenkron ayrımı görünür.
 - [ ] Başlık yalnızca sistem adını değil mesajı ifade ediyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her şey için flowchart kullanmak. Zaman içindeki etkileşimler sequence diyagramına, varlık yaşam döngüleri state diyagramına aittir.

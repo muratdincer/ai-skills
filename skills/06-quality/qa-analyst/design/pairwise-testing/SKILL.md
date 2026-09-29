@@ -39,6 +39,7 @@ If parameters or values are missing, ask for them. If values are ranges, reduce 
 7. Raise strength to 3-way for parameter subsets with high risk (e.g. payment x currency x country) if capacity allows.
 8. Replace "don't care" cells with the most frequently used value.
 9. Report the reduction, the residual risk (untested higher-order interactions) and how to map rows to test cases.
+10. Label assumed parameter values or constraints `[ASSUMPTION]`; if the user continues, suggest `test-case-writing` to turn rows into cases or `test-data-design` for the data.
 
 ## Output format
 ```markdown
@@ -64,6 +65,7 @@ Exhaustive: <n> · Pairwise rows: <n> · Strength: 2-way (+3-way for <subset>)
 - [ ] High-usage and known risky combinations are included explicitly.
 - [ ] Parameter values are behaviorally distinct partitions, not arbitrary samples.
 - [ ] Residual risk is stated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Forgetting constraints, producing rows that cannot be executed.

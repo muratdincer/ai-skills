@@ -41,6 +41,7 @@ Bir kaynak için iş anahtarı belirlenemiyorsa sor; tahmini anahtar entegrasyon
 9. Yükleme örüntülerini belirt: hub ve link'lerde yoksa ekle, satellite'larda hash diff değiştiyse ekle; tüm yüklemeler idempotent ve katman içinde paralel.
 10. Raw vault'u alt katman bilgi mart'larına eşle (PIT + satellite'lardan sanal boyut/olgular).
 11. Her kaynak niteliğinin tam olarak bir satellite'a düştüğünü kontrol et; eşlenmemiş nitelikleri listele.
+12. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: hub, link ve satellite yüklemesi için `incremental-load-design`, bilgi martları için `dimensional-model` veya `data-lineage-doc`.
 
 ## Çıktı formatı
 ```markdown
@@ -80,6 +81,7 @@ Bir kaynak için iş anahtarı belirlenemiyorsa sor; tahmini anahtar entegrasyon
 - [ ] Hash ve load date kuralları bir kez tanımlandı ve her yerde uygulanıyor.
 - [ ] Yüklemeler yalnızca ekleme yapıyor ve idempotent.
 - [ ] Her kaynak niteliği tam olarak bir satellite'a eşlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kaynak sistem vault'u: teknik ID'lerle kaynak tablo başına bir hub; hiçbir şeyi entegre etmez. İş kavramları etrafında modelle.

@@ -41,6 +41,7 @@ Doküman yoksa iste. Amaç ve hedef kitle verilmemişse metinden çıkar, çıka
 8. Hedef kitleye uygunluk: jargon düzeyi, uzunluk, ton ve her okuyucu grubu için gereken aksiyonların açık olup olmadığı.
 9. Her bulguyu sınıflandır: Kritik (amacı engelliyor veya yanlış), Önemli (okuyucu yanlış anlayacak veya soru soracak), Küçük (cilalama). Konumu, sorunu ve somut bir düzeltme veya yeniden yazım önerisini ver.
 10. Genel bir karar ver: hazır, küçük değişikliklerle hazır veya yeniden çalışılmalı; ayrıca ilk üç aksiyonu yaz.
+11. Kullanıcının hedefi devam ediyorsa ana bulgu uzunluk veya jargon ise `document-simplify`, gereksinim dokümanları için `requirements-review-checklist` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Doküman özeti: <2 cümle>
 - [ ] Yeni olgu eklenmemiş; doğrulanamayan iddialar soruya dönüştürülmüş.
 - [ ] Genel karar Kritik ve Önemli bulgularla tutarlı.
 - [ ] Yorumlar yazara değil dokümana odaklı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kritik sorunları elli yazım hatası yorumunun arasında boğmak. Küçük sorunları grupla, amacı engelleyenle başla.

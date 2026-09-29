@@ -40,6 +40,7 @@ If no cost basis is given, produce the structure with `[UNKNOWN]` values and a l
 7. Time-phase costs by month using the schedule and payment terms to produce cash flow and the cumulative baseline (S-curve data).
 8. Include recurring costs that start at go-live if the approval requires total cost of ownership, clearly separated from project cost.
 9. List assumptions, exclusions (e.g. taxes, internal overhead) and the currency and price basis date.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `earned-value-analysis` to track actuals against this baseline, or `resource-plan` if staffing costs are still open.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Currency <x> | Price basis <date> | Version <x>
 - [ ] Contingency method is stated and linked to risks or ranges.
 - [ ] Cash flow totals equal the cost baseline.
 - [ ] Project cost and recurring run cost are separated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Hiding contingency inside line items, which makes variance analysis meaningless.

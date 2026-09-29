@@ -38,6 +38,7 @@ Taraflar veya plan bilinmiyorsa iste; şüphelenilen bağımlılıkları `[VARSA
 7. Bağımlılık zincirlerini ve döngüsel bağımlılıkları belirle; tek sağlayıcıda toplanan kümeleri işaretle.
 8. Sağlayıcı başına eskalasyon yolunu ve gözden geçirme sıklığını ekle.
 9. Riskteki bağımlılıkları risk kaydına veya RAID kaydına aktar.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: riskteki bağımlılıkları izlemek için `raid-log` veya `risk-register`, takvime yansıtmak için `schedule-plan`.
 
 ## Çıktı formatı
 ```markdown
@@ -58,6 +59,7 @@ Taraflar veya plan bilinmiyorsa iste; şüphelenilen bağımlılıkları `[VARSA
 - [ ] Her kritik bağımlılığın geri dönüş planı ve karar tarihi var.
 - [ ] Giden bağımlılıklar da dahil.
 - [ ] İsimler ve tarihler uydurulmadı; boşluklar işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Bağımlılıkları sağlayıcının haberi olmadan kaydetmek. Yazılı olarak teyit al.

@@ -38,6 +38,7 @@ Test yoksa ve çalıştırılamıyorsa bunu açıkça söyle ve karakterizasyon 
 7. Anlamsal tuzaklara dikkat et: değerlendirme sırası, taşınan koddaki yan etkiler, null/boş durumları, istisna tipleri, kayan nokta veya yuvarlama farkları, dışarı çıkarılan durumun thread güvenliği.
 8. Dizi bitince önceki ve sonraki hali hedefe göre karşılaştır, geçici iskeleti kaldır.
 9. Her adımı refactoring adı, önerilen commit sınırı ve keşfedilen davranış tuhaflıklarıyla raporla.
+10. Hedef devam ediyorsa karakterizasyon testlerinin eksik olduğu yerler için `unit-test-writing` veya yeniden düzenlenen değişikliğin incelenmesi için `code-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,8 @@ Güvenlik ağı: <mevcut testler / eklenen karakterizasyon testleri>
 - [ ] Araya hata düzeltmesi veya özellik karışmadı; tuhaflıklar ayrıca raporlandı.
 - [ ] Public API değişmedi ya da paralel değişiklikle değiştirildi.
 - [ ] Sonuç, belirtilen bir sonraki değişikliği gösterilebilir biçimde kolaylaştırıyor.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Refactoring adı verilen "büyük patlama" yeniden yazımı. Yeşil adımlarla yapılamıyorsa bu bir yeniden yazımdır ve kendi planını gerektirir.

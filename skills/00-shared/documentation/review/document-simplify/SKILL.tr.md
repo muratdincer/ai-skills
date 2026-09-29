@@ -40,6 +40,7 @@ Metin yoksa iste. Hedef kitle bilinmiyorsa bilgili ama uzman olmayan bir okuyucu
 7. Gerçek bir belirsizliği ifade etmiyorsa çekinceli ve dolgu ifadeleri çıkar ("belirtmek gerekir ki", "... amacıyla", "temelde").
 8. Sonucu değişmez listeyle karşılaştır; her madde aynı bağlayıcılık ve değerle hâlâ yer almalı.
 9. Kısalma oranını (yaklaşık önce/sonra kelime sayısı) ve bilinçli olarak çıkarılan veya taşınan içeriği raporla.
+10. Kullanıcının hedefi devam ediyorsa kapsamlı kalite incelemesi için `document-review`, karar vericinin tek sayfalık sürüme ihtiyacı varsa `executive-summary` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -61,6 +62,7 @@ Metin yoksa iste. Hedef kitle bilinmiyorsa bilgili ama uzman olmayan bir okuyucu
 - [ ] Her cümlenin net bir öznesi ve tek ana fikri var.
 - [ ] Yerinde bırakılan jargon bir kez tanımlanmış.
 - [ ] Değişiklik notları çıkarılan her şeyi listeliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Koşulları ve istisnaları ("... olmadıkça", "yalnızca ... ise") sadeleştirirken kaybetmek; bu kuralı değiştirir. Onları değişmez listede koru.

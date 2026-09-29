@@ -43,6 +43,7 @@ If no items are provided, ask for them. Treat missing optional inputs as open qu
 8. Evaluate each item against the Definition of Ready (or a default: value clear, AC testable, small enough, dependencies known, no blocking question).
 9. Propose an order for the refined items with a one-line reason; defer detailed scoring to `backlog-prioritization`.
 10. Produce the output and a short agenda for the refinement session covering only items that need team discussion.
+11. If the user's goal continues, suggest `story-splitting` for items still too large, `acceptance-criteria` for items lacking criteria, or `estimation-session` for sizing.
 
 ## Output format
 ```markdown
@@ -76,6 +77,7 @@ Goal/theme: <goal or [UNKNOWN]>
 - [ ] Readiness verdicts are consistent with the stated Definition of Ready.
 - [ ] Nothing is invented: estimates, dates and owners come from input or are marked.
 - [ ] The session agenda lists only items that need collective discussion.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Refining too far ahead. Detail decays; refine only what will be pulled soon.

@@ -39,6 +39,7 @@ Never invent O/M/P values. If they are missing, provide an elicitation template 
 7. Identify the items contributing most to variance (largest SD²) and note what would reduce their uncertainty.
 8. Recommend contingency as the difference between the chosen confidence value and E.
 9. Document assumptions per estimate and state that the result is effort, not calendar time, unless durations were estimated.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `schedule-plan` to sequence the estimates, or `budget-plan` to cost them.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ Unit: <unit> | Method: <PERT/triangular> | Estimators: <roles>
 - [ ] No O/M/P value is fabricated; examples are labeled.
 - [ ] Correlations are addressed before quoting totals.
 - [ ] Results are given as ranges with confidence, not a single number.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Summing pessimistic values to get a "safe" total, which overstates risk massively. Aggregate SDs instead.

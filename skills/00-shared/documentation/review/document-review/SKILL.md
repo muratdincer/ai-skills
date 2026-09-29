@@ -41,6 +41,7 @@ If the document is missing, ask for it. If purpose and audience are not given, i
 8. Audience fit: jargon level, length, tone and whether required actions are explicit for each reader group.
 9. Classify each finding: Critical (blocks purpose or is wrong), Major (reader will misunderstand or ask), Minor (polish). Give location, issue and a concrete fix or rewrite.
 10. Give an overall verdict: ready, ready with minor changes, or needs rework, plus the top three actions.
+11. If the user's goal continues, suggest `document-simplify` when length or jargon is the main finding, or `requirements-review-checklist` for requirement documents.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ Summary of the document: <2 sentences>
 - [ ] No new facts are introduced; unverifiable claims become questions.
 - [ ] The verdict is consistent with the Critical and Major findings.
 - [ ] Comments focus on the document, not the author.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Drowning critical issues among fifty typo comments. Group minor issues and lead with what blocks the purpose.

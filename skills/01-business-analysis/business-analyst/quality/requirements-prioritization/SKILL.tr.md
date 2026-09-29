@@ -45,6 +45,7 @@ Karar bağlamı yoksa sor; amacı olmayan öncelik anlamsızdır.
 7. Sıralı listeyi ve kısıta göre kesim çizgisini üret.
 8. Tartışmalı kalemleri, karşı görüşteki paydaşlar ve gereken kararla birlikte listele.
 9. Nasıl teyit edileceğini öner: paydaş incelemesi, onay sahibi, yeniden değerlendirme tarihi.
+10. Kullanıcı devam etmek isterse kabul edilen öncelikleri temel sürüme bağlamak için `requirements-sign-off` veya Must maddelerinden ilk sürümü çıkarmak için `mvp-scoping` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -78,6 +79,7 @@ Karar bağlamı: <amaç, kısıt> · Teknik: <ad> – <neden>
 - [ ] Bağımlılıklar sıralamayla çelişmiyor.
 - [ ] Must/üst kalemler kısıta sığıyor ya da taşma açıkça işaretli.
 - [ ] Varsayılan ağırlık, değer ve eforlar `[VARSAYIM]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her şeyin "Must" olması. "O olmadan sürüm başarısız olur" testini uygula ve her Must'ı sorgula.

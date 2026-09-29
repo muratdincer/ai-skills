@@ -40,6 +40,7 @@ If the intent or period is missing, ask. Unknown baselines become `[UNKNOWN]` wi
 7. List candidate initiatives separately as hypotheses, not as KRs.
 8. Check alignment upward (company/strategy) and sideways (dependencies on other teams).
 9. Define the check-in cadence and how confidence will be tracked.
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `kpi-definition` to specify each KR's formula and source, or `north-star-metric` if the objectives lack a shared value metric.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Candidate initiatives: <hypotheses>
 - [ ] At least one guardrail protects quality or customer trust.
 - [ ] Targets are not invented; unagreed targets are `[TBD]`.
 - [ ] Each KR has a named data source and owner.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing a roadmap as OKRs ("Release v2 onboarding"). Ask "what will change when it ships?" and measure that.

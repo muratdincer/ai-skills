@@ -30,12 +30,13 @@ If notes are missing, ask for them. If roles are missing, label sources as Inter
 ## Process
 1. Mask personal data that is not needed (names of third parties, customer details); refer to interviewees by role or code.
 2. Split notes into statements; tag each as Fact (observed/stated practice), Opinion, Need, Pain, Rule, Exception, Workaround, Data/System mention, Metric, or Idea/solution suggestion.
-3. Rewrite needs as problem-oriented statements ("need to know X before Y"), keeping solution ideas separate.
+3. Rewrite needs as problem-oriented statements ("need to know X before Y"), keeping solution ideas separate. Needs you infer from pains rather than heard stated are labeled `[ASSUMPTION]`.
 4. Extract business rules in a normalized form (condition → action) with the stated source; mark rules heard from only one person as `[TO CONFIRM]`.
 5. Quantify where the notes allow (frequency, volume, time); never invent numbers.
 6. Compare interviewees: find agreements, contradictions and different practices for the same step.
 7. Prioritize findings by frequency across interviewees and stated impact.
 8. List open questions and follow-ups, each with who can answer.
+9. If the goal continues, suggest `business-rules-catalog` for the extracted rules, `requirements-consistency-check` for the contradictions, or `open-questions-tracker` for the follow-ups.
 
 ## Output format
 ```markdown
@@ -75,6 +76,7 @@ Sources: <codes and roles> · Date(s): <...>
 - [ ] Contradictions are shown, not averaged away.
 - [ ] Unneeded personal data is masked.
 - [ ] No number appears that is not in the notes.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Promoting a strong opinion to a requirement. Count sources and look for evidence.

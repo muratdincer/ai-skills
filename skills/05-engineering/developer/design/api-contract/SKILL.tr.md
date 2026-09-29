@@ -40,6 +40,7 @@ Etkileşim tarzı belirsizse sor. Eksik ayrıntılar şartnamede açıklamayla b
 8. Sürümleme ve uyumluluk kurallarını yaz: hangi değişiklikler eklemeli sayılır, kırıcı değişiklikler nasıl getirilir ve nasıl kullanımdan kaldırılır.
 9. Her operasyon için sahte verilerle en az bir gerçekçi istek/yanıt veya mesaj örneği ekle.
 10. Şartnameyi her kullanım senaryosuna karşı zihnen doğrula ve açık soruları listele.
+11. Hedef devam ediyorsa tüketici dokümantasyonu için `api-reference-docs`, resmi inceleme için `api-design-review` veya sözleşme testleri için `api-test-design` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -73,6 +74,8 @@ components:
 - [ ] Alan adları, harf düzeni, tarih ve para formatları şartname boyunca tutarlı.
 - [ ] Kişisel veri belirlendi ve yalnızca tüketicilerin ihtiyaç duyduğu alanlar açıldı.
 - [ ] Şartname, belirtilen sürüm için sözdizimsel olarak makul bir YAML/JSON.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Şemayı kilitleyen iç modelleri veya veritabanı kimliklerini dışarı açmak. Tüketici kullanım senaryolarından tasarla.

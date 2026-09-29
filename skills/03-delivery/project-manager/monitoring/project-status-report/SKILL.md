@@ -40,6 +40,7 @@ If progress data is missing, ask for it. Do not infer status from silence.
 8. Formulate decisions needed as explicit asks with options, recommendation and deadline.
 9. Write a 3-sentence executive summary last.
 10. Mark missing data `[UNKNOWN]` and avoid softening language that hides Red status.
+11. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `raid-log` to update the underlying items, `earned-value-analysis` when cost and schedule indices are needed, or `steering-committee-pack` for a decision forum.
 
 ## Output format
 ```markdown
@@ -65,6 +66,7 @@ Overall: <RAG> (trend <↑/→/↓>) | PM <name> | Date <date>
 - [ ] Decisions are phrased as explicit asks with a deadline.
 - [ ] No watermelon reporting: problems visible, not buried in text.
 - [ ] Missing data is marked, not assumed Green.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Green until suddenly Red. Report Amber early with a recovery plan.

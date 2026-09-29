@@ -42,6 +42,7 @@ If the delivery scope is missing, ask for it. Missing dates become `[TBD]`, not 
 9. List deliverables: test cases, execution logs, defect reports, daily status, test summary report.
 10. List planning risks (not product risks) with mitigation and contingency: late builds, shared environments, key-person dependency.
 11. Mark unknowns and collect open questions and approvals needed.
+12. If the user continues, suggest `risk-based-testing` to prioritize the scope, `uat-plan` for acceptance, or `release-quality-gate` when execution ends.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Version: <x.y> | Author: <name> | Approvers: <names or [TBD]>
 - [ ] Environment and data readiness have owners and dates or `[TBD]`.
 - [ ] No names, dates or numbers are invented.
 - [ ] Planning risks are distinct from product risks.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Exit criteria like "all tests passed". Allow justified waivers and state the decision owner.

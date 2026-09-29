@@ -40,6 +40,7 @@ Yalnızca kolon listesi varsa, çalıştırılacak kontrollerle bir keşif plan�
 8. Kişisel veya hassas veri kolonlarını (ad, e-posta, telefon, kimlik numarası, konum) işaretle; maskeleme veya hariç tutma öner (KVKK/GDPR).
 9. Amaçlanan kullanıma uygunluğu değerlendir: olduğu gibi kullanılabilir, listelenen düzeltmelerle kullanılabilir veya kullanılamaz.
 10. Sorunları önem derecesi ve sonraki kontrol ya da sorumluyla kaydet.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sorunları kontrollere çevirmek için `data-quality-rules` veya sonraki analitik adım için `analysis-plan` / `feature-engineering-plan` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -77,6 +78,7 @@ Yalnızca kolon listesi varsa, çalıştırılacak kontrollerle bir keşif plan�
 - [ ] Aykırı değer kuralı açık; aykırı değerler sessizce silinmedi, sınıflandırıldı.
 - [ ] Hassas kolonlar ele alınma önerisiyle işaretlendi.
 - [ ] Kullanıma uygunluk konusunda net bir hüküm verildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Çarpık veride ortalamaya güvenmek. Medyan ve yüzdelikleri raporla.

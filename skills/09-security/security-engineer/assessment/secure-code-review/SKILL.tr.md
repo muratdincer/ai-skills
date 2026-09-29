@@ -41,6 +41,7 @@ Kod yoksa iste. Giriş noktası belirsizse maruziyet hakkındaki varsayımını 
 8. Her bulgu için kaydet: konum, OWASP Top 10 kategorisi, CWE numarası, istismar senaryosu, önem derecesi (gerekçesiyle veya ekip kullanıyorsa CVSS), güven düzeyi ve kod düzeyinde düzeltme.
 9. Doğrulanmış bulguları, çalışma zamanında doğrulanması gereken şüpheli kalıplardan ayır.
 10. Özetle: önem derecesine göre sayılar, merge'i engelleyen konular ve gözlemlenen olumlu kontroller.
+11. Devret: her Kritik veya Yüksek bulguyu `security-finding-report` ile yaz, önem derecesi tartışmalı olanları `vulnerability-triage`'a yönlendir, tekrar eden eksikleri `security-requirements`'a aktar.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Kapsam: <dosyalar> · Maruziyet: <açık/iç/yönetici> [çıkarımsa VARSAYIM]
 - [ ] Kodda bulunan secret, token veya kişisel veriler maskelenerek raporlandı, asla tam haliyle tekrarlanmadı.
 - [ ] Spekülatif konular doğrulama gerekli olarak etiketlendi.
 - [ ] Merge'i engelleyen maddeler açıkça ayrıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her string birleştirmeyi injection olarak raporlamak. Değerin saldırgan kontrolünde olduğunu ve bir hedefe ulaştığını doğrula.

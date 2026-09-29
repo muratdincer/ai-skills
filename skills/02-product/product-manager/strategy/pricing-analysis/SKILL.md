@@ -40,6 +40,7 @@ If product or segment is missing, ask. Never invent prices, elasticities or WTP;
 7. Recommend a model and packaging, with the assumptions it depends on.
 8. Propose validation: WTP survey, sales-led price test, new-customer-only rollout, or A/B where ethical and legal.
 9. Define the metrics to watch: conversion, ARPA, expansion, churn, discount rate.
+10. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `experiment-design` to validate the preferred option before rollout, or `competitor-analysis` if competitor price points are unverified.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ Floor: ... · Ceiling: ... · Anchors (source, date): ...
 - [ ] Existing-customer impact and grandfathering are addressed.
 - [ ] Tier fences are based on segment needs, not arbitrary feature hiding.
 - [ ] A validation step exists before a full rollout.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Pricing on cost-plus alone. Cost sets the floor; value sets the ceiling.

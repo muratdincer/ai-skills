@@ -40,6 +40,7 @@ Zorunlu:
 8. Dil kontrolü: davranışa odaklı, yargısız; kişilik etiketi, korunan özelliklere, izne veya özel hayata atıf yok.
 9. Tutarlılık kontrolü: Benzer açıkları olan aynı seviyedeki diğer kişilerle beklentiler ve muamele aynı mı?
 10. Haftalık kanıtlar için bir değerlendirme kaydı bölümü ekle ve her bilinmeyeni `[TBD]` veya `[BİLİNMİYOR]` olarak işaretle.
+11. Kullanıcının hedefi devam ediyorsa görüşmeyi hazırlamak için `bad-news-delivery` veya haftalık görüşmeleri kaydetmek için `one-on-one-notes` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -76,6 +77,7 @@ Rol / seviye: <rol> · Yönetici: <ad> · Başlangıç: <tarih> · Bitiş: <tari
 - [ ] Somut destek, kimin sağlayacağıyla birlikte listelendi.
 - [ ] Sonuçlar tarafsız ve politikaya dayalı; İK incelemesi işaretlendi.
 - [ ] Etiket, nedenlere dair spekülasyon veya kişisel/sağlık ayrıntısı yok.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - PIP'i önceden verilmiş bir karar için belge izi olarak kullanmak. Başarı için gerçek bir şans yoksa bunu İK ile konuş.

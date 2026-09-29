@@ -38,6 +38,7 @@ If it is unclear whether something was actually decided, record it as `Proposed`
 8. Classify reversibility: one-way door (costly to reverse) or two-way door; and set a review trigger (date, metric or event).
 9. Set status: Proposed, Accepted, Superseded by <ID>, Rejected.
 10. Compare with the existing log; if the new decision contradicts an earlier one, mark the earlier as Superseded and say so explicitly.
+11. If the user's goal continues, suggest `adr` for architecturally significant decisions or `trade-off-analysis` when the alternatives were not compared rigorously.
 
 ## Output format
 ```markdown
@@ -68,6 +69,8 @@ Source: <meeting, date, link>
 - [ ] At least one alternative and the rationale are recorded.
 - [ ] Consequences and a review trigger are stated.
 - [ ] Conflicts with earlier decisions are resolved via Superseded status.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Logging only the outcome. Without context and rejected options, the decision will be reopened.

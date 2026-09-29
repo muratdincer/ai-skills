@@ -41,6 +41,7 @@ YAML yoksa iste. Chart render edilmeden verildiyse values ve template'leri incel
 8. Ağ: varsayılan deny ve açık izinlerle NetworkPolicy; Service port ve selector'ları eşleşiyor; ingress TLS.
 9. İşletilebilirlik: etiketler (app, version, team), metrik toplama annotation'ları, stdout'a log, tutarlı kaynak adları.
 10. Bulguları derecelendir, düzeltilmiş YAML parçaları ver.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa request ve replika boyutlandırması için `capacity-planning`, hata modları için `resilience-review` veya yayına alma için `deployment-strategy` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -57,6 +58,7 @@ YAML yoksa iste. Chart render edilmeden verildiyse values ve template'leri incel
 - [ ] Güvenlik bağlamı restricted seviyesini karşılıyor veya sapmalar gerekçeli.
 - [ ] Hizmet veren iş yükleri tek bir düğüm boşaltmasına dayanıyor (replika, PDB, dağılım).
 - [ ] Veriyle desteklenmeyen önerilen değerler `[VARSAYIM]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Veritabanını çağıran liveness probe: kısa bir veritabanı kesintisi tüm pod'ları yeniden başlatır. Liveness'ı yerel tut.

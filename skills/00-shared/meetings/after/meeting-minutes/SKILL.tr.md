@@ -40,6 +40,7 @@ Katılım veya yeter sayı kuralları yoksa `[BİLİNMİYOR]` olarak kaydet ve d
 9. Üçüncü şahıs ve tarafsız dil kullan; kurul gerektirmedikçe görüş, sıfat veya birebir argüman yazma.
 10. Bir sonraki toplantı tarihini ve onay bölümünü (başkan imzası/onay tarihi) ekle.
 11. Dağıtımdan önce teyit edilecekleri listele (isimlerin yazımı, rakamlar, karar metinleri).
+12. Kullanıcının hedefi devam ediyorsa kararları kalıcı kayda taşımak için `decision-log`, daha geniş kitleye kısa bir sürüm için `meeting-summary` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -73,6 +74,8 @@ Başkan onayı: ____________  Tarih: ______
 - [ ] Dil tarafsız ve üçüncü şahıs; kişisel görüş yok.
 - [ ] Rakamlar, tarihler ve isimler kaynakla uyumlu; boşluklar `[BİLİNMİYOR]` ile işaretli.
 - [ ] Sonraki toplantı ve onay bölümü mevcut.
+- [ ] Girdide söylenmeyen her şey `[VARSAYIM]` olarak işaretlendi veya açık soru olarak listelendi; olgu gibi sunulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Döküm yazmak. Tutanak her argümanı değil, neye karar verildiğini ve temel gerekçeyi kaydeder.

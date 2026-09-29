@@ -2,7 +2,7 @@
 
 [Türkçe](README.tr.md)
 
-A tool-agnostic library of **410 AI skills** covering every role in a software department, from request intake and meeting summaries to architecture decisions, test design, incident postmortems and hiring. Each skill is a small, focused job definition that any AI assistant can follow, in **English and Turkish**.
+A tool-agnostic library of **420 AI skills** covering every role in a software department, from request intake and meeting summaries to architecture decisions, test design, incident postmortems and hiring. Each skill is a small, focused job definition that any AI assistant can follow, in **English and Turkish**.
 
 - **Portable:** plain Markdown in the open Agent Skills format (`SKILL.md` + YAML header). Works as a native skill, a rule file, a knowledge file, a system prompt or a pasted prompt.
 - **Granular:** one skill = one job ("find gaps in requirements", "extract action items", "write a rollback plan"), so skills can be chained.
@@ -70,6 +70,18 @@ No setup at all? Open any `SKILL.md`, paste it into a chat, then write your requ
 2. Write `SKILL.md` and `SKILL.tr.md` following [AUTHORING.md](AUTHORING.md).
 3. Run `python3 scripts/catalog.py && python3 scripts/sync.py && python3 scripts/guide.py`.
 4. Open a pull request; CI runs `sync.py --check`.
+
+## Acknowledgements
+
+Structure and practices were compared with, and partly inspired by, these public skill libraries and guides:
+[Anthropic skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices),
+[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills),
+[obra/superpowers](https://github.com/obra/superpowers),
+[deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills),
+[product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills),
+[phuryn/pm-skills](https://github.com/phuryn/pm-skills),
+[45ck/business-analysis-skills](https://github.com/45ck/business-analysis-skills).
+No content was copied; ideas such as self-check loops, severity labels, separating the literal ask from the underlying need, and absent/weak/deferred gap classification were rewritten in this library's format.
 
 ## License
 

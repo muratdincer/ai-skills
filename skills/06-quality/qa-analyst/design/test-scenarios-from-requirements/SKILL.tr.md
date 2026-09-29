@@ -40,6 +40,7 @@ Gereksinim yoksa iste. Belirsiz davranış uydurulmuş bir beklenti değil, aç�
 8. Her senaryoya bir ID, kaynak referansı (kriter, kural) ve öncelik (riske göre Yüksek/Orta/Düşük) ver.
 9. Kapsamı kontrol et: her kabul kriteri ve iş kuralı en az bir senaryoya eşleniyor; kapsanmayanları listele.
 10. Beklenen davranışın tanımlı olmadığı yerler için açık soruları listele.
+11. Çıkarımla eklenen davranışları `[VARSAYIM]` ile işaretle; kullanıcı devam ederse ayrıntılı case'ler için `test-case-writing`, Gherkin için `bdd-feature-file` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -62,6 +63,7 @@ Kapsanmayan: <öğeler veya "yok">
 - [ ] Her senaryo adım değil, tek bir amaç ve koşul içeriyor.
 - [ ] Hiçbir beklenen davranış uydurulmadı; belirsiz olanlar açık soru.
 - [ ] Öncelikler yazılış sırasını değil riski yansıtıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Senaryo yerine test case yazmak. Tek satırlık amaçla sınırlı tut; ayrıntılar `test-case-writing` işidir.

@@ -40,6 +40,7 @@ If competencies are missing, derive a proposal from the job description and mark
 8. Define decision rules: what combination of scores leads to hire / no hire, who decides, how disagreements are resolved.
 9. Plan candidate experience: what they are told in advance, accommodations offered, feedback timeline.
 10. Define loop health metrics: time to decision, pass-through rate per stage, offer acceptance, interviewer calibration drift.
+11. If the user's goal continues, suggest `technical-interview-questions` for stage questions, `interview-scorecard` for the scoring form, or `candidate-debrief` for the decision meeting.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Candidate time: <total> · Decision owner: <role>
 - [ ] Scorecards are written independently before any debrief.
 - [ ] Decision rule and owner are explicit.
 - [ ] Accommodation and candidate communication are planned.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - "Culture fit" as a stage. It invites similarity bias; assess specific values-based behaviors instead.

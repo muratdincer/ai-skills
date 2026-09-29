@@ -43,6 +43,7 @@ Karar sorusu belirsizse sor. Karar henüz verilmediyse ADR'yi Önerildi durumuyl
 8. Sonuçları yaz: olumlu, olumsuz (maliyetler, riskler, yeni borç) ve sorumlusu belli takip aksiyonları.
 9. Durumu (Önerildi, Kabul edildi, Geçersiz, ADR-n ile değiştirildi) ve tarihi belirle; ilgili veya yerine geçilen ADR'leri bağla.
 10. Bir gözden geçirme tetikleyicisi ekle: bu kararın hangi koşulda yeniden ele alınacağı.
+11. Hedef devam ediyorsa ADR'ye atıf için `solution-architecture-document`, ilişkili mimari olmayan kararlar için `decision-log` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -75,6 +76,7 @@ Durum: <Önerildi | Kabul edildi | Geçersiz | ADR-x ile değiştirildi> · Tari
 - [ ] En az iki gerçek seçenek, adlandırılmış etkenlere göre artı ve eksileriyle değerlendirildi.
 - [ ] Olumsuz sonuçlar dürüstçe listelendi.
 - [ ] Durum, tarih ve bağlantılar belirlendi; karar verici veya tarih uydurulmadı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca seçimi haklı çıkarmak için eklenmiş göstermelik alternatifler. Yetkin bir ekibin seçebileceği seçenekleri ekle.

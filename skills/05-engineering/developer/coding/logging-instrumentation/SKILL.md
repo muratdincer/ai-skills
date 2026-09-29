@@ -39,6 +39,7 @@ If the stack is unknown, use vendor-neutral OpenTelemetry concepts and semantic 
 8. Keep instrumentation out of business logic where possible (middleware, decorators, interceptors).
 9. Define how to verify: a test or local run showing the log line, the metric increment and the span.
 10. Suggest dashboard panels and alert candidates linked to the signals, without inventing thresholds.
+11. If the goal continues, suggest `alert-design` to turn the candidates into alerts or `observability-plan` for service-wide coverage.
 
 ## Output format
 ```markdown
@@ -64,6 +65,8 @@ If the stack is unknown, use vendor-neutral OpenTelemetry concepts and semantic 
 - [ ] No secrets or unmasked personal data appear in logs, labels or span attributes.
 - [ ] Log levels follow the stated rules and no event is logged twice.
 - [ ] Names follow the team's convention or OpenTelemetry semantic conventions.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - High-cardinality labels (user id, full path) that explode metric storage and cost.

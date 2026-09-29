@@ -44,6 +44,7 @@ Sistem tanımı veya iş bağlamı yoksa iste. Diğer her şey açık soru olara
 9. Kalite kapılarını ve metrikleri tanımla: seviye bazında giriş/çıkış kriterleri, kapsam beklentileri, kaçak hatalar, kararsız test oranı.
 10. Rolleri ve sorumlulukları (geliştirici, QA, ürün, operasyon) ve testin, metodolojiden bağımsız olarak teslimat ritmine nasıl oturduğunu listele.
 11. Varsayımları, kısıtları ve açık soruları kaydet. Desteklenmeyen içeriği `[VARSAYIM]` veya `[BİLİNMİYOR]` ile işaretle.
+12. Kullanıcı devam ederse belirli bir sürüm için `test-plan`, otomasyon katmanı için `automation-framework-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -74,6 +75,7 @@ Sürüm: <x.y> | Sahip: <ad veya [BİLİNMİYOR]> | Durum: Taslak
 - [ ] Test verisi yaklaşımı mevzuata uygun; üretim verisi maskelenmeden kullanılmıyor.
 - [ ] Hiçbir araç, sayı veya sorumlu uydurulmadı; boşluklar işaretli.
 - [ ] Strateji metodolojiden bağımsız ve birden fazla ekip tarafından kullanılabilir.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Tarih ve isim içeren bir test planı yazmak. Strateji kalıcı kalmalı; takvimler `test-plan` içine gider.

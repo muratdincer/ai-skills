@@ -40,6 +40,7 @@ If the interaction style is unclear, ask. Missing details become `[TBD]` in the 
 8. State versioning and compatibility rules: which changes are additive, how breaking changes are introduced and deprecated.
 9. Add at least one realistic request/response or message example per operation, using fake data.
 10. Validate the spec mentally against each use case and list open questions.
+11. If the goal continues, suggest `api-reference-docs` for consumer documentation, `api-design-review` for a formal review or `api-test-design` for contract tests.
 
 ## Output format
 ````markdown
@@ -73,6 +74,8 @@ components:
 - [ ] Field names, casing, date and money formats are consistent across the spec.
 - [ ] Personal data is identified and only fields consumers need are exposed.
 - [ ] The spec is syntactically plausible YAML/JSON for the stated version.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Exposing internal models or database IDs that lock the schema. Design from consumer use cases.

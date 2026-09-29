@@ -40,6 +40,7 @@ Paydaş listesi yoksa iste ya da önce hızlı bir belirleme yap.
 7. Geri bildirim ve eskalasyon yollarını tanımla: kitleler nasıl soru sorar veya kaygı iletir, yanıt süresi nedir.
 8. Olay tetiklemeli iletişimleri ekle: canlıya geçiş, olaylar, gecikmeler, kapsam değişiklikleri; hassas mesajlar için onay kuralları.
 9. Etkinliğin nasıl kontrol edileceğini (katılım, okunma oranı, nabız soruları, paydaş geri bildirimi) ve planın gözden geçirme sıklığını tanımla.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: ilk planlı mesajı üretmek için `project-status-report` veya `status-update`.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,7 @@ Paydaş listesi yoksa iste ya da önce hızlı bir belirleme yap.
 - [ ] Zamanlama keyfi değil, karar noktalarına bağlı.
 - [ ] Hassas iletişimlerin bir onaylayanı var.
 - [ ] Yalnızca giden mesajlar değil, geri bildirim yolları da var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Herkese tek bir durum raporu. Derinliği uyarla: yöneticiler karar ve risk, ekipler ayrıntı ister.

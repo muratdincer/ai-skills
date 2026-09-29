@@ -40,6 +40,7 @@ If only a fragment is provided, review it and state which conclusions depend on 
 9. Rate each finding: Blocker (causes bugs or blocks change), Major (slows change), Minor (readability), Nit (style). Respect existing team conventions over generic rules.
 10. For each finding give location, impact, and the concrete fix, preferably a named refactoring with a short before/after.
 11. End with strengths and the top 3 actions in order.
+12. If the goal continues, suggest `refactoring` to apply the top actions safely or `review-comment-writing` to turn findings into pull request comments.
 
 ## Output format
 ```markdown
@@ -66,6 +67,8 @@ Responsibility summary: <2-3 sentences>
 - [ ] Suggested fixes are concrete and compatible with the language and existing conventions.
 - [ ] Findings are deduplicated; systemic issues are stated once with examples.
 - [ ] At least one strength is noted where it exists.
+- [ ] Inferences are labeled `[ASSUMPTION]` and listed as assumptions or open questions; nothing unsupported is stated as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Dogmatic rule application (e.g. "functions must be under N lines") where the code is actually clear. Judge by readability and change cost.

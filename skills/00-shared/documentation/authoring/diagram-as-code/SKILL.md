@@ -41,6 +41,7 @@ If the description is missing, ask for it. If the syntax is unspecified, default
 8. Check semantics: every element is connected or intentionally standalone, arrow directions match the flow, cardinalities and states are consistent with the text.
 9. Add a legend or note only when notation is non-obvious; avoid decorative styling.
 10. Provide the code, a two-line reading guide, and the assumptions list.
+11. If the user's goal continues, suggest `c4-model` for architecture views, `sequence-flow` for interaction detail or `state-model` for lifecycle rules.
 
 ## Output format
 ````markdown
@@ -63,6 +64,7 @@ Open questions: <items that would change the diagram>
 - [ ] Node count stays readable (about 15 or fewer), or the diagram is split.
 - [ ] Edges are labeled; async versus sync is visible where relevant.
 - [ ] The title states the message, not just the system name.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Using a flowchart for everything. Interactions over time belong in a sequence diagram; entity lifecycles in a state diagram.

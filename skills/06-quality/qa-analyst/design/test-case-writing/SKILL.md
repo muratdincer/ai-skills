@@ -41,6 +41,7 @@ If there is nothing to derive cases from, ask for it. Unknown field rules become
 9. Set priority (from risk), type (functional, negative, boundary...), and traceability (requirement/criterion IDs).
 10. Mark automation suitability (Yes / Later / No with reason).
 11. Review for independence: each case should run on its own without relying on the result of another.
+12. Label inferred expected results `[ASSUMPTION]`; if the user continues, suggest `test-automation-script` for cases marked Yes or `traceability-matrix` to link cases to requirements.
 
 ## Output format
 ```markdown
@@ -67,6 +68,7 @@ Postconditions / cleanup: <...>
 - [ ] Negative and boundary cases are present, not only happy paths.
 - [ ] Every case traces to at least one requirement or criterion.
 - [ ] Cases are independent and state their preconditions.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Combining many checks in one long case. Split so a failure pinpoints the problem.

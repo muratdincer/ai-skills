@@ -41,6 +41,7 @@ If evaluation results are missing, produce the card skeleton with performance ma
 8. Document ethical considerations: affected people, potential harms, fairness criterion and results, mitigations, recourse for affected individuals.
 9. Describe monitoring, retraining cadence and the retirement criteria; reference the monitoring plan.
 10. Keep language plain enough for a non-specialist reviewer; move technical detail to references.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `ml-monitoring-plan` for production, or `privacy-impact-assessment` when personal data is involved.
 
 ## Output format
 ```markdown
@@ -91,6 +92,7 @@ If evaluation results are missing, produce the card skeleton with performance ma
 - [ ] Human oversight and recourse are described for decisions about people.
 - [ ] No metric or data fact is invented; gaps are marked.
 - [ ] A non-specialist can understand intended use and limits.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing marketing copy instead of limitations. Every card should make at least one reader decide not to use the model for something.

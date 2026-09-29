@@ -45,6 +45,7 @@ If the decision context is missing, ask for it; priority without a purpose is me
 7. Produce the ranked list and a cut line against the constraint.
 8. List contentious items with the stakeholders who disagree and the decision needed.
 9. Recommend how to confirm: stakeholder review, sign-off owner, date to revisit.
+10. If the user wants to continue, suggest `requirements-sign-off` to baseline the agreed priorities or `mvp-scoping` to cut a first release from the Must items.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Decision context: <purpose, constraint> · Technique: <name> – <why>
 - [ ] Dependencies do not contradict the order.
 - [ ] Must/top items fit the constraint, or the overflow is flagged explicitly.
 - [ ] Assumed weights, values and efforts are marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Everything ends up "Must". Apply the "release fails without it" test and challenge each Must.

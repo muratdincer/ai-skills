@@ -40,6 +40,7 @@ Zorunlu:
 7. Dayandığı varsayımlarla birlikte bir model ve paketleme öner.
 8. Doğrulama öner: ödeme isteği anketi, satış liderliğinde fiyat testi, yalnızca yeni müşterilere uygulama veya etik ve yasal olduğu durumda A/B testi.
 9. İzlenecek metrikleri tanımla: dönüşüm, hesap başına ortalama gelir (ARPA), büyüme, kayıp, indirim oranı.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: tercih edilen seçeneği yaygınlaştırmadan önce doğrulamak için `experiment-design`, rakip fiyatları doğrulanmamışsa `competitor-analysis`.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Taban: ... · Tavan: ... · Çıpalar (kaynak, tarih): ...
 - [ ] Mevcut müşteri etkisi ve eski fiyatın korunması ele alındı.
 - [ ] Paket sınırları keyfi özellik gizlemeye değil, segment ihtiyaçlarına dayanıyor.
 - [ ] Tam yaygınlaştırmadan önce bir doğrulama adımı var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca maliyet artı marjla fiyatlamak. Maliyet tabanı, değer tavanı belirler.

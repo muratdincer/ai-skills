@@ -43,6 +43,7 @@ If the decision question is unclear, ask. If the decision is not yet made, write
 8. Write consequences: positive, negative (costs, risks, new debt) and follow-up actions with owners.
 9. Set status (Proposed, Accepted, Deprecated, Superseded by ADR-n) and date; link related or superseded ADRs.
 10. Add a review trigger: the condition under which this decision should be revisited.
+11. If the goal continues, suggest `solution-architecture-document` to reference the ADR or `decision-log` for related non-architectural decisions.
 
 ## Output format
 ```markdown
@@ -75,6 +76,7 @@ We will <decision>, because <top drivers>.
 - [ ] At least two real options were considered, with pros and cons against named drivers.
 - [ ] Negative consequences are listed honestly.
 - [ ] Status, date and links are set; no deciders or dates invented.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Straw-man alternatives added only to justify the choice. Include options a competent team could have chosen.

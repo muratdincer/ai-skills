@@ -43,6 +43,7 @@ If the person or purpose is missing, ask. Everything else becomes a "to check" i
 8. Note signals to listen for: energy change, disengagement, overload, conflict, flight risk. These are hypotheses to check, not conclusions.
 9. Plan the close: summary, commitments with owners and dates, and the next check-in point.
 10. Check the plan for bias: would you raise the same topic, in the same way, with another report in the same situation?
+11. If the user's goal continues, suggest `one-on-one-notes` to capture the conversation, or `feedback-sbi` to shape a feedback point.
 
 ## Output format
 ```markdown
@@ -78,6 +79,7 @@ Type: <recurring / first / topic-driven> · Duration: <min>
 - [ ] Questions are open and non-leading.
 - [ ] Signals are phrased as things to check, not judgments.
 - [ ] Sensitive personal details (health, family) are not recorded beyond what the report chose to share.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Running the 1:1 as a status update. Move status to async channels and keep this time for the person.

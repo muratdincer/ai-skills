@@ -38,7 +38,9 @@ If the expected output is missing, ask: a workshop without a defined output is a
 6. State decision rules up front: who decides if there is no consensus, what goes to a parking lot.
 7. Prepare materials: templates for each activity, board layout (physical or digital), example artifacts.
 8. For remote formats, plan shorter blocks, explicit turn-taking, breakout rooms and a single shared board.
-9. Define the outputs, owner and deadline for the post-workshop write-up and follow-ups.
+9. Plan divergence and convergence explicitly: breakout groups of 3-5 people with one task, one template and a timebox, each reporting back in 2-3 minutes; converge with note-and-vote (silent individual notes for 3-5 minutes, read-out without debate, dot vote with a fixed number of dots each, the decision owner confirms or overrides with a stated reason).
+10. Define the outputs, owner and deadline for the post-workshop write-up and follow-ups. Anything you assume about participants or availability is marked `[ASSUMPTION]`.
+11. If the goal continues, suggest `facilitation-guide` for the facilitator script or `meeting-agenda` for the invitation agenda.
 
 ## Output format
 ```markdown
@@ -75,6 +77,8 @@ Date/format: <...> · Duration: <...> · Decision owner: <role>
 - [ ] Timeboxes include buffer and breaks.
 - [ ] Pre-work and materials are defined.
 - [ ] The remote/hybrid format is reflected in methods, not just in the invite.
+- [ ] Every divergent activity has a matching convergence mechanic (e.g., note-and-vote) and a decision owner.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Inviting too many people. Split into sessions or use a sounding group for the rest.

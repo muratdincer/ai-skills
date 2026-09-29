@@ -40,6 +40,7 @@ ID yoksa ifadeleri kendin numaralandır (R1, R2...) ve bunu belirt.
 8. Test edilemez ifadeleri işaretle: mutlak ifadeler (asla, her zaman, %100), kapsamı belirsiz olumsuzlar, öznel memnuniyet.
 9. Her bulgu için aktör, eylem, nesne, koşul ve ölçülebilir kriter içeren bir yeniden yazım yap; bilinmeyen değerler uydurulmaz, `[TBD]` yer tutucusu olur.
 10. Tanım gerektiren terimleri sözlük aday listesinde topla.
+11. Kullanıcı devam etmek isterse eksik içerik için `requirements-gap-analysis`, toplanan terimler için `glossary-builder` veya yeniden yazılan ifadeleri test edilebilir kılmak için `acceptance-criteria` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ ID yoksa ifadeleri kendin numaralandır (R1, R2...) ve bunu belirt.
 - [ ] Hiçbir sayısal hedef uydurulmadı; bilinmeyen eşikler soruyla birlikte `[TBD]`.
 - [ ] Her yeniden yazım test, inceleme, analiz veya gösterimle doğrulanabilir.
 - [ ] Tanımsız terimler sözlük adaylarında toplandı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Muğlak bir sözcüğü başka bir muğlak sözcükle değiştirmek ("hızlı" yerine "performanslı"). Her zaman ölçülebilir bir kriter veya `[TBD]` yer tutucusu ekle.

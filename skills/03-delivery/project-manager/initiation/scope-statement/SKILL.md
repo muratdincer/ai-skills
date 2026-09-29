@@ -40,6 +40,7 @@ If no objective or deliverable description exists, ask for it.
 7. Define scope boundaries with interfaces: which systems, organizations and geographies are touched.
 8. State how scope changes are handled and reference the change control route.
 9. Mark every unsupported element `[UNKNOWN]` or `[ASSUMPTION]` and list open questions.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `wbs` to decompose the deliverables, and `change-control` once the baseline is approved.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Version <x> | Date <date> | Baseline reference <charter id>
 - [ ] No vague terms ("etc.", "as needed", "user-friendly") without definition.
 - [ ] Nothing invented; gaps are marked.
 - [ ] Change handling references a concrete route.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing activities instead of deliverables, which makes WBS and acceptance impossible to trace.

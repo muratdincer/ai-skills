@@ -37,6 +37,7 @@ Zorunlu:
 6. Yararlı olduğu yerde durumu/tetikleyiciyi iş hikâyeleriyle yakala: "<durum> olduğunda, <motivasyon> istiyorum, böylece <beklenen sonuç>".
 7. Bugün işe alınan çözümleri ve eksiklerini listele; hiç çözüm kullanmamayı (non-consumption) da dahil et.
 8. Sonuçların nasıl önceliklendirileceğini (önem-memnuniyet anketi) öner ve kanıtlara göre muhtemelen yeterince karşılanmayan sonuçları işaretle.
+9. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: yeterince karşılanmayan sonuçları fırsatlara çevirmek için `opportunity-solution-tree`, eksik kanıtı toplamak için `problem-interview-script`.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Zorunlu:
 - [ ] Duygusal ve sosyal işler değerlendirildi.
 - [ ] Mevcut çözümler arasında çözümsüzlük ve geçici çözümler yer alıyor.
 - [ ] Varsayıma dayalı maddeler `[VARSAYIM]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İşi yanlış seviyede yazmak ("dışa aktar'a tıkla"). Kalıcı bir hedefe ulaşana kadar "neden?" diye sor.

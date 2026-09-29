@@ -31,25 +31,30 @@ If the request is missing, ask for it. If the target stage is unknown, assume "r
 
 ## Process
 1. Determine the bar: "ready for triage" needs goal, requester, type; "ready for analysis" adds scope, stakeholders, constraints; "ready for estimation" adds rules, data, integrations and NFR targets.
-2. Run the gap checklist below. For each item decide: Present, Vague, Missing, Contradictory or Not applicable (with reason).
-3. Flag vague wording precisely: quote the phrase ("fast", "all users", "like the old system", "etc.", "ASAP") and say what is needed instead.
+2. Run the gap checklist below. For each item decide: PRESENT, WEAK (mentioned but vague or untestable), ABSENT (not mentioned), DEFERRED (consciously postponed, with owner and stage), CONTRADICTORY or N/A (with reason). Record evidence for each: the quoted phrase, or "not mentioned".
+3. Do not polish over ambiguity: never rewrite a WEAK item into a precise one yourself. Quote the phrase ("fast", "all users", "like the old system", "etc.", "ASAP") and say what is needed instead; any interpretation you add is labeled `[ASSUMPTION]`.
 4. Detect contradictions (e.g., "no personal data" but "export customer contact list").
 5. Rate each gap: Blocker (cannot proceed at this stage), Major (will cause rework), Minor (can be closed later).
 6. For every Blocker and Major gap, write the question that closes it and who should answer.
 7. Give the verdict: Ready, Ready with conditions (list them) or Not ready.
 8. Compute a simple coverage indicator: number of applicable items Present vs total applicable. Do not present it as a quality score.
+9. If the goal continues, suggest `request-clarification-questions` to turn the gaps into a message, or `requirements-gap-analysis` once detailed requirements exist.
 
 Gap checklist:
 - **Business:** problem statement, desired outcome, measurable success criteria, business value justification, sponsor/decision maker, deadline with reason, cost of delay.
-- **Users:** user groups and volumes, roles and permissions, internal vs external, channels/devices, accessibility, training impact.
-- **Process and rules:** trigger, main flow, exceptions, approvals, business rules and their source, manual workarounds today.
+- **Actors and roles:** user groups and volumes, internal vs external, channels/devices, accessibility, training impact, systems acting as actors.
+- **Triggers and flows:** trigger event, main flow, alternate flows, approvals, manual workarounds today.
+- **Pre/postconditions:** what must be true before start; resulting state after success and after failure.
+- **Rules and validation:** business rules and their source, thresholds and limits, calculations, field validations.
 - **Data:** entities and fields, source of truth, data quality, volumes and growth, personal/sensitive data, classification, retention and deletion.
+- **Permissions and security:** who may view, create, change, approve; segregation of duties; sensitive operations; authentication level.
+- **Error handling:** invalid input, timeouts, duplicates, partial failures, retries, user messages, who resolves.
 - **Integration:** systems in and out, direction, frequency (real-time/batch), interface owner, error handling, dependency on third parties.
-- **NFR:** performance targets, peak load, availability and support hours, security and authorization, audit trail, localization, accessibility (WCAG 2.2 where relevant).
-- **Legal and compliance:** KVKK/GDPR basis and consent, sector regulation, contracts, record keeping, audit needs.
-- **Operations:** support owner, monitoring and alerting, manual fallback, runbook, SLA impact, release window constraints.
-- **Reporting:** affected KPIs, reports and dashboards, consumers, frequency, historical comparability.
-- **Migration and transition:** existing data to migrate or clean, cut-over, parallel run, backward compatibility, decommissioning.
+- **NFR:** performance targets, peak load, availability and support hours, recovery, localization, accessibility (WCAG 2.2 where relevant).
+- **Legal and compliance:** KVKK/GDPR basis and consent, sector regulation, contracts, record keeping.
+- **Support and operations:** support owner, monitoring and alerting, manual fallback, runbook, SLA impact, release window constraints.
+- **Reporting and audit:** affected KPIs, reports and dashboards, consumers, frequency, historical comparability, audit trail (who, what, when).
+- **Rollout, migration and maintenance:** data to migrate or clean, cut-over, parallel run, phased rollout, backward compatibility, decommissioning, long-term owner.
 
 ## Output format
 ```markdown
@@ -60,10 +65,13 @@ Coverage: <present>/<applicable> applicable items present
 ## Gaps
 | # | Area | Item | Status | Severity | Evidence / quoted phrase | Question to close | Owner |
 |---|---|---|---|---|---|---|---|
-| 1 | Business | Success criteria | Missing | Blocker | – | ... | Sponsor |
+| 1 | Business | Success criteria | ABSENT | Blocker | not mentioned | ... | Sponsor |
 
 ## Contradictions
 - "<quote A>" vs "<quote B>" – ...
+
+## Deferred (owner, stage)
+- ...
 
 ## Not applicable (with reason)
 - ...
@@ -78,7 +86,9 @@ Coverage: <present>/<applicable> applicable items present
 - [ ] Severity reflects the target stage, not a generic ideal.
 - [ ] Every Blocker has a closing question and an owner.
 - [ ] The verdict is consistent with the gap list (no "Ready" with open Blockers).
-- [ ] No missing information was filled in by guesswork.
+- [ ] No missing information was filled in by guesswork, and no WEAK item was silently rewritten as precise.
+- [ ] Every finding is classified ABSENT, WEAK or DEFERRED (or PRESENT/CONTRADICTORY/N/A) with evidence.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Demanding estimation-level detail at triage. Match the bar to the stage or good requests get stuck.
@@ -92,6 +102,6 @@ Excerpt of output:
 Target stage: analysis · Verdict: **Not ready**
 | # | Area | Item | Status | Severity | Evidence | Question to close | Owner |
 |---|---|---|---|---|---|---|---|
-| 1 | Process | Approval rule | Vague | Blocker | "above a limit" | Is the limit an amount, a discount %, or both? Fixed or per region? | Sales ops |
-| 2 | Process | Rejection/timeout path | Missing | Blocker | – | What happens if the manager rejects or does not answer in time? | Sales ops |
-| 3 | NFR | Audit trail | Missing | Major | – | Must approvals be auditable (who, when, what value)? | Finance / audit |
+| 1 | Rules | Approval rule | WEAK | Blocker | "above a limit" | Is the limit an amount, a discount %, or both? Fixed or per region? | Sales ops |
+| 2 | Error handling | Rejection/timeout path | ABSENT | Blocker | not mentioned | What happens if the manager rejects or does not answer in time? | Sales ops |
+| 3 | Reporting and audit | Audit trail | ABSENT | Major | not mentioned | Must approvals be auditable (who, when, what value)? | Finance / audit |

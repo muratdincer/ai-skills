@@ -40,6 +40,7 @@ Kod veya teknoloji bilgisi verilmemişse iste; bir proje yapısı uydurup mevcut
 8. Diff'i kendin incele: ölü kod, debug çıktısı, TODO'lar, isimlendirme, hata mesajları, güvenlik (her yeni giriş noktasında yetkilendirme).
 9. Her kabul kriterini onu kanıtlayan testlere eşle.
 10. Raporla: değişen dosyalar, testlerin nasıl çalıştırılacağı, varsayımlar ve takip işleri (dokümantasyon, flag kaldırma, migration'ın daraltma adımı).
+11. Hedef devam ediyorsa değişikliği incelemeye açmak için `pull-request-description` veya test kapsamını derinleştirmek için `unit-test-writing` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Kod veya teknoloji bilgisi verilmemişse iste; bir proje yapısı uydurup mevcut
 - [ ] Eşzamanlılık altında korunması gereken kurallar korunuyor (kısıt, kilit veya idempotency).
 - [ ] Uydurulmuş dosya, API veya kütüphane fonksiyonu yok; emin olunmayan her şey işaretli.
 - [ ] Varsayımlar ve takip işleri açıkça listelendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Mutlu yolu geliştirip kriterlerin ima ettiği uç durumları (boş, mükerrer, bulunamadı, yetkisiz) atlamak.

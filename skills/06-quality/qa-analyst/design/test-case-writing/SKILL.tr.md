@@ -41,6 +41,7 @@ Case türetilecek bir şey yoksa iste. Bilinmeyen alan kuralları beklenen sonu�
 9. Önceliği (riskten), türü (fonksiyonel, negatif, sınır...) ve izlenebilirliği (gereksinim/kriter ID'leri) belirle.
 10. Otomasyona uygunluğu işaretle (Evet / Sonra / Hayır, gerekçesiyle).
 11. Bağımsızlığı gözden geçir: her case başka bir case'in sonucuna dayanmadan tek başına koşabilmeli.
+12. Çıkarımla yazılan beklenen sonuçları `[VARSAYIM]` ile işaretle; kullanıcı devam ederse otomasyona uygun case'ler için `test-automation-script`, gereksinim bağlantısı için `traceability-matrix` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -67,6 +68,7 @@ Son koşullar / temizlik: <...>
 - [ ] Yalnızca mutlu yollar değil, negatif ve sınır case'leri de var.
 - [ ] Her case en az bir gereksinime veya kritere izlenebiliyor.
 - [ ] Case'ler bağımsız ve ön koşullarını belirtiyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Pek çok kontrolü tek uzun bir case'te birleştirmek. Hata sorunun yerini gösterecek biçimde böl.

@@ -42,6 +42,7 @@ If no change information is given, ask for it. If test evidence is missing, do n
 8. Propose a review order and point out the files that need the closest attention; mark generated or mechanical changes as skim-only.
 9. If the PR exceeds roughly 400 changed lines of hand-written code or mixes refactoring with behavior change, recommend splitting and show how.
 10. Fill the template; remove sections that truly do not apply rather than writing "N/A" everywhere.
+11. Suggest next steps from `related` when the goal continues: `code-review` for a self-review before requesting reviewers, `rollback-plan` when the Risks section shows an irreversible change, `release-notes` when the change is user-facing.
 
 ## Output format
 ```markdown
@@ -83,6 +84,7 @@ If no change information is given, ask for it. If test evidence is missing, do n
 - [ ] Irreversible steps (migrations, data changes) are called out with rollback implications.
 - [ ] Reviewers know where to start and what to skim.
 - [ ] Oversized or mixed PRs get a concrete split proposal.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Restating commit subjects as the description. Reviewers need intent and risk, not a changelog of the branch.

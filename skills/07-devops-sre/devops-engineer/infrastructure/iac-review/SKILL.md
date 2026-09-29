@@ -41,6 +41,7 @@ If no code or diff is provided, ask. If there is no plan output, review statical
 8. Reliability and cost: zone redundancy where required, backups and retention, right-sized SKUs, lifecycle rules; flag cost-heavy choices qualitatively.
 9. Pipeline: plan on pull request, apply only from pipeline with approval, policy-as-code checks.
 10. Rate findings and propose code fixes.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `secrets-management-plan` for credential findings, `threat-model` for exposed attack surface, or `finops-review` for cost findings.
 
 ## Output format
 ```markdown
@@ -60,6 +61,7 @@ Verdict: Approve / Approve with changes / Block
 - [ ] Secrets are not in code, variables defaults, or unmasked outputs.
 - [ ] Provider/module versions are pinned.
 - [ ] If no plan output was available, the review says so.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Renaming a resource or module address, causing destroy-and-recreate of a database. Use moved/import blocks.

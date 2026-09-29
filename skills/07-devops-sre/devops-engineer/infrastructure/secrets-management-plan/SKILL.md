@@ -43,6 +43,7 @@ Never ask for or repeat actual secret values. If the user pastes one, tell them 
 9. Define audit and alerting: access logs retained, alerts on unusual access, periodic access review.
 10. Define break-glass: sealed emergency access, who, how logged, post-use rotation.
 11. Produce a phased migration plan from current state.
+12. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest `iac-review` to verify the implementation in code, `authn-authz-design` for workload identity, or `pipeline-design` for CI/CD credential flow.
 
 ## Output format
 ```markdown
@@ -66,6 +67,7 @@ Never ask for or repeat actual secret values. If the user pastes one, tell them 
 - [ ] Secret elimination via workload identity was considered before storing.
 - [ ] Rotation strategy avoids downtime (overlap or versioning).
 - [ ] Leak response says to rotate first, not only to delete from history.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Moving secrets into a vault but giving every service read access to everything. Scope by identity and environment.

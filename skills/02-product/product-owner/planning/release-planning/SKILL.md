@@ -40,6 +40,7 @@ Optional, improves quality:
 7. Identify risks and their effect on the forecast; propose mitigations.
 8. Present trade-off options (move date, cut stretch scope, add capacity with its ramp-up cost) with consequences.
 9. Define re-forecast triggers and cadence (e.g. every iteration or weekly with actual throughput).
+10. If the user's goal continues, suggest `monte-carlo-forecast` for a probabilistic date or `release-plan` for the operational release and deployment plan.
 
 ## Output format
 ```markdown
@@ -79,6 +80,7 @@ Confidence for target date <date>: <High/Medium/Low> – <reason>
 - [ ] Scope growth and availability changes are considered.
 - [ ] Every milestone and dependency has a date or `[TBD]`.
 - [ ] Trade-offs are presented as options for a decision, not hidden.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Planning at 100% of average velocity. Averages are hit only half the time; commit against a pessimistic or 85th-percentile rate.

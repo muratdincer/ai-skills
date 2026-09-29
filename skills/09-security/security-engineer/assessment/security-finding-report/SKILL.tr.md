@@ -41,6 +41,7 @@ Gözlem veya konum eksikse sor. Tekrar üretme teyit edilmediyse bulguyu "Doğru
 8. Hassas değerleri maskeleyerek kanıt ekle: token'lar, parolalar, kişisel veriler, dışarıyla paylaşılıyorsa iç host adları.
 9. Çözümü ver: kök neden düzeltmesi, kısa vadeli önlem ve düzeltmenin nasıl doğrulanacağı (tekrar test adımları).
 10. Referansları (CWE, OWASP cheat sheet'leri, üretici duyurusu) ve durum alanlarını (sorumlu, SLA'ya göre son tarih, tekrar test sonucu) ekle.
+11. Gözlenen kanıtın ötesinde çıkarım yapılan her şeyi `[VARSAYIM]` olarak işaretle, sonra önceliklendirme için `vulnerability-triage`, aktif istismar belirtisi varsa `security-incident-response` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,7 @@ Beklenen: ... Gerçekleşen: ...
 - [ ] Çözüm yalnızca test edilen payload'u değil, kök nedeni ele alıyor.
 - [ ] Tekrar test için doğrulama adımları eklendi.
 - [ ] Gözlemin ötesinde bir iddiada bulunulmadı; bilinmeyenler `[BİLİNMİYOR]` ile işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - "API'de güvenlik sorunu" gibi belirsiz başlıklar. Başlık okuyana zayıflığı ve neyin tehlikede olduğunu söylemeli.

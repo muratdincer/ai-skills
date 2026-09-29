@@ -38,9 +38,9 @@ Optional, improves quality:
 If the raw request is missing, ask for it. Do not ask for optional inputs up front; list them as open questions instead.
 
 ## Process
-1. Read the raw request and separate facts stated by the requester from your own interpretation.
-2. Rewrite the need as a one-sentence problem or opportunity statement: who, what problem, what impact.
-3. Identify the desired outcome and how success would be measured. If absent, propose a measurable candidate and mark it `[ASSUMPTION]`.
+1. Read the raw request and separate facts stated by the requester from your own interpretation; label every inference `[ASSUMPTION]`. Note the sender's role, decision power and stake (what they gain or lose), since it shapes how the ask is framed.
+2. Separate the literal ask (what was requested, often a solution) from the underlying need (the job to be done). Rewrite the need as a one-sentence problem or opportunity statement: who, what problem, what impact.
+3. Split the expectations into must-haves (what the deliverable must contain), success criteria (how the requester will judge it worked) and hard negatives (what they explicitly do not want). If success criteria are absent, propose a measurable candidate and mark it `[ASSUMPTION]`.
 4. Classify the request type: new feature, change to existing, report/data, integration, regulatory/compliance, technical/infrastructure, other.
 5. Draft scope: in scope, out of scope, and explicitly unknown.
 6. List stakeholders: requester, sponsor/decision maker, affected users, affected teams/systems.
@@ -49,6 +49,7 @@ If the raw request is missing, ask for it. Do not ask for optional inputs up fro
 9. List risks and assumptions.
 10. Write open questions, grouped by topic and ordered by how much they block analysis.
 11. Fill the output template. Mark every field not supported by the input as `[UNKNOWN]` or `[ASSUMPTION]`.
+12. If the goal continues, suggest the next skill: `request-clarification-questions` to close the open questions, `request-completeness-check` as a readiness gate, or `request-triage` to route it.
 
 ## Output format
 ```markdown
@@ -58,6 +59,7 @@ If the raw request is missing, ask for it. Do not ask for optional inputs up fro
 | Request ID | <if given, else TBD> |
 | Date received | <date> |
 | Requester | <name, role, department> |
+| Requester's stake | <power / what they gain or lose> |
 | Sponsor / decision maker | <name or [UNKNOWN]> |
 | Request type | <type> |
 | Business value | <H/M/L> – <justification> |
@@ -65,10 +67,14 @@ If the raw request is missing, ask for it. Do not ask for optional inputs up fro
 | Target date | <date and reason, or [UNKNOWN]> |
 
 ## Problem / Opportunity
-<one-sentence statement + short context>
+- Literal ask: <what was requested, in their words>
+- Underlying need: <job to be done> [ASSUMPTION if inferred]
+- Statement: <one sentence + short context>
 
-## Desired Outcome and Success Criteria
-- <measurable outcome>
+## Desired Outcome
+- Must-haves: ...
+- Success criteria: <measurable outcome>
+- Hard negatives (explicitly not wanted): ...
 
 ## Scope
 - In scope: ...
@@ -98,7 +104,9 @@ If the raw request is missing, ask for it. Do not ask for optional inputs up fro
 - [ ] Nothing is invented: unsupported fields are marked `[UNKNOWN]` or `[ASSUMPTION]`.
 - [ ] Out-of-scope items are listed explicitly.
 - [ ] Open questions are specific and each has a likely owner.
+- [ ] The literal ask and the underlying need are stated separately, and every inference is labeled.
 - [ ] The document fits on about one page.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Copying the requester's proposed solution as the requirement. Capture it as "suggested solution" inside context, and keep the problem separate.
@@ -109,6 +117,7 @@ If the raw request is missing, ask for it. Do not ask for optional inputs up fro
 Input: "Sales wants an Excel export on the customer list screen, they need it by month end for the audit."
 
 Excerpt of output:
+- Literal ask: Excel export button. Underlying need `[ASSUMPTION]`: hand auditors a complete, verifiable customer list on time.
 - Problem: Sales cannot provide customer list data to auditors in a usable format, which risks audit findings.
 - Request type: Change to existing (report/data).
 - Target date: End of month – external audit `[confirm exact date]`.

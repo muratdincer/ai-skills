@@ -42,6 +42,7 @@ Bileşen listesi yoksa iste; diğer eksikler açık sorulara gider.
 8. Yenileme ve sıfırlama sıklığını ve kararlılık pencerelerini (ör. kabul sırasında UAT dondurma) tanımla.
 9. Sahiplik ve maliyet kontrollerini tanımla: ortam başına sahip, boştaki üretim dışı ortamları kapatma takvimleri, etiketleme.
 10. Şablonu doldur, mevcut durumdan geçiş adımlarını ve farkları listele.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa ortamlar arası terfi için `pipeline-design`, ortam bazlı gizli bilgiler için `secrets-management-plan` veya üretim dışı veri için `test-data-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -63,6 +64,7 @@ Bileşen listesi yoksa iste; diğer eksikler açık sorulara gider.
 - [ ] Üretim dışında maskelenmemiş üretim kişisel verisi yok.
 - [ ] Her ortam için manuel değişiklik kuralı ve dağıtım yetkisi tanımlı.
 - [ ] Tüm ortamlar değişkenlerle aynı koddan kuruluyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Veritabanı motoru sürümü veya ağ politikası farklı olduğu için hiçbir şey kanıtlamayan bir staging. Eşdeğerlik farklarını kaydet ve kapat.

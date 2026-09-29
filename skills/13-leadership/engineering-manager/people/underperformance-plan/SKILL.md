@@ -40,6 +40,7 @@ If there is no record of prior feedback, state that a formal plan is premature a
 8. Language pass: behavioral, non-judgmental, no personality labels, no references to protected characteristics, leave or personal life.
 9. Consistency pass: are expectations and treatment the same as for others at the same level who had similar gaps?
 10. Add a review log section for weekly evidence and mark every unknown `[TBD]` or `[UNKNOWN]`.
+11. If the user's goal continues, suggest `bad-news-delivery` to prepare the conversation, or `one-on-one-notes` to log weekly check-ins.
 
 ## Output format
 ```markdown
@@ -76,6 +77,7 @@ Role / level: <role> · Manager: <name> · Start: <date> · End: <date> · Durat
 - [ ] Concrete support is listed, with who provides it.
 - [ ] Consequences are neutral and policy-based; HR review is flagged.
 - [ ] No labels, speculation about causes, or personal/health details.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Using a PIP as a paper trail for a decision already made. If there is no genuine chance to succeed, raise this with HR instead.

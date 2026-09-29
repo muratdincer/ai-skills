@@ -43,6 +43,7 @@ If the list of items is missing, ask for it. Missing factor values are rated wit
 9. If capacity is given, fit depth to capacity; list what is reduced or dropped.
 10. State residual risk: items tested lightly or not at all, and who must accept that.
 11. Recommend re-assessment triggers (scope change, new defects clustering in one area).
+12. If the user continues, suggest `test-plan` to schedule the focused effort or `regression-selection` to apply the ratings to a change.
 
 ## Output format
 ```markdown
@@ -73,6 +74,7 @@ Scale: Likelihood 1-5 (<definitions>) · Impact 1-5 (<definitions>)
 - [ ] Highest-risk items are first in execution order.
 - [ ] Residual risk and its acceptance owner are explicit.
 - [ ] Assumed ratings are marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Rating everything high. Force a distribution; if more than a third is top band, recalibrate the scale.

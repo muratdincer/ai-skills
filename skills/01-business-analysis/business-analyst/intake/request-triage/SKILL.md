@@ -31,7 +31,7 @@ Optional, improves quality:
 If no requests are given, ask for them. If routing options are unknown, use the default set below and say so.
 
 ## Process
-1. Normalize each request into one line: requester, need, stated date. Assign a temporary ID if none exists.
+1. Normalize each request into one line: requester (role, decision power, stake), literal ask, underlying need (`[ASSUMPTION]` if inferred), stated date, and any hard negative (what they explicitly do not want). Assign a temporary ID if none exists.
 2. Detect duplicates and overlaps; merge or link them and note the requesters involved.
 3. Classify type: new feature, change to existing, report/data, integration, regulatory/compliance, technical/infrastructure, defect/incident (misrouted), question/access request (misrouted).
 4. Rate urgency with a reason tied to an event: regulatory date, contractual date, revenue/cost impact per period, operational risk. "ASAP" alone is Low evidence.
@@ -41,12 +41,13 @@ If no requests are given, ask for them. If routing options are unknown, use the 
 8. Route each request. Default paths: Fast track (XS/S, low risk, clear), Analysis, Feasibility/estimate, Project/portfolio gate, Service desk/support, Clarify, Reject/park (with a respectful reason).
 9. Suggest an order for the routed items using urgency and value; show the reasoning, not a hidden score.
 10. Draft the one-line response to each requester.
+11. Hand off: suggest `request-intake-document` for items routed to analysis, `request-clarification-questions` for items routed to clarify, and `backlog-prioritization` once items are refined.
 
 ## Output format
 ```markdown
 # Request Triage – <date / batch name>
 
-| ID | Request (one line) | Type | Urgency | Value | Effort band | Risk flags | Route | Reason |
+| ID | Request (one line: ask → need) | Type | Urgency | Value | Effort band | Risk flags | Route | Reason |
 |---|---|---|---|---|---|---|---|---|
 | R1 | ... | ... | H – regulatory date | M | S [ASSUMPTION] | Personal data | Analysis | ... |
 
@@ -70,9 +71,11 @@ If no requests are given, ask for them. If routing options are unknown, use the 
 - [ ] Misrouted incidents and access requests are sent to support, not analysis.
 - [ ] Rejections or parked items have a respectful, specific reason.
 - [ ] Duplicates are linked so no requester is forgotten.
+- [ ] Routing follows the underlying need, not only the literal ask; inferred needs are labeled `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
-- Ranking by who shouts loudest or by seniority. Anchor on the stated goals and event dates.
+- Ranking by who shouts loudest or by seniority. Note the sender's power and stake, but anchor the rating on the stated goals and event dates.
 - Sending everything to analysis. A fast-track path for small, clear, low-risk changes keeps analysts for real problems.
 - Silently parking requests. Every requester should get an answer and a next step.
 

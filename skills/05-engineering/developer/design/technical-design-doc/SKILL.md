@@ -42,6 +42,7 @@ If the problem statement is missing, ask for it. Everything else becomes `[UNKNO
 8. Define how success is verified: tests, metrics, SLO impact, acceptance signals after release.
 9. List risks with likelihood/impact and mitigation, then open questions with an owner.
 10. Scale the document to the change: one to two pages for a medium change; skip sections that truly do not apply and say so in one line.
+11. If the goal continues, suggest `adr` for each significant decision, `api-contract` for new interfaces and `task-breakdown` to plan implementation.
 
 ## Output format
 ```markdown
@@ -74,6 +75,7 @@ Status: Draft | In review | Accepted | Rejected · Author: <name> · Reviewers: 
 - [ ] Rollout is reversible or the irreversible step is explicitly called out.
 - [ ] No volumes, SLAs or dates are invented; unknowns are marked.
 - [ ] A reviewer can find the decision they are asked to approve within one minute.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing a code walkthrough instead of a design. Stay at the level of responsibilities, contracts and data; leave code to the pull request.

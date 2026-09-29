@@ -41,6 +41,7 @@ If code is missing, ask for it. If the entry point is unclear, state your assump
 8. For each finding record: location, OWASP Top 10 category, CWE ID, exploit scenario, severity (with reasoning or CVSS if the team uses it), confidence, and a code-level fix.
 9. Separate confirmed findings from suspicious patterns that need runtime verification.
 10. Summarize: counts by severity, blocking issues for merge, and positive controls observed.
+11. Hand off: write each Critical or High issue up with `security-finding-report`, route disputed severity to `vulnerability-triage`, and feed recurring gaps into `security-requirements`.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Scope: <files> · Exposure: <public/internal/admin> [ASSUMPTION if inferred]
 - [ ] Secrets, tokens or personal data found in code are reported masked, never repeated in full.
 - [ ] Speculative issues are labeled as needing verification.
 - [ ] Merge-blocking items are clearly separated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Reporting every string concatenation as injection. Confirm the value is attacker-controlled and reaches a sink.

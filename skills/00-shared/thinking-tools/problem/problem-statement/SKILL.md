@@ -38,16 +38,19 @@ If the situation description is missing, ask for it. Missing data becomes `[UNKN
 4. Bound it with 5W2H and Is/Is-Not: where and when it occurs and where and when it does not; this boundary often points to causes later.
 5. Quantify the impact: frequency, volume, cost, time, risk, customer or employee effect. Use given data only; otherwise mark `[UNKNOWN]` and name the measure needed.
 6. Name the gap: current state versus expected state or standard.
-7. Write the statement in one or two sentences: "<Who> experiences <what> when <context>, resulting in <impact>, whereas <expected>."
+7. Write the statement in one or two sentences: "<Who> experiences <what> when <context>, resulting in <impact>, whereas <expected>." Add a "How might we <reach the expected state> for <who>?" reframe that opens the solution space without naming a solution.
 8. Test it: does it contain a solution? Could two readers picture different problems? Is it too broad to act on or so narrow it presupposes the cause? Revise.
 9. Define success signals: the observable metric change that would show the problem is solved.
 10. List assumptions and evidence gaps to validate.
+11. If the user's goal continues, suggest `five-whys` or `fishbone-analysis` to find causes, or `assumption-mapping` to prioritize what to validate first.
 
 ## Output format
 ```markdown
 # Problem Statement: <short title>
 
 **Statement:** <Who> experiences <what> when <context>, resulting in <impact>, whereas <expected state>.
+
+**How might we:** <reach the expected state> for <who>?
 
 | Dimension | Is | Is not |
 |---|---|---|
@@ -77,6 +80,7 @@ If the situation description is missing, ask for it. Missing data becomes `[UNKN
 - [ ] Is/Is-Not boundaries are filled where information exists.
 - [ ] Success signals are observable and linked to the impact.
 - [ ] Proposed solutions are parked, not discarded.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - "We don't have a dashboard" is a missing solution, not a problem. Ask what people cannot do or decide today.

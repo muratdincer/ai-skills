@@ -39,6 +39,7 @@ If neither the schedule nor the required roles are given, ask for them. Never as
 6. Check alignment with the critical path: gaps on critical activities have priority.
 7. Plan onboarding time for new members and knowledge transfer for leavers.
 8. Record assumptions and the review cadence.
+9. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `budget-plan` to cost the allocation, or `raci-matrix` to clarify responsibilities.
 
 ## Output format
 ```markdown
@@ -61,6 +62,7 @@ Period unit <week/month> | Productive share assumption <x%>
 - [ ] No person exceeds 100% without being flagged.
 - [ ] Every gap has at least one option and a decision owner.
 - [ ] Personal data is limited to what planning needs (no reasons for leave or health data).
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Counting shared experts as full-time. Confirm their real allocation with their line manager.

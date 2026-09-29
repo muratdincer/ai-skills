@@ -43,6 +43,7 @@ If drivers or baseline are missing, ask. Do not invent dates or budgets.
 8. Identify architecture decisions and their latest responsible date; link to ADRs.
 9. Define measures to verify the target is being reached (fitness functions, KPIs per driver).
 10. Record assumptions, constraints and open questions for the steering body.
+11. If the goal continues, suggest `migration-strategy` for each transition, `roadmap` for scheduling or `adr` for the key target decisions.
 
 ## Output format
 ```markdown
@@ -73,6 +74,7 @@ Horizon: <e.g., 3 years> · Status: Draft
 - [ ] Each plateau is operable and delivers value alone; interim integrations are explicit.
 - [ ] Undecided technology choices are marked, not assumed.
 - [ ] Each driver has a measure to track progress.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Drawing only the target. Without baseline and plateaus there is no plan, only a picture.

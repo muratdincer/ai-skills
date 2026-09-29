@@ -40,6 +40,7 @@ If no code or stack information is given, ask for it; do not invent a project st
 8. Self-review the diff: dead code, debug output, TODOs, naming, error messages, security (authorization on every new entry point).
 9. Map each acceptance criterion to the tests that prove it.
 10. Report: files changed, how to run the tests, assumptions, and follow-ups (docs, flag removal, migration contract step).
+11. If the goal continues, suggest `pull-request-description` to open the change for review or `unit-test-writing` to deepen test coverage.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ If no code or stack information is given, ask for it; do not invent a project st
 - [ ] Invariants that must hold under concurrency are protected (constraint, lock or idempotency).
 - [ ] No invented files, APIs or library functions; anything uncertain is flagged.
 - [ ] Assumptions and follow-ups are listed explicitly.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Implementing the happy path and leaving edge cases implied by the criteria (empty, duplicate, not found, unauthorized).

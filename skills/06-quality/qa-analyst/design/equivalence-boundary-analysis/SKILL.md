@@ -40,6 +40,7 @@ If a constraint is not stated, do not assume it. List it as an open question and
 8. Assign the expected outcome to every value; for invalid values specify the exact rejection behavior if known, else `[UNKNOWN]`.
 9. Combine: test valid values together where possible; test each invalid value alone so failures are attributable.
 10. Output the partition table, the value table and open questions.
+11. Label inferred limits `[ASSUMPTION]`; if the user continues, suggest `test-case-writing` for executable cases or `test-data-design` for the datasets.
 
 ## Output format
 ```markdown
@@ -60,6 +61,7 @@ If a constraint is not stated, do not assume it. List it as an open question and
 - [ ] Step size matches the data precision.
 - [ ] Computed and cross-field boundaries are considered.
 - [ ] Unstated limits are questions, not assumptions presented as facts.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Testing only the requirement boundaries and ignoring technical limits (max length in the database, integer size).

@@ -42,6 +42,7 @@ Değişiklik bilgisi verilmediyse iste. Test kanıtı yoksa testlerin çalışt�
 8. Bir inceleme sırası öner ve en dikkatli bakılması gereken dosyaları göster; üretilmiş veya mekanik değişiklikleri "göz gezdirmek yeterli" olarak işaretle.
 9. PR elle yazılmış yaklaşık 400 satırı aşıyorsa veya refactoring ile davranış değişikliğini karıştırıyorsa bölmeyi öner ve nasıl bölüneceğini göster.
 10. Şablonu doldur; gerçekten uygulanmayan bölümleri her yere "Yok" yazmak yerine kaldır.
+11. Hedef devam ediyorsa `related` içinden sonraki adımı öner: inceleyen çağırmadan önce öz inceleme için `code-review`, Riskler bölümü geri alınamaz bir değişiklik gösteriyorsa `rollback-plan`, değişiklik kullanıcıya dönükse `release-notes`.
 
 ## Çıktı formatı
 ```markdown
@@ -83,6 +84,7 @@ Değişiklik bilgisi verilmediyse iste. Test kanıtı yoksa testlerin çalışt�
 - [ ] Geri alınamayan adımlar (migration, veri değişikliği) rollback etkileriyle birlikte belirtilmiş.
 - [ ] İnceleyenler nereden başlayacağını ve neye göz gezdireceğini biliyor.
 - [ ] Çok büyük veya karışık PR'lar için somut bir bölme önerisi var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Commit başlıklarını açıklama olarak tekrar yazmak. İnceleyenin ihtiyacı branch'in değişiklik listesi değil, niyet ve risktir.

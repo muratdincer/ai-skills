@@ -43,6 +43,7 @@ Kapsam yoksa sor; sınırı olmayan model anlamsızdır.
 10. Kişisel ve özel nitelikli veri içeren varlıkları sonraki sınıflandırma için işaretle.
 11. Tanımlardaki açık soruları ve çelişkileri kaydet; sessizce birini seçme.
 12. Modeli diagram-as-code bloğu ve varlık kataloğu olarak üret.
+13. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: nitelik ve anahtar eklemek için `logical-data-model` veya iş terimlerini resmileştirmek için `glossary-builder`.
 
 ## Çıktı formatı
 ```markdown
@@ -80,6 +81,7 @@ erDiagram
 - [ ] Eş anlamlılar birleştirildi, sesteşler ayrıldı, diğer adlar kaydedildi.
 - [ ] Kullanıcının vermediği sahipler `[VARSAYIM]` olarak işaretli.
 - [ ] Kişisel veri taşıyan varlıklar işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Mevcut sistemin tablolarını modelleyip kavramsal model demek. Önce iş dilinden türet, sonra sistemlerle karşılaştır.

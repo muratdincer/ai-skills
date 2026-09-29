@@ -35,9 +35,10 @@ If the initiative description is missing, ask for it. Use roles, not invented na
 3. Apply the checklist of commonly missed groups: sponsor/budget owner, end users by segment, managers of end users, operations/support, IT owners of each affected system, data owners/stewards, security, legal/compliance/DPO, internal audit, finance, HR/works council (if roles or monitoring change), procurement, customers, suppliers/partners, regulators, trainers.
 4. Follow the data and systems: every system and data set touched implies an owner.
 5. Categorize each stakeholder: Decides, Influences, Affected, Informed; internal or external.
-6. For each, write their interest (what they gain or fear) and what you need from them (approval, input, data, testing, sign-off).
+6. For each, write their interest (what they gain or fear) and what you need from them (approval, input, data, testing, sign-off). Mark interests you infer rather than heard as `[ASSUMPTION]`.
 7. Flag veto holders and stakeholders whose absence is a risk.
 8. List gaps: roles whose person is unknown, marked `[UNKNOWN]`, with who can name them.
+9. If the goal continues, suggest `stakeholder-map` to plan engagement or `raci-matrix` to assign ownership of activities.
 
 ## Output format
 ```markdown
@@ -62,6 +63,7 @@ Scope anchor: <one sentence>
 - [ ] No names were invented; unknown people are roles marked `[UNKNOWN]`.
 - [ ] Each stakeholder has a concrete "needed from them".
 - [ ] Veto holders are flagged.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing only the requester's department. Follow the process and data end to end.

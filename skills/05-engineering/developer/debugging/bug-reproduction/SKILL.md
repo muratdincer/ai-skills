@@ -33,13 +33,14 @@ If you do not know which system or feature is affected, ask. Mask personal data 
 ## Process
 1. Restate the defect as expected vs actual behavior in one sentence each; separate observations from the reporter's interpretation.
 2. Inventory the variables that could matter: version/build, environment, config and feature flags, data shape and volume, user role/permissions, locale/time zone/clock, concurrency and timing, network conditions, client device/browser.
-3. Compare a failing case with a working case and list the differences; each difference is a candidate variable.
+3. Compare a failing case with a working case and list the differences, including recent changes (commits, config, data, dependencies) between the last known good and first bad occurrence; each difference is a candidate variable.
 4. Draft the first reproduction as close to the reported conditions as possible (same version, similar data, same role). Record whether it fails and how often (e.g., 3/20 runs).
 5. Minimize: remove or fix one variable at a time and re-run; keep a variable only if removing it makes the failure disappear. Use bisection over data sets, commits or config when the space is large.
 6. For intermittent defects, force the suspected condition: fixed seed, frozen clock, injected latency, reduced pool sizes, parallel execution, larger data volume. Report the reproduction rate before and after.
 7. When the reproduction is stable, express it at the lowest level possible: unit or integration test first, then API call sequence, then UI steps.
 8. Document preconditions and test data explicitly, using synthetic or masked data.
 9. If you cannot reproduce, document what was tried, the variables ruled out, and the exact additional evidence needed (log fields, trace, dump, customer data sample).
+10. Hand over: with a stable reproduction, suggest `debugging-hypotheses` to find the root cause (no fix before it is confirmed) and `unit-test-writing` to keep the failing test; if the report itself is incomplete, suggest `bug-report`.
 
 ## Output format
 ```markdown
@@ -79,10 +80,12 @@ If you do not know which system or feature is affected, ask. Mask personal data 
 - [ ] Test data is synthetic or masked.
 - [ ] A failing automated test is proposed or its absence explained.
 - [ ] Unverified environment details are marked `[UNKNOWN]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Reproducing on the latest code instead of the reported version, then declaring "cannot reproduce". Pin the version first.
 - Changing several variables at once during minimization. You lose the ability to say which one matters.
+- Starting a fix before the reproduction is reliable ("quick fix for now"). Without a stable reproduction you cannot prove the fix works.
 - Ignoring time: time zones, DST transitions, month ends and cache expiry produce "random" bugs that are fully deterministic.
 
 ## Example

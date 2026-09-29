@@ -38,6 +38,7 @@ Malzeme verilmediyse proto-persona oluşturulup oluşturulmayacağını sor; öy
 6. Zihniyeti yansıtan 2-3 gerçek, anonimleştirilmiş alıntı ekle.
 7. Tasarım çıkarımlarını yaz: 3-5 adet "bu nedenle şunu yapmalı / yapmamalıyız" ifadesi.
 8. Bir kanıt tablosu ve güven düzeyi ekle; bir sonraki araştırma turu için boşlukları listele.
+9. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: personanın hedeflerini derinleştirmek için `jobs-to-be-done` veya `customer-journey-map`, kanıt boşluklarını kapatmak için `problem-interview-script`.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Güven: Y/O/D · Dayanak: <kaynaklar, n>
 - [ ] Alıntılar gerçek ve anonim; kişisel veri yok.
 - [ ] Tasarım çıkarımları somut ve uygulanabilir.
 - [ ] Güven düzeyi ve örneklem büyüklüğü belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Stok fotoğraf, hobiler ve hayat hikâyesi uydurmak. Süs niteliğindeki kurgu güveni azaltır; davranışla ilgili olgulara bağlı kal.

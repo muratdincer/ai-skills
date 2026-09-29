@@ -40,6 +40,7 @@ Bir kısıt belirtilmemişse varsayma. Açık soru olarak listele ve aday değer
 8. Her değere beklenen sonucu ata; geçersiz değerler için biliniyorsa tam ret davranışını, bilinmiyorsa `[BİLİNMİYOR]` yaz.
 9. Birleştir: geçerli değerleri mümkünse birlikte test et; hatalar ayırt edilebilsin diye her geçersiz değeri tek başına test et.
 10. Sınıf tablosunu, değer tablosunu ve açık soruları çıktı olarak ver.
+11. Çıkarımla belirlenen sınırları `[VARSAYIM]` ile işaretle; kullanıcı devam ederse koşturulabilir case'ler için `test-case-writing`, veri setleri için `test-data-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,7 @@ Bir kısıt belirtilmemişse varsayma. Açık soru olarak listele ve aday değer
 - [ ] Adım büyüklüğü veri hassasiyetiyle uyumlu.
 - [ ] Hesaplanan ve alanlar arası sınırlar dikkate alındı.
 - [ ] Belirtilmemiş sınırlar olgu gibi sunulan varsayımlar değil, soru olarak yazıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca gereksinimdeki sınırları test edip teknik sınırları (veritabanındaki maksimum uzunluk, tamsayı boyutu) yok saymak.

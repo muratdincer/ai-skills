@@ -39,6 +39,7 @@ Zorunlu:
 7. Tehditleri belirle: rakiplerin nereye gittiği (yeni lansmanlar, fiyat değişiklikleri, yatırımlar) ve bunun anlamı.
 8. Öneri yap: 1-2 alanda farklılaş, olmazsa olmazlarda eşitliği yakala, diğerlerini bilerek görmezden gel.
 9. Kanıt boşluklarını ve nasıl kapatılacaklarını (kazanma/kaybetme görüşmeleri, deneme kayıtları) listele.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: boşlukları ayrışan bir konuma çevirmek için `positioning-statement`, asıl rekabet alanı fiyatsa `pricing-analysis`.
 
 ## Çıktı formatı
 ```markdown
@@ -73,6 +74,7 @@ Segment · Temel iş · Fiyatlandırma · Pazara çıkış · Konumlandırma · 
 - [ ] Karşılaştırma kriterleri sizin özellik listenizden değil, alıcı önceliklerinden geliyor.
 - [ ] Analiz açık farklılaş/eşitle/görmezden gel seçimleriyle bitiyor.
 - [ ] Dil olgusal; karalayıcı iddia yok.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sizi iyi gösteren ama alıcının değer verdiği şeyi atlayan özellik sayma tabloları. Satın alma kriterlerine göre ağırlıklandır.

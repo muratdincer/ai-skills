@@ -40,6 +40,7 @@ Sonuçlar yoksa iste. Girdide olmayan hiçbir sayıyı doldurma.
 7. Etkilere çevir: gelir, maliyet, müşteri veya risk üzerindeki etki; rakam verilmediyse nitel olarak.
 8. Sorumlularıyla 1-3 aksiyon öner; güven düşükse sonraki analizleri öner.
 9. Tek ekrana sığdır; destekleyici tabloları eke koy.
+10. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa içgörüyü yönetime taşımak için `executive-summary` veya `presentation-outline` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -72,6 +73,7 @@ Sonuçlar yoksa iste. Girdide olmayan hiçbir sayıyı doldurma.
 - [ ] Mutlak ve göreli değişim karıştırılmadı (puan ve %).
 - [ ] En az bir somut aksiyon önerildi.
 - [ ] Sonucu tersine çevirebilecek uyarılar görünür.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her grafiği tek tek anlatmak ("A metriği arttı, B azaldı"). Önemli olan tek bulguyla başla.

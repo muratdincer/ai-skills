@@ -38,9 +38,9 @@ Zorunlu:
 Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açık sorular olarak listele.
 
 ## Süreç
-1. Ham talebi oku. Talep sahibinin söylediği olgularla kendi yorumunu birbirinden ayır.
-2. İhtiyacı tek cümlelik bir problem veya fırsat tanımı olarak yeniden yaz: kim, hangi problem, hangi etki.
-3. İstenen sonucu ve başarının nasıl ölçüleceğini belirle. Belirtilmemişse ölçülebilir bir aday öner ve `[VARSAYIM]` olarak işaretle.
+1. Ham talebi oku. Talep sahibinin söylediği olgularla kendi yorumunu birbirinden ayır; her çıkarımı `[VARSAYIM]` olarak etiketle. Gönderenin rolünü, karar gücünü ve çıkarını (ne kazanıp ne kaybedeceğini) not et; talebin nasıl çerçevelendiğini bunlar belirler.
+2. Kelimesi kelimesine isteneni (çoğu zaman bir çözüm) asıl ihtiyaçtan (yapılmak istenen iş) ayır. İhtiyacı tek cümlelik bir problem veya fırsat tanımı olarak yeniden yaz: kim, hangi problem, hangi etki.
+3. Beklentileri üçe ayır: olmazsa olmazlar (teslimatta mutlaka bulunması gerekenler), başarı kriterleri (talep sahibinin işe yaradığına nasıl karar vereceği) ve kesin istenmeyenler (açıkça istemediği şeyler). Başarı kriteri belirtilmemişse ölçülebilir bir aday öner ve `[VARSAYIM]` olarak işaretle.
 4. Talep türünü sınıflandır: yeni özellik, mevcut özellikte değişiklik, rapor/veri, entegrasyon, yasal/uyum, teknik/altyapı, diğer.
 5. Kapsamı taslak olarak çıkar: kapsam içi, kapsam dışı ve açıkça bilinmeyenler.
 6. Paydaşları listele: talep sahibi, sponsor/karar verici, etkilenen kullanıcılar, etkilenen ekipler/sistemler.
@@ -49,6 +49,7 @@ Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açı
 9. Riskleri ve varsayımları listele.
 10. Açık soruları konuya göre grupla ve analizi ne kadar engellediklerine göre sırala.
 11. Çıktı şablonunu doldur. Girdiyle desteklenmeyen her alanı `[BİLİNMİYOR]` veya `[VARSAYIM]` olarak işaretle.
+12. Hedef devam ediyorsa sonraki beceriyi öner: açık soruları kapatmak için `request-clarification-questions`, hazırlık kapısı için `request-completeness-check`, yönlendirme için `request-triage`.
 
 ## Çıktı formatı
 ```markdown
@@ -58,6 +59,7 @@ Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açı
 | Talep No | <verildiyse, yoksa TBD> |
 | Geliş tarihi | <tarih> |
 | Talep sahibi | <ad, rol, departman> |
+| Talep sahibinin çıkarı | <güç / ne kazanır, ne kaybeder> |
 | Sponsor / karar verici | <ad veya [BİLİNMİYOR]> |
 | Talep türü | <tür> |
 | İş değeri | <Y/O/D> – <gerekçe> |
@@ -65,10 +67,14 @@ Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açı
 | Hedef tarih | <tarih ve gerekçe veya [BİLİNMİYOR]> |
 
 ## Problem / Fırsat
-<tek cümlelik tanım + kısa bağlam>
+- İstenen (birebir): <talep sahibinin kendi ifadesiyle>
+- Asıl ihtiyaç: <yapılmak istenen iş> [çıkarımsa VARSAYIM]
+- Tanım: <tek cümle + kısa bağlam>
 
-## İstenen Sonuç ve Başarı Kriterleri
-- <ölçülebilir sonuç>
+## İstenen Sonuç
+- Olmazsa olmazlar: ...
+- Başarı kriterleri: <ölçülebilir sonuç>
+- Kesin istenmeyenler: ...
 
 ## Kapsam
 - Kapsam içi: ...
@@ -98,7 +104,9 @@ Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açı
 - [ ] Hiçbir şey uydurulmadı: desteklenmeyen alanlar `[BİLİNMİYOR]` veya `[VARSAYIM]` olarak işaretli.
 - [ ] Kapsam dışı maddeler açıkça listelendi.
 - [ ] Açık sorular somut ve her birinin muhtemel bir muhatabı var.
+- [ ] Birebir istenen ile asıl ihtiyaç ayrı yazıldı ve her çıkarım etiketlendi.
 - [ ] Doküman yaklaşık bir sayfaya sığıyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Talep sahibinin önerdiği çözümü gereksinim olarak kopyalamak. Onu bağlam içinde "önerilen çözüm" olarak kaydet, problemi ayrı tut.
@@ -109,6 +117,7 @@ Ham talep yoksa iste. İsteğe bağlı girdileri en başta sorma; bunları açı
 Girdi: "Satış ekibi müşteri listesi ekranına Excel'e aktarma istiyor, denetim için ay sonuna kadar lazım."
 
 Çıktıdan bir bölüm:
+- İstenen: Excel'e aktarma düğmesi. Asıl ihtiyaç `[VARSAYIM]`: denetçilere eksiksiz ve doğrulanabilir müşteri listesini zamanında vermek.
 - Problem: Satış ekibi müşteri listesi verisini denetçilere kullanılabilir bir formatta sunamıyor. Bu durum denetim bulgusu riski doğuruyor.
 - Talep türü: Mevcut özellikte değişiklik (rapor/veri).
 - Hedef tarih: Ay sonu – dış denetim `[kesin tarihi teyit et]`.

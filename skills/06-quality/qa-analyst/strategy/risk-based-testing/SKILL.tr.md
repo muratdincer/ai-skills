@@ -43,6 +43,7 @@ Zorunlu:
 9. Kapasite verildiyse derinliği kapasiteye uydur; azaltılan veya çıkarılanları listele.
 10. Kalan riski belirt: hafif test edilen veya hiç test edilmeyen öğeler ve bunu kimin kabul etmesi gerektiği.
 11. Yeniden değerlendirme tetikleyicilerini öner (kapsam değişikliği, hataların tek bir alanda yoğunlaşması).
+12. Kullanıcı devam ederse odaklanan eforu planlamak için `test-plan`, dereceleri bir değişikliğe uygulamak için `regression-selection` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -73,6 +74,7 @@ Zorunlu:
 - [ ] En yüksek riskli öğeler koşum sırasında en başta.
 - [ ] Kalan risk ve kabul sorumlusu açıkça yazılı.
 - [ ] Varsayılan dereceler `[VARSAYIM]` ile işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her şeyi yüksek derecelendirmek. Dağılımı zorla; öğelerin üçte birinden fazlası en üst banttaysa ölçeği yeniden kalibre et.

@@ -43,6 +43,7 @@ Hedef veya gereksinimler yoksa sor. Girdisi olmayan bölümler dokümanda `[TBD]
 8. Bölüm 8 Kesişen kavramlar: güvenlik (kimlik doğrulama/yetkilendirme, gizli bilgiler, veri koruma), gözlemlenebilirlik, hata yönetimi, kalıcılık, entegrasyon, yapılandırma.
 9. Bölüm 9-11: karar dizini, kalite senaryoları (uyaran/yanıt/ölçü), riskler ve teknik borç ile azaltım önlemleri.
 10. Bölüm 12 Sözlük. Tutarlılık kontrolü yap: bölüm 5'teki her konteyner 7'de yer alıyor; bölüm 1'deki her kalite hedefi 4, 8 veya 10'da karşılanıyor.
+11. Hedef devam ediyorsa onaydan önce `architecture-review`, zayıf kalite bölümleri için `nfr-to-architecture`, bileşen düzeyi tasarım için `technical-design-doc` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Açık Sorular
 - [ ] Çalışma zamanı görünümünde en az bir hata senaryosu var.
 - [ ] Kişisel veri akışları ve korunmaları açıkça yazılı.
 - [ ] Bilinmeyenler uydurulmadı; açık soruyla birlikte `[TBD]` olarak işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Gerekçe yerine teknoloji listesi yazmak. Bölüm 4 "neden"i anlatmalı.

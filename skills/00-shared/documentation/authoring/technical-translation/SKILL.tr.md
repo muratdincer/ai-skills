@@ -42,6 +42,7 @@ Kaynak veya çeviri yönü eksikse iste. Birden fazla geçerli karşılığı ol
 8. Kaynağın yapısını koru: başlıklar, listeler, tablolar, bağlantılar, vurgular ve numaralandırma.
 9. Arayüz metinlerini uzunluk sınırlarına ve yer tutucu sırasına göre kontrol et; dil bilgisinin sıralamayı değiştirmeye zorladığı yerleri not et.
 10. Çeviriyi ve terim kararlarını, belirsizlikleri ve teyit edilecek maddeleri listeleyen çevirmen notunu teslim et.
+11. Kullanıcının hedefi devam ediyorsa terim kararlarını sabitlemek için `glossary-builder`, hedef metnin anadil düzeyinde incelenmesi için `document-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -63,6 +64,7 @@ Teyit edilecekler: <alan sorumlusu gerektiren terimler veya cümleler>
 - [ ] Türkçe ekler, kesme işaretleri ve özel karakterler doğru.
 - [ ] Yapı ve biçim kaynakla eşleşiyor.
 - [ ] Belirsizlikler sessizce çözülmemiş, işaretlenmiş.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kullanıcıların arama yaptığı tanımlayıcıları veya log mesajlarını çevirmek. Bunları orijinal bırak, gerekirse düz metinde açıkla.

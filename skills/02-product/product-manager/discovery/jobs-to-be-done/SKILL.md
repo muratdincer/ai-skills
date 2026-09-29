@@ -37,6 +37,7 @@ If the job executor or the situation is missing, ask. Statements not backed by r
 6. Capture the situation/trigger with job stories where helpful: "When <situation>, I want to <motivation>, so I can <expected outcome>".
 7. List current solutions hired and their shortcomings, including non-consumption.
 8. Propose how to prioritize outcomes (importance vs satisfaction survey) and flag likely underserved outcomes from evidence.
+9. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `opportunity-solution-tree` to turn underserved outcomes into opportunities, or `problem-interview-script` to gather missing evidence.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ Related jobs: ... · Emotional/social jobs: ...
 - [ ] Emotional and social jobs are considered.
 - [ ] Non-consumption and workarounds appear among current solutions.
 - [ ] Assumed items are marked `[ASSUMPTION]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing jobs at the wrong altitude ("click export"). Ask "why?" until you reach a stable goal.

@@ -40,6 +40,7 @@ If there is no stakeholder list, ask for it or run a quick identification first.
 7. Define feedback and escalation paths: how audiences ask questions or raise concerns, and response time.
 8. Add event-driven communications: go-live, incidents, delays, scope changes, with approval rules for sensitive messages.
 9. Define how effectiveness is checked (attendance, read rates, pulse questions, stakeholder feedback) and the plan review cadence.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `project-status-report` or `status-update` to produce the first scheduled message.
 
 ## Output format
 ```markdown
@@ -60,6 +61,7 @@ If there is no stakeholder list, ask for it or run a quick identification first.
 - [ ] Timing is linked to decision points, not arbitrary.
 - [ ] Sensitive communications have an approver.
 - [ ] Feedback paths exist, not only outbound messages.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - One status report for everybody. Tailor depth: executives need decisions and risks, teams need detail.

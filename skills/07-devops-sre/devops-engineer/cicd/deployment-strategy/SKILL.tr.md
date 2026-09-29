@@ -41,6 +41,7 @@ Platform veya kesinti toleransı bilinmiyorsa sor. Diğer eksikler açık soru o
 7. Her strateji için durdurma kriterlerini ve rollback mekanizmasını (trafik geçişi, rollout geri alma, flag kapatma) tanımla.
 8. Durum tutan parçaları ele al: kuyruk tüketicileri, zamanlanmış işler, önbellekler, migration'lar; iki sürümün birlikte çalıştığı sürede bunları kimin çalıştıracağını yaz.
 9. Gerekçesi ve kurulması gereken ön koşullarıyla tek bir strateji (veya birleşim) öner.
+10. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa ayrıntılı geri dönüş yolu için `rollback-plan`, sürümün sıralaması için `release-plan` veya terfi kriterlerinde üzerinde anlaşılmış SLO yoksa `slo-definition` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Platform veya kesinti toleransı bilinmiyorsa sor. Diğer eksikler açık soru o
 - [ ] Canary yalnızca trafik anlamlı karşılaştırmaya izin veriyorsa önerildi.
 - [ ] Yalnızca HTTP trafiği değil, arka plan işleri ve tüketiciler de ele alındı.
 - [ ] Çift kapasitenin maliyet etkisi uydurma rakam olmadan nitel olarak belirtildi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kırıcı bir migration ile tek bir veritabanını paylaşırken blue-green seçmek. Önce expand-and-contract uygula.

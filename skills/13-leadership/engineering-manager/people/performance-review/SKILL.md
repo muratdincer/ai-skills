@@ -41,6 +41,7 @@ If the rating scale or competency framework is missing, use generic dimensions (
 8. Run a bias pass: recency, halo/horns, similarity, attribution (credit to individual vs team), gendered or coded language ("abrasive", "aggressive" vs "assertive"), penalizing flexible work or leave.
 9. Define 2-4 focus points for the next period, linked to growth areas and career goals.
 10. Mark every claim without evidence as `[NEEDS EVIDENCE]` and list open questions for the manager.
+11. If the user's goal continues, suggest `goal-setting` for next-period goals, or `career-development-plan` for growth areas.
 
 ## Output format
 ```markdown
@@ -80,6 +81,7 @@ Role / level: <role, level> · Reviewer: <manager> · Rating: <proposed> [draft]
 - [ ] No personality labels, coded language or references to leave, health, family or other protected characteristics.
 - [ ] Nothing in the review would be a surprise if feedback was given during the period.
 - [ ] Personal data from notes is minimized to what the review needs.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Recency bias. Build the evidence table from the whole period before writing prose.

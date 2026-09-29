@@ -43,6 +43,7 @@ Hedefler veya mevcut durum yoksa sor. Tarih veya bütçe uydurma.
 8. Mimari kararları ve en geç verilmeleri gereken tarihi belirle; ADR'lere bağla.
 9. Hedefe ulaşıldığını doğrulayacak ölçüleri tanımla (fitness function'lar, hedef başına KPI'lar).
 10. Varsayımları, kısıtları ve yönlendirme kurulu için açık soruları kaydet.
+11. Hedef devam ediyorsa her geçiş için `migration-strategy`, zamanlama için `roadmap` veya temel hedef kararlar için `adr` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -73,6 +74,7 @@ Ufuk: <ör. 3 yıl> · Durum: Taslak
 - [ ] Her ara durum işletilebilir ve tek başına değer üretiyor; geçici entegrasyonlar açıkça yazılı.
 - [ ] Verilmemiş teknoloji kararları varsayılmadı, işaretlendi.
 - [ ] Her hedefin ilerlemeyi izleyecek bir ölçüsü var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca hedefi çizmek. Mevcut durum ve ara durumlar olmadan plan yoktur, yalnızca resim vardır.

@@ -41,6 +41,7 @@ Somut bir örnek yoksa iste; genel övgünün değeri düşüktür.
 7. Kısa tut: 3-6 cümle, üst üste yığılmış abartılı sıfatlar yok, başkalarıyla karşılaştırma yok.
 8. Aşırı çalışmayı ideal olarak yüceltme (ör. hafta sonu mesaisini övmek); gerekiyorsa sürdürülebilirliğe de değin.
 9. Faydalıysa bir alternatif sürüm (daha kısa veya başka bir kanal için) sun.
+10. Kullanıcının hedefi devam ediyorsa daha geniş bir kitle için `announcement` veya kanıtı değerlendirme dönemine kaydetmek için `performance-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -63,6 +64,7 @@ Alternatif (<kanal>): <kısa sürüm>
 - [ ] Ton kanala uygun; açık mesajlarda özel ayrıntı yok.
 - [ ] Sürdürülemez çabayı yüceltmiyor.
 - [ ] 3-6 cümle.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Herkese gönderilebilecek genel övgü ("süperstar", "muhteşem iş"). Eylemi adlandır.

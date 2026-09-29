@@ -38,6 +38,7 @@ If the raw content is missing, ask for it. If the agenda is missing, infer topic
 7. Flag unclear passages (inaudible, contradictory, ambiguous acronym) as `[UNCLEAR: ...]` rather than smoothing them over.
 8. Remove small talk, repetition and off-record remarks; mask personal data not needed for the record (phone numbers, health, HR matters).
 9. Add a header with meeting metadata and a "Not covered" line for agenda items that were skipped.
+10. If the user's goal continues, suggest `action-item-extraction` for a full commitment list or `meeting-summary` for a short recap.
 
 ## Output format
 ```markdown
@@ -69,6 +70,8 @@ Agenda coverage: <covered items> | Not covered: <items>
 - [ ] Numbers, dates and system names match the source exactly.
 - [ ] Unclear parts are flagged, not guessed.
 - [ ] Sensitive personal data is masked or removed.
+- [ ] Anything not stated in the input is labeled `[ASSUMPTION]` or listed as an open question, never presented as fact.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Turning "we should probably..." into a decision. Keep it as a discussion point or a QUESTION.

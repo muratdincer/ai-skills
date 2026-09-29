@@ -42,6 +42,7 @@ Kaynak materyal veya terim listesi yoksa iste. Bir alan terimini yalnızca genel
 8. Sınırlı kanıttan çıkarılmış tanımları `[VARSAYIM]` olarak işaretle ve teyit için muhtemel bir sorumlu ata.
 9. Alfabetik sırala, kısaltmaları aç, ilişkili terimleri birbirine bağla.
 10. Karar gerektiren çelişkileri listele (ör. "Satış ve Faturalama aktif müşteriyi farklı tanımlıyor").
+11. Kullanıcının hedefi devam ediyorsa tanımlara gizlenmiş kurallar için `business-rules-catalog`, sözlüğün iki dilli olması gerekiyorsa `technical-translation` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -66,6 +67,7 @@ Kapsam: <sözlüğün kapsadığı alan> | Kaynaklar: <kullanılan dokümanlar> 
 - [ ] Her tanımın kaynağı var ya da `[VARSAYIM]` olarak işaretli.
 - [ ] Çelişkiler sessizce çözülmemiş, görünür kılınmış.
 - [ ] Kısaltmalar açılmış.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yalnızca örnekle tanımlamak ("Müşteri, ör. ACME"). Önce sınıfı ve ayırt edici ölçütü ver, sonra örneği.

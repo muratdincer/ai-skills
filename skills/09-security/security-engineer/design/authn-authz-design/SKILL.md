@@ -41,6 +41,7 @@ If client types or resources are missing, ask. Other gaps become assumptions.
 8. Define audit logging: authentication events, privilege changes, denied access; mask personal data in logs.
 9. List threats addressed (token theft, replay, confused deputy, privilege escalation) and residual risks.
 10. Record decisions and open questions for an ADR.
+11. Suggest the next skill: `security-requirements` to turn the design into testable controls, `threat-model` to attack the flows, `access-review` to define periodic review of the roles.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ If client types or resources are missing, ask. Other gaps become assumptions.
 - [ ] Token lifetimes, rotation and revocation are defined.
 - [ ] Admin and support access follows least privilege and is audited.
 - [ ] Unknown IdP capabilities or policies are marked `[UNKNOWN]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Encoding every permission as a role, causing role explosion. Use attributes or relationships for data-level rules.

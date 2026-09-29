@@ -39,6 +39,7 @@ Teslimat açıklaması yoksa iste.
 7. Her iş paketi için WBS sözlüğü girdisi yaz: açıklama, kabul, sahip rolü, temel bağımlılıklar, varsayımlar.
 8. Belirsizliği yüksek paketleri üç noktalı tahmin için işaretle.
 9. Her kapsam teslimatını en az bir iş paketine izle ve boşlukları listele.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: iş paketlerini tahminlemek için `estimation-three-point`, ardından `schedule-plan`.
 
 ## Çıktı formatı
 ```markdown
@@ -62,6 +63,7 @@ Teslimat açıklaması yoksa iste.
 - [ ] Proje yönetimi, test, veri taşıma, eğitim ve dağıtım mevcut ya da açıkça hariç tutulmuş.
 - [ ] Her iş paketinin tek bir sahip rolü ve kabulü var.
 - [ ] Her kapsam teslimatı bir pakete izlenebiliyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Aynı seviyede organizasyon birimlerini, fazları ve teslimatları karıştırmak. Her seviyede tek bir bölme ilkesi seç.

@@ -41,6 +41,7 @@ Zorunlu:
 8. Mevcut tanımlar çelişiyorsa bir mutabakat tablosu göster (tanım A ve B, farkın nedeni, farkın tahmini yönü) ve birini öner.
 9. Sahip, gözden geçirme sıklığı, sürüm ve geçerlilik tarihi belirle; tanım değişince geçmiş değerlerin yeniden hesaplanması veya notlanması gerektiğini yaz.
 10. Yorumlama rehberi ekle: bilinen mevsimsellik, ilişkili koruyucu metrikler, manipülasyona karşı notlar.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Kullanıcının hedefi devam ediyorsa metriği görselleştirmek için `dashboard-spec` veya girdilerini korumak için `data-quality-rules` öner.
 
 ## Çıktı formatı
 ````markdown
@@ -87,6 +88,7 @@ SELECT ... FROM ... WHERE ... GROUP BY ...
 - [ ] Saat dilimi, dönem sınırları ve geç veri ele alınışı belirtildi.
 - [ ] Her uç durumun ele alınışı yazıldı.
 - [ ] Sahip ve sürüm belirlendi; bilinmeyenler tahmin edilmedi, `[TBD]` olarak işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Aktivite tanımı olmadan "aktif" demek. Sayılan olayları ve geriye bakış penceresini adlandır.

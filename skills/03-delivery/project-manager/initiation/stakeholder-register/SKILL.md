@@ -40,6 +40,7 @@ If no parties are given, ask for at least the sponsor and affected departments.
 8. Record communication needs (format, detail, language, timing) to feed the communication plan.
 9. Mark sensitive personal assessments as internal; keep only work-relevant information and minimize personal data.
 10. Set a review cadence and trigger events for updating the register.
+11. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `communication-plan` to serve the identified needs, or `raci-matrix` to fix decision rights.
 
 ## Output format
 ```markdown
@@ -61,6 +62,7 @@ Version <x> | Owner <PM> | Next review <date or [TBD]> | Classification: Interna
 - [ ] Ratings have justifications, not bare labels.
 - [ ] Indirect stakeholders (operations, support, audit, regulators) are considered.
 - [ ] No unnecessary personal data or judgmental language.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Listing only supportive, visible stakeholders. Look for those who lose something from the change.

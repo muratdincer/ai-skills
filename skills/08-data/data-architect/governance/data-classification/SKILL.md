@@ -39,6 +39,7 @@ If no scheme is given, use a four-level default (Public, Internal, Confidential,
 8. Identify data minimization opportunities: fields not needed for the stated purpose, precision reduction (birth year instead of date), aggregation.
 9. Flag cross-border transfer and third-party exposure where known.
 10. Record uncertain classifications for the data owner/DPO to confirm.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the goal continues, suggest the next skill: `retention-policy` for retention and deletion rules, `privacy-impact-assessment` for high-risk processing, or `access-review` to align permissions.
 
 ## Output format
 ```markdown
@@ -70,6 +71,7 @@ Level: <...> | Contains special category: <yes/no> | Recommended split: <...>
 - [ ] Each level maps to concrete controls, not just labels.
 - [ ] No real personal values appear in the output.
 - [ ] Uncertain items are routed to the owner/DPO.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Treating only direct identifiers as personal data. Quasi-identifiers and pseudonymized data remain personal data.

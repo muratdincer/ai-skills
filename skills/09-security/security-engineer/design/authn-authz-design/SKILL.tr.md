@@ -41,6 +41,7 @@ Zorunlu:
 8. Denetim loglamasını tanımla: kimlik doğrulama olayları, yetki değişiklikleri, reddedilen erişimler; loglarda kişisel veriyi maskele.
 9. Karşılanan tehditleri (token hırsızlığı, replay, confused deputy, yetki yükseltme) ve kalan riskleri listele.
 10. Kararları ve açık soruları bir ADR için kaydet.
+11. Sonraki beceriyi öner: tasarımı test edilebilir kontrollere dönüştürmek için `security-requirements`, akışlara saldırgan gözüyle bakmak için `threat-model`, rollerin periyodik gözden geçirilmesi için `access-review`.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Zorunlu:
 - [ ] Token süreleri, rotasyon ve iptal tanımlı.
 - [ ] Yönetici ve destek erişimi en az yetki ilkesine uyuyor ve denetleniyor.
 - [ ] Bilinmeyen IdP yetenekleri veya politikaları `[BİLİNMİYOR]` ile işaretli.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Her yetkiyi bir rol olarak kodlayıp rol patlamasına yol açmak. Veri düzeyi kurallar için öznitelik veya ilişki kullan.

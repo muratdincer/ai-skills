@@ -41,6 +41,7 @@ If the observation or location is missing, ask. If reproduction was not confirme
 8. Attach evidence with sensitive values masked: tokens, passwords, personal data, internal hostnames when shared externally.
 9. Give remediation: the root-cause fix, short-term mitigation, and how to verify the fix (retest steps).
 10. Add references (CWE, OWASP cheat sheets, vendor advisory) and status fields (owner, due date per SLA, retest result).
+11. Label anything inferred beyond the observed evidence as `[ASSUMPTION]`, then suggest `vulnerability-triage` for prioritization or `security-incident-response` if there are signs of active exploitation.
 
 ## Output format
 ```markdown
@@ -72,6 +73,7 @@ Expected: ... Actual: ...
 - [ ] Remediation addresses the root cause, not only the tested payload.
 - [ ] Verification steps for retest are included.
 - [ ] Nothing beyond the observation is claimed; unknowns are marked `[UNKNOWN]`.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Vague titles like "Security issue in API". The title should tell the reader the weakness and the stake.

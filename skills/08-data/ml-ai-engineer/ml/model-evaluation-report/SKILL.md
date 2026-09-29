@@ -41,6 +41,7 @@ If there is no comparison point, state that the recommendation is limited and as
 8. Assess robustness and operational fit: stability across time slices, sensitivity to missing features, latency, memory, inference cost.
 9. Check for leakage signals: suspiciously high metrics, dominant single features, performance drop on the most recent slice.
 10. Recommend: release, release with conditions (shadow, canary, limited segment), or reject; list conditions and monitoring requirements.
+11. Label every inference `[ASSUMPTION]` and move unsupported items to open questions. If the user's goal continues, suggest `model-card` to document the released model and `ml-monitoring-plan` for the release conditions.
 
 ## Output format
 ```markdown
@@ -88,6 +89,7 @@ If there is no comparison point, state that the recommendation is limited and as
 - [ ] Error analysis gives causes, not just counts.
 - [ ] Fairness is assessed or the reason it is not applicable is stated.
 - [ ] All numbers come from the provided results.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Reporting only AUC while the business uses a fixed threshold. Report precision/recall at that threshold.

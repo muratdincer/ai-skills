@@ -42,6 +42,7 @@ If the business need or sponsor is missing, ask for it. Everything else goes to 
 8. Capture top 5 risks, assumptions and constraints at summary level.
 9. Define success criteria for project closure and who accepts them.
 10. Add an approvals block and list open questions ordered by how much they block kickoff.
+11. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `scope-statement` to detail scope, `stakeholder-register` to map stakeholders, then `kickoff-deck`.
 
 ## Output format
 ```markdown
@@ -80,6 +81,7 @@ If the business need or sponsor is missing, ask for it. Everything else goes to 
 - [ ] No budget, date or name is invented.
 - [ ] Out-of-scope items are listed.
 - [ ] The charter fits on about two pages.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Writing a solution design into the charter. Keep it at mandate level; design comes later.

@@ -42,6 +42,7 @@ If requirements or constraints are missing, ask. Do not invent benchmark numbers
 7. Run a sensitivity check: does the winner change if the top two weights shift by ±10 points? If yes, state it.
 8. Recommend with conditions: the choice, why, key risks with mitigations, exit strategy, and what the PoC must confirm.
 9. Draft the ADR summary and the radar impact (e.g., new Trial item).
+10. If the goal continues, suggest `adr` to record the decision, `spike-report` for PoC results or `build-vs-buy` when a product is compared with custom build.
 
 ## Output format
 ```markdown
@@ -68,6 +69,7 @@ If requirements or constraints are missing, ask. Do not invent benchmark numbers
 - [ ] PoC tests the riskiest assumptions with measurable pass thresholds.
 - [ ] Exit cost and lock-in are assessed.
 - [ ] Recommendation states conditions and is ready to become an ADR.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Starting from the favorite tool and reverse-engineering criteria. Frame the need first.

@@ -39,6 +39,7 @@ Bulgular yoksa bunun yerine planlama yarısını (soru, süre sınırı, çıkı
 7. Güven düzeyiyle (yüksek/orta/düşük) tek bir öneri ver ve öneriyi neyin değiştireceğini yaz.
 8. Spike'ın neyi kapsamadığını ve kalan riskleri belirt.
 9. Takip işlerini kaba büyüklükleriyle aday backlog kalemleri olarak listele; aksi belirtilmedikçe prototip kodun atılacağını not et.
+10. Hedef devam ediyorsa kararı kaydetmek için `adr`, seçilen seçeneği ayrıntılandırmak için `technical-design-doc` veya takip işlerini planlamak için `task-breakdown` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -69,6 +70,8 @@ Süre sınırı: <planlanan> / Harcanan: <gerçek> · Bitiş nedeni: yanıt | s�
 - [ ] Güven düzeyi ve değişme koşullarıyla tek bir öneri verildi.
 - [ ] Kapsam boşlukları açıkça yazıldı.
 - [ ] Takip kalemleri backlog'a girecek kadar somut.
+- [ ] Çıkarımlar `[VARSAYIM]` olarak etiketli ve varsayım ya da açık soru olarak listeli; dayanağı olmayan hiçbir şey olgu gibi sunulmuyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Sorusu veya süre sınırı olmayan ve plansız özellik geliştirmeye dönüşen spike'lar. Önce soruyu ve çıkış kriterlerini sabitle.

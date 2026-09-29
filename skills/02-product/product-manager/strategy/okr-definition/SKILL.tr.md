@@ -40,6 +40,7 @@ Niyet veya dönem yoksa sor. Bilinmeyen başlangıç değerleri ölçüm aksiyon
 7. Aday girişimleri anahtar sonuç olarak değil, hipotez olarak ayrı listele.
 8. Yukarı (şirket/strateji) ve yana (diğer ekiplere bağımlılıklar) hizalamayı kontrol et.
 9. Ara değerlendirme sıklığını ve güven seviyesinin nasıl izleneceğini tanımla.
+10. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: her anahtar sonucun formülünü ve kaynağını belirlemek için `kpi-definition`, hedeflerin ortak bir değer metriği yoksa `north-star-metric`.
 
 ## Çıktı formatı
 ```markdown
@@ -71,6 +72,7 @@ Aday girişimler: <hipotezler>
 - [ ] En az bir koruma metriği kaliteyi veya müşteri güvenini koruyor.
 - [ ] Hedef değerler uydurulmadı; üzerinde anlaşılmamış olanlar `[TBD]`.
 - [ ] Her anahtar sonucun belirli bir veri kaynağı ve sorumlusu var.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Yol haritasını OKR diye yazmak ("v2 onboarding'i yayınla"). "Yayına çıkınca ne değişecek?" diye sor ve onu ölç.

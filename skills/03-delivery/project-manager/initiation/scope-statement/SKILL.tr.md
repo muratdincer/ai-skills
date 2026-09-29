@@ -40,6 +40,7 @@ Hedef veya teslimat tanımı yoksa iste.
 7. Kapsam sınırlarını arayüzleriyle tanımla: hangi sistemler, birimler ve coğrafyalar etkileniyor.
 8. Kapsam değişikliklerinin nasıl ele alınacağını yaz ve değişiklik kontrol yoluna referans ver.
 9. Desteklenmeyen her öğeyi `[BİLİNMİYOR]` veya `[VARSAYIM]` olarak işaretle, açık soruları listele.
+10. Çıkarım yaptığın her öğeyi `[VARSAYIM]` olarak etiketle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: teslimatları ayrıştırmak için `wbs`, temel onaylandıktan sonra `change-control`.
 
 ## Çıktı formatı
 ```markdown
@@ -68,6 +69,7 @@ Sürüm <x> | Tarih <tarih> | Baz referansı <başlatma belgesi no>
 - [ ] Tanımsız belirsiz ifade yok ("vb.", "gerektiği kadar", "kullanıcı dostu").
 - [ ] Hiçbir şey uydurulmadı; boşluklar işaretli.
 - [ ] Değişiklik yönetimi somut bir yola referans veriyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Teslimat yerine faaliyet listelemek; bu durumda WBS ve kabul izlenemez.

@@ -38,6 +38,7 @@ Persona veya senaryo yoksa sor. Kanıtla desteklenmeyen maddeler `[VARSAYIM]` ol
 6. Arka planı ekle: her temas noktasının arkasındaki iç ekipler, sistemler, politikalar ve sorumlu.
 7. Fırsatları belirle: her biri bir soruna bağlı, beklenen etki ve eforu (Y/O/D) ve sorumlusu belli olsun.
 8. Fırsatları sırala; önce ele alınacak 2-3 fırsatı ve değişmesi gereken metrikleri öner.
+9. Girdide yazmayan, senin çıkardığın her noktayı `[VARSAYIM]` olarak işaretle ve varsayımlara ya da açık sorulara taşı. Kullanıcının hedefi devam ediyorsa sonraki beceriyi öner: sıkıntılı aşamalardaki kayıpları sayısallaştırmak için `funnel-analysis`, aktör veya hedef hâlâ zayıf kanıtlıysa `persona` / `jobs-to-be-done`.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +71,7 @@ Tetikleyici: ... · Bitiş: ... · Kanıt: <kaynaklar>
 - [ ] Duygular ve sorunlar kanıta dayanıyor ya da `[VARSAYIM]` olarak işaretli.
 - [ ] Her fırsat belirli bir soruna bağlı ve sorumlusu var.
 - [ ] Bozuk temas noktaları için arka plan sorumluları adlandırıldı.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - İdeal yolculuğu çizip mevcut durum demek. Gerçekte ne olduğuna dair kanıt kullan.

@@ -42,6 +42,7 @@ Zorunlu:
 10. Tablo bazında yükleme kurallarını belirt: anahtar eşleme, SCD işleme, yeniden düzeltme penceresi ve kaynağa karşı mutabakat toplamları.
 11. Her iş sorusunu onu yanıtlayan olgu ve boyutlara eşle; tasarımın yanıtlayamadığı soruları işaretle.
 12. Fiziksel ipuçlarını genel ifadeyle not et: olguları tarihe göre bölümle, sık filtrelerde kümeleme, özet tabloları yalnızca ölçülmüş performans ihtiyacında.
+13. Her çıkarımı `[VARSAYIM]` olarak etiketle, desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa sonraki beceriyi öner: yüklemeleri tanımlamak için `source-to-target-mapping` veya ölçüleri kesinleştirmek için `metric-definition`.
 
 ## Çıktı formatı
 ```markdown
@@ -80,6 +81,7 @@ Doğal anahtar: <...> | Vekil anahtar: <...>
 - [ ] SCD tipi nitelik bazında seçildi ve her Tip 2 gerekçeli.
 - [ ] Bilinmeyen ve geç gelen üye yönetimi tanımlı.
 - [ ] Her iş sorusu modele eşlendi ya da yanıtlanamaz olarak işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Taneciği bir rapor olarak beyan etmek ("bölgeye göre aylık satış"). Atomikten başla, sonra özetle.

@@ -38,6 +38,7 @@ If no material is given, ask whether to build a proto-persona; label it `[PROTO-
 6. Add 2-3 real, anonymized quotes that capture the mindset.
 7. State design implications: 3-5 "therefore we should / should not" statements.
 8. Add an evidence table and a confidence level; list gaps for the next research round.
+9. Mark every point you inferred rather than read in the input as `[ASSUMPTION]` and carry it into assumptions or open questions. If the user's goal continues, suggest the next skill: `jobs-to-be-done` or `customer-journey-map` to go deeper on the persona's goals, or `problem-interview-script` to close evidence gaps.
 
 ## Output format
 ```markdown
@@ -71,6 +72,7 @@ Confidence: H/M/L · Based on: <sources, n>
 - [ ] Quotes are real and anonymized; no personal data.
 - [ ] Design implications are concrete and actionable.
 - [ ] Confidence and sample size are stated.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Inventing a stock photo, hobbies and a backstory. Decorative fiction reduces trust; keep to behavior-relevant facts.

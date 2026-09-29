@@ -41,6 +41,8 @@ Kaynak materyal veya hedef kitle eksikse iste. Genel bilgiyle cevap verme; eksik
 7. Soruları kitleye yönelik 3-7 başlık altında grupla, en sık sorulandan en aza doğru sırala.
 8. Tutarlılığı kontrol et: tarihler, isimler ve sayılar cevaplar arasında ve kaynakla uyumlu olmalı.
 9. Tam dokümantasyona bağlantı veya referans ekle; en sona destek kanalını içeren "Başka sorunuz mu var?" maddesini koy.
+10. Kaynak materyale değil çıkarıma dayanan her cevabı `[VARSAYIM]` olarak işaretle ve sahibinin teyidi için boşluk listesine taşı.
+11. Kullanıcının hedefi devam ediyorsa tam bir nasıl-yapılır gerektiren cevaplar için `kb-article`, SSS bir değişikliğe eşlik ediyorsa `announcement` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -70,6 +72,7 @@ C: <önce doğrudan cevap>. <destekleyici ayrıntı>. Bkz: <referans>.
 - [ ] Tarihler, isimler ve sayılar maddeler arasında tutarlı.
 - [ ] "Hiçbir şey yapmazsam" ve "nereden yardım alırım" soruları kapsanmış.
 - [ ] Boşluk listesi yayınlanacak içerikten ayrılmış.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Kimsenin sormadığı pazarlama soruları yazmak ("Yeni araç neden bu kadar harika?"). Gerçek ve öngörülen kaygıları kullan.

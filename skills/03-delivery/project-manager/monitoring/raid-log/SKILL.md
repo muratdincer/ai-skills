@@ -38,6 +38,7 @@ If neither new items nor an existing log is given, ask for them.
 7. Identify escalation candidates: High priority with no viable action at PM level, or overdue on the critical path.
 8. Close items with a closure note and date; do not delete.
 9. Produce a change summary: new, changed, closed, escalations.
+10. Label every inferred element `[ASSUMPTION]` and move it to assumptions or open questions. If the user's goal continues, suggest the next skill: `issue-management` for issues that need a resolution path, or `project-status-report` to report the change summary.
 
 ## Output format
 ```markdown
@@ -61,6 +62,7 @@ If neither new items nor an existing log is given, ask for them.
 - [ ] Every open item has an owner and a date.
 - [ ] Transitions (assumption → issue, risk → issue) are recorded with links.
 - [ ] Escalation candidates are explicit.
+- [ ] All checks pass; if any fails, revise the output and re-run this checklist before answering.
 
 ## Common pitfalls
 - Logging issues as risks to avoid alarming sponsors. If it is happening, it is an issue.
