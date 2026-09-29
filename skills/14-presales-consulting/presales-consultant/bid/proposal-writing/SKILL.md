@@ -1,7 +1,16 @@
 ---
-description: Writes a client-centric proposal covering executive summary, understanding of the client's situation and goals, proposed solution, delivery approach, plan and milestones, team, assumptions, and commercial summary, with win themes and proof points traced to the client's own priorities. Use when responding to a client request or RFP with a narrative proposal, when a solution must be presented for a buying decision, or when a draft proposal reads as a generic capabilities brochure.
-related: rfp-analysis, rfp-response, effort-estimate-for-bid, statement-of-work, executive-summary
-prompt: Write a proposal for modernizing a logistics company's legacy dispatch system; here are the discovery notes and our estimate.
+name: proposal-writing
+description: "Writes a client-centric proposal covering executive summary, understanding of the client's situation and goals, proposed solution, delivery approach, plan and milestones, team, assumptions, and commercial summary, with win themes and proof points traced to the client's own priorities. Use when responding to a client request or RFP with a narrative proposal, when a solution must be presented for a buying decision, or when a draft proposal reads as a generic capabilities brochure."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Write a proposal"
+  related: "rfp-analysis, rfp-response, effort-estimate-for-bid, statement-of-work, executive-summary"
+  prompt: "Write a proposal for modernizing a logistics company's legacy dispatch system; here are the discovery notes and our estimate."
 ---
 
 # Write a Proposal

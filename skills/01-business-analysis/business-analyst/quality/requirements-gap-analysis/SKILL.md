@@ -1,7 +1,16 @@
 ---
+name: requirements-gap-analysis
 description: "Reviews a set of requirements (BRD, FRD, user stories, use cases) and detects what is missing: flows, actors and roles, edge cases, error handling, data rules, non-functional requirements and transition needs. Use when requirements look complete but have not been stress-tested, before estimation or sign-off, or when asked 'what are we missing?'."
-related: "ambiguity-detection, requirements-consistency-check, requirements-review-checklist, nfr-specification, error-scenario-catalog"
-prompt: "Here is our FRD for the loan application module. Find the gaps before we send it for estimation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Find gaps in requirements"
+  related: "ambiguity-detection, requirements-consistency-check, requirements-review-checklist, nfr-specification, error-scenario-catalog"
+  prompt: "Here is our FRD for the loan application module. Find the gaps before we send it for estimation."
 ---
 
 # Find Gaps in Requirements

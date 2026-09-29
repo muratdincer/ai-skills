@@ -1,7 +1,16 @@
 ---
+name: stakeholder-review-prep
 description: "Prepares a product or stakeholder review: what was built and why, how it moves the product goal, what feedback is needed from whom, which decisions must be taken, and an agenda with demo flow and the updated outlook. Use before an iteration/sprint review, a monthly product review or a steering-style product checkpoint where stakeholders must inspect progress and give input."
-related: "iteration-review-prep, demo-script, roadmap, feature-adoption-review, meeting-agenda"
-prompt: "Prepare our monthly product review with the sales and operations heads: we shipped bulk upload and the new invoice screen; I need decisions on the pricing page and feedback on the mobile beta."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Prepare a product review"
+  related: "iteration-review-prep, demo-script, roadmap, feature-adoption-review, meeting-agenda"
+  prompt: "Prepare our monthly product review with the sales and operations heads: we shipped bulk upload and the new invoice screen; I need decisions on the pricing page and feedback on the mobile beta."
 ---
 
 # Prepare a Product Review

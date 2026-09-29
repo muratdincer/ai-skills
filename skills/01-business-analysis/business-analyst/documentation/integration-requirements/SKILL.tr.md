@@ -1,7 +1,16 @@
 ---
-description: Sistemler arası entegrasyon gereksinimlerini; katılan sistemleri, yönü, aktarılan veriyi, tetikleyiciyi ve sıklığı, hacimleri, hata yönetimini, güvenliği ve SLA'ları iki tarafın da geliştirip test edebileceği biçimde tanımlar. Bir özelliğin başka bir sisteme veri göndermesi veya oradan veri alması gerektiğinde, yeni bir arayüz ya da API talep edildiğinde veya tasarımdan önce bir tedarikçi/üçüncü taraf entegrasyonu üzerinde anlaşılması gerektiğinde kullanılır.
-related: field-mapping, error-scenario-catalog, api-contract, integration-pattern-selection, data-requirements
-prompt: E-ticaret platformumuzdan onaylanan siparişlerin ERP'ye gönderilmesi ve stok seviyelerinin geri alınması için entegrasyon gereksinimlerini tanımla.
+name: integration-requirements
+description: "Sistemler arası entegrasyon gereksinimlerini; katılan sistemleri, yönü, aktarılan veriyi, tetikleyiciyi ve sıklığı, hacimleri, hata yönetimini, güvenliği ve SLA'ları iki tarafın da geliştirip test edebileceği biçimde tanımlar. Bir özelliğin başka bir sisteme veri göndermesi veya oradan veri alması gerektiğinde, yeni bir arayüz ya da API talep edildiğinde veya tasarımdan önce bir tedarikçi/üçüncü taraf entegrasyonu üzerinde anlaşılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Entegrasyon gereksinimi tanımlama"
+  related: "field-mapping, error-scenario-catalog, api-contract, integration-pattern-selection, data-requirements"
+  prompt: "E-ticaret platformumuzdan onaylanan siparişlerin ERP'ye gönderilmesi ve stok seviyelerinin geri alınması için entegrasyon gereksinimlerini tanımla."
 ---
 
 # Entegrasyon Gereksinimi Tanımlama

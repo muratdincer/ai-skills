@@ -1,7 +1,16 @@
 ---
-description: Builds and runs a go/no-go checklist for a mobile app release covering versioning, build and signing, permissions and privacy declarations, store listing and assets, quality gates, backend and forced-update compatibility, staged rollout, monitoring and rollback, and reports each item as done, open or blocked with evidence. Use when an iOS or Android build is being prepared for store submission or phased rollout, or when a team wants a repeatable mobile release checklist.
-related: app-store-release-notes, release-quality-gate, deployment-checklist, rollback-plan, go-no-go
-prompt: We're submitting version 4.2.0 of our Android and iOS apps next Tuesday. It adds location-based offers. Run the mobile release checklist with me.
+name: mobile-release-checklist
+description: "Builds and runs a go/no-go checklist for a mobile app release covering versioning, build and signing, permissions and privacy declarations, store listing and assets, quality gates, backend and forced-update compatibility, staged rollout, monitoring and rollback, and reports each item as done, open or blocked with evidence. Use when an iOS or Android build is being prepared for store submission or phased rollout, or when a team wants a repeatable mobile release checklist."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: mobile
+  title: "Run a mobile release checklist"
+  related: "app-store-release-notes, release-quality-gate, deployment-checklist, rollback-plan, go-no-go"
+  prompt: "We're submitting version 4.2.0 of our Android and iOS apps next Tuesday. It adds location-based offers. Run the mobile release checklist with me."
 ---
 
 # Run a Mobile Release Checklist

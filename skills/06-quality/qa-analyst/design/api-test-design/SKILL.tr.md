@@ -1,7 +1,16 @@
 ---
+name: api-test-design
 description: "Her endpoint için sözleşme ve şema, durum kodları, kimlik doğrulama ve yetkilendirme, girdi doğrulama, iş kuralları, idempotency, sayfalama, eşzamanlılık ve hata formatını; negatif ve güvenlik odaklı durumlarla birlikte kapsayan API testleri tasarlar. Bir API sözleşmesi (OpenAPI, GraphQL şeması, gRPC proto veya gayriresmî tanım) için test tasarımı gerektiğinde, API testleri otomatikleştirilmeden önce ya da mevcut API testlerinin yeterliliği incelenirken kullanılır."
-related: api-contract, api-design-review, test-automation-script, security-requirements, integration-test-writing
-prompt: "POST /orders ve GET /orders/{id} için API testleri tasarla: JWT ile kimlik doğrulama, müşteriler yalnızca kendi siparişlerini görür, Idempotency-Key başlığı, doğrulama hatalarında 422."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "API testi tasarlama"
+  related: "api-contract, api-design-review, test-automation-script, security-requirements, integration-test-writing"
+  prompt: "POST /orders ve GET /orders/{id} için API testleri tasarla: JWT ile kimlik doğrulama, müşteriler yalnızca kendi siparişlerini görür, Idempotency-Key başlığı, doğrulama hatalarında 422."
 ---
 
 # API Testi Tasarlama

@@ -1,7 +1,16 @@
 ---
+name: integration-test-writing
 description: "Kodu gerçek sınırlar (veritabanı, mesaj kuyruğu, HTTP API'leri, dosya deposu, önbellek) üzerinden çalıştıran entegrasyon testleri yazar; mümkün olduğunda geçici gerçek bağımlılıklar, yalnızca ekibin sahibi olmadığı sistemler için test dublörleri kullanır; eşleme, transaction, serileştirme, hata ve zaman aşımı davranışını izole veri ve deterministik hazırlıkla kapsar. Entegrasyon testi istendiğinde, bir repository, API uç noktası, tüketici veya dış istemcinin gerçek altyapıya karşı doğrulanması gerektiğinde ya da mock'lu birim testleri davranışı kanıtlayamadığında kullanılır."
-related: "unit-test-writing, api-test-design, test-data-design, flaky-test-analysis, test-gap-finder"
-prompt: "OrderRepository ve OrderPlaced tüketicisi için entegrasyon testleri yaz; ilişkisel veritabanı ve mesaj kuyruğu kullanıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Entegrasyon testi yazma"
+  related: "unit-test-writing, api-test-design, test-data-design, flaky-test-analysis, test-gap-finder"
+  prompt: "OrderRepository ve OrderPlaced tüketicisi için entegrasyon testleri yaz; ilişkisel veritabanı ve mesaj kuyruğu kullanıyoruz."
 ---
 
 # Entegrasyon Testi Yazma

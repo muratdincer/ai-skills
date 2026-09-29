@@ -1,7 +1,16 @@
 ---
-description: Bir stack trace'i veya çökme raporunu analiz ederek hatalı çerçeveyi, istisna zincirini ve kök neden adaylarını belirler; çözümler ve sonraki teşhis adımını önerir. Geliştirici herhangi bir dil veya runtime'dan bir istisna, stack trace, çökme logu, panic veya yakalanmamış hata yapıştırıp neyin yanlış gittiğini ya da nereye bakacağını sorduğunda kullanılır.
-related: debugging-hypotheses, log-analysis, bug-reproduction, error-handling-review, code-explanation
-prompt: Bu stack trace'e ne sebep oluyor? OrderController.getOrder'dan çağrılan OrderMapper.toDto içinde NullPointerException.
+name: stack-trace-analysis
+description: "Bir stack trace'i veya çökme raporunu analiz ederek hatalı çerçeveyi, istisna zincirini ve kök neden adaylarını belirler; çözümler ve sonraki teşhis adımını önerir. Geliştirici herhangi bir dil veya runtime'dan bir istisna, stack trace, çökme logu, panic veya yakalanmamış hata yapıştırıp neyin yanlış gittiğini ya da nereye bakacağını sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Stack trace analizi"
+  related: "debugging-hypotheses, log-analysis, bug-reproduction, error-handling-review, code-explanation"
+  prompt: "Bu stack trace'e ne sebep oluyor? OrderController.getOrder'dan çağrılan OrderMapper.toDto içinde NullPointerException."
 ---
 
 # Stack Trace Analizi

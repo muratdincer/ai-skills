@@ -1,7 +1,16 @@
 ---
-description: Completes a Business Model Canvas or Lean Canvas for a product idea, separating evidence from assumptions and ranking the riskiest assumptions to test first. Use when a new idea, venture or product line needs its business logic laid out, when comparing business model options, or when someone asks for a business model or lean canvas.
-related: market-analysis, pricing-analysis, assumption-mapping, hypothesis-statement, product-vision
-prompt: Fill a lean canvas for a marketplace that connects freelance accountants with small e-commerce sellers.
+name: business-model-canvas
+description: "Completes a Business Model Canvas or Lean Canvas for a product idea, separating evidence from assumptions and ranking the riskiest assumptions to test first. Use when a new idea, venture or product line needs its business logic laid out, when comparing business model options, or when someone asks for a business model or lean canvas."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Fill a business/lean canvas"
+  related: "market-analysis, pricing-analysis, assumption-mapping, hypothesis-statement, product-vision"
+  prompt: "Fill a lean canvas for a marketplace that connects freelance accountants with small e-commerce sellers."
 ---
 
 # Fill a Business/Lean Canvas

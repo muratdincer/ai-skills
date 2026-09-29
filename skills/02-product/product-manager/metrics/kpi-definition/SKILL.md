@@ -1,7 +1,16 @@
 ---
-description: Defines product KPIs as an unambiguous KPI sheet with name, purpose, formula, inclusion rules, data source, baseline, target, thresholds, owner, cadence and the decision each KPI informs. Use when a product, feature or team needs a KPI set, when existing KPIs are vague or disputed, or when someone asks "which KPIs should we track and how exactly are they calculated".
-related: north-star-metric, metric-definition, okr-definition, dashboard-spec, feature-adoption-review
-prompt: Define the KPIs for our new mobile self check-in feature at hotels.
+name: kpi-definition
+description: "Defines product KPIs as an unambiguous KPI sheet with name, purpose, formula, inclusion rules, data source, baseline, target, thresholds, owner, cadence and the decision each KPI informs. Use when a product, feature or team needs a KPI set, when existing KPIs are vague or disputed, or when someone asks \"which KPIs should we track and how exactly are they calculated\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Define KPIs"
+  related: "north-star-metric, metric-definition, okr-definition, dashboard-spec, feature-adoption-review"
+  prompt: "Define the KPIs for our new mobile self check-in feature at hotels."
 ---
 
 # Define KPIs

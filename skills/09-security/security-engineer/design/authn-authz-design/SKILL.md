@@ -1,7 +1,16 @@
 ---
+name: authn-authz-design
 description: "Designs authentication and authorization for an application or API: identity provider and protocol choice (OIDC, OAuth 2.x, SAML), login and token flows, token lifetimes and storage, roles, claims or attributes, and least-privilege enforcement points. Use when building a new app or API, adding SSO or MFA, opening APIs to partners or machine clients, or redesigning a role model."
-related: "security-requirements, threat-model, access-review, api-design-review, secrets-management-plan"
-prompt: "Design authentication and authorization for our B2B SaaS: web SPA, public REST API for partners, multi-tenant, customers want SSO with their own Entra ID or Okta."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Design authentication and authorization"
+  related: "security-requirements, threat-model, access-review, api-design-review, secrets-management-plan"
+  prompt: "Design authentication and authorization for our B2B SaaS: web SPA, public REST API for partners, multi-tenant, customers want SSO with their own Entra ID or Okta."
 ---
 
 # Design Authentication and Authorization

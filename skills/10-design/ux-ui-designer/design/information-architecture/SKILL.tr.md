@@ -1,7 +1,16 @@
 ---
-description: Bir ürünün veya sitenin bilgi mimarisini oluşturur; içerik envanteri, düzenleme şeması, site haritası hiyerarşisi, navigasyon modeli, etiketleme sistemi ve bunu doğrulamak için kart sıralama veya ağaç testi planı üretir. Bir ürün, portal veya dokümantasyon sitesi kurulurken ya da yeniden yapılandırılırken, kullanıcılar "aradığını bulamıyorsa" veya navigasyon ve menü etiketlerine karar verilecekse kullanılır.
-related: user-flow, wireframe-spec, docs-information-architecture, research-plan, persona
-prompt: İK self servis portalımızın navigasyonunu yeniden yapılandır; çalışanlar izin, bordro ve masraf sayfalarını bulamıyor.
+name: information-architecture
+description: "Bir ürünün veya sitenin bilgi mimarisini oluşturur; içerik envanteri, düzenleme şeması, site haritası hiyerarşisi, navigasyon modeli, etiketleme sistemi ve bunu doğrulamak için kart sıralama veya ağaç testi planı üretir. Bir ürün, portal veya dokümantasyon sitesi kurulurken ya da yeniden yapılandırılırken, kullanıcılar \"aradığını bulamıyorsa\" veya navigasyon ve menü etiketlerine karar verilecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Bilgi mimarisi oluşturma"
+  related: "user-flow, wireframe-spec, docs-information-architecture, research-plan, persona"
+  prompt: "İK self servis portalımızın navigasyonunu yeniden yapılandır; çalışanlar izin, bordro ve masraf sayfalarını bulamıyor."
 ---
 
 # Bilgi Mimarisi Oluşturma

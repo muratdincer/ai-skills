@@ -1,7 +1,16 @@
 ---
-description: Bir değişikliği, sürümü, politikayı, süreci veya kararı; ne değişiyor, neden, kim ve nasıl etkileniyor, ne zaman yürürlüğe giriyor, okuyucunun ne yapması gerekiyor ve nereden yardım alınır yapısıyla duyuran bir metin yazar. Bir ekibin, departmanın veya kullanıcı kitlesinin yeni ya da farklı bir şeyden e-posta, sohbet kanalı, intranet yazısı veya bülten aracılığıyla haberdar edilmesi gerektiğinde kullanılır.
-related: release-announcement, org-change-communication, communication-plan, faq-builder, stakeholder-email
-prompt: Tüm yazılım ekiplerine 1 Mart'tan itibaren her canlı ortam dağıtımının yeni güvenlik tarama kapısından geçmesi gerektiğini ve o tarihe kadar ne yapmaları gerektiğini duyur.
+name: announcement
+description: "Bir değişikliği, sürümü, politikayı, süreci veya kararı; ne değişiyor, neden, kim ve nasıl etkileniyor, ne zaman yürürlüğe giriyor, okuyucunun ne yapması gerekiyor ve nereden yardım alınır yapısıyla duyuran bir metin yazar. Bir ekibin, departmanın veya kullanıcı kitlesinin yeni ya da farklı bir şeyden e-posta, sohbet kanalı, intranet yazısı veya bülten aracılığıyla haberdar edilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Duyuru yazma"
+  related: "release-announcement, org-change-communication, communication-plan, faq-builder, stakeholder-email"
+  prompt: "Tüm yazılım ekiplerine 1 Mart'tan itibaren her canlı ortam dağıtımının yeni güvenlik tarama kapısından geçmesi gerektiğini ve o tarihe kadar ne yapmaları gerektiğini duyur."
 ---
 
 # Duyuru Yazma

@@ -1,7 +1,16 @@
 ---
+name: agile-maturity-assessment
 description: "Bir ekibin veya birimin çeviklik olgunluğunu metodolojiden bağımsız biçimde değerlendirir: pratik alanlarını (müşteri değeri ve ürün sahipliği, planlama ve öngörü, akış ve teslimat, teknik pratikler, kalite, sürekli iyileştirme, ekip özerkliği, paydaş iş birliği) kanıta dayalı 1-5 ölçeğinde puanlar, ortalama almak yerine kısıtı belirler ve gözlemlenebilir sonuçlarla sonraki 2-3 iyileştirmeyi önerir. Bir lider veya koç ekibin gerçekte ne kadar çevik olduğunu sorduğunda, bir dönüşüm öncesi başlangıç değeri gerektiğinde ya da sırada neyin iyileştirileceğine karar verilmek istendiğinde kullanılır."
-related: "team-health-check, retrospective-facilitation, wip-policy, engineering-metrics-review, current-state-assessment"
-prompt: "Ekibimizin çeviklik olgunluğunu değerlendir. İki haftalık iterasyonlarla çalışıyoruz, sürümler üç ayda bir çıkıyor, product owner yarı zamanlı ve test otomasyonu yok."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Çeviklik olgunluk değerlendirmesi"
+  related: "team-health-check, retrospective-facilitation, wip-policy, engineering-metrics-review, current-state-assessment"
+  prompt: "Ekibimizin çeviklik olgunluğunu değerlendir. İki haftalık iterasyonlarla çalışıyoruz, sürümler üç ayda bir çıkıyor, product owner yarı zamanlı ve test otomasyonu yok."
 ---
 
 # Çeviklik Olgunluk Değerlendirmesi

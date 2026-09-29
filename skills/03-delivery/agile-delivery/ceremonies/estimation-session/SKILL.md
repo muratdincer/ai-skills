@@ -1,7 +1,16 @@
 ---
+name: estimation-session
 description: "Prepares and guides a relative estimation session (planning poker, t-shirt sizing, affinity estimation): selects the scale, builds a reference-story ladder, runs estimation rounds that surface assumptions, and records sizes, spread and follow-ups. Use when a team needs to size backlog items, calibrate a new scale, speed up slow estimation meetings, or when someone asks how to run planning poker or t-shirt sizing."
-related: "backlog-refinement, story-splitting, technical-estimation, velocity-analysis, iteration-planning"
-prompt: "We have 25 unsized stories for the new onboarding epic and a 1-hour session. The team is new and has no reference stories. How should we estimate?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Facilitate relative estimation"
+  related: "backlog-refinement, story-splitting, technical-estimation, velocity-analysis, iteration-planning"
+  prompt: "We have 25 unsized stories for the new onboarding epic and a 1-hour session. The team is new and has no reference stories. How should we estimate?"
 ---
 
 # Facilitate Relative Estimation

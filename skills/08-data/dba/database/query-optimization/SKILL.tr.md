@@ -1,7 +1,16 @@
 ---
+name: query-optimization
 description: "Yavaş bir SQL sorgusunu metni, çalışma planı ve istatistikleri üzerinden teşhis eder; baskın maliyeti (hatalı kardinalite tahmini, yanlış join sırası veya yöntemi, taramalar, diske taşmalar, sargable olmayan koşullar, parametre hassasiyeti, bloklanma) bulur ve beklenen etki ile doğrulama yöntemiyle sıralanmış yeniden yazım, indeks veya istatistik önerileri sunar. Bir sorgu, rapor veya endpoint yavaşsa, bir sürüm ya da veri büyümesi sonrası plan kötüleştiyse veya biri çalışma planını paylaşıp neden yavaş olduğunu sorduğunda kullanılır."
-related: "index-recommendation, database-health-check, sql-query-writing, performance-optimization, schema-migration-plan"
-prompt: "Bu sipariş arama sorgusu geçen haftaki veri aktarımından sonra 200 ms'den 9 saniyeye çıktı. Sorgu ve gerçek çalışma planı ekte; neden yavaş ve nasıl düzeltiriz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: dba
+  area: database
+  title: "Yavaş sorgu iyileştirme"
+  related: "index-recommendation, database-health-check, sql-query-writing, performance-optimization, schema-migration-plan"
+  prompt: "Bu sipariş arama sorgusu geçen haftaki veri aktarımından sonra 200 ms'den 9 saniyeye çıktı. Sorgu ve gerçek çalışma planı ekte; neden yavaş ve nasıl düzeltiriz?"
 ---
 
 # Yavaş Sorgu İyileştirme

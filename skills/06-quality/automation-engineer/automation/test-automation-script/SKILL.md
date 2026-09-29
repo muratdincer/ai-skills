@@ -1,7 +1,16 @@
 ---
+name: test-automation-script
 description: "Writes a maintainable automated test in the team's language and framework using page objects or API clients, independent test data, explicit condition-based waits and precise assertions, and first shows the test failing for the right reason. Use when a manual test case, scenario or Gherkin step must become automated test code, when someone asks for a UI or API test to be written, or when an existing automated test needs to be rewritten to be reliable."
-related: automation-candidate-selection, automation-framework-design, test-case-writing, bdd-feature-file, flaky-test-analysis
-prompt: "Automate this test case as an API test in our TypeScript suite: creating an order with an expired coupon must return 422 and not reserve stock."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Write an automated test"
+  related: "automation-candidate-selection, automation-framework-design, test-case-writing, bdd-feature-file, flaky-test-analysis"
+  prompt: "Automate this test case as an API test in our TypeScript suite: creating an order with an expired coupon must return 422 and not reserve stock."
 ---
 
 # Write an Automated Test

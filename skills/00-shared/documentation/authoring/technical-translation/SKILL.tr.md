@@ -1,7 +1,16 @@
 ---
+name: technical-translation
 description: "Teknik içeriği (şartname, dokümantasyon, arayüz metni, hata mesajı, sürüm notu, runbook) İngilizce ile Türkçe arasında terminolojiyi, kodu, tanımlayıcıları, biçimi ve anlamı koruyarak çevirir; kaynaktaki belirsiz metni işaretler. Teknik bir doküman, mesaj veya arayüz diğer dilde teslim edilecekse ya da mevcut bir çevirinin terminolojisi hizalanacaksa kullanılır."
-related: "glossary-builder, microcopy, error-message-writing, document-review, style-guide-check"
-prompt: "Geliştirici rehberimizin API hata yönetimi bölümünü İngilizceden Türkçeye çevir; kodu ve HTTP terimlerini olduğu gibi bırak."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Teknik çeviri"
+  related: "glossary-builder, microcopy, error-message-writing, document-review, style-guide-check"
+  prompt: "Geliştirici rehberimizin API hata yönetimi bölümünü İngilizceden Türkçeye çevir; kodu ve HTTP terimlerini olduğu gibi bırak."
 ---
 
 # Teknik Çeviri

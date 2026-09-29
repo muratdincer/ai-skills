@@ -1,7 +1,16 @@
 ---
+name: service-catalog-entry
 description: "Writes a service catalog entry in customer language: what the service is and is not, who can use it, request offerings and how to request them, approvals, fulfilment steps, service levels and support hours, costs if charged, dependencies, responsibilities and ownership. Use when a new IT or internal service is launched, an existing entry is outdated or unclear, requesters keep asking how to get something, or service levels must be published for users."
-related: "slo-definition, sla-breach-analysis, raci-matrix, user-guide, faq-builder"
-prompt: "Write a catalog entry for our 'Developer VM' service: devs request a Linux VM with 8 vCPU/32 GB, manager approval needed, delivered in 2 business days, deleted after 90 days unless extended."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Write a service catalog entry"
+  related: "slo-definition, sla-breach-analysis, raci-matrix, user-guide, faq-builder"
+  prompt: "Write a catalog entry for our 'Developer VM' service: devs request a Linux VM with 8 vCPU/32 GB, manager approval needed, delivered in 2 business days, deleted after 90 days unless extended."
 ---
 
 # Write a Service Catalog Entry

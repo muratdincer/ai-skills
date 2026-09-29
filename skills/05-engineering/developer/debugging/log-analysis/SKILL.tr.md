@@ -1,7 +1,16 @@
 ---
-description: Uygulama, altyapı veya erişim loglarını analiz ederek zaman çizelgesi oluşturur, olayları request veya trace ID ile servisler arasında ilişkilendirir, anomalileri ve hata kümelerini bulur; kanıtın neyi desteklediğini ve neyi desteklemediğini belirtir. Geliştirici bir olay, hata, yavaşlama veya tuhaf davranış çevresindeki log parçalarını ya da dökümlerini paylaşıp ne olduğunu, ne zaman başladığını veya hangi bileşenin sorumlu olduğunu sorduğunda kullanılır.
-related: stack-trace-analysis, debugging-hypotheses, incident-response, postmortem, logging-instrumentation
-prompt: 14:00 ile 14:20 arasındaki API gateway ve sipariş servisi logları burada. Ödeme akışı hata vermeye başladığında ne oldu?
+name: log-analysis
+description: "Uygulama, altyapı veya erişim loglarını analiz ederek zaman çizelgesi oluşturur, olayları request veya trace ID ile servisler arasında ilişkilendirir, anomalileri ve hata kümelerini bulur; kanıtın neyi desteklediğini ve neyi desteklemediğini belirtir. Geliştirici bir olay, hata, yavaşlama veya tuhaf davranış çevresindeki log parçalarını ya da dökümlerini paylaşıp ne olduğunu, ne zaman başladığını veya hangi bileşenin sorumlu olduğunu sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Log analizi"
+  related: "stack-trace-analysis, debugging-hypotheses, incident-response, postmortem, logging-instrumentation"
+  prompt: "14:00 ile 14:20 arasındaki API gateway ve sipariş servisi logları burada. Ödeme akışı hata vermeye başladığında ne oldu?"
 ---
 
 # Log Analizi

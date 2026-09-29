@@ -1,7 +1,16 @@
 ---
+name: incident-response
 description: "Guides a live incident from declaration to resolution: severity assessment, role assignment (incident commander, operations, communications, scribe), a mitigation-first plan with hypotheses and parallel workstreams, a timestamped timeline, update cadence and exit criteria. Use when an outage or degradation is happening or suspected, when someone asks what to do right now about production impact, or to structure an ongoing incident channel."
-related: "runbook, incident-communication, postmortem, log-analysis, security-incident-response"
-prompt: "We have an incident: checkout error rate jumped to 15% ten minutes after the 14:05 deploy. Help me run it."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Run incident response"
+  related: "runbook, incident-communication, postmortem, log-analysis, security-incident-response"
+  prompt: "We have an incident: checkout error rate jumped to 15% ten minutes after the 14:05 deploy. Help me run it."
 ---
 
 # Run Incident Response

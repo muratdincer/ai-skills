@@ -1,7 +1,16 @@
 ---
+name: request-completeness-check
 description: "Checks a request or intake document against a gap checklist (business, users, data, integration, NFR, legal, operations, reporting, migration) and reports what is missing, vague or contradictory with severity and a ready/not-ready verdict. Use before a request enters analysis, estimation or a sprint/backlog, or when asked 'is this request complete enough to start?'."
-related: "request-intake-document, request-clarification-questions, ambiguity-detection, requirements-gap-analysis, definition-of-ready"
-prompt: "Check whether this request is complete enough to start analysis: 'Add a discount approval step for orders above a limit, managers approve by email.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Check request completeness"
+  related: "request-intake-document, request-clarification-questions, ambiguity-detection, requirements-gap-analysis, definition-of-ready"
+  prompt: "Check whether this request is complete enough to start analysis: 'Add a discount approval step for orders above a limit, managers approve by email.'"
 ---
 
 # Check Request Completeness

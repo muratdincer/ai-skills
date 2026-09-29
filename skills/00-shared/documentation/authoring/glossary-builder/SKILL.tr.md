@@ -1,7 +1,16 @@
 ---
+name: glossary-builder
 description: "Kaynak materyaldeki alan terimlerini, kısaltmaları ve çok anlamlı kelimeleri çıkarır; eş anlamlılar, yasaklı kullanımlar ve sorumlularla birlikte belirsizlik içermeyen, test edilebilir tanımlar yazar. Bir projede, dokümanda veya ekipte terminoloji tutarsızsa, kişiler bir alana alıştırılırken, gereksinim veya veri modeli yazılırken ya da sözlük veya ortak dil istendiğinde kullanılır."
-related: "business-rules-catalog, bounded-context-map, technical-translation, data-catalog-entry, ambiguity-detection"
-prompt: "Bu gereksinim notlarından bir sözlük oluştur; müşteri, cari, hesap ve abone kelimeleri birbirinin yerine kullanılıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Sözlük oluşturma"
+  related: "business-rules-catalog, bounded-context-map, technical-translation, data-catalog-entry, ambiguity-detection"
+  prompt: "Bu gereksinim notlarından bir sözlük oluştur; müşteri, cari, hesap ve abone kelimeleri birbirinin yerine kullanılıyor."
 ---
 
 # Sözlük Oluşturma

@@ -1,7 +1,16 @@
 ---
+name: doc-diff-summary
 description: "Bir dokümanın (sözleşme, şartname, politika, runbook, gereksinimler) iki sürümünü karşılaştırır; esaslı değişiklikleri, her paydaşa etkilerini ve doğurdukları soruları, anlam değişikliklerini biçimsel olanlardan ayırarak kategorize edilmiş bir özet hâlinde sunar. Bir dokümanın yeni sürümü geldiğinde, yeniden onay veya imza öncesinde, tedarikçi ya da müşteri revize taslak gönderdiğinde veya iki sürüm arasında neyin değiştiği sorulduğunda kullanılır."
-related: "change-request-analysis, impact-analysis, document-review, changelog-entry, requirements-sign-off"
-prompt: "Tedarikçiden gelen entegrasyon şartnamesinin v1.3 ve v1.4 sürümleri burada. Ne değişti ve bizim için ne anlama geliyor?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Doküman değişikliklerini özetleme"
+  related: "change-request-analysis, impact-analysis, document-review, changelog-entry, requirements-sign-off"
+  prompt: "Tedarikçiden gelen entegrasyon şartnamesinin v1.3 ve v1.4 sürümleri burada. Ne değişti ve bizim için ne anlama geliyor?"
 ---
 
 # Doküman Değişikliklerini Özetleme

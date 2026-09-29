@@ -1,7 +1,16 @@
 ---
+name: backlog-refinement
 description: "Prepares a set of backlog items for a refinement session and turns them into clear, right-sized, estimate-ready and ordered work items with acceptance criteria, open questions and a readiness verdict. Use when a backlog needs grooming, items are vague or too big before iteration/sprint planning, or someone asks to refine, clean up or get stories ready."
-related: "story-splitting, definition-of-ready, acceptance-criteria, backlog-prioritization, estimation-session"
-prompt: "Refine these 8 backlog items for next week's planning; tell me which are ready, which need splitting and what we still have to ask the business."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Refine the backlog"
+  related: "story-splitting, definition-of-ready, acceptance-criteria, backlog-prioritization, estimation-session"
+  prompt: "Refine these 8 backlog items for next week's planning; tell me which are ready, which need splitting and what we still have to ask the business."
 ---
 
 # Refine the Backlog

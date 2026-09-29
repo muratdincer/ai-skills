@@ -1,7 +1,16 @@
 ---
+name: backlog-refinement
 description: "Bir grup backlog maddesini iyileştirme oturumuna hazırlar; bunları kabul kriterleri, açık sorular ve hazır olma kararı içeren, net, uygun boyutta, tahmine hazır ve sıralı iş maddelerine dönüştürür. Backlog düzenlenmesi gerektiğinde, maddeler iterasyon/sprint planlaması öncesinde belirsiz veya çok büyük olduğunda ya da hikayelerin hazırlanması istendiğinde kullanılır."
-related: "story-splitting, definition-of-ready, acceptance-criteria, backlog-prioritization, estimation-session"
-prompt: "Gelecek haftaki planlama için bu 8 backlog maddesini iyileştir; hangileri hazır, hangileri bölünmeli ve iş birimine daha neler sormalıyız söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Backlog iyileştirme"
+  related: "story-splitting, definition-of-ready, acceptance-criteria, backlog-prioritization, estimation-session"
+  prompt: "Gelecek haftaki planlama için bu 8 backlog maddesini iyileştir; hangileri hazır, hangileri bölünmeli ve iş birimine daha neler sormalıyız söyle."
 ---
 
 # Backlog İyileştirme

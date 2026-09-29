@@ -1,7 +1,16 @@
 ---
-description: Aday bir modeli taban çizgisi ve mevcut modelle karşılaştıran bir model değerlendirme raporu yazar; belirsizlikle genel metrikler, eşik seçimi, kalibrasyon, dilim performansı, hata analizi, adillik ve yayın önerisi. Bir model eğitildiğinde ve canlıya alınmak üzere onaylanması, alternatiflerle karşılaştırılması ya da bir performans şikâyeti sonrası gözden geçirilmesi gerektiğinde kullanılır.
-related: ml-problem-framing, model-card, ml-monitoring-plan, feature-engineering-plan, llm-eval-set
-prompt: Dolandırıcılık modelimiz v3'ü v2 ile karşılaştıran bir değerlendirme raporu yaz; test seti metrikleri, karışıklık matrisleri ve kanal ile ülke bazında dilim sonuçları ekte.
+name: model-evaluation-report
+description: "Aday bir modeli taban çizgisi ve mevcut modelle karşılaştıran bir model değerlendirme raporu yazar; belirsizlikle genel metrikler, eşik seçimi, kalibrasyon, dilim performansı, hata analizi, adillik ve yayın önerisi. Bir model eğitildiğinde ve canlıya alınmak üzere onaylanması, alternatiflerle karşılaştırılması ya da bir performans şikâyeti sonrası gözden geçirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Model değerlendirme raporu"
+  related: "ml-problem-framing, model-card, ml-monitoring-plan, feature-engineering-plan, llm-eval-set"
+  prompt: "Dolandırıcılık modelimiz v3'ü v2 ile karşılaştıran bir değerlendirme raporu yaz; test seti metrikleri, karışıklık matrisleri ve kanal ile ülke bazında dilim sonuçları ekte."
 ---
 
 # Model Değerlendirme Raporu

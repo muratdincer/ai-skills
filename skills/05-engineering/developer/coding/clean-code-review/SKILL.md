@@ -1,7 +1,16 @@
 ---
+name: clean-code-review
 description: "Reviews code for maintainability: naming, function size and responsibility, SOLID and coupling, duplication, comments, and recognizable code smells, producing prioritized findings with location, impact and a concrete fix. Use when someone asks whether code is clean, readable or well designed, wants a maintainability review of a file, class or module, or prepares code for handover."
-related: "refactoring, code-review, coding-standards, review-comment-writing, code-quality-report"
-prompt: "Do a clean code review of this OrderService class; it has grown over two years and new people struggle to change it."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Review for clean code"
+  related: "refactoring, code-review, coding-standards, review-comment-writing, code-quality-report"
+  prompt: "Do a clean code review of this OrderService class; it has grown over two years and new people struggle to change it."
 ---
 
 # Review for Clean Code

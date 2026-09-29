@@ -1,7 +1,16 @@
 ---
+name: observation-notes
 description: "Structures raw job-shadowing or contextual observation notes into a task sequence with timings, tools used, pains, workarounds, interruptions and the gap between the documented and the actual process. Use after observing users at work, when field notes are messy, or when asked 'what did we learn from watching the team do this?'."
-related: "as-is-process, interview-notes-analysis, value-stream-map, customer-journey-map, research-synthesis"
-prompt: "Here are my notes from shadowing two call-center agents for three hours. Structure them into tasks, pains and workarounds."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Structure job-shadowing observations"
+  related: "as-is-process, interview-notes-analysis, value-stream-map, customer-journey-map, research-synthesis"
+  prompt: "Here are my notes from shadowing two call-center agents for three hours. Structure them into tasks, pains and workarounds."
 ---
 
 # Structure Job-Shadowing Observations

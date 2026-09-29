@@ -1,7 +1,16 @@
 ---
-description: Designs and documents a client discovery workshop for an early engagement, with objectives, participant mix, pre-work, a timeboxed agenda, question bank by topic, breakout and note-and-vote convergence mechanics, and a structured output (goals, pain points, current landscape, requirements themes, constraints, risks, next steps). Use when starting a new client engagement or presales pursuit, when a vague client need must be shaped into scope, or when workshop notes must be turned into a discovery summary.
-related: workshop-plan, facilitation-guide, current-state-assessment, stakeholder-map, interview-question-set
-prompt: Plan a one-day discovery workshop with a retail client who wants to "modernize their e-commerce platform" and has not shared details.
+name: discovery-workshop
+description: "Designs and documents a client discovery workshop for an early engagement, with objectives, participant mix, pre-work, a timeboxed agenda, question bank by topic, breakout and note-and-vote convergence mechanics, and a structured output (goals, pain points, current landscape, requirements themes, constraints, risks, next steps). Use when starting a new client engagement or presales pursuit, when a vague client need must be shaped into scope, or when workshop notes must be turned into a discovery summary."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Run a client discovery workshop"
+  related: "workshop-plan, facilitation-guide, current-state-assessment, stakeholder-map, interview-question-set"
+  prompt: "Plan a one-day discovery workshop with a retail client who wants to \"modernize their e-commerce platform\" and has not shared details."
 ---
 
 # Run a Client Discovery Workshop

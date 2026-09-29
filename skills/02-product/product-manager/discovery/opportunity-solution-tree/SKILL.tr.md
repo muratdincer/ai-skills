@@ -1,7 +1,16 @@
 ---
-description: Tek bir ölçülebilir hedef sonucu araştırmadan gelen müşteri fırsatlarına (ihtiyaçlar, sorunlar, istekler), hedef fırsat başına birden fazla aday çözüme ve varsayım testlerine bağlayan bir fırsat-çözüm ağacı oluşturur. Bir ekibin bir sonucu etkilemek için neye odaklanacağını seçmesi gerektiğinde, keşif çalışması yapıdan yoksun olduğunda ya da bir hedefi fikirlere ve deneylere bağlamak istendiğinde kullanılır.
-related: okr-definition, jobs-to-be-done, hypothesis-statement, experiment-design, assumption-mapping
-prompt: Yeni mobil bankacılık kullanıcılarının 30 günlük elde tutma oranını artırmak için bir fırsat-çözüm ağacı oluştur.
+name: opportunity-solution-tree
+description: "Tek bir ölçülebilir hedef sonucu araştırmadan gelen müşteri fırsatlarına (ihtiyaçlar, sorunlar, istekler), hedef fırsat başına birden fazla aday çözüme ve varsayım testlerine bağlayan bir fırsat-çözüm ağacı oluşturur. Bir ekibin bir sonucu etkilemek için neye odaklanacağını seçmesi gerektiğinde, keşif çalışması yapıdan yoksun olduğunda ya da bir hedefi fikirlere ve deneylere bağlamak istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Fırsat-çözüm ağacı"
+  related: "okr-definition, jobs-to-be-done, hypothesis-statement, experiment-design, assumption-mapping"
+  prompt: "Yeni mobil bankacılık kullanıcılarının 30 günlük elde tutma oranını artırmak için bir fırsat-çözüm ağacı oluştur."
 ---
 
 # Fırsat-Çözüm Ağacı

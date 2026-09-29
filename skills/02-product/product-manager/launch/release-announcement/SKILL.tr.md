@@ -1,7 +1,16 @@
 ---
-description: Okuyucuya sağlanan faydayla başlayan, neyin değiştiğini ve kimi etkilediğini anlatan, erişilebilirliği ve gereken aksiyonu belirten, net bir sonraki adımla biten ve kanala (e-posta, blog, uygulama içi, sosyal medya) uyarlanmış müşteriye yönelik bir sürüm duyurusu yazar. Bir özellik veya ürün sürümü müşterilere açıldığında, sürüm notlarının pazarlamaya hazır metne dönüştürülmesi gerektiğinde ya da bir sürümü "duyurmak" veya "müşterilere anlatmak" istendiğinde kullanılır.
-related: positioning-statement, go-to-market-plan, release-notes, announcement, microcopy
-prompt: Önümüzdeki salı e-posta ve uygulama içi bildirimle çıkacak yeni toplu fatura yükleme özelliğimiz için müşteri duyurusu yaz.
+name: release-announcement
+description: "Okuyucuya sağlanan faydayla başlayan, neyin değiştiğini ve kimi etkilediğini anlatan, erişilebilirliği ve gereken aksiyonu belirten, net bir sonraki adımla biten ve kanala (e-posta, blog, uygulama içi, sosyal medya) uyarlanmış müşteriye yönelik bir sürüm duyurusu yazar. Bir özellik veya ürün sürümü müşterilere açıldığında, sürüm notlarının pazarlamaya hazır metne dönüştürülmesi gerektiğinde ya da bir sürümü \"duyurmak\" veya \"müşterilere anlatmak\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Sürüm duyurusu yazma"
+  related: "positioning-statement, go-to-market-plan, release-notes, announcement, microcopy"
+  prompt: "Önümüzdeki salı e-posta ve uygulama içi bildirimle çıkacak yeni toplu fatura yükleme özelliğimiz için müşteri duyurusu yaz."
 ---
 
 # Sürüm Duyurusu Yazma

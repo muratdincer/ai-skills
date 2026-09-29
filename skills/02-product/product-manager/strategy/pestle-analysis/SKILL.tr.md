@@ -1,7 +1,16 @@
 ---
-description: Bir ürün, pazara giriş veya stratejik karar için PESTLE analizi (politik, ekonomik, sosyal, teknolojik, yasal, çevresel) yapar; her faktörü etki, olasılık ve zaman ufkuna göre puanlar ve en önemli faktörleri somut ürün ve iş etkilerine çevirir. Yeni bir pazara veya ülkeye girerken, strateji veya yol haritası gözden geçirilirken, mevzuat veya makro risk değerlendirilirken ya da PESTEL/PEST veya "dış çevre" taraması istendiğinde kullanılır.
-related: market-analysis, swot-analysis, porters-five-forces, product-strategy-one-pager, assumption-mapping
-prompt: KOBİ bordro SaaS ürünümüzü gelecek yıl Almanya'da piyasaya sürmek için PESTLE analizi yap.
+name: pestle-analysis
+description: "Bir ürün, pazara giriş veya stratejik karar için PESTLE analizi (politik, ekonomik, sosyal, teknolojik, yasal, çevresel) yapar; her faktörü etki, olasılık ve zaman ufkuna göre puanlar ve en önemli faktörleri somut ürün ve iş etkilerine çevirir. Yeni bir pazara veya ülkeye girerken, strateji veya yol haritası gözden geçirilirken, mevzuat veya makro risk değerlendirilirken ya da PESTEL/PEST veya \"dış çevre\" taraması istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "PESTLE analizi"
+  related: "market-analysis, swot-analysis, porters-five-forces, product-strategy-one-pager, assumption-mapping"
+  prompt: "KOBİ bordro SaaS ürünümüzü gelecek yıl Almanya'da piyasaya sürmek için PESTLE analizi yap."
 ---
 
 # PESTLE Analizi

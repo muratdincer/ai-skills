@@ -1,7 +1,16 @@
 ---
+name: pipeline-failure-triage
 description: "Başarısız bir CI/CD çalıştırmasını logları ve bağlamı üzerinden analiz eder; hatayı sınıflandırır (kod, test, kararsız test, bağımlılık, altyapı, yapılandırma, kimlik bilgisi), en olası nedeni kanıtıyla belirler, çözüm ve önleme adımı önerir. Build, test, tarama veya dağıtım işi başarısız olduğunda ve log ya da hata metni paylaşıldığında kullanılır."
-related: "pipeline-design, flaky-test-analysis, log-analysis, stack-trace-analysis, dependency-upgrade"
-prompt: "Main branch hattımız bu sabahtan beri Docker build adımında kırılıyor, log ekte. Sorun ne ve nasıl düzeltiriz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Hat hatası analizi"
+  related: "pipeline-design, flaky-test-analysis, log-analysis, stack-trace-analysis, dependency-upgrade"
+  prompt: "Main branch hattımız bu sabahtan beri Docker build adımında kırılıyor, log ekte. Sorun ne ve nasıl düzeltiriz?"
 ---
 
 # Hat Hatası Analizi

@@ -1,7 +1,16 @@
 ---
-description: Designs where each piece of front-end state lives (local component, URL, form, shared client, server cache, persisted) and how it flows, is synchronized, invalidated and tested, in a framework-neutral way, and justifies any global store. Use when starting a front-end feature or app, when state is duplicated or out of sync between screens, when a team debates adopting or removing a global store, or when server data caching and optimistic updates must be decided.
-related: component-design, technical-design-doc, api-contract, adr, web-performance-audit
-prompt: Our order management screens keep showing stale data after edits and we have everything in one global store. Help us redesign the state management.
+name: state-management-design
+description: "Designs where each piece of front-end state lives (local component, URL, form, shared client, server cache, persisted) and how it flows, is synchronized, invalidated and tested, in a framework-neutral way, and justifies any global store. Use when starting a front-end feature or app, when state is duplicated or out of sync between screens, when a team debates adopting or removing a global store, or when server data caching and optimistic updates must be decided."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Design state management"
+  related: "component-design, technical-design-doc, api-contract, adr, web-performance-audit"
+  prompt: "Our order management screens keep showing stale data after edits and we have everything in one global store. Help us redesign the state management."
 ---
 
 # Design State Management

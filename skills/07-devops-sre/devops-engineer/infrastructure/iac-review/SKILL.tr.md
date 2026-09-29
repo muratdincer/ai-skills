@@ -1,7 +1,16 @@
 ---
+name: iac-review
 description: "Kod olarak altyapıyı (Terraform/OpenTofu, Bicep, CloudFormation, Pulumi, Ansible vb.) ve plan çıktısını güvenlik yanlış yapılandırmaları, state ve sapma riskleri, yıkıcı değişiklikler, modülerlik, adlandırma/etiketleme ve maliyet açısından inceler. Bir IaC pull request'i veya planı incelenecekken, paylaşımlı ya da üretim altyapısına değişiklik uygulanmadan önce veya mevcut bir IaC kod tabanı denetlenirken kullanılır."
-related: "secrets-management-plan, finops-review, environment-strategy, threat-model, pipeline-design"
-prompt: "Bu Terraform modülünü ve plan çıktısını incele. Yeni servisimiz için bir storage bucket, bir veritabanı ve bir VPC oluşturuyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Kod olarak altyapı incelemesi"
+  related: "secrets-management-plan, finops-review, environment-strategy, threat-model, pipeline-design"
+  prompt: "Bu Terraform modülünü ve plan çıktısını incele. Yeni servisimiz için bir storage bucket, bir veritabanı ve bir VPC oluşturuyor."
 ---
 
 # Kod Olarak Altyapı İncelemesi

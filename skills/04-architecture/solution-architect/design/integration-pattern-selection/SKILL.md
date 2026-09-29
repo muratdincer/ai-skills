@@ -1,7 +1,16 @@
 ---
-description: Selects integration patterns for each interaction between systems (synchronous API, asynchronous messaging, event streaming, file/batch transfer, CDC, shared database) by analyzing coupling, latency, consistency, volume, ordering and failure behavior, and records the trade-offs. Use when designing how two or more systems exchange data or commands, replacing point-to-point or file interfaces, or when an integration keeps failing under load or change.
-related: integration-requirements, event-driven-design, api-contract, adr, resilience-review
-prompt: Choose integration patterns between our order system, the ERP and the warehouse system; ERP only supports SOAP and nightly files, the warehouse needs stock updates within a minute.
+name: integration-pattern-selection
+description: "Selects integration patterns for each interaction between systems (synchronous API, asynchronous messaging, event streaming, file/batch transfer, CDC, shared database) by analyzing coupling, latency, consistency, volume, ordering and failure behavior, and records the trade-offs. Use when designing how two or more systems exchange data or commands, replacing point-to-point or file interfaces, or when an integration keeps failing under load or change."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Choose integration patterns"
+  related: "integration-requirements, event-driven-design, api-contract, adr, resilience-review"
+  prompt: "Choose integration patterns between our order system, the ERP and the warehouse system; ERP only supports SOAP and nightly files, the warehouse needs stock updates within a minute."
 ---
 
 # Choose Integration Patterns

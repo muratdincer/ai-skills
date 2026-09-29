@@ -1,7 +1,16 @@
 ---
+name: srs-writing
 description: "Writes a Software Requirements Specification aligned with ISO/IEC/IEEE 29148: purpose and scope, system context and interfaces, functional requirements, quality attributes, data, constraints and verification method per requirement, each uniquely identified and traceable. Use when a system or subsystem must be specified for design, build, a vendor or an audit, or when business requirements must be turned into a verifiable system-level specification."
-related: "frd-writing, nfr-specification, use-case-spec, integration-requirements, traceability-matrix"
-prompt: "Write an SRS for the payment reconciliation service based on this FRD and the interface list."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Write a Software Requirements Specification"
+  related: "frd-writing, nfr-specification, use-case-spec, integration-requirements, traceability-matrix"
+  prompt: "Write an SRS for the payment reconciliation service based on this FRD and the interface list."
 ---
 
 # Write a Software Requirements Specification

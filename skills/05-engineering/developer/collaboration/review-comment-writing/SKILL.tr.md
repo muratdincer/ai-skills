@@ -1,7 +1,16 @@
 ---
-description: Kod inceleme yorumlarını somut, nazik ve uygulanabilir olacak şekilde yazar veya yeniden yazar; her yorumu önem ve niyetine göre etiketler (Critical, Required, Nit, Optional, FYI; ayrıca soru ve takdir) ve gerekçe ile önerilen değişiklikle destekler. İnceleyenin bir pull request üzerinde ham gözlemleri veya sert taslak yorumları olduğunda ve bunları net ifade etmek istediğinde ya da inceleme yazışmaları gerginleştiğinde kullanılır.
-related: code-review, feedback-sbi, tone-rewrite, coding-standards, conflict-resolution
-prompt: İnceleme yorumlarımı sert olmadan ama net olacak şekilde yeniden yaz. İlki şu: 'bu yanlış, neden döngü içinde sorgu atıyorsun?'
+name: review-comment-writing
+description: "Kod inceleme yorumlarını somut, nazik ve uygulanabilir olacak şekilde yazar veya yeniden yazar; her yorumu önem ve niyetine göre etiketler (Critical, Required, Nit, Optional, FYI; ayrıca soru ve takdir) ve gerekçe ile önerilen değişiklikle destekler. İnceleyenin bir pull request üzerinde ham gözlemleri veya sert taslak yorumları olduğunda ve bunları net ifade etmek istediğinde ya da inceleme yazışmaları gerginleştiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "İnceleme yorumu yazma"
+  related: "code-review, feedback-sbi, tone-rewrite, coding-standards, conflict-resolution"
+  prompt: "İnceleme yorumlarımı sert olmadan ama net olacak şekilde yeniden yaz. İlki şu: 'bu yanlış, neden döngü içinde sorgu atıyorsun?'"
 ---
 
 # İnceleme Yorumu Yazma

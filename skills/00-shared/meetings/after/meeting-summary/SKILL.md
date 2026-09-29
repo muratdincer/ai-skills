@@ -1,7 +1,16 @@
 ---
-description: Produces a short executive summary of a meeting that leads with outcomes, lists decisions, key actions and open points, and flags what needs the reader's attention, readable in under a minute. Use when a manager, sponsor or absent stakeholder needs to know what came out of a meeting without reading full notes or a transcript.
-related: meeting-notes, meeting-minutes, meeting-follow-up, executive-summary, action-item-extraction
-prompt: Summarize this 1-hour architecture review transcript for our CTO in a few lines.
+name: meeting-summary
+description: "Produces a short executive summary of a meeting that leads with outcomes, lists decisions, key actions and open points, and flags what needs the reader's attention, readable in under a minute. Use when a manager, sponsor or absent stakeholder needs to know what came out of a meeting without reading full notes or a transcript."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Summarize a meeting"
+  related: "meeting-notes, meeting-minutes, meeting-follow-up, executive-summary, action-item-extraction"
+  prompt: "Summarize this 1-hour architecture review transcript for our CTO in a few lines."
 ---
 
 # Summarize a Meeting

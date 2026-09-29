@@ -1,7 +1,16 @@
 ---
+name: release-plan
 description: "Sürüm içeriğini, dondurma ve geçiş noktalarını içeren takvimi, isimli sorumluları, bağımlılıkları, iletişimi ve geri dönüş karar noktasını netleştiren bir sürüm planı yazar. Bir sürüm birden fazla ekip, bileşen veya ortamı kapsadığında, değişiklik penceresi gerektirdiğinde ya da sürüm takvimi, geçiş planı veya sürüm akışı istendiğinde kullanılır."
-related: "deployment-checklist, rollback-plan, go-no-go, release-notes, change-request-rfc"
-prompt: "4.2 sürümü için sürüm planı yaz: üç servis, bir veritabanı migration'ı ve bir mobil uygulama güncellemesi var, hedef üretim tarihi önümüzdeki perşembe gecesi."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Sürüm planı yazma"
+  related: "deployment-checklist, rollback-plan, go-no-go, release-notes, change-request-rfc"
+  prompt: "4.2 sürümü için sürüm planı yaz: üç servis, bir veritabanı migration'ı ve bir mobil uygulama güncellemesi var, hedef üretim tarihi önümüzdeki perşembe gecesi."
 ---
 
 # Sürüm Planı Yazma

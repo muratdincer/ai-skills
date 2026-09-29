@@ -1,7 +1,16 @@
 ---
-description: Yayınlanmış bir özelliğin benimsenmesini, tutunmasını ve sonucunu, lansman öncesi belirlenen hedeflere göre erişim-aktivasyon-tutunma-sonuç kırılımı, segment ayrımları ve nitel sinyallerle değerlendirir; sürdür, iyileştir, yaygınlaştır veya kaldır önerisiyle bitirir. Bir sürümden birkaç hafta sonra, lansman sonrası değerlendirmede ya da biri "bu özelliği kullanan var mı, işe yaradı mı" diye sorduğunda kullanılır.
-related: kpi-definition, funnel-analysis, feedback-synthesis, benefits-realization, product-sunset-plan
-prompt: 8 hafta önce yayınladığımız toplu düzenleme özelliğinin benimsenmesini değerlendir; kullanım sayıları ve destek kayıtları burada.
+name: feature-adoption-review
+description: "Yayınlanmış bir özelliğin benimsenmesini, tutunmasını ve sonucunu, lansman öncesi belirlenen hedeflere göre erişim-aktivasyon-tutunma-sonuç kırılımı, segment ayrımları ve nitel sinyallerle değerlendirir; sürdür, iyileştir, yaygınlaştır veya kaldır önerisiyle bitirir. Bir sürümden birkaç hafta sonra, lansman sonrası değerlendirmede ya da biri \"bu özelliği kullanan var mı, işe yaradı mı\" diye sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Özellik benimsenme analizi"
+  related: "kpi-definition, funnel-analysis, feedback-synthesis, benefits-realization, product-sunset-plan"
+  prompt: "8 hafta önce yayınladığımız toplu düzenleme özelliğinin benimsenmesini değerlendir; kullanım sayıları ve destek kayıtları burada."
 ---
 
 # Özellik Benimsenme Analizi

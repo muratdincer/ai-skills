@@ -1,7 +1,16 @@
 ---
+name: risk-based-testing
 description: "Prioritizes test effort by assessing product risk items for likelihood and impact, producing a risk matrix, a test depth per item and an execution order. Use when time or people are limited, when deciding what to test first or how deeply, or when stakeholders need to see which risks are covered and which remain."
-related: test-strategy, test-plan, regression-selection, risk-register, impact-analysis
-prompt: "We have 5 test days for this release. Here are the 14 changes. Tell me what to test first and how deep."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Prioritize tests by risk"
+  related: "test-strategy, test-plan, regression-selection, risk-register, impact-analysis"
+  prompt: "We have 5 test days for this release. Here are the 14 changes. Tell me what to test first and how deep."
 ---
 
 # Prioritize Tests by Risk

@@ -1,7 +1,16 @@
 ---
+name: sql-query-writing
 description: "Writes a correct, readable and index-friendly SQL query for a stated question in the target database dialect: clarifies grain and join cardinality, handles NULLs, duplicates and time zones, uses sargable predicates and parameters, and states the indexes it relies on and how to verify results. Use when someone needs a query for a report, feature, data fix or investigation, asks to translate a question into SQL, or wants an existing query rewritten for correctness or readability."
-related: "query-optimization, index-recommendation, database-schema-design, metric-definition, performance-optimization"
-prompt: "Write a PostgreSQL query that returns, per customer, the number of orders and total revenue in the last 90 days, including customers with no orders."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Write a SQL query"
+  related: "query-optimization, index-recommendation, database-schema-design, metric-definition, performance-optimization"
+  prompt: "Write a PostgreSQL query that returns, per customer, the number of orders and total revenue in the last 90 days, including customers with no orders."
 ---
 
 # Write a SQL Query

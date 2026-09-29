@@ -1,7 +1,16 @@
 ---
-description: Bir UI bileşeninin teknik API'sini geliştirme öncesinde framework'ten bağımsız biçimde tasarlar: sorumluluk, prop'lar veya girdiler, iç ve kontrollü durum, olaylar, slot'lar veya kompozisyon noktaları, varyantlar, görsel ve etkileşim durumları, erişilebilirlik semantiği ve klavye davranışı, test durumları. Bir geliştirici yeniden kullanılabilir bir bileşen yazmak veya yeniden düzenlemek üzereyken, bir tasarım teslimi bileşen sözleşmesine dönüştürülecekken ya da bir bileşenin prop sayısı kontrolden çıktığında kullanılır.
-related: design-system-component-spec, accessibility-audit, state-management-design, unit-test-writing, design-handoff
-prompt: Yönetim ekranlarımızda tekrar kullanacağımız aranabilir bir seçim kutusu (combobox) için bileşen API'si tasarla. Asenkron seçenekler ve çoklu seçim gerekiyor.
+name: component-design
+description: "Bir UI bileşeninin teknik API'sini geliştirme öncesinde framework'ten bağımsız biçimde tasarlar: sorumluluk, prop'lar veya girdiler, iç ve kontrollü durum, olaylar, slot'lar veya kompozisyon noktaları, varyantlar, görsel ve etkileşim durumları, erişilebilirlik semantiği ve klavye davranışı, test durumları. Bir geliştirici yeniden kullanılabilir bir bileşen yazmak veya yeniden düzenlemek üzereyken, bir tasarım teslimi bileşen sözleşmesine dönüştürülecekken ya da bir bileşenin prop sayısı kontrolden çıktığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "UI bileşeni tasarlama"
+  related: "design-system-component-spec, accessibility-audit, state-management-design, unit-test-writing, design-handoff"
+  prompt: "Yönetim ekranlarımızda tekrar kullanacağımız aranabilir bir seçim kutusu (combobox) için bileşen API'si tasarla. Asenkron seçenekler ve çoklu seçim gerekiyor."
 ---
 
 # UI Bileşeni Tasarlama

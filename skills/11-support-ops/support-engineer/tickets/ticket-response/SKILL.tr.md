@@ -1,7 +1,16 @@
 ---
+name: ticket-response
 description: "Bir destek kaydına müşteriye yönelik yanıt yazar: sorunu kabul eder, bilineni söyler, sahibi ve zamanı belli net bir yanıt veya sonraki adım verir ve yalnızca gereken bilgiyi ister. Yeni veya güncellenmiş bir kayda yanıt verirken, bekleyen bir kaydı takip ederken, çözüm iletirken, bir talebi reddederken ya da fazla teknik, uzun veya savunmacı bir taslak yanıtı yeniden yazarken kullanılır."
-related: "ticket-triage, ticket-escalation-summary, known-error-article, tone-rewrite, bad-news-delivery"
-prompt: "Bu müşteriye yanıt yaz: parola sıfırlamadan sonra giriş yapamıyor, bu hafta ikinci kez oluyor ve çok sinirli."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Destek kaydı yanıtı"
+  related: "ticket-triage, ticket-escalation-summary, known-error-article, tone-rewrite, bad-news-delivery"
+  prompt: "Bu müşteriye yanıt yaz: parola sıfırlamadan sonra giriş yapamıyor, bu hafta ikinci kez oluyor ve çok sinirli."
 ---
 
 # Destek Kaydı Yanıtı

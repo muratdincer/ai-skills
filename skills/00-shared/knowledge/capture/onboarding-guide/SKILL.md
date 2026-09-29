@@ -1,7 +1,16 @@
 ---
-description: Writes an onboarding guide that takes a newcomer to a team, department or project through context, ways of working, tools and access, key people, vocabulary and a sequenced set of first tasks with clear "you are ready when" milestones. Use when a team expects new members, contractors or transfers, when existing onboarding is scattered across wikis and chats, or when someone asks to "write an onboarding guide" for a role or team.
-related: onboarding-plan-30-60-90, technical-onboarding, handover-document, glossary-builder, kb-article
-prompt: Write an onboarding guide for new business analysts joining our payments team.
+name: onboarding-guide
+description: "Writes an onboarding guide that takes a newcomer to a team, department or project through context, ways of working, tools and access, key people, vocabulary and a sequenced set of first tasks with clear \"you are ready when\" milestones. Use when a team expects new members, contractors or transfers, when existing onboarding is scattered across wikis and chats, or when someone asks to \"write an onboarding guide\" for a role or team."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Write an onboarding guide"
+  related: "onboarding-plan-30-60-90, technical-onboarding, handover-document, glossary-builder, kb-article"
+  prompt: "Write an onboarding guide for new business analysts joining our payments team."
 ---
 
 # Write an Onboarding Guide

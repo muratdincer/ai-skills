@@ -1,7 +1,16 @@
 ---
+name: team-health-check
 description: "Designs and analyzes a team health check: selects 8-12 dimensions (e.g. delivering value, speed, codebase health, learning, mission clarity, fun, support, psychological safety), writes traffic-light or 1-5 rating statements, runs it anonymously, reads results and trends per dimension, and turns the lowest or declining areas into a few owned follow-up actions. Use when a team or manager wants to take the team's pulse, compare with a previous round, or prepare a health check session."
-related: "retrospective-facilitation, working-agreement, agile-maturity-assessment, questionnaire-design, engineering-metrics-review"
-prompt: "Here are our health check results from last quarter and this quarter across 10 dimensions (green/yellow/red per person). What stands out and what should we do?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Run a team health check"
+  related: "retrospective-facilitation, working-agreement, agile-maturity-assessment, questionnaire-design, engineering-metrics-review"
+  prompt: "Here are our health check results from last quarter and this quarter across 10 dimensions (green/yellow/red per person). What stands out and what should we do?"
 ---
 
 # Run a Team Health Check

@@ -1,7 +1,16 @@
 ---
+name: integration-test-writing
 description: "Writes integration tests that exercise code across real boundaries (database, message broker, HTTP APIs, file storage, cache) with disposable real dependencies where feasible and test doubles only for systems the team does not own, covering mapping, transactions, serialization, error and timeout behavior, with isolated data and deterministic setup. Use when someone asks for integration tests, wants to verify a repository, API endpoint, consumer or external client against real infrastructure, or when unit tests with mocks cannot prove the behavior."
-related: "unit-test-writing, api-test-design, test-data-design, flaky-test-analysis, test-gap-finder"
-prompt: "Write integration tests for our OrderRepository and the OrderPlaced consumer; we use a relational database and a message broker."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Write integration tests"
+  related: "unit-test-writing, api-test-design, test-data-design, flaky-test-analysis, test-gap-finder"
+  prompt: "Write integration tests for our OrderRepository and the OrderPlaced consumer; we use a relational database and a message broker."
 ---
 
 # Write Integration Tests

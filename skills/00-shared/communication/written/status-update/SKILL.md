@@ -1,7 +1,16 @@
 ---
-description: Writes a concise status update with an overall RAG rating, progress against plan, risks and issues, decisions or help needed, and next steps. Use when someone must report progress on a project, workstream, initiative or incident to a manager, sponsor, steering group or team channel, or asks for a "weekly update", "status report" or "where are we".
-related: project-status-report, executive-summary, escalation-message, raid-log, steering-committee-pack
-prompt: Write this week's status update for the data platform migration: 3 of 5 domains moved, the finance domain is blocked on a firewall change, go-live still planned for the 30th.
+name: status-update
+description: "Writes a concise status update with an overall RAG rating, progress against plan, risks and issues, decisions or help needed, and next steps. Use when someone must report progress on a project, workstream, initiative or incident to a manager, sponsor, steering group or team channel, or asks for a \"weekly update\", \"status report\" or \"where are we\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Write a status update"
+  related: "project-status-report, executive-summary, escalation-message, raid-log, steering-committee-pack"
+  prompt: "Write this week's status update for the data platform migration: 3 of 5 domains moved, the finance domain is blocked on a firewall change, go-live still planned for the 30th."
 ---
 
 # Write a Status Update

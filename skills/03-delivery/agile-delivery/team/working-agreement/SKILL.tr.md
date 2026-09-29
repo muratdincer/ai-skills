@@ -1,7 +1,16 @@
 ---
+name: working-agreement
 description: "Ekip çalışma sözleşmesini kolaylaştırır ve yazar: iletişim kanalları ve yanıt süreleri, erişilebilirlik ve ortak çalışma saatleri, kod incelemesi ve eşli çalışma, toplantılar, karar alma, nöbet ve çatışma yönetimine dair normları toplar, bunları somut ve gözlemlenebilir taahhütlere dönüştürür, sözleşmenin nasıl gözden geçirilip uygulanacağını belirler. Ekip kurulduğunda veya değiştiğinde, tekrarlayan sürtünmeler (yavaş incelemeler, toplantı yükü, mesai dışı mesajlar) görüldüğünde ya da ekip tüzüğü veya temel kurallar istendiğinde kullanılır."
-related: "wip-policy, team-health-check, retrospective-facilitation, definition-of-done, conflict-resolution"
-prompt: "Ekibimiz artık İstanbul ve Berlin arasında bölünmüş durumda, incelemeler günlerce bekliyor ve insanlara gece mesaj atılıyor. Bir çalışma sözleşmesi taslağı hazırlamamıza yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Ekip çalışma sözleşmesi"
+  related: "wip-policy, team-health-check, retrospective-facilitation, definition-of-done, conflict-resolution"
+  prompt: "Ekibimiz artık İstanbul ve Berlin arasında bölünmüş durumda, incelemeler günlerce bekliyor ve insanlara gece mesaj atılıyor. Bir çalışma sözleşmesi taslağı hazırlamamıza yardım et."
 ---
 
 # Ekip Çalışma Sözleşmesi

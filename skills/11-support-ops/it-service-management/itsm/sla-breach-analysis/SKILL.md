@@ -1,7 +1,16 @@
 ---
+name: sla-breach-analysis
 description: "Analyzes SLA breaches over a period: validates the data and clock rules, measures breach rates by priority, category, team, time and customer, finds patterns and root causes (process, capacity, routing, dependency, measurement), and proposes prioritized improvement actions with owners and target metrics. Use when SLA performance drops, before a service review or contract discussion, when penalties or credits are at stake, or when a team wants to know why tickets miss their targets."
-related: "problem-management, ticket-triage, slo-definition, kpi-definition, dashboard-spec"
-prompt: "Analyze last quarter's SLA breaches: P2 resolution target is 8 business hours, we met it for 71% against a 90% target; here is the ticket export."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Analyze SLA breaches"
+  related: "problem-management, ticket-triage, slo-definition, kpi-definition, dashboard-spec"
+  prompt: "Analyze last quarter's SLA breaches: P2 resolution target is 8 business hours, we met it for 71% against a 90% target; here is the ticket export."
 ---
 
 # Analyze SLA Breaches

@@ -1,7 +1,16 @@
 ---
-description: Sizes each component of a solution design (compute, storage, database, network egress, managed services, observability, licences) from workload drivers and produces a transparent monthly run-cost estimate with ranges, assumptions and cost-reduction levers. Use when a design needs a cost figure for approval, when comparing architecture options on cost, or when a cloud budget must be set before build.
-related: finops-review, capacity-planning, build-vs-buy, solution-architecture-document, budget-proposal
-prompt: Estimate the monthly cloud cost of this design: 6 containerized services, a managed PostgreSQL, Redis, object storage for 5 TB of documents and about 20 million API calls a month.
+name: cloud-cost-estimate
+description: "Sizes each component of a solution design (compute, storage, database, network egress, managed services, observability, licences) from workload drivers and produces a transparent monthly run-cost estimate with ranges, assumptions and cost-reduction levers. Use when a design needs a cost figure for approval, when comparing architecture options on cost, or when a cloud budget must be set before build."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Estimate cloud cost of a design"
+  related: "finops-review, capacity-planning, build-vs-buy, solution-architecture-document, budget-proposal"
+  prompt: "Estimate the monthly cloud cost of this design: 6 containerized services, a managed PostgreSQL, Redis, object storage for 5 TB of documents and about 20 million API calls a month."
 ---
 
 # Estimate Cloud Cost of a Design

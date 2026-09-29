@@ -1,7 +1,16 @@
 ---
-description: Builds a technical debt register by inventorying debt items across code, architecture, tests, infrastructure, dependencies and documentation, classifying them (deliberate/inadvertent, prudent/reckless), estimating principal (cost to fix) and interest (ongoing cost and risk), and prioritizing them into a paydown plan tied to business impact. Use when a team feels slowed down by the codebase, when leadership asks how much debt exists and what to fix first, or when debt must be justified in planning.
-related: code-quality-report, refactoring, modernization-assessment, dependency-upgrade, technical-risk-review
-prompt: Assess the technical debt in our billing platform; releases take two weeks, test coverage is 30% and we still run an unsupported framework version.
+name: tech-debt-assessment
+description: "Builds a technical debt register by inventorying debt items across code, architecture, tests, infrastructure, dependencies and documentation, classifying them (deliberate/inadvertent, prudent/reckless), estimating principal (cost to fix) and interest (ongoing cost and risk), and prioritizing them into a paydown plan tied to business impact. Use when a team feels slowed down by the codebase, when leadership asks how much debt exists and what to fix first, or when debt must be justified in planning."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Assess technical debt"
+  related: "code-quality-report, refactoring, modernization-assessment, dependency-upgrade, technical-risk-review"
+  prompt: "Assess the technical debt in our billing platform; releases take two weeks, test coverage is 30% and we still run an unsupported framework version."
 ---
 
 # Assess Technical Debt

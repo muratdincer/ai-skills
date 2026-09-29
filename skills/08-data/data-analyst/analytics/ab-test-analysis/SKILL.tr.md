@@ -1,7 +1,16 @@
 ---
-description: Bir A/B veya çok değişkenli testi baştan sona analiz eder; geçerlilik kontrolleri (örneklem oranı uyumsuzluğu, maruziyet, süre), güven aralığıyla birincil metrik etkisi, koruyucu metrikler, segmentler ve yayına al / iyileştir / durdur önerisi. Deney sonuçları geldiğinde ve karar gerektiğinde ya da bir test sonucunun anlamlı veya güvenilir olup olmadığı sorulduğunda kullanılır.
-related: experiment-design, hypothesis-statement, metric-definition, insight-summary, analysis-plan
-prompt: Bu A/B testini analiz et: kontrol 48.210 kullanıcı %2,31 dönüşüm, varyant 48.950 kullanıcı %2,52 dönüşüm, 14 gün sürdü; koruyucu metrik iade oranı.
+name: ab-test-analysis
+description: "Bir A/B veya çok değişkenli testi baştan sona analiz eder; geçerlilik kontrolleri (örneklem oranı uyumsuzluğu, maruziyet, süre), güven aralığıyla birincil metrik etkisi, koruyucu metrikler, segmentler ve yayına al / iyileştir / durdur önerisi. Deney sonuçları geldiğinde ve karar gerektiğinde ya da bir test sonucunun anlamlı veya güvenilir olup olmadığı sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "A/B testi analizi"
+  related: "experiment-design, hypothesis-statement, metric-definition, insight-summary, analysis-plan"
+  prompt: "Bu A/B testini analiz et: kontrol 48.210 kullanıcı %2,31 dönüşüm, varyant 48.950 kullanıcı %2,52 dönüşüm, 14 gün sürdü; koruyucu metrik iade oranı."
 ---
 
 # A/B Testi Analizi

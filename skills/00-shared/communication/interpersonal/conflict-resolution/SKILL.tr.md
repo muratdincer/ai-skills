@@ -1,7 +1,16 @@
 ---
-description: Bir iş yeri çatışmasını taraflar, dile getirilen pozisyonlar, altta yatan çıkarlar, olgular ile algılar ve çatışma türü olarak haritalar; ardından ortak çıkarlara hizmet eden seçenekler ve üzerinde anlaşılan sonraki adımlarla arabulucu bir çözüm yolu önerir. İki kişi, ekip veya birim öncelikler, sahiplik, yaklaşım ya da davranış konusunda anlaşamadığında ve bu anlaşmazlık işi durdurduğunda veya ilişkiye zarar verdiğinde kullanılır.
-related: feedback-sbi, negotiation-prep, facilitation-guide, trade-off-analysis, decision-log
-prompt: Backend ve mobil ekiplerimiz API versiyonlamanın kimde olduğu konusunda sürekli tartışıyor ve sürümler kayıyor. Arabuluculuk yapmama yardım et.
+name: conflict-resolution
+description: "Bir iş yeri çatışmasını taraflar, dile getirilen pozisyonlar, altta yatan çıkarlar, olgular ile algılar ve çatışma türü olarak haritalar; ardından ortak çıkarlara hizmet eden seçenekler ve üzerinde anlaşılan sonraki adımlarla arabulucu bir çözüm yolu önerir. İki kişi, ekip veya birim öncelikler, sahiplik, yaklaşım ya da davranış konusunda anlaşamadığında ve bu anlaşmazlık işi durdurduğunda veya ilişkiye zarar verdiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Çatışma çözme"
+  related: "feedback-sbi, negotiation-prep, facilitation-guide, trade-off-analysis, decision-log"
+  prompt: "Backend ve mobil ekiplerimiz API versiyonlamanın kimde olduğu konusunda sürekli tartışıyor ve sürümler kayıyor. Arabuluculuk yapmama yardım et."
 ---
 
 # Çatışma Çözme

@@ -1,7 +1,16 @@
 ---
+name: implement-from-story
 description: "Kabul kriterlerini davranışlara eşleyerek, mevcut kod kurallarını okuyarak, kodu ve testleri küçük doğrulanabilir adımlarla yazarak ve neyin geliştirildiğini, nasıl doğrulandığını ve neyin açık kaldığını raporlayarak bir kullanıcı hikayesinden özellik planlar ve geliştirir. Bir geliştirici verilen kabul kriterlerine göre bir hikaye, kayıt veya özelliğin geliştirilmesini istediğinde kullanılır."
-related: "task-breakdown, acceptance-criteria, tdd-cycle, unit-test-writing, pull-request-description"
-prompt: "Bu hikayeyi servisimizde geliştir: müşteri varsayılan teslimat adresi belirleyebilir; yalnızca bir adres varsayılan olabilir; varsayılan adres checkout'ta önceden seçili gelir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Hikayeden özellik geliştirme"
+  related: "task-breakdown, acceptance-criteria, tdd-cycle, unit-test-writing, pull-request-description"
+  prompt: "Bu hikayeyi servisimizde geliştir: müşteri varsayılan teslimat adresi belirleyebilir; yalnızca bir adres varsayılan olabilir; varsayılan adres checkout'ta önceden seçili gelir."
 ---
 
 # Hikayeden Özellik Geliştirme

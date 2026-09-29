@@ -1,7 +1,16 @@
 ---
+name: process-gap-analysis
 description: "Compares an as-is process with a to-be process step by step and lists every gap as a required change in people, process, technology, data or policy, with impact, dependencies and an owner. Use when a target process has been designed and the organization needs the change list, work packages or transition plan to get there, or when asked 'what has to change to go from as-is to to-be?'."
-related: "as-is-process, to-be-process, impact-analysis, fit-gap-analysis, raci-matrix"
-prompt: "Here are the as-is and to-be versions of our invoice approval process. Give me the gap analysis and what has to change."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Analyze as-is vs to-be gaps"
+  related: "as-is-process, to-be-process, impact-analysis, fit-gap-analysis, raci-matrix"
+  prompt: "Here are the as-is and to-be versions of our invoice approval process. Give me the gap analysis and what has to change."
 ---
 
 # Analyze As-Is vs To-Be Gaps

@@ -1,7 +1,16 @@
 ---
-description: Bir ürün fikrinin, hiçbir şey geliştirilmeden önce ilgi çekici, anlaşılır ve yapılabilir olup olmadığını sınamak için gelecekteki bir lansman tarihli tersine çalışma basın bülteni, müşteri SSS'si ve iç SSS yazar; dokümanın ortaya çıkardığı açık sorular ve risklerle biter. Yeni bir ürün veya büyük bir özellik önerildiğinde, ekibin tasarımdan önce müşteri sonucunda uzlaşması gerektiğinde ya da "PR/FAQ", "working backwards" dokümanı veya "gelecekteki basın bülteni" istendiğinde kullanılır.
-related: product-vision, prd-writing, value-proposition-canvas, positioning-statement, pre-mortem
-prompt: B2B müşterilerimizin portala giriş yapmadan WhatsApp üzerinden teslimat tahmini (ETA) alabildiği bir özellik için tersine çalışma PR/FAQ yaz.
+name: press-release-faq
+description: "Bir ürün fikrinin, hiçbir şey geliştirilmeden önce ilgi çekici, anlaşılır ve yapılabilir olup olmadığını sınamak için gelecekteki bir lansman tarihli tersine çalışma basın bülteni, müşteri SSS'si ve iç SSS yazar; dokümanın ortaya çıkardığı açık sorular ve risklerle biter. Yeni bir ürün veya büyük bir özellik önerildiğinde, ekibin tasarımdan önce müşteri sonucunda uzlaşması gerektiğinde ya da \"PR/FAQ\", \"working backwards\" dokümanı veya \"gelecekteki basın bülteni\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Tersine çalışma basın bülteni ve SSS"
+  related: "product-vision, prd-writing, value-proposition-canvas, positioning-statement, pre-mortem"
+  prompt: "B2B müşterilerimizin portala giriş yapmadan WhatsApp üzerinden teslimat tahmini (ETA) alabildiği bir özellik için tersine çalışma PR/FAQ yaz."
 ---
 
 # Tersine Çalışma Basın Bülteni ve SSS

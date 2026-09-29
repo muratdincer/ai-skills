@@ -1,7 +1,16 @@
 ---
-description: Moderatörlü veya moderatörsüz bir kullanılabilirlik testi senaryosu yazar; giriş ve onay, ısınma, gerçekçi görev senaryoları, yönlendirmesiz sorular, gözlemlenebilir başarı kriterleri, görev sonrası ve test sonrası ölçümler ile kapanışı içerir. Bir prototip veya canlı ürün kullanıcılarla test edilecekse, "test görevleri" ya da "moderatör rehberi" istendiğinde veya bir kullanılabilirlik oturumu planlanmadan önce kullanılır.
-related: research-plan, screener-survey, research-synthesis, heuristic-evaluation, interview-question-set
-prompt: Yeni ödeme adımı prototipimiz için kullanılabilirlik testi senaryosu yaz; ilk kez alışveriş yapanların indirim kodu uygulayıp kartla ödeme yapabildiğini görmek istiyoruz.
+name: usability-test-script
+description: "Moderatörlü veya moderatörsüz bir kullanılabilirlik testi senaryosu yazar; giriş ve onay, ısınma, gerçekçi görev senaryoları, yönlendirmesiz sorular, gözlemlenebilir başarı kriterleri, görev sonrası ve test sonrası ölçümler ile kapanışı içerir. Bir prototip veya canlı ürün kullanıcılarla test edilecekse, \"test görevleri\" ya da \"moderatör rehberi\" istendiğinde veya bir kullanılabilirlik oturumu planlanmadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Kullanılabilirlik testi senaryosu"
+  related: "research-plan, screener-survey, research-synthesis, heuristic-evaluation, interview-question-set"
+  prompt: "Yeni ödeme adımı prototipimiz için kullanılabilirlik testi senaryosu yaz; ilk kez alışveriş yapanların indirim kodu uygulayıp kartla ödeme yapabildiğini görmek istiyoruz."
 ---
 
 # Kullanılabilirlik Testi Senaryosu

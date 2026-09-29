@@ -1,7 +1,16 @@
 ---
+name: chaos-experiment
 description: "Kontrollü bir kaos deneyi tasarlar: kararlı durum tanımı, yanlışlanabilir hipotez, enjekte edilecek hata, etki alanı ve kademeli kapsam, durdurma koşulları ve geri alma, gözlem planı, ön koşullar ve bulgu kaydı. Bir ekip dayanıklılık iddialarını (failover, retry, timeout, autoscaling) doğrulamak, bir game day hazırlamak ya da bir felaket kurtarma veya kademeli bozulma tasarımına güvenmeden önce onu sınamak istediğinde kullanılır."
-related: "resilience-review, dr-plan, slo-definition, runbook, observability-plan"
-prompt: "Sipariş servisimizin üç Redis replikasından birini kaybettiğinde müşteriye görünür hata olmadan ayakta kaldığını kontrol eden bir kaos deneyi tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Kaos deneyi tasarlama"
+  related: "resilience-review, dr-plan, slo-definition, runbook, observability-plan"
+  prompt: "Sipariş servisimizin üç Redis replikasından birini kaybettiğinde müşteriye görünür hata olmadan ayakta kaldığını kontrol eden bir kaos deneyi tasarla."
 ---
 
 # Kaos Deneyi Tasarlama

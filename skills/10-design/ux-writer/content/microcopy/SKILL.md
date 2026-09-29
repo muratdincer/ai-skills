@@ -1,7 +1,16 @@
 ---
-description: Writes interface microcopy such as button and link labels, form labels, helper text, placeholders, tooltips, empty states, confirmations and success messages, fitted to the user's task, the product's voice, length limits and localization. Use when a screen or flow needs its UI text written or improved, when labels are vague or inconsistent, or when someone asks "what should this button say".
-related: error-message-writing, voice-and-tone-guide, design-handoff, style-guide-check, glossary-builder
-prompt: Write the microcopy for our new "invite teammates" dialog: title, field labels, helper text, buttons and the empty state.
+name: microcopy
+description: "Writes interface microcopy such as button and link labels, form labels, helper text, placeholders, tooltips, empty states, confirmations and success messages, fitted to the user's task, the product's voice, length limits and localization. Use when a screen or flow needs its UI text written or improved, when labels are vague or inconsistent, or when someone asks \"what should this button say\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Write microcopy"
+  related: "error-message-writing, voice-and-tone-guide, design-handoff, style-guide-check, glossary-builder"
+  prompt: "Write the microcopy for our new \"invite teammates\" dialog: title, field labels, helper text, buttons and the empty state."
 ---
 
 # Write Microcopy

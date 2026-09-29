@@ -1,7 +1,16 @@
 ---
+name: error-scenario-catalog
 description: "Builds a catalog of error scenarios for a feature, flow or interface: each failure case with trigger, detection point, expected system behaviour, data state afterwards, user or caller message, error code, logging and alerting, and recovery path. Use when requirements describe only the happy path, before design or test of an integration or transaction flow, or when support and developers disagree on what the system should do when something fails."
-related: "error-message-writing, edge-case-elicitation, sequence-flow, resilience-review, test-case-writing"
-prompt: "Create an error scenario catalog for our money transfer flow: validation, limits, core banking timeout and duplicate submissions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Catalog error scenarios"
+  related: "error-message-writing, edge-case-elicitation, sequence-flow, resilience-review, test-case-writing"
+  prompt: "Create an error scenario catalog for our money transfer flow: validation, limits, core banking timeout and duplicate submissions."
 ---
 
 # Catalog Error Scenarios

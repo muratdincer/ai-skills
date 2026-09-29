@@ -1,7 +1,16 @@
 ---
-description: Designs the technical API of a UI component before implementation: responsibility, props or inputs, internal and controlled state, events, slots or composition points, variants, visual and interaction states, accessibility semantics and keyboard behavior, and test cases, in a framework-neutral form. Use when a developer is about to build or refactor a reusable component, a design handoff must be turned into a component contract, or a component has grown too many props.
-related: design-system-component-spec, accessibility-audit, state-management-design, unit-test-writing, design-handoff
-prompt: Design the component API for a searchable select (combobox) we will reuse across our admin screens. It needs async options and multi-select.
+name: component-design
+description: "Designs the technical API of a UI component before implementation: responsibility, props or inputs, internal and controlled state, events, slots or composition points, variants, visual and interaction states, accessibility semantics and keyboard behavior, and test cases, in a framework-neutral form. Use when a developer is about to build or refactor a reusable component, a design handoff must be turned into a component contract, or a component has grown too many props."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Design a UI component"
+  related: "design-system-component-spec, accessibility-audit, state-management-design, unit-test-writing, design-handoff"
+  prompt: "Design the component API for a searchable select (combobox) we will reuse across our admin screens. It needs async options and multi-select."
 ---
 
 # Design a UI Component

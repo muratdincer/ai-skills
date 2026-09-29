@@ -1,7 +1,16 @@
 ---
-description: Interprets static analysis and code metrics (coverage, complexity, duplication, code smells, vulnerabilities, dependency age) and their trends into a code quality report that separates signal from noise, links hotspots to change frequency and defects, and recommends a small set of prioritized actions. Use when a tech lead must report code health to the team or management, when quality gate results or a metrics dashboard need interpretation, or when deciding where to invest refactoring effort.
-related: tech-debt-assessment, coding-standards, test-gap-finder, refactoring, defect-trend-analysis
-prompt: Here is our static analysis export for the last three releases. Write a code quality report for the engineering manager and tell us where to focus next quarter.
+name: code-quality-report
+description: "Interprets static analysis and code metrics (coverage, complexity, duplication, code smells, vulnerabilities, dependency age) and their trends into a code quality report that separates signal from noise, links hotspots to change frequency and defects, and recommends a small set of prioritized actions. Use when a tech lead must report code health to the team or management, when quality gate results or a metrics dashboard need interpretation, or when deciding where to invest refactoring effort."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Report on code quality"
+  related: "tech-debt-assessment, coding-standards, test-gap-finder, refactoring, defect-trend-analysis"
+  prompt: "Here is our static analysis export for the last three releases. Write a code quality report for the engineering manager and tell us where to focus next quarter."
 ---
 
 # Report on Code Quality

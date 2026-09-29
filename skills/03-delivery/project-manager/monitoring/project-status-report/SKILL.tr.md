@@ -1,7 +1,16 @@
 ---
-description: Genel ve boyut bazında RAG durumunu (takvim, maliyet, kapsam, kalite, kaynak), kilometre taşlarına göre ilerlemeyi, sapma açıklamalarını, öncelikli riskleri ve sorunları ve sponsorlardan gereken kararları içeren dönemsel proje durum raporunu yazar. Sponsorlara veya yönlendirme kurullarına haftalık ya da aylık raporlamada veya proje sağlığının plan ve gerçekleşme verisinden nesnel olarak özetlenmesi gerektiğinde kullanılır.
-related: status-update, steering-committee-pack, earned-value-analysis, raid-log, executive-summary
-prompt: İK sistemi projesinin bu ayki durum raporunu bu kilometre taşı güncellemeleri, bütçe gerçekleşmeleri ve RAID kaydından yaz.
+name: project-status-report
+description: "Genel ve boyut bazında RAG durumunu (takvim, maliyet, kapsam, kalite, kaynak), kilometre taşlarına göre ilerlemeyi, sapma açıklamalarını, öncelikli riskleri ve sorunları ve sponsorlardan gereken kararları içeren dönemsel proje durum raporunu yazar. Sponsorlara veya yönlendirme kurullarına haftalık ya da aylık raporlamada veya proje sağlığının plan ve gerçekleşme verisinden nesnel olarak özetlenmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Proje durum raporu"
+  related: "status-update, steering-committee-pack, earned-value-analysis, raid-log, executive-summary"
+  prompt: "İK sistemi projesinin bu ayki durum raporunu bu kilometre taşı güncellemeleri, bütçe gerçekleşmeleri ve RAID kaydından yaz."
 ---
 
 # Proje Durum Raporu

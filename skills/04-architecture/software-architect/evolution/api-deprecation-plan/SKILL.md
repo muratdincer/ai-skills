@@ -1,7 +1,16 @@
 ---
-description: Plans the deprecation and removal of an API, version, endpoint, field or event with a consumer inventory, versioning strategy, machine-readable Deprecation/Sunset signalling, a migration guide, brownouts and measurable removal gates. Use when a breaking change, a new API version or a retired endpoint must reach internal, partner or public consumers without surprise outages.
-related: api-design-review, api-contract, migration-strategy, api-reference-docs, product-sunset-plan
-prompt: We are replacing /v1/orders with /v2/orders (new pagination and money format). Plan the deprecation of v1 for our partners and internal apps.
+name: api-deprecation-plan
+description: "Plans the deprecation and removal of an API, version, endpoint, field or event with a consumer inventory, versioning strategy, machine-readable Deprecation/Sunset signalling, a migration guide, brownouts and measurable removal gates. Use when a breaking change, a new API version or a retired endpoint must reach internal, partner or public consumers without surprise outages."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Plan an API deprecation"
+  related: "api-design-review, api-contract, migration-strategy, api-reference-docs, product-sunset-plan"
+  prompt: "We are replacing /v1/orders with /v2/orders (new pagination and money format). Plan the deprecation of v1 for our partners and internal apps."
 ---
 
 # Plan an API Deprecation

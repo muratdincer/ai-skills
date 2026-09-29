@@ -1,7 +1,16 @@
 ---
+name: task-breakdown
 description: "Breaks a user story or work item into ordered, independently verifiable technical tasks with dependencies, relative estimates and a definition of done per task. Use when a developer or team picks up a story and needs an implementation plan, wants to parallelize work, or asks how to split a story into tasks or subtasks."
-related: "user-story, story-splitting, technical-estimation, implement-from-story, technical-design-doc"
-prompt: "Break this story into technical tasks: As a customer I want to download my invoices as PDF from the order history page."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Break a story into tasks"
+  related: "user-story, story-splitting, technical-estimation, implement-from-story, technical-design-doc"
+  prompt: "Break this story into technical tasks: As a customer I want to download my invoices as PDF from the order history page."
 ---
 
 # Break a Story Into Tasks

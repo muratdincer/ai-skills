@@ -1,7 +1,16 @@
 ---
+name: incremental-load-design
 description: "Designs an incremental load for a table or stream: change detection method (log-based CDC, timestamp or sequence watermark, snapshot diff), watermark management, idempotent merge, delete propagation, late and out-of-order data handling, reconciliation and full-reload fallback. Use when full reloads become too slow or costly, a source must be replicated with low latency, or someone asks how to load only changed data safely."
-related: "pipeline-spec, source-to-target-mapping, data-vault-model, schema-evolution-plan, pipeline-failure-analysis"
-prompt: "Design an incremental load for a 400-million-row transactions table that currently takes 6 hours to reload fully."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Design incremental loads"
+  related: "pipeline-spec, source-to-target-mapping, data-vault-model, schema-evolution-plan, pipeline-failure-analysis"
+  prompt: "Design an incremental load for a 400-million-row transactions table that currently takes 6 hours to reload fully."
 ---
 
 # Design Incremental Loads

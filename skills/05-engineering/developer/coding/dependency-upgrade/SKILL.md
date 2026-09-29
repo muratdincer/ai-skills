@@ -1,7 +1,16 @@
 ---
+name: dependency-upgrade
 description: "Plans and executes a library, framework or runtime upgrade: reads release notes and migration guides between the current and target versions, lists breaking changes that actually affect the codebase, orders migration steps, handles transitive conflicts and defines verification and rollback. Use when a dependency must be upgraded for security, end of support or a needed feature, when an automated update pull request fails, or when someone asks how to move from version X to Y."
-related: "dependency-vulnerability-review, semantic-versioning, refactoring, changelog-entry, pull-request-description"
-prompt: "Plan the upgrade of our web framework from major version 6 to 8; here is the dependency manifest and the list of features we use."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Upgrade a dependency"
+  related: "dependency-vulnerability-review, semantic-versioning, refactoring, changelog-entry, pull-request-description"
+  prompt: "Plan the upgrade of our web framework from major version 6 to 8; here is the dependency manifest and the list of features we use."
 ---
 
 # Upgrade a Dependency

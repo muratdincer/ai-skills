@@ -1,7 +1,16 @@
 ---
-description: Assesses whether a planned meeting is actually needed by testing its goal against async alternatives, and recommends meet, shorten, go async or cancel with a ready-to-use alternative. Use when someone plans a new or recurring meeting, asks "do we need a meeting for this?", or wants to cut meeting load.
-related: meeting-agenda, meeting-invite, stakeholder-email, status-update, working-agreement
-prompt: I want to set up a weekly 1-hour sync with 9 people to share progress on the data migration. Do we really need it?
+name: meeting-necessity-check
+description: "Assesses whether a planned meeting is actually needed by testing its goal against async alternatives, and recommends meet, shorten, go async or cancel with a ready-to-use alternative. Use when someone plans a new or recurring meeting, asks \"do we need a meeting for this?\", or wants to cut meeting load."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: before
+  title: "Decide if a meeting is needed"
+  related: "meeting-agenda, meeting-invite, stakeholder-email, status-update, working-agreement"
+  prompt: "I want to set up a weekly 1-hour sync with 9 people to share progress on the data migration. Do we really need it?"
 ---
 
 # Decide If a Meeting Is Needed

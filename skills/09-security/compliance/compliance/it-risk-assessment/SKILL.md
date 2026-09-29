@@ -1,7 +1,16 @@
 ---
+name: it-risk-assessment
 description: "Assesses IT and information security risk for a scope of assets or services: identifies assets, threats and vulnerabilities, rates likelihood and impact with existing controls, decides treatment (mitigate, transfer, avoid, accept) and produces a risk register entry per risk. Use when building or refreshing an ISO 27001 risk assessment, evaluating a new vendor, system or change, preparing a risk acceptance, or when management asks how risky something is."
-related: "threat-model, risk-register, control-mapping, vulnerability-triage, privacy-impact-assessment"
-prompt: "Assess IT risk for moving our on-prem ERP to a hosted cloud provider, including vendor and data risks."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Assess IT risk"
+  related: "threat-model, risk-register, control-mapping, vulnerability-triage, privacy-impact-assessment"
+  prompt: "Assess IT risk for moving our on-prem ERP to a hosted cloud provider, including vendor and data risks."
 ---
 
 # Assess IT Risk

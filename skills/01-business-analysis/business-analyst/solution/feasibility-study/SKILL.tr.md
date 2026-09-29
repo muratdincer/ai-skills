@@ -1,7 +1,16 @@
 ---
+name: feasibility-study
 description: "Önerilen bir girişimin veya çözüm seçeneğinin teknik, operasyonel, ekonomik, zaman, yasal/uyum ve organizasyonel açıdan yapılabilir olup olmadığını değerlendirir; her boyutu kanıtla puanlar, koşulları ve engelleyicileri adlandırır, devam, koşullu devam veya durdurma önerir. Bir fikir veya talep yatırım öncesi değerlendirilecekse, çözüm seçenekleri üst düzeyde karşılaştırılacaksa ya da 'bunu gerçekten yapabilir miyiz?' diye sorulduğunda kullanılır."
-related: "cost-benefit-analysis, build-vs-buy, pre-mortem, risk-register, technology-selection"
-prompt: "Şirket içi CRM'imizi 6 ay içinde bir SaaS CRM ile değiştirmenin fizibilitesini değerlendir; 2 geliştiricimiz var ve KVKK gereksinimlerimiz sıkı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Fizibilite değerlendirmesi"
+  related: "cost-benefit-analysis, build-vs-buy, pre-mortem, risk-register, technology-selection"
+  prompt: "Şirket içi CRM'imizi 6 ay içinde bir SaaS CRM ile değiştirmenin fizibilitesini değerlendir; 2 geliştiricimiz var ve KVKK gereksinimlerimiz sıkı."
 ---
 
 # Fizibilite Değerlendirmesi

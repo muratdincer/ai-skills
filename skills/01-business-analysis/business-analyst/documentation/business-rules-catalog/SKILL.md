@@ -1,7 +1,16 @@
 ---
+name: business-rules-catalog
 description: "Extracts business rules from documents, notes, requirements or code descriptions and normalizes them into a catalog with IDs, rule type (constraint, computation, inference, action enabler, fact), atomic declarative statement, source, owner, effective dates, exceptions and the requirements that use them. Use when rules are scattered or buried in processes and screens, conflict between sources, or when asked to 'list the business rules' or build a rulebook."
-related: "document-analysis, decision-table-testing, requirements-consistency-check, frd-writing, glossary-builder"
-prompt: "Extract and normalize the business rules from these credit application procedure notes into a catalog."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Build a business rules catalog"
+  related: "document-analysis, decision-table-testing, requirements-consistency-check, frd-writing, glossary-builder"
+  prompt: "Extract and normalize the business rules from these credit application procedure notes into a catalog."
 ---
 
 # Build a Business Rules Catalog

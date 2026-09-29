@@ -1,7 +1,16 @@
 ---
+name: value-stream-map
 description: "Maps a value stream from customer request to delivered value, separating process time from wait time for every step, classifying steps as value-adding, necessary non-value-adding or waste, and computing lead time, process time, flow efficiency and rework rates. Use when a process or delivery flow feels slow, when lead time must be reduced, or when someone asks where the waste, waiting or bottleneck is."
-related: "as-is-process, to-be-process, cycle-time-analysis, five-whys, process-gap-analysis"
-prompt: "Map the value stream for our customer onboarding: from application to active account it takes about 12 days and we want to know where the time goes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Map a value stream"
+  related: "as-is-process, to-be-process, cycle-time-analysis, five-whys, process-gap-analysis"
+  prompt: "Map the value stream for our customer onboarding: from application to active account it takes about 12 days and we want to know where the time goes."
 ---
 
 # Map a Value Stream

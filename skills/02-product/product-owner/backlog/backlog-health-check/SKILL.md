@@ -1,7 +1,16 @@
 ---
+name: backlog-health-check
 description: "Audits a backlog export or list for health problems (stale, duplicate, oversized, orphan, unowned, unprioritized or goal-less items, too much ready work or too little) and produces findings with metrics, a cleanup proposal and hygiene rules. Use when the backlog has grown unmanageable, nobody trusts it, before a planning cycle, or someone asks to clean up, audit or assess the backlog."
-related: "backlog-refinement, backlog-prioritization, definition-of-ready, roadmap, cycle-time-analysis"
-prompt: "Here is our backlog export with 340 items (title, type, created date, last updated, epic, status). Check its health and tell me what to delete."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Check backlog health"
+  related: "backlog-refinement, backlog-prioritization, definition-of-ready, roadmap, cycle-time-analysis"
+  prompt: "Here is our backlog export with 340 items (title, type, created date, last updated, epic, status). Check its health and tell me what to delete."
 ---
 
 # Check Backlog Health

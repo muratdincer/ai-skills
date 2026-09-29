@@ -1,7 +1,16 @@
 ---
-description: Bir ürün fikri için İş Modeli Kanvası veya Lean Kanvas'ı doldurur; kanıtı varsayımdan ayırır ve önce sınanacak en riskli varsayımları sıralar. Yeni bir fikir, girişim veya ürün hattının iş mantığının ortaya konması gerektiğinde, iş modeli seçenekleri karşılaştırılırken ya da iş modeli veya lean kanvas istendiğinde kullanılır.
-related: market-analysis, pricing-analysis, assumption-mapping, hypothesis-statement, product-vision
-prompt: Serbest çalışan mali müşavirleri küçük e-ticaret satıcılarıyla buluşturan bir pazaryeri için lean kanvas doldur.
+name: business-model-canvas
+description: "Bir ürün fikri için İş Modeli Kanvası veya Lean Kanvas'ı doldurur; kanıtı varsayımdan ayırır ve önce sınanacak en riskli varsayımları sıralar. Yeni bir fikir, girişim veya ürün hattının iş mantığının ortaya konması gerektiğinde, iş modeli seçenekleri karşılaştırılırken ya da iş modeli veya lean kanvas istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "İş modeli / lean kanvas"
+  related: "market-analysis, pricing-analysis, assumption-mapping, hypothesis-statement, product-vision"
+  prompt: "Serbest çalışan mali müşavirleri küçük e-ticaret satıcılarıyla buluşturan bir pazaryeri için lean kanvas doldur."
 ---
 
 # İş Modeli / Lean Kanvas

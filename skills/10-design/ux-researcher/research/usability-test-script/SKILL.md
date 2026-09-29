@@ -1,7 +1,16 @@
 ---
-description: Writes a moderated or unmoderated usability test script with intro and consent, warm-up, realistic task scenarios, neutral probes, observable success criteria, post-task and post-test measures and a debrief. Use when a prototype or live product must be tested with users, when someone asks for "test tasks" or a "moderator guide", or before a usability session is scheduled.
-related: research-plan, screener-survey, research-synthesis, heuristic-evaluation, interview-question-set
-prompt: Write a usability test script for our new checkout prototype; we want to see if first-time buyers can apply a discount code and pay by card.
+name: usability-test-script
+description: "Writes a moderated or unmoderated usability test script with intro and consent, warm-up, realistic task scenarios, neutral probes, observable success criteria, post-task and post-test measures and a debrief. Use when a prototype or live product must be tested with users, when someone asks for \"test tasks\" or a \"moderator guide\", or before a usability session is scheduled."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Write a usability test script"
+  related: "research-plan, screener-survey, research-synthesis, heuristic-evaluation, interview-question-set"
+  prompt: "Write a usability test script for our new checkout prototype; we want to see if first-time buyers can apply a discount code and pay by card."
 ---
 
 # Write a Usability Test Script

@@ -1,7 +1,16 @@
 ---
-description: Belirti ve kanıtlardan sıralı bir hata ayıklama hipotezleri listesi üretir ve her birini en ucuz ayırt edici testle eşleştirir; böylece araştırma dağılmak yerine sonuca yaklaşır. Bir hatanın nedeni bilinmediğinde, birkaç açıklama makul göründüğünde, hata ayıklama oturumu kısır döngüye girdiğinde veya ekip araştırma işini bölüşmek istediğinde kullanılır.
-related: bug-reproduction, stack-trace-analysis, log-analysis, five-whys, fishbone-analysis
-prompt: Son dağıtımdan sonra API isteklerinin yaklaşık %2'si 5 saniyeyi aşıyor, yalnızca bazı pod'larda. Sıralı hipotezler ve her birinin nasıl test edileceğini ver.
+name: debugging-hypotheses
+description: "Belirti ve kanıtlardan sıralı bir hata ayıklama hipotezleri listesi üretir ve her birini en ucuz ayırt edici testle eşleştirir; böylece araştırma dağılmak yerine sonuca yaklaşır. Bir hatanın nedeni bilinmediğinde, birkaç açıklama makul göründüğünde, hata ayıklama oturumu kısır döngüye girdiğinde veya ekip araştırma işini bölüşmek istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Hata ayıklama hipotezleri"
+  related: "bug-reproduction, stack-trace-analysis, log-analysis, five-whys, fishbone-analysis"
+  prompt: "Son dağıtımdan sonra API isteklerinin yaklaşık %2'si 5 saniyeyi aşıyor, yalnızca bazı pod'larda. Sıralı hipotezler ve her birinin nasıl test edileceğini ver."
 ---
 
 # Hata Ayıklama Hipotezleri

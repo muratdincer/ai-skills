@@ -1,7 +1,16 @@
 ---
-description: Olay güdümlü bir akışı uçtan uca tasarlar; olay türleri ve adlandırma, şemalar ve sürümleme, topic'ler ve bölümleme anahtarları, sıralama, teslim semantiği, idempotent tüketiciler, outbox ile yayınlama, yeniden deneme ve dead-letter kuyruklarıyla hata yönetimi ile telafili saga orkestrasyonu veya koreografisini kapsar. Servisler olaylar üzerinden asenkron entegre olacaksa, bir iş süreci birden fazla servise yayılıyorsa ya da mevcut bir olay akışında mükerrer işleme, kayıp mesaj veya sıralama hataları varsa kullanılır.
-related: event-storming, aggregate-design, integration-pattern-selection, data-contract, schema-evolution-plan
-prompt: Sipariş, ödeme, stok ve sevkiyat servisleri arasında sipariş verme olay akışını, ödeme başarısız olduğunda telafiyle birlikte tasarla.
+name: event-driven-design
+description: "Olay güdümlü bir akışı uçtan uca tasarlar; olay türleri ve adlandırma, şemalar ve sürümleme, topic'ler ve bölümleme anahtarları, sıralama, teslim semantiği, idempotent tüketiciler, outbox ile yayınlama, yeniden deneme ve dead-letter kuyruklarıyla hata yönetimi ile telafili saga orkestrasyonu veya koreografisini kapsar. Servisler olaylar üzerinden asenkron entegre olacaksa, bir iş süreci birden fazla servise yayılıyorsa ya da mevcut bir olay akışında mükerrer işleme, kayıp mesaj veya sıralama hataları varsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Olay güdümlü akış tasarımı"
+  related: "event-storming, aggregate-design, integration-pattern-selection, data-contract, schema-evolution-plan"
+  prompt: "Sipariş, ödeme, stok ve sevkiyat servisleri arasında sipariş verme olay akışını, ödeme başarısız olduğunda telafiyle birlikte tasarla."
 ---
 
 # Olay Güdümlü Akış Tasarımı

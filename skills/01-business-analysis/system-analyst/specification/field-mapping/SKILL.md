@@ -1,7 +1,16 @@
 ---
+name: field-mapping
 description: "Produces a source-to-target field mapping between two systems or messages: each target field with its source, transformation, default, validation, code-value translation, null and error handling, plus unmapped fields on both sides and open decisions. Use when building an integration, API adapter, data exchange file or system replacement, when two systems must exchange records, or when someone asks 'which field goes where and how is it converted?'."
-related: "integration-requirements, api-contract, source-to-target-mapping, data-quality-rules, error-scenario-catalog"
-prompt: "Map the customer fields from our CRM export to the new billing system's customer API, including code conversions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Map fields between systems"
+  related: "integration-requirements, api-contract, source-to-target-mapping, data-quality-rules, error-scenario-catalog"
+  prompt: "Map the customer fields from our CRM export to the new billing system's customer API, including code conversions."
 ---
 
 # Map Fields Between Systems

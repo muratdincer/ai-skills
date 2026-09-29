@@ -1,7 +1,16 @@
 ---
+name: faq-builder
 description: "Belirli bir hedef kitlenin bir ürün, değişiklik, politika veya proje hakkında soracağı olası soruları üretir ve bunları yalnızca verilen kaynak materyale dayanarak cevaplar, boşlukları işaretler. Bir lansman, geçiş, politika değişikliği, iç araç veya müşteri yardım sayfası için SSS hazırlanırken ya da destek veya sohbet kanallarına aynı sorular tekrar tekrar geldiğinde kullanılır."
-related: "kb-article, announcement, org-change-communication, user-guide, ticket-response"
-prompt: "Bu yaygınlaştırma planına göre, eski VPN'den yeni zero-trust erişim istemcisine geçiş hakkında çalışanlar için bir SSS hazırla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "SSS oluşturma"
+  related: "kb-article, announcement, org-change-communication, user-guide, ticket-response"
+  prompt: "Bu yaygınlaştırma planına göre, eski VPN'den yeni zero-trust erişim istemcisine geçiş hakkında çalışanlar için bir SSS hazırla."
 ---
 
 # SSS Oluşturma

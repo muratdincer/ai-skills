@@ -1,7 +1,16 @@
 ---
+name: exploratory-test-charter
 description: "Görev, hedef alanlar, kaynaklar, yoklanacak riskler, test sezgisel yöntemleri ve kâhinler (oracle), süre sınırı ve not, hata ve sorular için bir değerlendirme şablonu içeren oturum bazlı keşif testi görev tanımları yazar. Yeni veya değişen bir özellik için keşif testi gerektiğinde, senaryolu testler henüz yokken veya yetmediğinde ya da keşif testi fikirleri istendiğinde kullanılır."
-related: test-scenarios-from-requirements, risk-based-testing, bug-report, heuristic-evaluation, test-summary-report
-prompt: "CSV'den toplu ürün fiyatı içe aktarma özelliği için keşif testi görev tanımları yaz. Bir öğleden sonra için 2 test uzmanımız var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Keşif testi görev tanımı"
+  related: "test-scenarios-from-requirements, risk-based-testing, bug-report, heuristic-evaluation, test-summary-report"
+  prompt: "CSV'den toplu ürün fiyatı içe aktarma özelliği için keşif testi görev tanımları yaz. Bir öğleden sonra için 2 test uzmanımız var."
 ---
 
 # Keşif Testi Görev Tanımı

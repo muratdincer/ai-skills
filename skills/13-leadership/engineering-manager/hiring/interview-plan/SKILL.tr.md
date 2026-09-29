@@ -1,7 +1,16 @@
 ---
-description: Bir rol için yapılandırılmış bir mülakat süreci tasarlar; her yetkinliği onu ölçen aşamalara eşler, aşama formatlarını, sürelerini, mülakatçı profillerini, puanlama ölçütlerini, aday iletişimini ve önyargıyı azaltan karar kurallarını belirler. Bir rol açılırken, mevcut süreç yavaş, tutarsız veya teklif kabul oranı düşük olduğunda ya da mülakatçılar aynı şeyleri ölçüp bazı alanları atladığında kullanılır.
-related: job-description, technical-interview-questions, interview-scorecard, candidate-debrief, career-ladder
-prompt: Orta seviye frontend mühendisi için bir mülakat süreci tasarla. Adaydan en fazla dört saat alabiliriz.
+name: interview-plan
+description: "Bir rol için yapılandırılmış bir mülakat süreci tasarlar; her yetkinliği onu ölçen aşamalara eşler, aşama formatlarını, sürelerini, mülakatçı profillerini, puanlama ölçütlerini, aday iletişimini ve önyargıyı azaltan karar kurallarını belirler. Bir rol açılırken, mevcut süreç yavaş, tutarsız veya teklif kabul oranı düşük olduğunda ya da mülakatçılar aynı şeyleri ölçüp bazı alanları atladığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Mülakat süreci tasarlama"
+  related: "job-description, technical-interview-questions, interview-scorecard, candidate-debrief, career-ladder"
+  prompt: "Orta seviye frontend mühendisi için bir mülakat süreci tasarla. Adaydan en fazla dört saat alabiliriz."
 ---
 
 # Mülakat Süreci Tasarlama

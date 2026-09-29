@@ -1,7 +1,16 @@
 ---
-description: TAM/SAM/SOM büyüklük hesabı (yukarıdan aşağı ve aşağıdan yukarı, her rakam kaynaklı ya da varsayım olarak işaretli), segmentler, trendler, itici güçler ve engellerle yapılandırılmış bir pazar analizi hazırlar. Yeni bir pazar, ürün fikri veya genişleme değerlendirilirken, iş gerekçesi pazar büyüklüğüne ihtiyaç duyduğunda ya da pazarın ne kadar büyük olduğu veya hangi segmentin hedefleneceği sorulduğunda kullanılır.
-related: competitor-analysis, business-model-canvas, product-strategy-one-pager, persona, pricing-analysis
-prompt: Türkiye'deki bağımsız fizyoterapi klinikleri için randevu planlama SaaS ürününün pazar analizini yap.
+name: market-analysis
+description: "TAM/SAM/SOM büyüklük hesabı (yukarıdan aşağı ve aşağıdan yukarı, her rakam kaynaklı ya da varsayım olarak işaretli), segmentler, trendler, itici güçler ve engellerle yapılandırılmış bir pazar analizi hazırlar. Yeni bir pazar, ürün fikri veya genişleme değerlendirilirken, iş gerekçesi pazar büyüklüğüne ihtiyaç duyduğunda ya da pazarın ne kadar büyük olduğu veya hangi segmentin hedefleneceği sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Pazar analizi"
+  related: "competitor-analysis, business-model-canvas, product-strategy-one-pager, persona, pricing-analysis"
+  prompt: "Türkiye'deki bağımsız fizyoterapi klinikleri için randevu planlama SaaS ürününün pazar analizini yap."
 ---
 
 # Pazar Analizi

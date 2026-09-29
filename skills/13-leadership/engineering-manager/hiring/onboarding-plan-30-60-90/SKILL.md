@@ -1,7 +1,16 @@
 ---
-description: Writes a 30-60-90 day onboarding plan for a new hire with outcomes per phase, concrete first tasks, people to meet, access and learning milestones, and check-in points. Use when someone joins or moves into a new team or role, when a buddy or manager needs a structured ramp-up, or when an existing plan is only a list of documents to read.
-related: technical-onboarding, onboarding-guide, goal-setting, one-on-one-prep, job-description
-prompt: Write a 30-60-90 day plan for a mid-level backend engineer joining our payments team next month.
+name: onboarding-plan-30-60-90
+description: "Writes a 30-60-90 day onboarding plan for a new hire with outcomes per phase, concrete first tasks, people to meet, access and learning milestones, and check-in points. Use when someone joins or moves into a new team or role, when a buddy or manager needs a structured ramp-up, or when an existing plan is only a list of documents to read."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Write a 30-60-90 day onboarding plan"
+  related: "technical-onboarding, onboarding-guide, goal-setting, one-on-one-prep, job-description"
+  prompt: "Write a 30-60-90 day plan for a mid-level backend engineer joining our payments team next month."
 ---
 
 # Write a 30-60-90 Day Onboarding Plan

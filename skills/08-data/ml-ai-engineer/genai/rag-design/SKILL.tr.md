@@ -1,7 +1,16 @@
 ---
-description: Doküman kümesi ve erişim kontrolü, veri alımı, parçalama, embedding, hibrit erişim, yeniden sıralama, kaynak gösteren dayanaklı yanıt üretimi, değerlendirme ve operasyonu kapsayan bir erişimle zenginleştirilmiş üretim (RAG) sistemi tasarlar. Bir LLM'in kurum dokümanlarından veya verisinden yanıt vermesi gerektiğinde, mevcut RAG yanlış ya da kaynaksız yanıtlar verdiğinde veya RAG, fine-tuning ve düz prompt arasında seçim yapılırken kullanılır.
-related: prompt-design, llm-eval-set, ai-use-case-assessment, data-classification, solution-architecture-document
-prompt: 3.000 İK politika PDF'i ve intranet sayfasından çalışan sorularını yanıtlayan, ülkeye özel erişim kurallarına uyan bir RAG asistanı tasarla.
+name: rag-design
+description: "Doküman kümesi ve erişim kontrolü, veri alımı, parçalama, embedding, hibrit erişim, yeniden sıralama, kaynak gösteren dayanaklı yanıt üretimi, değerlendirme ve operasyonu kapsayan bir erişimle zenginleştirilmiş üretim (RAG) sistemi tasarlar. Bir LLM'in kurum dokümanlarından veya verisinden yanıt vermesi gerektiğinde, mevcut RAG yanlış ya da kaynaksız yanıtlar verdiğinde veya RAG, fine-tuning ve düz prompt arasında seçim yapılırken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "RAG sistemi tasarlama"
+  related: "prompt-design, llm-eval-set, ai-use-case-assessment, data-classification, solution-architecture-document"
+  prompt: "3.000 İK politika PDF'i ve intranet sayfasından çalışan sorularını yanıtlayan, ülkeye özel erişim kurallarına uyan bir RAG asistanı tasarla."
 ---
 
 # RAG Sistemi Tasarlama

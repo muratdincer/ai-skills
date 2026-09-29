@@ -1,7 +1,16 @@
 ---
-description: Produces a facilitator script for a meeting or workshop with a minute-by-minute run sheet, opening and closing words, prompts per agenda item, decision rules, and tactics for dominance, silence, derailment and conflict. Use when someone will run a meeting and wants to lead it confidently, especially decision, alignment or cross-team sessions.
-related: meeting-agenda, conflict-resolution, retrospective-facilitation, workshop-plan, decision-matrix
-prompt: I am facilitating a 90-minute session with product, sales and engineering to agree on Q3 priorities. Give me a facilitation guide.
+name: facilitation-guide
+description: "Produces a facilitator script for a meeting or workshop with a minute-by-minute run sheet, opening and closing words, prompts per agenda item, decision rules, and tactics for dominance, silence, derailment and conflict. Use when someone will run a meeting and wants to lead it confidently, especially decision, alignment or cross-team sessions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Facilitate a meeting"
+  related: "meeting-agenda, conflict-resolution, retrospective-facilitation, workshop-plan, decision-matrix"
+  prompt: "I am facilitating a 90-minute session with product, sales and engineering to agree on Q3 priorities. Give me a facilitation guide."
 ---
 
 # Facilitate a Meeting

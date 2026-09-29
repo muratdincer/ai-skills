@@ -1,7 +1,16 @@
 ---
-description: Ölçülebilir kabul kriterlerine (gecikme yüzdelikleri, verim, hata oranı, kaynak sınırları) bağlı hedefler, üretim verisinden veya iş tahminlerinden türetilmiş bir iş yükü modeli, test türleri (yük, stres, dayanıklılık, ani yük, ölçeklenebilirlik), senaryolar, test verisi, ortam ve üretimden farkları, izleme, giriş/çıkış kriterleri ve riskler içeren bir performans test planı yazar. Bir sürüm, taşıma veya beklenen trafik artışı öncesinde, fonksiyonel olmayan gereksinimlerin doğrulanması gerektiğinde ya da sıfırdan bir performans testi tasarlanacağında kullanılır.
-related: load-test-analysis, capacity-test-report, slo-definition, test-data-design, nfr-to-architecture
-prompt: Ödeme trafiğini üç katına çıkarabilecek bir kampanya başlatıyoruz. Checkout API'si ve bağımlılıkları için bir performans test planı yaz.
+name: performance-test-plan
+description: "Ölçülebilir kabul kriterlerine (gecikme yüzdelikleri, verim, hata oranı, kaynak sınırları) bağlı hedefler, üretim verisinden veya iş tahminlerinden türetilmiş bir iş yükü modeli, test türleri (yük, stres, dayanıklılık, ani yük, ölçeklenebilirlik), senaryolar, test verisi, ortam ve üretimden farkları, izleme, giriş/çıkış kriterleri ve riskler içeren bir performans test planı yazar. Bir sürüm, taşıma veya beklenen trafik artışı öncesinde, fonksiyonel olmayan gereksinimlerin doğrulanması gerektiğinde ya da sıfırdan bir performans testi tasarlanacağında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Performans test planı"
+  related: "load-test-analysis, capacity-test-report, slo-definition, test-data-design, nfr-to-architecture"
+  prompt: "Ödeme trafiğini üç katına çıkarabilecek bir kampanya başlatıyoruz. Checkout API'si ve bağımlılıkları için bir performans test planı yaz."
 ---
 
 # Performans Test Planı

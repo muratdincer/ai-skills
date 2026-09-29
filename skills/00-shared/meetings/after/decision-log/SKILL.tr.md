@@ -1,7 +1,16 @@
 ---
-description: Toplantı, yazışma veya dokümanlardaki kararları bağlam, değerlendirilen seçenekler, gerekçe, karar verici, tarih, sonuçlar, geri alınabilirlik ve gözden geçirme tetikleyicisi içeren numaralı karar kaydı girdileri olarak kaydeder; önceki kararlarla çelişkileri işaretler. Bir ekip bir şeye neden karar verildiğinin kalıcı ve aranabilir kaydına ihtiyaç duyduğunda veya kararlar sürekli yeniden açıldığında kullanılır.
-related: adr, meeting-minutes, meeting-notes, trade-off-analysis, raid-log
-prompt: Bugünkü veri platformu toplantısındaki kararları karar kaydımıza ekle; Iceberg yerine Delta Lake'i seçtik, katalog seçimini erteledik.
+name: decision-log
+description: "Toplantı, yazışma veya dokümanlardaki kararları bağlam, değerlendirilen seçenekler, gerekçe, karar verici, tarih, sonuçlar, geri alınabilirlik ve gözden geçirme tetikleyicisi içeren numaralı karar kaydı girdileri olarak kaydeder; önceki kararlarla çelişkileri işaretler. Bir ekip bir şeye neden karar verildiğinin kalıcı ve aranabilir kaydına ihtiyaç duyduğunda veya kararlar sürekli yeniden açıldığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Karar kaydı tutma"
+  related: "adr, meeting-minutes, meeting-notes, trade-off-analysis, raid-log"
+  prompt: "Bugünkü veri platformu toplantısındaki kararları karar kaydımıza ekle; Iceberg yerine Delta Lake'i seçtik, katalog seçimini erteledik."
 ---
 
 # Karar Kaydı Tutma

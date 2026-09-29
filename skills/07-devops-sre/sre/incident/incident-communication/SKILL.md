@@ -1,7 +1,16 @@
 ---
+name: incident-communication
 description: "Writes incident communications for each phase (investigating, identified, monitoring, resolved) and audience: internal stakeholder updates, executive summaries and public status-page posts, with confirmed impact, customer actions, next update time and no speculation on cause. Use during or right after an incident when an update, status-page entry, customer notice or leadership briefing must be written or reviewed."
-related: "incident-response, customer-outage-notice, postmortem, bad-news-delivery, status-update"
-prompt: "Write the first status-page update and an internal Slack update: payments failing for about 20% of EU customers since 09:40, cause unknown, team investigating."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Write incident communications"
+  related: "incident-response, customer-outage-notice, postmortem, bad-news-delivery, status-update"
+  prompt: "Write the first status-page update and an internal Slack update: payments failing for about 20% of EU customers since 09:40, cause unknown, team investigating."
 ---
 
 # Write Incident Communications

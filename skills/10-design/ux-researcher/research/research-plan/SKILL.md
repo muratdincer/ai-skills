@@ -1,7 +1,16 @@
 ---
-description: Writes a user research plan with the decision it informs, research objectives and questions, method choice and rationale, participant criteria and sample, logistics, ethics and consent, timeline and deliverables. Use when a team wants to "talk to users", validate a concept, understand a behavior or evaluate a design, and before recruiting participants or booking sessions.
-related: screener-survey, usability-test-script, interview-question-set, research-synthesis, hypothesis-statement
-prompt: Write a research plan to understand why small business owners abandon our invoicing app during the first week.
+name: research-plan
+description: "Writes a user research plan with the decision it informs, research objectives and questions, method choice and rationale, participant criteria and sample, logistics, ethics and consent, timeline and deliverables. Use when a team wants to \"talk to users\", validate a concept, understand a behavior or evaluate a design, and before recruiting participants or booking sessions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Write a research plan"
+  related: "screener-survey, usability-test-script, interview-question-set, research-synthesis, hypothesis-statement"
+  prompt: "Write a research plan to understand why small business owners abandon our invoicing app during the first week."
 ---
 
 # Write a Research Plan

@@ -1,7 +1,16 @@
 ---
-description: Müşteri odaklı bir teklif dokümanı yazar; yönetici özeti, müşterinin durumu ve hedeflerine dair anlayış, önerilen çözüm, teslimat yaklaşımı, plan ve kilometre taşları, ekip, varsayımlar ve ticari özeti müşterinin kendi önceliklerine bağlanmış kazanma temaları ve kanıtlarla içerir. Bir müşteri talebine veya RFP'ye anlatı biçiminde teklifle yanıt verilirken, bir çözüm satın alma kararı için sunulacakken ya da taslak teklif genel bir yetkinlik broşürü gibi okunuyorsa kullanılır.
-related: rfp-analysis, rfp-response, effort-estimate-for-bid, statement-of-work, executive-summary
-prompt: Bir lojistik firmasının eski sevkiyat sistemini modernize etmek için teklif dokümanı yaz; keşif notları ve efor tahminimiz ekte.
+name: proposal-writing
+description: "Müşteri odaklı bir teklif dokümanı yazar; yönetici özeti, müşterinin durumu ve hedeflerine dair anlayış, önerilen çözüm, teslimat yaklaşımı, plan ve kilometre taşları, ekip, varsayımlar ve ticari özeti müşterinin kendi önceliklerine bağlanmış kazanma temaları ve kanıtlarla içerir. Bir müşteri talebine veya RFP'ye anlatı biçiminde teklifle yanıt verilirken, bir çözüm satın alma kararı için sunulacakken ya da taslak teklif genel bir yetkinlik broşürü gibi okunuyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Teklif dokümanı yazma"
+  related: "rfp-analysis, rfp-response, effort-estimate-for-bid, statement-of-work, executive-summary"
+  prompt: "Bir lojistik firmasının eski sevkiyat sistemini modernize etmek için teklif dokümanı yaz; keşif notları ve efor tahminimiz ekte."
 ---
 
 # Teklif Dokümanı Yazma

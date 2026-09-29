@@ -1,7 +1,16 @@
 ---
+name: traceability-matrix
 description: "Builds a requirements traceability matrix linking business goals and sources to requirements, design elements, test cases and releases in both directions, and reports orphans, uncovered requirements and coverage percentages. Use when an audit, regulator or customer needs proof of coverage, before a release or UAT, or when assessing which items a change affects."
-related: "requirements-gap-analysis, impact-analysis, test-scenarios-from-requirements, requirements-sign-off, release-quality-gate"
-prompt: "Build a traceability matrix from these 30 requirements and 55 test cases and show me what is not covered."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Build a traceability matrix"
+  related: "requirements-gap-analysis, impact-analysis, test-scenarios-from-requirements, requirements-sign-off, release-quality-gate"
+  prompt: "Build a traceability matrix from these 30 requirements and 55 test cases and show me what is not covered."
 ---
 
 # Build a Traceability Matrix

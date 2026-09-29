@@ -1,7 +1,16 @@
 ---
-description: Designs a user flow for one user goal, covering entry points, screens and steps, decision points, system actions, error and recovery paths, empty and edge states and exit points, as a step table plus a diagram-as-code flowchart. Use when a feature or journey must be designed screen by screen, when someone asks "what are the steps" or "map the happy and unhappy paths", or before wireframing.
-related: customer-journey-map, wireframe-spec, information-architecture, edge-case-elicitation, diagram-as-code
-prompt: Design the user flow for resetting a forgotten password in our mobile banking app, including errors and lockout.
+name: user-flow
+description: "Designs a user flow for one user goal, covering entry points, screens and steps, decision points, system actions, error and recovery paths, empty and edge states and exit points, as a step table plus a diagram-as-code flowchart. Use when a feature or journey must be designed screen by screen, when someone asks \"what are the steps\" or \"map the happy and unhappy paths\", or before wireframing."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Design a user flow"
+  related: "customer-journey-map, wireframe-spec, information-architecture, edge-case-elicitation, diagram-as-code"
+  prompt: "Design the user flow for resetting a forgotten password in our mobile banking app, including errors and lockout."
 ---
 
 # Design a User Flow

@@ -1,7 +1,16 @@
 ---
+name: release-quality-gate
 description: "Sürüm hazırlığını üzerinde anlaşılmış çıkış kriterlerine (testler, hatalar, kapsam, fonksiyonel olmayan sonuçlar, operasyonel hazırlık, onaylar) göre değerlendirir; her kriteri kanıtıyla sağlandı, sağlanmadı veya muaf tutuldu olarak derecelendirir ve koşullar ile kabul edilen risklerle birlikte yayına al, koşullu yayına al veya yayına alma önerisi üretir. Bir üretim sürümü veya büyük bir dağıtım öncesinde, bir go/no-go toplantısında ya da bir build'in yayına hazır olup olmadığı sorulduğunda kullanılır."
-related: test-summary-report, bug-triage, go-no-go, deployment-checklist, rollback-plan
-prompt: "5.2 sürümünü çıkış kriterlerimize göre değerlendir: açık kritik/majör hata yok, %95 geçme oranı, regresyon tamam, performans p95 800 ms altında, güvenlik taraması temiz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Sürüm kalite kapısı değerlendirmesi"
+  related: "test-summary-report, bug-triage, go-no-go, deployment-checklist, rollback-plan"
+  prompt: "5.2 sürümünü çıkış kriterlerimize göre değerlendir: açık kritik/majör hata yok, %95 geçme oranı, regresyon tamam, performans p95 800 ms altında, güvenlik taraması temiz."
 ---
 
 # Sürüm Kalite Kapısı Değerlendirmesi

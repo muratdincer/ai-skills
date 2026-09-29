@@ -1,7 +1,16 @@
 ---
+name: daily-sync-summary
 description: "Turns notes or a transcript of a daily team sync (stand-up) into a short summary of progress toward the iteration goal, today's plan, blockers with owners and follow-up conversations, per person and for the team. Use when someone shares stand-up notes, a chat thread of async updates or a meeting transcript and asks for a summary, blocker list or update for absent members."
-related: "impediment-tracking, meeting-summary, action-item-extraction, burndown-analysis, iteration-goal"
-prompt: "Summarize today's stand-up from these notes and list the blockers: Emre finished the payment API mock, stuck on test env certificate; Selin reviewing Emre's PR, then starts refund flow..."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Summarize a daily sync"
+  related: "impediment-tracking, meeting-summary, action-item-extraction, burndown-analysis, iteration-goal"
+  prompt: "Summarize today's stand-up from these notes and list the blockers: Emre finished the payment API mock, stuck on test env certificate; Selin reviewing Emre's PR, then starts refund flow..."
 ---
 
 # Summarize a Daily Sync

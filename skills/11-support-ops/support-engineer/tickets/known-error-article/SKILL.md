@@ -1,7 +1,16 @@
 ---
+name: known-error-article
 description: "Writes a known error article for the support knowledge base: searchable symptom, scope and affected versions, confirmed or suspected cause, step-by-step workaround with risks, permanent fix status and linked records. Use when a problem has a documented root cause or workaround, when the same ticket keeps recurring, or when support agents need a consistent answer to give while a fix is pending."
-related: "problem-management, ticket-response, ticket-triage, how-to-guide, faq-builder"
-prompt: "Write a known error article: PDF export fails with 'Error 500' for reports over 10,000 rows since version 7.3; workaround is exporting to CSV; fix planned for 7.4."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Write a known error article"
+  related: "problem-management, ticket-response, ticket-triage, how-to-guide, faq-builder"
+  prompt: "Write a known error article: PDF export fails with 'Error 500' for reports over 10,000 rows since version 7.3; workaround is exporting to CSV; fix planned for 7.4."
 ---
 
 # Write a Known Error Article

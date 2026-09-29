@@ -1,7 +1,16 @@
 ---
+name: testability-review
 description: "Reviews requirements, user stories or acceptance criteria for testability and flags items that are ambiguous, unmeasurable, incomplete, untestable or missing error behavior, with a concrete rewrite suggestion for each. Use before test design or estimation, in refinement sessions, or when someone asks whether requirements are clear enough to test."
-related: ambiguity-detection, acceptance-criteria, requirements-review-checklist, test-scenarios-from-requirements, nfr-specification
-prompt: "Check these 8 user stories for testability before we start writing test cases."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Review requirements for testability"
+  related: "ambiguity-detection, acceptance-criteria, requirements-review-checklist, test-scenarios-from-requirements, nfr-specification"
+  prompt: "Check these 8 user stories for testability before we start writing test cases."
 ---
 
 # Review Requirements for Testability

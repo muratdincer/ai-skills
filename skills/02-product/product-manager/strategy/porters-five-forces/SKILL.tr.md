@@ -1,7 +1,16 @@
 ---
-description: Bir sektörü veya pazar segmentini Porter'ın beş gücüyle (rekabet, yeni girenlerin tehdidi, ikame ürünlerin tehdidi, alıcı gücü, tedarikçi gücü) analiz eder; her gücü etkenleri ve kanıtlarıyla puanlar ve yapının kârlılık, konumlandırma ve ürün stratejisi için ne anlama geldiğini çıkarır. Bir pazarın veya segmentin çekiciliği değerlendirilirken, strateji veya giriş kararı hazırlanırken, marj baskısı açıklanırken ya da beş güç veya sektör yapısı analizi istendiğinde kullanılır.
-related: pestle-analysis, competitor-analysis, market-analysis, swot-analysis, pricing-analysis
-prompt: Türkiye'de orta ölçekli şirketlere yönelik saha servis yönetimi yazılımı segmenti için beş güç analizi yap; bu segmente girip girmemeye karar veriyoruz.
+name: porters-five-forces
+description: "Bir sektörü veya pazar segmentini Porter'ın beş gücüyle (rekabet, yeni girenlerin tehdidi, ikame ürünlerin tehdidi, alıcı gücü, tedarikçi gücü) analiz eder; her gücü etkenleri ve kanıtlarıyla puanlar ve yapının kârlılık, konumlandırma ve ürün stratejisi için ne anlama geldiğini çıkarır. Bir pazarın veya segmentin çekiciliği değerlendirilirken, strateji veya giriş kararı hazırlanırken, marj baskısı açıklanırken ya da beş güç veya sektör yapısı analizi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Porter'ın beş gücü analizi"
+  related: "pestle-analysis, competitor-analysis, market-analysis, swot-analysis, pricing-analysis"
+  prompt: "Türkiye'de orta ölçekli şirketlere yönelik saha servis yönetimi yazılımı segmenti için beş güç analizi yap; bu segmente girip girmemeye karar veriyoruz."
 ---
 
 # Porter'ın Beş Gücü Analizi

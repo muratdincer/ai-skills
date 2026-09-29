@@ -1,7 +1,16 @@
 ---
-description: Yeniden kullanılabilir bir tasarım sistemi bileşenini amacı, anatomisi, varyantları, boyutları, durumları, tasarım token'ları, davranışı, içerik kuralları, erişilebilirlik gereksinimleri, yap/yapma kullanım kuralları ve geliştirme için API/prop'larıyla tanımlar. Tasarım sistemine yeni bir bileşen önerildiğinde, mevcut bir bileşenin dokümante edilmesi veya kırıcı bir değişiklik geçirmesi gerektiğinde ya da ekipler aynı kalıbın farklı sürümlerini geliştirdiğinde kullanılır.
-related: design-handoff, wireframe-spec, component-design, accessibility-audit, microcopy
-prompt: Web ve mobil ekiplerin aynı şekilde geliştirebileceği bir Toast bildirim bileşeni için tasarım sistemi spesifikasyonu yaz.
+name: design-system-component-spec
+description: "Yeniden kullanılabilir bir tasarım sistemi bileşenini amacı, anatomisi, varyantları, boyutları, durumları, tasarım token'ları, davranışı, içerik kuralları, erişilebilirlik gereksinimleri, yap/yapma kullanım kuralları ve geliştirme için API/prop'larıyla tanımlar. Tasarım sistemine yeni bir bileşen önerildiğinde, mevcut bir bileşenin dokümante edilmesi veya kırıcı bir değişiklik geçirmesi gerektiğinde ya da ekipler aynı kalıbın farklı sürümlerini geliştirdiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Tasarım sistemi bileşeni tanımlama"
+  related: "design-handoff, wireframe-spec, component-design, accessibility-audit, microcopy"
+  prompt: "Web ve mobil ekiplerin aynı şekilde geliştirebileceği bir Toast bildirim bileşeni için tasarım sistemi spesifikasyonu yaz."
 ---
 
 # Tasarım Sistemi Bileşeni Tanımlama

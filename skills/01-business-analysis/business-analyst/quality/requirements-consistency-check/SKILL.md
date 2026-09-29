@@ -1,7 +1,16 @@
 ---
+name: requirements-consistency-check
 description: "Compares requirements against each other and against business rules, glossary, data and NFRs to find contradictions, duplicates, overlaps, inconsistent terminology and conflicting values, and proposes a resolution path for each. Use when several documents, authors or versions describe the same scope, after merging stories from multiple teams, or before baselining requirements."
-related: "ambiguity-detection, requirements-gap-analysis, business-rules-catalog, glossary-builder, traceability-matrix"
-prompt: "We have a BRD, an FRD and 45 user stories for the same billing scope. Find contradictions and duplicates."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Check requirements consistency"
+  related: "ambiguity-detection, requirements-gap-analysis, business-rules-catalog, glossary-builder, traceability-matrix"
+  prompt: "We have a BRD, an FRD and 45 user stories for the same billing scope. Find contradictions and duplicates."
 ---
 
 # Check Requirements Consistency

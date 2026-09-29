@@ -1,7 +1,16 @@
 ---
-description: Writes an inspiring, testable product vision statement and a vision board covering target group, needs, product, and business goals. Use when a new product or major pivot needs a shared north, when teams disagree on what the product is for, or when someone asks for a vision statement, vision board or "why does this product exist".
-related: product-strategy-one-pager, positioning-statement, north-star-metric, persona, okr-definition
-prompt: Write a product vision and vision board for our self-service invoice portal for small business customers.
+name: product-vision
+description: "Writes an inspiring, testable product vision statement and a vision board covering target group, needs, product, and business goals. Use when a new product or major pivot needs a shared north, when teams disagree on what the product is for, or when someone asks for a vision statement, vision board or \"why does this product exist\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Write a product vision"
+  related: "product-strategy-one-pager, positioning-statement, north-star-metric, persona, okr-definition"
+  prompt: "Write a product vision and vision board for our self-service invoice portal for small business customers."
 ---
 
 # Write a Product Vision

@@ -1,7 +1,16 @@
 ---
-description: Bir sistemin nasıl ölçeklendiğini, yük artışını her bileşene göre modelleyerek inceler; darboğazları (CPU, I/O, kilitler, bağlantılar, sıcak bölümler, paylaşılan durum) bulur; durumsuzluk, bölümleme, önbellek, asenkron işleme ve veri katmanı limitlerini değerlendirir; önceliklendirilmiş öneriler ve mevcut tasarımın ölçekleme sınırını verir. Beklenen bir büyüme adımı veya tepe olay öncesinde, gecikme yükle birlikte bozulduğunda ya da dikey ve yatay ölçekleme arasında seçim yapılırken kullanılır.
-related: capacity-planning, performance-test-plan, load-test-analysis, resilience-review, query-optimization
-prompt: Raporlama API'mizin ölçeklenebilirliğini incele; büyük bir müşteriyi aldıktan sonra trafik 5 katına çıkacak ve p95 gecikme ay sonunda şimdiden sert yükseliyor.
+name: scalability-review
+description: "Bir sistemin nasıl ölçeklendiğini, yük artışını her bileşene göre modelleyerek inceler; darboğazları (CPU, I/O, kilitler, bağlantılar, sıcak bölümler, paylaşılan durum) bulur; durumsuzluk, bölümleme, önbellek, asenkron işleme ve veri katmanı limitlerini değerlendirir; önceliklendirilmiş öneriler ve mevcut tasarımın ölçekleme sınırını verir. Beklenen bir büyüme adımı veya tepe olay öncesinde, gecikme yükle birlikte bozulduğunda ya da dikey ve yatay ölçekleme arasında seçim yapılırken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Ölçeklenebilirlik incelemesi"
+  related: "capacity-planning, performance-test-plan, load-test-analysis, resilience-review, query-optimization"
+  prompt: "Raporlama API'mizin ölçeklenebilirliğini incele; büyük bir müşteriyi aldıktan sonra trafik 5 katına çıkacak ve p95 gecikme ay sonunda şimdiden sert yükseliyor."
 ---
 
 # Ölçeklenebilirlik İncelemesi

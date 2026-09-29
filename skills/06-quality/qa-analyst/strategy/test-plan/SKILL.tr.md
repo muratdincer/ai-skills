@@ -1,7 +1,16 @@
 ---
+name: test-plan
 description: "Bir sürüm, proje veya özellik seti için test öğelerini, kapsamı, yaklaşımı, ortamları, takvimi, rolleri, giriş/çıkış ve askıya alma kriterlerini, teslimatları ve riskleri ISO/IEC/IEEE 29119-3 ile uyumlu biçimde ele alan bir test planı yazar. Bir sürüm veya proje için üzerinde anlaşılmış test kapsamı ve takvimi gerektiğinde ya da test planı dokümanı istendiğinde kullanılır."
-related: test-strategy, risk-based-testing, release-quality-gate, test-summary-report, uat-plan
-prompt: "Hasar portalının 4.2 sürümü için test planı hazırla: yeni doküman yükleme, revize onay akışı ve iki hata düzeltmesi var. Code freeze üç hafta sonra."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Test planı yazma"
+  related: "test-strategy, risk-based-testing, release-quality-gate, test-summary-report, uat-plan"
+  prompt: "Hasar portalının 4.2 sürümü için test planı hazırla: yeni doküman yükleme, revize onay akışı ve iki hata düzeltmesi var. Code freeze üç hafta sonra."
 ---
 
 # Test Planı Yazma

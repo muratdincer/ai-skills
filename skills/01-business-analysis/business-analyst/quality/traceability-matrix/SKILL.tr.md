@@ -1,7 +1,16 @@
 ---
+name: traceability-matrix
 description: "İş hedeflerini ve kaynakları gereksinimlere, tasarım öğelerine, test senaryolarına ve sürümlere iki yönlü bağlayan bir gereksinim izlenebilirlik matrisi oluşturur; sahipsiz öğeleri, karşılanmamış gereksinimleri ve kapsam yüzdelerini raporlar. Denetim, düzenleyici kurum veya müşteri kapsam kanıtı istediğinde, sürüm veya UAT öncesinde ya da bir değişikliğin etkilediği öğeler araştırılırken kullanılır."
-related: "requirements-gap-analysis, impact-analysis, test-scenarios-from-requirements, requirements-sign-off, release-quality-gate"
-prompt: "Bu 30 gereksinim ve 55 test senaryosundan izlenebilirlik matrisi oluştur, nelerin karşılanmadığını göster."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "İzlenebilirlik matrisi"
+  related: "requirements-gap-analysis, impact-analysis, test-scenarios-from-requirements, requirements-sign-off, release-quality-gate"
+  prompt: "Bu 30 gereksinim ve 55 test senaryosundan izlenebilirlik matrisi oluştur, nelerin karşılanmadığını göster."
 ---
 
 # İzlenebilirlik Matrisi

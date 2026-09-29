@@ -1,7 +1,16 @@
 ---
-description: Analyzes a stack trace or crash report to identify the failing frame, the exception chain and root cause candidates, and proposes fixes and the next diagnostic step. Use when a developer pastes an exception, stack trace, crash log, panic or unhandled error from any language or runtime and asks what went wrong or where to look.
-related: debugging-hypotheses, log-analysis, bug-reproduction, error-handling-review, code-explanation
-prompt: What is causing this stack trace? NullPointerException in OrderMapper.toDto called from OrderController.getOrder.
+name: stack-trace-analysis
+description: "Analyzes a stack trace or crash report to identify the failing frame, the exception chain and root cause candidates, and proposes fixes and the next diagnostic step. Use when a developer pastes an exception, stack trace, crash log, panic or unhandled error from any language or runtime and asks what went wrong or where to look."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Analyze a stack trace"
+  related: "debugging-hypotheses, log-analysis, bug-reproduction, error-handling-review, code-explanation"
+  prompt: "What is causing this stack trace? NullPointerException in OrderMapper.toDto called from OrderController.getOrder."
 ---
 
 # Analyze a Stack Trace

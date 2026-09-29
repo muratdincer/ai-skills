@@ -1,7 +1,16 @@
 ---
+name: document-analysis
 description: "Elicits requirements from existing documents such as specifications, user manuals, procedures, contracts, regulations, forms and reports, producing a source-traced list of candidate requirements, business rules, data items and conflicts. Use when legacy documentation, a regulation or a contract must be mined before interviews, or when asked 'what requirements can we get out of these documents?'."
-related: "business-rules-catalog, interview-question-set, requirements-consistency-check, traceability-matrix, glossary-builder"
-prompt: "Extract the requirements from this 20-page operations manual of our current claims system and the new regulation text, and show where they conflict."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Elicit from existing documents"
+  related: "business-rules-catalog, interview-question-set, requirements-consistency-check, traceability-matrix, glossary-builder"
+  prompt: "Extract the requirements from this 20-page operations manual of our current claims system and the new regulation text, and show where they conflict."
 ---
 
 # Elicit From Existing Documents

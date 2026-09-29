@@ -1,7 +1,16 @@
 ---
+name: working-agreement
 description: "Facilitates and writes a team working agreement: collects norms for communication channels and response times, availability and core hours, code review and pairing, meetings, decision making, on-call and conflict handling, turns them into specific observable commitments, and sets how the agreement is reviewed and enforced. Use when a team forms or changes, recurring friction appears (slow reviews, meeting overload, after-hours pings), or someone asks for a team charter or ground rules."
-related: "wip-policy, team-health-check, retrospective-facilitation, definition-of-done, conflict-resolution"
-prompt: "Our team is now split between Istanbul and Berlin, reviews wait for days and people get pinged at night. Help us draft a working agreement."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Create a team working agreement"
+  related: "wip-policy, team-health-check, retrospective-facilitation, definition-of-done, conflict-resolution"
+  prompt: "Our team is now split between Istanbul and Berlin, reviews wait for days and people get pinged at night. Help us draft a working agreement."
 ---
 
 # Create a Team Working Agreement

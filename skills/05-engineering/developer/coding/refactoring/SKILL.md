@@ -1,7 +1,16 @@
 ---
+name: refactoring
 description: "Refactors code safely by identifying the smells that matter for the next change, securing behavior with characterization tests, and applying named refactorings (Extract Function, Replace Conditional with Polymorphism, Introduce Parameter Object, etc.) in small behavior-preserving steps. Use when code is hard to change, before adding a feature to messy code, or when someone asks to clean up, restructure or refactor code without changing behavior."
-related: "clean-code-review, legacy-code-comprehension, unit-test-writing, tech-debt-assessment, code-review"
-prompt: "Refactor this 200-line calculatePrice method; I need to add a new discount type next sprint and every change here breaks something."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Refactor code"
+  related: "clean-code-review, legacy-code-comprehension, unit-test-writing, tech-debt-assessment, code-review"
+  prompt: "Refactor this 200-line calculatePrice method; I need to add a new discount type next sprint and every change here breaks something."
 ---
 
 # Refactor Code

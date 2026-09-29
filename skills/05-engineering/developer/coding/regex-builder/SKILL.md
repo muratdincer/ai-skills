@@ -1,7 +1,16 @@
 ---
+name: regex-builder
 description: "Writes a regular expression for a stated matching need in the target engine's dialect, with a plain-language breakdown, a table of should-match and should-not-match test cases, anchoring and escaping decisions, and a check for catastrophic backtracking. Also explains or fixes an existing regex. Use when someone needs a pattern to validate, extract, search or replace text, pastes a regex and asks what it does, or reports a regex that matches too much, too little or runs slowly."
-related: "code-explanation, unit-test-writing, data-quality-rules, secure-code-review, business-rules-catalog"
-prompt: "Write a regex that extracts invoice numbers like INV-2024-000123 from email subjects; we use it in JavaScript."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Build and explain a regex"
+  related: "code-explanation, unit-test-writing, data-quality-rules, secure-code-review, business-rules-catalog"
+  prompt: "Write a regex that extracts invoice numbers like INV-2024-000123 from email subjects; we use it in JavaScript."
 ---
 
 # Build and Explain a Regex

@@ -1,7 +1,16 @@
 ---
+name: environment-strategy
 description: "Bir sistemin ortam yapısını tanımlar: hangi ortamların neden var olduğu, üretimle eşdeğerlik, test verisi politikası, erişim ve değişiklik yetkileri, yaşam döngüsü (kalıcı veya geçici) ve sahiplik. Ortamlar amaçsızca çoğaldığında, testler staging'de geçip üretimde kırıldığında ya da yeni bir platform için ortam modeli üzerinde uzlaşılması gerektiğinde kullanılır."
-related: "pipeline-design, test-data-design, secrets-management-plan, finops-review, deployment-strategy"
-prompt: "dev, test, uat, preprod ve prod ortamlarımız var ve hangisinin ne için kullanıldığını kimse bilmiyor. Bizim için bir ortam stratejisi tanımla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Ortam stratejisi"
+  related: "pipeline-design, test-data-design, secrets-management-plan, finops-review, deployment-strategy"
+  prompt: "dev, test, uat, preprod ve prod ortamlarımız var ve hangisinin ne için kullanıldığını kimse bilmiyor. Bizim için bir ortam stratejisi tanımla."
 ---
 
 # Ortam Stratejisi

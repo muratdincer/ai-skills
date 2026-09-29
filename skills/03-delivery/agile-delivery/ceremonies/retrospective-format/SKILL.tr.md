@@ -1,7 +1,16 @@
 ---
+name: retrospective-format
 description: "Ekibin o anki ruh haline, konuya, büyüklüğüne ve ortamına uygun bir retrospektif formatı tasarlar: her retro aşaması için etkinlik seçer veya uyarlar, yönergeleri, süreleri ve malzemeleri yazar, formatın neden uygun olduğunu açıklar. Retrolar tekdüzeleştiğinde, belirli bir tema (olay, çatışma, kilometre taşı, yeni ekip) için özel bir retro gerektiğinde veya yeni bir retro fikri ya da şablonu istendiğinde kullanılır."
-related: "retrospective-facilitation, team-health-check, workshop-plan, facilitation-guide, conflict-resolution"
-prompt: "Retrolarımız sıkıcı hale geldi ve hep aynı üç kişi konuşuyor. Zor bir sürümden sonra yorgun, 9 kişilik ekip için 45 dakikalık uzaktan bir retro formatı tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Retrospektif formatı tasarlama"
+  related: "retrospective-facilitation, team-health-check, workshop-plan, facilitation-guide, conflict-resolution"
+  prompt: "Retrolarımız sıkıcı hale geldi ve hep aynı üç kişi konuşuyor. Zor bir sürümden sonra yorgun, 9 kişilik ekip için 45 dakikalık uzaktan bir retro formatı tasarla."
 ---
 
 # Retrospektif Formatı Tasarlama

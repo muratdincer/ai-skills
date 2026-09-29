@@ -1,7 +1,16 @@
 ---
+name: data-quality-rules
 description: "Bir veri seti veya veri ürünü için bütünlük, geçerlilik, teklik, tutarlılık, referans bütünlüğü, güncellik ve hacim boyutlarında test edilebilir veri kalitesi kuralları tanımlar; her kural için eşik, önem derecesi, hata durumunda aksiyon ve sorumlu belirler. Bir veri setine kalite kontrolü gerektiğinde, veri sözleşmesinin kalite bölümü yazılırken, tekrarlayan veri sorunları önlenmek istendiğinde veya bir tabloya ya da veri hattına hangi kontrollerin konacağı sorulduğunda kullanılır."
-related: "data-contract, data-catalog-entry, pipeline-spec, business-rules-catalog, pipeline-failure-analysis"
-prompt: "Aylık gelir raporunu besleyen müşteri ve sipariş tabloları için veri kalitesi kurallarını tanımla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Veri kalitesi kuralları"
+  related: "data-contract, data-catalog-entry, pipeline-spec, business-rules-catalog, pipeline-failure-analysis"
+  prompt: "Aylık gelir raporunu besleyen müşteri ve sipariş tabloları için veri kalitesi kurallarını tanımla."
 ---
 
 # Veri Kalitesi Kuralları

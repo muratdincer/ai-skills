@@ -1,7 +1,16 @@
 ---
-description: Rewrites an existing message to a target tone (clearer, softer, firmer, more formal, more concise, more neutral) while preserving its facts, commitments and asks, and explains the key changes. Use when someone has a draft email, chat message, review comment or reply that sounds too harsh, too vague, too long, too informal or too passive, or asks to "make this sound better", "soften", "be more assertive" or "make it professional".
-related: stakeholder-email, feedback-sbi, bad-news-delivery, document-simplify, technical-translation
-prompt: Make this reply to a customer firmer but still polite: "Sorry, we might not be able to do the custom report this month, maybe next month if possible?"
+name: tone-rewrite
+description: "Rewrites an existing message to a target tone (clearer, softer, firmer, more formal, more concise, more neutral) while preserving its facts, commitments and asks, and explains the key changes. Use when someone has a draft email, chat message, review comment or reply that sounds too harsh, too vague, too long, too informal or too passive, or asks to \"make this sound better\", \"soften\", \"be more assertive\" or \"make it professional\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Rewrite for tone"
+  related: "stakeholder-email, feedback-sbi, bad-news-delivery, document-simplify, technical-translation"
+  prompt: "Make this reply to a customer firmer but still polite: \"Sorry, we might not be able to do the custom report this month, maybe next month if possible?"
 ---
 
 # Rewrite for Tone

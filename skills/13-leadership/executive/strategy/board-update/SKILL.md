@@ -1,7 +1,16 @@
 ---
-description: Writes a concise executive or board update on technology: what changed since last time, a few outcome metrics against targets, top risks with trend and mitigation, and explicit asks or decisions needed. Use when a CTO, CIO or technology director reports to the board, executive committee or investors, or when a long technical status must be condensed for non-technical senior readers.
-related: executive-summary, status-update, technology-strategy, budget-proposal, risk-register
-prompt: Write my quarterly technology update for the board; cloud migration is 60% done, we had two major outages, and I need approval for a security investment.
+name: board-update
+description: "Writes a concise executive or board update on technology: what changed since last time, a few outcome metrics against targets, top risks with trend and mitigation, and explicit asks or decisions needed. Use when a CTO, CIO or technology director reports to the board, executive committee or investors, or when a long technical status must be condensed for non-technical senior readers."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Write an executive/board update"
+  related: "executive-summary, status-update, technology-strategy, budget-proposal, risk-register"
+  prompt: "Write my quarterly technology update for the board; cloud migration is 60% done, we had two major outages, and I need approval for a security investment."
 ---
 
 # Write an Executive/Board Update

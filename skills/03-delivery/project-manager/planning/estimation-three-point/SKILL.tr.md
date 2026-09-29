@@ -1,7 +1,16 @@
 ---
-description: Her iş öğesi için üç noktalı tahmin (iyimser, en olası, kötümser) üretir ve bunları PERT veya üçgen dağılım formülleriyle beklenen değer, standart sapma ve toplam için güven aralıklarına dönüştürür. Efor veya süre belirsiz olduğunda ve paydaşlar tek bir sayı yerine belirtilmiş bir güven düzeyiyle aralık istediğinde kullanılır.
-related: wbs, schedule-plan, budget-plan, technical-estimation, monte-carlo-forecast
-prompt: Bu 12 iş paketi için üç noktalı tahmin ver ve toplamı %85 güvenle söyle.
+name: estimation-three-point
+description: "Her iş öğesi için üç noktalı tahmin (iyimser, en olası, kötümser) üretir ve bunları PERT veya üçgen dağılım formülleriyle beklenen değer, standart sapma ve toplam için güven aralıklarına dönüştürür. Efor veya süre belirsiz olduğunda ve paydaşlar tek bir sayı yerine belirtilmiş bir güven düzeyiyle aralık istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Üç noktalı (PERT) tahmin"
+  related: "wbs, schedule-plan, budget-plan, technical-estimation, monte-carlo-forecast"
+  prompt: "Bu 12 iş paketi için üç noktalı tahmin ver ve toplamı %85 güvenle söyle."
 ---
 
 # Üç Noktalı (PERT) Tahmin

@@ -1,7 +1,16 @@
 ---
+name: nfr-specification
 description: "Fonksiyonel olmayan gereksinimleri kalite karakteristikleri (performans, erişilebilirlik/kesintisizlik, güvenilirlik, güvenlik, mahremiyet, kullanılabilirlik, erişilebilirlik, bakım yapılabilirlik, uyumluluk, taşınabilirlik, işletilebilirlik, mevzuat uyumu) boyunca; her biri metrik, hedef, ölçüm koşulu, doğrulama yöntemi ve kaynakla ölçülebilir ifadeler olarak tanımlar. Kalite beklentileri muğlak olduğunda ('hızlı', 'güvenli', '7/24'), BRD veya FRD'de NFR eksik olduğunda ya da 'NFR tanımla' dendiğinde kullanılır."
-related: "frd-writing, nfr-to-architecture, slo-definition, security-requirements, performance-test-plan"
-prompt: "Yeni müşteri self-servis portalımız için NFR'leri tanımla; iş birimi sadece hızlı, güvenli ve her zaman açık olmalı dedi."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Fonksiyonel olmayan gereksinimleri tanımlama"
+  related: "frd-writing, nfr-to-architecture, slo-definition, security-requirements, performance-test-plan"
+  prompt: "Yeni müşteri self-servis portalımız için NFR'leri tanımla; iş birimi sadece hızlı, güvenli ve her zaman açık olmalı dedi."
 ---
 
 # Fonksiyonel Olmayan Gereksinimleri Tanımlama

@@ -1,7 +1,16 @@
 ---
+name: stakeholder-map
 description: "Paydaşları her puan için kanıtıyla birlikte güç/ilgi matrisine yerleştirir, mevcut ve hedeflenen tutumu ekler; her çeyrek ve kilit kişi için iletişim stratejisi, kanal ve sıklık belirler. Paydaşlar belirlendikten sonra, iletişim planı öncesinde veya girişime desteğin belirsiz olduğu durumlarda kullanılır; 'güç ilgi matrisi', 'kimi yakından yönetmeliyiz?' gibi ifadeler tetikleyicidir."
-related: "stakeholder-identification, raci-matrix, communication-plan, stakeholder-register, conflict-resolution"
-prompt: "CRM geçişi için bu 9 paydaşı güç/ilgi matrisine yerleştir ve her biriyle nasıl ilerlememiz gerektiğini söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "Güç/ilgi paydaş haritası"
+  related: "stakeholder-identification, raci-matrix, communication-plan, stakeholder-register, conflict-resolution"
+  prompt: "CRM geçişi için bu 9 paydaşı güç/ilgi matrisine yerleştir ve her biriyle nasıl ilerlememiz gerektiğini söyle."
 ---
 
 # Güç/İlgi Paydaş Haritası

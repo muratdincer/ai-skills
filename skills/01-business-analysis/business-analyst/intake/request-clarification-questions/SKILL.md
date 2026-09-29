@@ -1,7 +1,16 @@
 ---
+name: request-clarification-questions
 description: "Generates the clarification questions to ask a requester about a new request, grouped by topic (business, users, data, integration, NFR, legal, operations, reporting, migration) and prioritized by how much each answer blocks analysis. Use when a request is vague, before a clarification meeting or email, or when someone asks 'what should I ask the business about this?'."
-related: "request-intake-document, request-completeness-check, interview-question-set, open-questions-tracker"
-prompt: "What should I ask the requester about this: 'We need customers to be able to update their address themselves in the mobile app.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Generate request clarification questions"
+  related: "request-intake-document, request-completeness-check, interview-question-set, open-questions-tracker"
+  prompt: "What should I ask the requester about this: 'We need customers to be able to update their address themselves in the mobile app.'"
 ---
 
 # Generate Request Clarification Questions

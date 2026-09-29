@@ -1,7 +1,16 @@
 ---
+name: screen-requirements
 description: "Ekran veya UI gereksinimlerini ekran bazında, görsel tasarımı dayatmadan tanımlar: amaç ve giriş noktaları, roller ve yetkiler; kaynağı, formatı, zorunluluk kuralı, varsayılanı ve mesaj davranışlı doğrulamalarıyla alanlar; aksiyonlar ve sonuçları; ekran durumları (boş, yükleniyor, hata, salt okunur, yetkisiz), gezinme, erişilebilirlik ve duyarlı tasarım ihtiyaçları. Tasarım ve geliştirme için bir ekran, form veya sayfanın tanımlanması gerektiğinde ya da 'bu ekran ne yapmalı' sorulduğunda kullanılır."
-related: "wireframe-spec, error-message-writing, frd-writing, data-requirements, accessibility-audit"
-prompt: "Çağrı merkezi uygulamasındaki 'Müşteri adresini düzenle' formu için ekran gereksinimlerini yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Ekran gereksinimi tanımlama"
+  related: "wireframe-spec, error-message-writing, frd-writing, data-requirements, accessibility-audit"
+  prompt: "Çağrı merkezi uygulamasındaki 'Müşteri adresini düzenle' formu için ekran gereksinimlerini yaz."
 ---
 
 # Ekran Gereksinimi Tanımlama

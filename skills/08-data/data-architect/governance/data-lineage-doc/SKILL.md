@@ -1,7 +1,16 @@
 ---
+name: data-lineage-doc
 description: "Documents data lineage from source systems through ingestion, transformations and storage layers to reports, models and other consumers, at dataset and critical-column level, with transformation logic, owners and verification status. Use when someone asks where a number comes from, for impact analysis before a change, for audit or regulatory traceability, or when onboarding people to an unfamiliar data flow."
-related: "data-catalog-entry, source-to-target-mapping, impact-analysis, data-quality-rules, diagram-as-code"
-prompt: "Document the lineage of the 'net revenue' figure on the finance dashboard back to the source systems."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Document data lineage"
+  related: "data-catalog-entry, source-to-target-mapping, impact-analysis, data-quality-rules, diagram-as-code"
+  prompt: "Document the lineage of the 'net revenue' figure on the finance dashboard back to the source systems."
 ---
 
 # Document Data Lineage

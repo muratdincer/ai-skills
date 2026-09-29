@@ -1,7 +1,16 @@
 ---
+name: requirements-sign-off
 description: "Prepares a requirements sign-off package: the baseline being approved (documents, versions, requirement IDs), what changed since the last review, open issues and accepted risks, conditions, the approvers needed and how later changes will be controlled. Use when requirements are reviewed and ready to be baselined, when a sponsor asks 'what exactly am I signing?', or before design, build or a contract milestone starts."
-related: "requirements-review-checklist, traceability-matrix, change-control, change-request-analysis, decision-log"
-prompt: "Prepare the sign-off package for the claims portal FRD v1.3 so the business owner and IT lead can approve it this week."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Prepare requirements sign-off"
+  related: "requirements-review-checklist, traceability-matrix, change-control, change-request-analysis, decision-log"
+  prompt: "Prepare the sign-off package for the claims portal FRD v1.3 so the business owner and IT lead can approve it this week."
 ---
 
 # Prepare Requirements Sign-Off

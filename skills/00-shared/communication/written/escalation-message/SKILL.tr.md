@@ -1,7 +1,16 @@
 ---
-description: Sorunu, doğrulanmış olguları, iş etkisini ve son tarihi, şimdiye kadar denenenleri, ödünleşimleriyle seçenekleri, bir öneriyi ve eskalasyon sahibinden tek ve net bir talebi içeren bir eskalasyon mesajı yazar. Bir engel, bağımlılık, anlaşmazlık veya risk mevcut seviyede çözülemediğinde ve bir yöneticiden, sponsordan, tedarikçi hesap sorumlusundan ya da başka bir ekibin yönetiminden karar, kaynak veya müdahale gerektiğinde kullanılır.
-related: stakeholder-email, status-update, raid-log, trade-off-analysis, conflict-resolution
-prompt: Direktörüme, kimlik ekibinin SSO entegrasyonunu üç haftadır teslim etmediğini ve ayın 8'ine kadar gelmezse 15'indeki pilotun kayacağını eskale et.
+name: escalation-message
+description: "Sorunu, doğrulanmış olguları, iş etkisini ve son tarihi, şimdiye kadar denenenleri, ödünleşimleriyle seçenekleri, bir öneriyi ve eskalasyon sahibinden tek ve net bir talebi içeren bir eskalasyon mesajı yazar. Bir engel, bağımlılık, anlaşmazlık veya risk mevcut seviyede çözülemediğinde ve bir yöneticiden, sponsordan, tedarikçi hesap sorumlusundan ya da başka bir ekibin yönetiminden karar, kaynak veya müdahale gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Eskalasyon mesajı yazma"
+  related: "stakeholder-email, status-update, raid-log, trade-off-analysis, conflict-resolution"
+  prompt: "Direktörüme, kimlik ekibinin SSO entegrasyonunu üç haftadır teslim etmediğini ve ayın 8'ine kadar gelmezse 15'indeki pilotun kayacağını eskale et."
 ---
 
 # Eskalasyon Mesajı Yazma

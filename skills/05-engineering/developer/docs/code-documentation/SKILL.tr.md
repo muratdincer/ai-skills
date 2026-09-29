@@ -1,7 +1,16 @@
 ---
-description: Docstring'leri, API yorumlarını ve satır içi yorumları, kodun ne yaptığını tekrar etmek yerine sözleşmeyi, niyeti, kısıtları ve açık olmayan gerekçeleri (neden) anlatacak şekilde yazar veya iyileştirir; yanlış, eskimiş veya koda dönüşmesi gereken yorumları işaretler. Bir geliştirici bir fonksiyonun, sınıfın, modülün veya public API'nin belgelenmesini, mevcut yorumların gözden geçirilmesini ya da kodun devre hazırlanmasını istediğinde kullanılır.
-related: readme-writing, api-reference-docs, clean-code-review, code-explanation, legacy-code-comprehension
-prompt: Bu fiyatlandırma modülüne düzgün dokümantasyon ekle. İşe yarar olsun; kodu tekrar eden yorumlar istemiyorum.
+name: code-documentation
+description: "Docstring'leri, API yorumlarını ve satır içi yorumları, kodun ne yaptığını tekrar etmek yerine sözleşmeyi, niyeti, kısıtları ve açık olmayan gerekçeleri (neden) anlatacak şekilde yazar veya iyileştirir; yanlış, eskimiş veya koda dönüşmesi gereken yorumları işaretler. Bir geliştirici bir fonksiyonun, sınıfın, modülün veya public API'nin belgelenmesini, mevcut yorumların gözden geçirilmesini ya da kodun devre hazırlanmasını istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Kod dokümantasyonu"
+  related: "readme-writing, api-reference-docs, clean-code-review, code-explanation, legacy-code-comprehension"
+  prompt: "Bu fiyatlandırma modülüne düzgün dokümantasyon ekle. İşe yarar olsun; kodu tekrar eden yorumlar istemiyorum."
 ---
 
 # Kod Dokümantasyonu

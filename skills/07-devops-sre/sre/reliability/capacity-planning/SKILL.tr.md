@@ -1,7 +1,16 @@
 ---
+name: capacity-planning
 description: "Bir servis veya platform için kapasite planı çıkarır: organik büyüme ve bilinen olaylardan talep öngörüsü, yük testlerinden veya canlı veriden kaynak bazında doygunluk sınırları, pay (headroom) ve N+1 yedeklilikle gereken kapasite, tedarik süreleri, ölçekleme tetikleyicileri ve maliyet etkisi. Bir lansman, kampanya veya sezonsal zirve yaklaşırken, kullanım sınırlara doğru ilerlerken ya da sonraki dönemin altyapı bütçesi planlanırken kullanılır."
-related: "capacity-test-report, load-test-analysis, scalability-review, finops-review, observability-plan"
-prompt: "Black Friday için checkout kapasitesini planla. Normal zirve 800 istek/sn, pazarlama 4 kat trafik bekliyor; 12 pod ve tek bir birincil veritabanıyla çalışıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Kapasite planlama"
+  related: "capacity-test-report, load-test-analysis, scalability-review, finops-review, observability-plan"
+  prompt: "Black Friday için checkout kapasitesini planla. Normal zirve 800 istek/sn, pazarlama 4 kat trafik bekliyor; 12 pod ve tek bir birincil veritabanıyla çalışıyoruz."
 ---
 
 # Kapasite Planlama

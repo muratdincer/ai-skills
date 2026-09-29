@@ -1,7 +1,16 @@
 ---
-description: Writes a customer-facing release announcement that leads with the benefit to the reader, explains what changed and who it affects, states availability and any action required, and ends with a clear next step, adapted to the channel (email, blog, in-app, social). Use when a feature or product version ships to customers, when release notes must be turned into marketing-ready copy, or when someone asks to "announce" or "tell customers about" a release.
-related: positioning-statement, go-to-market-plan, release-notes, announcement, microcopy
-prompt: Write a customer announcement for our new bulk-invoice upload feature, going out by email and in-app next Tuesday.
+name: release-announcement
+description: "Writes a customer-facing release announcement that leads with the benefit to the reader, explains what changed and who it affects, states availability and any action required, and ends with a clear next step, adapted to the channel (email, blog, in-app, social). Use when a feature or product version ships to customers, when release notes must be turned into marketing-ready copy, or when someone asks to \"announce\" or \"tell customers about\" a release."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Write a release announcement"
+  related: "positioning-statement, go-to-market-plan, release-notes, announcement, microcopy"
+  prompt: "Write a customer announcement for our new bulk-invoice upload feature, going out by email and in-app next Tuesday."
 ---
 
 # Write a Release Announcement

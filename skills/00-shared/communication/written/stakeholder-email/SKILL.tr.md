@@ -1,7 +1,16 @@
 ---
-description: Paydaşa; eylemi belirten bir konu satırı, ilk iki satırda talep veya ana mesaj, yalnızca gerekli bağlam ve okuyucunun rolüne ve ilişkiye uygun bir tonla amacı önde olan bir e-posta yazar. Bir yöneticiden, sponsordan, müşteriden, tedarikçiden veya başka bir ekipten e-posta ya da uzun sohbet mesajıyla bir şey istemek, bilgi vermek, uzlaşmak veya takip etmek gerektiğinde kullanılır.
-related: tone-rewrite, escalation-message, bad-news-delivery, stakeholder-map, meeting-follow-up
-prompt: Finans direktörüne, gelecek hafta UAT'ye başlayabilmemiz için ekibinin yeni maliyet dağıtım kurallarını cumaya kadar doğrulamasını isteyen bir e-posta yaz.
+name: stakeholder-email
+description: "Paydaşa; eylemi belirten bir konu satırı, ilk iki satırda talep veya ana mesaj, yalnızca gerekli bağlam ve okuyucunun rolüne ve ilişkiye uygun bir tonla amacı önde olan bir e-posta yazar. Bir yöneticiden, sponsordan, müşteriden, tedarikçiden veya başka bir ekipten e-posta ya da uzun sohbet mesajıyla bir şey istemek, bilgi vermek, uzlaşmak veya takip etmek gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Paydaş e-postası yazma"
+  related: "tone-rewrite, escalation-message, bad-news-delivery, stakeholder-map, meeting-follow-up"
+  prompt: "Finans direktörüne, gelecek hafta UAT'ye başlayabilmemiz için ekibinin yeni maliyet dağıtım kurallarını cumaya kadar doğrulamasını isteyen bir e-posta yaz."
 ---
 
 # Paydaş E-postası Yazma

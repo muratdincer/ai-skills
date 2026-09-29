@@ -1,7 +1,16 @@
 ---
+name: finops-review
 description: "Bulut veya platform harcamasını inceleyerek israfı, doğru boyutlandırma fırsatlarını, taahhüt ve fiyatlandırma modeli seçeneklerini, depolama ve veri transferi tasarruflarını ve etiketleme/dağıtım boşluklarını bulur; efor ve riskle önceliklendirilmiş bir tasarruf listesi verir. Bir maliyet raporu, fatura dökümü veya kaynak envanteri paylaşıldığında, maliyetler beklenmedik şekilde arttığında ya da periyodik maliyet incelemesi zamanı geldiğinde kullanılır."
-related: "cloud-cost-estimate, capacity-planning, iac-review, environment-strategy, budget-proposal"
-prompt: "Son üç ayın servis ve kaynak grubu bazında bulut maliyetleri ekte. Nerede para israf ediyoruz ve önce ne yapmalıyız?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Bulut maliyet incelemesi"
+  related: "cloud-cost-estimate, capacity-planning, iac-review, environment-strategy, budget-proposal"
+  prompt: "Son üç ayın servis ve kaynak grubu bazında bulut maliyetleri ekte. Nerede para israf ediyoruz ve önce ne yapmalıyız?"
 ---
 
 # Bulut Maliyet İncelemesi

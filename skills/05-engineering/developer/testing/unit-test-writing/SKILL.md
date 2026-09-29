@@ -1,7 +1,16 @@
 ---
+name: unit-test-writing
 description: "Writes unit tests in Arrange-Act-Assert form that pin down observable behavior of a function, class or module, covering the happy path, equivalence classes, boundaries, error paths and state transitions, with test doubles only at true boundaries and names that read as specifications. Use when someone asks to write, add or improve unit tests, increase coverage of specific code, or secure code before a change."
-related: "tdd-cycle, test-gap-finder, integration-test-writing, equivalence-boundary-analysis, refactoring"
-prompt: "Write unit tests for this ShippingCostCalculator class; it has rules for weight tiers, free shipping over a threshold and express surcharge."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Write unit tests"
+  related: "tdd-cycle, test-gap-finder, integration-test-writing, equivalence-boundary-analysis, refactoring"
+  prompt: "Write unit tests for this ShippingCostCalculator class; it has rules for weight tiers, free shipping over a threshold and express surcharge."
 ---
 
 # Write Unit Tests

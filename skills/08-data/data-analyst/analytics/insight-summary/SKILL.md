@@ -1,7 +1,16 @@
 ---
-description: Turns analysis results, query outputs or charts into a short "so what" insight summary - headline finding, evidence, confidence, implications and a recommended action. Use when numbers are available but the audience needs to know what they mean and what to do, e.g. after an analysis, a monthly review or a dashboard anomaly.
-related: analysis-plan, executive-summary, ab-test-analysis, dashboard-spec, presentation-outline
-prompt: Write an insight summary from these results: churn rose from 3.1% to 4.0% in Q3, mostly in the SMB segment on monthly plans.
+name: insight-summary
+description: "Turns analysis results, query outputs or charts into a short \"so what\" insight summary - headline finding, evidence, confidence, implications and a recommended action. Use when numbers are available but the audience needs to know what they mean and what to do, e.g. after an analysis, a monthly review or a dashboard anomaly."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Write an insight summary"
+  related: "analysis-plan, executive-summary, ab-test-analysis, dashboard-spec, presentation-outline"
+  prompt: "Write an insight summary from these results: churn rose from 3.1% to 4.0% in Q3, mostly in the SMB segment on monthly plans."
 ---
 
 # Write an Insight Summary

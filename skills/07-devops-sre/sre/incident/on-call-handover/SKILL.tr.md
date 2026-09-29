@@ -1,7 +1,16 @@
 ---
-description: Çıkan nöbetin notlarından, alarmlarından, olaylarından ve değişiklik takviminden gelen nöbetçi için bir nöbet devri yazar: açık olaylar ve durumları, yakın geçmişteki ve yaklaşan değişiklikler, bilinen riskler ve bozulmuş bileşenler, gürültülü veya susturulmuş alarmlar, sorumlusu belli bekleyen takipler ve eşikleri ile ilk aksiyonları açıkça tanımlanmış izlenecekler. Bir nöbet vardiyası veya rotasyonu sona erdiğinde, tatil ya da değişiklik dondurma döneminden önce veya bir üretim sisteminin sorumluluğu kişiler ya da ekipler arasında devredildiğinde kullanılır.
-related: incident-response, runbook, postmortem, alert-design, incident-communication
-prompt: Nöbet haftam yarın bitiyor. Notlarım, alarm özeti ve değişiklik takvimi ekte. Sonraki nöbetçi için devir notunu yaz.
+name: on-call-handover
+description: "Çıkan nöbetin notlarından, alarmlarından, olaylarından ve değişiklik takviminden gelen nöbetçi için bir nöbet devri yazar: açık olaylar ve durumları, yakın geçmişteki ve yaklaşan değişiklikler, bilinen riskler ve bozulmuş bileşenler, gürültülü veya susturulmuş alarmlar, sorumlusu belli bekleyen takipler ve eşikleri ile ilk aksiyonları açıkça tanımlanmış izlenecekler. Bir nöbet vardiyası veya rotasyonu sona erdiğinde, tatil ya da değişiklik dondurma döneminden önce veya bir üretim sisteminin sorumluluğu kişiler ya da ekipler arasında devredildiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Nöbet devri"
+  related: "incident-response, runbook, postmortem, alert-design, incident-communication"
+  prompt: "Nöbet haftam yarın bitiyor. Notlarım, alarm özeti ve değişiklik takvimi ekte. Sonraki nöbetçi için devir notunu yaz."
 ---
 
 # Nöbet Devri

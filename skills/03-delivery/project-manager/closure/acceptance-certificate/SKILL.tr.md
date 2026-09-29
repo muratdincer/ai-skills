@@ -1,7 +1,16 @@
 ---
-description: Neyin teslim edildiğini, kararlaştırılan kabul kriterlerini ve her birinin kanıtını, açık hataları ve kabul edilen sapmaları, koşullu kabul şartlarını ve yetkili tarafların onaylarını kayıt altına alan bir teslimat kabul belgesi hazırlar. Bir teslimatın, kilometre taşının veya fazın müşteri, sponsor ya da iş sahibi tarafından resmî olarak kabul edilmesi gerektiğinde, bir kilometre taşı ödemesinden önce veya bir tedarikçi teslimatının kayıtlı olarak kabul ya da reddedilmesi gerektiğinde kullanılır.
-related: acceptance-criteria, uat-plan, statement-of-work, project-closure-report, change-control
-prompt: 2. kilometre taşı (raporlama modülü) için kabul belgesini hazırla. UAT tamamlandı, 3 küçük hata açık; müşteri koşullu imzalamak istiyor.
+name: acceptance-certificate
+description: "Neyin teslim edildiğini, kararlaştırılan kabul kriterlerini ve her birinin kanıtını, açık hataları ve kabul edilen sapmaları, koşullu kabul şartlarını ve yetkili tarafların onaylarını kayıt altına alan bir teslimat kabul belgesi hazırlar. Bir teslimatın, kilometre taşının veya fazın müşteri, sponsor ya da iş sahibi tarafından resmî olarak kabul edilmesi gerektiğinde, bir kilometre taşı ödemesinden önce veya bir tedarikçi teslimatının kayıtlı olarak kabul ya da reddedilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: closure
+  title: "Teslimat kabul belgesi"
+  related: "acceptance-criteria, uat-plan, statement-of-work, project-closure-report, change-control"
+  prompt: "2. kilometre taşı (raporlama modülü) için kabul belgesini hazırla. UAT tamamlandı, 3 küçük hata açık; müşteri koşullu imzalamak istiyor."
 ---
 
 # Teslimat Kabul Belgesi

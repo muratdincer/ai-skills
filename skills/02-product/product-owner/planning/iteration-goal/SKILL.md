@@ -1,7 +1,16 @@
 ---
+name: iteration-goal
 description: "Writes a single, coherent iteration/sprint goal that states the outcome the team commits to, why it matters and how success will be observed, and checks which candidate items serve it and which do not. Use when preparing iteration/sprint planning, when a draft goal is just a list of tickets, or when someone asks for a sprint goal or iteration objective."
-related: "iteration-planning, backlog-prioritization, roadmap, okr-definition, iteration-review-prep"
-prompt: "Our next sprint candidates are: SSO login, password reset email fix, audit log export and two tech-debt items. Write a sprint goal."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Write an iteration goal"
+  related: "iteration-planning, backlog-prioritization, roadmap, okr-definition, iteration-review-prep"
+  prompt: "Our next sprint candidates are: SSO login, password reset email fix, audit log export and two tech-debt items. Write a sprint goal."
 ---
 
 # Write an Iteration Goal

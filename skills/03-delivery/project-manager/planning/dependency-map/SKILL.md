@@ -1,7 +1,16 @@
 ---
-description: Maps a project's internal and external dependencies, stating what is needed, from whom, by when, the providing and receiving owners, commitment status, criticality and the fallback if the dependency slips. Use when a project relies on other teams, vendors, platforms or decisions, or when missed hand-offs are threatening milestones.
-related: schedule-plan, raid-log, cross-team-dependency-board, risk-register, integration-requirements
-prompt: Map all dependencies for our loyalty program launch: marketing, the POS vendor, data team and the legal review.
+name: dependency-map
+description: "Maps a project's internal and external dependencies, stating what is needed, from whom, by when, the providing and receiving owners, commitment status, criticality and the fallback if the dependency slips. Use when a project relies on other teams, vendors, platforms or decisions, or when missed hand-offs are threatening milestones."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Map dependencies"
+  related: "schedule-plan, raid-log, cross-team-dependency-board, risk-register, integration-requirements"
+  prompt: "Map all dependencies for our loyalty program launch: marketing, the POS vendor, data team and the legal review."
 ---
 
 # Map Dependencies

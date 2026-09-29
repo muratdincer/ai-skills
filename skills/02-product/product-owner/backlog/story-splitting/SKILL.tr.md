@@ -1,7 +1,16 @@
 ---
+name: story-splitting
 description: "Büyük bir kullanıcı hikayesini veya iş maddesini adlandırılmış desenlerle (iş akışı adımı, iş kuralı, veri çeşitliliği, arayüz, işlem, olumlu/olumsuz yol, spike) ince ve bağımsız değer taşıyan dikey dilimlere böler; her dilim için kabul kriterlerini ve önerilen sırayı gösterir. Bir hikaye tek iterasyona/sprint'e sığmadığında, tahminler çok dağınık olduğunda ya da bir hikayenin bölünmesi, dilimlenmesi istendiğinde kullanılır."
-related: "epic-breakdown, invest-check, backlog-refinement, acceptance-criteria, user-story"
-prompt: "Bu hikaye 21 puan ve kimse tahmine güvenmiyor: 'Müşteri olarak faturamı çevrim içi ödemek istiyorum.' Böl."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Büyük hikayeleri bölme"
+  related: "epic-breakdown, invest-check, backlog-refinement, acceptance-criteria, user-story"
+  prompt: "Bu hikaye 21 puan ve kimse tahmine güvenmiyor: 'Müşteri olarak faturamı çevrim içi ödemek istiyorum.' Böl."
 ---
 
 # Büyük Hikayeleri Bölme

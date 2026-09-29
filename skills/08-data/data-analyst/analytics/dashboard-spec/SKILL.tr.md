@@ -1,7 +1,16 @@
 ---
-description: Bir gösterge panelini (dashboard) inşa edilmeden önce tanımlar; hedef kitle, desteklenen kararlar, sorular, tanımlarıyla KPI'lar, görseller, filtreler, detaya inme yolları, yenileme ve erişim kuralları. Yeni bir dashboard veya rapor sayfası istendiğinde, karmaşık bir panel yeniden tasarlanacağında ya da BI geliştiricisinin tahmin yürütmeden uygulayabileceği bir tanım gerektiğinde kullanılır.
-related: metric-definition, kpi-definition, report-requirements, data-requirements, insight-summary
-prompt: Müşteri destek yönetimi için iş kaydı birikimini, SLA uyumunu ve temsilci iş yükünü haftalık izleyecek bir dashboard tanımla.
+name: dashboard-spec
+description: "Bir gösterge panelini (dashboard) inşa edilmeden önce tanımlar; hedef kitle, desteklenen kararlar, sorular, tanımlarıyla KPI'lar, görseller, filtreler, detaya inme yolları, yenileme ve erişim kuralları. Yeni bir dashboard veya rapor sayfası istendiğinde, karmaşık bir panel yeniden tasarlanacağında ya da BI geliştiricisinin tahmin yürütmeden uygulayabileceği bir tanım gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Gösterge paneli tanımlama"
+  related: "metric-definition, kpi-definition, report-requirements, data-requirements, insight-summary"
+  prompt: "Müşteri destek yönetimi için iş kaydı birikimini, SLA uyumunu ve temsilci iş yükünü haftalık izleyecek bir dashboard tanımla."
 ---
 
 # Gösterge Paneli Tanımlama

@@ -1,7 +1,16 @@
 ---
-description: Bir toplantının sonuçla başlayan, kararları, önemli aksiyonları ve açık noktaları listeleyen ve okuyucunun dikkat etmesi gerekenleri öne çıkaran, bir dakikadan kısa sürede okunabilen yönetici özetini çıkarır. Bir yönetici, sponsor veya katılamayan paydaş toplantıdan ne çıktığını tüm notları veya dökümü okumadan öğrenmek istediğinde kullanılır.
-related: meeting-notes, meeting-minutes, meeting-follow-up, executive-summary, action-item-extraction
-prompt: Bu 1 saatlik mimari inceleme dökümünü CTO'muz için birkaç satırda özetle.
+name: meeting-summary
+description: "Bir toplantının sonuçla başlayan, kararları, önemli aksiyonları ve açık noktaları listeleyen ve okuyucunun dikkat etmesi gerekenleri öne çıkaran, bir dakikadan kısa sürede okunabilen yönetici özetini çıkarır. Bir yönetici, sponsor veya katılamayan paydaş toplantıdan ne çıktığını tüm notları veya dökümü okumadan öğrenmek istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Toplantı özeti çıkarma"
+  related: "meeting-notes, meeting-minutes, meeting-follow-up, executive-summary, action-item-extraction"
+  prompt: "Bu 1 saatlik mimari inceleme dökümünü CTO'muz için birkaç satırda özetle."
 ---
 
 # Toplantı Özeti Çıkarma

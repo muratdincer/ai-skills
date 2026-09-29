@@ -1,7 +1,16 @@
 ---
-description: Maps a workplace conflict into parties, stated positions, underlying interests, facts versus perceptions and conflict type, then proposes a mediated resolution path with options that serve shared interests and agreed next steps. Use when two people, teams or functions disagree on priorities, ownership, approach or behavior and the disagreement is blocking work or damaging the relationship.
-related: feedback-sbi, negotiation-prep, facilitation-guide, trade-off-analysis, decision-log
-prompt: Our backend and mobile teams keep arguing about who owns API versioning and releases are slipping. Help me mediate.
+name: conflict-resolution
+description: "Maps a workplace conflict into parties, stated positions, underlying interests, facts versus perceptions and conflict type, then proposes a mediated resolution path with options that serve shared interests and agreed next steps. Use when two people, teams or functions disagree on priorities, ownership, approach or behavior and the disagreement is blocking work or damaging the relationship."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Resolve a conflict"
+  related: "feedback-sbi, negotiation-prep, facilitation-guide, trade-off-analysis, decision-log"
+  prompt: "Our backend and mobile teams keep arguing about who owns API versioning and releases are slipping. Help me mediate."
 ---
 
 # Resolve a Conflict

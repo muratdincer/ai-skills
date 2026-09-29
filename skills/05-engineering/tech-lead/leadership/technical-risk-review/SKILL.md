@@ -1,7 +1,16 @@
 ---
-description: Runs a structured technical risk review of a feature, project or release plan: identifies delivery and quality risks across architecture, dependencies, technology novelty, data, integration, performance, security, operability, skills and schedule, rates probability and impact, names early warning signals, and proposes mitigations with owners and the cheapest risk-reducing experiments. Use at kickoff or before committing to a plan, before a major release, when a project shows warning signs, or when stakeholders ask what could go wrong technically.
-related: risk-register, technical-estimation, spike-report, threat-model, architecture-review
-prompt: We start a 3-month project to move invoice generation to an event-driven service. Review the technical risks before we commit to the plan.
+name: technical-risk-review
+description: "Runs a structured technical risk review of a feature, project or release plan: identifies delivery and quality risks across architecture, dependencies, technology novelty, data, integration, performance, security, operability, skills and schedule, rates probability and impact, names early warning signals, and proposes mitigations with owners and the cheapest risk-reducing experiments. Use at kickoff or before committing to a plan, before a major release, when a project shows warning signs, or when stakeholders ask what could go wrong technically."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Review technical risks"
+  related: "risk-register, technical-estimation, spike-report, threat-model, architecture-review"
+  prompt: "We start a 3-month project to move invoice generation to an event-driven service. Review the technical risks before we commit to the plan."
 ---
 
 # Review Technical Risks

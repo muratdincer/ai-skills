@@ -31,6 +31,16 @@ from catalog import parse, skills, ROOT  # noqa: E402
 FILES = {"en": "SKILL.md", "tr": "SKILL.tr.md"}
 
 
+
+def unquote(value):
+    """Parse a YAML scalar written by sync.py; collapse any stray escaping left by hand edits."""
+    v = value.strip()
+    if len(v) >= 2 and v[0] == v[-1] == '"':
+        v = v[1:-1]
+    while '\\"' in v or '\\\\' in v:
+        v = v.replace('\\\\', '\\').replace('\\"', '"')
+    return v
+
 def selected(args):
     tree, errors = parse()
     if errors:
@@ -53,7 +63,7 @@ def frontmatter(text):
     for line in (m.group(1) if m else "").splitlines():
         kv = re.match(r"^\s*([A-Za-z_-]+):\s*(.*)$", line)
         if kv and kv.group(2):
-            fm[kv.group(1)] = kv.group(2).strip().strip('"')
+            fm[kv.group(1)] = unquote(kv.group(2))
     return fm, (m.group(2) if m else text).lstrip("\n")
 
 

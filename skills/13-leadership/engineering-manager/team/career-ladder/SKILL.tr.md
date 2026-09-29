@@ -1,7 +1,16 @@
 ---
-description: Bir meslek ailesi için seviyeleri, seviye başına kapsam ve etkiyi, gözlemlenebilir örneklerle yetkinlik beklentilerini ve paralel bireysel katkıcı ile yönetim yollarını içeren kariyer basamakları oluşturur veya revize eder. Terfi, işe alım ve değerlendirmelerde tutarlı seviyelendirme gerektiğinde, seviyeler belirsiz veya ekipler arasında tutarsız olduğunda ya da staff/principal veya yönetim yolu eklenirken kullanılır.
-related: role-definition, performance-review, career-development-plan, job-description, interview-plan
-prompt: Yazılım mühendislerimiz için junior'dan principal'a kariyer basamakları oluştur; takım liderinden direktöre ayrı bir yönetim yolu olsun.
+name: career-ladder
+description: "Bir meslek ailesi için seviyeleri, seviye başına kapsam ve etkiyi, gözlemlenebilir örneklerle yetkinlik beklentilerini ve paralel bireysel katkıcı ile yönetim yollarını içeren kariyer basamakları oluşturur veya revize eder. Terfi, işe alım ve değerlendirmelerde tutarlı seviyelendirme gerektiğinde, seviyeler belirsiz veya ekipler arasında tutarsız olduğunda ya da staff/principal veya yönetim yolu eklenirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Kariyer basamakları oluşturma"
+  related: "role-definition, performance-review, career-development-plan, job-description, interview-plan"
+  prompt: "Yazılım mühendislerimiz için junior'dan principal'a kariyer basamakları oluştur; takım liderinden direktöre ayrı bir yönetim yolu olsun."
 ---
 
 # Kariyer Basamakları Oluşturma

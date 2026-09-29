@@ -1,7 +1,16 @@
 ---
-description: Kademeli yük veya stres testi sonuçlarından SLO'lar içinde sürdürülebilir maksimum yükü belirleyen, sınırlayıcı kaynağı tespit eden, mevcut ve tahmini zirvelere göre payı hesaplayan, ölçekleme davranışını ve sınırlarını açıklayan ve tetikleyicileriyle kapasite aksiyonları öneren bir kapasite raporu yazar. Kapasite, stres veya ölçeklenebilirlik testlerinden sonra, yönetim sistemin ne kadar büyümeyi kaldırabileceğini sorduğunda ya da altyapı boyutlandırması ve ölçekleme sınırlarının test kanıtıyla gerekçelendirilmesi gerektiğinde kullanılır.
-related: load-test-analysis, performance-test-plan, capacity-planning, scalability-review, finops-review
-prompt: Arama servisinde kırılana kadar kademeli yük testi koştuk. Bir kapasite raporu yaz: gelecek yılın tahminine göre ne kadar payımız var?
+name: capacity-test-report
+description: "Kademeli yük veya stres testi sonuçlarından SLO'lar içinde sürdürülebilir maksimum yükü belirleyen, sınırlayıcı kaynağı tespit eden, mevcut ve tahmini zirvelere göre payı hesaplayan, ölçekleme davranışını ve sınırlarını açıklayan ve tetikleyicileriyle kapasite aksiyonları öneren bir kapasite raporu yazar. Kapasite, stres veya ölçeklenebilirlik testlerinden sonra, yönetim sistemin ne kadar büyümeyi kaldırabileceğini sorduğunda ya da altyapı boyutlandırması ve ölçekleme sınırlarının test kanıtıyla gerekçelendirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Kapasite raporu"
+  related: "load-test-analysis, performance-test-plan, capacity-planning, scalability-review, finops-review"
+  prompt: "Arama servisinde kırılana kadar kademeli yük testi koştuk. Bir kapasite raporu yaz: gelecek yılın tahminine göre ne kadar payımız var?"
 ---
 
 # Kapasite Raporu

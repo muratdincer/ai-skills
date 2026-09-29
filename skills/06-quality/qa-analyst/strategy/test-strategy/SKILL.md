@@ -1,7 +1,16 @@
 ---
+name: test-strategy
 description: "Writes a test strategy that defines test levels, test types, environments, tooling categories, data approach and a risk-based focus for a product, program or organization. Use when a new product or major initiative starts, when testing approach is inconsistent across teams, or when someone asks how a system should be tested overall."
-related: test-plan, risk-based-testing, environment-strategy, automation-framework-design, nfr-specification
-prompt: "Write a test strategy for our new customer onboarding platform: web + mobile front ends, 12 microservices, integrations with a core banking system and a KYC provider."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Write a test strategy"
+  related: "test-plan, risk-based-testing, environment-strategy, automation-framework-design, nfr-specification"
+  prompt: "Write a test strategy for our new customer onboarding platform: web + mobile front ends, 12 microservices, integrations with a core banking system and a KYC provider."
 ---
 
 # Write a Test Strategy

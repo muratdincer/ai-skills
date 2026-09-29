@@ -1,7 +1,16 @@
 ---
-description: Bir çözüm tasarımının her bileşenini (hesaplama, depolama, veritabanı, ağ çıkışı, yönetilen servisler, gözlemlenebilirlik, lisanslar) iş yükü sürücülerinden boyutlandırır ve aralıkları, varsayımları ve maliyet düşürme kaldıraçlarıyla şeffaf bir aylık işletim maliyeti tahmini üretir. Bir tasarımın onay için maliyet rakamına ihtiyacı olduğunda, mimari seçenekler maliyetle karşılaştırılırken veya geliştirme öncesinde bulut bütçesi belirlenirken kullanılır.
-related: finops-review, capacity-planning, build-vs-buy, solution-architecture-document, budget-proposal
-prompt: Bu tasarımın aylık bulut maliyetini tahmin et: 6 konteynerli servis, yönetilen PostgreSQL, Redis, 5 TB doküman için nesne depolama ve ayda yaklaşık 20 milyon API çağrısı.
+name: cloud-cost-estimate
+description: "Bir çözüm tasarımının her bileşenini (hesaplama, depolama, veritabanı, ağ çıkışı, yönetilen servisler, gözlemlenebilirlik, lisanslar) iş yükü sürücülerinden boyutlandırır ve aralıkları, varsayımları ve maliyet düşürme kaldıraçlarıyla şeffaf bir aylık işletim maliyeti tahmini üretir. Bir tasarımın onay için maliyet rakamına ihtiyacı olduğunda, mimari seçenekler maliyetle karşılaştırılırken veya geliştirme öncesinde bulut bütçesi belirlenirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Tasarımın bulut maliyet tahmini"
+  related: "finops-review, capacity-planning, build-vs-buy, solution-architecture-document, budget-proposal"
+  prompt: "Bu tasarımın aylık bulut maliyetini tahmin et: 6 konteynerli servis, yönetilen PostgreSQL, Redis, 5 TB doküman için nesne depolama ve ayda yaklaşık 20 milyon API çağrısı."
 ---
 
 # Tasarımın Bulut Maliyet Tahmini

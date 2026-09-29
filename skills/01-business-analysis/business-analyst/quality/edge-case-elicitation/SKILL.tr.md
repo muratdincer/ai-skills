@@ -1,7 +1,16 @@
 ---
-description: Bir özellik, akış, API veya gereksinim için sınırlar, boş/null, mükerrer kayıtlar, eşzamanlılık, saat dilimleri ve tarihler, yetkiler, kısmi hata, yeniden deneme ve idempotency, hacim ve kötüye kullanım başlıklarında uç durumları sistematik olarak ortaya çıkarır; her birini beklenen davranışa veya açık soruya dönüştürür. Bir story, spesifikasyon veya tasarım yalnızca mutlu yolu anlatıyorsa, kabul kriteri veya test tasarımından önce ya da "ne ters gidebilir?", "hangi durumları atlıyoruz?" sorulduğunda kullanılır.
-related: acceptance-criteria, error-scenario-catalog, equivalence-boundary-analysis, requirements-gap-analysis, test-scenarios-from-requirements
-prompt: Bu story için uç durumları bul: depo görevlisi olarak müşteri siparişi için stok ayırmak istiyorum, böylece ürünler iki kez satılmaz.
+name: edge-case-elicitation
+description: "Bir özellik, akış, API veya gereksinim için sınırlar, boş/null, mükerrer kayıtlar, eşzamanlılık, saat dilimleri ve tarihler, yetkiler, kısmi hata, yeniden deneme ve idempotency, hacim ve kötüye kullanım başlıklarında uç durumları sistematik olarak ortaya çıkarır; her birini beklenen davranışa veya açık soruya dönüştürür. Bir story, spesifikasyon veya tasarım yalnızca mutlu yolu anlatıyorsa, kabul kriteri veya test tasarımından önce ya da \"ne ters gidebilir?\", \"hangi durumları atlıyoruz?\" sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Uç durumları ortaya çıkarma"
+  related: "acceptance-criteria, error-scenario-catalog, equivalence-boundary-analysis, requirements-gap-analysis, test-scenarios-from-requirements"
+  prompt: "Bu story için uç durumları bul: depo görevlisi olarak müşteri siparişi için stok ayırmak istiyorum, böylece ürünler iki kez satılmaz."
 ---
 
 # Uç Durumları Ortaya Çıkarma

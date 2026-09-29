@@ -1,7 +1,16 @@
 ---
+name: authn-authz-design
 description: "Bir uygulama veya API için kimlik doğrulama ve yetkilendirme tasarlar: kimlik sağlayıcı ve protokol seçimi (OIDC, OAuth 2.x, SAML), giriş ve token akışları, token süreleri ve saklama, roller, claim'ler veya öznitelikler ve en az yetki uygulama noktaları. Yeni uygulama veya API geliştirilirken, SSO ya da MFA eklenirken, API'ler iş ortaklarına veya makine istemcilerine açılırken ya da rol modeli yeniden tasarlanırken kullanılır."
-related: "security-requirements, threat-model, access-review, api-design-review, secrets-management-plan"
-prompt: "B2B SaaS ürünümüz için kimlik doğrulama ve yetkilendirme tasarla: web SPA, iş ortakları için açık REST API, çok kiracılı yapı; müşteriler kendi Entra ID veya Okta'ları ile SSO istiyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Kimlik doğrulama ve yetkilendirme tasarımı"
+  related: "security-requirements, threat-model, access-review, api-design-review, secrets-management-plan"
+  prompt: "B2B SaaS ürünümüz için kimlik doğrulama ve yetkilendirme tasarla: web SPA, iş ortakları için açık REST API, çok kiracılı yapı; müşteriler kendi Entra ID veya Okta'ları ile SSO istiyor."
 ---
 
 # Kimlik Doğrulama ve Yetkilendirme Tasarımı

@@ -1,7 +1,16 @@
 ---
+name: monte-carlo-forecast
 description: "Geçmiş verim (throughput) verisinden Monte Carlo simülasyonuyla olasılıksal teslim öngörüsü üretir: 'N madde ne zaman biter?' veya 'D tarihine kadar kaç madde biter?' sorularını güven seviyeleriyle (%50/85/95) yanıtlar, backlog büyümesini ve bölünmeyi hesaba katar, yöntemi ve uyarıları açıklar. Haftalık veya iterasyon başına verim paylaşılıp sürüm tarihi, bir son tarih için kapsam öngörüsü ya da bir taahhüdü tutturma olasılığı sorulduğunda kullanılır."
-related: "velocity-analysis, cycle-time-analysis, release-planning, burndown-analysis, schedule-plan"
-prompt: "Son 12 haftadaki haftalık verimimiz: 3, 5, 4, 0, 6, 4, 5, 3, 7, 4, 2, 5. 38 madde kaldı. %85 güvenle ne zaman bitiririz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Monte Carlo ile teslim tahmini"
+  related: "velocity-analysis, cycle-time-analysis, release-planning, burndown-analysis, schedule-plan"
+  prompt: "Son 12 haftadaki haftalık verimimiz: 3, 5, 4, 0, 6, 4, 5, 3, 7, 4, 2, 5. 38 madde kaldı. %85 güvenle ne zaman bitiririz?"
 ---
 
 # Monte Carlo ile Teslim Tahmini

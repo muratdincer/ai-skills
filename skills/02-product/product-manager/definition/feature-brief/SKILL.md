@@ -1,7 +1,16 @@
 ---
-description: Writes a one-page feature brief that aligns a team on a single feature: the problem and who has it, the expected outcome and success signal, the proposed approach, scope boundaries, key risks and the decisions still needed. Use when a feature is small enough not to need a full PRD, when a stakeholder asks for "a quick write-up" before a kickoff or refinement, or when a request must be framed for a go/no-go conversation.
-related: prd-writing, hypothesis-statement, mvp-scoping, epic-breakdown, problem-statement
-prompt: Write a feature brief for adding bulk CSV import of contacts to our CRM.
+name: feature-brief
+description: "Writes a one-page feature brief that aligns a team on a single feature: the problem and who has it, the expected outcome and success signal, the proposed approach, scope boundaries, key risks and the decisions still needed. Use when a feature is small enough not to need a full PRD, when a stakeholder asks for \"a quick write-up\" before a kickoff or refinement, or when a request must be framed for a go/no-go conversation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Write a feature brief"
+  related: "prd-writing, hypothesis-statement, mvp-scoping, epic-breakdown, problem-statement"
+  prompt: "Write a feature brief for adding bulk CSV import of contacts to our CRM."
 ---
 
 # Write a Feature Brief

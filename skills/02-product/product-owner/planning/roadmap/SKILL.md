@@ -1,7 +1,16 @@
 ---
+name: roadmap
 description: "Builds a product roadmap tied to outcomes, either as Now/Next/Later or as a timeline with confidence levels, showing themes, target outcomes, key initiatives, dependencies, what is explicitly not planned and how the roadmap will be updated. Use when a product owner or manager needs to communicate direction to stakeholders, align teams for the coming quarters, or turn a feature list into an outcome-based plan."
-related: "product-vision, okr-definition, release-planning, backlog-prioritization, program-roadmap"
-prompt: "Turn this list of 25 feature requests into a Now/Next/Later roadmap for our HR self-service app; our goals this year are fewer HR tickets and better mobile adoption."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Build a product roadmap"
+  related: "product-vision, okr-definition, release-planning, backlog-prioritization, program-roadmap"
+  prompt: "Turn this list of 25 feature requests into a Now/Next/Later roadmap for our HR self-service app; our goals this year are fewer HR tickets and better mobile adoption."
 ---
 
 # Build a Product Roadmap

@@ -1,7 +1,16 @@
 ---
+name: iteration-planning
 description: "Facilitates an iteration/sprint planning session end to end: calculates realistic capacity, confirms the iteration goal, selects work that fits and breaks it into tasks, and records risks and the resulting plan. Use when a team is about to start an iteration/sprint, when someone asks for a planning agenda or capacity calculation, or when past plans were routinely overcommitted."
-related: "iteration-goal, estimation-session, velocity-analysis, task-breakdown, definition-of-ready"
-prompt: "Help me run sprint planning for 6 developers over a 2-week sprint; one is on leave 3 days and we have a release freeze on the last day. Here are the top 12 backlog items."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Facilitate iteration planning"
+  related: "iteration-goal, estimation-session, velocity-analysis, task-breakdown, definition-of-ready"
+  prompt: "Help me run sprint planning for 6 developers over a 2-week sprint; one is on leave 3 days and we have a release freeze on the last day. Here are the top 12 backlog items."
 ---
 
 # Facilitate Iteration Planning

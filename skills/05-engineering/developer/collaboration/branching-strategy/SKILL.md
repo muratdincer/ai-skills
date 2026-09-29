@@ -1,7 +1,16 @@
 ---
-description: Recommends a branching strategy (trunk-based development, GitHub Flow, GitFlow or a documented variant) based on release cadence, number of supported versions, team size, CI maturity and compliance needs, and defines the resulting branch, merge and release rules. Use when a team sets up a repository, struggles with merge conflicts or long-lived branches, changes its release model, or must support multiple production versions.
-related: pipeline-design, release-plan, semantic-versioning, deployment-strategy, working-agreement
-prompt: We are 12 developers on one service, we deploy weekly but want daily, and hotfixes take too long because of our develop branch. Which branching strategy should we use?
+name: branching-strategy
+description: "Recommends a branching strategy (trunk-based development, GitHub Flow, GitFlow or a documented variant) based on release cadence, number of supported versions, team size, CI maturity and compliance needs, and defines the resulting branch, merge and release rules. Use when a team sets up a repository, struggles with merge conflicts or long-lived branches, changes its release model, or must support multiple production versions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Choose a branching strategy"
+  related: "pipeline-design, release-plan, semantic-versioning, deployment-strategy, working-agreement"
+  prompt: "We are 12 developers on one service, we deploy weekly but want daily, and hotfixes take too long because of our develop branch. Which branching strategy should we use?"
 ---
 
 # Choose a Branching Strategy

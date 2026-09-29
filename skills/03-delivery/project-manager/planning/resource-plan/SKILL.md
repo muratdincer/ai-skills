@@ -1,7 +1,16 @@
 ---
-description: Builds a project resource plan showing required roles and skills over time, allocation per person or role per period, over-allocations, capacity gaps and options to close them (hire, contract, reprioritize, reschedule). Use when a schedule exists and the team must be staffed, when people are shared across projects, or when a skill gap threatens the plan.
-related: schedule-plan, wbs, budget-plan, raci-matrix, onboarding-plan-30-60-90
-prompt: Build a resource plan for the next 6 months of our payment gateway project; here is the schedule and the team list with availability.
+name: resource-plan
+description: "Builds a project resource plan showing required roles and skills over time, allocation per person or role per period, over-allocations, capacity gaps and options to close them (hire, contract, reprioritize, reschedule). Use when a schedule exists and the team must be staffed, when people are shared across projects, or when a skill gap threatens the plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a resource plan"
+  related: "schedule-plan, wbs, budget-plan, raci-matrix, onboarding-plan-30-60-90"
+  prompt: "Build a resource plan for the next 6 months of our payment gateway project; here is the schedule and the team list with availability."
 ---
 
 # Build a Resource Plan

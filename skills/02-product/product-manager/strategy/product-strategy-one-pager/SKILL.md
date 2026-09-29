@@ -1,7 +1,16 @@
 ---
-description: Writes a one-page product strategy that states the diagnosis, where to play, how to win, the few strategic bets and explicit non-goals, linked to vision and outcome metrics. Use when a product needs a strategy for the next 12-24 months, when a roadmap lacks a rationale, or when leadership asks "what is our product strategy".
-related: product-vision, market-analysis, competitor-analysis, okr-definition, roadmap
-prompt: Draft a product strategy one-pager for our B2B field service app for the next 18 months.
+name: product-strategy-one-pager
+description: "Writes a one-page product strategy that states the diagnosis, where to play, how to win, the few strategic bets and explicit non-goals, linked to vision and outcome metrics. Use when a product needs a strategy for the next 12-24 months, when a roadmap lacks a rationale, or when leadership asks \"what is our product strategy\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Write a product strategy one-pager"
+  related: "product-vision, market-analysis, competitor-analysis, okr-definition, roadmap"
+  prompt: "Draft a product strategy one-pager for our B2B field service app for the next 18 months."
 ---
 
 # Write a Product Strategy One-Pager

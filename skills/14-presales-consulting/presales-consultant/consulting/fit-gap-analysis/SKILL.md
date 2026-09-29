@@ -1,7 +1,16 @@
 ---
-description: Runs a fit-gap analysis that compares requirements against the standard capabilities of a package, platform or reference process, classifies each as fit, fit with configuration, gap or not applicable, proposes a resolution per gap (process change, configuration, extension, integration, third-party, workaround, defer) with effort band and risk, and summarizes the fit ratio and decisions needed. Use when evaluating or implementing an ERP, CRM, SaaS or other packaged solution, when a client asks how much customization a package will need, or when requirements must be aligned to a standard process.
-related: requirements-gap-analysis, build-vs-buy, vendor-evaluation, current-state-assessment, effort-estimate-for-bid
-prompt: Do a fit-gap of these 40 order-to-cash requirements against a standard cloud ERP sales module and tell us where customization is unavoidable.
+name: fit-gap-analysis
+description: "Runs a fit-gap analysis that compares requirements against the standard capabilities of a package, platform or reference process, classifies each as fit, fit with configuration, gap or not applicable, proposes a resolution per gap (process change, configuration, extension, integration, third-party, workaround, defer) with effort band and risk, and summarizes the fit ratio and decisions needed. Use when evaluating or implementing an ERP, CRM, SaaS or other packaged solution, when a client asks how much customization a package will need, or when requirements must be aligned to a standard process."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Run a fit-gap analysis"
+  related: "requirements-gap-analysis, build-vs-buy, vendor-evaluation, current-state-assessment, effort-estimate-for-bid"
+  prompt: "Do a fit-gap of these 40 order-to-cash requirements against a standard cloud ERP sales module and tell us where customization is unavoidable."
 ---
 
 # Run a Fit-Gap Analysis

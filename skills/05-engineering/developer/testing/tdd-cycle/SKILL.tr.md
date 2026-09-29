@@ -1,7 +1,16 @@
 ---
+name: tdd-cycle
 description: "Bir davranışı kodlamayı katı kırmızı-yeşil-refactor döngüleriyle yönetir: en basitten en zora sıralı bir test listesi, her seferinde doğru nedenle kırıldığı görülen tek bir başarısız test, geçmek için gereken en az kod ve yalnızca yeşildeyken refactoring; başarısız bir test olmadan üretim kodu yazılmaz. Bir özellik, fonksiyon veya hata düzeltmesi test önce yaklaşımıyla geliştirilmek istendiğinde, TDD adımları sorulduğunda ya da somut bir davranış üzerinde TDD pratiği veya gösterimi yapılmak istendiğinde kullanılır."
-related: "unit-test-writing, implement-from-story, refactoring, acceptance-criteria, test-gap-finder"
-prompt: "TDD ile bir parola gücü doğrulayıcısı geliştirelim: en az 12 karakter, en az bir rakam ve bir sembol, kullanıcının e-postasını içermemeli."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "TDD ile geliştirme"
+  related: "unit-test-writing, implement-from-story, refactoring, acceptance-criteria, test-gap-finder"
+  prompt: "TDD ile bir parola gücü doğrulayıcısı geliştirelim: en az 12 karakter, en az bir rakam ve bir sembol, kullanıcının e-postasını içermemeli."
 ---
 
 # TDD ile Geliştirme

@@ -1,7 +1,16 @@
 ---
-description: Builds a technical onboarding plan for a developer joining a team: environment setup with verification, a guided codebase and architecture tour, ways of working, a sequence of progressively harder first work items, key contacts and checkpoints, adapted to the person's experience and role. Use when a new or transferring developer starts, when a tech lead must prepare the first weeks for a newcomer, or when an existing onboarding path is too slow and needs restructuring.
-related: onboarding-plan-30-60-90, readme-writing, legacy-code-comprehension, coding-standards, onboarding-guide
-prompt: A mid-level backend developer joins our payments team on Monday. Prepare a technical onboarding plan for the first two weeks, including setup and first tickets.
+name: technical-onboarding
+description: "Builds a technical onboarding plan for a developer joining a team: environment setup with verification, a guided codebase and architecture tour, ways of working, a sequence of progressively harder first work items, key contacts and checkpoints, adapted to the person's experience and role. Use when a new or transferring developer starts, when a tech lead must prepare the first weeks for a newcomer, or when an existing onboarding path is too slow and needs restructuring."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Onboard a developer"
+  related: "onboarding-plan-30-60-90, readme-writing, legacy-code-comprehension, coding-standards, onboarding-guide"
+  prompt: "A mid-level backend developer joins our payments team on Monday. Prepare a technical onboarding plan for the first two weeks, including setup and first tickets."
 ---
 
 # Onboard a Developer

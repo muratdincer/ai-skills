@@ -1,7 +1,16 @@
 ---
-description: Bir gecikmeyi, iptali, kapsam daralmasını, başarısız teslimatı, reddedilen talebi veya tutulamayan bir taahhüdü; haberi en başta, nedeni suçlamadan, okuyucuya etkisini, yapılanları, seçenekleri ve bir sonraki güncellemeyi belirterek şeffaf biçimde iletir. Bir müşteriye, sponsora, yöneticiye veya ekibe bir şeyin söz verildiği ya da beklendiği gibi olmayacağını yazılı olarak ya da bir görüşme için konuşma notlarıyla söylemek gerektiğinde kullanılır.
-related: tone-rewrite, escalation-message, stakeholder-email, status-update, customer-outage-notice
-prompt: Sponsora, ayın 20'sinde planlanan raporlama sürümünün veri sağlayıcısının API'si değiştiği için üç hafta kayacağını ve bunun yerine ne önerdiğimizi söylememe yardım et.
+name: bad-news-delivery
+description: "Bir gecikmeyi, iptali, kapsam daralmasını, başarısız teslimatı, reddedilen talebi veya tutulamayan bir taahhüdü; haberi en başta, nedeni suçlamadan, okuyucuya etkisini, yapılanları, seçenekleri ve bir sonraki güncellemeyi belirterek şeffaf biçimde iletir. Bir müşteriye, sponsora, yöneticiye veya ekibe bir şeyin söz verildiği ya da beklendiği gibi olmayacağını yazılı olarak ya da bir görüşme için konuşma notlarıyla söylemek gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Kötü haber iletme"
+  related: "tone-rewrite, escalation-message, stakeholder-email, status-update, customer-outage-notice"
+  prompt: "Sponsora, ayın 20'sinde planlanan raporlama sürümünün veri sağlayıcısının API'si değiştiği için üç hafta kayacağını ve bunun yerine ne önerdiğimizi söylememe yardım et."
 ---
 
 # Kötü Haber İletme

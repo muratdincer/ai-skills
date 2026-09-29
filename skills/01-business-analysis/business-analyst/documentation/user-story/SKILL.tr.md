@@ -1,7 +1,16 @@
 ---
+name: user-story
 description: "Kullanıcı hikayelerini somut bir persona, gerçek bir sonuç, bağlam, iş kuralları, bağımlılıklar ve kabul kriteri başlıklarıyla \"... olarak ... istiyorum ki ...\" kalıbında yazar; aslında teknik görev olan veya bölünmesi gereken maddeleri işaretler. Bir ihtiyaç, gereksinim veya özelliğin backlog maddelerine dönüşmesi gerektiğinde ya da 'hikaye yaz', 'bunu user story'ye çevir' veya zayıf hikayeleri yeniden yaz dendiğinde kullanılır."
-related: "acceptance-criteria, invest-check, story-splitting, persona, epic-breakdown"
-prompt: "Mağaza müdürlerinin personel vardiya değişimlerini telefondan onaylayabilmesi için kullanıcı hikayeleri yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Kullanıcı hikayesi yazma"
+  related: "acceptance-criteria, invest-check, story-splitting, persona, epic-breakdown"
+  prompt: "Mağaza müdürlerinin personel vardiya değişimlerini telefondan onaylayabilmesi için kullanıcı hikayeleri yaz."
 ---
 
 # Kullanıcı Hikayesi Yazma

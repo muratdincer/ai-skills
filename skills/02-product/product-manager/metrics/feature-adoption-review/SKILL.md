@@ -1,7 +1,16 @@
 ---
-description: Reviews a shipped feature's adoption, retention and outcome against the goals set before launch, using a reach-activation-retention-outcome breakdown, segment cuts and qualitative signals, and ends with a keep, iterate, promote or retire recommendation. Use some weeks after a release, in a post-launch review, or when someone asks "is anyone using this feature and did it work".
-related: kpi-definition, funnel-analysis, feedback-synthesis, benefits-realization, product-sunset-plan
-prompt: Review adoption of the bulk-edit feature we shipped 8 weeks ago; here are usage numbers and support tickets.
+name: feature-adoption-review
+description: "Reviews a shipped feature's adoption, retention and outcome against the goals set before launch, using a reach-activation-retention-outcome breakdown, segment cuts and qualitative signals, and ends with a keep, iterate, promote or retire recommendation. Use some weeks after a release, in a post-launch review, or when someone asks \"is anyone using this feature and did it work\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Review feature adoption"
+  related: "kpi-definition, funnel-analysis, feedback-synthesis, benefits-realization, product-sunset-plan"
+  prompt: "Review adoption of the bulk-edit feature we shipped 8 weeks ago; here are usage numbers and support tickets."
 ---
 
 # Review Feature Adoption

@@ -1,7 +1,16 @@
 ---
+name: as-is-process
 description: "Documents the current (as-is) business process from interviews, observation notes, procedures or system logs: trigger, steps, actors, systems, inputs/outputs, decision points, timings, volumes, pain points and workarounds. Use when a process is to be improved, automated or replaced and the team first needs a shared, evidence-based picture of how work is actually done today."
-related: "to-be-process, bpmn-model, value-stream-map, observation-notes, interview-notes-analysis"
-prompt: "Document the as-is process for supplier invoice approval from these interview notes with AP and two department managers."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Document the as-is process"
+  related: "to-be-process, bpmn-model, value-stream-map, observation-notes, interview-notes-analysis"
+  prompt: "Document the as-is process for supplier invoice approval from these interview notes with AP and two department managers."
 ---
 
 # Document the As-Is Process

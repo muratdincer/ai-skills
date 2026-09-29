@@ -1,7 +1,16 @@
 ---
+name: data-platform-architecture
 description: "Tedarikçiden bağımsız bir veri platformu mimarisi tasarlar: alım (ingestion), depolama ve işleme katmanları, sunum örüntüleri, yönetişim, güvenlik, işletim modeli ve warehouse, lakehouse, mesh ya da hibrit arasındaki seçim; kararlar gereksinimlere izlenir. Hedef veri platformu tanımlanırken, eski bir veri ambarı modernize edilirken ya da lakehouse, data mesh veya referans veri mimarisi istendiğinde kullanılır."
-related: "target-state-architecture, technology-selection, adr, data-contract, cloud-cost-estimate"
-prompt: "SAP, MES ve IoT kaynakları, BI ve ML tüketicileri ve küçük bir merkezi veri ekibi olan bir üretici için hedef veri platformu tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Veri platformu tasarlama"
+  related: "target-state-architecture, technology-selection, adr, data-contract, cloud-cost-estimate"
+  prompt: "SAP, MES ve IoT kaynakları, BI ve ML tüketicileri ve küçük bir merkezi veri ekibi olan bir üretici için hedef veri platformu tasarla."
 ---
 
 # Veri Platformu Tasarlama

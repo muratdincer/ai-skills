@@ -1,7 +1,16 @@
 ---
-description: İş hedeflerine bağlı, açık ödünleşimler, yapılmayacaklar ve ilerleme ölçütleri içeren; teşhis, yol gösterici politika ve tutarlı aksiyonlar şeklinde yapılandırılmış bir teknoloji stratejisi yazar. Bir CTO veya teknoloji liderinin çok yıllı bir yöne ihtiyacı olduğunda, mevcut planlar seçim içermeyen dilek listeleri olduğunda ya da mimari, platform, yetenek ve yatırım kararlarını iş stratejisiyle hizalarken kullanılır.
-related: target-state-architecture, architecture-principles, product-strategy-one-pager, tech-radar, budget-proposal
-prompt: Sigorta şirketimiz için 3 yıllık teknoloji stratejisi yaz; eski bir çekirdek sistemimiz, yavaş sürümlerimiz ve yeni bir dijital satış hedefimiz var.
+name: technology-strategy
+description: "İş hedeflerine bağlı, açık ödünleşimler, yapılmayacaklar ve ilerleme ölçütleri içeren; teşhis, yol gösterici politika ve tutarlı aksiyonlar şeklinde yapılandırılmış bir teknoloji stratejisi yazar. Bir CTO veya teknoloji liderinin çok yıllı bir yöne ihtiyacı olduğunda, mevcut planlar seçim içermeyen dilek listeleri olduğunda ya da mimari, platform, yetenek ve yatırım kararlarını iş stratejisiyle hizalarken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Teknoloji stratejisi yazma"
+  related: "target-state-architecture, architecture-principles, product-strategy-one-pager, tech-radar, budget-proposal"
+  prompt: "Sigorta şirketimiz için 3 yıllık teknoloji stratejisi yaz; eski bir çekirdek sistemimiz, yavaş sürümlerimiz ve yeni bir dijital satış hedefimiz var."
 ---
 
 # Teknoloji Stratejisi Yazma

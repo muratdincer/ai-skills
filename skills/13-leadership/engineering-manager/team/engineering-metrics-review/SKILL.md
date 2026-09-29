@@ -1,7 +1,16 @@
 ---
-description: Reviews engineering delivery metrics using DORA (deployment frequency, lead time for changes, change failure rate, time to restore) and SPACE dimensions, interprets trends with context, detects gaming and data-quality issues, and proposes improvement experiments. Use when preparing a metrics review for a team or organization, when leadership asks for productivity numbers, or when metrics are being misused to compare individuals.
-related: cycle-time-analysis, team-health-check, kpi-definition, metric-definition, velocity-analysis
-prompt: Here are our DORA numbers for the last two quarters for four teams. Review them and tell me what to discuss with the teams.
+name: engineering-metrics-review
+description: "Reviews engineering delivery metrics using DORA (deployment frequency, lead time for changes, change failure rate, time to restore) and SPACE dimensions, interprets trends with context, detects gaming and data-quality issues, and proposes improvement experiments. Use when preparing a metrics review for a team or organization, when leadership asks for productivity numbers, or when metrics are being misused to compare individuals."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Review engineering metrics (DORA/SPACE)"
+  related: "cycle-time-analysis, team-health-check, kpi-definition, metric-definition, velocity-analysis"
+  prompt: "Here are our DORA numbers for the last two quarters for four teams. Review them and tell me what to discuss with the teams."
 ---
 
 # Review Engineering Metrics (DORA/SPACE)

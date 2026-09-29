@@ -1,7 +1,16 @@
 ---
-description: Defines a role with its mission, outcomes, responsibilities, decision rights, interfaces with other roles, and what the role is not accountable for. Use when creating a new role (e.g. staff engineer, tech lead, platform product owner), when two roles overlap or conflict, or when decision rights are unclear and work falls between roles.
-related: raci-matrix, career-ladder, job-description, team-topology, governance-framework
-prompt: Define the tech lead role in our teams; people confuse it with the engineering manager and the architect.
+name: role-definition
+description: "Defines a role with its mission, outcomes, responsibilities, decision rights, interfaces with other roles, and what the role is not accountable for. Use when creating a new role (e.g. staff engineer, tech lead, platform product owner), when two roles overlap or conflict, or when decision rights are unclear and work falls between roles."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Define a role"
+  related: "raci-matrix, career-ladder, job-description, team-topology, governance-framework"
+  prompt: "Define the tech lead role in our teams; people confuse it with the engineering manager and the architect."
 ---
 
 # Define a Role

@@ -1,7 +1,16 @@
 ---
-description: Kapsam içi ve dışı işleri, kabul kriterleriyle teslimatları, kısıtları, varsayımları ve hariç tutulanları tanımlayan, değişiklik kontrolü için baz çizgisi oluşturan proje kapsam tanımını yazar. Başlatma belgesi hazır olduğunda kapsamın planlama, tahmin ve sözleşme yapılabilecek netliğe getirilmesi gerektiğinde ya da kapsam kaymasına karşı açık bir referans gerektiğinde kullanılır.
-related: project-charter, wbs, change-control, acceptance-certificate, statement-of-work
-prompt: Bu başlatma belgesine ve çalıştay notlarına göre müşteri self-servis portalı projesi için kapsam tanımı yaz.
+name: scope-statement
+description: "Kapsam içi ve dışı işleri, kabul kriterleriyle teslimatları, kısıtları, varsayımları ve hariç tutulanları tanımlayan, değişiklik kontrolü için baz çizgisi oluşturan proje kapsam tanımını yazar. Başlatma belgesi hazır olduğunda kapsamın planlama, tahmin ve sözleşme yapılabilecek netliğe getirilmesi gerektiğinde ya da kapsam kaymasına karşı açık bir referans gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Kapsam tanımı yazma"
+  related: "project-charter, wbs, change-control, acceptance-certificate, statement-of-work"
+  prompt: "Bu başlatma belgesine ve çalıştay notlarına göre müşteri self-servis portalı projesi için kapsam tanımı yaz."
 ---
 
 # Kapsam Tanımı Yazma

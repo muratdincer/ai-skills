@@ -1,7 +1,16 @@
 ---
-description: Toplantı bilgileri, katılım ve yeter sayı, sırasıyla gündem maddeleri, özlü görüşme kayıtları, oylama veya onay sonucuyla numaralandırılmış kararlar, aksiyonlar ve onay imzalarını içeren resmi toplantı tutanağı oluşturur. Yönlendirme komiteleri, yönetim kurulları, değişiklik danışma kurulları, denetimler, sözleşmesel veya tedarikçi toplantıları ya da kaydın kanıt olarak kullanılabileceği her durumda kullanılır.
-related: meeting-notes, meeting-summary, decision-log, steering-committee-pack, audit-preparation
-prompt: Dünkü proje yönlendirme komitesi için bu notlardan resmi tutanak yaz; iki değişiklik talebi onaylandı, biri ertelendi.
+name: meeting-minutes
+description: "Toplantı bilgileri, katılım ve yeter sayı, sırasıyla gündem maddeleri, özlü görüşme kayıtları, oylama veya onay sonucuyla numaralandırılmış kararlar, aksiyonlar ve onay imzalarını içeren resmi toplantı tutanağı oluşturur. Yönlendirme komiteleri, yönetim kurulları, değişiklik danışma kurulları, denetimler, sözleşmesel veya tedarikçi toplantıları ya da kaydın kanıt olarak kullanılabileceği her durumda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Resmi toplantı tutanağı yazma"
+  related: "meeting-notes, meeting-summary, decision-log, steering-committee-pack, audit-preparation"
+  prompt: "Dünkü proje yönlendirme komitesi için bu notlardan resmi tutanak yaz; iki değişiklik talebi onaylandı, biri ertelendi."
 ---
 
 # Resmi Toplantı Tutanağı Yazma

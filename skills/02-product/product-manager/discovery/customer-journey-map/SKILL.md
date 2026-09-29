@@ -1,7 +1,16 @@
 ---
-description: Maps a customer journey for one persona and scenario across stages, with actions, thoughts, emotions, touchpoints, channels, pains, moments of truth and backstage owners, and ranks improvement opportunities. Use when you need to understand an end-to-end experience, find where customers struggle or drop out, align teams across channels, or when someone asks for a journey map.
-related: persona, jobs-to-be-done, funnel-analysis, user-flow, as-is-process
-prompt: Map the customer journey for a first-time buyer of home insurance through our website and call center.
+name: customer-journey-map
+description: "Maps a customer journey for one persona and scenario across stages, with actions, thoughts, emotions, touchpoints, channels, pains, moments of truth and backstage owners, and ranks improvement opportunities. Use when you need to understand an end-to-end experience, find where customers struggle or drop out, align teams across channels, or when someone asks for a journey map."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Map the customer journey"
+  related: "persona, jobs-to-be-done, funnel-analysis, user-flow, as-is-process"
+  prompt: "Map the customer journey for a first-time buyer of home insurance through our website and call center."
 ---
 
 # Map the Customer Journey

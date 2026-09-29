@@ -1,7 +1,16 @@
 ---
+name: code-explanation
 description: "Explains what a piece of code does, why it is likely written that way and what risks it carries, at the depth the reader needs: a one-paragraph summary, a step-by-step walkthrough of control and data flow, side effects, assumptions, edge cases and suspicious spots. Use when someone pastes code and asks what it does, how it works, why it behaves a certain way, or needs to understand code before changing or reviewing it."
-related: "legacy-code-comprehension, code-documentation, clean-code-review, regex-builder, technical-onboarding"
-prompt: "Explain what this function does and whether anything in it looks risky."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Explain code"
+  related: "legacy-code-comprehension, code-documentation, clean-code-review, regex-builder, technical-onboarding"
+  prompt: "Explain what this function does and whether anything in it looks risky."
 ---
 
 # Explain Code

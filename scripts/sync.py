@@ -22,6 +22,16 @@ RESERVED = ("anthropic", "claude", "openai", "gemini", "copilot")
 VERSION = "1.0.0"
 
 
+
+def unquote(value):
+    """Parse a YAML scalar written by sync.py; collapse any stray escaping left by hand edits."""
+    v = value.strip()
+    if len(v) >= 2 and v[0] == v[-1] == '"':
+        v = v[1:-1]
+    while '\\"' in v or '\\\\' in v:
+        v = v.replace('\\\\', '\\').replace('\\"', '"')
+    return v
+
 def split_frontmatter(text):
     m = re.match(r"^---\n(.*?)\n---\n?(.*)$", text, re.S)
     if not m:
@@ -30,7 +40,7 @@ def split_frontmatter(text):
     for line in m.group(1).splitlines():
         kv = re.match(r"^\s*([A-Za-z_-]+):\s*(.*)$", line)
         if kv and kv.group(2):
-            fm[kv.group(1)] = kv.group(2).strip().strip('"')
+            fm[kv.group(1)] = unquote(kv.group(2))
     return fm, m.group(2).lstrip("\n")
 
 

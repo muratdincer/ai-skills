@@ -1,7 +1,16 @@
 ---
+name: agile-maturity-assessment
 description: "Assesses a team's or unit's agile maturity in a methodology-neutral way: scores practice areas (customer value and product ownership, planning and forecasting, flow and delivery, technical practices, quality, continuous improvement, team autonomy, stakeholder collaboration) on a 1-5 evidence-based scale, identifies constraints rather than averaging, and proposes the next 2-3 improvements with observable outcomes. Use when a leader or coach asks how agile a team really is, needs a baseline before a transformation, or wants to decide what to improve next."
-related: "team-health-check, retrospective-facilitation, wip-policy, engineering-metrics-review, current-state-assessment"
-prompt: "Assess our team's agile maturity. We do two-week iterations, releases are quarterly, the product owner is part-time, and there is no test automation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Assess agile maturity"
+  related: "team-health-check, retrospective-facilitation, wip-policy, engineering-metrics-review, current-state-assessment"
+  prompt: "Assess our team's agile maturity. We do two-week iterations, releases are quarterly, the product owner is part-time, and there is no test automation."
 ---
 
 # Assess Agile Maturity

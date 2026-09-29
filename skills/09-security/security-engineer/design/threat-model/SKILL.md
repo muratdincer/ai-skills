@@ -1,7 +1,16 @@
 ---
+name: threat-model
 description: "Builds a threat model for a system or feature by decomposing it into a data flow diagram, applying STRIDE per element and trust boundary, rating each threat and proposing mitigations with owners. Use when designing a new system, adding an integration, changing trust boundaries or data flows, or when someone asks what could go wrong security-wise."
-related: "security-requirements, authn-authz-design, solution-architecture-document, pentest-scope, it-risk-assessment"
-prompt: "Build a threat model for our new mobile banking API: mobile app, API gateway, .NET backend, PostgreSQL and a third-party KYC provider."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Build a threat model"
+  related: "security-requirements, authn-authz-design, solution-architecture-document, pentest-scope, it-risk-assessment"
+  prompt: "Build a threat model for our new mobile banking API: mobile app, API gateway, .NET backend, PostgreSQL and a third-party KYC provider."
 ---
 
 # Build a Threat Model

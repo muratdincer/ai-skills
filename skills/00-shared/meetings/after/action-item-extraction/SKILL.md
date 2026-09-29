@@ -1,7 +1,16 @@
 ---
-description: Finds every explicit and implicit commitment in meeting notes, transcripts, emails or chat threads and turns each into a verifiable action item with a single owner, due date, status and source reference, flagging missing owners or dates. Use when someone asks "what are the action items?", "who does what?", or needs tasks ready for a tracker after a meeting or discussion.
-related: meeting-notes, meeting-follow-up, open-questions-tracker, decision-log, task-breakdown
-prompt: Extract all action items from this transcript of our release readiness call and put them in a table.
+name: action-item-extraction
+description: "Finds every explicit and implicit commitment in meeting notes, transcripts, emails or chat threads and turns each into a verifiable action item with a single owner, due date, status and source reference, flagging missing owners or dates. Use when someone asks \"what are the action items?\", \"who does what?\", or needs tasks ready for a tracker after a meeting or discussion."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Extract action items"
+  related: "meeting-notes, meeting-follow-up, open-questions-tracker, decision-log, task-breakdown"
+  prompt: "Extract all action items from this transcript of our release readiness call and put them in a table."
 ---
 
 # Extract Action Items

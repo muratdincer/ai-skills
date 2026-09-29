@@ -1,7 +1,16 @@
 ---
+name: burndown-analysis
 description: "Interprets burndown and burnup charts or their underlying daily data for an iteration or release: reads the shape, separates progress from scope change, detects patterns such as late drops, flat lines and scope creep, and flags risks with recommended actions. Use when someone shares a burndown/burnup chart, daily remaining-work numbers or asks whether an iteration or release is on track."
-related: "velocity-analysis, monte-carlo-forecast, daily-sync-summary, iteration-planning, project-status-report"
-prompt: "Day 7 of 10 in our sprint. Remaining points by day: 40, 40, 38, 38, 38, 35, 35. Two stories were added on day 4. Are we going to make it?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Read burndown/burnup charts"
+  related: "velocity-analysis, monte-carlo-forecast, daily-sync-summary, iteration-planning, project-status-report"
+  prompt: "Day 7 of 10 in our sprint. Remaining points by day: 40, 40, 38, 38, 38, 35, 35. Two stories were added on day 4. Are we going to make it?"
 ---
 
 # Read Burndown/Burnup Charts

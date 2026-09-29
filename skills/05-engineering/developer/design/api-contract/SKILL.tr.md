@@ -1,7 +1,16 @@
 ---
+name: api-contract
 description: "Gereksinimlerden kaynaklar, operasyonlar, şemalar, hata modeli, güvenlik, sürümleme ve örnekler içeren OpenAPI (HTTP) veya AsyncAPI (olay/mesaj) şartnamesi biçiminde bir API sözleşmesi yazar. Yeni bir uç nokta, servis veya olayın uygulamadan önce üretici ve tüketiciler arasında mutabık kalınması gerektiğinde ya da OpenAPI/Swagger veya AsyncAPI şartnamesi istendiğinde kullanılır."
-related: "api-design-review, api-reference-docs, integration-requirements, technical-design-doc, api-test-design"
-prompt: "İş ortaklarının gönderi oluşturmasını, gönderi durumunu sorgulamasını ve teslim alınmadan önce gönderiyi iptal etmesini sağlayan bir servis için OpenAPI sözleşmesi yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "API sözleşmesi yazma"
+  related: "api-design-review, api-reference-docs, integration-requirements, technical-design-doc, api-test-design"
+  prompt: "İş ortaklarının gönderi oluşturmasını, gönderi durumunu sorgulamasını ve teslim alınmadan önce gönderiyi iptal etmesini sağlayan bir servis için OpenAPI sözleşmesi yaz."
 ---
 
 # API Sözleşmesi Yazma

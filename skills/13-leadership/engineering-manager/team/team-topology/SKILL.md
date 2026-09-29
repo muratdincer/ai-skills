@@ -1,7 +1,16 @@
 ---
-description: Designs or reviews a team topology using stream-aligned, platform, enabling and complicated-subsystem team types and their interaction modes, based on value streams, cognitive load and dependencies. Use when forming or splitting teams, when handoffs and cross-team dependencies slow delivery, when a platform team is being considered, or when team boundaries do not match the architecture.
-related: bounded-context-map, service-decomposition, role-definition, cross-team-dependency-board, org-change-communication
-prompt: We have 5 teams and 40 engineers, every feature needs 3 teams. Propose a team topology for our e-commerce platform.
+name: team-topology
+description: "Designs or reviews a team topology using stream-aligned, platform, enabling and complicated-subsystem team types and their interaction modes, based on value streams, cognitive load and dependencies. Use when forming or splitting teams, when handoffs and cross-team dependencies slow delivery, when a platform team is being considered, or when team boundaries do not match the architecture."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Design team topology"
+  related: "bounded-context-map, service-decomposition, role-definition, cross-team-dependency-board, org-change-communication"
+  prompt: "We have 5 teams and 40 engineers, every feature needs 3 teams. Propose a team topology for our e-commerce platform."
 ---
 
 # Design Team Topology

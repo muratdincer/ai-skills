@@ -1,7 +1,16 @@
 ---
+name: questionnaire-design
 description: "Designs an unbiased requirements questionnaire for a large or distributed audience: objectives, target population, question types and wording free of leading or double-barreled items, logic/branching, pilot plan, privacy notice and analysis plan. Use when many users or sites must be asked the same things, or when asked to 'create a survey to gather requirements'."
-related: "interview-question-set, screener-survey, feedback-synthesis, research-plan, data-classification"
-prompt: "Design a survey for 400 branch employees to find out which tasks in the current loan application screen take the most time."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Design a questionnaire"
+  related: "interview-question-set, screener-survey, feedback-synthesis, research-plan, data-classification"
+  prompt: "Design a survey for 400 branch employees to find out which tasks in the current loan application screen take the most time."
 ---
 
 # Design a Questionnaire

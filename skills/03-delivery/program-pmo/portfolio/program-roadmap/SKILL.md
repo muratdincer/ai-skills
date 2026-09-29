@@ -1,7 +1,16 @@
 ---
-description: Builds a program roadmap that sequences the work of several teams or projects toward shared outcomes, showing cross-team milestones, integration points, decision gates and the critical path, with confidence levels instead of false precision. Use when a program spans multiple teams or vendors, when leadership needs one view of how parallel workstreams converge, or when someone asks for a program-level plan, timeline or integrated roadmap.
-related: cross-team-dependency-board, portfolio-prioritization, roadmap, release-planning, schedule-plan
-prompt: Build a program roadmap for our core banking migration: 5 teams, a vendor, and a regulatory go-live in Q4.
+name: program-roadmap
+description: "Builds a program roadmap that sequences the work of several teams or projects toward shared outcomes, showing cross-team milestones, integration points, decision gates and the critical path, with confidence levels instead of false precision. Use when a program spans multiple teams or vendors, when leadership needs one view of how parallel workstreams converge, or when someone asks for a program-level plan, timeline or integrated roadmap."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Build a program roadmap"
+  related: "cross-team-dependency-board, portfolio-prioritization, roadmap, release-planning, schedule-plan"
+  prompt: "Build a program roadmap for our core banking migration: 5 teams, a vendor, and a regulatory go-live in Q4."
 ---
 
 # Build a Program Roadmap

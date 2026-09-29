@@ -1,7 +1,16 @@
 ---
-description: Architecture Tradeoff Analysis Method (ATAM) örnek alınarak bir değerlendirmeyi planlar ve belgeler; iş sürücülerini, önceliklendirilmiş kalite niteliği fayda ağacını, mimari yaklaşımların öncelikli senaryolara göre analizini ve ortaya çıkan hassasiyet noktalarını, ödünleşim noktalarını, riskleri, risk olmayanları ve risk temalarını üretir. Önemli bir mimari taahhüt öncesinde paydaşlarla değerlendirilecekse, kalite hedefleri çelişiyorsa veya bağımsız, yapılandırılmış bir değerlendirme isteniyorsa kullanılır.
-related: nfr-to-architecture, architecture-review, trade-off-analysis, workshop-plan, adr
-prompt: Olay güdümlü ödeme platformumuz için ATAM tarzı bir değerlendirme hazırla; temel kaygılar gecikme, iki veri merkezinde erişilebilirlik ve denetlenebilirlik.
+name: atam-evaluation
+description: "Architecture Tradeoff Analysis Method (ATAM) örnek alınarak bir değerlendirmeyi planlar ve belgeler; iş sürücülerini, önceliklendirilmiş kalite niteliği fayda ağacını, mimari yaklaşımların öncelikli senaryolara göre analizini ve ortaya çıkan hassasiyet noktalarını, ödünleşim noktalarını, riskleri, risk olmayanları ve risk temalarını üretir. Önemli bir mimari taahhüt öncesinde paydaşlarla değerlendirilecekse, kalite hedefleri çelişiyorsa veya bağımsız, yapılandırılmış bir değerlendirme isteniyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "ATAM tarzı değerlendirme"
+  related: "nfr-to-architecture, architecture-review, trade-off-analysis, workshop-plan, adr"
+  prompt: "Olay güdümlü ödeme platformumuz için ATAM tarzı bir değerlendirme hazırla; temel kaygılar gecikme, iki veri merkezinde erişilebilirlik ve denetlenebilirlik."
 ---
 
 # ATAM Tarzı Değerlendirme

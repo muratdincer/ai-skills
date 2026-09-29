@@ -1,7 +1,16 @@
 ---
-description: Ekipler arası bağımlılık planlamasını yürütür; ekipler arasındaki her bağımlılığı ortaya çıkarır, her birini açık hale getirir (sağlayan, tüketen, ne, gereken tarih), bir taahhüt ya da alternatif üzerinde müzakere eder ve eskalasyon kurallarıyla ortak bir panoda durumunu izler. Birden fazla ekip aynı dönemi birlikte planlarken, bir program ekipler arası beklemeler yüzünden sürekli kayarken veya ekipler arası bağımlılıkların haritalanması, müzakere edilmesi ya da izlenmesi istendiğinde kullanılır.
-related: dependency-map, program-roadmap, raid-log, escalation-message, negotiation-prep
-prompt: Önümüzdeki çeyreğin planlaması için bir bağımlılık panosu kur; 4 ekip var ve ödeme adımı ekibi neredeyse her şey için ödeme ve kimlik ekiplerine bağımlı.
+name: cross-team-dependency-board
+description: "Ekipler arası bağımlılık planlamasını yürütür; ekipler arasındaki her bağımlılığı ortaya çıkarır, her birini açık hale getirir (sağlayan, tüketen, ne, gereken tarih), bir taahhüt ya da alternatif üzerinde müzakere eder ve eskalasyon kurallarıyla ortak bir panoda durumunu izler. Birden fazla ekip aynı dönemi birlikte planlarken, bir program ekipler arası beklemeler yüzünden sürekli kayarken veya ekipler arası bağımlılıkların haritalanması, müzakere edilmesi ya da izlenmesi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Ekipler arası bağımlılık planlaması"
+  related: "dependency-map, program-roadmap, raid-log, escalation-message, negotiation-prep"
+  prompt: "Önümüzdeki çeyreğin planlaması için bir bağımlılık panosu kur; 4 ekip var ve ödeme adımı ekibi neredeyse her şey için ödeme ve kimlik ekiplerine bağımlı."
 ---
 
 # Ekipler Arası Bağımlılık Planlaması

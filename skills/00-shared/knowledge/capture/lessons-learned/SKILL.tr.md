@@ -1,7 +1,16 @@
 ---
-description: Bir proje, sürüm, faz, olay veya girişimden çıkarılan dersleri; neyin işe yarayıp neyin yaramadığına dair kanıta dayalı gözlemler, nedenleri ve korunacak ya da değiştirilecek, sahibi ve uygulanacağı yer belli somut aksiyonlar olarak kayda geçirir. Bir proje veya fazın sonunda, bir sürüm ya da önemli bir olaydan sonra, kapanış raporu hazırlanırken veya notlar, retrospektifler ya da zaman çizelgelerinden "çıkarılan dersleri yaz" dendiğinde kullanılır.
-related: retrospective-facilitation, postmortem, project-closure-report, kb-article, action-item-extraction
-prompt: Bu retro notlarını ve zaman çizelgesini kullanarak CRM geçiş projemizden çıkarılan dersleri yaz.
+name: lessons-learned
+description: "Bir proje, sürüm, faz, olay veya girişimden çıkarılan dersleri; neyin işe yarayıp neyin yaramadığına dair kanıta dayalı gözlemler, nedenleri ve korunacak ya da değiştirilecek, sahibi ve uygulanacağı yer belli somut aksiyonlar olarak kayda geçirir. Bir proje veya fazın sonunda, bir sürüm ya da önemli bir olaydan sonra, kapanış raporu hazırlanırken veya notlar, retrospektifler ya da zaman çizelgelerinden \"çıkarılan dersleri yaz\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Çıkarılan dersleri kaydetme"
+  related: "retrospective-facilitation, postmortem, project-closure-report, kb-article, action-item-extraction"
+  prompt: "Bu retro notlarını ve zaman çizelgesini kullanarak CRM geçiş projemizden çıkarılan dersleri yaz."
 ---
 
 # Çıkarılan Dersleri Kaydetme

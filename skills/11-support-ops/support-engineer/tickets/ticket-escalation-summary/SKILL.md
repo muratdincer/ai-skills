@@ -1,7 +1,16 @@
 ---
+name: ticket-escalation-summary
 description: "Condenses a support ticket and its history into an escalation summary for the next support level, engineering or a vendor: business impact, precise symptom, environment, timeline, what was tried with results, evidence and the exact ask. Use when a ticket must move from L1 to L2/L3, to a product team or to a third party, when a long ticket thread needs a handover note, or when a customer pushes for escalation."
-related: "ticket-triage, ticket-response, log-analysis, bug-report, problem-management"
-prompt: "Summarize this 30-message ticket for L3: users get 'session expired' every few minutes on the web portal since Tuesday; we cleared caches and reset passwords, no change."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Summarize a ticket for escalation"
+  related: "ticket-triage, ticket-response, log-analysis, bug-report, problem-management"
+  prompt: "Summarize this 30-message ticket for L3: users get 'session expired' every few minutes on the web portal since Tuesday; we cleared caches and reset passwords, no change."
 ---
 
 # Summarize a Ticket for Escalation

@@ -1,7 +1,16 @@
 ---
+name: process-gap-analysis
 description: "Mevcut (as-is) süreci hedef (to-be) süreçle adım adım karşılaştırır; her farkı insan, süreç, teknoloji, veri veya politika boyutunda gereken bir değişiklik olarak, etkisi, bağımlılıkları ve sorumlusuyla listeler. Hedef süreç tasarlandıktan sonra oraya ulaşmak için değişiklik listesi, iş paketleri veya geçiş planı gerektiğinde ya da 'as-is'ten to-be'ye geçmek için ne değişmeli?' sorulduğunda kullanılır."
-related: "as-is-process, to-be-process, impact-analysis, fit-gap-analysis, raci-matrix"
-prompt: "Fatura onay sürecimizin as-is ve to-be hallerini paylaşıyorum. Fark analizini ve nelerin değişmesi gerektiğini çıkar."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "As-is/to-be fark analizi"
+  related: "as-is-process, to-be-process, impact-analysis, fit-gap-analysis, raci-matrix"
+  prompt: "Fatura onay sürecimizin as-is ve to-be hallerini paylaşıyorum. Fark analizini ve nelerin değişmesi gerektiğini çıkar."
 ---
 
 # As-Is/To-Be Fark Analizi

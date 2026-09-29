@@ -1,7 +1,16 @@
 ---
-description: Bir iş metriğini, iki analistin aynı sayıyı hesaplayacağı kesinlikte tanımlar; amaç, formül, pay/payda, filtreler, tanecik, zaman mantığı, uç durumlar, kaynak alanlar ve sahip. Bir metrik tartışmalı olduğunda, ekipler arasında farklı raporlandığında, dashboard'a veya OKR'a eklenmek üzereyken ya da metrik kataloğuna yazılması gerektiğinde kullanılır.
-related: kpi-definition, dashboard-spec, north-star-metric, data-quality-rules, glossary-builder
-prompt: "Aktif müşteri" metriğini kesin olarak tanımla; finans ve ürün her ay farklı sayı raporluyor.
+name: metric-definition
+description: "Bir iş metriğini, iki analistin aynı sayıyı hesaplayacağı kesinlikte tanımlar; amaç, formül, pay/payda, filtreler, tanecik, zaman mantığı, uç durumlar, kaynak alanlar ve sahip. Bir metrik tartışmalı olduğunda, ekipler arasında farklı raporlandığında, dashboard'a veya OKR'a eklenmek üzereyken ya da metrik kataloğuna yazılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Metriği kesin tanımlama"
+  related: "kpi-definition, dashboard-spec, north-star-metric, data-quality-rules, glossary-builder"
+  prompt: "Aktif müşteri\" metriğini kesin olarak tanımla; finans ve ürün her ay farklı sayı raporluyor."
 ---
 
 # Metriği Kesin Tanımlama

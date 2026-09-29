@@ -1,7 +1,16 @@
 ---
-description: Teknolojileri çeyrekler (teknikler, platformlar, araçlar, diller ve framework'ler) boyunca Benimse, Dene, Değerlendir ve Beklet halkalarına yerleştiren bir teknoloji radarı oluşturur veya günceller; kanıta dayalı gerekçe, önceki sürüme göre hareket ve ekipler için yönlendirme içerir. Teknoloji yelpazesini standartlaştırırken, dönemsel bir radar yayınlarken veya bir ekibin yeni bir teknolojiyi kullanıp kullanamayacağına karar verirken kullanılır.
-related: technology-selection, architecture-principles, technology-strategy, adr, dependency-upgrade
-prompt: Teknoloji radarımızı şu önerilerle güncelle: gRPC'yi Değerlendir'den Dene'ye taşı, AngularJS'i Beklet'e al ve OpenTelemetry'yi ekle.
+name: tech-radar
+description: "Teknolojileri çeyrekler (teknikler, platformlar, araçlar, diller ve framework'ler) boyunca Benimse, Dene, Değerlendir ve Beklet halkalarına yerleştiren bir teknoloji radarı oluşturur veya günceller; kanıta dayalı gerekçe, önceki sürüme göre hareket ve ekipler için yönlendirme içerir. Teknoloji yelpazesini standartlaştırırken, dönemsel bir radar yayınlarken veya bir ekibin yeni bir teknolojiyi kullanıp kullanamayacağına karar verirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Teknoloji radarı"
+  related: "technology-selection, architecture-principles, technology-strategy, adr, dependency-upgrade"
+  prompt: "Teknoloji radarımızı şu önerilerle güncelle: gRPC'yi Değerlendir'den Dene'ye taşı, AngularJS'i Beklet'e al ve OpenTelemetry'yi ekle."
 ---
 
 # Teknoloji Radarı

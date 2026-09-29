@@ -1,7 +1,16 @@
 ---
+name: problem-statement
 description: "Frames a problem as a precise, solution-free statement of who is affected, what happens, when and where, with quantified impact and evidence, plus boundaries and success signals. Use at the start of any initiative, investigation, improvement or design effort, when a team jumps to solutions, when stakeholders describe the same issue differently, or when someone asks to define or reframe a problem."
-related: "five-whys, fishbone-analysis, assumption-mapping, hypothesis-statement, request-intake-document"
-prompt: "Write a problem statement: customers keep complaining that the monthly invoice is wrong and support is overloaded at the start of each month."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Write a problem statement"
+  related: "five-whys, fishbone-analysis, assumption-mapping, hypothesis-statement, request-intake-document"
+  prompt: "Write a problem statement: customers keep complaining that the monthly invoice is wrong and support is overloaded at the start of each month."
 ---
 
 # Write a Problem Statement

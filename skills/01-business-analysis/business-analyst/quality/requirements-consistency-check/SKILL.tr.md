@@ -1,7 +1,16 @@
 ---
+name: requirements-consistency-check
 description: "Gereksinimleri birbirleriyle ve iş kuralları, sözlük, veri ve NFR'lerle karşılaştırarak çelişkileri, tekrarları, örtüşmeleri, tutarsız terimleri ve çatışan değerleri bulur; her biri için bir çözüm yolu önerir. Aynı kapsamı birden fazla doküman, yazar veya sürüm tarif ettiğinde, farklı ekiplerin hikayeleri birleştirildiğinde ya da gereksinimler temel sürüme (baseline) alınmadan önce kullanılır."
-related: "ambiguity-detection, requirements-gap-analysis, business-rules-catalog, glossary-builder, traceability-matrix"
-prompt: "Aynı faturalama kapsamı için bir BRD, bir FRD ve 45 kullanıcı hikayemiz var. Çelişkileri ve tekrarları bul."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Gereksinim tutarlılık kontrolü"
+  related: "ambiguity-detection, requirements-gap-analysis, business-rules-catalog, glossary-builder, traceability-matrix"
+  prompt: "Aynı faturalama kapsamı için bir BRD, bir FRD ve 45 kullanıcı hikayemiz var. Çelişkileri ve tekrarları bul."
 ---
 
 # Gereksinim Tutarlılık Kontrolü

@@ -1,7 +1,16 @@
 ---
-description: Designs or restructures the information architecture of a documentation set using the Diátaxis quadrants (tutorials, how-to guides, reference, explanation): audits existing pages, classifies and splits mixed content, defines navigation, naming and page types, and produces a target site map with a migration plan. Use when docs are hard to navigate, when pages mix learning, tasks, reference and concepts, when a new product or portal needs a documentation structure, or before a docs migration or consolidation.
-related: tutorial, how-to-guide, user-guide, api-reference-docs, glossary-builder
-prompt: Here is our current docs sidebar with 60 pages; propose a restructure so developers can find setup, tasks and API reference faster.
+name: docs-information-architecture
+description: "Designs or restructures the information architecture of a documentation set using the Diátaxis quadrants (tutorials, how-to guides, reference, explanation): audits existing pages, classifies and splits mixed content, defines navigation, naming and page types, and produces a target site map with a migration plan. Use when docs are hard to navigate, when pages mix learning, tasks, reference and concepts, when a new product or portal needs a documentation structure, or before a docs migration or consolidation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Structure documentation"
+  related: "tutorial, how-to-guide, user-guide, api-reference-docs, glossary-builder"
+  prompt: "Here is our current docs sidebar with 60 pages; propose a restructure so developers can find setup, tasks and API reference faster."
 ---
 
 # Structure Documentation

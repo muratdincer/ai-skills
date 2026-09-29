@@ -1,7 +1,16 @@
 ---
-description: Defines a target-state architecture by describing the baseline, the target across business, data, application and technology views, the gaps between them and a transition roadmap of plateaus with dependencies and decision points. Use when a transformation, platform consolidation or multi-year program needs a shared picture of where the architecture should be and how to get there.
-related: capability-map, architecture-principles, migration-strategy, application-portfolio-assessment, roadmap
-prompt: Define the target-state architecture for moving our monolithic order management and nightly batch integrations to domain services with event streaming over three years.
+name: target-state-architecture
+description: "Defines a target-state architecture by describing the baseline, the target across business, data, application and technology views, the gaps between them and a transition roadmap of plateaus with dependencies and decision points. Use when a transformation, platform consolidation or multi-year program needs a shared picture of where the architecture should be and how to get there."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Define target-state architecture"
+  related: "capability-map, architecture-principles, migration-strategy, application-portfolio-assessment, roadmap"
+  prompt: "Define the target-state architecture for moving our monolithic order management and nightly batch integrations to domain services with event streaming over three years."
 ---
 
 # Define Target-State Architecture

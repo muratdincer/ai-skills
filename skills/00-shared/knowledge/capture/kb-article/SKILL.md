@@ -1,7 +1,16 @@
 ---
-description: Writes a searchable knowledge base article (how-to, troubleshooting, or explanation) from notes, tickets, chat threads or expert input, with a findable title, the symptoms and search terms readers actually use, applicability, verified steps, expected results and ownership. Use when a question keeps being asked, a support ticket or incident produced a reusable fix, tribal knowledge must be written down, or someone asks to "write a KB article" or "document this for the wiki".
-related: how-to-guide, faq-builder, runbook, document-review, glossary-builder
-prompt: Turn this support thread about VPN certificate errors on new laptops into a KB article.
+name: kb-article
+description: "Writes a searchable knowledge base article (how-to, troubleshooting, or explanation) from notes, tickets, chat threads or expert input, with a findable title, the symptoms and search terms readers actually use, applicability, verified steps, expected results and ownership. Use when a question keeps being asked, a support ticket or incident produced a reusable fix, tribal knowledge must be written down, or someone asks to \"write a KB article\" or \"document this for the wiki\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Write a knowledge base article"
+  related: "how-to-guide, faq-builder, runbook, document-review, glossary-builder"
+  prompt: "Turn this support thread about VPN certificate errors on new laptops into a KB article."
 ---
 
 # Write a Knowledge Base Article

@@ -1,7 +1,16 @@
 ---
-description: Tek bir müşteri segmenti için değer önerisi kanvasını doldurur; müşteri işlerini, sorunlarını ve kazanımlarını ürün ve hizmetlerle, sorun gidericilerle ve kazanım yaratıcılarla eşler, bunları önem sırasına koyar, problem-çözüm uyumunu kontrol eder ve sınanacak varsayımları listeler. Bir değer önerisi tanımlanırken veya keskinleştirilirken, bir ürün fikrinin gerçek sorunlara dokunup dokunmadığı kontrol edilirken, konumlandırma veya keşif çalışması hazırlanırken ya da "değer önerisi kanvası" veya "uyum" analizi istendiğinde kullanılır.
-related: jobs-to-be-done, persona, positioning-statement, business-model-canvas, hypothesis-statement
-prompt: Orta ölçekli distribütörlerdeki saha satış temsilcileri için masraf uygulamamızın değer önerisi kanvasını doldur.
+name: value-proposition-canvas
+description: "Tek bir müşteri segmenti için değer önerisi kanvasını doldurur; müşteri işlerini, sorunlarını ve kazanımlarını ürün ve hizmetlerle, sorun gidericilerle ve kazanım yaratıcılarla eşler, bunları önem sırasına koyar, problem-çözüm uyumunu kontrol eder ve sınanacak varsayımları listeler. Bir değer önerisi tanımlanırken veya keskinleştirilirken, bir ürün fikrinin gerçek sorunlara dokunup dokunmadığı kontrol edilirken, konumlandırma veya keşif çalışması hazırlanırken ya da \"değer önerisi kanvası\" veya \"uyum\" analizi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Değer önerisi kanvası"
+  related: "jobs-to-be-done, persona, positioning-statement, business-model-canvas, hypothesis-statement"
+  prompt: "Orta ölçekli distribütörlerdeki saha satış temsilcileri için masraf uygulamamızın değer önerisi kanvasını doldur."
 ---
 
 # Değer Önerisi Kanvası

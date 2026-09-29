@@ -1,7 +1,16 @@
 ---
-description: Riskine göre boyutlandırılmış proje veya program yönetişimini tanımlar: karar türüne göre karar yetkileri, üyeliği ve yetki alanı belli kurullar, giriş kriterli aşama veya karar kapıları, toleranslar ve eskalasyon yolları ile her kurulu besleyen raporlama sıklığı. Yeni bir proje veya program kurulurken, kararlar tıkandığında ya da yanlış yerde alındığında, bir denetim veya sponsor "kim neye karar veriyor" diye sorduğunda ya da mevcut yönetişim fazla ağır veya fazla hafif olduğunda kullanılır.
-related: raci-matrix, steering-committee-pack, project-charter, change-control, communication-plan
-prompt: Dış bir entegratörün, üç iş biriminin ve halihazırda var olan bir BT yönlendirme kurulunun yer aldığı 14 aylık ERP değişim programı için yönetişim tanımla.
+name: governance-framework
+description: "Riskine göre boyutlandırılmış proje veya program yönetişimini tanımlar: karar türüne göre karar yetkileri, üyeliği ve yetki alanı belli kurullar, giriş kriterli aşama veya karar kapıları, toleranslar ve eskalasyon yolları ile her kurulu besleyen raporlama sıklığı. Yeni bir proje veya program kurulurken, kararlar tıkandığında ya da yanlış yerde alındığında, bir denetim veya sponsor \"kim neye karar veriyor\" diye sorduğunda ya da mevcut yönetişim fazla ağır veya fazla hafif olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Proje yönetişimi tanımlama"
+  related: "raci-matrix, steering-committee-pack, project-charter, change-control, communication-plan"
+  prompt: "Dış bir entegratörün, üç iş biriminin ve halihazırda var olan bir BT yönlendirme kurulunun yer aldığı 14 aylık ERP değişim programı için yönetişim tanımla."
 ---
 
 # Proje Yönetişimi Tanımlama

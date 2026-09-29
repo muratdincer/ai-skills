@@ -1,7 +1,16 @@
 ---
+name: invest-check
 description: "Kullanıcı hikayelerini INVEST kriterlerine (Bağımsız, Tartışılabilir, Değerli, Tahmin Edilebilir, Küçük, Test Edilebilir) göre değerlendirir, her kriteri kanıtıyla puanlar ve bölme, yeniden yazma veya eksik kabul kriteri gibi somut düzeltmeler önerir. Backlog iyileştirmesi sırasında, hikayeler bir iterasyona veya taahhüde girmeden önce ya da bir hikaye sürekli yeniden tahmin edilip devrediliyorsa kullanılır."
-related: "user-story, acceptance-criteria, story-splitting, definition-of-ready, backlog-refinement"
-prompt: "Ödeme epiğindeki bu 8 hikayeye INVEST kontrolü yap, hangileri hazır değil söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "INVEST kontrolü"
+  related: "user-story, acceptance-criteria, story-splitting, definition-of-ready, backlog-refinement"
+  prompt: "Ödeme epiğindeki bu 8 hikayeye INVEST kontrolü yap, hangileri hazır değil söyle."
 ---
 
 # INVEST Kontrolü

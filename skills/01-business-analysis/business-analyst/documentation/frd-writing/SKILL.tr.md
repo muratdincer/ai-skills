@@ -1,7 +1,16 @@
 ---
+name: frd-writing
 description: "Sistem davranışını fonksiyon bazında tanımlayan bir Fonksiyonel Gereksinim Dokümanı (FRD) yazar: aktörler ve yetkiler, tetikleyiciler, doğrulamalarıyla girdiler, işleme ve iş kuralları, çıktılar, durumlar, hata yönetimi ve arayüzler; her gereksinim benzersiz ID'li, test edilebilir ve bir iş ihtiyacına izlenebilir. İş gereksinimleri uzlaşılmışsa ve geliştirme ekibi veya tedarikçi belirsizlik içermeyen bir davranış tanımına ihtiyaç duyuyorsa ya da 'FRD yaz' dendiğinde kullanılır."
-related: "brd-writing, use-case-spec, business-rules-catalog, nfr-specification, traceability-matrix"
-prompt: "Bu BRD'ye dayanarak tedarikçi self-servis kayıt ve doküman doğrulama fonksiyonları için FRD yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Fonksiyonel Gereksinim Dokümanı (FRD) yazma"
+  related: "brd-writing, use-case-spec, business-rules-catalog, nfr-specification, traceability-matrix"
+  prompt: "Bu BRD'ye dayanarak tedarikçi self-servis kayıt ve doküman doğrulama fonksiyonları için FRD yaz."
 ---
 
 # Fonksiyonel Gereksinim Dokümanı (FRD) Yazma

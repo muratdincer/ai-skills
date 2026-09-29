@@ -1,7 +1,16 @@
 ---
-description: Runs a quarterly planning cycle for a technology organization, turning strategy and demand into a capacity-backed set of commitments, stretch items and explicit trade-offs, with dependencies and risks visible. Use when a CTO, VP or director has to decide what the teams commit to next quarter, when demand exceeds capacity, or when previous quarters overcommitted and underdelivered.
-related: technology-strategy, capacity-planning, okr-definition, portfolio-prioritization, cross-team-dependency-board
-prompt: Help me plan Q3 for our 6 engineering teams; we have 40 requests from the business, a platform migration and 20% of capacity already lost to support.
+name: quarterly-planning
+description: "Runs a quarterly planning cycle for a technology organization, turning strategy and demand into a capacity-backed set of commitments, stretch items and explicit trade-offs, with dependencies and risks visible. Use when a CTO, VP or director has to decide what the teams commit to next quarter, when demand exceeds capacity, or when previous quarters overcommitted and underdelivered."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Run quarterly planning"
+  related: "technology-strategy, capacity-planning, okr-definition, portfolio-prioritization, cross-team-dependency-board"
+  prompt: "Help me plan Q3 for our 6 engineering teams; we have 40 requests from the business, a platform migration and 20% of capacity already lost to support."
 ---
 
 # Run Quarterly Planning

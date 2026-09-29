@@ -1,7 +1,16 @@
 ---
+name: glossary-builder
 description: "Extracts domain terms, acronyms and overloaded words from source material and writes unambiguous, testable definitions with synonyms, forbidden usages and owners. Use when a project, document or team has inconsistent terminology, when onboarding people to a domain, when writing requirements or data models, or when someone asks for a glossary or ubiquitous language."
-related: "business-rules-catalog, bounded-context-map, technical-translation, data-catalog-entry, ambiguity-detection"
-prompt: "Build a glossary from these requirement notes; people use customer, client, account and subscriber interchangeably."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Build a glossary"
+  related: "business-rules-catalog, bounded-context-map, technical-translation, data-catalog-entry, ambiguity-detection"
+  prompt: "Build a glossary from these requirement notes; people use customer, client, account and subscriber interchangeably."
 ---
 
 # Build a Glossary

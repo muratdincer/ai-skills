@@ -1,7 +1,16 @@
 ---
-description: Bir ürün veya özellik kapsamını, en riskli değer varsayımını gerçek kullanıcılarla sınayan en küçük sürüme indirir; varsayım odaklı kesim, mutlaka/sonra/asla kapsam tablosu, açık bir kalite tabanı, öğrenme hedefleri ve çıkış kriterleri kullanır. Kapsam eldeki süreye göre çok büyükse, "MVP'miz ne" diye sorulduğunda ya da ekip ilk sürümden neyi dışarıda bırakacağına karar vermesi gerektiğinde kullanılır.
-related: hypothesis-statement, story-mapping, prd-writing, assumption-mapping, release-planning
-prompt: Saha servis planlama uygulaması için 8 haftamız ve 40 maddelik bir özellik listemiz var; MVP kapsamını belirlememe yardım et.
+name: mvp-scoping
+description: "Bir ürün veya özellik kapsamını, en riskli değer varsayımını gerçek kullanıcılarla sınayan en küçük sürüme indirir; varsayım odaklı kesim, mutlaka/sonra/asla kapsam tablosu, açık bir kalite tabanı, öğrenme hedefleri ve çıkış kriterleri kullanır. Kapsam eldeki süreye göre çok büyükse, \"MVP'miz ne\" diye sorulduğunda ya da ekip ilk sürümden neyi dışarıda bırakacağına karar vermesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "MVP kapsamını belirleme"
+  related: "hypothesis-statement, story-mapping, prd-writing, assumption-mapping, release-planning"
+  prompt: "Saha servis planlama uygulaması için 8 haftamız ve 40 maddelik bir özellik listemiz var; MVP kapsamını belirlememe yardım et."
 ---
 
 # MVP Kapsamını Belirleme

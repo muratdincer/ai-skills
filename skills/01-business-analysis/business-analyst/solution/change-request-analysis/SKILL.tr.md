@@ -1,7 +1,16 @@
 ---
+name: change-request-analysis
 description: "Bir değişiklik talebini üzerinde anlaşılmış temel sürüme (baseline) göre analiz eder: talebi sınıflandırır (yeni kapsam, değişiklik, netleştirme, kılık değiştirmiş hata), değer, kapsam, efor sürücüleri, zaman, maliyet ve risk etkisini değerlendirir, seçenekleri listeler ve değişiklik otoritesi için gerekçeli kabul, ödünleşimli kabul, erteleme veya ret önerir. Gereksinimler onaylandıktan sonra veya teslimat sırasında bir paydaş ekleme ya da değişiklik istediğinde veya bir değişiklik kontrol kurulu karar dokümanı beklediğinde kullanılır."
-related: "impact-analysis, change-control, change-request-rfc, requirements-sign-off, trade-off-analysis"
-prompt: "Pazarlama, canlıya geçişe iki hafta kala sadakat sürümüne SMS bildirimi eklemek istiyor. Değişiklik talebini analiz et ve öneri ver."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Değişiklik talebi analizi"
+  related: "impact-analysis, change-control, change-request-rfc, requirements-sign-off, trade-off-analysis"
+  prompt: "Pazarlama, canlıya geçişe iki hafta kala sadakat sürümüne SMS bildirimi eklemek istiyor. Değişiklik talebini analiz et ve öneri ver."
 ---
 
 # Değişiklik Talebi Analizi

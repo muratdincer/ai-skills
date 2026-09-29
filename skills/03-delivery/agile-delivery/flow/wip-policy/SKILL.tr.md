@@ -1,7 +1,16 @@
 ---
+name: wip-policy
 description: "Bir panoyu ve akış kurallarını tasarlar: bekleme durumları dahil gerçek iş akışını yansıtan kolonlar, kolon veya kişi başına devam eden iş (WIP) limitleri, açık giriş ve çıkış kriterleri, hizmet sınıfları, bloke ve yaşlanan madde kuralları ve limitlerin ayarlanması için bir gözden geçirme sıklığı. Bir ekip panosunu kurarken veya yeniden tasarlarken, çok iş başlatılıp az iş bitiyorken ya da hangi WIP limitlerinin ve çekme kurallarının kullanılacağı sorulduğunda kullanılır."
-related: "cycle-time-analysis, working-agreement, definition-of-ready, definition-of-done, impediment-tracking"
-prompt: "6 geliştirici ve 1 test uzmanıyız, her şey 'devam ediyor' ve hiçbir şey bitmiyor. Pano kolonlarını ve WIP limitlerini belirlememize yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "WIP limiti ve akış kuralları"
+  related: "cycle-time-analysis, working-agreement, definition-of-ready, definition-of-done, impediment-tracking"
+  prompt: "6 geliştirici ve 1 test uzmanıyız, her şey 'devam ediyor' ve hiçbir şey bitmiyor. Pano kolonlarını ve WIP limitlerini belirlememize yardım et."
 ---
 
 # WIP Limiti ve Akış Kuralları

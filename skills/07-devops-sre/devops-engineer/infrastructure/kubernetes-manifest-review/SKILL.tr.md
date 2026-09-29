@@ -1,7 +1,16 @@
 ---
+name: kubernetes-manifest-review
 description: "Kubernetes manifest'lerini, Helm chart'larını veya Kustomize çıktısını kaynak istek ve limitleri, sağlık probe'ları, güvenlik bağlamı, erişilebilirlik (replika, kesinti bütçesi, dağılım), yapılandırma ve secret yönetimi ile işletilebilirlik açısından inceler. Düzeltilmiş YAML ile önceliklendirilmiş bulgular verir. Manifest'ler incelemeye geldiğinde, pod'lar yeniden başladığında veya tahliye edildiğinde ya da bir iş yükü üretime hazırlanırken kullanılır."
-related: "dockerfile-review, secrets-management-plan, capacity-planning, deployment-strategy, resilience-review"
-prompt: "Üretim cluster'ına çıkmadan önce sipariş API'mizin bu Deployment ve Service YAML'ını incele."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Kubernetes manifest inceleme"
+  related: "dockerfile-review, secrets-management-plan, capacity-planning, deployment-strategy, resilience-review"
+  prompt: "Üretim cluster'ına çıkmadan önce sipariş API'mizin bu Deployment ve Service YAML'ını incele."
 ---
 
 # Kubernetes Manifest İnceleme

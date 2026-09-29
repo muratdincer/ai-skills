@@ -1,7 +1,16 @@
 ---
-description: Ham müşteri geri bildirimlerini (destek kayıtları, NPS/CSAT yorumları, uygulama mağazası değerlendirmeleri, satış notları, topluluk gönderileri) sıklık, önem derecesi, etkilenen segmentler, anonimleştirilmiş temsilî alıntılar ve her talebin arkasındaki asıl ihtiyaçla temalara ayırır. Birikmiş geri bildirimin önceliklendirilebilir içgörülere dönüştürülmesi gerektiğinde, "müşteriler bize ne söylüyor" sorulduğunda ya da yol haritası ve backlog görüşmelerinden önce kullanılır.
-related: research-synthesis, jobs-to-be-done, opportunity-solution-tree, persona, backlog-prioritization
-prompt: Geçen çeyreğin 120 NPS yorumu burada; bunları temalara ayır ve en önemli olanları söyle.
+name: feedback-synthesis
+description: "Ham müşteri geri bildirimlerini (destek kayıtları, NPS/CSAT yorumları, uygulama mağazası değerlendirmeleri, satış notları, topluluk gönderileri) sıklık, önem derecesi, etkilenen segmentler, anonimleştirilmiş temsilî alıntılar ve her talebin arkasındaki asıl ihtiyaçla temalara ayırır. Birikmiş geri bildirimin önceliklendirilebilir içgörülere dönüştürülmesi gerektiğinde, \"müşteriler bize ne söylüyor\" sorulduğunda ya da yol haritası ve backlog görüşmelerinden önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Müşteri geri bildirimi sentezi"
+  related: "research-synthesis, jobs-to-be-done, opportunity-solution-tree, persona, backlog-prioritization"
+  prompt: "Geçen çeyreğin 120 NPS yorumu burada; bunları temalara ayır ve en önemli olanları söyle."
 ---
 
 # Müşteri Geri Bildirimi Sentezi

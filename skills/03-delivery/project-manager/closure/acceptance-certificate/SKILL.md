@@ -1,7 +1,16 @@
 ---
-description: Prepares a deliverable acceptance certificate that records what was delivered, the agreed acceptance criteria and the evidence for each, open defects and accepted deviations, conditions for conditional acceptance, and sign-offs from authorized parties. Use when a deliverable, milestone or phase must be formally accepted by a client, sponsor or business owner, before a milestone payment, or when a vendor delivery must be accepted or rejected on record.
-related: acceptance-criteria, uat-plan, statement-of-work, project-closure-report, change-control
-prompt: Prepare the acceptance certificate for milestone 2 (reporting module). UAT is done with 3 minor defects open; the client wants to sign conditionally.
+name: acceptance-certificate
+description: "Prepares a deliverable acceptance certificate that records what was delivered, the agreed acceptance criteria and the evidence for each, open defects and accepted deviations, conditions for conditional acceptance, and sign-offs from authorized parties. Use when a deliverable, milestone or phase must be formally accepted by a client, sponsor or business owner, before a milestone payment, or when a vendor delivery must be accepted or rejected on record."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: closure
+  title: "Prepare deliverable acceptance"
+  related: "acceptance-criteria, uat-plan, statement-of-work, project-closure-report, change-control"
+  prompt: "Prepare the acceptance certificate for milestone 2 (reporting module). UAT is done with 3 minor defects open; the client wants to sign conditionally."
 ---
 
 # Prepare Deliverable Acceptance

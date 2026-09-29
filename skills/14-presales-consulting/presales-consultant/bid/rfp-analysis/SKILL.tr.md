@@ -1,7 +1,16 @@
 ---
-description: Bir müşteri RFP/RFQ/ihale dokümanını teklif veren tarafından analiz eder; zorunlu ve puanlanan gereksinimleri, değerlendirme kriterlerini, ticari ve hukuki koşulları, tarihleri, örtük beklentileri ve riskleri çıkarır, bir uyum matrisi ve gerekçeli bir teklif ver/verme önerisi üretir. Yeni bir RFP veya ihale geldiğinde, ön satış eforu harcamadan önce ya da ekip teklif verip vermeyeceğine ve nasıl vereceğine karar vermek zorunda olduğunda kullanılır.
-related: rfp-response, effort-estimate-for-bid, proposal-writing, requirements-gap-analysis, risk-register
-prompt: Core banking entegrasyon projesi için gelen bu 80 sayfalık RFP'yi analiz et ve teklif verip vermememiz gerektiğini söyle.
+name: rfp-analysis
+description: "Bir müşteri RFP/RFQ/ihale dokümanını teklif veren tarafından analiz eder; zorunlu ve puanlanan gereksinimleri, değerlendirme kriterlerini, ticari ve hukuki koşulları, tarihleri, örtük beklentileri ve riskleri çıkarır, bir uyum matrisi ve gerekçeli bir teklif ver/verme önerisi üretir. Yeni bir RFP veya ihale geldiğinde, ön satış eforu harcamadan önce ya da ekip teklif verip vermeyeceğine ve nasıl vereceğine karar vermek zorunda olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "RFP analizi"
+  related: "rfp-response, effort-estimate-for-bid, proposal-writing, requirements-gap-analysis, risk-register"
+  prompt: "Core banking entegrasyon projesi için gelen bu 80 sayfalık RFP'yi analiz et ve teklif verip vermememiz gerektiğini söyle."
 ---
 
 # RFP Analizi

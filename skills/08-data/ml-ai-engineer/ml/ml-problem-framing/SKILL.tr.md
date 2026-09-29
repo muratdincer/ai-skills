@@ -1,7 +1,16 @@
 ---
-description: Bir iş ihtiyacını makine öğrenmesi problemi olarak tanımlar; desteklenen karar, tahmin hedefi ve etiket, tahminin birimi ve zamanı, tahmin anında mevcut öznitelikler, başarı metrikleri (çevrim dışı ve iş), taban çizgisi, veri fizibilitesi ve devam/dur kararı. Biri "X'i tahmin etmek için ML/YZ kullanalım" dediğinde, herhangi bir veri çalışması veya model seçimi başlamadan önce kullanılır.
-related: ai-use-case-assessment, feature-engineering-plan, model-evaluation-report, analysis-plan, problem-statement
-prompt: Bunu bir ML problemi olarak tanımla: tahsilat ekibi, faturasını zamanında ödemeyecek müşterileri tahmin edip onları daha erken aramak istiyor.
+name: ml-problem-framing
+description: "Bir iş ihtiyacını makine öğrenmesi problemi olarak tanımlar; desteklenen karar, tahmin hedefi ve etiket, tahminin birimi ve zamanı, tahmin anında mevcut öznitelikler, başarı metrikleri (çevrim dışı ve iş), taban çizgisi, veri fizibilitesi ve devam/dur kararı. Biri \"X'i tahmin etmek için ML/YZ kullanalım\" dediğinde, herhangi bir veri çalışması veya model seçimi başlamadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "ML problemini tanımlama"
+  related: "ai-use-case-assessment, feature-engineering-plan, model-evaluation-report, analysis-plan, problem-statement"
+  prompt: "Bunu bir ML problemi olarak tanımla: tahsilat ekibi, faturasını zamanında ödemeyecek müşterileri tahmin edip onları daha erken aramak istiyor."
 ---
 
 # ML Problemini Tanımlama

@@ -1,7 +1,16 @@
 ---
-description: Systematically surfaces edge cases for a feature, flow, API or requirement across boundaries, empty/null, duplicates, concurrency, time zones and dates, permissions, partial failure, retries and idempotency, volume and abuse, and turns each into an expected behavior or an open question. Use when a story, spec or design looks "happy-path only", before acceptance criteria or test design, or when someone asks "what could go wrong?" or "what cases are we missing?".
-related: acceptance-criteria, error-scenario-catalog, equivalence-boundary-analysis, requirements-gap-analysis, test-scenarios-from-requirements
-prompt: Find the edge cases for this story: as a warehouse clerk I want to reserve stock for a customer order so that the items are not sold twice.
+name: edge-case-elicitation
+description: "Systematically surfaces edge cases for a feature, flow, API or requirement across boundaries, empty/null, duplicates, concurrency, time zones and dates, permissions, partial failure, retries and idempotency, volume and abuse, and turns each into an expected behavior or an open question. Use when a story, spec or design looks \"happy-path only\", before acceptance criteria or test design, or when someone asks \"what could go wrong?\" or \"what cases are we missing?\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Elicit edge cases"
+  related: "acceptance-criteria, error-scenario-catalog, equivalence-boundary-analysis, requirements-gap-analysis, test-scenarios-from-requirements"
+  prompt: "Find the edge cases for this story: as a warehouse clerk I want to reserve stock for a customer order so that the items are not sold twice."
 ---
 
 # Elicit Edge Cases

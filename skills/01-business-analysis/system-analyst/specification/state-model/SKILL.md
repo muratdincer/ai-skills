@@ -1,7 +1,16 @@
 ---
+name: state-model
 description: "Models the lifecycle of a business entity (order, application, claim, contract, ticket): states, transitions, triggering events, guard conditions, actions, who may trigger each transition, and invalid transitions, delivered as a transition table plus diagram code. Use when an entity has statuses that drive behaviour, when status rules are scattered or disputed, or before designing workflows, APIs or state transition tests."
-related: "business-rules-catalog, state-transition-testing, sequence-flow, error-scenario-catalog, diagram-as-code"
-prompt: "Model the states of an insurance claim from submission to payment or rejection, including reopen and cancel."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Model entity states"
+  related: "business-rules-catalog, state-transition-testing, sequence-flow, error-scenario-catalog, diagram-as-code"
+  prompt: "Model the states of an insurance claim from submission to payment or rejection, including reopen and cancel."
 ---
 
 # Model Entity States

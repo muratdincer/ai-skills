@@ -1,7 +1,16 @@
 ---
+name: api-contract
 description: "Writes an API contract as an OpenAPI (HTTP) or AsyncAPI (events/messages) specification from requirements, including resources, operations, schemas, error model, security, versioning and examples. Use when a new endpoint, service or event must be agreed between producer and consumers before implementation, or when someone asks for an OpenAPI/Swagger or AsyncAPI spec."
-related: "api-design-review, api-reference-docs, integration-requirements, technical-design-doc, api-test-design"
-prompt: "Write an OpenAPI contract for a service that lets partners create shipments, get shipment status and cancel a shipment before pickup."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Write an API contract"
+  related: "api-design-review, api-reference-docs, integration-requirements, technical-design-doc, api-test-design"
+  prompt: "Write an OpenAPI contract for a service that lets partners create shipments, get shipment status and cancel a shipment before pickup."
 ---
 
 # Write an API Contract

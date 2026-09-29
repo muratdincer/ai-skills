@@ -1,7 +1,16 @@
 ---
+name: data-vault-model
 description: "Designs a Data Vault 2.0 model: hubs from business keys, links for relationships and transactions, satellites split by source and rate of change, plus hash key, load date, record source and business vault constructs (PIT, bridge, effectivity). Use when building an auditable, source-integrated raw layer over many changing sources, or when asked for hubs, links and satellites."
-related: "dimensional-model, logical-data-model, master-data-strategy, incremental-load-design, data-lineage-doc"
-prompt: "Design a Data Vault for customer and contract data coming from CRM, core banking and a web onboarding app."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Design a Data Vault model"
+  related: "dimensional-model, logical-data-model, master-data-strategy, incremental-load-design, data-lineage-doc"
+  prompt: "Design a Data Vault for customer and contract data coming from CRM, core banking and a web onboarding app."
 ---
 
 # Design a Data Vault Model

@@ -1,7 +1,16 @@
 ---
-description: Assesses an application portfolio on business fit and technical fit and assigns each application a TIME disposition (Tolerate, Invest, Migrate, Eliminate) with rationale, cost and risk signals and a sequenced rationalization plan. Use when rationalizing applications, preparing a budget cycle, planning cloud or ERP programs, or after a merger leaves overlapping systems.
-related: capability-map, modernization-assessment, tech-debt-assessment, build-vs-buy, target-state-architecture
-prompt: Here is our list of 40 applications with owners, costs and user counts; classify them with TIME and propose what to retire first.
+name: application-portfolio-assessment
+description: "Assesses an application portfolio on business fit and technical fit and assigns each application a TIME disposition (Tolerate, Invest, Migrate, Eliminate) with rationale, cost and risk signals and a sequenced rationalization plan. Use when rationalizing applications, preparing a budget cycle, planning cloud or ERP programs, or after a merger leaves overlapping systems."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Assess the application portfolio"
+  related: "capability-map, modernization-assessment, tech-debt-assessment, build-vs-buy, target-state-architecture"
+  prompt: "Here is our list of 40 applications with owners, costs and user counts; classify them with TIME and propose what to retire first."
 ---
 
 # Assess the Application Portfolio

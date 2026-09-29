@@ -1,7 +1,16 @@
 ---
-description: Sistemler arasındaki her etkileşim için entegrasyon desenini (senkron API, asenkron mesajlaşma, olay akışı, dosya/batch aktarımı, CDC, paylaşılan veritabanı) bağımlılık, gecikme, tutarlılık, hacim, sıralama ve hata davranışını analiz ederek seçer ve ödünleşimleri kaydeder. İki veya daha fazla sistemin veri ya da komut alışverişi tasarlanırken, noktadan noktaya veya dosya arayüzleri değiştirilirken ya da bir entegrasyon yük veya değişiklik altında sürekli bozulduğunda kullanılır.
-related: integration-requirements, event-driven-design, api-contract, adr, resilience-review
-prompt: Sipariş sistemi, ERP ve depo sistemi arasındaki entegrasyon desenlerini seç; ERP yalnızca SOAP ve gece dosyalarını destekliyor, depo stok güncellemesini bir dakika içinde istiyor.
+name: integration-pattern-selection
+description: "Sistemler arasındaki her etkileşim için entegrasyon desenini (senkron API, asenkron mesajlaşma, olay akışı, dosya/batch aktarımı, CDC, paylaşılan veritabanı) bağımlılık, gecikme, tutarlılık, hacim, sıralama ve hata davranışını analiz ederek seçer ve ödünleşimleri kaydeder. İki veya daha fazla sistemin veri ya da komut alışverişi tasarlanırken, noktadan noktaya veya dosya arayüzleri değiştirilirken ya da bir entegrasyon yük veya değişiklik altında sürekli bozulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Entegrasyon deseni seçimi"
+  related: "integration-requirements, event-driven-design, api-contract, adr, resilience-review"
+  prompt: "Sipariş sistemi, ERP ve depo sistemi arasındaki entegrasyon desenlerini seç; ERP yalnızca SOAP ve gece dosyalarını destekliyor, depo stok güncellemesini bir dakika içinde istiyor."
 ---
 
 # Entegrasyon Deseni Seçimi

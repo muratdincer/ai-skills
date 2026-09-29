@@ -1,7 +1,16 @@
 ---
-description: Reviews a pull request or diff for correctness, design, tests, security, performance and readability, and returns prioritized, actionable findings with a clear verdict. Use when someone asks to review a PR, a diff, a patch or a code snippet before merge, or wants a second opinion on a change.
-related: review-comment-writing, clean-code-review, secure-code-review, error-handling-review, pull-request-description
-prompt: Review this pull request diff. It adds a discount calculation endpoint to the order service.
+name: code-review
+description: "Reviews a pull request or diff for correctness, design, tests, security, performance and readability, and returns prioritized, actionable findings with a clear verdict. Use when someone asks to review a PR, a diff, a patch or a code snippet before merge, or wants a second opinion on a change."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Review a pull request"
+  related: "review-comment-writing, clean-code-review, secure-code-review, error-handling-review, pull-request-description"
+  prompt: "Review this pull request diff. It adds a discount calculation endpoint to the order service."
 ---
 
 # Review a Pull Request

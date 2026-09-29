@@ -1,7 +1,16 @@
 ---
+name: go-no-go
 description: "Prepares and records a go/no-go decision for a release or cut-over: agreed criteria, evidence per criterion, open risks with owners, conditions for a conditional go, and a decision record with approvers. Use when a release, migration or launch needs a formal decision, when someone asks for a go/no-go meeting pack or checklist, or when the team must document why it shipped or postponed."
-related: "release-quality-gate, release-plan, rollback-plan, decision-log, test-summary-report"
-prompt: "Prepare the go/no-go for tomorrow's CRM migration cut-over. Here are the test results, open defects and the rehearsal notes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Run a go/no-go decision"
+  related: "release-quality-gate, release-plan, rollback-plan, decision-log, test-summary-report"
+  prompt: "Prepare the go/no-go for tomorrow's CRM migration cut-over. Here are the test results, open defects and the rehearsal notes."
 ---
 
 # Run a Go/No-Go Decision

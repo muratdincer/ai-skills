@@ -1,7 +1,16 @@
 ---
-description: Maliyet yüklü bir temel plan ve ilerleme verisinden kazanılmış değer analizi yapar; PV, EV, AC, SV, CV, SPI, CPI, EAC, ETC, VAC ve TCPI değerlerini hesaplar, sapmaları yorumlar ve varsayımlarını belirterek tamamlanma maliyetini ve tarihini öngörür. Bütçe ve takvim temeli olan bir projede nesnel performans okuması, tamamlanmadaki maliyet tahmini ya da durum raporu veya yönlendirme kararı için kanıt gerektiğinde kullanılır.
-related: budget-plan, schedule-plan, project-status-report, change-control, monte-carlo-forecast
-prompt: İş paketi bazında temel planımız, bu ayın gerçekleşen maliyetleri ve tamamlanma yüzdeleri ekte. Kazanılmış değer analizi yap ve bütçe içinde bitirip bitiremeyeceğimizi söyle.
+name: earned-value-analysis
+description: "Maliyet yüklü bir temel plan ve ilerleme verisinden kazanılmış değer analizi yapar; PV, EV, AC, SV, CV, SPI, CPI, EAC, ETC, VAC ve TCPI değerlerini hesaplar, sapmaları yorumlar ve varsayımlarını belirterek tamamlanma maliyetini ve tarihini öngörür. Bütçe ve takvim temeli olan bir projede nesnel performans okuması, tamamlanmadaki maliyet tahmini ya da durum raporu veya yönlendirme kararı için kanıt gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Kazanılmış değer analizi"
+  related: "budget-plan, schedule-plan, project-status-report, change-control, monte-carlo-forecast"
+  prompt: "İş paketi bazında temel planımız, bu ayın gerçekleşen maliyetleri ve tamamlanma yüzdeleri ekte. Kazanılmış değer analizi yap ve bütçe içinde bitirip bitiremeyeceğimizi söyle."
 ---
 
 # Kazanılmış Değer Analizi

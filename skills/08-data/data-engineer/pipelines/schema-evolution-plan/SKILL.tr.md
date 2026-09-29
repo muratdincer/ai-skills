@@ -1,7 +1,16 @@
 ---
+name: schema-evolution-plan
 description: "Bir veri hattında, olay akışında veya paylaşılan veri setinde şema değişikliğini planlar: her değişikliği geriye, ileriye, tam uyumlu veya kırıcı olarak sınıflar, evrim desenini (eklemeli, expand-contract, sürümlü veri seti veya topic, çift yazma) seçer ve üretici, veri hattı ve tüketici değişikliklerini backfill, doğrulama ve kullanımdan kaldırmayla sıralar. Bir kaynak alan eklediğinde, yeniden adlandırdığında, tipini değiştirdiğinde veya kaldırdığında, bir veri sözleşmesi değişmesi gerektiğinde ya da tüketiciler üst akıştaki şema kaymasıyla sürekli kırıldığında kullanılır."
-related: "data-contract, schema-migration-plan, incremental-load-design, source-to-target-mapping, data-lineage-doc"
-prompt: "CRM ekibi gelecek ay customer_type alanını segment olarak yeniden adlandırıp serbest metinden enum'a çevirecek. Veri hattımız ve 6 alt akış tüketicisi için şema evrimini planla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Şema evrimi planlama"
+  related: "data-contract, schema-migration-plan, incremental-load-design, source-to-target-mapping, data-lineage-doc"
+  prompt: "CRM ekibi gelecek ay customer_type alanını segment olarak yeniden adlandırıp serbest metinden enum'a çevirecek. Veri hattımız ve 6 alt akış tüketicisi için şema evrimini planla."
 ---
 
 # Şema Evrimi Planlama

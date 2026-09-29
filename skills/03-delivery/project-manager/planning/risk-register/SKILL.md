@@ -1,7 +1,16 @@
 ---
-description: Builds a project risk register with cause-event-effect risk statements, probability and impact scores, proximity, owners, response strategies (avoid, mitigate, transfer, accept, exploit) with actions and triggers, and residual risk. Use when planning a project, before a gate or steering meeting, or when new threats or opportunities emerge.
-related: raid-log, pre-mortem, technical-risk-review, it-risk-assessment, budget-plan
-prompt: Build a risk register for our warehouse management system rollout; here are the plan and concerns raised in the kickoff.
+name: risk-register
+description: "Builds a project risk register with cause-event-effect risk statements, probability and impact scores, proximity, owners, response strategies (avoid, mitigate, transfer, accept, exploit) with actions and triggers, and residual risk. Use when planning a project, before a gate or steering meeting, or when new threats or opportunities emerge."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a risk register"
+  related: "raid-log, pre-mortem, technical-risk-review, it-risk-assessment, budget-plan"
+  prompt: "Build a risk register for our warehouse management system rollout; here are the plan and concerns raised in the kickoff."
 ---
 
 # Build a Risk Register

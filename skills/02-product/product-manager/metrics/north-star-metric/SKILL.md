@@ -1,7 +1,16 @@
 ---
-description: Selects a North Star metric that captures the value customers get from the product and links it to revenue, then decomposes it into a tree of 3-5 controllable input metrics with owners and counter-metrics. Use when a product team lacks a shared value metric, when teams optimize conflicting numbers, or when someone asks "what should our North Star be" or wants a metric tree for a product.
-related: kpi-definition, okr-definition, metric-definition, product-strategy-one-pager, funnel-analysis
-prompt: Define a North Star metric and input metric tree for our B2B invoicing SaaS for small businesses.
+name: north-star-metric
+description: "Selects a North Star metric that captures the value customers get from the product and links it to revenue, then decomposes it into a tree of 3-5 controllable input metrics with owners and counter-metrics. Use when a product team lacks a shared value metric, when teams optimize conflicting numbers, or when someone asks \"what should our North Star be\" or wants a metric tree for a product."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Define a North Star metric"
+  related: "kpi-definition, okr-definition, metric-definition, product-strategy-one-pager, funnel-analysis"
+  prompt: "Define a North Star metric and input metric tree for our B2B invoicing SaaS for small businesses."
 ---
 
 # Define a North Star Metric

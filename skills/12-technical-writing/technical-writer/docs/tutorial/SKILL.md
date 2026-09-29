@@ -1,7 +1,16 @@
 ---
-description: Writes a learning-oriented tutorial in the Diátaxis sense: a single guided path in which a newcomer builds something concrete, with a defined learning outcome, prerequisites, small verifiable steps, visible results after each step and no detours. Use when onboarding new users or developers to a product, API, SDK or platform, when a "getting started" or first-project lesson is needed, or when existing getting-started content is a mix of reference and how-to.
-related: how-to-guide, user-guide, docs-information-architecture, technical-onboarding, readme-writing
-prompt: Write a getting-started tutorial for our payments API where a developer creates a test payment and handles the webhook, in about 30 minutes.
+name: tutorial
+description: "Writes a learning-oriented tutorial in the Diátaxis sense: a single guided path in which a newcomer builds something concrete, with a defined learning outcome, prerequisites, small verifiable steps, visible results after each step and no detours. Use when onboarding new users or developers to a product, API, SDK or platform, when a \"getting started\" or first-project lesson is needed, or when existing getting-started content is a mix of reference and how-to."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Write a tutorial"
+  related: "how-to-guide, user-guide, docs-information-architecture, technical-onboarding, readme-writing"
+  prompt: "Write a getting-started tutorial for our payments API where a developer creates a test payment and handles the webhook, in about 30 minutes."
 ---
 
 # Write a Tutorial

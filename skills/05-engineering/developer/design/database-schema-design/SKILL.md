@@ -1,7 +1,16 @@
 ---
+name: database-schema-design
 description: "Designs a relational database schema from a domain description: tables, columns and types, primary and foreign keys, constraints, indexes driven by access patterns, and a migration script outline. Use when a new feature needs persistent storage, an existing schema must be extended, or someone asks for tables, an ER model, DDL or indexes for a domain."
-related: "logical-data-model, data-requirements, schema-migration-plan, index-recommendation, aggregate-design"
-prompt: "Design the database schema for a meeting room booking feature: rooms, bookings with start/end time, attendees, and no overlapping bookings per room."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Design a database schema"
+  related: "logical-data-model, data-requirements, schema-migration-plan, index-recommendation, aggregate-design"
+  prompt: "Design the database schema for a meeting room booking feature: rooms, bookings with start/end time, attendees, and no overlapping bookings per room."
 ---
 
 # Design a Database Schema

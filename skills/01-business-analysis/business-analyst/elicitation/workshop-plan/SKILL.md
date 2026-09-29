@@ -1,7 +1,16 @@
 ---
+name: workshop-plan
 description: "Designs a requirements workshop: objectives, participants and roles, pre-work, a timed agenda of elicitation activities (e.g., process walk-through, story mapping, rules/exceptions round, prioritization), materials, decision rules and expected outputs, for on-site or remote formats. Use when several stakeholders must align or co-create requirements, or when asked 'plan a workshop for...'."
-related: "facilitation-guide, meeting-agenda, interview-question-set, story-mapping, discovery-workshop"
-prompt: "Plan a half-day remote workshop with finance, sales ops and IT to define the requirements for automated credit limit checks."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Plan a requirements workshop"
+  related: "facilitation-guide, meeting-agenda, interview-question-set, story-mapping, discovery-workshop"
+  prompt: "Plan a half-day remote workshop with finance, sales ops and IT to define the requirements for automated credit limit checks."
 ---
 
 # Plan a Requirements Workshop

@@ -1,7 +1,16 @@
 ---
+name: master-data-strategy
 description: "Defines a master data management approach for one or more domains (customer, product, supplier, location, etc.): system of record per attribute, golden record and survivorship rules, match/merge logic, implementation style, stewardship roles and workflows, and data distribution to consuming systems. Use when the same entity exists inconsistently across systems, duplicates harm operations or reporting, or a master data or golden record initiative is being scoped."
-related: "data-quality-rules, logical-data-model, data-lineage-doc, raci-matrix, data-classification"
-prompt: "Define a master data approach for customer data that exists in our CRM, ERP and e-commerce platform."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Define master data management"
+  related: "data-quality-rules, logical-data-model, data-lineage-doc, raci-matrix, data-classification"
+  prompt: "Define a master data approach for customer data that exists in our CRM, ERP and e-commerce platform."
 ---
 
 # Define Master Data Management

@@ -1,7 +1,16 @@
 ---
+name: pipeline-spec
 description: "Toplu (batch) veya akış (streaming) bir veri hattını uçtan uca tanımlar: kaynaklar ve çekme, zamanlama veya tetikleyici, bağımlılıklar, dönüşüm adımları, hedefler ve yazma modu, yükleme stratejisi, veri kalitesi kapıları, SLA'lar, hata yönetimi, geriye dönük yükleme, gözlemlenebilirlik, güvenlik ve sahiplik. Bir veri hattı kurulmadan veya değiştirilmeden önce, iş bir mühendise devredilirken ya da bir ETL/ELT veya streaming işinin tasarlanması veya belgelenmesi istendiğinde kullanılır."
-related: "source-to-target-mapping, incremental-load-design, data-quality-rules, data-contract, runbook"
-prompt: "ERP veritabanından günlük siparişleri finans martı için veri ambarına yükleyen veri hattının tanımını yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Veri hattı tanımlama"
+  related: "source-to-target-mapping, incremental-load-design, data-quality-rules, data-contract, runbook"
+  prompt: "ERP veritabanından günlük siparişleri finans martı için veri ambarına yükleyen veri hattının tanımını yaz."
 ---
 
 # Veri Hattı Tanımlama

@@ -1,7 +1,16 @@
 ---
-description: Writes a capacity test report that determines the maximum sustainable load within SLOs from stepped or stress test results, identifies the limiting resource, calculates headroom against current and forecast peaks, describes scaling behavior and its limits, and recommends capacity actions with their triggers. Use after capacity, stress or scalability tests, when leadership asks how much growth the system can absorb, or when infrastructure sizing and scaling limits must be justified with test evidence.
-related: load-test-analysis, performance-test-plan, capacity-planning, scalability-review, finops-review
-prompt: We ran a stepped load test on the search service up to failure. Write a capacity report: how much headroom do we have for next year's forecast?
+name: capacity-test-report
+description: "Writes a capacity test report that determines the maximum sustainable load within SLOs from stepped or stress test results, identifies the limiting resource, calculates headroom against current and forecast peaks, describes scaling behavior and its limits, and recommends capacity actions with their triggers. Use after capacity, stress or scalability tests, when leadership asks how much growth the system can absorb, or when infrastructure sizing and scaling limits must be justified with test evidence."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Write a capacity report"
+  related: "load-test-analysis, performance-test-plan, capacity-planning, scalability-review, finops-review"
+  prompt: "We ran a stepped load test on the search service up to failure. Write a capacity report: how much headroom do we have for next year's forecast?"
 ---
 
 # Write a Capacity Report

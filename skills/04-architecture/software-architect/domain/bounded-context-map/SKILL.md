@@ -1,7 +1,16 @@
 ---
-description: Produces a context map that names each bounded context, its ubiquitous language and ownership, and classifies the relationships between contexts (partnership, shared kernel, customer-supplier, conformist, anticorruption layer, open host service, published language, separate ways) with upstream/downstream direction and integration style. Use when defining module or service boundaries, onboarding a team to a landscape, or diagnosing coupling and translation problems between teams.
-related: event-storming, service-decomposition, aggregate-design, integration-pattern-selection, team-topology
-prompt: Draw a context map for our retail platform: catalog, pricing, ordering, payment (external PSP), warehouse and CRM, owned by four teams.
+name: bounded-context-map
+description: "Produces a context map that names each bounded context, its ubiquitous language and ownership, and classifies the relationships between contexts (partnership, shared kernel, customer-supplier, conformist, anticorruption layer, open host service, published language, separate ways) with upstream/downstream direction and integration style. Use when defining module or service boundaries, onboarding a team to a landscape, or diagnosing coupling and translation problems between teams."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Map bounded contexts"
+  related: "event-storming, service-decomposition, aggregate-design, integration-pattern-selection, team-topology"
+  prompt: "Draw a context map for our retail platform: catalog, pricing, ordering, payment (external PSP), warehouse and CRM, owned by four teams."
 ---
 
 # Map Bounded Contexts

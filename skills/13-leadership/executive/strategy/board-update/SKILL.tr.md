@@ -1,7 +1,16 @@
 ---
-description: Teknoloji üzerine kısa bir üst yönetim veya yönetim kurulu güncellemesi yazar: son güncellemeden bu yana ne değişti, hedeflere göre birkaç sonuç metriği, eğilim ve azaltım planıyla en önemli riskler ve açık talepler ya da gereken kararlar. Bir CTO, CIO veya teknoloji direktörü yönetim kuruluna, icra kuruluna veya yatırımcılara rapor verirken ya da uzun bir teknik durumun teknik olmayan üst düzey okuyucular için yoğunlaştırılması gerektiğinde kullanılır.
-related: executive-summary, status-update, technology-strategy, budget-proposal, risk-register
-prompt: Yönetim kurulu için çeyreklik teknoloji güncellememi yaz; bulut geçişi %60 tamamlandı, iki büyük kesinti yaşadık ve bir güvenlik yatırımı için onay almam gerekiyor.
+name: board-update
+description: "Teknoloji üzerine kısa bir üst yönetim veya yönetim kurulu güncellemesi yazar: son güncellemeden bu yana ne değişti, hedeflere göre birkaç sonuç metriği, eğilim ve azaltım planıyla en önemli riskler ve açık talepler ya da gereken kararlar. Bir CTO, CIO veya teknoloji direktörü yönetim kuruluna, icra kuruluna veya yatırımcılara rapor verirken ya da uzun bir teknik durumun teknik olmayan üst düzey okuyucular için yoğunlaştırılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Yönetim kurulu güncellemesi"
+  related: "executive-summary, status-update, technology-strategy, budget-proposal, risk-register"
+  prompt: "Yönetim kurulu için çeyreklik teknoloji güncellememi yaz; bulut geçişi %60 tamamlandı, iki büyük kesinti yaşadık ve bir güvenlik yatırımı için onay almam gerekiyor."
 ---
 
 # Yönetim Kurulu Güncellemesi

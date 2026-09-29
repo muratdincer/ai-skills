@@ -1,7 +1,16 @@
 ---
+name: equivalence-boundary-analysis
 description: "Applies equivalence partitioning and boundary value analysis to input fields, parameters and business rules, producing valid and invalid partitions, boundary values (two- or three-value) and a minimal set of test values with expected outcomes. Use when an input has ranges, lengths, formats, dates or enumerations, or when someone asks which values to test for a field or rule."
-related: test-case-writing, decision-table-testing, pairwise-testing, test-data-design, test-scenarios-from-requirements
-prompt: "Apply boundary value analysis to the loan application: amount 1,000-50,000, term 6-60 months, applicant age 18-70 at loan end."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Apply equivalence and boundary analysis"
+  related: "test-case-writing, decision-table-testing, pairwise-testing, test-data-design, test-scenarios-from-requirements"
+  prompt: "Apply boundary value analysis to the loan application: amount 1,000-50,000, term 6-60 months, applicant age 18-70 at loan end."
 ---
 
 # Apply Equivalence and Boundary Analysis

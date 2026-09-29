@@ -1,7 +1,16 @@
 ---
+name: retrospective-facilitation
 description: "Bir ekip retrospektifini baştan sona planlar ve yürütür: ortamı hazırlar, veri toplar, içgörü üretir, not al ve oyla yöntemiyle yakınsar, az sayıda sahipli ve doğrulanabilir iyileştirme aksiyonu çıkarır ve önceki aksiyonları takip eder. Retrospektif zamanı geldiğinde, retro panosu notları paylaşılıp aksiyon istendiğinde veya geçmiş retroların aksiyonları hiç hayata geçmediğinde kullanılır."
-related: "retrospective-format, team-health-check, working-agreement, five-whys, impediment-tracking"
-prompt: "Sprint retromuzu yürüt: 7 kişilik uzaktan ekip, 60 dakika. Geçen sprint iki üretim olayı ve çok fazla bağlam değiştirme yaşandı. Önceki retro aksiyonları: incelemelerde eşli çalışma (yapılmadı), kararsız testleri düzeltme (yapıldı)."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Retrospektif kolaylaştırma"
+  related: "retrospective-format, team-health-check, working-agreement, five-whys, impediment-tracking"
+  prompt: "Sprint retromuzu yürüt: 7 kişilik uzaktan ekip, 60 dakika. Geçen sprint iki üretim olayı ve çok fazla bağlam değiştirme yaşandı. Önceki retro aksiyonları: incelemelerde eşli çalışma (yapılmadı), kararsız testleri düzeltme (yapıldı)."
 ---
 
 # Retrospektif Kolaylaştırma

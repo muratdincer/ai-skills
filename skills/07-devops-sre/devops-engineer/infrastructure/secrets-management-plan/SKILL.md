@@ -1,7 +1,16 @@
 ---
+name: secrets-management-plan
 description: "Produces a secrets management plan: inventory and classification of secrets, central store choice criteria, identity-based access with least privilege, injection into workloads and pipelines, rotation and revocation, audit, and break-glass. Use when a team stores secrets in code, config files or pipeline variables, after a leak, or when designing secret handling for a new platform."
-related: "iac-review, pipeline-design, authn-authz-design, security-requirements, kubernetes-manifest-review"
-prompt: "Our database passwords and API keys are in appsettings files and pipeline variables. Write a plan to move to proper secrets management."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Plan secrets management"
+  related: "iac-review, pipeline-design, authn-authz-design, security-requirements, kubernetes-manifest-review"
+  prompt: "Our database passwords and API keys are in appsettings files and pipeline variables. Write a plan to move to proper secrets management."
 ---
 
 # Plan Secrets Management

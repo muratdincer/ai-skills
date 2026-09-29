@@ -1,7 +1,16 @@
 ---
+name: semantic-versioning
 description: "Decides the next version number by applying Semantic Versioning 2.0.0 to a list of changes: classifies each change against the public API, detects hidden breaking changes, and handles 0.x, pre-release and build metadata. Use when a library, API, SDK, package or service is about to be released and someone asks which version it should be, or whether a change requires a major bump."
-related: "release-notes, changelog-entry, api-deprecation-plan, api-design-review, release-plan"
-prompt: "Current version is 2.4.1. Changes: added optional 'locale' parameter, renamed error code INVALID_TOKEN to TOKEN_INVALID, fixed rounding bug. What is the next version?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Decide a version number"
+  related: "release-notes, changelog-entry, api-deprecation-plan, api-design-review, release-plan"
+  prompt: "Current version is 2.4.1. Changes: added optional 'locale' parameter, renamed error code INVALID_TOKEN to TOKEN_INVALID, fixed rounding bug. What is the next version?"
 ---
 
 # Decide a Version Number

@@ -1,7 +1,16 @@
 ---
+name: api-test-design
 description: "Designs API tests per endpoint covering contract and schema, status codes, authentication and authorization, input validation, business rules, idempotency, pagination, concurrency and error format, with negative and security-oriented cases. Use when an API contract (OpenAPI, GraphQL schema, gRPC proto or informal spec) needs a test design, before automating API tests, or when reviewing whether existing API tests are sufficient."
-related: api-contract, api-design-review, test-automation-script, security-requirements, integration-test-writing
-prompt: "Design API tests for POST /orders and GET /orders/{id}: JWT auth, customers see only their own orders, idempotency key header, 422 on validation errors."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Design API tests"
+  related: "api-contract, api-design-review, test-automation-script, security-requirements, integration-test-writing"
+  prompt: "Design API tests for POST /orders and GET /orders/{id}: JWT auth, customers see only their own orders, idempotency key header, 422 on validation errors."
 ---
 
 # Design API Tests

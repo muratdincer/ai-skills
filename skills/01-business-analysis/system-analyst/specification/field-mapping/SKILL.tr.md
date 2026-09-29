@@ -1,7 +1,16 @@
 ---
+name: field-mapping
 description: "İki sistem veya mesaj arasında kaynak-hedef alan eşlemesi üretir: her hedef alan için kaynak, dönüşüm, varsayılan değer, doğrulama, kod değeri çevirisi, boş ve hatalı değer yönetimi; ayrıca iki taraftaki eşlenmeyen alanlar ve açık kararlar. Bir entegrasyon, API adaptörü, veri değişim dosyası veya sistem değişimi yapılırken, iki sistemin kayıt alışverişi gerektiğinde ya da 'hangi alan nereye gidiyor, nasıl dönüştürülüyor?' sorusu sorulduğunda kullanılır."
-related: "integration-requirements, api-contract, source-to-target-mapping, data-quality-rules, error-scenario-catalog"
-prompt: "CRM dışa aktarımındaki müşteri alanlarını yeni faturalama sisteminin müşteri API'sine kod dönüşümleri dahil eşle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Sistemler arası alan eşleme"
+  related: "integration-requirements, api-contract, source-to-target-mapping, data-quality-rules, error-scenario-catalog"
+  prompt: "CRM dışa aktarımındaki müşteri alanlarını yeni faturalama sisteminin müşteri API'sine kod dönüşümleri dahil eşle."
 ---
 
 # Sistemler Arası Alan Eşleme

@@ -1,7 +1,16 @@
 ---
-description: Tek bir öneri veya birkaç seçenek için dengeli bir artı ve eksi analizi yapar; her maddeyi etki ve olasılığa göre tartar, olguları görüşlerden ayırır, hiçbir şey yapmama durumunu da temel alır ve net, koşula bağlı bir öneriyle bitirir. Hızlı kararlar, evet/hayır önerileri veya bir yaklaşıma bağlanmadan önce avantajları ve dezavantajları sorulduğunda kullanılır.
-related: decision-matrix, trade-off-analysis, bias-check, pre-mortem, decision-log
-prompt: Haftalık sürümden ihtiyaç anında sürüme geçmenin artılarını ve eksilerini çıkar, bir öneri ver.
+name: pros-cons
+description: "Tek bir öneri veya birkaç seçenek için dengeli bir artı ve eksi analizi yapar; her maddeyi etki ve olasılığa göre tartar, olguları görüşlerden ayırır, hiçbir şey yapmama durumunu da temel alır ve net, koşula bağlı bir öneriyle bitirir. Hızlı kararlar, evet/hayır önerileri veya bir yaklaşıma bağlanmadan önce avantajları ve dezavantajları sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Artı-eksi analizi"
+  related: "decision-matrix, trade-off-analysis, bias-check, pre-mortem, decision-log"
+  prompt: "Haftalık sürümden ihtiyaç anında sürüme geçmenin artılarını ve eksilerini çıkar, bir öneri ver."
 ---
 
 # Artı-Eksi Analizi

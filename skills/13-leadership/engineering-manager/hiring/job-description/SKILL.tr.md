@@ -1,7 +1,16 @@
 ---
-description: Bir yazılım rolü için rolün amacını, ilk yıl sonuçlarını, sorumlulukları, olmazsa olmaz ve tercih sebebi gereksinimleri, ekip bağlamını ve pratik bilgileri içeren kapsayıcı ve doğru bir iş ilanı yazar ve metni önyargılı veya dışlayıcı dil açısından kontrol eder. Yeni bir pozisyon açılırken, güncelliğini yitirmiş bir ilan yeniden yazılırken veya ilan yanlış adayları ya da çok az çeşitlilikte başvuru çektiğinde kullanılır.
-related: role-definition, interview-plan, career-ladder, onboarding-plan-30-60-90, tone-rewrite
-prompt: İstanbul'daki platform ekibimiz için hibrit çalışan, Kafka ve Spark ile streaming pipeline'lar üzerinde çalışacak Kıdemli Veri Mühendisi ilanı yaz.
+name: job-description
+description: "Bir yazılım rolü için rolün amacını, ilk yıl sonuçlarını, sorumlulukları, olmazsa olmaz ve tercih sebebi gereksinimleri, ekip bağlamını ve pratik bilgileri içeren kapsayıcı ve doğru bir iş ilanı yazar ve metni önyargılı veya dışlayıcı dil açısından kontrol eder. Yeni bir pozisyon açılırken, güncelliğini yitirmiş bir ilan yeniden yazılırken veya ilan yanlış adayları ya da çok az çeşitlilikte başvuru çektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "İş ilanı yazma"
+  related: "role-definition, interview-plan, career-ladder, onboarding-plan-30-60-90, tone-rewrite"
+  prompt: "İstanbul'daki platform ekibimiz için hibrit çalışan, Kafka ve Spark ile streaming pipeline'lar üzerinde çalışacak Kıdemli Veri Mühendisi ilanı yaz."
 ---
 
 # İş İlanı Yazma

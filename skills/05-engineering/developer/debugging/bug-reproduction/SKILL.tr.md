@@ -1,7 +1,16 @@
 ---
-description: Belirsiz bir hata bildirimini; kesin adımlar, ortam, veri ön koşulları, beklenen ve gerçekleşen sonuç ile tekrar oranı içeren minimal ve deterministik bir yeniden üretime dönüştürür, mümkünse başarısız olan otomatik bir testle bitirir. Bir hata zor üretilebilir, aralıklı, ortama özgü olduğunda veya yalnızca kullanıcı diliyle anlatıldığında ve düzeltmeye başlamadan önce kullanılır.
-related: bug-report, debugging-hypotheses, log-analysis, unit-test-writing, flaky-test-analysis
-prompt: Kullanıcılar dışa aktarımın bazen boş dosya ürettiğini söylüyor. Güvenilir bir yeniden üretim kurmama yardım et.
+name: bug-reproduction
+description: "Belirsiz bir hata bildirimini; kesin adımlar, ortam, veri ön koşulları, beklenen ve gerçekleşen sonuç ile tekrar oranı içeren minimal ve deterministik bir yeniden üretime dönüştürür, mümkünse başarısız olan otomatik bir testle bitirir. Bir hata zor üretilebilir, aralıklı, ortama özgü olduğunda veya yalnızca kullanıcı diliyle anlatıldığında ve düzeltmeye başlamadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Hatayı yeniden üretme"
+  related: "bug-report, debugging-hypotheses, log-analysis, unit-test-writing, flaky-test-analysis"
+  prompt: "Kullanıcılar dışa aktarımın bazen boş dosya ürettiğini söylüyor. Güvenilir bir yeniden üretim kurmama yardım et."
 ---
 
 # Hatayı Yeniden Üretme

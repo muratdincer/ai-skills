@@ -1,7 +1,16 @@
 ---
+name: team-health-check
 description: "Bir ekip sağlık kontrolünü tasarlar ve analiz eder: 8-12 boyut seçer (ör. değer teslimi, hız, kod tabanı sağlığı, öğrenme, misyon netliği, keyif, destek, psikolojik güvenlik), trafik ışığı veya 1-5 derecelendirme ifadeleri yazar, anonim yürütür, sonuçları ve boyut bazında trendleri okur, en düşük veya düşen alanları sahibi belli az sayıda takip aksiyonuna dönüştürür. Bir ekip veya yönetici ekibin nabzını ölçmek, önceki turla karşılaştırmak ya da bir sağlık kontrolü oturumu hazırlamak istediğinde kullanılır."
-related: "retrospective-facilitation, working-agreement, agile-maturity-assessment, questionnaire-design, engineering-metrics-review"
-prompt: "Geçen çeyrek ve bu çeyrek 10 boyuttaki sağlık kontrolü sonuçlarımız burada (kişi başı yeşil/sarı/kırmızı). Ne öne çıkıyor ve ne yapmalıyız?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: team
+  title: "Ekip sağlık kontrolü"
+  related: "retrospective-facilitation, working-agreement, agile-maturity-assessment, questionnaire-design, engineering-metrics-review"
+  prompt: "Geçen çeyrek ve bu çeyrek 10 boyuttaki sağlık kontrolü sonuçlarımız burada (kişi başı yeşil/sarı/kırmızı). Ne öne çıkıyor ve ne yapmalıyız?"
 ---
 
 # Ekip Sağlık Kontrolü

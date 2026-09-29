@@ -1,7 +1,16 @@
 ---
+name: screen-requirements
 description: "Specifies screen or UI requirements per screen: purpose and entry points, roles and permissions, fields with source, format, mandatory rules, defaults and validations with message behavior, actions and their outcomes, screen states (empty, loading, error, read-only, no permission), navigation, accessibility and responsive needs, without prescribing visual design. Use when a screen, form or page must be specified for design and development, or when asked 'what should this screen do'."
-related: "wireframe-spec, error-message-writing, frd-writing, data-requirements, accessibility-audit"
-prompt: "Specify the screen requirements for the 'Edit customer address' form in the call-center application."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Specify screen/UI requirements"
+  related: "wireframe-spec, error-message-writing, frd-writing, data-requirements, accessibility-audit"
+  prompt: "Specify the screen requirements for the 'Edit customer address' form in the call-center application."
 ---
 
 # Specify Screen Requirements

@@ -1,7 +1,16 @@
 ---
+name: runbook
 description: "Writes an operational runbook for one alert or failure mode: symptoms and impact, fast triage, diagnosis branches with exact checks and expected results, safe remediation steps with verification and rollback, escalation and follow-up. Use when a paging alert has no runbook, when on-call relies on tribal knowledge, after an incident showed a missing procedure, or when someone asks how to handle a recurring operational problem."
-related: "alert-design, incident-response, known-error-article, postmortem, observability-plan"
-prompt: "Write a runbook for the alert OrderQueueLagHigh: Kafka consumer lag above 10k for 10 minutes on the order-events topic."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Write a runbook"
+  related: "alert-design, incident-response, known-error-article, postmortem, observability-plan"
+  prompt: "Write a runbook for the alert OrderQueueLagHigh: Kafka consumer lag above 10k for 10 minutes on the order-events topic."
 ---
 
 # Write a Runbook

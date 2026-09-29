@@ -1,7 +1,16 @@
 ---
-description: Gereken kararlarla başlayan, ardından baz plana göre kısa durum, başlıca riskler ve sorunlar, finansal durum (bütçe, gerçekleşen, tahmin) ve fayda görünümünü veren, her karar için seçenekler ve öneri içeren bir yönlendirme kurulu sunumu hazırlar. Bir yönlendirme kurulu, proje kurulu veya sponsor değerlendirmesi öncesinde, aylık program raporunun karar odaklı bir pakete dönüştürülmesi gerektiğinde ya da bir proje veya program için "steerco sunumu" veya "kurul güncellemesi" hazırlanması istendiğinde kullanılır.
-related: project-status-report, executive-summary, raid-log, decision-log, presentation-outline
-prompt: Gelecek perşembe için yönlendirme kurulu sunumunu hazırla: entegrasyon testinde 3 hafta gerideyiz, bütçeyi %8 aştık ve raporlama modülünün kapsamdan çıkarılması için karar gerekiyor.
+name: steering-committee-pack
+description: "Gereken kararlarla başlayan, ardından baz plana göre kısa durum, başlıca riskler ve sorunlar, finansal durum (bütçe, gerçekleşen, tahmin) ve fayda görünümünü veren, her karar için seçenekler ve öneri içeren bir yönlendirme kurulu sunumu hazırlar. Bir yönlendirme kurulu, proje kurulu veya sponsor değerlendirmesi öncesinde, aylık program raporunun karar odaklı bir pakete dönüştürülmesi gerektiğinde ya da bir proje veya program için \"steerco sunumu\" veya \"kurul güncellemesi\" hazırlanması istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Yönlendirme kurulu sunumu"
+  related: "project-status-report, executive-summary, raid-log, decision-log, presentation-outline"
+  prompt: "Gelecek perşembe için yönlendirme kurulu sunumunu hazırla: entegrasyon testinde 3 hafta gerideyiz, bütçeyi %8 aştık ve raporlama modülünün kapsamdan çıkarılması için karar gerekiyor."
 ---
 
 # Yönlendirme Kurulu Sunumu

@@ -1,7 +1,16 @@
 ---
+name: request-completeness-check
 description: "Bir talebi veya talep alma dokümanını eksik kontrol listesine (iş, kullanıcılar, veri, entegrasyon, NFR, yasal, operasyon, raporlama, geçiş) göre inceler; eksik, belirsiz veya çelişkili noktaları önem derecesiyle raporlar ve hazır/hazır değil kararı verir. Talep analize, tahmine veya sprint/backlog'a girmeden önce ya da 'bu talep başlamak için yeterince eksiksiz mi?' sorusu geldiğinde kullanılır."
-related: "request-intake-document, request-clarification-questions, ambiguity-detection, requirements-gap-analysis, definition-of-ready"
-prompt: "Bu talep analize başlamak için yeterince eksiksiz mi kontrol et: 'Belli bir limitin üstündeki siparişlere indirim onay adımı ekleyelim, yöneticiler e-postayla onaylasın.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Talep eksiklik kontrolü"
+  related: "request-intake-document, request-clarification-questions, ambiguity-detection, requirements-gap-analysis, definition-of-ready"
+  prompt: "Bu talep analize başlamak için yeterince eksiksiz mi kontrol et: 'Belli bir limitin üstündeki siparişlere indirim onay adımı ekleyelim, yöneticiler e-postayla onaylasın.'"
 ---
 
 # Talep Eksiklik Kontrolü

@@ -1,7 +1,16 @@
 ---
+name: data-vault-model
 description: "Data Vault 2.0 modeli tasarlar: iş anahtarlarından hub'lar, ilişki ve işlemler için link'ler, kaynağa ve değişim hızına göre bölünmüş satellite'lar; hash key, load date, record source ve business vault yapıları (PIT, bridge, effectivity). Çok sayıda değişken kaynak üzerinde denetlenebilir, kaynakları entegre eden ham katman kurulurken ya da hub, link ve satellite istendiğinde kullanılır."
-related: "dimensional-model, logical-data-model, master-data-strategy, incremental-load-design, data-lineage-doc"
-prompt: "CRM, çekirdek bankacılık ve web müşteri edinim uygulamasından gelen müşteri ve sözleşme verisi için Data Vault tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Data Vault modeli tasarlama"
+  related: "dimensional-model, logical-data-model, master-data-strategy, incremental-load-design, data-lineage-doc"
+  prompt: "CRM, çekirdek bankacılık ve web müşteri edinim uygulamasından gelen müşteri ve sözleşme verisi için Data Vault tasarla."
 ---
 
 # Data Vault Modeli Tasarlama

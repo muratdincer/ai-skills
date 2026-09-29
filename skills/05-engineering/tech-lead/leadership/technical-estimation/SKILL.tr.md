@@ -1,7 +1,16 @@
 ---
-description: Teknik bir işi bağımlılık ve riske göre sıralanmış, doğrulanabilir küçük görevlere böler; her görevi aralık olarak tahmin eder, varsayımları ve bilinmeyenleri açık yazar, entegrasyon, test ve sürüm eforunu ekler, güven düzeyini ve rakamı neyin değiştireceğini belirtir. Teknik lidere "bu ne kadar sürer?" sorulduğunda, bir özellik, taşıma veya teknik girişimin planlama ya da taahhüt için boyutlandırılması gerektiğinde veya mevcut bir tahminin sorgulanıp yeniden baz alınması gerektiğinde kullanılır.
-related: task-breakdown, estimation-three-point, spike-report, technical-risk-review, monte-carlo-forecast
-prompt: Ürün ekibi web uygulamamıza kurumsal kimlik sağlayıcımızla SSO eklemenin ne kadar süreceğini soruyor. Aralıklar ve varsayımlarla bir tahmin ver.
+name: technical-estimation
+description: "Teknik bir işi bağımlılık ve riske göre sıralanmış, doğrulanabilir küçük görevlere böler; her görevi aralık olarak tahmin eder, varsayımları ve bilinmeyenleri açık yazar, entegrasyon, test ve sürüm eforunu ekler, güven düzeyini ve rakamı neyin değiştireceğini belirtir. Teknik lidere \"bu ne kadar sürer?\" sorulduğunda, bir özellik, taşıma veya teknik girişimin planlama ya da taahhüt için boyutlandırılması gerektiğinde veya mevcut bir tahminin sorgulanıp yeniden baz alınması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Teknik iş tahmini"
+  related: "task-breakdown, estimation-three-point, spike-report, technical-risk-review, monte-carlo-forecast"
+  prompt: "Ürün ekibi web uygulamamıza kurumsal kimlik sağlayıcımızla SSO eklemenin ne kadar süreceğini soruyor. Aralıklar ve varsayımlarla bir tahmin ver."
 ---
 
 # Teknik İş Tahmini

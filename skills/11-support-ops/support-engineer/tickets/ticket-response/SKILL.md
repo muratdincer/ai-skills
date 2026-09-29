@@ -1,7 +1,16 @@
 ---
+name: ticket-response
 description: "Writes a customer-facing reply to a support ticket that acknowledges the issue, states what is known, gives a clear answer or next step with ownership and timing, and asks only for the information that is needed. Use when replying to a new or updated ticket, following up on a pending ticket, delivering a resolution, declining a request, or rewriting a draft reply that is too technical, too long or defensive."
-related: "ticket-triage, ticket-escalation-summary, known-error-article, tone-rewrite, bad-news-delivery"
-prompt: "Write a reply to this customer: they cannot log in after the password reset, it is the second time this week and they are frustrated."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Write a ticket response"
+  related: "ticket-triage, ticket-escalation-summary, known-error-article, tone-rewrite, bad-news-delivery"
+  prompt: "Write a reply to this customer: they cannot log in after the password reset, it is the second time this week and they are frustrated."
 ---
 
 # Write a Ticket Response

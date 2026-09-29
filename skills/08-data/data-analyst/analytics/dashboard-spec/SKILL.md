@@ -1,7 +1,16 @@
 ---
-description: Specifies a dashboard before it is built - audience, decisions it supports, questions, KPIs with definitions, visuals, filters, drill paths, refresh and access rules. Use when someone asks for a new dashboard or report page, wants to rebuild a cluttered one, or needs a spec a BI developer can implement without guessing.
-related: metric-definition, kpi-definition, report-requirements, data-requirements, insight-summary
-prompt: Specify a dashboard for the customer support leadership to track ticket backlog, SLA compliance and agent workload weekly.
+name: dashboard-spec
+description: "Specifies a dashboard before it is built - audience, decisions it supports, questions, KPIs with definitions, visuals, filters, drill paths, refresh and access rules. Use when someone asks for a new dashboard or report page, wants to rebuild a cluttered one, or needs a spec a BI developer can implement without guessing."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Specify a dashboard"
+  related: "metric-definition, kpi-definition, report-requirements, data-requirements, insight-summary"
+  prompt: "Specify a dashboard for the customer support leadership to track ticket backlog, SLA compliance and agent workload weekly."
 ---
 
 # Specify a Dashboard

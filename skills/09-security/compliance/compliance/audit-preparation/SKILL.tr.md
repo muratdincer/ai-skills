@@ -1,7 +1,16 @@
 ---
+name: audit-preparation
 description: "Bir ekibi iç, sertifikasyon, müşteri veya düzenleyici denetimine hazırlar: kapsamı ve kriterleri teyit eder, sorumlu ve teslim tarihli kanıt talep listesi oluşturur, hazırlık eksiklerini kontrol eder, denetim haftasını ve denetlenenlerin bilgilendirilmesini planlar. Bir denetim tarihi açıklandığında (ISO 27001, SOC 2, KVKK, PCI DSS, BDDK, müşteri denetimi), denetçi talep listesi gönderdiğinde veya önceki bulgular bir sonraki denetimden önce kapatılmalıysa kullanılır."
-related: "control-mapping, access-review, policy-writing, it-risk-assessment, schedule-plan"
-prompt: "ISO 27001 gözetim denetimimiz altı hafta sonra. Kanıt listesini, eksikleri ve planı hazırla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Denetime hazırlık"
+  related: "control-mapping, access-review, policy-writing, it-risk-assessment, schedule-plan"
+  prompt: "ISO 27001 gözetim denetimimiz altı hafta sonra. Kanıt listesini, eksikleri ve planı hazırla."
 ---
 
 # Denetime Hazırlık

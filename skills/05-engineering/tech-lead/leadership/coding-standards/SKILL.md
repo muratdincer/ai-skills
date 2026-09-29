@@ -1,7 +1,16 @@
 ---
-description: Writes or revises a team's coding standards as a short set of numbered rules, each with rationale, a good and a bad example, a severity (must or should) and how it is enforced (formatter, linter, review, test), focusing on decisions that tools cannot settle. Use when a team is forming or merging, reviews keep arguing about the same style or design questions, a new language or framework is adopted, or existing standards are too long, outdated or ignored.
-related: clean-code-review, code-review, review-comment-writing, working-agreement, adr
-prompt: Write coding standards for our backend team. We keep arguing in reviews about exception handling, naming and how big a pull request should be.
+name: coding-standards
+description: "Writes or revises a team's coding standards as a short set of numbered rules, each with rationale, a good and a bad example, a severity (must or should) and how it is enforced (formatter, linter, review, test), focusing on decisions that tools cannot settle. Use when a team is forming or merging, reviews keep arguing about the same style or design questions, a new language or framework is adopted, or existing standards are too long, outdated or ignored."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Write coding standards"
+  related: "clean-code-review, code-review, review-comment-writing, working-agreement, adr"
+  prompt: "Write coding standards for our backend team. We keep arguing in reviews about exception handling, naming and how big a pull request should be."
 ---
 
 # Write Coding Standards

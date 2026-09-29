@@ -1,7 +1,16 @@
 ---
+name: dimensional-model
 description: "İş süreçlerinden boyutsal (yıldız/kar tanesi) model tasarlar: tanecik (grain), olgu tabloları ve ölçü toplanabilirliği, ortak (conformed) boyutlar, nitelik bazında SCD tipi ve geç gelen ile bilinmeyen üyelerin yönetimi. Veri ambarı veya lakehouse gold/mart katmanı, BI için semantik model kurulurken ya da yıldız şema, bus matrix veya olgu/boyut tasarımı istendiğinde kullanılır."
-related: "metric-definition, dashboard-spec, report-requirements, data-vault-model, source-to-target-mapping"
-prompt: "Perakende satış ve iade analizi için yıldız şema tasarla; kullanıcılar günlük mağaza/ürün KPI'larına ve müşteri segmenti tarihçesine ihtiyaç duyuyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Boyutsal model tasarlama"
+  related: "metric-definition, dashboard-spec, report-requirements, data-vault-model, source-to-target-mapping"
+  prompt: "Perakende satış ve iade analizi için yıldız şema tasarla; kullanıcılar günlük mağaza/ürün KPI'larına ve müşteri segmenti tarihçesine ihtiyaç duyuyor."
 ---
 
 # Boyutsal Model Tasarlama

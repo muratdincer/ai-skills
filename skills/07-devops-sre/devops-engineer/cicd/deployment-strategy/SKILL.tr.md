@@ -1,7 +1,16 @@
 ---
+name: deployment-strategy
 description: "Belirli bir servis için risk, durum tutma, veritabanı değişiklikleri, trafik kontrolü, maliyet ve geri dönüş hızını tartarak bir dağıtım stratejisi (recreate, rolling, blue-green, canary, shadow, feature flag veya bunların birleşimi) önerir. Bir sürümün kullanıcıya nasıl ulaşacağına karar verilirken ya da mevcut sürümler kesintiye veya riskli toplu geçişlere yol açıyorsa kullanılır."
-related: "pipeline-design, rollback-plan, release-plan, schema-migration-plan, slo-definition"
-prompt: "Ödeme servisimizi 20 dakikalık bakım penceresiyle dağıtıyoruz. Kesintisiz dağıtım için hangi stratejiye geçmeliyiz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Dağıtım stratejisi seçme"
+  related: "pipeline-design, rollback-plan, release-plan, schema-migration-plan, slo-definition"
+  prompt: "Ödeme servisimizi 20 dakikalık bakım penceresiyle dağıtıyoruz. Kesintisiz dağıtım için hangi stratejiye geçmeliyiz?"
 ---
 
 # Dağıtım Stratejisi Seçme

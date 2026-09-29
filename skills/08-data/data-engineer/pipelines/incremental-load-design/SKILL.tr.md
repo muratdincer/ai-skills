@@ -1,7 +1,16 @@
 ---
+name: incremental-load-design
 description: "Bir tablo veya akış için artımlı yükleme tasarlar: değişiklik tespit yöntemi (log tabanlı CDC, zaman damgası veya sıra numarası watermark'ı, snapshot karşılaştırma), watermark yönetimi, idempotent merge, silmelerin iletimi, geç ve sırasız gelen verinin ele alınışı, mutabakat ve tam yeniden yükleme yedeği. Tam yüklemeler çok yavaş veya maliyetli hale geldiğinde, bir kaynağın düşük gecikmeyle çoğaltılması gerektiğinde ya da yalnızca değişen verinin güvenle nasıl yükleneceği sorulduğunda kullanılır."
-related: "pipeline-spec, source-to-target-mapping, data-vault-model, schema-evolution-plan, pipeline-failure-analysis"
-prompt: "Tam yüklemesi 6 saat süren 400 milyon satırlık işlem tablosu için artımlı yükleme tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Artımlı yükleme tasarımı"
+  related: "pipeline-spec, source-to-target-mapping, data-vault-model, schema-evolution-plan, pipeline-failure-analysis"
+  prompt: "Tam yüklemesi 6 saat süren 400 milyon satırlık işlem tablosu için artımlı yükleme tasarla."
 ---
 
 # Artımlı Yükleme Tasarımı

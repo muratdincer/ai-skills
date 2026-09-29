@@ -1,7 +1,16 @@
 ---
-description: Communicates a delay, cancellation, scope cut, failed delivery, rejected request or missed commitment transparently, stating the news early, the cause without blame, the impact on the reader, what is being done, options and the next update. Use when someone must tell a customer, sponsor, manager or team that something will not happen as promised or expected, in writing or as talking points for a conversation.
-related: tone-rewrite, escalation-message, stakeholder-email, status-update, customer-outage-notice
-prompt: Help me tell the sponsor that the reporting release planned for the 20th will slip by three weeks because the data vendor's API changed, and what we propose instead.
+name: bad-news-delivery
+description: "Communicates a delay, cancellation, scope cut, failed delivery, rejected request or missed commitment transparently, stating the news early, the cause without blame, the impact on the reader, what is being done, options and the next update. Use when someone must tell a customer, sponsor, manager or team that something will not happen as promised or expected, in writing or as talking points for a conversation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Deliver bad news"
+  related: "tone-rewrite, escalation-message, stakeholder-email, status-update, customer-outage-notice"
+  prompt: "Help me tell the sponsor that the reporting release planned for the 20th will slip by three weeks because the data vendor's API changed, and what we propose instead."
 ---
 
 # Deliver Bad News

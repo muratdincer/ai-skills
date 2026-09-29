@@ -1,7 +1,16 @@
 ---
-description: Writes or rewrites code review comments so they are specific, kind and actionable, labeled by severity and intent (Critical, Required, Nit, Optional, FYI, plus question and praise) and backed by a reason and a proposed change. Use when a reviewer has raw observations or blunt draft comments on a pull request and wants them phrased clearly, or when review threads are turning tense.
-related: code-review, feedback-sbi, tone-rewrite, coding-standards, conflict-resolution
-prompt: Rewrite my review comments so they are clear but not harsh. First one is 'this is wrong, why would you query in a loop?'
+name: review-comment-writing
+description: "Writes or rewrites code review comments so they are specific, kind and actionable, labeled by severity and intent (Critical, Required, Nit, Optional, FYI, plus question and praise) and backed by a reason and a proposed change. Use when a reviewer has raw observations or blunt draft comments on a pull request and wants them phrased clearly, or when review threads are turning tense."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Write review comments"
+  related: "code-review, feedback-sbi, tone-rewrite, coding-standards, conflict-resolution"
+  prompt: "Rewrite my review comments so they are clear but not harsh. First one is 'this is wrong, why would you query in a loop?'"
 ---
 
 # Write Review Comments

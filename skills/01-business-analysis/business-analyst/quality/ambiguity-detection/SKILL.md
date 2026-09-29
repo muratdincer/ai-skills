@@ -1,7 +1,16 @@
 ---
+name: ambiguity-detection
 description: "Scans requirements text for vague words, undefined terms, weak or subjective phrases, unbounded lists, passive voice without an actor and untestable statements, and proposes precise rewrites. Use when reviewing requirements, user stories or acceptance criteria for clarity, or when testers or developers say a requirement can be read more than one way."
-related: "requirements-gap-analysis, requirements-consistency-check, glossary-builder, acceptance-criteria, testability-review"
-prompt: "Check these 20 requirements for ambiguous wording and suggest testable rewrites."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Detect ambiguous requirements"
+  related: "requirements-gap-analysis, requirements-consistency-check, glossary-builder, acceptance-criteria, testability-review"
+  prompt: "Check these 20 requirements for ambiguous wording and suggest testable rewrites."
 ---
 
 # Detect Ambiguous Requirements

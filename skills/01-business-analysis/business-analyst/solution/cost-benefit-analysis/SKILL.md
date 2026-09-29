@@ -1,7 +1,16 @@
 ---
+name: cost-benefit-analysis
 description: "Quantifies the costs and benefits of an initiative or of competing options over a defined horizon, separating one-off and recurring items, tangible and intangible benefits, and computes net benefit, ROI, payback period and optionally NPV with sensitivity on the key assumptions. Use when a business case, investment decision or option comparison needs numbers, or when asked 'is it worth it?' or 'what is the ROI?'."
-related: "feasibility-study, budget-proposal, cloud-cost-estimate, benefits-realization, decision-matrix"
-prompt: "Run a cost-benefit analysis for automating invoice matching: licence 40k/year, implementation 120k, it should save 3 FTE of manual work."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Run a cost-benefit analysis"
+  related: "feasibility-study, budget-proposal, cloud-cost-estimate, benefits-realization, decision-matrix"
+  prompt: "Run a cost-benefit analysis for automating invoice matching: licence 40k/year, implementation 120k, it should save 3 FTE of manual work."
 ---
 
 # Run a Cost-Benefit Analysis

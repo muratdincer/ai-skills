@@ -1,7 +1,16 @@
 ---
+name: feasibility-study
 description: "Assesses whether a proposed initiative or solution option is feasible across technical, operational, economic, schedule, legal/compliance and organizational dimensions, rates each with evidence, names the conditions and showstoppers, and recommends go, go with conditions or no-go. Use when an idea or request must be vetted before investment, when comparing solution options at a high level, or when asked 'can we actually do this?'."
-related: "cost-benefit-analysis, build-vs-buy, pre-mortem, risk-register, technology-selection"
-prompt: "Assess the feasibility of replacing our on-prem CRM with a SaaS CRM within 6 months; we have 2 developers and strict KVKK requirements."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Assess feasibility"
+  related: "cost-benefit-analysis, build-vs-buy, pre-mortem, risk-register, technology-selection"
+  prompt: "Assess the feasibility of replacing our on-prem CRM with a SaaS CRM within 6 months; we have 2 developers and strict KVKK requirements."
 ---
 
 # Assess Feasibility

@@ -1,7 +1,16 @@
 ---
+name: retention-policy
 description: "Veri setleri veya sistemler için veri saklama politikası tanımlar: yasal veya iş gerekçesiyle saklama süreleri, süreyi başlatan olaylar, arşiv katmanları, silme veya anonimleştirme yöntemleri, hukuki muhafaza (legal hold), yedeklerin ele alınışı ve imha kanıtı. Veri varsayılan olarak süresiz tutuluyorsa, KVKK veya GDPR gibi bir gizlilik mevzuatı saklama sınırlaması istiyorsa, depolama maliyetleri artıyorsa ya da verinin ne kadar süre tutulabileceği veya tutulması gerektiği sorulduğunda kullanılır."
-related: "data-classification, privacy-impact-assessment, backup-restore-plan, policy-writing, data-catalog-entry"
-prompt: "KVKK ve GDPR kapsamında müşteri, sipariş ve uygulama log verilerimiz için saklama politikası tanımla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Veri saklama politikası"
+  related: "data-classification, privacy-impact-assessment, backup-restore-plan, policy-writing, data-catalog-entry"
+  prompt: "KVKK ve GDPR kapsamında müşteri, sipariş ve uygulama log verilerimiz için saklama politikası tanımla."
 ---
 
 # Veri Saklama Politikası

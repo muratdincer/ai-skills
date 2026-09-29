@@ -1,7 +1,16 @@
 ---
+name: impediment-tracking
 description: "Bir engel kaydı oluşturur ve sürdürür: her engeli bloke ettiği iş, etkisi, sorumlusu ve sonraki aksiyonuyla kaydeder, kaldırmak için neye ihtiyaç duyulduğuna göre (ekip, başka ekip, yönetim, dış taraf) sınıflandırır, süre eşikleriyle bir eskalasyon basamağı uygular ve tekrarlayan sistemik nedenleri ortaya çıkarır. Ekip günlük senkronda engel bildirdiğinde, iş başkalarını beklerken takıldığında ya da açık engellerin düzenlenmesi, eskale edilmesi veya raporlanması istendiğinde kullanılır."
-related: "daily-sync-summary, escalation-message, cross-team-dependency-board, raid-log, retrospective-facilitation"
-prompt: "Bu haftaki senkronlardan çıkan engeller: test ortamı salıdan beri çalışmıyor, güvenlik ekibinin firewall kuralı onayını bekliyoruz, product owner iade kurallarına dönmedi. Düzenle ve neyi eskale etmem gerektiğini söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Engel takibi"
+  related: "daily-sync-summary, escalation-message, cross-team-dependency-board, raid-log, retrospective-facilitation"
+  prompt: "Bu haftaki senkronlardan çıkan engeller: test ortamı salıdan beri çalışmıyor, güvenlik ekibinin firewall kuralı onayını bekliyoruz, product owner iade kurallarına dönmedi. Düzenle ve neyi eskale etmem gerektiğini söyle."
 ---
 
 # Engel Takibi

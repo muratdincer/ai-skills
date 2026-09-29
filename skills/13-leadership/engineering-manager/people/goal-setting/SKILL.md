@@ -1,7 +1,16 @@
 ---
-description: Drafts 3-5 SMART individual goals for an engineer or team member that connect team outcomes with the person's growth, each with measures, milestones and the support needed. Use at the start of a review period, after a promotion or role change, or when goals are vague, activity-based or disconnected from team priorities.
-related: okr-definition, performance-review, career-development-plan, career-ladder, one-on-one-prep
-prompt: Help me set H2 goals for Deniz, a mid-level backend engineer. Team OKR is cutting checkout latency and she wants to grow toward senior.
+name: goal-setting
+description: "Drafts 3-5 SMART individual goals for an engineer or team member that connect team outcomes with the person's growth, each with measures, milestones and the support needed. Use at the start of a review period, after a promotion or role change, or when goals are vague, activity-based or disconnected from team priorities."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Set individual goals"
+  related: "okr-definition, performance-review, career-development-plan, career-ladder, one-on-one-prep"
+  prompt: "Help me set H2 goals for Deniz, a mid-level backend engineer. Team OKR is cutting checkout latency and she wants to grow toward senior."
 ---
 
 # Set Individual Goals

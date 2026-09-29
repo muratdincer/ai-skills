@@ -1,7 +1,16 @@
 ---
-description: Erken aşamadaki bir müşteri işi için keşif çalıştayı tasarlar ve belgeler; hedefler, katılımcı karışımı, ön hazırlık, süreleri belli bir gündem, konu bazlı soru bankası, grup çalışması ve not-yaz-oyla (note-and-vote) yakınsama mekaniği ile yapılandırılmış bir çıktı (hedefler, sorunlar, mevcut yapı, gereksinim temaları, kısıtlar, riskler, sonraki adımlar) içerir. Yeni bir müşteri işi veya ön satış fırsatı başlarken, belirsiz bir müşteri ihtiyacı kapsama dönüştürülecekken ya da çalıştay notları bir keşif özetine çevrilecekken kullanılır.
-related: workshop-plan, facilitation-guide, current-state-assessment, stakeholder-map, interview-question-set
-prompt: E-ticaret platformunu "modernize etmek" isteyen ve ayrıntı paylaşmamış bir perakende müşterisiyle bir günlük keşif çalıştayı planla.
+name: discovery-workshop
+description: "Erken aşamadaki bir müşteri işi için keşif çalıştayı tasarlar ve belgeler; hedefler, katılımcı karışımı, ön hazırlık, süreleri belli bir gündem, konu bazlı soru bankası, grup çalışması ve not-yaz-oyla (note-and-vote) yakınsama mekaniği ile yapılandırılmış bir çıktı (hedefler, sorunlar, mevcut yapı, gereksinim temaları, kısıtlar, riskler, sonraki adımlar) içerir. Yeni bir müşteri işi veya ön satış fırsatı başlarken, belirsiz bir müşteri ihtiyacı kapsama dönüştürülecekken ya da çalıştay notları bir keşif özetine çevrilecekken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Müşteri keşif çalıştayı"
+  related: "workshop-plan, facilitation-guide, current-state-assessment, stakeholder-map, interview-question-set"
+  prompt: "E-ticaret platformunu \"modernize etmek\" isteyen ve ayrıntı paylaşmamış bir perakende müşterisiyle bir günlük keşif çalıştayı planla."
 ---
 
 # Müşteri Keşif Çalıştayı

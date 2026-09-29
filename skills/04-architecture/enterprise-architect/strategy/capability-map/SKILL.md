@@ -1,7 +1,16 @@
 ---
-description: Builds a hierarchical business capability map (levels 1-3) with maturity, strategic importance and a heatmap, and maps applications and owners to capabilities. Use when planning investments, rationalizing applications, scoping a transformation or aligning IT with business strategy, or when someone asks what the business does independent of org chart and systems.
-related: application-portfolio-assessment, target-state-architecture, value-stream-map, bounded-context-map, portfolio-prioritization
-prompt: Build a level-2 capability map for our retail bank with maturity and strategic importance, and highlight where to invest next year.
+name: capability-map
+description: "Builds a hierarchical business capability map (levels 1-3) with maturity, strategic importance and a heatmap, and maps applications and owners to capabilities. Use when planning investments, rationalizing applications, scoping a transformation or aligning IT with business strategy, or when someone asks what the business does independent of org chart and systems."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Build a business capability map"
+  related: "application-portfolio-assessment, target-state-architecture, value-stream-map, bounded-context-map, portfolio-prioritization"
+  prompt: "Build a level-2 capability map for our retail bank with maturity and strategic importance, and highlight where to invest next year."
 ---
 
 # Build a Business Capability Map

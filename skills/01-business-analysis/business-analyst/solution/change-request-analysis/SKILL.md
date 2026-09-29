@@ -1,7 +1,16 @@
 ---
+name: change-request-analysis
 description: "Analyzes a change request against the agreed baseline: classifies it (new scope, modification, clarification, defect in disguise), assesses value, scope, effort drivers, schedule, cost and risk impact, lists options and recommends accept, accept with trade-off, defer or reject with rationale for the change authority. Use when a stakeholder asks to add or change something after requirements were baselined or during delivery, or when a change control board needs a decision paper."
-related: "impact-analysis, change-control, change-request-rfc, requirements-sign-off, trade-off-analysis"
-prompt: "Marketing wants to add SMS notifications to the loyalty release two weeks before go-live. Analyze the change request and give a recommendation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Analyze a change request"
+  related: "impact-analysis, change-control, change-request-rfc, requirements-sign-off, trade-off-analysis"
+  prompt: "Marketing wants to add SMS notifications to the loyalty release two weeks before go-live. Analyze the change request and give a recommendation."
 ---
 
 # Analyze a Change Request

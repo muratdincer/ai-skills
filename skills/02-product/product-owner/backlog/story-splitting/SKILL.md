@@ -1,7 +1,16 @@
 ---
+name: story-splitting
 description: "Splits a large user story or work item into thin, independently valuable vertical slices using named patterns (workflow step, business rule, data variation, interface, operation, happy/unhappy path, spike) and shows acceptance criteria and a suggested order for each slice. Use when a story is too big for one iteration/sprint, estimates are wide, or someone asks to break down, slice or split a story."
-related: "epic-breakdown, invest-check, backlog-refinement, acceptance-criteria, user-story"
-prompt: "This story is 21 points and nobody trusts the estimate: 'As a customer I want to pay my invoice online.' Split it."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Split large stories"
+  related: "epic-breakdown, invest-check, backlog-refinement, acceptance-criteria, user-story"
+  prompt: "This story is 21 points and nobody trusts the estimate: 'As a customer I want to pay my invoice online.' Split it."
 ---
 
 # Split Large Stories

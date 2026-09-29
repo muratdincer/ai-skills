@@ -1,7 +1,16 @@
 ---
+name: requirements-review-checklist
 description: "Bir gereksinim dokümanını veya hikaye setini onaydan önce kontrol listesine dayalı, yapılandırılmış bir incelemeden geçirir: yapı, tekil gereksinim kalitesi (ISO/IEC/IEEE 29148 özellikleri), set düzeyinde bütünlük ve tutarlılık, NFR'ler, izlenebilirlik ve onaya hazırlık. Bulguları ve geçer/geçmez önerisini döndürür. Bir BRD, FRD, SRS veya backlog dilimi temel sürüme alınmadan, tedarikçiye verilmeden veya onaylanmadan önce kullanılır."
-related: "ambiguity-detection, requirements-gap-analysis, requirements-consistency-check, requirements-sign-off, document-review"
-prompt: "Bu FRD'yi iş birimine onaya göndermeden önce incele. Düzgün bir kontrol listesi kullan ve hazır olup olmadığını söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Gereksinim gözden geçirme"
+  related: "ambiguity-detection, requirements-gap-analysis, requirements-consistency-check, requirements-sign-off, document-review"
+  prompt: "Bu FRD'yi iş birimine onaya göndermeden önce incele. Düzgün bir kontrol listesi kullan ve hazır olup olmadığını söyle."
 ---
 
 # Gereksinim Gözden Geçirme

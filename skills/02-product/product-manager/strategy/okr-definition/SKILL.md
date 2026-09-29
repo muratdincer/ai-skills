@@ -1,7 +1,16 @@
 ---
-description: Writes outcome-based objectives with 2-5 measurable key results each, including baselines, targets, measurement source and owner, and flags output-style or unmeasurable KRs. Use when a team plans a quarter or half-year, when strategy must be turned into measurable goals, or when someone asks to write or review OKRs.
-related: product-strategy-one-pager, north-star-metric, kpi-definition, goal-setting, quarterly-planning
-prompt: Write Q3 OKRs for our onboarding team based on the goal of getting new customers to value faster.
+name: okr-definition
+description: "Writes outcome-based objectives with 2-5 measurable key results each, including baselines, targets, measurement source and owner, and flags output-style or unmeasurable KRs. Use when a team plans a quarter or half-year, when strategy must be turned into measurable goals, or when someone asks to write or review OKRs."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Define OKRs"
+  related: "product-strategy-one-pager, north-star-metric, kpi-definition, goal-setting, quarterly-planning"
+  prompt: "Write Q3 OKRs for our onboarding team based on the goal of getting new customers to value faster."
 ---
 
 # Define OKRs

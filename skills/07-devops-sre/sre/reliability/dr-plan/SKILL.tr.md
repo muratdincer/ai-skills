@@ -1,7 +1,16 @@
 ---
+name: dr-plan
 description: "Bir sistem için felaket kurtarma planı yazar: servis katmanına göre iş gereksinimine dayalı RTO/RPO, felaket senaryoları, kurtarma stratejisi ve bağımlılık sırası, adım adım failover ve failback prosedürleri, roller ve felaket ilan yetkisi, iletişim ve kanıtlı bir test takvimi. Sistemde DR planı yoksa, RTO/RPO hedefleri belirlenmeli veya doğrulanmalıysa, bir denetim öncesinde ya da bir DR testi veya olay eksikleri ortaya çıkardıktan sonra kullanılır."
-related: "backup-restore-plan, runbook, chaos-experiment, incident-communication, resilience-review"
-prompt: "Çekirdek bankacılık API'miz ve PostgreSQL veritabanı için DR planı yaz. İş birimi RTO 1 saat ve RPO 5 dakika istiyor; tek bölgede çalışıyoruz ve gecelik yedek alıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Felaket kurtarma planı"
+  related: "backup-restore-plan, runbook, chaos-experiment, incident-communication, resilience-review"
+  prompt: "Çekirdek bankacılık API'miz ve PostgreSQL veritabanı için DR planı yaz. İş birimi RTO 1 saat ve RPO 5 dakika istiyor; tek bölgede çalışıyoruz ve gecelik yedek alıyoruz."
 ---
 
 # Felaket Kurtarma Planı

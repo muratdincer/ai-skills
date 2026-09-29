@@ -1,7 +1,16 @@
 ---
-description: Writes short, user-facing "What's new" release notes for mobile app stores from a changelog, ticket list or pull request titles, filters out internal changes, fits each store's character limit and prepares localized variants. Use when a mobile version is about to be submitted to an app store, when a raw changelog must be turned into store copy, or when notes must be localized or shortened for a store.
-related: release-notes, changelog-entry, mobile-release-checklist, microcopy, voice-and-tone-guide
-prompt: Turn this sprint's merged PR titles into App Store and Google Play release notes for version 5.3, in English and Turkish.
+name: app-store-release-notes
+description: "Writes short, user-facing \"What's new\" release notes for mobile app stores from a changelog, ticket list or pull request titles, filters out internal changes, fits each store's character limit and prepares localized variants. Use when a mobile version is about to be submitted to an app store, when a raw changelog must be turned into store copy, or when notes must be localized or shortened for a store."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: mobile
+  title: "Write app store release notes"
+  related: "release-notes, changelog-entry, mobile-release-checklist, microcopy, voice-and-tone-guide"
+  prompt: "Turn this sprint's merged PR titles into App Store and Google Play release notes for version 5.3, in English and Turkish."
 ---
 
 # Write App Store Release Notes

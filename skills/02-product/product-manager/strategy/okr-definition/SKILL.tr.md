@@ -1,7 +1,16 @@
 ---
-description: Her biri 2-5 ölçülebilir anahtar sonuç içeren sonuç odaklı hedefler yazar; başlangıç değeri, hedef, ölçüm kaynağı ve sorumluyu ekler, çıktı odaklı veya ölçülemeyen anahtar sonuçları işaretler. Bir ekip çeyrek veya yarıyıl planladığında, strateji ölçülebilir hedeflere dönüştürülmek istendiğinde ya da OKR yazılması veya gözden geçirilmesi istendiğinde kullanılır.
-related: product-strategy-one-pager, north-star-metric, kpi-definition, goal-setting, quarterly-planning
-prompt: Yeni müşterilerin değere daha hızlı ulaşması hedefine göre onboarding ekibimiz için 3. çeyrek OKR'larını yaz.
+name: okr-definition
+description: "Her biri 2-5 ölçülebilir anahtar sonuç içeren sonuç odaklı hedefler yazar; başlangıç değeri, hedef, ölçüm kaynağı ve sorumluyu ekler, çıktı odaklı veya ölçülemeyen anahtar sonuçları işaretler. Bir ekip çeyrek veya yarıyıl planladığında, strateji ölçülebilir hedeflere dönüştürülmek istendiğinde ya da OKR yazılması veya gözden geçirilmesi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "OKR tanımlama"
+  related: "product-strategy-one-pager, north-star-metric, kpi-definition, goal-setting, quarterly-planning"
+  prompt: "Yeni müşterilerin değere daha hızlı ulaşması hedefine göre onboarding ekibimiz için 3. çeyrek OKR'larını yaz."
 ---
 
 # OKR Tanımlama

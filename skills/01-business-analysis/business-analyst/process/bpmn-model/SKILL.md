@@ -1,7 +1,16 @@
 ---
+name: bpmn-model
 description: "Turns a process description into a BPMN 2.0 model: pools and lanes, events, tasks, gateways, message flows and data objects, delivered as a structured element list plus diagram code that renders or imports. Use when a process must be drawn formally, when a textual as-is or to-be process needs a diagram, or when someone asks for BPMN, a swimlane diagram or process diagram code."
-related: "as-is-process, to-be-process, diagram-as-code, business-rules-catalog, use-case-spec"
-prompt: "Model this purchase approval process in BPMN: employee submits request, manager approves up to 10k, above that finance also approves, then procurement orders."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Describe a process in BPMN"
+  related: "as-is-process, to-be-process, diagram-as-code, business-rules-catalog, use-case-spec"
+  prompt: "Model this purchase approval process in BPMN: employee submits request, manager approves up to 10k, above that finance also approves, then procurement orders."
 ---
 
 # Describe a Process in BPMN

@@ -1,7 +1,16 @@
 ---
+name: schema-evolution-plan
 description: "Plans a schema change in a data pipeline, event stream or shared dataset: classifies each change as backward, forward or fully compatible or breaking, picks the evolution pattern (additive, expand-contract, versioned dataset or topic, dual write), and sequences producer, pipeline and consumer changes with backfill, validation and deprecation. Use when a source adds, renames, retypes or removes fields, when a data contract must change, or when consumers keep breaking on upstream schema drift."
-related: "data-contract, schema-migration-plan, incremental-load-design, source-to-target-mapping, data-lineage-doc"
-prompt: "The CRM team will rename customer_type to segment and change it from free text to an enum next month. Plan the schema evolution for our pipeline and the 6 downstream consumers."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Plan schema evolution"
+  related: "data-contract, schema-migration-plan, incremental-load-design, source-to-target-mapping, data-lineage-doc"
+  prompt: "The CRM team will rename customer_type to segment and change it from free text to an enum next month. Plan the schema evolution for our pipeline and the 6 downstream consumers."
 ---
 
 # Plan Schema Evolution

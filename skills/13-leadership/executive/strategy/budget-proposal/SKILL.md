@@ -1,7 +1,16 @@
 ---
-description: Writes a technology budget proposal that separates investment (change) from run costs, ties each line to a business outcome, shows the cost of not funding, and offers funding scenarios with their consequences. Use when a technology leader must request or defend an annual or project budget, justify headcount, licenses or cloud spend, or present options to finance or the executive team.
-related: technology-strategy, cost-benefit-analysis, cloud-cost-estimate, budget-plan, board-update
-prompt: Draft our IT budget proposal for next year; run costs grow 12% from cloud and licenses, and we want funding for a data platform and 4 more engineers.
+name: budget-proposal
+description: "Writes a technology budget proposal that separates investment (change) from run costs, ties each line to a business outcome, shows the cost of not funding, and offers funding scenarios with their consequences. Use when a technology leader must request or defend an annual or project budget, justify headcount, licenses or cloud spend, or present options to finance or the executive team."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Write a budget proposal"
+  related: "technology-strategy, cost-benefit-analysis, cloud-cost-estimate, budget-plan, board-update"
+  prompt: "Draft our IT budget proposal for next year; run costs grow 12% from cloud and licenses, and we want funding for a data platform and 4 more engineers."
 ---
 
 # Write a Budget Proposal

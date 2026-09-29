@@ -1,7 +1,16 @@
 ---
+name: error-handling-review
 description: "Reviews how code detects, propagates, retries, falls back from and reports errors: exception design, swallowed or over-broad catches, retry and timeout policy, idempotency, resource cleanup, transactional consistency and user-facing error messages. Use when failures are silent or confusing, before hardening a service or integration, or when someone asks to review error handling, exceptions or resilience of code."
-related: "resilience-review, logging-instrumentation, error-message-writing, code-review, error-scenario-catalog"
-prompt: "Review the error handling in this payment client: it calls the provider over HTTP, retries on failure and updates the order status."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Review error handling"
+  related: "resilience-review, logging-instrumentation, error-message-writing, code-review, error-scenario-catalog"
+  prompt: "Review the error handling in this payment client: it calls the provider over HTTP, retries on failure and updates the order status."
 ---
 
 # Review Error Handling

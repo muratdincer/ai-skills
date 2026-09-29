@@ -1,7 +1,16 @@
 ---
-description: Gereksinimleri bir paketin, platformun veya referans sürecin standart yetenekleriyle karşılaştıran bir fit-gap analizi yapar; her gereksinimi uygun (fit), konfigürasyonla uygun, boşluk (gap) veya uygulanamaz olarak sınıflandırır, her boşluk için efor bandı ve riskiyle bir çözüm önerir (süreç değişikliği, konfigürasyon, genişletme, entegrasyon, üçüncü taraf, geçici çözüm, erteleme) ve uyum oranını ve gereken kararları özetler. Bir ERP, CRM, SaaS veya başka bir paket çözüm değerlendirilirken ya da uygulanırken, müşteri paketin ne kadar özelleştirme gerektireceğini sorduğunda veya gereksinimler standart bir sürece hizalanacakken kullanılır.
-related: requirements-gap-analysis, build-vs-buy, vendor-evaluation, current-state-assessment, effort-estimate-for-bid
-prompt: Bu 40 siparişten tahsilata (order-to-cash) gereksinimini standart bir bulut ERP satış modülüyle karşılaştıran fit-gap analizi yap ve özelleştirmenin kaçınılmaz olduğu yerleri söyle.
+name: fit-gap-analysis
+description: "Gereksinimleri bir paketin, platformun veya referans sürecin standart yetenekleriyle karşılaştıran bir fit-gap analizi yapar; her gereksinimi uygun (fit), konfigürasyonla uygun, boşluk (gap) veya uygulanamaz olarak sınıflandırır, her boşluk için efor bandı ve riskiyle bir çözüm önerir (süreç değişikliği, konfigürasyon, genişletme, entegrasyon, üçüncü taraf, geçici çözüm, erteleme) ve uyum oranını ve gereken kararları özetler. Bir ERP, CRM, SaaS veya başka bir paket çözüm değerlendirilirken ya da uygulanırken, müşteri paketin ne kadar özelleştirme gerektireceğini sorduğunda veya gereksinimler standart bir sürece hizalanacakken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Fit-gap analizi"
+  related: "requirements-gap-analysis, build-vs-buy, vendor-evaluation, current-state-assessment, effort-estimate-for-bid"
+  prompt: "Bu 40 siparişten tahsilata (order-to-cash) gereksinimini standart bir bulut ERP satış modülüyle karşılaştıran fit-gap analizi yap ve özelleştirmenin kaçınılmaz olduğu yerleri söyle."
 ---
 
 # Fit-Gap Analizi

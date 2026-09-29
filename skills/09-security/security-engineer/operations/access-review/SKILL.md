@@ -1,7 +1,16 @@
 ---
+name: access-review
 description: "Runs a user access review (access recertification) for an application, database, cloud account or directory group: compares entitlements with HR and role data to detect excessive, orphaned, dormant, shared and toxic (separation-of-duties conflicting) permissions, and produces revoke/keep decisions with evidence for auditors. Use for periodic ISO 27001, SOC 2, SOX or BDDK access reviews, after reorganizations, or when privilege creep is suspected."
-related: "authn-authz-design, audit-preparation, control-mapping, it-risk-assessment, raci-matrix"
-prompt: "Here is the export of users and roles from our ERP and the HR active employee list. Run a quarterly access review and flag what should be revoked."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: operations
+  title: "Run an access review"
+  related: "authn-authz-design, audit-preparation, control-mapping, it-risk-assessment, raci-matrix"
+  prompt: "Here is the export of users and roles from our ERP and the HR active employee list. Run a quarterly access review and flag what should be revoked."
 ---
 
 # Run an Access Review

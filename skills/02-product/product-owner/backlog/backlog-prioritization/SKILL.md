@@ -1,7 +1,16 @@
 ---
+name: backlog-prioritization
 description: "Orders backlog items with an explicit, defensible method (WSJF, RICE, value/effort, MoSCoW or cost of delay) and produces a ranked list with scores, rationale, sensitivity notes and items to drop or defer. Use when a product owner must decide what comes next, stakeholders dispute priorities, or someone asks to rank, score or justify backlog order."
-related: "backlog-refinement, requirements-prioritization, portfolio-prioritization, roadmap, decision-matrix"
-prompt: "Prioritize these 12 backlog items with WSJF; effort estimates are in the table, value comes from sales and support feedback."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Prioritize the backlog"
+  related: "backlog-refinement, requirements-prioritization, portfolio-prioritization, roadmap, decision-matrix"
+  prompt: "Prioritize these 12 backlog items with WSJF; effort estimates are in the table, value comes from sales and support feedback."
 ---
 
 # Prioritize the Backlog

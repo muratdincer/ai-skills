@@ -1,7 +1,16 @@
 ---
-description: Ham araştırma verisini (görüşme notları, kullanılabilirlik gözlemleri, açık uçlu anket yanıtları) benzerlik gruplamasıyla kanıta dayalı bulgulara, içgörülere ve önceliklendirilmiş önerilere dönüştürür; her biri için sıklık, önem ve güven düzeyi verir. Görüşmeler veya kullanılabilirlik oturumlarından sonra, "ne öğrendik" sorulduğunda ya da notların bir karar için sunuma dönüşmesi gerektiğinde kullanılır.
-related: research-plan, usability-test-script, interview-notes-analysis, feedback-synthesis, customer-journey-map
-prompt: 8 onboarding görüşmesinin notlarını ürün ekibi için temel içgörülere ve önerilere dönüştür.
+name: research-synthesis
+description: "Ham araştırma verisini (görüşme notları, kullanılabilirlik gözlemleri, açık uçlu anket yanıtları) benzerlik gruplamasıyla kanıta dayalı bulgulara, içgörülere ve önceliklendirilmiş önerilere dönüştürür; her biri için sıklık, önem ve güven düzeyi verir. Görüşmeler veya kullanılabilirlik oturumlarından sonra, \"ne öğrendik\" sorulduğunda ya da notların bir karar için sunuma dönüşmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Araştırma bulgularını sentezleme"
+  related: "research-plan, usability-test-script, interview-notes-analysis, feedback-synthesis, customer-journey-map"
+  prompt: "8 onboarding görüşmesinin notlarını ürün ekibi için temel içgörülere ve önerilere dönüştür."
 ---
 
 # Araştırma Bulgularını Sentezleme

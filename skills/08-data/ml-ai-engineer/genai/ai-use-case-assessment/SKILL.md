@@ -1,7 +1,16 @@
 ---
-description: Assesses a proposed AI or machine learning use case on business value, technical feasibility, data readiness, risk (privacy, fairness, safety, regulatory) and operating cost, and gives a scored go / pilot / no-go recommendation with the smallest next experiment. Use when someone proposes "let's use AI for X", when prioritizing a portfolio of AI ideas, or before funding an AI pilot.
-related: ml-problem-framing, rag-design, privacy-impact-assessment, cost-benefit-analysis, decision-matrix
-prompt: Assess this idea: use an LLM to draft first replies to all incoming customer complaints for our call center agents.
+name: ai-use-case-assessment
+description: "Assesses a proposed AI or machine learning use case on business value, technical feasibility, data readiness, risk (privacy, fairness, safety, regulatory) and operating cost, and gives a scored go / pilot / no-go recommendation with the smallest next experiment. Use when someone proposes \"let's use AI for X\", when prioritizing a portfolio of AI ideas, or before funding an AI pilot."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Assess an AI use case"
+  related: "ml-problem-framing, rag-design, privacy-impact-assessment, cost-benefit-analysis, decision-matrix"
+  prompt: "Assess this idea: use an LLM to draft first replies to all incoming customer complaints for our call center agents."
 ---
 
 # Assess an AI Use Case

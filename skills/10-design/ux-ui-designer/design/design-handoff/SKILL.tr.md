@@ -1,7 +1,16 @@
 ---
-description: Bir ekran, akış veya özellik için geliştiriciye hazır bir tasarım teslimi hazırlar; yerleşim ve boşluk ölçüleri, tasarım token'ları, bileşen eşlemesi, etkileşimler ve hareket, tüm uç durumlar, duyarlı (responsive) kurallar, erişilebilirlik notları, içerik ve varlıklar ile açık kararları kapsar. Bir tasarım onaylanıp geliştirmeye geçerken, geliştiriciler "bu tam olarak ne yapmalı" diye sorduğunda veya maket ya da tasarım dosyasının yanına bir teslim notu gerektiğinde kullanılır.
-related: wireframe-spec, design-system-component-spec, user-flow, microcopy, acceptance-criteria
-prompt: Web ekibi bir sonraki iterasyonda başlayabilsin diye yeni ödeme adımının (kart ile ödeme) tasarım teslimini hazırla.
+name: design-handoff
+description: "Bir ekran, akış veya özellik için geliştiriciye hazır bir tasarım teslimi hazırlar; yerleşim ve boşluk ölçüleri, tasarım token'ları, bileşen eşlemesi, etkileşimler ve hareket, tüm uç durumlar, duyarlı (responsive) kurallar, erişilebilirlik notları, içerik ve varlıklar ile açık kararları kapsar. Bir tasarım onaylanıp geliştirmeye geçerken, geliştiriciler \"bu tam olarak ne yapmalı\" diye sorduğunda veya maket ya da tasarım dosyasının yanına bir teslim notu gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Tasarım teslimi hazırlama"
+  related: "wireframe-spec, design-system-component-spec, user-flow, microcopy, acceptance-criteria"
+  prompt: "Web ekibi bir sonraki iterasyonda başlayabilsin diye yeni ödeme adımının (kart ile ödeme) tasarım teslimini hazırla."
 ---
 
 # Tasarım Teslimi Hazırlama

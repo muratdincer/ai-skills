@@ -1,7 +1,16 @@
 ---
-description: Bir ürün veya özellik için belirli bir hedef segmente, gerçek bir alternatife ve kanıtlanabilir bir farka dayanan konumlandırma cümlesini Kimin için/Kim/Nedir/Ne yapar/Rakiplerden farkı formatında yazar; ardından kanıt noktalarını ve mesaj sınırlarını çıkarır. Bir ürün veya büyük bir özellik lansmana hazırlanırken, satış ve pazarlama ürünü farklı anlatırken ya da "bunu nasıl konumlandıralım", "bizi farklı kılan ne" diye sorulduğunda kullanılır.
-related: value-proposition-canvas, competitor-analysis, persona, go-to-market-plan, elevator-pitch
-prompt: Orta ölçekli üreticilerin finans ekiplerine yönelik yeni fatura eşleştirme modülümüz için konumlandırma cümlesi yaz.
+name: positioning-statement
+description: "Bir ürün veya özellik için belirli bir hedef segmente, gerçek bir alternatife ve kanıtlanabilir bir farka dayanan konumlandırma cümlesini Kimin için/Kim/Nedir/Ne yapar/Rakiplerden farkı formatında yazar; ardından kanıt noktalarını ve mesaj sınırlarını çıkarır. Bir ürün veya büyük bir özellik lansmana hazırlanırken, satış ve pazarlama ürünü farklı anlatırken ya da \"bunu nasıl konumlandıralım\", \"bizi farklı kılan ne\" diye sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Konumlandırma cümlesi"
+  related: "value-proposition-canvas, competitor-analysis, persona, go-to-market-plan, elevator-pitch"
+  prompt: "Orta ölçekli üreticilerin finans ekiplerine yönelik yeni fatura eşleştirme modülümüz için konumlandırma cümlesi yaz."
 ---
 
 # Konumlandırma Cümlesi

@@ -1,7 +1,16 @@
 ---
+name: test-case-writing
 description: "ID, başlık, ön koşullar, test verisi, numaralı adımlar, adım bazında beklenen sonuçlar, öncelik ve gereksinim izlenebilirliği içeren ayrıntılı ve koşturulabilir test case'ler yazar. Senaryoların tekrarlanabilir manuel case'lere dönüştürülmesi gerektiğinde, koşum veya otomasyon için case hazırlanırken ya da bir özellik veya story için test case yazılması istendiğinde kullanılır."
-related: test-scenarios-from-requirements, equivalence-boundary-analysis, test-data-design, test-automation-script, traceability-matrix
-prompt: "Şifre sıfırlama akışı için test case yaz: e-posta bağlantısı 30 dakika geçerli, yeni şifre politikaya uymalı, eski oturumlar kapatılıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Test case yazma"
+  related: "test-scenarios-from-requirements, equivalence-boundary-analysis, test-data-design, test-automation-script, traceability-matrix"
+  prompt: "Şifre sıfırlama akışı için test case yaz: e-posta bağlantısı 30 dakika geçerli, yeni şifre politikaya uymalı, eski oturumlar kapatılıyor."
 ---
 
 # Test Case Yazma

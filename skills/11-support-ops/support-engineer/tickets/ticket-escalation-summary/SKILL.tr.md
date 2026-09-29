@@ -1,7 +1,16 @@
 ---
+name: ticket-escalation-summary
 description: "Bir destek kaydını ve geçmişini bir sonraki destek seviyesi, yazılım ekibi veya tedarikçi için eskalasyon özetine dönüştürür: iş etkisi, kesin belirti, ortam, zaman çizelgesi, denenenler ve sonuçları, kanıtlar ve net talep. Kayıt L1'den L2/L3'e, ürün ekibine veya üçüncü tarafa geçeceğinde, uzun bir kayıt yazışması için devir notu gerektiğinde veya müşteri eskalasyon için baskı yaptığında kullanılır."
-related: "ticket-triage, ticket-response, log-analysis, bug-report, problem-management"
-prompt: "30 mesajlık bu kaydı L3 için özetle: kullanıcılar salıdan beri web portalında birkaç dakikada bir 'oturum süresi doldu' hatası alıyor; önbellekleri temizledik, parolaları sıfırladık, değişen bir şey yok."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Eskalasyon için kayıt özeti"
+  related: "ticket-triage, ticket-response, log-analysis, bug-report, problem-management"
+  prompt: "30 mesajlık bu kaydı L3 için özetle: kullanıcılar salıdan beri web portalında birkaç dakikada bir 'oturum süresi doldu' hatası alıyor; önbellekleri temizledik, parolaları sıfırladık, değişen bir şey yok."
 ---
 
 # Eskalasyon İçin Kayıt Özeti

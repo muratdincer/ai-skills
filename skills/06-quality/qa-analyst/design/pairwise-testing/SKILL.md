@@ -1,7 +1,16 @@
 ---
+name: pairwise-testing
 description: "Generates a reduced set of test combinations that covers every pair of parameter values (or higher strength for critical parameters), respecting constraints between values, and explains the reduction and residual risk. Use when many parameters or configurations (browsers, devices, roles, settings, product options) combine into too many cases to test exhaustively."
-related: equivalence-boundary-analysis, decision-table-testing, test-case-writing, risk-based-testing, test-data-design
-prompt: "Generate pairwise combinations for checkout: 4 browsers, 3 payment methods, 2 user types, 3 delivery options, coupon yes/no. Apple Pay only on Safari."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Generate pairwise combinations"
+  related: "equivalence-boundary-analysis, decision-table-testing, test-case-writing, risk-based-testing, test-data-design"
+  prompt: "Generate pairwise combinations for checkout: 4 browsers, 3 payment methods, 2 user types, 3 delivery options, coupon yes/no. Apple Pay only on Safari."
 ---
 
 # Generate Pairwise Combinations

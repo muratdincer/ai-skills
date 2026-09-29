@@ -1,7 +1,16 @@
 ---
+name: data-requirements
 description: "Veri gereksinimlerini iş bakış açısıyla tanımlar: varlıklar ve ilişkileri; anlamı, tipi, formatı, zorunluluk kuralı, doğrulamaları ve izin verilen değerleriyle nitelikler; tanımlayıcılar, veri sahipliği, kaynaklar ve tüketiciler, hassasiyet sınıfı, kalite beklentileri, saklama ve silme. Bir özellik veya sistem veri oluşturduğunda ya da değiştirdiğinde, geliştirme veya taşıma için veri sözlüğü gerektiğinde ya da 'veriyi tanımla', 'hangi alanlar lazım' dendiğinde kullanılır."
-related: "conceptual-data-model, data-classification, data-quality-rules, retention-policy, frd-writing"
-prompt: "Tedarikçi kayıt özelliği için veri gereksinimlerini tanımla: tedarikçi, iletişim kişileri, banka bilgileri ve dokümanlar."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Veri gereksinimlerini tanımlama"
+  related: "conceptual-data-model, data-classification, data-quality-rules, retention-policy, frd-writing"
+  prompt: "Tedarikçi kayıt özelliği için veri gereksinimlerini tanımla: tedarikçi, iletişim kişileri, banka bilgileri ve dokümanlar."
 ---
 
 # Veri Gereksinimlerini Tanımlama

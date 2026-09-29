@@ -1,7 +1,16 @@
 ---
-description: Builds an effort estimate for a bid or proposal by combining a bottom-up estimate from a work breakdown with a top-down or analogy check, making every assumption and exclusion explicit, adding risk-based contingency, and turning effort into a role-based staffing profile. Use when a presales team must price a fixed-price or time-and-materials bid, when an RFP asks for effort or team size, or when an existing bid estimate needs a sanity check.
-related: rfp-analysis, proposal-writing, statement-of-work, estimation-three-point, wbs
-prompt: Estimate the effort for our bid to build a B2B customer portal with SSO, order tracking and ERP integration; they want a fixed price.
+name: effort-estimate-for-bid
+description: "Builds an effort estimate for a bid or proposal by combining a bottom-up estimate from a work breakdown with a top-down or analogy check, making every assumption and exclusion explicit, adding risk-based contingency, and turning effort into a role-based staffing profile. Use when a presales team must price a fixed-price or time-and-materials bid, when an RFP asks for effort or team size, or when an existing bid estimate needs a sanity check."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Estimate effort for a bid"
+  related: "rfp-analysis, proposal-writing, statement-of-work, estimation-three-point, wbs"
+  prompt: "Estimate the effort for our bid to build a B2B customer portal with SSO, order tracking and ERP integration; they want a fixed price."
 ---
 
 # Estimate Effort for a Bid

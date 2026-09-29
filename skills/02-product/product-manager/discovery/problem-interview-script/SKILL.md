@@ -1,7 +1,16 @@
 ---
-description: Writes a non-leading customer problem interview script in the spirit of The Mom Test, asking about past behavior, real spending and current workarounds instead of opinions or pitches, with a funnel-ordered guide, follow-up probes, commitment signals and a note-taking sheet. Use when a team wants to validate that a problem exists before building, prepares discovery interviews, or asks to review questions that may be leading or hypothetical.
-related: interview-question-set, research-plan, screener-survey, jobs-to-be-done, research-synthesis
-prompt: Write a problem interview script to check whether small clinic owners actually struggle with appointment no-shows.
+name: problem-interview-script
+description: "Writes a non-leading customer problem interview script in the spirit of The Mom Test, asking about past behavior, real spending and current workarounds instead of opinions or pitches, with a funnel-ordered guide, follow-up probes, commitment signals and a note-taking sheet. Use when a team wants to validate that a problem exists before building, prepares discovery interviews, or asks to review questions that may be leading or hypothetical."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Write a problem interview script"
+  related: "interview-question-set, research-plan, screener-survey, jobs-to-be-done, research-synthesis"
+  prompt: "Write a problem interview script to check whether small clinic owners actually struggle with appointment no-shows."
 ---
 
 # Write a Problem Interview Script

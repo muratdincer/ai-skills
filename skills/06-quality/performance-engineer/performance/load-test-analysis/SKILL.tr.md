@@ -1,7 +1,16 @@
 ---
-description: Yük testi sonuçlarını analiz eder: test koşumunu doğrular, verimi, gecikme yüzdeliklerini ve hata oranlarını kabul kriterleriyle karşılaştırır, darboğazı bulmak için istemci tarafı sonuçları sunucu tarafı kaynak, havuz, kuyruk ve veritabanı metrikleriyle ilişkilendirir, kanıta dayalı düzeltmeler ve yeniden testler önerir. Bir yük, stres, ani yük veya dayanıklılık testi koşulduğunda ve raporu, metrikleri veya grafikleri yorumlanacağında ya da bir test sonucu tartışmalı olup ikinci bir görüş gerektiğinde kullanılır.
-related: performance-test-plan, capacity-test-report, performance-optimization, query-optimization, observability-plan
-prompt: Dünkü checkout yük testinin sonuçları ekte: özet tablo, gecikme grafiği açıklaması ve veritabanı CPU'su. Geçtik mi, darboğaz nerede?
+name: load-test-analysis
+description: "Yük testi sonuçlarını analiz eder: test koşumunu doğrular, verimi, gecikme yüzdeliklerini ve hata oranlarını kabul kriterleriyle karşılaştırır, darboğazı bulmak için istemci tarafı sonuçları sunucu tarafı kaynak, havuz, kuyruk ve veritabanı metrikleriyle ilişkilendirir, kanıta dayalı düzeltmeler ve yeniden testler önerir. Bir yük, stres, ani yük veya dayanıklılık testi koşulduğunda ve raporu, metrikleri veya grafikleri yorumlanacağında ya da bir test sonucu tartışmalı olup ikinci bir görüş gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Yük testi sonuç analizi"
+  related: "performance-test-plan, capacity-test-report, performance-optimization, query-optimization, observability-plan"
+  prompt: "Dünkü checkout yük testinin sonuçları ekte: özet tablo, gecikme grafiği açıklaması ve veritabanı CPU'su. Geçtik mi, darboğaz nerede?"
 ---
 
 # Yük Testi Sonuç Analizi

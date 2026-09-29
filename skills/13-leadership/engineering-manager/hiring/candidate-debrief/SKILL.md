@@ -1,7 +1,16 @@
 ---
-description: Consolidates interview scorecards into a structured debrief summary with a competency coverage matrix, conflicting signals, resolved and unresolved questions, and a documented hire decision with level. Use when preparing or running a candidate debrief, when interviewers disagree, or when a hiring decision must be recorded with its evidence and rationale.
-related: interview-scorecard, interview-plan, decision-log, onboarding-plan-30-60-90, bias-check
-prompt: Summarize the debrief for candidate B from these four scorecards and give me a decision draft for the senior level.
+name: candidate-debrief
+description: "Consolidates interview scorecards into a structured debrief summary with a competency coverage matrix, conflicting signals, resolved and unresolved questions, and a documented hire decision with level. Use when preparing or running a candidate debrief, when interviewers disagree, or when a hiring decision must be recorded with its evidence and rationale."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Summarize a candidate debrief"
+  related: "interview-scorecard, interview-plan, decision-log, onboarding-plan-30-60-90, bias-check"
+  prompt: "Summarize the debrief for candidate B from these four scorecards and give me a decision draft for the senior level."
 ---
 
 # Summarize a Candidate Debrief

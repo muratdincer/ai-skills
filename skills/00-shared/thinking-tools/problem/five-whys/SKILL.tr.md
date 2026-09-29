@@ -1,7 +1,16 @@
 ---
+name: five-whys
 description: "Belirgin bir belirtiden başlayıp doğrulanabilir bir veya daha fazla kök nedene inen disiplinli bir 5 Neden analizi yapar; her halkanın kanıtını, katkıda bulunan her neden için ayrı bir dalı ve belirtiyi değil nedeni hedefleyen önlemleri ortaya koyar. Bir olay, hata, kaçırılan hedef veya tekrarlayan problem için kök neden gerektiğinde, 'bu neden sürekli oluyor' sorulduğunda ya da bir postmortem veya çıkarılan dersler çalışması nedensel derinlik istediğinde kullanılır."
-related: "problem-statement, fishbone-analysis, postmortem, debugging-hypotheses, lessons-learned"
-prompt: "Şunun için 5 Neden analizi yap: gece çalışan müşteri aktarımı bu ay üç kez hata verdi ve finans raporu her seferinde geç aldı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "5 Neden analizi"
+  related: "problem-statement, fishbone-analysis, postmortem, debugging-hypotheses, lessons-learned"
+  prompt: "Şunun için 5 Neden analizi yap: gece çalışan müşteri aktarımı bu ay üç kez hata verdi ve finans raporu her seferinde geç aldı."
 ---
 
 # 5 Neden Analizi

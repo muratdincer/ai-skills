@@ -1,7 +1,16 @@
 ---
+name: doc-diff-summary
 description: "Compares two versions of a document (contract, specification, policy, runbook, requirements) and produces a categorized summary of substantive changes, their impact on each stakeholder and the questions they raise, separating meaning changes from editorial ones. Use when a new version of a document arrives, before re-approval or sign-off, when a vendor or client sends a revised draft, or when someone asks what changed between two versions."
-related: "change-request-analysis, impact-analysis, document-review, changelog-entry, requirements-sign-off"
-prompt: "Here are v1.3 and v1.4 of the integration specification from the vendor. What changed and what does it mean for us?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Summarize document changes"
+  related: "change-request-analysis, impact-analysis, document-review, changelog-entry, requirements-sign-off"
+  prompt: "Here are v1.3 and v1.4 of the integration specification from the vendor. What changed and what does it mean for us?"
 ---
 
 # Summarize Document Changes

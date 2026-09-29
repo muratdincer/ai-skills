@@ -1,7 +1,16 @@
 ---
-description: Planlanan bir toplantının gerçekten gerekli olup olmadığını, hedefini asenkron alternatiflerle karşılaştırarak değerlendirir; toplan, kısalt, asenkron yürüt veya iptal et önerisini kullanıma hazır bir alternatifle sunar. Yeni veya periyodik bir toplantı planlanırken, "bunun için toplantı şart mı?" sorulduğunda ya da toplantı yükü azaltılmak istendiğinde kullanılır.
-related: meeting-agenda, meeting-invite, stakeholder-email, status-update, working-agreement
-prompt: Veri taşıma ilerlemesini paylaşmak için 9 kişiyle haftalık 1 saatlik bir senkron toplantı kurmak istiyorum. Gerçekten gerekli mi?
+name: meeting-necessity-check
+description: "Planlanan bir toplantının gerçekten gerekli olup olmadığını, hedefini asenkron alternatiflerle karşılaştırarak değerlendirir; toplan, kısalt, asenkron yürüt veya iptal et önerisini kullanıma hazır bir alternatifle sunar. Yeni veya periyodik bir toplantı planlanırken, \"bunun için toplantı şart mı?\" sorulduğunda ya da toplantı yükü azaltılmak istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: before
+  title: "Toplantı gerekli mi kararı"
+  related: "meeting-agenda, meeting-invite, stakeholder-email, status-update, working-agreement"
+  prompt: "Veri taşıma ilerlemesini paylaşmak için 9 kişiyle haftalık 1 saatlik bir senkron toplantı kurmak istiyorum. Gerçekten gerekli mi?"
 ---
 
 # Toplantı Gerekli mi Kararı

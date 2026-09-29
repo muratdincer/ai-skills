@@ -1,7 +1,16 @@
 ---
+name: dockerfile-review
 description: "Reviews a Dockerfile (or Containerfile) for image size, layer and cache efficiency, security hardening and build reproducibility, and returns prioritized findings with corrected snippets. Use when someone shares a Dockerfile for review, an image is large, slow to build or flagged by a scanner, or before a service's first production release."
-related: "kubernetes-manifest-review, pipeline-design, secrets-management-plan, dependency-vulnerability-review"
-prompt: "Review this Dockerfile for our Node.js service. The image is 1.2 GB and the security scan reports 40 vulnerabilities."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Review a Dockerfile"
+  related: "kubernetes-manifest-review, pipeline-design, secrets-management-plan, dependency-vulnerability-review"
+  prompt: "Review this Dockerfile for our Node.js service. The image is 1.2 GB and the security scan reports 40 vulnerabilities."
 ---
 
 # Review a Dockerfile

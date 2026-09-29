@@ -1,7 +1,16 @@
 ---
+name: control-mapping
 description: "Kurumun mevcut kontrollerini, süreçlerini ve kanıtlarını ISO/IEC 27001 Ek A veya SOC 2 Trust Services Criteria gibi bir hedef standarda eşler; kapsama oranını, kanıt eksiklerini ve diğer çerçevelerle örtüşmeleri gösterir. Sertifikasyona hazırlanırken, müşteri güvenlik anketini yanıtlarken, çerçeveleri birleştirirken (ISO 27001, SOC 2, KVKK, PCI DSS) veya bir kontrolün gerçekten denetim kanıtı üretip üretmediğini kontrol ederken kullanılır."
-related: "audit-preparation, policy-writing, it-risk-assessment, access-review, traceability-matrix"
-prompt: "Mevcut kontrollerimizi ISO 27001:2022 Ek A'ya eşle ve hangilerinin kanıtı olmadığını göster."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Kontrolleri standarda eşleme"
+  related: "audit-preparation, policy-writing, it-risk-assessment, access-review, traceability-matrix"
+  prompt: "Mevcut kontrollerimizi ISO 27001:2022 Ek A'ya eşle ve hangilerinin kanıtı olmadığını göster."
 ---
 
 # Kontrolleri Standarda Eşleme

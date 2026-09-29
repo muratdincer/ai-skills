@@ -1,7 +1,16 @@
 ---
-description: Bir dil modeli özelliği için rol, görev, bağlam, kısıtlar, örnekler, çıktı formatı ve hata davranışı içeren üretim prompt'u tasarlar veya yeniden yazar; doğrulamak için küçük bir test seti de hazırlar. Yeni bir LLM destekli özellik geliştirilirken, mevcut prompt tutarsız, gereksiz uzun ya da yanlış formatlı yanıtlar verdiğinde veya bir prompt'un iyileştirilmesi, yapılandırılması ya da sağlamlaştırılması istendiğinde kullanılır.
-related: llm-eval-set, rag-design, ai-skill-authoring, ai-use-case-assessment
-prompt: Gelen destek e-postalarını 8 kategoriye ayıran ve kategori, güven düzeyi ve tek satırlık gerekçe içeren JSON döndüren bir prompt tasarla.
+name: prompt-design
+description: "Bir dil modeli özelliği için rol, görev, bağlam, kısıtlar, örnekler, çıktı formatı ve hata davranışı içeren üretim prompt'u tasarlar veya yeniden yazar; doğrulamak için küçük bir test seti de hazırlar. Yeni bir LLM destekli özellik geliştirilirken, mevcut prompt tutarsız, gereksiz uzun ya da yanlış formatlı yanıtlar verdiğinde veya bir prompt'un iyileştirilmesi, yapılandırılması ya da sağlamlaştırılması istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Prompt tasarlama"
+  related: "llm-eval-set, rag-design, ai-skill-authoring, ai-use-case-assessment"
+  prompt: "Gelen destek e-postalarını 8 kategoriye ayıran ve kategori, güven düzeyi ve tek satırlık gerekçe içeren JSON döndüren bir prompt tasarla."
 ---
 
 # Prompt Tasarlama

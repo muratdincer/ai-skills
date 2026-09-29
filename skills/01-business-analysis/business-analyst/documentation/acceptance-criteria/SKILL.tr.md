@@ -1,7 +1,16 @@
 ---
+name: acceptance-criteria
 description: "Bir kullanıcı hikayesi veya gereksinim için Given/When/Then senaryoları ya da kural biçiminde test edilebilir kabul kriterleri yazar; mutlu yolu, iş kuralı varyasyonlarını, doğrulamayı, yetkileri ve hata durumlarını senaryo başına tek tetikleyici ve tek sonuçla kapsar. Bir hikayenin tamamlanma koşulları gerektiğinde, kriterler muğlak veya test edilemez olduğunda ya da 'kabul kriteri', 'AC', 'Gherkin' veya 'Given/When/Then' istendiğinde kullanılır."
-related: "user-story, invest-check, edge-case-elicitation, bdd-feature-file, test-scenarios-from-requirements"
-prompt: "Şu hikaye için kabul kriterleri yaz: Mağaza müdürü olarak bekleyen bir vardiya değişimini telefonumdan onaylamak veya reddetmek istiyorum."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Kabul kriteri yazma"
+  related: "user-story, invest-check, edge-case-elicitation, bdd-feature-file, test-scenarios-from-requirements"
+  prompt: "Şu hikaye için kabul kriterleri yaz: Mağaza müdürü olarak bekleyen bir vardiya değişimini telefonumdan onaylamak veya reddetmek istiyorum."
 ---
 
 # Kabul Kriteri Yazma

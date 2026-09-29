@@ -1,7 +1,16 @@
 ---
+name: use-case-spec
 description: "Writes a use case specification with goal, primary and supporting actors, stakeholders' interests, trigger, preconditions, minimal and success guarantees, a numbered main success scenario, and alternate and exception flows keyed to the steps they branch from. Use when an interaction has many branches, several actors or system-to-system steps, or when asked for a 'use case', 'UC spec' or 'fully dressed use case'."
-related: "frd-writing, user-story, business-rules-catalog, error-scenario-catalog, sequence-flow"
-prompt: "Write the use case for 'Return a purchased item in store' with card refunds and missing receipts."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Write a use case specification"
+  related: "frd-writing, user-story, business-rules-catalog, error-scenario-catalog, sequence-flow"
+  prompt: "Write the use case for 'Return a purchased item in store' with card refunds and missing receipts."
 ---
 
 # Write a Use Case Specification

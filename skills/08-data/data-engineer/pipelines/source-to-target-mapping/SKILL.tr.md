@@ -1,7 +1,16 @@
 ---
+name: source-to-target-mapping
 description: "Bir veri yüklemesi için sütun düzeyinde kaynak-hedef eşleme (STTM) dokümanı yazar: tip ve boş olabilirlikle hedef sütunlar, kaynak sütunlar, dönüşüm ve iş kuralları, lookup'lar, varsayılanlar, anahtar üretimi, filtreler, join koşulları, reddedilen kayıtların ele alınışı ve test senaryoları. Bir veri hattı, veri göçü veya entegrasyon yüklemesi kurulacak ya da gözden geçirilecekse, türetilmiş alanların iş kuralları netleştirilecekse veya iki şema arasında eşleme tablosu istendiğinde kullanılır."
-related: "pipeline-spec, field-mapping, data-lineage-doc, dimensional-model, test-data-design"
-prompt: "CRM müşteri ve adres tablolarından dim_customer tablomuza kaynak-hedef eşleme dokümanı oluştur."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Kaynak-hedef eşleme dokümanı"
+  related: "pipeline-spec, field-mapping, data-lineage-doc, dimensional-model, test-data-design"
+  prompt: "CRM müşteri ve adres tablolarından dim_customer tablomuza kaynak-hedef eşleme dokümanı oluştur."
 ---
 
 # Kaynak-Hedef Eşleme Dokümanı

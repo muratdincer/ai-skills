@@ -1,7 +1,16 @@
 ---
-description: Reviews an analysis, recommendation or decision for cognitive biases such as confirmation, anchoring, survivorship, sunk cost, availability, overconfidence and groupthink, cites the evidence for each suspected bias and proposes a concrete debiasing action. Use when a decision is about to be made or an analysis is about to be shared, when someone asks "am I missing something?", "is this biased?", "challenge my reasoning" or wants a red-team view of a conclusion.
-related: pre-mortem, assumption-mapping, decision-matrix, trade-off-analysis, decision-log
-prompt: Check this recommendation for bias before I send it to the steering committee: we should keep investing in the in-house scheduler because we already spent 18 months on it and the two pilot teams love it.
+name: bias-check
+description: "Reviews an analysis, recommendation or decision for cognitive biases such as confirmation, anchoring, survivorship, sunk cost, availability, overconfidence and groupthink, cites the evidence for each suspected bias and proposes a concrete debiasing action. Use when a decision is about to be made or an analysis is about to be shared, when someone asks \"am I missing something?\", \"is this biased?\", \"challenge my reasoning\" or wants a red-team view of a conclusion."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Check for cognitive bias"
+  related: "pre-mortem, assumption-mapping, decision-matrix, trade-off-analysis, decision-log"
+  prompt: "Check this recommendation for bias before I send it to the steering committee: we should keep investing in the in-house scheduler because we already spent 18 months on it and the two pilot teams love it."
 ---
 
 # Check for Cognitive Bias

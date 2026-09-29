@@ -1,7 +1,16 @@
 ---
+name: flaky-test-analysis
 description: "Analyzes flaky automated tests by measuring flake rate from run history, classifying the cause (timing and async, shared state and order dependence, test data, environment and infrastructure, external dependencies, concurrency, non-deterministic product behavior), confirming it with one-variable experiments and proposing a root-cause stabilization plus a quarantine policy. Use when tests pass and fail without code changes, when CI reruns are routine, or when the team no longer trusts red builds."
-related: test-automation-script, automation-framework-design, debugging-hypotheses, pipeline-failure-triage, log-analysis
-prompt: "These 6 end-to-end tests fail randomly in CI about once every 10 runs, never locally. Here are the failure logs. Why, and how do we fix them?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Analyze flaky tests"
+  related: "test-automation-script, automation-framework-design, debugging-hypotheses, pipeline-failure-triage, log-analysis"
+  prompt: "These 6 end-to-end tests fail randomly in CI about once every 10 runs, never locally. Here are the failure logs. Why, and how do we fix them?"
 ---
 
 # Analyze Flaky Tests

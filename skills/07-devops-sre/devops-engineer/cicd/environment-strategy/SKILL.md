@@ -1,7 +1,16 @@
 ---
+name: environment-strategy
 description: "Defines the environment landscape for a system: which environments exist and why, parity with production, test data policy, access and change rights, lifecycle (persistent vs ephemeral) and ownership. Use when environments multiply without purpose, tests pass in staging but fail in production, or a new platform needs its environment model agreed."
-related: "pipeline-design, test-data-design, secrets-management-plan, finops-review, deployment-strategy"
-prompt: "We have dev, test, uat, preprod and prod and nobody knows which one to use for what. Define an environment strategy for us."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Define environment strategy"
+  related: "pipeline-design, test-data-design, secrets-management-plan, finops-review, deployment-strategy"
+  prompt: "We have dev, test, uat, preprod and prod and nobody knows which one to use for what. Define an environment strategy for us."
 ---
 
 # Define Environment Strategy

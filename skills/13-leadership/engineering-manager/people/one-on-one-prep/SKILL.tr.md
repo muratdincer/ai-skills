@@ -1,7 +1,16 @@
 ---
-description: Ekip üyesiyle yapılacak birebir görüşme için önceki görüşmeden takipleri, çalışanın kendi gündemini, açık uçlu koçluk sorularını ve dikkat edilecek sinyalleri içeren odaklı bir plan hazırlar. Yaklaşan bir birebir görüşme olduğunda, düzenli birebirler yapılandırılmak istendiğinde veya zor bir konuşmaya (geri bildirim, iş yükü, kariyer, motivasyon) hazırlanırken kullanılır.
-related: one-on-one-notes, feedback-sbi, career-development-plan, goal-setting, conflict-resolution
-prompt: Yarın Ayşe ile birebirime hazırlan. Geçen sefer faturalama geçişinde tıkandığını ve tasarımda daha fazla sorumluluk almak istediğini söyledi.
+name: one-on-one-prep
+description: "Ekip üyesiyle yapılacak birebir görüşme için önceki görüşmeden takipleri, çalışanın kendi gündemini, açık uçlu koçluk sorularını ve dikkat edilecek sinyalleri içeren odaklı bir plan hazırlar. Yaklaşan bir birebir görüşme olduğunda, düzenli birebirler yapılandırılmak istendiğinde veya zor bir konuşmaya (geri bildirim, iş yükü, kariyer, motivasyon) hazırlanırken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Birebir görüşme hazırlığı"
+  related: "one-on-one-notes, feedback-sbi, career-development-plan, goal-setting, conflict-resolution"
+  prompt: "Yarın Ayşe ile birebirime hazırlan. Geçen sefer faturalama geçişinde tıkandığını ve tasarımda daha fazla sorumluluk almak istediğini söyledi."
 ---
 
 # Birebir Görüşme Hazırlığı

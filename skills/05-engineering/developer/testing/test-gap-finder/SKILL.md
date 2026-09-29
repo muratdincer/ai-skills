@@ -1,7 +1,16 @@
 ---
+name: test-gap-finder
 description: "Finds untested code paths by comparing code with its existing tests: enumerates branches, boundaries, error handlers, state transitions and requirement rules, maps each to covering tests, flags gaps and weak tests (no assertion, over-mocked, happy-path only), and ranks them by risk with a concrete test to add. Use when someone asks what is missing from the tests, wants to raise coverage meaningfully, reviews a pull request's tests, or has a coverage report and needs to know which gaps matter."
-related: "unit-test-writing, integration-test-writing, code-review, regression-selection, risk-based-testing"
-prompt: "Here is our InvoiceService and its test class. Which paths are not tested and which gaps matter most?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Find untested code paths"
+  related: "unit-test-writing, integration-test-writing, code-review, regression-selection, risk-based-testing"
+  prompt: "Here is our InvoiceService and its test class. Which paths are not tested and which gaps matter most?"
 ---
 
 # Find Untested Code Paths

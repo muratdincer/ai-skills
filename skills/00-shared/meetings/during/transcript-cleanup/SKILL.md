@@ -1,7 +1,16 @@
 ---
-description: Cleans up a raw or auto-generated meeting transcript by removing filler, false starts and crosstalk, fixing speaker labels and obvious recognition errors, and keeping the meaning and wording intact. Use when a transcript must be made readable, quotable or archivable without turning it into a summary.
-related: meeting-notes, meeting-minutes, meeting-summary, glossary-builder
-prompt: Clean up this auto-generated transcript of our vendor call. Speaker 1 is me (Selin), Speaker 2 is the vendor PM.
+name: transcript-cleanup
+description: "Cleans up a raw or auto-generated meeting transcript by removing filler, false starts and crosstalk, fixing speaker labels and obvious recognition errors, and keeping the meaning and wording intact. Use when a transcript must be made readable, quotable or archivable without turning it into a summary."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Clean up a meeting transcript"
+  related: "meeting-notes, meeting-minutes, meeting-summary, glossary-builder"
+  prompt: "Clean up this auto-generated transcript of our vendor call. Speaker 1 is me (Selin), Speaker 2 is the vendor PM."
 ---
 
 # Clean Up a Meeting Transcript

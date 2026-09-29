@@ -1,7 +1,16 @@
 ---
+name: problem-statement
 description: "Bir problemi; kimin etkilendiğini, ne olduğunu, ne zaman ve nerede olduğunu nicel etki ve kanıtla, sınırları ve başarı sinyalleriyle birlikte çözüm içermeyen kesin bir ifadeyle tanımlar. Her girişim, inceleme, iyileştirme veya tasarım çalışmasının başında, ekip doğrudan çözüme atladığında, paydaşlar aynı sorunu farklı anlattığında veya bir problemin tanımlanması ya da yeniden çerçevelenmesi istendiğinde kullanılır."
-related: "five-whys, fishbone-analysis, assumption-mapping, hypothesis-statement, request-intake-document"
-prompt: "Problem tanımı yaz: müşteriler aylık faturanın yanlış olduğundan sürekli şikâyet ediyor ve destek ekibi her ay başında aşırı yükleniyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Problem tanımı yazma"
+  related: "five-whys, fishbone-analysis, assumption-mapping, hypothesis-statement, request-intake-document"
+  prompt: "Problem tanımı yaz: müşteriler aylık faturanın yanlış olduğundan sürekli şikâyet ediyor ve destek ekibi her ay başında aşırı yükleniyor."
 ---
 
 # Problem Tanımı Yazma

@@ -1,7 +1,16 @@
 ---
+name: raci-matrix
 description: "Her aktivite veya çıktı için Sorumlu (R), Hesap Veren (A), Danışılan (C) ve Bilgilendirilen (I) rollerini atayan bir RACI matrisi oluşturur ve doğrular (tam bir A, en az bir R, aşırı yüklü rol yok, boş satır yok). Sorumluluklar belirsiz olduğunda, işler ekipler arasında kaldığında veya bir proje, süreç ya da analiz aktivitesi için 'kim neyin sahibi?' sorusu geldiğinde kullanılır."
-related: "stakeholder-identification, stakeholder-map, communication-plan, project-charter, role-definition"
-prompt: "Ödeme altyapısı entegrasyonumuzun gereksinim fazı için RACI oluştur: iş analisti, PO, mimar, geliştirme lideri, QA, güvenlik, tedarikçi."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "RACI matrisi"
+  related: "stakeholder-identification, stakeholder-map, communication-plan, project-charter, role-definition"
+  prompt: "Ödeme altyapısı entegrasyonumuzun gereksinim fazı için RACI oluştur: iş analisti, PO, mimar, geliştirme lideri, QA, güvenlik, tedarikçi."
 ---
 
 # RACI Matrisi

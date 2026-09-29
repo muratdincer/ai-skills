@@ -1,7 +1,16 @@
 ---
-description: Manages a single project issue from logging to closure: states it precisely, assesses impact and urgency, finds the cause, sets a resolution plan with owner and dates, defines escalation triggers and closure criteria, and tracks it until verified resolved. Use when something is already going wrong and affecting scope, schedule, cost or quality, such as a blocked team, a failed dependency, a vendor slip or a realized risk.
-related: raid-log, escalation-message, five-whys, change-control, decision-log
-prompt: Our test environment has been down for 4 days and the vendor keeps postponing. Help me log and manage this as an issue with an escalation path.
+name: issue-management
+description: "Manages a single project issue from logging to closure: states it precisely, assesses impact and urgency, finds the cause, sets a resolution plan with owner and dates, defines escalation triggers and closure criteria, and tracks it until verified resolved. Use when something is already going wrong and affecting scope, schedule, cost or quality, such as a blocked team, a failed dependency, a vendor slip or a realized risk."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Manage an issue"
+  related: "raid-log, escalation-message, five-whys, change-control, decision-log"
+  prompt: "Our test environment has been down for 4 days and the vendor keeps postponing. Help me log and manage this as an issue with an escalation path."
 ---
 
 # Manage an Issue

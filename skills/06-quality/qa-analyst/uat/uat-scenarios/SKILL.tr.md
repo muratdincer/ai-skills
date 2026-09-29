@@ -1,7 +1,16 @@
 ---
+name: uat-scenarios
 description: "Ekranlar ve tıklamalar yerine gerçek roller, iş olayları ve sonuçlar üzerine kurulu, iş dilinde uçtan uca kullanıcı kabul senaryoları yazar; her senaryoda gerçekçi veri, iş tarafının doğrulayabileceği kontrol noktaları ve geçme kriteri bulunur. İş kullanıcılarının UAT'de koşacağı senaryolar gerektiğinde, gereksinimler veya süreçler kabul akışlarına dönüştürülecekken ya da mevcut UAT metinleri teknik test case gibi okunduğunda kullanılır."
-related: uat-plan, test-scenarios-from-requirements, to-be-process, acceptance-criteria, test-data-design
-prompt: "İade süreci için UAT senaryoları yaz: mağaza personeli, depo ve finans yeni iade akışını uçtan uca test edecek."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: uat
+  title: "Kabul testi senaryoları"
+  related: "uat-plan, test-scenarios-from-requirements, to-be-process, acceptance-criteria, test-data-design"
+  prompt: "İade süreci için UAT senaryoları yaz: mağaza personeli, depo ve finans yeni iade akışını uçtan uca test edecek."
 ---
 
 # Kabul Testi Senaryoları

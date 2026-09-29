@@ -1,7 +1,16 @@
 ---
+name: security-incident-response
 description: "Şüpheli veya doğrulanmış bir güvenlik olayına müdahaleyi ilk değerlendirme, sınırlandırma, kanıtların korunması, temizleme, kurtarma ve bildirim adımlarıyla yönetir; KVKK ve GDPR kişisel veri ihlali yükümlülüklerini içerir, olay kaydı ve aksiyon planı üretir. Sızma belirtisi, kimlik bilgisi sızıntısı, zararlı yazılım, veri kaçırma veya yetkisiz erişim işaretleri olduğunda ve ekibin yapılandırılmış, savunma odaklı bir müdahaleye ihtiyacı olduğunda kullanılır."
-related: "incident-response, incident-communication, postmortem, vulnerability-triage, security-finding-report"
-prompt: "CI kullanıcımızın AWS erişim anahtarını herkese açık bir GitHub reposunda bulduk ve CloudTrail bilinmeyen bir IP'den çağrılar gösteriyor. Müdahale etmemize yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: operations
+  title: "Güvenlik olayına müdahale"
+  related: "incident-response, incident-communication, postmortem, vulnerability-triage, security-finding-report"
+  prompt: "CI kullanıcımızın AWS erişim anahtarını herkese açık bir GitHub reposunda bulduk ve CloudTrail bilinmeyen bir IP'den çağrılar gösteriyor. Müdahale etmemize yardım et."
 ---
 
 # Güvenlik Olayına Müdahale

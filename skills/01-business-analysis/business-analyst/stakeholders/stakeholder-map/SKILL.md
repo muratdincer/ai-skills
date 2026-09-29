@@ -1,7 +1,16 @@
 ---
+name: stakeholder-map
 description: "Places stakeholders on a power/interest grid with evidence for each rating, adds current vs desired attitude, and defines an engagement strategy, channel and frequency per quadrant and per key person. Use after stakeholders are identified, before planning communication or when support for an initiative is uncertain; triggers include 'power interest grid', 'who do we manage closely?'."
-related: "stakeholder-identification, raci-matrix, communication-plan, stakeholder-register, conflict-resolution"
-prompt: "Map these 9 stakeholders on a power/interest grid and tell me how to engage each for the CRM migration."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "Map stakeholders by power/interest"
+  related: "stakeholder-identification, raci-matrix, communication-plan, stakeholder-register, conflict-resolution"
+  prompt: "Map these 9 stakeholders on a power/interest grid and tell me how to engage each for the CRM migration."
 ---
 
 # Map Stakeholders by Power/Interest

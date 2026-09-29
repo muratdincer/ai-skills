@@ -1,7 +1,16 @@
 ---
-description: Prepares a steering committee pack that leads with the decisions needed, then gives a concise status against baseline, key risks and issues, financials (budget, actuals, forecast) and benefits outlook, with options and a recommendation for each decision. Use before a steering committee, project board or sponsor review, when monthly program reporting must be turned into a decision-oriented pack, or when someone asks to prepare "the steerco deck" or "board update" for a project or program.
-related: project-status-report, executive-summary, raid-log, decision-log, presentation-outline
-prompt: Prepare the steering committee pack for next Thursday: we are 3 weeks late on integration testing, 8% over budget, and need a decision on descoping the reporting module.
+name: steering-committee-pack
+description: "Prepares a steering committee pack that leads with the decisions needed, then gives a concise status against baseline, key risks and issues, financials (budget, actuals, forecast) and benefits outlook, with options and a recommendation for each decision. Use before a steering committee, project board or sponsor review, when monthly program reporting must be turned into a decision-oriented pack, or when someone asks to prepare \"the steerco deck\" or \"board update\" for a project or program."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Prepare a steering committee pack"
+  related: "project-status-report, executive-summary, raid-log, decision-log, presentation-outline"
+  prompt: "Prepare the steering committee pack for next Thursday: we are 3 weeks late on integration testing, 8% over budget, and need a decision on descoping the reporting module."
 ---
 
 # Prepare a Steering Committee Pack

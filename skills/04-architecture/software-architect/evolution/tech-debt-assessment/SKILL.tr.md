@@ -1,7 +1,16 @@
 ---
-description: Kod, mimari, testler, altyapı, bağımlılıklar ve dokümantasyondaki borç öğelerinin envanterini çıkararak, bunları sınıflandırarak (bilinçli/farkında olmadan, tedbirli/pervasız), anaparayı (düzeltme maliyeti) ve faizi (süregelen maliyet ve risk) tahmin ederek ve iş etkisine bağlı bir geri ödeme planında önceliklendirerek bir teknik borç kaydı oluşturur. Ekip kod tabanı yüzünden yavaşladığını hissettiğinde, yönetim ne kadar borç olduğunu ve önce neyin düzeltileceğini sorduğunda ya da borcun planlamada gerekçelendirilmesi gerektiğinde kullanılır.
-related: code-quality-report, refactoring, modernization-assessment, dependency-upgrade, technical-risk-review
-prompt: Faturalama platformumuzdaki teknik borcu değerlendir; sürümler iki hafta sürüyor, test kapsamı %30 ve hâlâ desteği bitmiş bir framework sürümü kullanıyoruz.
+name: tech-debt-assessment
+description: "Kod, mimari, testler, altyapı, bağımlılıklar ve dokümantasyondaki borç öğelerinin envanterini çıkararak, bunları sınıflandırarak (bilinçli/farkında olmadan, tedbirli/pervasız), anaparayı (düzeltme maliyeti) ve faizi (süregelen maliyet ve risk) tahmin ederek ve iş etkisine bağlı bir geri ödeme planında önceliklendirerek bir teknik borç kaydı oluşturur. Ekip kod tabanı yüzünden yavaşladığını hissettiğinde, yönetim ne kadar borç olduğunu ve önce neyin düzeltileceğini sorduğunda ya da borcun planlamada gerekçelendirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Teknik borç değerlendirmesi"
+  related: "code-quality-report, refactoring, modernization-assessment, dependency-upgrade, technical-risk-review"
+  prompt: "Faturalama platformumuzdaki teknik borcu değerlendir; sürümler iki hafta sürüyor, test kapsamı %30 ve hâlâ desteği bitmiş bir framework sürümü kullanıyoruz."
 ---
 
 # Teknik Borç Değerlendirmesi

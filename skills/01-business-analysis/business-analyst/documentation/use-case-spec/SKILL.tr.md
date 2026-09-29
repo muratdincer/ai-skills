@@ -1,7 +1,16 @@
 ---
+name: use-case-spec
 description: "Hedef, birincil ve destekleyici aktörler, paydaş çıkarları, tetikleyici, ön koşullar, asgari ve başarı garantileri, numaralı ana başarı senaryosu ve ayrıldıkları adıma bağlı alternatif ve istisna akışlarıyla bir kullanım senaryosu (use case) tanımı yazar. Bir etkileşimin çok dalı, birden fazla aktörü veya sistemden sisteme adımları olduğunda ya da 'use case', 'UC tanımı' veya 'ayrıntılı kullanım senaryosu' istendiğinde kullanılır."
-related: "frd-writing, user-story, business-rules-catalog, error-scenario-catalog, sequence-flow"
-prompt: "Kartla iadeler ve fişi olmayan durumlarla birlikte 'Satın alınan ürünü mağazada iade etme' kullanım senaryosunu yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Kullanım senaryosu (use case) yazma"
+  related: "frd-writing, user-story, business-rules-catalog, error-scenario-catalog, sequence-flow"
+  prompt: "Kartla iadeler ve fişi olmayan durumlarla birlikte 'Satın alınan ürünü mağazada iade etme' kullanım senaryosunu yaz."
 ---
 
 # Kullanım Senaryosu (Use Case) Yazma

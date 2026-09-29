@@ -1,7 +1,16 @@
 ---
+name: backlog-prioritization
 description: "Backlog maddelerini açık ve savunulabilir bir yöntemle (WSJF, RICE, değer/efor, MoSCoW veya gecikme maliyeti) sıralar; puanlar, gerekçeler, duyarlılık notları ve ertelenecek veya çıkarılacak maddelerle birlikte sıralı bir liste üretir. Ürün sahibinin sıradaki işe karar vermesi gerektiğinde, paydaşlar öncelikler konusunda anlaşamadığında ya da backlog sırasının puanlanması ve gerekçelendirilmesi istendiğinde kullanılır."
-related: "backlog-refinement, requirements-prioritization, portfolio-prioritization, roadmap, decision-matrix"
-prompt: "Bu 12 backlog maddesini WSJF ile önceliklendir; efor tahminleri tabloda, değer bilgisi satış ve destek geri bildirimlerinden geliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Backlog önceliklendirme"
+  related: "backlog-refinement, requirements-prioritization, portfolio-prioritization, roadmap, decision-matrix"
+  prompt: "Bu 12 backlog maddesini WSJF ile önceliklendir; efor tahminleri tabloda, değer bilgisi satış ve destek geri bildirimlerinden geliyor."
 ---
 
 # Backlog Önceliklendirme

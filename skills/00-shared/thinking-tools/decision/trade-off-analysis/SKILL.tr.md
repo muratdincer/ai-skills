@@ -1,7 +1,16 @@
 ---
-description: Her seçeneğin rekabet eden nitelikler (ör. hız ve güvenlik, maliyet ve dayanıklılık, esneklik ve sadelik, kapsam ve zaman) arasında neyi kazanıp neyi feda ettiğini açıkça ortaya koyar; belirleyici gerilimi, her tercihin geri alınabilirliğini ve tercih edilen seçeneğin hangi koşullarda doğru olmaktan çıkacağını belirler. Hiçbir seçeneğin her konuda üstün olmadığı mimari, ürün, kapsam veya süreç kararlarında, paydaşlar birbirini anlamadan tartıştığında veya bir kararı kayda geçirmeden önce kullanılır.
-related: decision-matrix, adr, architecture-review, pros-cons, technology-selection
-prompt: Yeni hasar yönetim sistemimiz için modüler monolit ile mikroservisler arasındaki ödünleşimleri analiz et.
+name: trade-off-analysis
+description: "Her seçeneğin rekabet eden nitelikler (ör. hız ve güvenlik, maliyet ve dayanıklılık, esneklik ve sadelik, kapsam ve zaman) arasında neyi kazanıp neyi feda ettiğini açıkça ortaya koyar; belirleyici gerilimi, her tercihin geri alınabilirliğini ve tercih edilen seçeneğin hangi koşullarda doğru olmaktan çıkacağını belirler. Hiçbir seçeneğin her konuda üstün olmadığı mimari, ürün, kapsam veya süreç kararlarında, paydaşlar birbirini anlamadan tartıştığında veya bir kararı kayda geçirmeden önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Ödünleşim analizi"
+  related: "decision-matrix, adr, architecture-review, pros-cons, technology-selection"
+  prompt: "Yeni hasar yönetim sistemimiz için modüler monolit ile mikroservisler arasındaki ödünleşimleri analiz et."
 ---
 
 # Ödünleşim Analizi

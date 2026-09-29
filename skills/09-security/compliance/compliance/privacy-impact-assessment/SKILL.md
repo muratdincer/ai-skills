@@ -1,7 +1,16 @@
 ---
+name: privacy-impact-assessment
 description: "Runs a KVKK/GDPR data protection impact assessment (DPIA) for a feature or system: maps processing activities, legal bases, data flows and transfers, rates risks to data subjects and proposes privacy-by-design measures. Use when a new feature or system processes personal or special category data, introduces profiling, monitoring, new recipients or cross-border transfers, or when legal or the DPO asks for a DPIA."
-related: "data-classification, threat-model, retention-policy, security-requirements, it-risk-assessment"
-prompt: "Run a privacy impact assessment for our new customer loyalty app that tracks store visits by location and sends personalized offers."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Run a privacy impact assessment"
+  related: "data-classification, threat-model, retention-policy, security-requirements, it-risk-assessment"
+  prompt: "Run a privacy impact assessment for our new customer loyalty app that tracks store visits by location and sends personalized offers."
 ---
 
 # Run a Privacy Impact Assessment

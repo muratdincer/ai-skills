@@ -1,7 +1,16 @@
 ---
-description: Bir ürün veya büyük özellik için lansman seviyesi, hedef segment ve alıcı, konumlandırma ve mesajlar, kanallar, fiyat ve paketleme bağlantıları, hazırlık kapılarıyla zaman çizelgesi, satış/destek hazırlığı ve lansman başarı metriklerini kapsayan bir pazara çıkış (GTM) planı yazar. Bir ürün, özellik veya pazar girişi lansmana yaklaşıyorsa, biri GTM veya lansman planı istiyorsa ya da pazarlama, satış ve destek tek ve uyumlu bir plana ihtiyaç duyuyorsa kullanılır.
-related: positioning-statement, release-announcement, pricing-analysis, competitive-battle-card, communication-plan
-prompt: Yapay zeka destekli fatura eşleştirme modülümüzü mevcut orta ölçekli ERP müşterilerine sunmak için bir pazara çıkış planı yaz.
+name: go-to-market-plan
+description: "Bir ürün veya büyük özellik için lansman seviyesi, hedef segment ve alıcı, konumlandırma ve mesajlar, kanallar, fiyat ve paketleme bağlantıları, hazırlık kapılarıyla zaman çizelgesi, satış/destek hazırlığı ve lansman başarı metriklerini kapsayan bir pazara çıkış (GTM) planı yazar. Bir ürün, özellik veya pazar girişi lansmana yaklaşıyorsa, biri GTM veya lansman planı istiyorsa ya da pazarlama, satış ve destek tek ve uyumlu bir plana ihtiyaç duyuyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Pazara çıkış planı"
+  related: "positioning-statement, release-announcement, pricing-analysis, competitive-battle-card, communication-plan"
+  prompt: "Yapay zeka destekli fatura eşleştirme modülümüzü mevcut orta ölçekli ERP müşterilerine sunmak için bir pazara çıkış planı yaz."
 ---
 
 # Pazara Çıkış Planı

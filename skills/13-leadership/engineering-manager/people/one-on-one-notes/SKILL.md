@@ -1,7 +1,16 @@
 ---
-description: Turns raw 1:1 notes or a transcript into concise, factual notes with topics discussed, commitments with owners and dates, feedback exchanged and career or wellbeing signals to follow up. Use after a 1:1 with a direct report or mentee, or when building a running 1:1 log that later supports reviews and development plans.
-related: one-on-one-prep, action-item-extraction, performance-review, career-development-plan, meeting-notes
-prompt: Clean up my notes from today's 1:1 with Emre and pull out what we both committed to.
+name: one-on-one-notes
+description: "Turns raw 1:1 notes or a transcript into concise, factual notes with topics discussed, commitments with owners and dates, feedback exchanged and career or wellbeing signals to follow up. Use after a 1:1 with a direct report or mentee, or when building a running 1:1 log that later supports reviews and development plans."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Capture 1:1 notes"
+  related: "one-on-one-prep, action-item-extraction, performance-review, career-development-plan, meeting-notes"
+  prompt: "Clean up my notes from today's 1:1 with Emre and pull out what we both committed to."
 ---
 
 # Capture 1:1 Notes

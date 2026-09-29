@@ -1,7 +1,16 @@
 ---
-description: Tracks benefits realization after delivery by turning planned benefits into measurable indicators with baselines, targets, owners and measurement dates, comparing planned versus actual values, attributing the change, and recommending corrective actions or re-forecasts. Use after a project or program goes live, at a post-implementation or benefits review, when a business case needs to be checked against results, or when someone asks "did we get the value we promised".
-related: kpi-definition, cost-benefit-analysis, feature-adoption-review, project-closure-report, portfolio-prioritization
-prompt: Check benefits realization for our self-service portal six months after go-live; the business case promised 30% fewer call-center contacts and faster onboarding.
+name: benefits-realization
+description: "Tracks benefits realization after delivery by turning planned benefits into measurable indicators with baselines, targets, owners and measurement dates, comparing planned versus actual values, attributing the change, and recommending corrective actions or re-forecasts. Use after a project or program goes live, at a post-implementation or benefits review, when a business case needs to be checked against results, or when someone asks \"did we get the value we promised\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Track benefits realization"
+  related: "kpi-definition, cost-benefit-analysis, feature-adoption-review, project-closure-report, portfolio-prioritization"
+  prompt: "Check benefits realization for our self-service portal six months after go-live; the business case promised 30% fewer call-center contacts and faster onboarding."
 ---
 
 # Track Benefits Realization

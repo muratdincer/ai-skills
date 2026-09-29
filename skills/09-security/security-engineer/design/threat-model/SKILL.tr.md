@@ -1,7 +1,16 @@
 ---
+name: threat-model
 description: "Bir sistem veya özellik için tehdit modeli oluşturur: sistemi veri akış diyagramına ayırır, her eleman ve güven sınırı için STRIDE uygular, tehditleri derecelendirir ve sorumlusuyla birlikte önlemler önerir. Yeni bir sistem tasarlanırken, entegrasyon eklenirken, güven sınırları veya veri akışları değişirken ya da güvenlik açısından neyin ters gidebileceği sorulduğunda kullanılır."
-related: "security-requirements, authn-authz-design, solution-architecture-document, pentest-scope, it-risk-assessment"
-prompt: "Yeni mobil bankacılık API'miz için tehdit modeli çıkar: mobil uygulama, API gateway, .NET backend, PostgreSQL ve üçüncü taraf bir KYC sağlayıcısı var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Tehdit modeli oluşturma"
+  related: "security-requirements, authn-authz-design, solution-architecture-document, pentest-scope, it-risk-assessment"
+  prompt: "Yeni mobil bankacılık API'miz için tehdit modeli çıkar: mobil uygulama, API gateway, .NET backend, PostgreSQL ve üçüncü taraf bir KYC sağlayıcısı var."
 ---
 
 # Tehdit Modeli Oluşturma

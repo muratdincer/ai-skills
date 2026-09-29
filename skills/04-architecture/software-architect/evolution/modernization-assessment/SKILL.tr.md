@@ -1,7 +1,16 @@
 ---
-description: Eski (legacy) bir sistemi iş uyumu, teknik sağlık, operasyonel risk ve değişim etkenleri açısından değerlendirir; ardından 7R seçeneklerini (emekliye ayır, olduğu gibi tut, yeniden barındır, yer değiştir, platform değiştir, hazır ürün al, yeniden yapılandır/yeniden mimarile) göreli efor, değer ve riskle karşılaştırır, karar kriterleri ve ilk adımlarla bir yol önerir. Eski bir uygulama baskı altındayken (destek sonu, maliyet, yetkinlik, ölçeklenebilirlik, uyum), yönetim "X sistemiyle ne yapmalıyız?" diye sorduğunda veya bir taşıma ya da yeniden yazıma bütçe ayırmadan önce kullanılır.
-related: legacy-code-comprehension, tech-debt-assessment, migration-strategy, build-vs-buy, application-portfolio-assessment
-prompt: Şirket içinde çalışan 15 yıllık .NET Framework sipariş yönetimi monolitimizi değerlendir. İşletim sisteminin desteği seneye bitiyor ve sistemi yalnızca iki kişi biliyor. Seçeneklerimiz neler?
+name: modernization-assessment
+description: "Eski (legacy) bir sistemi iş uyumu, teknik sağlık, operasyonel risk ve değişim etkenleri açısından değerlendirir; ardından 7R seçeneklerini (emekliye ayır, olduğu gibi tut, yeniden barındır, yer değiştir, platform değiştir, hazır ürün al, yeniden yapılandır/yeniden mimarile) göreli efor, değer ve riskle karşılaştırır, karar kriterleri ve ilk adımlarla bir yol önerir. Eski bir uygulama baskı altındayken (destek sonu, maliyet, yetkinlik, ölçeklenebilirlik, uyum), yönetim \"X sistemiyle ne yapmalıyız?\" diye sorduğunda veya bir taşıma ya da yeniden yazıma bütçe ayırmadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Eski sistem modernizasyon değerlendirmesi"
+  related: "legacy-code-comprehension, tech-debt-assessment, migration-strategy, build-vs-buy, application-portfolio-assessment"
+  prompt: "Şirket içinde çalışan 15 yıllık .NET Framework sipariş yönetimi monolitimizi değerlendir. İşletim sisteminin desteği seneye bitiyor ve sistemi yalnızca iki kişi biliyor. Seçeneklerimiz neler?"
 ---
 
 # Eski Sistem Modernizasyon Değerlendirmesi

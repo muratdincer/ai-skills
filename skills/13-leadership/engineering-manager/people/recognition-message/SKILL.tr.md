@@ -1,7 +1,16 @@
 ---
-description: Bir kişi veya ekip için somut davranışı, ortaya çıkardığı sonucu ve neden önemli olduğunu belirten, kanala (özel, ekip, şirket geneli) uygun, somut ve etki odaklı bir takdir mesajı yazar. Bir yönetici veya ekip arkadaşı birine emeği için teşekkür etmek, görünmeyen katkıları öne çıkarmak ya da bir lansmanı, olay müdahalesini veya mentorluk çabasını kutlamak istediğinde kullanılır.
-related: feedback-sbi, announcement, tone-rewrite, performance-review
-prompt: Hafta sonunu veri taşıma geri alma işini çözmeye harcayan ve temiz bir postmortem yazan Selin için ekip kanalına teşekkür mesajı yaz.
+name: recognition-message
+description: "Bir kişi veya ekip için somut davranışı, ortaya çıkardığı sonucu ve neden önemli olduğunu belirten, kanala (özel, ekip, şirket geneli) uygun, somut ve etki odaklı bir takdir mesajı yazar. Bir yönetici veya ekip arkadaşı birine emeği için teşekkür etmek, görünmeyen katkıları öne çıkarmak ya da bir lansmanı, olay müdahalesini veya mentorluk çabasını kutlamak istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Takdir mesajı yazma"
+  related: "feedback-sbi, announcement, tone-rewrite, performance-review"
+  prompt: "Hafta sonunu veri taşıma geri alma işini çözmeye harcayan ve temiz bir postmortem yazan Selin için ekip kanalına teşekkür mesajı yaz."
 ---
 
 # Takdir Mesajı Yazma

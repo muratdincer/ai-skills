@@ -1,7 +1,16 @@
 ---
-description: Bir sistemin, projenin, servisin, iş akışının veya rolün sahipliğini yeni sahibine devreden bir devir-teslim dokümanı yazar; bağlamı, mevcut durumu, sorumlulukları, iletişim kişilerini, erişimleri, periyodik görevleri, riskleri, açık işleri ve kabul noktası olan bir geçiş planını kapsar. Biri ayrıldığında, rol değiştirdiğinde, uzun izne çıktığında, bir proje teslimattan operasyona geçtiğinde, tedarikçi veya ekip değiştiğinde ya da "devir-teslim hazırla" dendiğinde kullanılır.
-related: on-call-handover, runbook, onboarding-guide, raid-log, kb-article
-prompt: İki hafta sonra başka bir ekibe geçiyorum. Sahibi olduğum ödeme mutabakat servisi için devir-teslim dokümanı yazmama yardım et.
+name: handover-document
+description: "Bir sistemin, projenin, servisin, iş akışının veya rolün sahipliğini yeni sahibine devreden bir devir-teslim dokümanı yazar; bağlamı, mevcut durumu, sorumlulukları, iletişim kişilerini, erişimleri, periyodik görevleri, riskleri, açık işleri ve kabul noktası olan bir geçiş planını kapsar. Biri ayrıldığında, rol değiştirdiğinde, uzun izne çıktığında, bir proje teslimattan operasyona geçtiğinde, tedarikçi veya ekip değiştiğinde ya da \"devir-teslim hazırla\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Devir-teslim dokümanı yazma"
+  related: "on-call-handover, runbook, onboarding-guide, raid-log, kb-article"
+  prompt: "İki hafta sonra başka bir ekibe geçiyorum. Sahibi olduğum ödeme mutabakat servisi için devir-teslim dokümanı yazmama yardım et."
 ---
 
 # Devir-Teslim Dokümanı Yazma

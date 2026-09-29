@@ -1,7 +1,16 @@
 ---
-description: Builds a career development plan that compares a person's current level with a target level or path, identifies evidence-based gaps per competency and defines development actions, opportunities, support and checkpoints. Use when someone asks about promotion or a path change (IC vs management, specialization), after a review, or when a manager needs a structured growth conversation.
-related: career-ladder, goal-setting, performance-review, one-on-one-prep, onboarding-plan-30-60-90
-prompt: Create a development plan for Burak, Senior Engineer, who wants to move to Staff within 18 months.
+name: career-development-plan
+description: "Builds a career development plan that compares a person's current level with a target level or path, identifies evidence-based gaps per competency and defines development actions, opportunities, support and checkpoints. Use when someone asks about promotion or a path change (IC vs management, specialization), after a review, or when a manager needs a structured growth conversation."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Write a career development plan"
+  related: "career-ladder, goal-setting, performance-review, one-on-one-prep, onboarding-plan-30-60-90"
+  prompt: "Create a development plan for Burak, Senior Engineer, who wants to move to Staff within 18 months."
 ---
 
 # Write a Career Development Plan

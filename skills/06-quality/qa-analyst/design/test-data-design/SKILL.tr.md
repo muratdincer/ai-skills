@@ -1,7 +1,16 @@
 ---
+name: test-data-design
 description: "Gerçekçi, gizlilik açısından güvenli; denklik sınıflarını, sınırları, durumları ve ilişkisel uç durumları kapsayan test veri setleri ile ortam bazında hazırlama ve sıfırlama yaklaşımı tasarlar. Testler belirli veriye ihtiyaç duyduğunda, test için üretim verisi kullanılması gündeme geldiğinde, veri hazırlığı koşumu veya otomasyonu engellediğinde ya da bir özelliğin testi için hangi verinin gerektiği sorulduğunda kullanılır."
-related: equivalence-boundary-analysis, test-case-writing, data-classification, environment-strategy, privacy-impact-assessment
-prompt: "Kredi başvuru akışımız için test verisi tasarla: farklı gelir bantlarında başvuranlar, ortak başvuranlar, mevcut müşteriler ve kara listedeki kimlikler; SIT ve UAT için."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Test verisi tasarlama"
+  related: "equivalence-boundary-analysis, test-case-writing, data-classification, environment-strategy, privacy-impact-assessment"
+  prompt: "Kredi başvuru akışımız için test verisi tasarla: farklı gelir bantlarında başvuranlar, ortak başvuranlar, mevcut müşteriler ve kara listedeki kimlikler; SIT ve UAT için."
 ---
 
 # Test Verisi Tasarlama

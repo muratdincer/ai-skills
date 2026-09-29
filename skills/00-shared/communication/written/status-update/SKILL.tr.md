@@ -1,7 +1,16 @@
 ---
-description: Genel RAG durumu, plana göre ilerleme, riskler ve sorunlar, gereken kararlar veya destek ve sonraki adımları içeren kısa bir durum güncellemesi yazar. Bir proje, iş akışı, girişim veya olay hakkındaki ilerlemenin yöneticiye, sponsora, yönlendirme komitesine veya ekip kanalına raporlanması gerektiğinde ya da "haftalık güncelleme", "durum raporu", "ne durumdayız" istendiğinde kullanılır.
-related: project-status-report, executive-summary, escalation-message, raid-log, steering-committee-pack
-prompt: Veri platformu taşıması için bu haftanın durum güncellemesini yaz: 5 alandan 3'ü taşındı, finans alanı bir firewall değişikliği yüzünden bekliyor, canlıya geçiş hâlâ ayın 30'u olarak planlı.
+name: status-update
+description: "Genel RAG durumu, plana göre ilerleme, riskler ve sorunlar, gereken kararlar veya destek ve sonraki adımları içeren kısa bir durum güncellemesi yazar. Bir proje, iş akışı, girişim veya olay hakkındaki ilerlemenin yöneticiye, sponsora, yönlendirme komitesine veya ekip kanalına raporlanması gerektiğinde ya da \"haftalık güncelleme\", \"durum raporu\", \"ne durumdayız\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Durum güncellemesi yazma"
+  related: "project-status-report, executive-summary, escalation-message, raid-log, steering-committee-pack"
+  prompt: "Veri platformu taşıması için bu haftanın durum güncellemesini yaz: 5 alandan 3'ü taşındı, finans alanı bir firewall değişikliği yüzünden bekliyor, canlıya geçiş hâlâ ayın 30'u olarak planlı."
 ---
 
 # Durum Güncellemesi Yazma

@@ -1,7 +1,16 @@
 ---
-description: Fills a value proposition canvas for one customer segment, mapping customer jobs, pains and gains to products and services, pain relievers and gain creators, ranks them by importance, checks problem-solution fit and lists the assumptions to test. Use when defining or sharpening a value proposition, checking whether a product idea addresses real pains, preparing positioning or discovery work, or when someone asks for a "value proposition canvas" or "fit" analysis.
-related: jobs-to-be-done, persona, positioning-statement, business-model-canvas, hypothesis-statement
-prompt: Fill a value proposition canvas for our expense app for field sales reps at mid-size distributors.
+name: value-proposition-canvas
+description: "Fills a value proposition canvas for one customer segment, mapping customer jobs, pains and gains to products and services, pain relievers and gain creators, ranks them by importance, checks problem-solution fit and lists the assumptions to test. Use when defining or sharpening a value proposition, checking whether a product idea addresses real pains, preparing positioning or discovery work, or when someone asks for a \"value proposition canvas\" or \"fit\" analysis."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Fill a value proposition canvas"
+  related: "jobs-to-be-done, persona, positioning-statement, business-model-canvas, hypothesis-statement"
+  prompt: "Fill a value proposition canvas for our expense app for field sales reps at mid-size distributors."
 ---
 
 # Fill a Value Proposition Canvas

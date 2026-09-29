@@ -1,7 +1,16 @@
 ---
+name: brd-writing
 description: "Writes a Business Requirements Document that states the business problem, objectives with measurable success criteria, scope, stakeholders, high-level business requirements, business rules, constraints, assumptions and risks, independent of any solution design. Use when an initiative needs an agreed business baseline before solution or functional design, or when asked to 'write the BRD' for a project or change."
-related: "request-intake-document, frd-writing, stakeholder-identification, requirements-review-checklist, requirements-sign-off"
-prompt: "Write a BRD for replacing our manual supplier onboarding (email and Excel) with a self-service process; here are the workshop notes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Write a Business Requirements Document"
+  related: "request-intake-document, frd-writing, stakeholder-identification, requirements-review-checklist, requirements-sign-off"
+  prompt: "Write a BRD for replacing our manual supplier onboarding (email and Excel) with a self-service process; here are the workshop notes."
 ---
 
 # Write a Business Requirements Document

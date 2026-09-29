@@ -1,7 +1,16 @@
 ---
+name: definition-of-done
 description: "Bir Bitti Tanımı (DoD) oluşturur veya revize eder: her artımın veya iş maddesinin tamamlanmış sayılması için geçmesi gereken ortak kalite kontrol listesini madde, sürüm ve kurum seviyelerine ayırır; her kriter için doğrulama yöntemini ve eksikleri kapatma planını verir. 'Bitti' herkes için farklı anlama geldiğinde, kalite sorunları canlıya sızdığında ya da DoD veya tamamlanma kriterleri istendiğinde kullanılır."
-related: "definition-of-ready, release-quality-gate, acceptance-criteria, coding-standards, working-agreement"
-prompt: "Mobil bankacılık ekibimiz için bir Bitti Tanımı taslağı hazırla; kod incelemesi ve birim testlerimiz var ama sürümler hâlâ erişilebilirlik ve güvenlik kontrollerinde sorun çıkarıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Bitti Tanımı (DoD) oluşturma"
+  related: "definition-of-ready, release-quality-gate, acceptance-criteria, coding-standards, working-agreement"
+  prompt: "Mobil bankacılık ekibimiz için bir Bitti Tanımı taslağı hazırla; kod incelemesi ve birim testlerimiz var ama sürümler hâlâ erişilebilirlik ve güvenlik kontrollerinde sorun çıkarıyor."
 ---
 
 # Bitti Tanımı (DoD) Oluşturma

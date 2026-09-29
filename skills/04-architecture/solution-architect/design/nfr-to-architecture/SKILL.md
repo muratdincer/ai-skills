@@ -1,7 +1,16 @@
 ---
-description: Turns non-functional requirements into measurable quality attribute scenarios (source, stimulus, environment, artifact, response, response measure) and maps each to architectural tactics, with the trade-offs and verification method. Use when NFRs are vague ("fast", "secure", "highly available"), when a design must show how it meets quality goals, or before an architecture review or ATAM.
-related: nfr-specification, solution-architecture-document, atam-evaluation, trade-off-analysis, slo-definition
-prompt: Map these NFRs to architecture tactics: checkout must be fast, available 24/7, handle Black Friday peaks and comply with PCI DSS.
+name: nfr-to-architecture
+description: "Turns non-functional requirements into measurable quality attribute scenarios (source, stimulus, environment, artifact, response, response measure) and maps each to architectural tactics, with the trade-offs and verification method. Use when NFRs are vague (\"fast\", \"secure\", \"highly available\"), when a design must show how it meets quality goals, or before an architecture review or ATAM."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Map NFRs to architecture tactics"
+  related: "nfr-specification, solution-architecture-document, atam-evaluation, trade-off-analysis, slo-definition"
+  prompt: "Map these NFRs to architecture tactics: checkout must be fast, available 24/7, handle Black Friday peaks and comply with PCI DSS."
 ---
 
 # Map NFRs to Architecture Tactics

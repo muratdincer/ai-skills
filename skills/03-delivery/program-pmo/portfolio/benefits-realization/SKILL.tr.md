@@ -1,7 +1,16 @@
 ---
-description: Teslimat sonrası fayda gerçekleşmesini izler; planlanan faydaları baz değer, hedef, sahip ve ölçüm tarihleri olan ölçülebilir göstergelere dönüştürür, planlanan ve gerçekleşen değerleri karşılaştırır, değişimin ne kadarının girişime ait olduğunu değerlendirir ve düzeltici aksiyon ya da yeniden tahmin önerir. Bir proje veya program canlıya geçtikten sonra, uygulama sonrası veya fayda gözden geçirmesinde, iş gerekçesinin sonuçlarla karşılaştırılması gerektiğinde ya da "vaat ettiğimiz değeri aldık mı" diye sorulduğunda kullanılır.
-related: kpi-definition, cost-benefit-analysis, feature-adoption-review, project-closure-report, portfolio-prioritization
-prompt: Self-servis portalımızın canlıya geçişinden altı ay sonra fayda gerçekleşmesini kontrol et; iş gerekçesi çağrı merkezi temaslarında %30 azalma ve daha hızlı müşteri kaydı vaat ediyordu.
+name: benefits-realization
+description: "Teslimat sonrası fayda gerçekleşmesini izler; planlanan faydaları baz değer, hedef, sahip ve ölçüm tarihleri olan ölçülebilir göstergelere dönüştürür, planlanan ve gerçekleşen değerleri karşılaştırır, değişimin ne kadarının girişime ait olduğunu değerlendirir ve düzeltici aksiyon ya da yeniden tahmin önerir. Bir proje veya program canlıya geçtikten sonra, uygulama sonrası veya fayda gözden geçirmesinde, iş gerekçesinin sonuçlarla karşılaştırılması gerektiğinde ya da \"vaat ettiğimiz değeri aldık mı\" diye sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Fayda gerçekleşme takibi"
+  related: "kpi-definition, cost-benefit-analysis, feature-adoption-review, project-closure-report, portfolio-prioritization"
+  prompt: "Self-servis portalımızın canlıya geçişinden altı ay sonra fayda gerçekleşmesini kontrol et; iş gerekçesi çağrı merkezi temaslarında %30 azalma ve daha hızlı müşteri kaydı vaat ediyordu."
 ---
 
 # Fayda Gerçekleşme Takibi

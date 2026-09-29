@@ -1,7 +1,16 @@
 ---
-description: Proje kapsamını numaralı bir iş paketi hiyerarşisine bölen, teslimat odaklı bir iş kırılım yapısı (WBS) ve açıklama, sahip, kabul ve bağımlılıkları içeren WBS sözlüğü oluşturur. Kapsam üzerinde anlaşıldığında ve tahmin, takvim, kaynak planlama ve ilerleme takibi için bölünmesi gerektiğinde kullanılır.
-related: scope-statement, estimation-three-point, schedule-plan, resource-plan, task-breakdown
-prompt: Bu kapsam tanımını kullanarak mobil bankacılık uygulaması yeniden tasarımı için WBS oluştur.
+name: wbs
+description: "Proje kapsamını numaralı bir iş paketi hiyerarşisine bölen, teslimat odaklı bir iş kırılım yapısı (WBS) ve açıklama, sahip, kabul ve bağımlılıkları içeren WBS sözlüğü oluşturur. Kapsam üzerinde anlaşıldığında ve tahmin, takvim, kaynak planlama ve ilerleme takibi için bölünmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "İş kırılım yapısı (WBS)"
+  related: "scope-statement, estimation-three-point, schedule-plan, resource-plan, task-breakdown"
+  prompt: "Bu kapsam tanımını kullanarak mobil bankacılık uygulaması yeniden tasarımı için WBS oluştur."
 ---
 
 # İş Kırılım Yapısı (WBS)

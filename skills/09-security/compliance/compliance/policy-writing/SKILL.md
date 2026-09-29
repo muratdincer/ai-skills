@@ -1,7 +1,16 @@
 ---
+name: policy-writing
 description: "Writes or revises a security or IT policy with purpose, scope, enforceable rules, roles, exceptions, compliance measurement and review cycle, and separates policy from standards and procedures. Use when a policy is missing, outdated, flagged in an audit, or needed for ISO 27001, SOC 2, KVKK or internal governance (e.g. acceptable use, access control, password, backup, remote work, AI usage)."
-related: "control-mapping, audit-preparation, it-risk-assessment, retention-policy, document-review"
-prompt: "Write an access control policy for our company; we are preparing for ISO 27001 and use Entra ID and GitHub."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Write a security/IT policy"
+  related: "control-mapping, audit-preparation, it-risk-assessment, retention-policy, document-review"
+  prompt: "Write an access control policy for our company; we are preparing for ISO 27001 and use Entra ID and GitHub."
 ---
 
 # Write a Security/IT Policy

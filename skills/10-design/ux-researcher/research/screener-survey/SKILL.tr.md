@@ -1,7 +1,16 @@
 ---
-description: Bir çalışma için doğru kullanıcıları seçen katılımcı eleme anketi yazar; davranışa dayalı dahil etme ve hariç tutma kriterleri, doğru cevabı belli etmeyen yönlendirmesiz sorular, segment kotaları, eleme mantığı ve onay içerir. Görüşme, kullanılabilirlik testi veya günlük çalışması için katılımcı bulmadan önce ya da "kiminle konuşmalıyız" veya "katılımcı seçme anketi yaz" dendiğinde kullanılır.
-related: research-plan, usability-test-script, questionnaire-design, persona, interview-question-set
-prompt: En az ayda bir fatura kesen ve son bir yılda rakip bir uygulamayı denemiş 8 küçük işletme sahibini bulmak için eleme anketi yaz.
+name: screener-survey
+description: "Bir çalışma için doğru kullanıcıları seçen katılımcı eleme anketi yazar; davranışa dayalı dahil etme ve hariç tutma kriterleri, doğru cevabı belli etmeyen yönlendirmesiz sorular, segment kotaları, eleme mantığı ve onay içerir. Görüşme, kullanılabilirlik testi veya günlük çalışması için katılımcı bulmadan önce ya da \"kiminle konuşmalıyız\" veya \"katılımcı seçme anketi yaz\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Katılımcı eleme anketi"
+  related: "research-plan, usability-test-script, questionnaire-design, persona, interview-question-set"
+  prompt: "En az ayda bir fatura kesen ve son bir yılda rakip bir uygulamayı denemiş 8 küçük işletme sahibini bulmak için eleme anketi yaz."
 ---
 
 # Katılımcı Eleme Anketi

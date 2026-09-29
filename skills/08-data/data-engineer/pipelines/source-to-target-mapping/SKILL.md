@@ -1,7 +1,16 @@
 ---
+name: source-to-target-mapping
 description: "Writes a column-level source-to-target mapping (STTM) for a data load: target columns with type and nullability, source columns, transformation and business rules, lookups, defaults, key generation, filters, join conditions, rejects handling and test cases. Use when a pipeline, migration or integration load must be built or reviewed, when business rules for derived fields must be pinned down, or when someone asks for a mapping sheet between two schemas."
-related: "pipeline-spec, field-mapping, data-lineage-doc, dimensional-model, test-data-design"
-prompt: "Create a source-to-target mapping from the CRM customer and address tables into our dim_customer table."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Write a source-to-target mapping"
+  related: "pipeline-spec, field-mapping, data-lineage-doc, dimensional-model, test-data-design"
+  prompt: "Create a source-to-target mapping from the CRM customer and address tables into our dim_customer table."
 ---
 
 # Write a Source-to-Target Mapping

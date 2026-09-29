@@ -1,7 +1,16 @@
 ---
+name: bdd-feature-file
 description: "İş tarafının okuyabileceği özellik açıklaması, background, bildirimsel senaryolar ve örnek tablolu scenario outline'lar içeren, etiketli ve gereksinimlere izlenebilir Gherkin feature dosyaları yazar. Ekip davranış odaklı geliştirme veya örneklerle tanımlama uyguluyorsa, kabul kriterleri çalıştırılabilir tanımlara dönüşecekse ya da mevcut Gherkin emir kipinde, arayüze bağımlı veya bakımı zor ise kullanılır."
-related: acceptance-criteria, user-story, test-scenarios-from-requirements, test-automation-script, equivalence-boundary-analysis
-prompt: "Kupon kuralı için feature dosyası yaz: sipariş başına bir kupon, en az 250 TL sepet, kampanyalı fiyatlarla birleşmez, süresi dolmuş kupon reddedilir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "BDD feature dosyası yazma"
+  related: "acceptance-criteria, user-story, test-scenarios-from-requirements, test-automation-script, equivalence-boundary-analysis"
+  prompt: "Kupon kuralı için feature dosyası yaz: sipariş başına bir kupon, en az 250 TL sepet, kampanyalı fiyatlarla birleşmez, süresi dolmuş kupon reddedilir."
 ---
 
 # BDD Feature Dosyası Yazma

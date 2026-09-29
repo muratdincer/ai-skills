@@ -1,7 +1,16 @@
 ---
-description: Hedef kitle, ihtiyaçlar, ürün ve iş hedeflerini kapsayan, ilham veren ve sınanabilir bir ürün vizyonu cümlesi ile vizyon panosu yazar. Yeni bir ürün veya büyük bir yön değişikliği ortak bir yöne ihtiyaç duyduğunda, ekipler ürünün ne için var olduğunda anlaşamadığında ya da vizyon cümlesi veya vizyon panosu istendiğinde kullanılır.
-related: product-strategy-one-pager, positioning-statement, north-star-metric, persona, okr-definition
-prompt: Küçük işletme müşterilerimize yönelik self-servis fatura portalı için ürün vizyonu ve vizyon panosu yaz.
+name: product-vision
+description: "Hedef kitle, ihtiyaçlar, ürün ve iş hedeflerini kapsayan, ilham veren ve sınanabilir bir ürün vizyonu cümlesi ile vizyon panosu yazar. Yeni bir ürün veya büyük bir yön değişikliği ortak bir yöne ihtiyaç duyduğunda, ekipler ürünün ne için var olduğunda anlaşamadığında ya da vizyon cümlesi veya vizyon panosu istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Ürün vizyonu yazma"
+  related: "product-strategy-one-pager, positioning-statement, north-star-metric, persona, okr-definition"
+  prompt: "Küçük işletme müşterilerimize yönelik self-servis fatura portalı için ürün vizyonu ve vizyon panosu yaz."
 ---
 
 # Ürün Vizyonu Yazma

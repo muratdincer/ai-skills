@@ -1,7 +1,16 @@
 ---
-description: Makes explicit what each option gains and gives up across competing qualities (for example speed vs. safety, cost vs. resilience, flexibility vs. simplicity, scope vs. time), identifies the decisive tension, the reversibility of each choice and the conditions under which the preferred option stops being right. Use for architecture, product, scope or process decisions where no option wins on everything, when stakeholders talk past each other, or before recording a decision.
-related: decision-matrix, adr, architecture-review, pros-cons, technology-selection
-prompt: Analyze the trade-offs between a modular monolith and microservices for our new claims system.
+name: trade-off-analysis
+description: "Makes explicit what each option gains and gives up across competing qualities (for example speed vs. safety, cost vs. resilience, flexibility vs. simplicity, scope vs. time), identifies the decisive tension, the reversibility of each choice and the conditions under which the preferred option stops being right. Use for architecture, product, scope or process decisions where no option wins on everything, when stakeholders talk past each other, or before recording a decision."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Analyze trade-offs"
+  related: "decision-matrix, adr, architecture-review, pros-cons, technology-selection"
+  prompt: "Analyze the trade-offs between a modular monolith and microservices for our new claims system."
 ---
 
 # Analyze Trade-offs

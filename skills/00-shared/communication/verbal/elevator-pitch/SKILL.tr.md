@@ -1,7 +1,16 @@
 ---
-description: Bir fikir, proje, ürün veya talep için tek bir dinleyiciye göre uyarlanmış; dikkat çekici bir giriş, problem, öneri, kanıt ve tek bir somut talep içeren 30-60 saniyelik sözlü bir konuşma yazar. Birinin meşgul bir kişiyi bir sonraki adımı atacak kadar ilgilendirmek için kısa bir fırsatı (koridor, görüşme açılışı, toplantıda tanıtım, bütçe veya sponsorluk talebi) olduğunda kullanılır.
-related: presentation-outline, executive-summary, value-proposition-canvas, problem-statement, stakeholder-map
-prompt: CTO'muzu mikroservislerimiz arasında otomatik kontrat testi pilotuna sponsor olmaya ikna edecek 45 saniyelik bir konuşma hazırla.
+name: elevator-pitch
+description: "Bir fikir, proje, ürün veya talep için tek bir dinleyiciye göre uyarlanmış; dikkat çekici bir giriş, problem, öneri, kanıt ve tek bir somut talep içeren 30-60 saniyelik sözlü bir konuşma yazar. Birinin meşgul bir kişiyi bir sonraki adımı atacak kadar ilgilendirmek için kısa bir fırsatı (koridor, görüşme açılışı, toplantıda tanıtım, bütçe veya sponsorluk talebi) olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Asansör konuşması hazırlama"
+  related: "presentation-outline, executive-summary, value-proposition-canvas, problem-statement, stakeholder-map"
+  prompt: "CTO'muzu mikroservislerimiz arasında otomatik kontrat testi pilotuna sponsor olmaya ikna edecek 45 saniyelik bir konuşma hazırla."
 ---
 
 # Asansör Konuşması Hazırlama

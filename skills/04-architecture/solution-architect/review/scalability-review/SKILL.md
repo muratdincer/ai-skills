@@ -1,7 +1,16 @@
 ---
-description: Reviews how a system scales by modeling load growth against each component, locating bottlenecks (CPU, I/O, locks, connections, hot partitions, shared state), and assessing statelessness, partitioning, caching, asynchronous processing and data-tier limits, with prioritized recommendations and the scaling limit of the current design. Use before an expected growth step or peak event, when latency degrades with load, or when choosing between scale-up and scale-out.
-related: capacity-planning, performance-test-plan, load-test-analysis, resilience-review, query-optimization
-prompt: Review the scalability of our reporting API; traffic will grow 5x after we onboard a large customer and p95 latency already rises sharply at month end.
+name: scalability-review
+description: "Reviews how a system scales by modeling load growth against each component, locating bottlenecks (CPU, I/O, locks, connections, hot partitions, shared state), and assessing statelessness, partitioning, caching, asynchronous processing and data-tier limits, with prioritized recommendations and the scaling limit of the current design. Use before an expected growth step or peak event, when latency degrades with load, or when choosing between scale-up and scale-out."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Review scalability"
+  related: "capacity-planning, performance-test-plan, load-test-analysis, resilience-review, query-optimization"
+  prompt: "Review the scalability of our reporting API; traffic will grow 5x after we onboard a large customer and p95 latency already rises sharply at month end."
 ---
 
 # Review Scalability

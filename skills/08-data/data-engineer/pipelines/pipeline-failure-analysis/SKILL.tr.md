@@ -1,7 +1,16 @@
 ---
+name: pipeline-failure-analysis
 description: "Başarısız olan veya sessizce yanlış veri üreten bir veri hattı çalışmasını analiz eder: zaman çizelgesini çıkarır, kök nedeni (kaynak, kod, altyapı, veri, bağımlılık) ayırır, bölümler, tablolar ve tüketiciler üzerindeki veri etkisini ölçer, güvenli ve idempotent bir geriye dönük yükleme ile önleme planı üretir. Bir yükleme hata verdiğinde, mükerrer, eksik veya geç veri ürettiğinde, bir kalite kontrolü tetiklendiğinde ya da bir tüketici rakamların tutmadığını bildirdiğinde kullanılır."
-related: "incremental-load-design, pipeline-spec, data-lineage-doc, data-quality-rules, postmortem"
-prompt: "Dün geceki sipariş yüklemesi başarılı görünüyor ama bugünkü ciro panosu %12 düşük. Çalışma logları ve satır sayıları ekte; ne olduğunu ve veriyi nasıl düzelteceğimizi bul."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Veri hattı hata analizi"
+  related: "incremental-load-design, pipeline-spec, data-lineage-doc, data-quality-rules, postmortem"
+  prompt: "Dün geceki sipariş yüklemesi başarılı görünüyor ama bugünkü ciro panosu %12 düşük. Çalışma logları ve satır sayıları ekte; ne olduğunu ve veriyi nasıl düzelteceğimizi bul."
 ---
 
 # Veri Hattı Hata Analizi

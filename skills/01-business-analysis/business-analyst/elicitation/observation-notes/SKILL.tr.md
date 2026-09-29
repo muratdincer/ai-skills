@@ -1,7 +1,16 @@
 ---
+name: observation-notes
 description: "Ham iş gölgeleme (job shadowing) veya bağlamsal gözlem notlarını süreleri, kullanılan araçları, sorunları, geçici çözümleri, kesintileri ve yazılı süreç ile gerçek süreç arasındaki farkı gösteren bir görev dizisine dönüştürür. Kullanıcılar işbaşında gözlemlendikten sonra, saha notları dağınık olduğunda veya 'ekibi izlerken ne öğrendik?' diye sorulduğunda kullanılır."
-related: "as-is-process, interview-notes-analysis, value-stream-map, customer-journey-map, research-synthesis"
-prompt: "İki çağrı merkezi temsilcisini üç saat gölgelediğim notlar bunlar. Görev, sorun ve geçici çözümler olarak yapılandır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Gözlem notlarını yapılandırma"
+  related: "as-is-process, interview-notes-analysis, value-stream-map, customer-journey-map, research-synthesis"
+  prompt: "İki çağrı merkezi temsilcisini üç saat gölgelediğim notlar bunlar. Görev, sorun ve geçici çözümler olarak yapılandır."
 ---
 
 # Gözlem Notlarını Yapılandırma

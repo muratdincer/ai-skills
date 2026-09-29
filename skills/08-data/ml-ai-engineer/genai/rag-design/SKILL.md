@@ -1,7 +1,16 @@
 ---
-description: Designs a retrieval-augmented generation (RAG) system covering corpus and access control, ingestion, chunking, embedding, hybrid retrieval, reranking, grounded answer generation with citations, evaluation and operations. Use when an LLM must answer from company documents or data, when an existing RAG gives wrong or uncited answers, or when choosing between RAG, fine-tuning and plain prompting.
-related: prompt-design, llm-eval-set, ai-use-case-assessment, data-classification, solution-architecture-document
-prompt: Design a RAG assistant that answers employee questions from 3,000 HR policy PDFs and intranet pages, respecting country-specific access.
+name: rag-design
+description: "Designs a retrieval-augmented generation (RAG) system covering corpus and access control, ingestion, chunking, embedding, hybrid retrieval, reranking, grounded answer generation with citations, evaluation and operations. Use when an LLM must answer from company documents or data, when an existing RAG gives wrong or uncited answers, or when choosing between RAG, fine-tuning and plain prompting."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Design a RAG system"
+  related: "prompt-design, llm-eval-set, ai-use-case-assessment, data-classification, solution-architecture-document"
+  prompt: "Design a RAG assistant that answers employee questions from 3,000 HR policy PDFs and intranet pages, respecting country-specific access."
 ---
 
 # Design a RAG System

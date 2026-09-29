@@ -1,7 +1,16 @@
 ---
-description: İş yetkinliklerini, sınırlı bağlamları, veri sahipliğini, değişim ve ölçekleme etkenlerini ve ekip yapısını birleştirerek bir sistemi veya monoliti servis ya da modül sınırlarına ayrıştırır; her adayı bağımlılık, geveze iletişim (chattiness) ve dağıtık işlem riski açısından değerlendirir ve servisler gerekçelendirilemiyorsa modüler monolit dahil bir ayrıntı düzeyi önerir. Bir monolit bölünürken, yeni bir servis yapısı tasarlanırken veya mevcut servislerin çok ince ya da çok kaba olup olmadığı incelenirken kullanılır.
-related: bounded-context-map, event-storming, migration-strategy, team-topology, database-schema-design
-prompt: 400 bin satırlık sigorta monolitimizi servislere bölmek istiyoruz; poliçe, hasar, faturalama ve müşteri için sınırları ve veri sahipliğini bulmamıza yardım et.
+name: service-decomposition
+description: "İş yetkinliklerini, sınırlı bağlamları, veri sahipliğini, değişim ve ölçekleme etkenlerini ve ekip yapısını birleştirerek bir sistemi veya monoliti servis ya da modül sınırlarına ayrıştırır; her adayı bağımlılık, geveze iletişim (chattiness) ve dağıtık işlem riski açısından değerlendirir ve servisler gerekçelendirilemiyorsa modüler monolit dahil bir ayrıntı düzeyi önerir. Bir monolit bölünürken, yeni bir servis yapısı tasarlanırken veya mevcut servislerin çok ince ya da çok kaba olup olmadığı incelenirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Servislere ayrıştırma"
+  related: "bounded-context-map, event-storming, migration-strategy, team-topology, database-schema-design"
+  prompt: "400 bin satırlık sigorta monolitimizi servislere bölmek istiyoruz; poliçe, hasar, faturalama ve müşteri için sınırları ve veri sahipliğini bulmamıza yardım et."
 ---
 
 # Servislere Ayrıştırma

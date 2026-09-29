@@ -1,7 +1,16 @@
 ---
+name: security-finding-report
 description: "Writes a clear, reproducible security finding with title, affected asset, severity and scoring, description, impact, reproduction steps, evidence, remediation and references, suitable for a pentest report, bug bounty response or internal tracker. Use when a confirmed or suspected security issue must be documented for developers, management or auditors."
-related: "vulnerability-triage, secure-code-review, pentest-scope, bug-report, security-incident-response"
-prompt: "Write a security finding for this: any logged-in user can download another user's invoice PDF by changing the invoice number in the URL."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: assessment
+  title: "Write a security finding"
+  related: "vulnerability-triage, secure-code-review, pentest-scope, bug-report, security-incident-response"
+  prompt: "Write a security finding for this: any logged-in user can download another user's invoice PDF by changing the invoice number in the URL."
 ---
 
 # Write a Security Finding

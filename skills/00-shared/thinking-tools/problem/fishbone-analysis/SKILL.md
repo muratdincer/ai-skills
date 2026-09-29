@@ -1,7 +1,16 @@
 ---
-description: Builds an Ishikawa (fishbone) diagram that organizes all plausible causes of a clearly stated effect into categories suited to the domain, separates evidenced causes from hypotheses, and selects the few causes worth verifying first. Use when a problem likely has several interacting causes, when a team brainstorms causes and needs structure, or before running 5 Whys on the most promising branches.
-related: problem-statement, five-whys, postmortem, diagram-as-code, assumption-mapping
-prompt: Do a fishbone analysis: our release lead time went from 3 days to 2 weeks over the last two quarters.
+name: fishbone-analysis
+description: "Builds an Ishikawa (fishbone) diagram that organizes all plausible causes of a clearly stated effect into categories suited to the domain, separates evidenced causes from hypotheses, and selects the few causes worth verifying first. Use when a problem likely has several interacting causes, when a team brainstorms causes and needs structure, or before running 5 Whys on the most promising branches."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Run a fishbone analysis"
+  related: "problem-statement, five-whys, postmortem, diagram-as-code, assumption-mapping"
+  prompt: "Do a fishbone analysis: our release lead time went from 3 days to 2 weeks over the last two quarters."
 ---
 
 # Run a Fishbone Analysis

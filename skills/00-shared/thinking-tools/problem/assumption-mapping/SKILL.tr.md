@@ -1,7 +1,16 @@
 ---
-description: Bir planın, ürün fikrinin, tahminin veya kararın arkasındaki varsayımları ortaya çıkarır, türlerine göre sınıflar (arzu edilebilirlik, kullanılabilirlik, fizibilite, ekonomik yapılabilirlik, etik/mevzuat, teslimat), önem ve kanıta göre konumlandırır ve en riskli olanları en ucuz testle birlikte test edilebilir ifadelere çevirir. Bütçe veya kapsam taahhüdünden önce, bir plan fazla iyimser göründüğünde ya da bunun işe yaraması için neyin doğru olması gerektiği sorulduğunda kullanılır.
-related: hypothesis-statement, experiment-design, pre-mortem, risk-register, problem-statement
-prompt: KOBİ müşterileri için gelecek çeyrekte self-servis oryantasyon başlatma planımızın varsayımlarını haritala.
+name: assumption-mapping
+description: "Bir planın, ürün fikrinin, tahminin veya kararın arkasındaki varsayımları ortaya çıkarır, türlerine göre sınıflar (arzu edilebilirlik, kullanılabilirlik, fizibilite, ekonomik yapılabilirlik, etik/mevzuat, teslimat), önem ve kanıta göre konumlandırır ve en riskli olanları en ucuz testle birlikte test edilebilir ifadelere çevirir. Bütçe veya kapsam taahhüdünden önce, bir plan fazla iyimser göründüğünde ya da bunun işe yaraması için neyin doğru olması gerektiği sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Varsayım haritalama"
+  related: "hypothesis-statement, experiment-design, pre-mortem, risk-register, problem-statement"
+  prompt: "KOBİ müşterileri için gelecek çeyrekte self-servis oryantasyon başlatma planımızın varsayımlarını haritala."
 ---
 
 # Varsayım Haritalama

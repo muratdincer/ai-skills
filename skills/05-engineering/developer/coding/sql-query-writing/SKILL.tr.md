@@ -1,7 +1,16 @@
 ---
+name: sql-query-writing
 description: "Belirtilen bir soru için hedef veritabanı lehçesinde doğru, okunabilir ve indeks dostu bir SQL sorgusu yazar: sonuç taneciğini (grain) ve join kardinalitesini netleştirir, NULL'ları, mükerrer kayıtları ve saat dilimlerini ele alır, sargable koşullar ve parametreler kullanır, dayandığı indeksleri ve sonuçların nasıl doğrulanacağını belirtir. Bir rapor, özellik, veri düzeltme veya inceleme için sorgu gerektiğinde, bir sorunun SQL'e çevrilmesi istendiğinde ya da mevcut bir sorgunun doğruluk veya okunabilirlik için yeniden yazılması istendiğinde kullanılır."
-related: "query-optimization, index-recommendation, database-schema-design, metric-definition, performance-optimization"
-prompt: "Siparişi olmayanlar dahil her müşteri için son 90 gündeki sipariş sayısını ve toplam cirosunu döndüren bir PostgreSQL sorgusu yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "SQL sorgusu yazma"
+  related: "query-optimization, index-recommendation, database-schema-design, metric-definition, performance-optimization"
+  prompt: "Siparişi olmayanlar dahil her müşteri için son 90 gündeki sipariş sayısını ve toplam cirosunu döndüren bir PostgreSQL sorgusu yaz."
 ---
 
 # SQL Sorgusu Yazma

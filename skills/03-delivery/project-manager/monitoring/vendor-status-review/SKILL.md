@@ -1,7 +1,16 @@
 ---
-description: Reviews a vendor's delivery performance against the contract or statement of work: deliverables and milestones, SLA and KPI results, quality, staffing, invoices and open obligations on both sides, and produces a scored assessment with evidence, issues and agreed actions. Use before a periodic vendor governance meeting, when a supplier is slipping, before approving an invoice or milestone payment, or when deciding whether to escalate or invoke contract remedies.
-related: statement-of-work, sla-breach-analysis, issue-management, acceptance-certificate, vendor-evaluation
-prompt: Prepare the monthly performance review for our implementation partner using the SOW milestones, their status report and our SLA report.
+name: vendor-status-review
+description: "Reviews a vendor's delivery performance against the contract or statement of work: deliverables and milestones, SLA and KPI results, quality, staffing, invoices and open obligations on both sides, and produces a scored assessment with evidence, issues and agreed actions. Use before a periodic vendor governance meeting, when a supplier is slipping, before approving an invoice or milestone payment, or when deciding whether to escalate or invoke contract remedies."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Review vendor performance"
+  related: "statement-of-work, sla-breach-analysis, issue-management, acceptance-certificate, vendor-evaluation"
+  prompt: "Prepare the monthly performance review for our implementation partner using the SOW milestones, their status report and our SLA report."
 ---
 
 # Review Vendor Performance

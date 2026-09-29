@@ -1,7 +1,16 @@
 ---
-description: Writes a model card documenting a trained model's intended use, out-of-scope uses, training and evaluation data, performance overall and by group, limitations, ethical and privacy considerations, and ownership. Use when a model is released, shared across teams, submitted for governance or audit review, or when users need to know what a model can and cannot be trusted for.
-related: model-evaluation-report, ml-monitoring-plan, ml-problem-framing, privacy-impact-assessment, ai-use-case-assessment
-prompt: Write a model card for our CV screening ranking model used by HR recruiters; evaluation results and training data summary attached.
+name: model-card
+description: "Writes a model card documenting a trained model's intended use, out-of-scope uses, training and evaluation data, performance overall and by group, limitations, ethical and privacy considerations, and ownership. Use when a model is released, shared across teams, submitted for governance or audit review, or when users need to know what a model can and cannot be trusted for."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Write a model card"
+  related: "model-evaluation-report, ml-monitoring-plan, ml-problem-framing, privacy-impact-assessment, ai-use-case-assessment"
+  prompt: "Write a model card for our CV screening ranking model used by HR recruiters; evaluation results and training data summary attached."
 ---
 
 # Write a Model Card

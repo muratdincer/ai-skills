@@ -1,7 +1,16 @@
 ---
+name: sequence-flow
 description: "Describes how systems, services and actors interact in one end-to-end scenario: participants, ordered messages, sync or async style, payload essentials, responses, timeouts, retries and alternative or failure paths, delivered as a step table plus sequence diagram code. Use when a scenario crosses several systems, when integration behaviour must be agreed between teams, or when someone asks 'what calls what, in which order, and what happens if it fails?'."
-related: "integration-requirements, api-contract, error-scenario-catalog, state-model, diagram-as-code"
-prompt: "Describe the sequence for an online order: web shop, order service, payment gateway, stock service and notification, including payment timeout."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Describe a system interaction sequence"
+  related: "integration-requirements, api-contract, error-scenario-catalog, state-model, diagram-as-code"
+  prompt: "Describe the sequence for an online order: web shop, order service, payment gateway, stock service and notification, including payment timeout."
 ---
 
 # Describe a System Interaction Sequence

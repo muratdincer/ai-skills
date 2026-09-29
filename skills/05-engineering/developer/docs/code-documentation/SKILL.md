@@ -1,7 +1,16 @@
 ---
-description: Writes or improves docstrings, API comments and inline comments so they state contracts, intent, constraints and non-obvious reasons (the why), not a restatement of the code (the what), and flags comments that are wrong, stale or should become code. Use when a developer asks to document a function, class, module or public API, to review existing comments, or to prepare code for handover.
-related: readme-writing, api-reference-docs, clean-code-review, code-explanation, legacy-code-comprehension
-prompt: Add proper documentation to this pricing module. Keep it useful; I do not want comments that just repeat the code.
+name: code-documentation
+description: "Writes or improves docstrings, API comments and inline comments so they state contracts, intent, constraints and non-obvious reasons (the why), not a restatement of the code (the what), and flags comments that are wrong, stale or should become code. Use when a developer asks to document a function, class, module or public API, to review existing comments, or to prepare code for handover."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Write code documentation"
+  related: "readme-writing, api-reference-docs, clean-code-review, code-explanation, legacy-code-comprehension"
+  prompt: "Add proper documentation to this pricing module. Keep it useful; I do not want comments that just repeat the code."
 ---
 
 # Write Code Documentation

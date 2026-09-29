@@ -1,7 +1,16 @@
 ---
-description: Writes a go-to-market plan for a product or major feature covering launch tier, target segment and buyer, positioning and messages, channels, pricing and packaging hooks, timeline with readiness gates, sales/support enablement and launch success metrics. Use when a product, feature or market entry is heading to launch, when someone asks for a GTM or launch plan, or when marketing, sales and support need one aligned plan.
-related: positioning-statement, release-announcement, pricing-analysis, competitive-battle-card, communication-plan
-prompt: Write a go-to-market plan for launching our AI-assisted invoice matching module to existing mid-market ERP customers.
+name: go-to-market-plan
+description: "Writes a go-to-market plan for a product or major feature covering launch tier, target segment and buyer, positioning and messages, channels, pricing and packaging hooks, timeline with readiness gates, sales/support enablement and launch success metrics. Use when a product, feature or market entry is heading to launch, when someone asks for a GTM or launch plan, or when marketing, sales and support need one aligned plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Write a go-to-market plan"
+  related: "positioning-statement, release-announcement, pricing-analysis, competitive-battle-card, communication-plan"
+  prompt: "Write a go-to-market plan for launching our AI-assisted invoice matching module to existing mid-market ERP customers."
 ---
 
 # Write a Go-to-Market Plan

@@ -1,7 +1,16 @@
 ---
-description: Specifies integration requirements between systems, covering participating systems, direction, data exchanged, trigger and frequency, volumes, error handling, security and SLAs, in a form both sides can build and test against. Use when a feature needs data to flow to or from another system, a new interface or API is requested, or a third-party/vendor integration must be agreed before design.
-related: field-mapping, error-scenario-catalog, api-contract, integration-pattern-selection, data-requirements
-prompt: Specify the integration requirements for sending approved orders from our e-commerce platform to the ERP and getting stock levels back.
+name: integration-requirements
+description: "Specifies integration requirements between systems, covering participating systems, direction, data exchanged, trigger and frequency, volumes, error handling, security and SLAs, in a form both sides can build and test against. Use when a feature needs data to flow to or from another system, a new interface or API is requested, or a third-party/vendor integration must be agreed before design."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Specify integration requirements"
+  related: "field-mapping, error-scenario-catalog, api-contract, integration-pattern-selection, data-requirements"
+  prompt: "Specify the integration requirements for sending approved orders from our e-commerce platform to the ERP and getting stock levels back."
 ---
 
 # Specify Integration Requirements

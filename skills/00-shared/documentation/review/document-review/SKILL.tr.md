@@ -1,7 +1,16 @@
 ---
+name: document-review
 description: "Herhangi bir dokümanı açıklık, bütünlük, iç tutarlılık, iddiaların doğruluğu ve hedef kitle ile amaca uygunluk açısından inceler; öncelikli, konumu belirtilmiş bulguları önerilen düzeltmeler ve bir genel kararla verir. Bir taslak için geri bildirim istendiğinde, bir doküman onay veya yayın öncesi kontrol edilecekse ya da bir şartname, teklif, politika, rehber veya rapor için ikinci görüş gerektiğinde kullanılır."
-related: "requirements-review-checklist, architecture-review, document-simplify, style-guide-check, doc-diff-summary"
-prompt: "Bu olay yönetimi süreç dokümanını operasyon direktörlerine onaya göndermeden önce gözden geçir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Doküman gözden geçirme"
+  related: "requirements-review-checklist, architecture-review, document-simplify, style-guide-check, doc-diff-summary"
+  prompt: "Bu olay yönetimi süreç dokümanını operasyon direktörlerine onaya göndermeden önce gözden geçir."
 ---
 
 # Doküman Gözden Geçirme

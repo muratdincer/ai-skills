@@ -1,7 +1,16 @@
 ---
-description: Diátaxis anlamında hedef odaklı bir nasıl yapılır rehberi yazar; temel bilgiye sahip okuru belirli bir başlangıç noktasından tek bir gerçek sonuca götüren, ön koşulları, numaralı eylem adımları, karar noktaları, doğrulama ve sorun giderme içeren, öğretim ya da arka plan sapması barındırmayan odaklı bir tarif sunar. Kullanıcılar "... nasıl yapılır" diye sorduğunda, bir destek kaydı veya tekrarlayan soru dokümansız bir görevi ortaya çıkardığında ya da mevcut dokümanlar pratik bir görev için eğitim, referans ve açıklamayı karıştırdığında kullanılır.
-related: tutorial, user-guide, docs-information-architecture, style-guide-check, runbook
-prompt: Entegrasyon geliştiricileri için platformumuzda API imzalama anahtarını kesinti olmadan yenilemeyi anlatan bir nasıl yapılır rehberi yaz.
+name: how-to-guide
+description: "Diátaxis anlamında hedef odaklı bir nasıl yapılır rehberi yazar; temel bilgiye sahip okuru belirli bir başlangıç noktasından tek bir gerçek sonuca götüren, ön koşulları, numaralı eylem adımları, karar noktaları, doğrulama ve sorun giderme içeren, öğretim ya da arka plan sapması barındırmayan odaklı bir tarif sunar. Kullanıcılar \"... nasıl yapılır\" diye sorduğunda, bir destek kaydı veya tekrarlayan soru dokümansız bir görevi ortaya çıkardığında ya da mevcut dokümanlar pratik bir görev için eğitim, referans ve açıklamayı karıştırdığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Nasıl yapılır rehberi"
+  related: "tutorial, user-guide, docs-information-architecture, style-guide-check, runbook"
+  prompt: "Entegrasyon geliştiricileri için platformumuzda API imzalama anahtarını kesinti olmadan yenilemeyi anlatan bir nasıl yapılır rehberi yaz."
 ---
 
 # Nasıl Yapılır Rehberi

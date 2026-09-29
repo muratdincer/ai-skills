@@ -1,7 +1,16 @@
 ---
-description: Assesses a client's current state across business process, applications, data, technology, organization and delivery practices, producing evidence-backed findings, a maturity rating per dimension with a stated scale, root-cause-linked pain points, and prioritized recommendations with quick wins and a high-level roadmap. Use when a client asks "where do we stand", before a transformation or modernization proposal, or when discovery outputs, interviews and documents must be consolidated into an assessment report.
-related: discovery-workshop, fit-gap-analysis, modernization-assessment, capability-map, client-steering-report
-prompt: Assess the current state of a mid-size insurer's claims platform from these interview notes and system inventory, and recommend where to start.
+name: current-state-assessment
+description: "Assesses a client's current state across business process, applications, data, technology, organization and delivery practices, producing evidence-backed findings, a maturity rating per dimension with a stated scale, root-cause-linked pain points, and prioritized recommendations with quick wins and a high-level roadmap. Use when a client asks \"where do we stand\", before a transformation or modernization proposal, or when discovery outputs, interviews and documents must be consolidated into an assessment report."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Assess a client's current state"
+  related: "discovery-workshop, fit-gap-analysis, modernization-assessment, capability-map, client-steering-report"
+  prompt: "Assess the current state of a mid-size insurer's claims platform from these interview notes and system inventory, and recommend where to start."
 ---
 
 # Assess a Client's Current State

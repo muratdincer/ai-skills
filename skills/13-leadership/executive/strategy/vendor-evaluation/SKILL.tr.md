@@ -1,7 +1,16 @@
 ---
-description: Bir teknoloji satın alımı için tedarikçileri veya ürünleri değerlendirir; gereksinimler ve eleme kriterlerinden, yanıtlar okunmadan önce sabitlenen ağırlıklı puanlama modeline, kanıta dayalı puanlamaya, toplam sahip olma maliyeti ve riske, oradan da belgelenmiş bir öneriye kadar ilerler. Bir yazılım ürünü, platform, bulut veya hizmet sağlayıcı seçilirken, RFP hazırlanır veya puanlanırken ya da tedarikçi seçiminin satın alma, denetim veya yönetim önünde savunulabilir olması gerektiğinde kullanılır.
-related: decision-matrix, build-vs-buy, fit-gap-analysis, vendor-status-review, it-risk-assessment
-prompt: API yönetim platformu RFP'mize 3 yanıt geldi; değerlendirme modelini kur ve bir tedarikçi öner.
+name: vendor-evaluation
+description: "Bir teknoloji satın alımı için tedarikçileri veya ürünleri değerlendirir; gereksinimler ve eleme kriterlerinden, yanıtlar okunmadan önce sabitlenen ağırlıklı puanlama modeline, kanıta dayalı puanlamaya, toplam sahip olma maliyeti ve riske, oradan da belgelenmiş bir öneriye kadar ilerler. Bir yazılım ürünü, platform, bulut veya hizmet sağlayıcı seçilirken, RFP hazırlanır veya puanlanırken ya da tedarikçi seçiminin satın alma, denetim veya yönetim önünde savunulabilir olması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Tedarikçi değerlendirme (RFP)"
+  related: "decision-matrix, build-vs-buy, fit-gap-analysis, vendor-status-review, it-risk-assessment"
+  prompt: "API yönetim platformu RFP'mize 3 yanıt geldi; değerlendirme modelini kur ve bir tedarikçi öner."
 ---
 
 # Tedarikçi Değerlendirme (RFP)

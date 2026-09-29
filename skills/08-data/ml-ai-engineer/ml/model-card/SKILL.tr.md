@@ -1,7 +1,16 @@
 ---
-description: Eğitilmiş bir modelin kullanım amacını, kapsam dışı kullanımlarını, eğitim ve değerlendirme verisini, genel ve grup bazında performansını, sınırlamalarını, etik ve gizlilik değerlendirmelerini ve sahipliğini belgeleyen bir model kartı yazar. Bir model yayına alındığında, ekipler arasında paylaşıldığında, yönetişim veya denetim incelemesine sunulduğunda ya da kullanıcıların modele neyde güvenip neyde güvenemeyeceğini bilmesi gerektiğinde kullanılır.
-related: model-evaluation-report, ml-monitoring-plan, ml-problem-framing, privacy-impact-assessment, ai-use-case-assessment
-prompt: İK işe alım uzmanlarının kullandığı CV eleme sıralama modelimiz için model kartı yaz; değerlendirme sonuçları ve eğitim verisi özeti ekte.
+name: model-card
+description: "Eğitilmiş bir modelin kullanım amacını, kapsam dışı kullanımlarını, eğitim ve değerlendirme verisini, genel ve grup bazında performansını, sınırlamalarını, etik ve gizlilik değerlendirmelerini ve sahipliğini belgeleyen bir model kartı yazar. Bir model yayına alındığında, ekipler arasında paylaşıldığında, yönetişim veya denetim incelemesine sunulduğunda ya da kullanıcıların modele neyde güvenip neyde güvenemeyeceğini bilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Model kartı yazma"
+  related: "model-evaluation-report, ml-monitoring-plan, ml-problem-framing, privacy-impact-assessment, ai-use-case-assessment"
+  prompt: "İK işe alım uzmanlarının kullandığı CV eleme sıralama modelimiz için model kartı yaz; değerlendirme sonuçları ve eğitim verisi özeti ekte."
 ---
 
 # Model Kartı Yazma

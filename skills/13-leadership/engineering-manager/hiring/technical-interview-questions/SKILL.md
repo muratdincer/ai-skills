@@ -1,7 +1,16 @@
 ---
-description: Prepares level-calibrated technical interview questions with follow-up probes and a behaviorally anchored scoring rubric for one interview stage. Use when an interviewer needs a question set for coding, system design, debugging or domain stages, when calibrating questions to a level, or when replacing trivia and puzzle questions with job-relevant ones.
-related: interview-plan, interview-scorecard, career-ladder, job-description, candidate-debrief
-prompt: Prepare a 60-minute system design question set for a senior backend engineer, with rubric. We work on event-driven order processing.
+name: technical-interview-questions
+description: "Prepares level-calibrated technical interview questions with follow-up probes and a behaviorally anchored scoring rubric for one interview stage. Use when an interviewer needs a question set for coding, system design, debugging or domain stages, when calibrating questions to a level, or when replacing trivia and puzzle questions with job-relevant ones."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Prepare technical interview questions"
+  related: "interview-plan, interview-scorecard, career-ladder, job-description, candidate-debrief"
+  prompt: "Prepare a 60-minute system design question set for a senior backend engineer, with rubric. We work on event-driven order processing."
 ---
 
 # Prepare Technical Interview Questions

@@ -1,7 +1,16 @@
 ---
-description: Produces formal meeting minutes with meeting metadata, attendance and quorum, agenda items in order, concise discussion records, numbered resolutions with voting or approval outcome, actions and approval signatures. Use for steering committees, boards, change advisory boards, audits, contractual or vendor meetings, or whenever the record may be relied on as evidence.
-related: meeting-notes, meeting-summary, decision-log, steering-committee-pack, audit-preparation
-prompt: Write formal minutes for yesterday's project steering committee from these notes; two change requests were approved and one deferred.
+name: meeting-minutes
+description: "Produces formal meeting minutes with meeting metadata, attendance and quorum, agenda items in order, concise discussion records, numbered resolutions with voting or approval outcome, actions and approval signatures. Use for steering committees, boards, change advisory boards, audits, contractual or vendor meetings, or whenever the record may be relied on as evidence."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Write formal meeting minutes"
+  related: "meeting-notes, meeting-summary, decision-log, steering-committee-pack, audit-preparation"
+  prompt: "Write formal minutes for yesterday's project steering committee from these notes; two change requests were approved and one deferred."
 ---
 
 # Write Formal Meeting Minutes

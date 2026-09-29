@@ -1,7 +1,16 @@
 ---
-description: Builds a project schedule by sequencing work packages with dependency types and lags, assigning durations, setting milestones, calculating the critical path and float, and adding schedule buffers. Use when a WBS and estimates exist and a baseline timeline, critical path or realistic end date must be produced or checked.
-related: wbs, estimation-three-point, dependency-map, resource-plan, release-planning
-prompt: Build a schedule from these work packages and durations and show me the critical path to the June go-live.
+name: schedule-plan
+description: "Builds a project schedule by sequencing work packages with dependency types and lags, assigning durations, setting milestones, calculating the critical path and float, and adding schedule buffers. Use when a WBS and estimates exist and a baseline timeline, critical path or realistic end date must be produced or checked."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a project schedule"
+  related: "wbs, estimation-three-point, dependency-map, resource-plan, release-planning"
+  prompt: "Build a schedule from these work packages and durations and show me the critical path to the June go-live."
 ---
 
 # Build a Project Schedule

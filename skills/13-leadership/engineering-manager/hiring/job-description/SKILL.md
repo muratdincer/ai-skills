@@ -1,7 +1,16 @@
 ---
-description: Writes an inclusive, accurate job description for a software role with the role mission, first-year outcomes, responsibilities, must-have versus nice-to-have requirements, team context and practical details, and checks it for biased or exclusionary language. Use when opening a new position, rewriting an outdated posting, or when a posting attracts the wrong candidates or too few diverse applicants.
-related: role-definition, interview-plan, career-ladder, onboarding-plan-30-60-90, tone-rewrite
-prompt: Write a job description for a Senior Data Engineer in our Istanbul platform team, hybrid, working on streaming pipelines with Kafka and Spark.
+name: job-description
+description: "Writes an inclusive, accurate job description for a software role with the role mission, first-year outcomes, responsibilities, must-have versus nice-to-have requirements, team context and practical details, and checks it for biased or exclusionary language. Use when opening a new position, rewriting an outdated posting, or when a posting attracts the wrong candidates or too few diverse applicants."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Write a job description"
+  related: "role-definition, interview-plan, career-ladder, onboarding-plan-30-60-90, tone-rewrite"
+  prompt: "Write a job description for a Senior Data Engineer in our Istanbul platform team, hybrid, working on streaming pipelines with Kafka and Spark."
 ---
 
 # Write a Job Description

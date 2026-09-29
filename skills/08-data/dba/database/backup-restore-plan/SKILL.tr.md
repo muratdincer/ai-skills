@@ -1,7 +1,16 @@
 ---
+name: backup-restore-plan
 description: "RPO ve RTO'dan türetilmiş bir veritabanı yedekleme ve geri yükleme planı tasarlar: yedek tipleri ve sıklığı (tam, fark/artımlı, log veya sürekli arşivleme, snapshot), saklama ve değiştirilemez/tesis dışı kopyalar, şifreleme ve erişim, her arıza senaryosu için geri yükleme prosedürleri ve kanıt üreten periyodik geri yükleme testi programı. Bir veritabanı için yedekleme kurulurken veya gözden geçirilirken, başarısız ya da yavaş bir geri yüklemeden sonra, denetim kanıtı için veya RPO/RTO hedefleri değiştiğinde kullanılır."
-related: "dr-plan, retention-policy, database-health-check, schema-migration-plan, runbook"
-prompt: "2 TB'lık sipariş veritabanımız için yedekleme ve geri yükleme planı tasarla: RPO 15 dakika, RTO 2 saat; denetim için aylık yedekleri 1 yıl saklamamız da gerekiyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: dba
+  area: database
+  title: "Yedekleme ve geri yükleme planı"
+  related: "dr-plan, retention-policy, database-health-check, schema-migration-plan, runbook"
+  prompt: "2 TB'lık sipariş veritabanımız için yedekleme ve geri yükleme planı tasarla: RPO 15 dakika, RTO 2 saat; denetim için aylık yedekleri 1 yıl saklamamız da gerekiyor."
 ---
 
 # Yedekleme ve Geri Yükleme Planı

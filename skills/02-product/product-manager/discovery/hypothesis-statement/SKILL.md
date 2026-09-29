@@ -1,7 +1,16 @@
 ---
-description: Turns a product idea, feature request or assumption into a falsifiable hypothesis in the "We believe / will result in / We will know when" format, with the target segment, the riskiest assumption, a measurable signal, a threshold and a time box. Use when a team wants to test an idea before building it fully, when a backlog item lacks a clear expected outcome, or when someone asks to write, sharpen or review a product hypothesis.
-related: experiment-design, assumption-mapping, opportunity-solution-tree, problem-statement, ab-test-analysis
-prompt: Write a hypothesis for adding a "save cart for later" button; we think it will reduce checkout abandonment on mobile.
+name: hypothesis-statement
+description: "Turns a product idea, feature request or assumption into a falsifiable hypothesis in the \"We believe / will result in / We will know when\" format, with the target segment, the riskiest assumption, a measurable signal, a threshold and a time box. Use when a team wants to test an idea before building it fully, when a backlog item lacks a clear expected outcome, or when someone asks to write, sharpen or review a product hypothesis."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Write a product hypothesis"
+  related: "experiment-design, assumption-mapping, opportunity-solution-tree, problem-statement, ab-test-analysis"
+  prompt: "Write a hypothesis for adding a \"save cart for later\" button; we think it will reduce checkout abandonment on mobile."
 ---
 
 # Write a Product Hypothesis

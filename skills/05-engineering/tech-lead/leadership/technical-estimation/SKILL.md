@@ -1,7 +1,16 @@
 ---
-description: Produces a defensible estimate for technical work by decomposing it into small verifiable tasks ordered by dependency and risk, estimating each as a range, making assumptions and unknowns explicit, adding integration, testing and release effort, and stating confidence and what would change the number. Use when a tech lead is asked "how long will this take?", when a feature, migration or technical initiative needs sizing for planning or commitment, or when an existing estimate must be challenged or re-baselined.
-related: task-breakdown, estimation-three-point, spike-report, technical-risk-review, monte-carlo-forecast
-prompt: Product wants to know how long it will take to add SSO with our corporate identity provider to our web app. Give me an estimate with ranges and assumptions.
+name: technical-estimation
+description: "Produces a defensible estimate for technical work by decomposing it into small verifiable tasks ordered by dependency and risk, estimating each as a range, making assumptions and unknowns explicit, adding integration, testing and release effort, and stating confidence and what would change the number. Use when a tech lead is asked \"how long will this take?\", when a feature, migration or technical initiative needs sizing for planning or commitment, or when an existing estimate must be challenged or re-baselined."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Estimate technical work"
+  related: "task-breakdown, estimation-three-point, spike-report, technical-risk-review, monte-carlo-forecast"
+  prompt: "Product wants to know how long it will take to add SSO with our corporate identity provider to our web app. Give me an estimate with ranges and assumptions."
 ---
 
 # Estimate Technical Work

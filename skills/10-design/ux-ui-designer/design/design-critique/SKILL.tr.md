@@ -1,7 +1,16 @@
 ---
-description: Tasarımın hedeflerine, kullanıcılarına ve kısıtlarına dayanan, konum ve etki açısından somut, gözlemi görüşten ayıran ve geri bildirimi önerilen yönlerle birlikte mutlaka düzeltilmeli, değerlendirilmeli ve ufak dokunuşlar olarak önceliklendiren yapılandırılmış tasarım eleştirisi verir. Bir tasarımcı devam eden işini paylaşıp geri bildirim istediğinde, tasarım incelemesine veya eleştiri oturumuna hazırlanırken ya da "bu tasarım hakkında ne düşünüyorsun" sorulduğunda kullanılır.
-related: heuristic-evaluation, accessibility-audit, wireframe-spec, feedback-sbi, review-comment-writing
-prompt: Bu gösterge paneli yeniden tasarımını eleştir; hedef, operasyon yöneticilerinin sorunlu mağazaları 10 saniye içinde görebilmesi.
+name: design-critique
+description: "Tasarımın hedeflerine, kullanıcılarına ve kısıtlarına dayanan, konum ve etki açısından somut, gözlemi görüşten ayıran ve geri bildirimi önerilen yönlerle birlikte mutlaka düzeltilmeli, değerlendirilmeli ve ufak dokunuşlar olarak önceliklendiren yapılandırılmış tasarım eleştirisi verir. Bir tasarımcı devam eden işini paylaşıp geri bildirim istediğinde, tasarım incelemesine veya eleştiri oturumuna hazırlanırken ya da \"bu tasarım hakkında ne düşünüyorsun\" sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Tasarım eleştirisi"
+  related: "heuristic-evaluation, accessibility-audit, wireframe-spec, feedback-sbi, review-comment-writing"
+  prompt: "Bu gösterge paneli yeniden tasarımını eleştir; hedef, operasyon yöneticilerinin sorunlu mağazaları 10 saniye içinde görebilmesi."
 ---
 
 # Tasarım Eleştirisi

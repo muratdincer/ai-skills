@@ -1,7 +1,16 @@
 ---
-description: Writes a project closure report that compares outcomes with the original objectives and baselines, explains scope, schedule, cost and quality variances, confirms acceptance and handover to operations, lists open items with owners, records lessons learned and sets up benefits tracking. Use when a project or phase is ending, when the sponsor needs a formal close-out decision, or when a project is cancelled and must be closed in an orderly way.
-related: acceptance-certificate, handover-document, lessons-learned, benefits-realization, earned-value-analysis
-prompt: Our CRM migration went live last month. Write the closure report from the charter, final status report and budget actuals.
+name: project-closure-report
+description: "Writes a project closure report that compares outcomes with the original objectives and baselines, explains scope, schedule, cost and quality variances, confirms acceptance and handover to operations, lists open items with owners, records lessons learned and sets up benefits tracking. Use when a project or phase is ending, when the sponsor needs a formal close-out decision, or when a project is cancelled and must be closed in an orderly way."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: closure
+  title: "Write a project closure report"
+  related: "acceptance-certificate, handover-document, lessons-learned, benefits-realization, earned-value-analysis"
+  prompt: "Our CRM migration went live last month. Write the closure report from the charter, final status report and budget actuals."
 ---
 
 # Write a Project Closure Report

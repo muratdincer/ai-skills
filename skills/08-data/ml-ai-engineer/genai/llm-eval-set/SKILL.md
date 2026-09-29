@@ -1,7 +1,16 @@
 ---
-description: Builds an evaluation set for an LLM feature with categorized test cases, scoring rubrics, grader choice (exact match, programmatic, model-graded, human), pass thresholds and a regression process. Use when an LLM feature, prompt or RAG pipeline needs measurable quality before release, when comparing models or prompt versions, or when someone says "we don't know if the new prompt is better".
-related: prompt-design, rag-design, model-evaluation-report, test-strategy, ai-use-case-assessment
-prompt: Build an evaluation set for our contract-summary assistant so we can compare two prompt versions before release.
+name: llm-eval-set
+description: "Builds an evaluation set for an LLM feature with categorized test cases, scoring rubrics, grader choice (exact match, programmatic, model-graded, human), pass thresholds and a regression process. Use when an LLM feature, prompt or RAG pipeline needs measurable quality before release, when comparing models or prompt versions, or when someone says \"we don't know if the new prompt is better\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Build an LLM evaluation set"
+  related: "prompt-design, rag-design, model-evaluation-report, test-strategy, ai-use-case-assessment"
+  prompt: "Build an evaluation set for our contract-summary assistant so we can compare two prompt versions before release."
 ---
 
 # Build an LLM Evaluation Set

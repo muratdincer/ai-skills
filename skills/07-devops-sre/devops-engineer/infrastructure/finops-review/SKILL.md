@@ -1,7 +1,16 @@
 ---
+name: finops-review
 description: "Reviews cloud or platform spend to find waste, rightsizing opportunities, commitment and pricing-model options, storage and data-transfer savings, and tagging/allocation gaps, and returns a prioritized savings backlog with effort and risk. Use when a cost report, bill export or resource inventory is shared, costs grew unexpectedly, or a periodic cost review is due."
-related: "cloud-cost-estimate, capacity-planning, iac-review, environment-strategy, budget-proposal"
-prompt: "Here is our last three months of cloud cost by service and resource group. Where are we wasting money and what should we do first?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Review cloud cost"
+  related: "cloud-cost-estimate, capacity-planning, iac-review, environment-strategy, budget-proposal"
+  prompt: "Here is our last three months of cloud cost by service and resource group. Where are we wasting money and what should we do first?"
 ---
 
 # Review Cloud Cost

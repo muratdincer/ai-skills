@@ -1,7 +1,16 @@
 ---
-description: Plans the features for a predictive model - candidate features by hypothesis, source and availability at prediction time, point-in-time correctness, leakage checks, transformations, encoding, missing-value strategy and validation approach. Use after the ML problem is framed and before model training, or when a model performs suspiciously well and leakage is suspected.
-related: ml-problem-framing, data-exploration, model-evaluation-report, source-to-target-mapping, data-quality-rules
-prompt: Plan feature engineering for a churn model on a telecom subscription base; prediction is made monthly for the next 60 days.
+name: feature-engineering-plan
+description: "Plans the features for a predictive model - candidate features by hypothesis, source and availability at prediction time, point-in-time correctness, leakage checks, transformations, encoding, missing-value strategy and validation approach. Use after the ML problem is framed and before model training, or when a model performs suspiciously well and leakage is suspected."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Plan feature engineering"
+  related: "ml-problem-framing, data-exploration, model-evaluation-report, source-to-target-mapping, data-quality-rules"
+  prompt: "Plan feature engineering for a churn model on a telecom subscription base; prediction is made monthly for the next 60 days."
 ---
 
 # Plan Feature Engineering

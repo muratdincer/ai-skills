@@ -1,7 +1,16 @@
 ---
+name: secrets-management-plan
 description: "Bir gizli bilgi yönetimi planı üretir: secret envanteri ve sınıflandırması, merkezi kasa seçim kriterleri, en az yetkiyle kimlik tabanlı erişim, iş yüklerine ve hatlara enjeksiyon, rotasyon ve iptal, denetim ve acil erişim (break-glass). Bir ekip secret'ları kodda, yapılandırma dosyalarında veya hat değişkenlerinde tutuyorsa, bir sızıntıdan sonra ya da yeni bir platform için secret yönetimi tasarlanırken kullanılır."
-related: "iac-review, pipeline-design, authn-authz-design, security-requirements, kubernetes-manifest-review"
-prompt: "Veritabanı şifrelerimiz ve API anahtarlarımız appsettings dosyalarında ve hat değişkenlerinde duruyor. Düzgün bir secret yönetimine geçiş planı yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Gizli bilgi yönetimi planı"
+  related: "iac-review, pipeline-design, authn-authz-design, security-requirements, kubernetes-manifest-review"
+  prompt: "Veritabanı şifrelerimiz ve API anahtarlarımız appsettings dosyalarında ve hat değişkenlerinde duruyor. Düzgün bir secret yönetimine geçiş planı yaz."
 ---
 
 # Gizli Bilgi Yönetimi Planı

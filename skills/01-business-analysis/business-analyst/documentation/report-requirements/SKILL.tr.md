@@ -1,7 +1,16 @@
 ---
+name: report-requirements
 description: "Rapor gereksinimlerini raporun desteklediği karardan başlayarak tanımlar: hedef kitle, cevaplanan sorular, kesin hesaplaması ve granülerliğiyle alanlar ve ölçüler, boyutlar, filtreler ve parametreler, sıralama ve gruplama, veri kaynakları ve güncellik, erişim ve maskeleme, teslim ve format, mutabakat rakamına karşı kabul kontrolleri. Biri yeni bir rapor, dışa aktarım veya liste istediğinde, mevcut bir raporun rakamları tartışmalı olduğunda ya da 'rapor gereksinimi yaz' dendiğinde kullanılır."
-related: "dashboard-spec, metric-definition, data-requirements, kpi-definition, request-intake-document"
-prompt: "Finans'ın istediği, müşteri segmenti ve yaşlandırma dilimine göre aylık vadesi geçmiş alacaklar raporunun gereksinimlerini yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Rapor gereksinimi tanımlama"
+  related: "dashboard-spec, metric-definition, data-requirements, kpi-definition, request-intake-document"
+  prompt: "Finans'ın istediği, müşteri segmenti ve yaşlandırma dilimine göre aylık vadesi geçmiş alacaklar raporunun gereksinimlerini yaz."
 ---
 
 # Rapor Gereksinimi Tanımlama

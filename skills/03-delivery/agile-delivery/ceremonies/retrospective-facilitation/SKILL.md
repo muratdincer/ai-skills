@@ -1,7 +1,16 @@
 ---
+name: retrospective-facilitation
 description: "Plans and runs a team retrospective end to end: sets the stage, gathers data, generates insights, converges with note-and-vote and produces a small number of owned, verifiable improvement actions, and follows up on previous actions. Use when a retrospective is due, when someone shares retro board notes and wants actions, or when past retros produced actions that never happened."
-related: "retrospective-format, team-health-check, working-agreement, five-whys, impediment-tracking"
-prompt: "Run our sprint retro: remote team of 7, 60 minutes. Last sprint had two production incidents and a lot of context switching. Last retro's actions: pair on reviews (not done), fix flaky tests (done)."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Facilitate a retrospective"
+  related: "retrospective-format, team-health-check, working-agreement, five-whys, impediment-tracking"
+  prompt: "Run our sprint retro: remote team of 7, 60 minutes. Last sprint had two production incidents and a lot of context switching. Last retro's actions: pair on reviews (not done), fix flaky tests (done)."
 ---
 
 # Facilitate a Retrospective

@@ -1,7 +1,16 @@
 ---
-description: Gereksinimlerden ve tasarım notlarından arc42 yapısında bir çözüm mimarisi dokümanı yazar - hedefler ve kalite gereksinimleri, kısıtlar, bağlam ve kapsam, çözüm stratejisi, yapı taşları, çalışma zamanı senaryoları, dağıtım, kesişen kavramlar, kararlar, riskler ve sözlük. Bir çözümün inceleme, devir, onay veya denetim için belgelenmesi gerektiğinde ya da mevcut tasarım yalnızca slaytlarda ve kişilerin kafasında olduğunda kullanılır.
-related: c4-model, adr, nfr-to-architecture, architecture-review, technical-design-doc
-prompt: Yeni kredi başvuru platformumuz için çözüm mimarisi dokümanı yaz; gereksinimler, entegrasyon listesi ve beyaz tahta notlarımız ekte.
+name: solution-architecture-document
+description: "Gereksinimlerden ve tasarım notlarından arc42 yapısında bir çözüm mimarisi dokümanı yazar - hedefler ve kalite gereksinimleri, kısıtlar, bağlam ve kapsam, çözüm stratejisi, yapı taşları, çalışma zamanı senaryoları, dağıtım, kesişen kavramlar, kararlar, riskler ve sözlük. Bir çözümün inceleme, devir, onay veya denetim için belgelenmesi gerektiğinde ya da mevcut tasarım yalnızca slaytlarda ve kişilerin kafasında olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Çözüm mimarisi dokümanı"
+  related: "c4-model, adr, nfr-to-architecture, architecture-review, technical-design-doc"
+  prompt: "Yeni kredi başvuru platformumuz için çözüm mimarisi dokümanı yaz; gereksinimler, entegrasyon listesi ve beyaz tahta notlarımız ekte."
 ---
 
 # Çözüm Mimarisi Dokümanı

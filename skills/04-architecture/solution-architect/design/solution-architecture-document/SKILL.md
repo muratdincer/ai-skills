@@ -1,7 +1,16 @@
 ---
-description: Writes a solution architecture document structured on arc42 - goals and quality requirements, constraints, context and scope, solution strategy, building blocks, runtime scenarios, deployment, crosscutting concepts, decisions, risks and glossary - from requirements and design notes. Use when a solution must be documented for review, handover, approval or audit, or when an existing design lives only in slides and heads.
-related: c4-model, adr, nfr-to-architecture, architecture-review, technical-design-doc
-prompt: Write a solution architecture document for our new loan origination platform; here are the requirements, the integration list and our whiteboard notes.
+name: solution-architecture-document
+description: "Writes a solution architecture document structured on arc42 - goals and quality requirements, constraints, context and scope, solution strategy, building blocks, runtime scenarios, deployment, crosscutting concepts, decisions, risks and glossary - from requirements and design notes. Use when a solution must be documented for review, handover, approval or audit, or when an existing design lives only in slides and heads."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Write a solution architecture document"
+  related: "c4-model, adr, nfr-to-architecture, architecture-review, technical-design-doc"
+  prompt: "Write a solution architecture document for our new loan origination platform; here are the requirements, the integration list and our whiteboard notes."
 ---
 
 # Write a Solution Architecture Document

@@ -1,7 +1,16 @@
 ---
+name: decision-table-testing
 description: "İş kurallarından koşulları ve aksiyonları listeleyerek karar tabloları kurar, kombinasyonları çıkarır, ilgisiz olanları daraltır ve her kural sütunu için bir test türetir; bu sırada eksik ve çelişkili kuralları ortaya çıkarır. Davranış koşul kombinasyonlarına bağlı olduğunda (uygunluk, fiyatlama, onaylar, indirimler, yönlendirme) ya da bir eğer-ise kural setinin test edilmesi istendiğinde kullanılır."
-related: equivalence-boundary-analysis, business-rules-catalog, test-case-writing, pairwise-testing, state-transition-testing
-prompt: "Kargo ücreti için karar tablosu kur: 200 TL üzeri üyelere ücretsiz, standart 29 TL, ekspres +40 TL, adalara +50 TL, üyelere ekspres yarı fiyat."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Karar tablosu testi"
+  related: "equivalence-boundary-analysis, business-rules-catalog, test-case-writing, pairwise-testing, state-transition-testing"
+  prompt: "Kargo ücreti için karar tablosu kur: 200 TL üzeri üyelere ücretsiz, standart 29 TL, ekspres +40 TL, adalara +50 TL, üyelere ekspres yarı fiyat."
 ---
 
 # Karar Tablosu Testi

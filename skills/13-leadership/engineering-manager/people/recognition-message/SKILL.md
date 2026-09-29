@@ -1,7 +1,16 @@
 ---
-description: Writes a specific, impact-focused recognition message for an individual or team, naming the concrete behavior, the result it produced and why it matters, adapted to channel (private, team, company-wide). Use when a manager or peer wants to thank someone for work, highlight invisible contributions, or celebrate a launch, incident response or mentoring effort.
-related: feedback-sbi, announcement, tone-rewrite, performance-review
-prompt: Write a team-channel thank-you for Selin, who spent the weekend untangling the data migration rollback and wrote a clean postmortem.
+name: recognition-message
+description: "Writes a specific, impact-focused recognition message for an individual or team, naming the concrete behavior, the result it produced and why it matters, adapted to channel (private, team, company-wide). Use when a manager or peer wants to thank someone for work, highlight invisible contributions, or celebrate a launch, incident response or mentoring effort."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Write a recognition message"
+  related: "feedback-sbi, announcement, tone-rewrite, performance-review"
+  prompt: "Write a team-channel thank-you for Selin, who spent the weekend untangling the data migration rollback and wrote a clean postmortem."
 ---
 
 # Write a Recognition Message

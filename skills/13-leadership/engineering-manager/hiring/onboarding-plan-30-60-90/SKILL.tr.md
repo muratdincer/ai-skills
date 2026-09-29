@@ -1,7 +1,16 @@
 ---
-description: Yeni bir çalışan için aşama başına sonuçlar, somut ilk görevler, tanışılacak kişiler, erişim ve öğrenme ara hedefleri ile görüşme noktaları içeren 30-60-90 günlük bir oryantasyon planı yazar. Biri yeni bir ekibe veya role katıldığında, mentor ya da yöneticinin yapılandırılmış bir uyum sürecine ihtiyacı olduğunda veya mevcut plan yalnızca okunacak doküman listesinden ibaretse kullanılır.
-related: technical-onboarding, onboarding-guide, goal-setting, one-on-one-prep, job-description
-prompt: Gelecek ay ödeme ekibimize katılacak orta seviye bir backend mühendisi için 30-60-90 günlük plan yaz.
+name: onboarding-plan-30-60-90
+description: "Yeni bir çalışan için aşama başına sonuçlar, somut ilk görevler, tanışılacak kişiler, erişim ve öğrenme ara hedefleri ile görüşme noktaları içeren 30-60-90 günlük bir oryantasyon planı yazar. Biri yeni bir ekibe veya role katıldığında, mentor ya da yöneticinin yapılandırılmış bir uyum sürecine ihtiyacı olduğunda veya mevcut plan yalnızca okunacak doküman listesinden ibaretse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "30-60-90 günlük oryantasyon planı"
+  related: "technical-onboarding, onboarding-guide, goal-setting, one-on-one-prep, job-description"
+  prompt: "Gelecek ay ödeme ekibimize katılacak orta seviye bir backend mühendisi için 30-60-90 günlük plan yaz."
 ---
 
 # 30-60-90 Günlük Oryantasyon Planı

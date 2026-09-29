@@ -1,7 +1,16 @@
 ---
-description: Araştırmanın desteklediği kararı, araştırma hedeflerini ve sorularını, yöntem seçimini ve gerekçesini, katılımcı kriterlerini ve örneklemi, lojistiği, etik ve onamı, takvimi ve çıktıları içeren bir kullanıcı araştırması planı yazar. Ekip "kullanıcılarla konuşmak", bir konsepti doğrulamak, bir davranışı anlamak veya bir tasarımı değerlendirmek istediğinde ve katılımcı toplamadan ya da oturum ayarlamadan önce kullanılır.
-related: screener-survey, usability-test-script, interview-question-set, research-synthesis, hypothesis-statement
-prompt: Küçük işletme sahiplerinin fatura uygulamamızı ilk hafta içinde neden bıraktığını anlamak için bir araştırma planı yaz.
+name: research-plan
+description: "Araştırmanın desteklediği kararı, araştırma hedeflerini ve sorularını, yöntem seçimini ve gerekçesini, katılımcı kriterlerini ve örneklemi, lojistiği, etik ve onamı, takvimi ve çıktıları içeren bir kullanıcı araştırması planı yazar. Ekip \"kullanıcılarla konuşmak\", bir konsepti doğrulamak, bir davranışı anlamak veya bir tasarımı değerlendirmek istediğinde ve katılımcı toplamadan ya da oturum ayarlamadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Araştırma planı"
+  related: "screener-survey, usability-test-script, interview-question-set, research-synthesis, hypothesis-statement"
+  prompt: "Küçük işletme sahiplerinin fatura uygulamamızı ilk hafta içinde neden bıraktığını anlamak için bir araştırma planı yaz."
 ---
 
 # Araştırma Planı

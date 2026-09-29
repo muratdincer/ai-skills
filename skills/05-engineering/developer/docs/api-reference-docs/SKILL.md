@@ -1,7 +1,16 @@
 ---
-description: Writes API reference documentation for HTTP, RPC or message-based APIs, covering authentication, each endpoint or operation with parameters, request and response examples, error codes, pagination, rate limits and versioning, derived from a contract, code or notes. Use when an API needs consumer-facing reference docs, existing docs drift from the implementation, or a spec exists but lacks descriptions and examples.
-related: api-contract, api-design-review, readme-writing, error-message-writing, changelog-entry
-prompt: Write API reference docs for our orders API from this OpenAPI file. Consumers keep asking what the error codes mean and how paging works.
+name: api-reference-docs
+description: "Writes API reference documentation for HTTP, RPC or message-based APIs, covering authentication, each endpoint or operation with parameters, request and response examples, error codes, pagination, rate limits and versioning, derived from a contract, code or notes. Use when an API needs consumer-facing reference docs, existing docs drift from the implementation, or a spec exists but lacks descriptions and examples."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Write API reference docs"
+  related: "api-contract, api-design-review, readme-writing, error-message-writing, changelog-entry"
+  prompt: "Write API reference docs for our orders API from this OpenAPI file. Consumers keep asking what the error codes mean and how paging works."
 ---
 
 # Write API Reference Docs

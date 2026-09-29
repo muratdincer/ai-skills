@@ -1,7 +1,16 @@
 ---
-description: Bir özellik, proje veya sürüm planı için yapılandırılmış bir teknik risk incelemesi yapar: mimari, bağımlılıklar, teknoloji yeniliği, veri, entegrasyon, performans, güvenlik, işletilebilirlik, yetkinlik ve takvim boyunca teslimat ve kalite risklerini belirler, olasılık ve etkiyi puanlar, erken uyarı sinyallerini adlandırır, sorumlularıyla azaltma aksiyonlarını ve riski en ucuza düşüren deneyleri önerir. Başlangıçta veya bir plana taahhüt vermeden önce, büyük bir sürümden önce, proje uyarı işaretleri gösterdiğinde veya paydaşlar teknik olarak neyin ters gidebileceğini sorduğunda kullanılır.
-related: risk-register, technical-estimation, spike-report, threat-model, architecture-review
-prompt: Fatura üretimini olay güdümlü bir servise taşıyacağımız 3 aylık bir projeye başlıyoruz. Plana taahhüt vermeden önce teknik riskleri incele.
+name: technical-risk-review
+description: "Bir özellik, proje veya sürüm planı için yapılandırılmış bir teknik risk incelemesi yapar: mimari, bağımlılıklar, teknoloji yeniliği, veri, entegrasyon, performans, güvenlik, işletilebilirlik, yetkinlik ve takvim boyunca teslimat ve kalite risklerini belirler, olasılık ve etkiyi puanlar, erken uyarı sinyallerini adlandırır, sorumlularıyla azaltma aksiyonlarını ve riski en ucuza düşüren deneyleri önerir. Başlangıçta veya bir plana taahhüt vermeden önce, büyük bir sürümden önce, proje uyarı işaretleri gösterdiğinde veya paydaşlar teknik olarak neyin ters gidebileceğini sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Teknik risk incelemesi"
+  related: "risk-register, technical-estimation, spike-report, threat-model, architecture-review"
+  prompt: "Fatura üretimini olay güdümlü bir servise taşıyacağımız 3 aylık bir projeye başlıyoruz. Plana taahhüt vermeden önce teknik riskleri incele."
 ---
 
 # Teknik Risk İncelemesi

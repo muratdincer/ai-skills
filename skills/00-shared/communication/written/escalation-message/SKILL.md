@@ -1,7 +1,16 @@
 ---
-description: Writes an escalation that states the issue, verified facts, business impact and deadline, what has already been tried, the options with trade-offs, a recommendation and one clear ask of the escalation owner. Use when a blocker, dependency, conflict or risk cannot be resolved at the current level and needs a decision, resources or intervention from a manager, sponsor, vendor account lead or another team's leadership.
-related: stakeholder-email, status-update, raid-log, trade-off-analysis, conflict-resolution
-prompt: Escalate to my director that the identity team has not delivered the SSO integration for three weeks and our pilot on the 15th will slip if it does not land by the 8th.
+name: escalation-message
+description: "Writes an escalation that states the issue, verified facts, business impact and deadline, what has already been tried, the options with trade-offs, a recommendation and one clear ask of the escalation owner. Use when a blocker, dependency, conflict or risk cannot be resolved at the current level and needs a decision, resources or intervention from a manager, sponsor, vendor account lead or another team's leadership."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Write an escalation"
+  related: "stakeholder-email, status-update, raid-log, trade-off-analysis, conflict-resolution"
+  prompt: "Escalate to my director that the identity team has not delivered the SSO integration for three weeks and our pilot on the 15th will slip if it does not land by the 8th."
 ---
 
 # Write an Escalation

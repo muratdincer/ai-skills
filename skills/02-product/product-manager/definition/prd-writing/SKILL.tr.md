@@ -1,7 +1,16 @@
 ---
-description: Problem ve kanıtları, hedefleri ve başarı metriklerini, hedef kullanıcıları, kapsam ve hedef dışı konuları, kabul kriterleriyle önceliklendirilmiş gereksinimleri, kullanıcı deneyimini, fonksiyonel olmayan ihtiyaçları, bağımlılıkları, riskleri, yayın planını ve açık soruları kapsayan bir Ürün Gereksinim Dokümanı (PRD) yazar. Bir ürün girişiminin geliştirme öncesinde mühendislik, tasarım ve paydaşlar arasında hizalanması gerektiğinde, PRD veya ürün spesifikasyonu istendiğinde ya da mevcut bir PRD'nin eksikler açısından gözden geçirilmesi gerektiğinde kullanılır.
-related: feature-brief, mvp-scoping, epic-breakdown, nfr-specification, acceptance-criteria
-prompt: B2B müşterilerin belirli bir tutarın üzerindeki satın alma siparişleri için onay akışı tanımlayabilmesi için bir PRD yaz.
+name: prd-writing
+description: "Problem ve kanıtları, hedefleri ve başarı metriklerini, hedef kullanıcıları, kapsam ve hedef dışı konuları, kabul kriterleriyle önceliklendirilmiş gereksinimleri, kullanıcı deneyimini, fonksiyonel olmayan ihtiyaçları, bağımlılıkları, riskleri, yayın planını ve açık soruları kapsayan bir Ürün Gereksinim Dokümanı (PRD) yazar. Bir ürün girişiminin geliştirme öncesinde mühendislik, tasarım ve paydaşlar arasında hizalanması gerektiğinde, PRD veya ürün spesifikasyonu istendiğinde ya da mevcut bir PRD'nin eksikler açısından gözden geçirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Ürün Gereksinim Dokümanı (PRD) yazma"
+  related: "feature-brief, mvp-scoping, epic-breakdown, nfr-specification, acceptance-criteria"
+  prompt: "B2B müşterilerin belirli bir tutarın üzerindeki satın alma siparişleri için onay akışı tanımlayabilmesi için bir PRD yaz."
 ---
 
 # Ürün Gereksinim Dokümanı (PRD) Yazma

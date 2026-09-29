@@ -1,7 +1,16 @@
 ---
+name: acceptance-criteria
 description: "Writes testable acceptance criteria for a user story or requirement, in Given/When/Then scenarios or rule form, covering the happy path, business rule variations, validation, permissions and failure cases, with one trigger and one outcome per scenario. Use when a story needs its conditions of done, when criteria are vague or untestable, or when asked for 'AC', 'Gherkin' or 'Given/When/Then'."
-related: "user-story, invest-check, edge-case-elicitation, bdd-feature-file, test-scenarios-from-requirements"
-prompt: "Write acceptance criteria for: As a store manager, I want to approve or reject a pending shift swap from my phone."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Write acceptance criteria"
+  related: "user-story, invest-check, edge-case-elicitation, bdd-feature-file, test-scenarios-from-requirements"
+  prompt: "Write acceptance criteria for: As a store manager, I want to approve or reject a pending shift swap from my phone."
 ---
 
 # Write Acceptance Criteria

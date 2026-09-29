@@ -1,7 +1,16 @@
 ---
+name: defect-trend-analysis
 description: "Analyzes defect data over time to expose density, escape (leakage) rate, reopen rate, ageing and root-cause categories, separating real quality signals from reporting noise and ending with evidence-backed improvement actions. Use when a team asks why quality is dropping, prepares a retrospective or quality review, needs to explain production escapes, or has a defect export and wants the trends interpreted."
-related: bug-triage, test-summary-report, five-whys, engineering-metrics-review, code-quality-report
-prompt: "Here is our defect export for the last 6 releases. Analyze the trends: where are bugs coming from, how many escape to production, and what should we change?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Analyze defect trends"
+  related: "bug-triage, test-summary-report, five-whys, engineering-metrics-review, code-quality-report"
+  prompt: "Here is our defect export for the last 6 releases. Analyze the trends: where are bugs coming from, how many escape to production, and what should we change?"
 ---
 
 # Analyze Defect Trends

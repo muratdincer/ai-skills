@@ -1,7 +1,16 @@
 ---
+name: test-plan
 description: "Writes a test plan for a release, project or feature set, covering test items, scope, approach, environments, schedule, roles, entry/exit and suspension criteria, deliverables and risks, aligned with ISO/IEC/IEEE 29119-3. Use when a release or project needs an agreed testing scope and schedule, or when someone asks for a test plan document."
-related: test-strategy, risk-based-testing, release-quality-gate, test-summary-report, uat-plan
-prompt: "Prepare a test plan for release 4.2 of the claims portal: new document upload, revised approval workflow, and two bug fixes. Code freeze is in three weeks."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Write a test plan"
+  related: "test-strategy, risk-based-testing, release-quality-gate, test-summary-report, uat-plan"
+  prompt: "Prepare a test plan for release 4.2 of the claims portal: new document upload, revised approval workflow, and two bug fixes. Code freeze is in three weeks."
 ---
 
 # Write a Test Plan

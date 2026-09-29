@@ -1,7 +1,16 @@
 ---
+name: nfr-specification
 description: "Specifies non-functional requirements as measurable statements across quality characteristics (performance, availability, reliability, security, privacy, usability, accessibility, maintainability, compatibility, portability, operability, compliance), each with metric, target, measurement condition, verification method and source. Use when quality expectations are vague ('fast', 'secure', '24/7'), when NFRs are missing from a BRD or FRD, or when asked to 'define NFRs'."
-related: "frd-writing, nfr-to-architecture, slo-definition, security-requirements, performance-test-plan"
-prompt: "Define the NFRs for our new customer self-service portal; the business only said it must be fast, secure and always available."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Specify non-functional requirements"
+  related: "frd-writing, nfr-to-architecture, slo-definition, security-requirements, performance-test-plan"
+  prompt: "Define the NFRs for our new customer self-service portal; the business only said it must be fast, secure and always available."
 ---
 
 # Specify Non-Functional Requirements

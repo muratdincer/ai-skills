@@ -1,7 +1,16 @@
 ---
-description: Specifies a reusable design system component with its purpose, anatomy, variants, sizes, states, design tokens, behavior, content rules, accessibility requirements, usage do's and don'ts, and API/props for implementation. Use when a new component is proposed for the design system, an existing one needs documentation or a breaking change, or teams are building divergent versions of the same pattern.
-related: design-handoff, wireframe-spec, component-design, accessibility-audit, microcopy
-prompt: Write a design system spec for a Toast notification component that web and mobile teams can both implement.
+name: design-system-component-spec
+description: "Specifies a reusable design system component with its purpose, anatomy, variants, sizes, states, design tokens, behavior, content rules, accessibility requirements, usage do's and don'ts, and API/props for implementation. Use when a new component is proposed for the design system, an existing one needs documentation or a breaking change, or teams are building divergent versions of the same pattern."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Specify a design system component"
+  related: "design-handoff, wireframe-spec, component-design, accessibility-audit, microcopy"
+  prompt: "Write a design system spec for a Toast notification component that web and mobile teams can both implement."
 ---
 
 # Specify a Design System Component

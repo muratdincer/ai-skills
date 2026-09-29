@@ -1,7 +1,16 @@
 ---
-description: Her paydaşın rolünü, ilgisini, etkisini, mevcut ve hedeflenen katılımını, temel kaygılarını ve iletişim ihtiyaçlarını, grup bazında katılım stratejisiyle birlikte listeleyen proje paydaş kaydını oluşturur. Proje başladığında, yeni taraflar katıldığında ya da bir grubun direnci veya sessizliği katılımın bilinçli planlanması gerektiğini gösterdiğinde kullanılır.
-related: stakeholder-identification, stakeholder-map, raci-matrix, communication-plan, project-charter
-prompt: Üç fabrikaya ERP geçişimiz için paydaş kaydı oluştur; organizasyon şeması ve başlatma belgesi ekte.
+name: stakeholder-register
+description: "Her paydaşın rolünü, ilgisini, etkisini, mevcut ve hedeflenen katılımını, temel kaygılarını ve iletişim ihtiyaçlarını, grup bazında katılım stratejisiyle birlikte listeleyen proje paydaş kaydını oluşturur. Proje başladığında, yeni taraflar katıldığında ya da bir grubun direnci veya sessizliği katılımın bilinçli planlanması gerektiğini gösterdiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Paydaş kaydı"
+  related: "stakeholder-identification, stakeholder-map, raci-matrix, communication-plan, project-charter"
+  prompt: "Üç fabrikaya ERP geçişimiz için paydaş kaydı oluştur; organizasyon şeması ve başlatma belgesi ekte."
 ---
 
 # Paydaş Kaydı

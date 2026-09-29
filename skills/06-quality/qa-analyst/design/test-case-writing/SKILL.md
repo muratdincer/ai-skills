@@ -1,7 +1,16 @@
 ---
+name: test-case-writing
 description: "Writes detailed, executable test cases with ID, title, preconditions, test data, numbered steps, expected results per step, priority and traceability to requirements. Use when scenarios need to become repeatable manual cases, when preparing cases for execution or automation, or when someone asks to write test cases for a feature or story."
-related: test-scenarios-from-requirements, equivalence-boundary-analysis, test-data-design, test-automation-script, traceability-matrix
-prompt: "Write test cases for the password reset flow: email link valid for 30 minutes, new password must meet the policy, old sessions are logged out."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Write test cases"
+  related: "test-scenarios-from-requirements, equivalence-boundary-analysis, test-data-design, test-automation-script, traceability-matrix"
+  prompt: "Write test cases for the password reset flow: email link valid for 30 minutes, new password must meet the policy, old sessions are logged out."
 ---
 
 # Write Test Cases

@@ -1,7 +1,16 @@
 ---
-description: Writes a blameless postmortem from incident notes, chat logs, alerts and timelines: summary, customer and business impact, a timestamped timeline, detection and response analysis, contributing factors and root causes traced beyond the trigger, what went well, and prioritized corrective actions with owners and due dates. Use after an incident is resolved, when an SLO breach or near miss needs a formal review, or when a draft postmortem must be made blameless and actionable.
-related: incident-response, incident-communication, runbook, error-budget-policy, alert-design
-prompt: Here are the chat log and alert history of last night's payment outage. Write a blameless postmortem with timeline, root causes and action items.
+name: postmortem
+description: "Writes a blameless postmortem from incident notes, chat logs, alerts and timelines: summary, customer and business impact, a timestamped timeline, detection and response analysis, contributing factors and root causes traced beyond the trigger, what went well, and prioritized corrective actions with owners and due dates. Use after an incident is resolved, when an SLO breach or near miss needs a formal review, or when a draft postmortem must be made blameless and actionable."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Write a blameless postmortem"
+  related: "incident-response, incident-communication, runbook, error-budget-policy, alert-design"
+  prompt: "Here are the chat log and alert history of last night's payment outage. Write a blameless postmortem with timeline, root causes and action items."
 ---
 
 # Write a Blameless Postmortem

@@ -1,7 +1,16 @@
 ---
-description: Tahmine dayalı bir model için öznitelikleri planlar; hipoteze göre aday öznitelikler, kaynak ve tahmin anındaki erişilebilirlik, zamana göre doğruluk (point-in-time), sızıntı kontrolleri, dönüşümler, kodlama, eksik değer stratejisi ve doğrulama yaklaşımı. ML problemi tanımlandıktan sonra ve model eğitiminden önce ya da bir model şüphe uyandıracak kadar iyi performans gösterdiğinde ve sızıntıdan şüphelenildiğinde kullanılır.
-related: ml-problem-framing, data-exploration, model-evaluation-report, source-to-target-mapping, data-quality-rules
-prompt: Bir telekom abonelik tabanı için churn modelinin öznitelik mühendisliğini planla; tahmin her ay sonraki 60 gün için yapılıyor.
+name: feature-engineering-plan
+description: "Tahmine dayalı bir model için öznitelikleri planlar; hipoteze göre aday öznitelikler, kaynak ve tahmin anındaki erişilebilirlik, zamana göre doğruluk (point-in-time), sızıntı kontrolleri, dönüşümler, kodlama, eksik değer stratejisi ve doğrulama yaklaşımı. ML problemi tanımlandıktan sonra ve model eğitiminden önce ya da bir model şüphe uyandıracak kadar iyi performans gösterdiğinde ve sızıntıdan şüphelenildiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Öznitelik mühendisliği planı"
+  related: "ml-problem-framing, data-exploration, model-evaluation-report, source-to-target-mapping, data-quality-rules"
+  prompt: "Bir telekom abonelik tabanı için churn modelinin öznitelik mühendisliğini planla; tahmin her ay sonraki 60 gün için yapılıyor."
 ---
 
 # Öznitelik Mühendisliği Planı

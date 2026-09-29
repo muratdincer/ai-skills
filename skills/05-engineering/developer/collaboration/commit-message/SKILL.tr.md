@@ -1,7 +1,16 @@
 ---
-description: Conventional Commits formatında; net bir başlık, değişikliğin nedenini açıklayan bir gövde ve kırıcı değişiklik ile iş kaydı referansları için alt bilgiler içeren commit mesajı yazar. Geliştiricinin elinde bir diff, değişiklik listesi veya kısa bir açıklama olduğunda ve commit mesajına ihtiyaç duyduğunda ya da karışık bir değişikliği iyi kapsamlanmış commit'lere bölmek istediğinde kullanılır.
-related: pull-request-description, changelog-entry, semantic-versioning, branching-strategy
-prompt: Bu diff için commit mesajı yaz. Ödeme istemcisine backoff ile yeniden deneme ekliyor ve timeout yapılandırma anahtarının adını düzeltiyor.
+name: commit-message
+description: "Conventional Commits formatında; net bir başlık, değişikliğin nedenini açıklayan bir gövde ve kırıcı değişiklik ile iş kaydı referansları için alt bilgiler içeren commit mesajı yazar. Geliştiricinin elinde bir diff, değişiklik listesi veya kısa bir açıklama olduğunda ve commit mesajına ihtiyaç duyduğunda ya da karışık bir değişikliği iyi kapsamlanmış commit'lere bölmek istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Commit mesajı yazma"
+  related: "pull-request-description, changelog-entry, semantic-versioning, branching-strategy"
+  prompt: "Bu diff için commit mesajı yaz. Ödeme istemcisine backoff ile yeniden deneme ekliyor ve timeout yapılandırma anahtarının adını düzeltiyor."
 ---
 
 # Commit Mesajı Yazma

@@ -1,7 +1,16 @@
 ---
-description: Kişinin mevcut seviyesini hedef seviye veya kariyer yoluyla karşılaştıran, yetkinlik bazında kanıta dayalı eksikleri belirleyen ve gelişim aksiyonlarını, fırsatları, desteği ve kontrol noktalarını tanımlayan bir kariyer gelişim planı oluşturur. Biri terfi veya yol değişikliği (uzman ya da yönetici, uzmanlaşma) sorduğunda, bir değerlendirmeden sonra veya yöneticinin yapılandırılmış bir gelişim konuşmasına ihtiyacı olduğunda kullanılır.
-related: career-ladder, goal-setting, performance-review, one-on-one-prep, onboarding-plan-30-60-90
-prompt: 18 ay içinde Staff seviyesine geçmek isteyen Kıdemli Mühendis Burak için gelişim planı oluştur.
+name: career-development-plan
+description: "Kişinin mevcut seviyesini hedef seviye veya kariyer yoluyla karşılaştıran, yetkinlik bazında kanıta dayalı eksikleri belirleyen ve gelişim aksiyonlarını, fırsatları, desteği ve kontrol noktalarını tanımlayan bir kariyer gelişim planı oluşturur. Biri terfi veya yol değişikliği (uzman ya da yönetici, uzmanlaşma) sorduğunda, bir değerlendirmeden sonra veya yöneticinin yapılandırılmış bir gelişim konuşmasına ihtiyacı olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Kariyer gelişim planı"
+  related: "career-ladder, goal-setting, performance-review, one-on-one-prep, onboarding-plan-30-60-90"
+  prompt: "18 ay içinde Staff seviyesine geçmek isteyen Kıdemli Mühendis Burak için gelişim planı oluştur."
 ---
 
 # Kariyer Gelişim Planı

@@ -1,7 +1,16 @@
 ---
-description: Bağlam, hedefler, sorunlar, davranışlar, karar kriterleri ve alıntılarla kanıta dayalı bir persona oluşturur; her niteliği araştırmaya bağlar ve proto-persona varsayımlarını işaretler. Araştırma verisinin (görüşmeler, anketler, analitik, destek kayıtları) ortak bir kullanıcı modeline dönüştürülmesi gerektiğinde ya da tasarım ve ürün kararları için persona veya kullanıcı profili istendiğinde kullanılır.
-related: jobs-to-be-done, customer-journey-map, research-synthesis, feedback-synthesis, problem-interview-script
-prompt: Bu 8 görüşme özetinden depo vardiya amirleri için bir persona oluştur.
+name: persona
+description: "Bağlam, hedefler, sorunlar, davranışlar, karar kriterleri ve alıntılarla kanıta dayalı bir persona oluşturur; her niteliği araştırmaya bağlar ve proto-persona varsayımlarını işaretler. Araştırma verisinin (görüşmeler, anketler, analitik, destek kayıtları) ortak bir kullanıcı modeline dönüştürülmesi gerektiğinde ya da tasarım ve ürün kararları için persona veya kullanıcı profili istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Persona oluşturma"
+  related: "jobs-to-be-done, customer-journey-map, research-synthesis, feedback-synthesis, problem-interview-script"
+  prompt: "Bu 8 görüşme özetinden depo vardiya amirleri için bir persona oluştur."
 ---
 
 # Persona Oluşturma

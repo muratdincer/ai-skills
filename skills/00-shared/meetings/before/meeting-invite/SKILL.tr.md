@@ -1,7 +1,16 @@
 ---
-description: Amacı, beklenen çıktıyı, gündem özetini, her katılımcının neden davet edildiğini ve gereken hazırlığı net biçimde belirten bir toplantı daveti yazar. Takvim daveti veya toplantı talebi e-postası gönderilirken, alıcıların katılıp katılmayacağına karar verebilmesi ve hazırlıklı gelmesi gerektiğinde kullanılır.
-related: meeting-agenda, meeting-necessity-check
-prompt: Önümüzdeki salı ödeme servisinin yeniden tasarımı için 45 dakikalık bir mimari inceleme toplantısı daveti yaz.
+name: meeting-invite
+description: "Amacı, beklenen çıktıyı, gündem özetini, her katılımcının neden davet edildiğini ve gereken hazırlığı net biçimde belirten bir toplantı daveti yazar. Takvim daveti veya toplantı talebi e-postası gönderilirken, alıcıların katılıp katılmayacağına karar verebilmesi ve hazırlıklı gelmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: before
+  title: "Toplantı daveti yazma"
+  related: "meeting-agenda, meeting-necessity-check"
+  prompt: "Önümüzdeki salı ödeme servisinin yeniden tasarımı için 45 dakikalık bir mimari inceleme toplantısı daveti yaz."
 ---
 
 # Toplantı Daveti Yazma

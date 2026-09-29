@@ -1,7 +1,16 @@
 ---
-description: Mühendislik teslimat metriklerini DORA (dağıtım sıklığı, değişiklik teslim süresi, değişiklik hata oranı, geri yükleme süresi) ve SPACE boyutlarıyla inceler, eğilimleri bağlamıyla yorumlar, manipülasyonu ve veri kalitesi sorunlarını tespit eder ve iyileştirme deneyleri önerir. Bir ekip veya organizasyon için metrik incelemesi hazırlanırken, yönetim verimlilik rakamları istediğinde ya da metrikler bireyleri karşılaştırmak için yanlış kullanıldığında kullanılır.
-related: cycle-time-analysis, team-health-check, kpi-definition, metric-definition, velocity-analysis
-prompt: Dört ekibin son iki çeyreğe ait DORA rakamları burada. İncele ve ekiplerle neleri konuşmam gerektiğini söyle.
+name: engineering-metrics-review
+description: "Mühendislik teslimat metriklerini DORA (dağıtım sıklığı, değişiklik teslim süresi, değişiklik hata oranı, geri yükleme süresi) ve SPACE boyutlarıyla inceler, eğilimleri bağlamıyla yorumlar, manipülasyonu ve veri kalitesi sorunlarını tespit eder ve iyileştirme deneyleri önerir. Bir ekip veya organizasyon için metrik incelemesi hazırlanırken, yönetim verimlilik rakamları istediğinde ya da metrikler bireyleri karşılaştırmak için yanlış kullanıldığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Mühendislik metrikleri incelemesi (DORA/SPACE)"
+  related: "cycle-time-analysis, team-health-check, kpi-definition, metric-definition, velocity-analysis"
+  prompt: "Dört ekibin son iki çeyreğe ait DORA rakamları burada. İncele ve ekiplerle neleri konuşmam gerektiğini söyle."
 ---
 
 # Mühendislik Metrikleri İncelemesi (DORA/SPACE)

@@ -1,7 +1,16 @@
 ---
-description: Bir proje veya girişim portföyünü değer, stratejik uyum, risk ve efor üzerinden puanlayarak önceliklendirir; sıralamayı gerçek kapasite ve bağımlılıklarla sınar ve her biri için gerekçeli fonla / sıraya al / durdur önerisi üretir. Kapasiteden fazla girişim olduğunda, yıllık veya çeyreklik portföy planlamasında, yeni bir talebin yerleştirilmesi gerektiğinde ya da yönetim "neyi fonlayalım, neyi durduralım" diye sorduğunda kullanılır.
-related: decision-matrix, cost-benefit-analysis, okr-definition, program-roadmap, steering-committee-pack
-prompt: Önümüzdeki yıl için bu 12 girişimi önceliklendir; yaklaşık 6 teslimat ekibimiz var ve strateji dijital satışı büyütmek ve işletme maliyetini düşürmek.
+name: portfolio-prioritization
+description: "Bir proje veya girişim portföyünü değer, stratejik uyum, risk ve efor üzerinden puanlayarak önceliklendirir; sıralamayı gerçek kapasite ve bağımlılıklarla sınar ve her biri için gerekçeli fonla / sıraya al / durdur önerisi üretir. Kapasiteden fazla girişim olduğunda, yıllık veya çeyreklik portföy planlamasında, yeni bir talebin yerleştirilmesi gerektiğinde ya da yönetim \"neyi fonlayalım, neyi durduralım\" diye sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Proje portföyü önceliklendirme"
+  related: "decision-matrix, cost-benefit-analysis, okr-definition, program-roadmap, steering-committee-pack"
+  prompt: "Önümüzdeki yıl için bu 12 girişimi önceliklendir; yaklaşık 6 teslimat ekibimiz var ve strateji dijital satışı büyütmek ve işletme maliyetini düşürmek."
 ---
 
 # Proje Portföyü Önceliklendirme

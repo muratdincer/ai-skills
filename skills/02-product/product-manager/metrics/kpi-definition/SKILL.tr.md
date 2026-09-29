@@ -1,7 +1,16 @@
 ---
-description: Ürün KPI'larını ad, amaç, formül, dahil etme kuralları, veri kaynağı, başlangıç değeri, hedef, eşikler, sahip, periyot ve her KPI'nın beslediği kararı içeren, belirsizliği olmayan bir KPI tablosu olarak tanımlar. Bir ürün, özellik veya ekip için KPI seti gerektiğinde, mevcut KPI'lar belirsiz veya tartışmalıysa ya da biri "hangi KPI'ları izlemeliyiz ve tam olarak nasıl hesaplanıyor" diye sorduğunda kullanılır.
-related: north-star-metric, metric-definition, okr-definition, dashboard-spec, feature-adoption-review
-prompt: Otellerdeki yeni mobil self check-in özelliğimiz için KPI'ları tanımla.
+name: kpi-definition
+description: "Ürün KPI'larını ad, amaç, formül, dahil etme kuralları, veri kaynağı, başlangıç değeri, hedef, eşikler, sahip, periyot ve her KPI'nın beslediği kararı içeren, belirsizliği olmayan bir KPI tablosu olarak tanımlar. Bir ürün, özellik veya ekip için KPI seti gerektiğinde, mevcut KPI'lar belirsiz veya tartışmalıysa ya da biri \"hangi KPI'ları izlemeliyiz ve tam olarak nasıl hesaplanıyor\" diye sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "KPI tanımlama"
+  related: "north-star-metric, metric-definition, okr-definition, dashboard-spec, feature-adoption-review"
+  prompt: "Otellerdeki yeni mobil self check-in özelliğimiz için KPI'ları tanımla."
 ---
 
 # KPI Tanımlama

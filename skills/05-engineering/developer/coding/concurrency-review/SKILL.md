@@ -1,7 +1,16 @@
 ---
+name: concurrency-review
 description: "Reviews code for concurrency defects: data races, check-then-act and lost updates, deadlocks and lock ordering, unsafe publication, async/await misuse, thread-pool starvation, and duplicate or out-of-order processing in distributed consumers, with a concrete interleaving and fix per finding. Use when code uses threads, async, locks, shared state, background workers, message consumers or concurrent database updates, or when someone reports intermittent failures that look timing-related."
-related: "code-review, error-handling-review, debugging-hypotheses, resilience-review, integration-test-writing"
-prompt: "Review this wallet top-up service for concurrency problems; it reads the balance, adds the amount and saves, and is called from both the API and a message consumer."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Review concurrency"
+  related: "code-review, error-handling-review, debugging-hypotheses, resilience-review, integration-test-writing"
+  prompt: "Review this wallet top-up service for concurrency problems; it reads the balance, adds the amount and saves, and is called from both the API and a message consumer."
 ---
 
 # Review Concurrency

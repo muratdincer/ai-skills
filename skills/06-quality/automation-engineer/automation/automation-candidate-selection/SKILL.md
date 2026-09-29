@@ -1,7 +1,16 @@
 ---
+name: automation-candidate-selection
 description: "Selects which tests to automate by scoring candidates on execution frequency, business risk, stability of the feature, determinism, data and environment control, and build/maintenance cost, then placing each at the cheapest reliable test level and returning a ranked backlog with a rough payback estimate. Use when a team asks what to automate next, has a large manual regression suite, needs to justify automation investment, or wants to stop automating low-value UI tests."
-related: automation-framework-design, test-automation-script, regression-selection, risk-based-testing, flaky-test-analysis
-prompt: "We have 350 manual regression cases. Which ones should we automate first, and at which level?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Select automation candidates"
+  related: "automation-framework-design, test-automation-script, regression-selection, risk-based-testing, flaky-test-analysis"
+  prompt: "We have 350 manual regression cases. Which ones should we automate first, and at which level?"
 ---
 
 # Select Automation Candidates

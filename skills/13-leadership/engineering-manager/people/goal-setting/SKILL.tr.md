@@ -1,7 +1,16 @@
 ---
-description: Bir mühendis veya ekip üyesi için ekip sonuçlarını kişinin gelişimiyle birleştiren, ölçüt, ara hedef ve gereken destekle birlikte 3-5 SMART bireysel hedef taslağı hazırlar. Değerlendirme döneminin başında, terfi veya rol değişikliğinden sonra ya da hedefler belirsiz, aktivite odaklı veya ekip öncelikleriyle bağlantısız olduğunda kullanılır.
-related: okr-definition, performance-review, career-development-plan, career-ladder, one-on-one-prep
-prompt: Orta seviye backend mühendisi Deniz için ikinci yarı hedeflerini belirlememe yardım et. Ekip OKR'ı ödeme adımındaki gecikmeyi azaltmak, o da kıdemli seviyeye ilerlemek istiyor.
+name: goal-setting
+description: "Bir mühendis veya ekip üyesi için ekip sonuçlarını kişinin gelişimiyle birleştiren, ölçüt, ara hedef ve gereken destekle birlikte 3-5 SMART bireysel hedef taslağı hazırlar. Değerlendirme döneminin başında, terfi veya rol değişikliğinden sonra ya da hedefler belirsiz, aktivite odaklı veya ekip öncelikleriyle bağlantısız olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Bireysel hedef belirleme"
+  related: "okr-definition, performance-review, career-development-plan, career-ladder, one-on-one-prep"
+  prompt: "Orta seviye backend mühendisi Deniz için ikinci yarı hedeflerini belirlememe yardım et. Ekip OKR'ı ödeme adımındaki gecikmeyi azaltmak, o da kıdemli seviyeye ilerlemek istiyor."
 ---
 
 # Bireysel Hedef Belirleme

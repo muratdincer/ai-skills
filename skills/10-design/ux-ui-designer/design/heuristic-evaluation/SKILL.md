@@ -1,7 +1,16 @@
 ---
-description: Runs a heuristic evaluation of a product, flow or screens against Nielsen's 10 usability heuristics, producing located findings with the violated heuristic, evidence, a 0-4 severity rating and a concrete recommendation, plus a prioritized summary. Use when a quick expert usability review is needed before or instead of user testing, when someone asks "what's wrong with this UI", or to audit screenshots, prototypes or a live flow.
-related: usability-test-script, accessibility-audit, design-critique, research-synthesis, user-flow
-prompt: Do a heuristic evaluation of our expense submission flow; screenshots of the 4 screens are attached.
+name: heuristic-evaluation
+description: "Runs a heuristic evaluation of a product, flow or screens against Nielsen's 10 usability heuristics, producing located findings with the violated heuristic, evidence, a 0-4 severity rating and a concrete recommendation, plus a prioritized summary. Use when a quick expert usability review is needed before or instead of user testing, when someone asks \"what's wrong with this UI\", or to audit screenshots, prototypes or a live flow."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Run a heuristic evaluation"
+  related: "usability-test-script, accessibility-audit, design-critique, research-synthesis, user-flow"
+  prompt: "Do a heuristic evaluation of our expense submission flow; screenshots of the 4 screens are attached."
 ---
 
 # Run a Heuristic Evaluation

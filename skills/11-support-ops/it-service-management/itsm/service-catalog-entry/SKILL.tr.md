@@ -1,7 +1,16 @@
 ---
+name: service-catalog-entry
 description: "Müşteri diliyle bir hizmet kataloğu kaydı yazar: hizmetin ne olduğu ve ne olmadığı, kimlerin kullanabileceği, talep seçenekleri ve nasıl talep edileceği, onaylar, karşılama adımları, hizmet seviyeleri ve destek saatleri, ücretliyse maliyetler, bağımlılıklar, sorumluluklar ve sahiplik. Yeni bir BT veya iç hizmet devreye alındığında, mevcut bir kayıt eskidiğinde veya belirsizleştiğinde, talep edenler bir şeyi nasıl alacaklarını sürekli sorduğunda ya da hizmet seviyelerinin kullanıcılara duyurulması gerektiğinde kullanılır."
-related: "slo-definition, sla-breach-analysis, raci-matrix, user-guide, faq-builder"
-prompt: "'Geliştirici VM' hizmetimiz için katalog kaydı yaz: geliştiriciler 8 vCPU/32 GB Linux VM talep ediyor, yönetici onayı gerekiyor, 2 iş gününde teslim ediliyor, uzatılmazsa 90 gün sonra siliniyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Hizmet kataloğu kaydı"
+  related: "slo-definition, sla-breach-analysis, raci-matrix, user-guide, faq-builder"
+  prompt: "'Geliştirici VM' hizmetimiz için katalog kaydı yaz: geliştiriciler 8 vCPU/32 GB Linux VM talep ediyor, yönetici onayı gerekiyor, 2 iş gününde teslim ediliyor, uzatılmazsa 90 gün sonra siliniyor."
 ---
 
 # Hizmet Kataloğu Kaydı

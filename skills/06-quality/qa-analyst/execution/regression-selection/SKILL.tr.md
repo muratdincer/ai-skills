@@ -1,7 +1,16 @@
 ---
+name: regression-selection
 description: "Belirli bir değişiklik için neyin değiştiğini, doğrudan ve dolaylı etkisini (ortak kod, veri, entegrasyonlar, konfigürasyon), riski ve yakın dönem hata geçmişini analiz ederek regresyon test seti seçer; testleri zorunlu, önerilen ve isteğe bağlı olarak katmanlar ve kalan riski açıkça yazar. Bir sürüm, hotfix veya merge regresyon testi gerektirdiğinde ama tam set çok yavaş ya da pahalıysa veya bir değişiklikten sonra neyin yeniden test edilmesi gerektiği sorulduğunda kullanılır."
-related: impact-analysis, risk-based-testing, test-summary-report, automation-candidate-selection, test-gap-finder
-prompt: "İndirim hesaplama servisini değiştirdik ve PDF kütüphanesini yükselttik. Yarınki hotfix öncesi hangi regresyon testlerini koşmamız şart?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Regresyon testi seçimi"
+  related: "impact-analysis, risk-based-testing, test-summary-report, automation-candidate-selection, test-gap-finder"
+  prompt: "İndirim hesaplama servisini değiştirdik ve PDF kütüphanesini yükselttik. Yarınki hotfix öncesi hangi regresyon testlerini koşmamız şart?"
 ---
 
 # Regresyon Testi Seçimi

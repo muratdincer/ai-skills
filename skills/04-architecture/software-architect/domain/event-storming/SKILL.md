@@ -1,7 +1,16 @@
 ---
-description: Plans and runs a big-picture or design-level event storming session and turns the result into a structured model of domain events, commands, actors, policies, read models, external systems, aggregates and hot spots. Use when a team needs a shared understanding of a business flow, wants to discover bounded contexts or aggregates, or has a messy wall of stickies to consolidate.
-related: bounded-context-map, aggregate-design, event-driven-design, workshop-plan, glossary-builder
-prompt: Help me run a design-level event storming for our order-to-delivery flow and structure the stickies from yesterday's session.
+name: event-storming
+description: "Plans and runs a big-picture or design-level event storming session and turns the result into a structured model of domain events, commands, actors, policies, read models, external systems, aggregates and hot spots. Use when a team needs a shared understanding of a business flow, wants to discover bounded contexts or aggregates, or has a messy wall of stickies to consolidate."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Run event storming"
+  related: "bounded-context-map, aggregate-design, event-driven-design, workshop-plan, glossary-builder"
+  prompt: "Help me run a design-level event storming for our order-to-delivery flow and structure the stickies from yesterday's session."
 ---
 
 # Run Event Storming

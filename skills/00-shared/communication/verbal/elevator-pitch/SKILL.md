@@ -1,7 +1,16 @@
 ---
-description: Writes a 30-60 second spoken pitch for an idea, project, product or request, tailored to one listener, with a hook, the problem, the proposal, proof, and a single concrete ask. Use when someone has a short window (corridor, call opening, intro at a meeting, funding or sponsorship request) to get a busy person interested enough to take the next step.
-related: presentation-outline, executive-summary, value-proposition-canvas, problem-statement, stakeholder-map
-prompt: Give me a 45-second pitch to convince our CTO to sponsor a pilot for automated contract testing between our microservices.
+name: elevator-pitch
+description: "Writes a 30-60 second spoken pitch for an idea, project, product or request, tailored to one listener, with a hook, the problem, the proposal, proof, and a single concrete ask. Use when someone has a short window (corridor, call opening, intro at a meeting, funding or sponsorship request) to get a busy person interested enough to take the next step."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Write an elevator pitch"
+  related: "presentation-outline, executive-summary, value-proposition-canvas, problem-statement, stakeholder-map"
+  prompt: "Give me a 45-second pitch to convince our CTO to sponsor a pilot for automated contract testing between our microservices."
 ---
 
 # Write an Elevator Pitch

@@ -1,7 +1,16 @@
 ---
-description: Runs an earned value analysis from a cost-loaded baseline and progress data, computing PV, EV, AC, SV, CV, SPI, CPI, EAC, ETC, VAC and TCPI, interpreting the variances and forecasting completion cost and date with stated assumptions. Use when a project with a budget and schedule baseline needs an objective performance reading, a forecast at completion, or evidence for a status report or steering decision.
-related: budget-plan, schedule-plan, project-status-report, change-control, monte-carlo-forecast
-prompt: Here is our baseline per work package and this month's actuals and percent complete. Run earned value analysis and tell me whether we will finish within budget.
+name: earned-value-analysis
+description: "Runs an earned value analysis from a cost-loaded baseline and progress data, computing PV, EV, AC, SV, CV, SPI, CPI, EAC, ETC, VAC and TCPI, interpreting the variances and forecasting completion cost and date with stated assumptions. Use when a project with a budget and schedule baseline needs an objective performance reading, a forecast at completion, or evidence for a status report or steering decision."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Run earned value analysis"
+  related: "budget-plan, schedule-plan, project-status-report, change-control, monte-carlo-forecast"
+  prompt: "Here is our baseline per work package and this month's actuals and percent complete. Run earned value analysis and tell me whether we will finish within budget."
 ---
 
 # Run Earned Value Analysis

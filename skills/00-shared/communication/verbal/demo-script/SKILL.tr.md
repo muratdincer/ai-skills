@@ -1,7 +1,16 @@
 ---
-description: Kullanıcı hikâyesine dayalı akış, adım adım tıklama sırası, kitlenin değer gördüğü noktalara bağlı anlatım, hazır veri, süre planı ve her riskli adım için yedek plan içeren bir ürün veya özellik demo senaryosu yazar. Bir ekip yazılımı paydaşlara, müşteriye, bir inceleme oturumuna veya potansiyel müşteriye göstermesi gerektiğinde ve doğaçlama yerine prova edilebilir bir akış istediğinde kullanılır.
-related: presentation-outline, iteration-review-prep, stakeholder-review-prep, uat-scenarios, elevator-pitch
-prompt: Yeni fatura onay akışını iterasyon incelemesinde finans müdürlerine göstermek için 10 dakikalık bir demo senaryosu yaz.
+name: demo-script
+description: "Kullanıcı hikâyesine dayalı akış, adım adım tıklama sırası, kitlenin değer gördüğü noktalara bağlı anlatım, hazır veri, süre planı ve her riskli adım için yedek plan içeren bir ürün veya özellik demo senaryosu yazar. Bir ekip yazılımı paydaşlara, müşteriye, bir inceleme oturumuna veya potansiyel müşteriye göstermesi gerektiğinde ve doğaçlama yerine prova edilebilir bir akış istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Demo senaryosu yazma"
+  related: "presentation-outline, iteration-review-prep, stakeholder-review-prep, uat-scenarios, elevator-pitch"
+  prompt: "Yeni fatura onay akışını iterasyon incelemesinde finans müdürlerine göstermek için 10 dakikalık bir demo senaryosu yaz."
 ---
 
 # Demo Senaryosu Yazma

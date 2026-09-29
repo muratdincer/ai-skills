@@ -1,7 +1,16 @@
 ---
+name: testability-review
 description: "Gereksinimleri, user story'leri veya kabul kriterlerini test edilebilirlik açısından inceler; belirsiz, ölçülemez, eksik, test edilemez veya hata davranışı tanımlanmamış maddeleri her biri için somut bir yeniden yazım önerisiyle işaretler. Test tasarımı veya tahminden önce, refinement oturumlarında ya da gereksinimlerin test için yeterince net olup olmadığı sorulduğunda kullanılır."
-related: ambiguity-detection, acceptance-criteria, requirements-review-checklist, test-scenarios-from-requirements, nfr-specification
-prompt: "Test case yazmaya başlamadan önce bu 8 user story'yi test edilebilirlik açısından kontrol et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Gereksinimlerin test edilebilirlik incelemesi"
+  related: "ambiguity-detection, acceptance-criteria, requirements-review-checklist, test-scenarios-from-requirements, nfr-specification"
+  prompt: "Test case yazmaya başlamadan önce bu 8 user story'yi test edilebilirlik açısından kontrol et."
 ---
 
 # Gereksinimlerin Test Edilebilirlik İncelemesi

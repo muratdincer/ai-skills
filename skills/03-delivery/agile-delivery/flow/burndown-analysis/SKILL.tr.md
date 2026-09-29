@@ -1,7 +1,16 @@
 ---
+name: burndown-analysis
 description: "Bir iterasyon veya sürüm için burndown ve burnup grafiklerini ya da bunların günlük verisini yorumlar: grafiğin şeklini okur, ilerlemeyi kapsam değişikliğinden ayırır, geç düşüş, yatay çizgi ve kapsam kayması gibi örüntüleri tespit eder, riskleri önerilen aksiyonlarla işaretler. Biri burndown/burnup grafiği veya günlük kalan iş rakamlarını paylaştığında ya da iterasyonun veya sürümün yolunda olup olmadığını sorduğunda kullanılır."
-related: "velocity-analysis, monte-carlo-forecast, daily-sync-summary, iteration-planning, project-status-report"
-prompt: "Sprintin 10 gününden 7.'sindeyiz. Günlere göre kalan puan: 40, 40, 38, 38, 38, 35, 35. 4. gün iki hikâye eklendi. Yetişecek miyiz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Burndown/burnup analizi"
+  related: "velocity-analysis, monte-carlo-forecast, daily-sync-summary, iteration-planning, project-status-report"
+  prompt: "Sprintin 10 gününden 7.'sindeyiz. Günlere göre kalan puan: 40, 40, 38, 38, 38, 35, 35. 4. gün iki hikâye eklendi. Yetişecek miyiz?"
 ---
 
 # Burndown/Burnup Analizi

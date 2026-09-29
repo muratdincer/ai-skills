@@ -1,7 +1,16 @@
 ---
-description: Bir changelog, iş kaydı listesi veya pull request başlıklarından mobil uygulama mağazaları için kısa, kullanıcıya dönük "Yenilikler" sürüm notları yazar; iç değişiklikleri ayıklar, her mağazanın karakter sınırına uyar ve yerelleştirilmiş varyantlar hazırlar. Bir mobil sürüm mağazaya gönderilmek üzereyken, ham bir changelog mağaza metnine dönüştürülecekken veya notların bir mağaza için yerelleştirilmesi ya da kısaltılması gerektiğinde kullanılır.
-related: release-notes, changelog-entry, mobile-release-checklist, microcopy, voice-and-tone-guide
-prompt: Bu sprintte merge edilen PR başlıklarını 5.3 sürümü için App Store ve Google Play sürüm notlarına çevir, İngilizce ve Türkçe.
+name: app-store-release-notes
+description: "Bir changelog, iş kaydı listesi veya pull request başlıklarından mobil uygulama mağazaları için kısa, kullanıcıya dönük \"Yenilikler\" sürüm notları yazar; iç değişiklikleri ayıklar, her mağazanın karakter sınırına uyar ve yerelleştirilmiş varyantlar hazırlar. Bir mobil sürüm mağazaya gönderilmek üzereyken, ham bir changelog mağaza metnine dönüştürülecekken veya notların bir mağaza için yerelleştirilmesi ya da kısaltılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: mobile
+  title: "Uygulama mağazası sürüm notları"
+  related: "release-notes, changelog-entry, mobile-release-checklist, microcopy, voice-and-tone-guide"
+  prompt: "Bu sprintte merge edilen PR başlıklarını 5.3 sürümü için App Store ve Google Play sürüm notlarına çevir, İngilizce ve Türkçe."
 ---
 
 # Uygulama Mağazası Sürüm Notları

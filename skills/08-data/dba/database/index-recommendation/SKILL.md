@@ -1,7 +1,16 @@
 ---
+name: index-recommendation
 description: "Recommends indexes for a table or database from its real workload: groups queries by access pattern, designs key column order, included columns, filtered/partial indexes, consolidates overlapping and removes unused indexes, and weighs read gains against write amplification, storage and maintenance cost. Use when designing indexes for a new schema or feature, reviewing an over-indexed or under-indexed table, or acting on missing-index suggestions from the engine."
-related: "query-optimization, database-health-check, schema-migration-plan, database-schema-design, capacity-planning"
-prompt: "Our orders table has 14 indexes, inserts are getting slow and some reports are still scanning. Here are the top 20 queries and index usage stats; recommend an index set."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: dba
+  area: database
+  title: "Recommend indexes"
+  related: "query-optimization, database-health-check, schema-migration-plan, database-schema-design, capacity-planning"
+  prompt: "Our orders table has 14 indexes, inserts are getting slow and some reports are still scanning. Here are the top 20 queries and index usage stats; recommend an index set."
 ---
 
 # Recommend Indexes

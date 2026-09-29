@@ -1,7 +1,16 @@
 ---
+name: capacity-planning
 description: "Produces a capacity plan for a service or platform: demand forecast from organic growth and known events, per-resource saturation limits from load tests or production data, required capacity with headroom and N+1 redundancy, lead times, scaling triggers and cost impact. Use when a launch, campaign or seasonal peak is coming, when utilization trends toward limits, or when budgeting infrastructure for the next period."
-related: "capacity-test-report, load-test-analysis, scalability-review, finops-review, observability-plan"
-prompt: "Plan capacity for our checkout for Black Friday. Normal peak is 800 req/s, marketing expects 4x traffic; we run 12 pods and one primary database."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Plan capacity"
+  related: "capacity-test-report, load-test-analysis, scalability-review, finops-review, observability-plan"
+  prompt: "Plan capacity for our checkout for Black Friday. Normal peak is 800 req/s, marketing expects 4x traffic; we run 12 pods and one primary database."
 ---
 
 # Plan Capacity

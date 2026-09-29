@@ -1,7 +1,16 @@
 ---
+name: backup-restore-plan
 description: "Designs a database backup and restore plan derived from RPO and RTO: backup types and frequency (full, differential/incremental, log or continuous archiving, snapshots), retention and immutable/off-site copies, encryption and access, restore procedures for each failure scenario, and a scheduled restore-test program with evidence. Use when setting up or reviewing backups for a database, after a failed or slow restore, for audit evidence, or when RPO/RTO targets change."
-related: "dr-plan, retention-policy, database-health-check, schema-migration-plan, runbook"
-prompt: "Design a backup and restore plan for our 2 TB order database: RPO 15 minutes, RTO 2 hours, we must also keep monthly backups for 1 year for audit."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: dba
+  area: database
+  title: "Plan backup and restore"
+  related: "dr-plan, retention-policy, database-health-check, schema-migration-plan, runbook"
+  prompt: "Design a backup and restore plan for our 2 TB order database: RPO 15 minutes, RTO 2 hours, we must also keep monthly backups for 1 year for audit."
 ---
 
 # Plan Backup and Restore

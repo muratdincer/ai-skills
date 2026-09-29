@@ -1,7 +1,16 @@
 ---
-description: Writes a product or feature demo script with a user-story flow, click-by-click steps, talking points tied to audience value, prepared data, timing and a fallback for every risky step. Use when a team must demo software to stakeholders, customers, a review session or a sales prospect and wants a rehearsable run sheet instead of improvising.
-related: presentation-outline, iteration-review-prep, stakeholder-review-prep, uat-scenarios, elevator-pitch
-prompt: Write a 10-minute demo script for showing the new invoice approval workflow to the finance managers at the iteration review.
+name: demo-script
+description: "Writes a product or feature demo script with a user-story flow, click-by-click steps, talking points tied to audience value, prepared data, timing and a fallback for every risky step. Use when a team must demo software to stakeholders, customers, a review session or a sales prospect and wants a rehearsable run sheet instead of improvising."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Write a demo script"
+  related: "presentation-outline, iteration-review-prep, stakeholder-review-prep, uat-scenarios, elevator-pitch"
+  prompt: "Write a 10-minute demo script for showing the new invoice approval workflow to the finance managers at the iteration review."
 ---
 
 # Write a Demo Script

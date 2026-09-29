@@ -1,7 +1,16 @@
 ---
-description: Proje açılış toplantısını hazırlar; ekip ve sponsorlar için hedefleri, kapsamı, ekip ve rolleri, plan ve kilometre taşlarını, çalışma biçimini, riskleri ve ilk adımları içeren süreli gündem ile slayt slayt içerik üretir. Bir proje başlamak üzereyken ya da yeni bir faz veya büyük ekip değişikliği ortak bir başlangıç gerektirdiğinde kullanılır.
-related: project-charter, scope-statement, stakeholder-register, communication-plan, meeting-agenda
-prompt: Veri ambarı modernizasyon projemizin açılış toplantısını hazırla: 20 kişi, sponsor ilk 30 dakikaya katılıyor.
+name: kickoff-deck
+description: "Proje açılış toplantısını hazırlar; ekip ve sponsorlar için hedefleri, kapsamı, ekip ve rolleri, plan ve kilometre taşlarını, çalışma biçimini, riskleri ve ilk adımları içeren süreli gündem ile slayt slayt içerik üretir. Bir proje başlamak üzereyken ya da yeni bir faz veya büyük ekip değişikliği ortak bir başlangıç gerektirdiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Proje açılış toplantısı hazırlığı"
+  related: "project-charter, scope-statement, stakeholder-register, communication-plan, meeting-agenda"
+  prompt: "Veri ambarı modernizasyon projemizin açılış toplantısını hazırla: 20 kişi, sponsor ilk 30 dakikaya katılıyor."
 ---
 
 # Proje Açılış Toplantısı Hazırlığı

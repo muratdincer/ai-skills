@@ -1,7 +1,16 @@
 ---
+name: runbook
 description: "Tek bir alarm veya hata modu için operasyonel runbook yazar: belirtiler ve etki, hızlı ön değerlendirme, net kontroller ve beklenen sonuçlarla teşhis dalları, doğrulama ve geri almayla güvenli çözüm adımları, eskalasyon ve takip. Bir page alarmının runbook'u yoksa, nöbetçiler yazılı olmayan bilgiye dayanıyorsa, bir olay eksik bir prosedürü gösterdiyse ya da tekrarlayan bir operasyonel sorunun nasıl ele alınacağı sorulduğunda kullanılır."
-related: "alert-design, incident-response, known-error-article, postmortem, observability-plan"
-prompt: "OrderQueueLagHigh alarmı için runbook yaz: order-events topic'inde Kafka consumer lag'i 10 dakika boyunca 10 bin'in üzerinde."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Runbook yazma"
+  related: "alert-design, incident-response, known-error-article, postmortem, observability-plan"
+  prompt: "OrderQueueLagHigh alarmı için runbook yaz: order-events topic'inde Kafka consumer lag'i 10 dakika boyunca 10 bin'in üzerinde."
 ---
 
 # Runbook Yazma

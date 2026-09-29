@@ -1,7 +1,16 @@
 ---
+name: impact-analysis
 description: "Önerilen bir değişikliğin süreçler, sistemler, arayüzler, veri, raporlar, kullanıcılar, dokümanlar, kontroller ve testler üzerindeki etkisini doğrudan ve dolaylı bağımlılıkları izleyerek analiz eder; her etkiyi kanıt ve güven düzeyiyle puanlar. Yeni bir gereksinim, değişiklik talebi, kural değişikliği veya sistem değişikliği önerildiğinde ve ekibin tahmin, onay veya yayın öncesinde başka neyin etkilendiğini bilmesi gerektiğinde kullanılır."
-related: "change-request-analysis, traceability-matrix, process-gap-analysis, regression-selection, dependency-map"
-prompt: "Ana bankacılık sistemimizde müşteri numarasını sayısaldan alfanümeriğe çevirmenin etkisi ne olur?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Etki analizi"
+  related: "change-request-analysis, traceability-matrix, process-gap-analysis, regression-selection, dependency-map"
+  prompt: "Ana bankacılık sistemimizde müşteri numarasını sayısaldan alfanümeriğe çevirmenin etkisi ne olur?"
 ---
 
 # Etki Analizi

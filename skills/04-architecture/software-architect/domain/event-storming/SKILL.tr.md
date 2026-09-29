@@ -1,7 +1,16 @@
 ---
-description: Genel resim (big picture) veya tasarım düzeyinde bir event storming oturumunu planlar ya da yürütür ve sonucu alan olayları, komutlar, aktörler, politikalar, okuma modelleri, dış sistemler, aggregate'ler ve sıcak noktalardan oluşan yapılandırılmış bir modele dönüştürür. Bir ekip bir iş akışını ortak şekilde anlamak, sınırlı bağlamları veya aggregate'leri keşfetmek ya da dağınık bir yapışkan not duvarını toparlamak istediğinde kullanılır.
-related: bounded-context-map, aggregate-design, event-driven-design, workshop-plan, glossary-builder
-prompt: Sipariş-teslimat akışımız için tasarım düzeyinde bir event storming yürütmeme yardım et ve dünkü oturumun notlarını yapılandır.
+name: event-storming
+description: "Genel resim (big picture) veya tasarım düzeyinde bir event storming oturumunu planlar ya da yürütür ve sonucu alan olayları, komutlar, aktörler, politikalar, okuma modelleri, dış sistemler, aggregate'ler ve sıcak noktalardan oluşan yapılandırılmış bir modele dönüştürür. Bir ekip bir iş akışını ortak şekilde anlamak, sınırlı bağlamları veya aggregate'leri keşfetmek ya da dağınık bir yapışkan not duvarını toparlamak istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Event storming"
+  related: "bounded-context-map, aggregate-design, event-driven-design, workshop-plan, glossary-builder"
+  prompt: "Sipariş-teslimat akışımız için tasarım düzeyinde bir event storming yürütmeme yardım et ve dünkü oturumun notlarını yapılandır."
 ---
 
 # Event Storming

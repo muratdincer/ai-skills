@@ -1,7 +1,16 @@
 ---
-description: Bir müzakereye hazırlık için hedefinizi, çıkarlarınızı, BATNA'nızı, masadan kalkma noktanızı, karşı tarafın olası çıkarlarını ve BATNA'sını, olası anlaşma alanını, takas edilebilir tavizleri ve gerekçesiyle açılış pozisyonunu belirler. Birinin müşteri, tedarikçi, sponsor veya başka bir ekiple kapsam, teslim tarihi, bütçe, kaynak, tedarikçi sözleşmesi, ücret veya koşullar üzerine müzakere etmesi gerektiğinde kullanılır.
-related: conflict-resolution, stakeholder-map, trade-off-analysis, vendor-evaluation, pricing-analysis
-prompt: Mevcut ekiple ancak %60'ını teslim edebilecekken kapsamın tamamını mart ayına kadar isteyen iş sponsoruyla müzakereye hazırlanmama yardım et.
+name: negotiation-prep
+description: "Bir müzakereye hazırlık için hedefinizi, çıkarlarınızı, BATNA'nızı, masadan kalkma noktanızı, karşı tarafın olası çıkarlarını ve BATNA'sını, olası anlaşma alanını, takas edilebilir tavizleri ve gerekçesiyle açılış pozisyonunu belirler. Birinin müşteri, tedarikçi, sponsor veya başka bir ekiple kapsam, teslim tarihi, bütçe, kaynak, tedarikçi sözleşmesi, ücret veya koşullar üzerine müzakere etmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Müzakereye hazırlanma"
+  related: "conflict-resolution, stakeholder-map, trade-off-analysis, vendor-evaluation, pricing-analysis"
+  prompt: "Mevcut ekiple ancak %60'ını teslim edebilecekken kapsamın tamamını mart ayına kadar isteyen iş sponsoruyla müzakereye hazırlanmama yardım et."
 ---
 
 # Müzakereye Hazırlanma

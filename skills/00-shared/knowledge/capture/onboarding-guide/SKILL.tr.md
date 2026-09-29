@@ -1,7 +1,16 @@
 ---
-description: Bir ekibe, departmana veya projeye yeni katılan kişiyi bağlam, çalışma biçimi, araçlar ve erişimler, kilit kişiler, terimler ve açık "hazırsın" kilometre taşlarıyla sıralanmış ilk görevler boyunca yönlendiren bir oryantasyon rehberi yazar. Ekibe yeni üyeler, yükleniciler veya transferler katılacaksa, mevcut oryantasyon bilgisi wiki ve sohbetlere dağılmışsa ya da bir rol veya ekip için "oryantasyon rehberi yaz" dendiğinde kullanılır.
-related: onboarding-plan-30-60-90, technical-onboarding, handover-document, glossary-builder, kb-article
-prompt: Ödeme ekibimize katılan yeni iş analistleri için bir oryantasyon rehberi yaz.
+name: onboarding-guide
+description: "Bir ekibe, departmana veya projeye yeni katılan kişiyi bağlam, çalışma biçimi, araçlar ve erişimler, kilit kişiler, terimler ve açık \"hazırsın\" kilometre taşlarıyla sıralanmış ilk görevler boyunca yönlendiren bir oryantasyon rehberi yazar. Ekibe yeni üyeler, yükleniciler veya transferler katılacaksa, mevcut oryantasyon bilgisi wiki ve sohbetlere dağılmışsa ya da bir rol veya ekip için \"oryantasyon rehberi yaz\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Oryantasyon rehberi yazma"
+  related: "onboarding-plan-30-60-90, technical-onboarding, handover-document, glossary-builder, kb-article"
+  prompt: "Ödeme ekibimize katılan yeni iş analistleri için bir oryantasyon rehberi yaz."
 ---
 
 # Oryantasyon Rehberi Yazma

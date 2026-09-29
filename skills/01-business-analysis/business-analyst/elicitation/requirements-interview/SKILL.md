@@ -1,7 +1,16 @@
 ---
-description: Interviews the user one question at a time, adapting each question to the previous answer (diagnose, narrow, confirm), keeps a running specification visible, stops when a readiness checklist passes and ends with a structured requirements summary. Use when a need is vague ("we need a dashboard", "automate approvals"), when the user says "ask me questions", "help me specify this" or "interview me", or before writing stories or a PRD from thin input.
-related: request-clarification-questions, requirements-gap-analysis, user-story, acceptance-criteria, edge-case-elicitation
-prompt: Interview me until this is clear enough to build: we want suppliers to upload their invoices themselves instead of emailing them.
+name: requirements-interview
+description: "Interviews the user one question at a time, adapting each question to the previous answer (diagnose, narrow, confirm), keeps a running specification visible, stops when a readiness checklist passes and ends with a structured requirements summary. Use when a need is vague (\"we need a dashboard\", \"automate approvals\"), when the user says \"ask me questions\", \"help me specify this\" or \"interview me\", or before writing stories or a PRD from thin input."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Run an interactive requirements interview"
+  related: "request-clarification-questions, requirements-gap-analysis, user-story, acceptance-criteria, edge-case-elicitation"
+  prompt: "Interview me until this is clear enough to build: we want suppliers to upload their invoices themselves instead of emailing them."
 ---
 
 # Run an Interactive Requirements Interview

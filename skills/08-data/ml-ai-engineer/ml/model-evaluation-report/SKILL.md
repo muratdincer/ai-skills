@@ -1,7 +1,16 @@
 ---
-description: Writes a model evaluation report that compares a candidate model against baseline and incumbent - overall metrics with uncertainty, threshold choice, calibration, slice performance, error analysis, fairness and a release recommendation. Use when a model is trained and must be approved for deployment, compared with alternatives, or reviewed after a performance complaint.
-related: ml-problem-framing, model-card, ml-monitoring-plan, feature-engineering-plan, llm-eval-set
-prompt: Write a model evaluation report for our fraud model v3 vs v2; here are the test-set metrics, confusion matrices and slice results by channel and country.
+name: model-evaluation-report
+description: "Writes a model evaluation report that compares a candidate model against baseline and incumbent - overall metrics with uncertainty, threshold choice, calibration, slice performance, error analysis, fairness and a release recommendation. Use when a model is trained and must be approved for deployment, compared with alternatives, or reviewed after a performance complaint."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Write a model evaluation report"
+  related: "ml-problem-framing, model-card, ml-monitoring-plan, feature-engineering-plan, llm-eval-set"
+  prompt: "Write a model evaluation report for our fraud model v3 vs v2; here are the test-set metrics, confusion matrices and slice results by channel and country."
 ---
 
 # Write a Model Evaluation Report

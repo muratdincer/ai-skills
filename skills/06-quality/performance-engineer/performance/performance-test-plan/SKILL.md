@@ -1,7 +1,16 @@
 ---
-description: Writes a performance test plan with objectives tied to measurable acceptance criteria (latency percentiles, throughput, error rate, resource limits), a workload model derived from production data or business forecasts, test types (load, stress, soak, spike, scalability), scenarios, test data, environment and its gap to production, monitoring, entry/exit criteria and risks. Use before a release, migration or expected traffic increase, when non-functional requirements must be verified, or when a performance test must be designed from scratch.
-related: load-test-analysis, capacity-test-report, slo-definition, test-data-design, nfr-to-architecture
-prompt: We launch a campaign that may triple checkout traffic. Write a performance test plan for the checkout API and its dependencies.
+name: performance-test-plan
+description: "Writes a performance test plan with objectives tied to measurable acceptance criteria (latency percentiles, throughput, error rate, resource limits), a workload model derived from production data or business forecasts, test types (load, stress, soak, spike, scalability), scenarios, test data, environment and its gap to production, monitoring, entry/exit criteria and risks. Use before a release, migration or expected traffic increase, when non-functional requirements must be verified, or when a performance test must be designed from scratch."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Write a performance test plan"
+  related: "load-test-analysis, capacity-test-report, slo-definition, test-data-design, nfr-to-architecture"
+  prompt: "We launch a campaign that may triple checkout traffic. Write a performance test plan for the checkout API and its dependencies."
 ---
 
 # Write a Performance Test Plan

@@ -1,7 +1,16 @@
 ---
-description: Bir ekibin kodlama standartlarını kısa ve numaralı kurallar olarak yazar veya günceller; her kural gerekçe, iyi ve kötü örnek, önem derecesi (zorunlu veya önerilen) ve nasıl uygulatıldığıyla (formatter, linter, inceleme, test) birlikte gelir ve araçların çözemediği kararlara odaklanır. Bir ekip kurulurken veya birleşirken, incelemelerde aynı stil ya da tasarım konuları sürekli tartışıldığında, yeni bir dil veya framework benimsendiğinde ya da mevcut standartlar çok uzun, eskimiş veya uygulanmıyorsa kullanılır.
-related: clean-code-review, code-review, review-comment-writing, working-agreement, adr
-prompt: Backend ekibimiz için kodlama standartları yaz. İncelemelerde exception yönetimi, isimlendirme ve pull request'in ne kadar büyük olması gerektiği konusunda sürekli tartışıyoruz.
+name: coding-standards
+description: "Bir ekibin kodlama standartlarını kısa ve numaralı kurallar olarak yazar veya günceller; her kural gerekçe, iyi ve kötü örnek, önem derecesi (zorunlu veya önerilen) ve nasıl uygulatıldığıyla (formatter, linter, inceleme, test) birlikte gelir ve araçların çözemediği kararlara odaklanır. Bir ekip kurulurken veya birleşirken, incelemelerde aynı stil ya da tasarım konuları sürekli tartışıldığında, yeni bir dil veya framework benimsendiğinde ya da mevcut standartlar çok uzun, eskimiş veya uygulanmıyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Kodlama standartları yazma"
+  related: "clean-code-review, code-review, review-comment-writing, working-agreement, adr"
+  prompt: "Backend ekibimiz için kodlama standartları yaz. İncelemelerde exception yönetimi, isimlendirme ve pull request'in ne kadar büyük olması gerektiği konusunda sürekli tartışıyoruz."
 ---
 
 # Kodlama Standartları Yazma

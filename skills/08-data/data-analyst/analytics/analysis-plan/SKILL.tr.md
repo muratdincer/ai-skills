@@ -1,7 +1,16 @@
 ---
-description: Herhangi bir sorgu çalıştırılmadan önce iş sorusunu, hipotezleri, veri kaynaklarını, yöntemi, geçerlilik kontrollerini ve çıktıyı netleştiren bir analiz planı yazar. Bir paydaş "X neden değişti", "Y işe yarıyor mu" veya "Z'yi yapmalı mıyız" diye sorduğunda ve kapsamın, yöntemin ve beklentilerin baştan uzlaşılması gerektiğinde kullanılır.
-related: metric-definition, data-exploration, ab-test-analysis, insight-summary, hypothesis-statement
-prompt: Şu soru için analiz planı yaz: pazarlama, yeni onboarding e-posta serisinin 30 günlük elde tutmayı artırıp artırmadığını öğrenmek istiyor.
+name: analysis-plan
+description: "Herhangi bir sorgu çalıştırılmadan önce iş sorusunu, hipotezleri, veri kaynaklarını, yöntemi, geçerlilik kontrollerini ve çıktıyı netleştiren bir analiz planı yazar. Bir paydaş \"X neden değişti\", \"Y işe yarıyor mu\" veya \"Z'yi yapmalı mıyız\" diye sorduğunda ve kapsamın, yöntemin ve beklentilerin baştan uzlaşılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Analiz planı yazma"
+  related: "metric-definition, data-exploration, ab-test-analysis, insight-summary, hypothesis-statement"
+  prompt: "Şu soru için analiz planı yaz: pazarlama, yeni onboarding e-posta serisinin 30 günlük elde tutmayı artırıp artırmadığını öğrenmek istiyor."
 ---
 
 # Analiz Planı Yazma

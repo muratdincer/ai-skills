@@ -1,7 +1,16 @@
 ---
+name: monte-carlo-forecast
 description: "Produces a probabilistic delivery forecast from historical throughput using Monte Carlo simulation: answers 'when will N items be done?' or 'how many items by date D?' with confidence levels (50/85/95%), accounts for backlog growth and splitting, and explains the method and caveats. Use when someone shares weekly or per-iteration throughput and asks for a release date, a scope forecast for a deadline, or the probability of hitting a commitment."
-related: "velocity-analysis, cycle-time-analysis, release-planning, burndown-analysis, schedule-plan"
-prompt: "Our weekly throughput for the last 12 weeks: 3, 5, 4, 0, 6, 4, 5, 3, 7, 4, 2, 5. We have 38 items left. When can we be done with 85% confidence?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Forecast delivery with Monte Carlo"
+  related: "velocity-analysis, cycle-time-analysis, release-planning, burndown-analysis, schedule-plan"
+  prompt: "Our weekly throughput for the last 12 weeks: 3, 5, 4, 0, 6, 4, 5, 3, 7, 4, 2, 5. We have 38 items left. When can we be done with 85% confidence?"
 ---
 
 # Forecast Delivery with Monte Carlo

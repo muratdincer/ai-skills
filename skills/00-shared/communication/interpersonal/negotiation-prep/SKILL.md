@@ -1,7 +1,16 @@
 ---
-description: Prepares a negotiation by defining your goal, interests, BATNA, walk-away point, the counterpart's likely interests and BATNA, the zone of possible agreement, tradeable concessions and an opening position with its justification. Use when someone must negotiate scope, deadline, budget, resources, a vendor contract, rates or terms with a customer, vendor, sponsor or another team.
-related: conflict-resolution, stakeholder-map, trade-off-analysis, vendor-evaluation, pricing-analysis
-prompt: Help me prepare to negotiate with the business sponsor who wants the full scope by March while we can only deliver about 60% with the current team.
+name: negotiation-prep
+description: "Prepares a negotiation by defining your goal, interests, BATNA, walk-away point, the counterpart's likely interests and BATNA, the zone of possible agreement, tradeable concessions and an opening position with its justification. Use when someone must negotiate scope, deadline, budget, resources, a vendor contract, rates or terms with a customer, vendor, sponsor or another team."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Prepare for a negotiation"
+  related: "conflict-resolution, stakeholder-map, trade-off-analysis, vendor-evaluation, pricing-analysis"
+  prompt: "Help me prepare to negotiate with the business sponsor who wants the full scope by March while we can only deliver about 60% with the current team."
 ---
 
 # Prepare for a Negotiation

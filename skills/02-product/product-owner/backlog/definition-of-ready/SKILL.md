@@ -1,7 +1,16 @@
 ---
+name: definition-of-ready
 description: "Creates or revises a team's Definition of Ready: the entry criteria a work item must meet before the team commits to or starts it, tailored to item types, with how each criterion is checked and when exceptions are allowed. Use when a team keeps starting unclear work, planning stalls on missing information, or someone asks for a DoR, readiness criteria or an entry checklist."
-related: "definition-of-done, backlog-refinement, invest-check, acceptance-criteria, working-agreement"
-prompt: "Write a Definition of Ready for our team; we build a B2B web portal and keep getting blocked by missing API contracts and UX designs."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Define Definition of Ready"
+  related: "definition-of-done, backlog-refinement, invest-check, acceptance-criteria, working-agreement"
+  prompt: "Write a Definition of Ready for our team; we build a B2B web portal and keep getting blocked by missing API contracts and UX designs."
 ---
 
 # Define Definition of Ready

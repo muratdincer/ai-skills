@@ -1,7 +1,16 @@
 ---
+name: document-simplify
 description: "Bir dokümanı veya metin parçasını; tüm yükümlülükleri, sayıları, koşulları ve kararları koruyarak tekrarları, jargonu, çekinceli ifadeleri ve isimleştirmeleri ayıklayıp hedef kitlesi için daha kısa ve kolay okunur hâle getirir. Bir metin okuyucusu için fazla uzun, yoğun veya teknikse, bir şeyin kısaltılması, sadeleştirilmesi veya sade dille yazılması istendiğinde ya da doküman bir uzunluk sınırına sığmalıysa kullanılır."
-related: "document-review, executive-summary, tone-rewrite, microcopy, technical-translation"
-prompt: "Üç sayfalık bu veri saklama politikasını takım liderlerinin ne yapmaları gerektiğini anlayacağı şekilde sadeleştir; tüm yükümlülükleri koru."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Dokümanı sadeleştirme"
+  related: "document-review, executive-summary, tone-rewrite, microcopy, technical-translation"
+  prompt: "Üç sayfalık bu veri saklama politikasını takım liderlerinin ne yapmaları gerektiğini anlayacağı şekilde sadeleştir; tüm yükümlülükleri koru."
 ---
 
 # Dokümanı Sadeleştirme

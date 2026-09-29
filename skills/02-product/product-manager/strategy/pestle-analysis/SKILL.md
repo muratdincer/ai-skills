@@ -1,7 +1,16 @@
 ---
-description: Runs a PESTLE analysis (political, economic, social, technological, legal, environmental) for a product, market entry or strategic decision, rating each factor by impact, likelihood and time horizon and translating the top factors into concrete product and business implications. Use when entering a new market or country, reviewing a strategy or roadmap, assessing regulatory or macro risk, or when someone asks for a PESTEL/PEST or "external environment" scan.
-related: market-analysis, swot-analysis, porters-five-forces, product-strategy-one-pager, assumption-mapping
-prompt: Do a PESTLE analysis for launching our SME payroll SaaS in Germany next year.
+name: pestle-analysis
+description: "Runs a PESTLE analysis (political, economic, social, technological, legal, environmental) for a product, market entry or strategic decision, rating each factor by impact, likelihood and time horizon and translating the top factors into concrete product and business implications. Use when entering a new market or country, reviewing a strategy or roadmap, assessing regulatory or macro risk, or when someone asks for a PESTEL/PEST or \"external environment\" scan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Run a PESTLE analysis"
+  related: "market-analysis, swot-analysis, porters-five-forces, product-strategy-one-pager, assumption-mapping"
+  prompt: "Do a PESTLE analysis for launching our SME payroll SaaS in Germany next year."
 ---
 
 # Run a PESTLE Analysis

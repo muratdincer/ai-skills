@@ -1,7 +1,16 @@
 ---
+name: bug-triage
 description: "Bir grup hatayı; bütünlüğünü doğrulayarak, mükerrerleri bularak, önem derecesini (etki) öncelikten (düzeltme sırası) ayırarak, sorumlu ve hedef atayarak ve sürümü engelleyenleri işaretleyerek önceliklendirir; bir karar tablosu ve takip listesi üretir. Yeni veya birikmiş hatalar bir önceliklendirme toplantısında gözden geçirilecekse, sürüm yaklaşırken açık hatalar için engelleyici kararı gerekiyorsa ya da önce hangi hataların düzeltileceği sorulduğunda kullanılır."
-related: bug-report, release-quality-gate, defect-trend-analysis, risk-based-testing, ticket-triage
-prompt: "Cuma günkü sürüm öncesi bu 14 açık hatayı önceliklendir: önem, öncelik, mükerrerler ve hangilerinin sürümü engellediğine karar ver."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Hata önceliklendirme"
+  related: "bug-report, release-quality-gate, defect-trend-analysis, risk-based-testing, ticket-triage"
+  prompt: "Cuma günkü sürüm öncesi bu 14 açık hatayı önceliklendir: önem, öncelik, mükerrerler ve hangilerinin sürümü engellediğine karar ver."
 ---
 
 # Hata Önceliklendirme

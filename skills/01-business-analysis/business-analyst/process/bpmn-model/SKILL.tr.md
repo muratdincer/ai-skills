@@ -1,7 +1,16 @@
 ---
+name: bpmn-model
 description: "Bir süreç tarifini BPMN 2.0 modeline dönüştürür: havuzlar ve kulvarlar, olaylar, görevler, geçitler, mesaj akışları ve veri nesneleri; çıktıyı yapılandırılmış bir öğe listesi ile çizilebilir veya içe aktarılabilir diyagram kodu olarak verir. Bir sürecin biçimsel olarak çizilmesi gerektiğinde, metin olarak yazılmış bir as-is veya to-be süreç diyagrama çevrilecekse ya da BPMN, kulvar diyagramı veya süreç diyagramı kodu istendiğinde kullanılır."
-related: "as-is-process, to-be-process, diagram-as-code, business-rules-catalog, use-case-spec"
-prompt: "Bu satın alma onay sürecini BPMN ile modelle: çalışan talep girer, yönetici 10 bine kadar onaylar, üstünde finans da onaylar, sonra satın alma sipariş verir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "BPMN süreç modeli"
+  related: "as-is-process, to-be-process, diagram-as-code, business-rules-catalog, use-case-spec"
+  prompt: "Bu satın alma onay sürecini BPMN ile modelle: çalışan talep girer, yönetici 10 bine kadar onaylar, üstünde finans da onaylar, sonra satın alma sipariş verir."
 ---
 
 # BPMN Süreç Modeli

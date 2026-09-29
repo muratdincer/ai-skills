@@ -1,7 +1,16 @@
 ---
-description: Bir yetkinlik için kendin geliştirme, satın alma (COTS/SaaS), mevcut platformu genişletme veya açık kaynak kullanma seçeneklerini stratejik farklılaşma, fonksiyonel uygunluk, çok yıllık toplam sahip olma maliyeti, risk, değere ulaşma süresi ve çıkış maliyeti açısından karşılaştırır ve gerekçeli bir öneri üretir. Bir ekip bir yetkinliği içeride mi geliştireceğine yoksa satın mı alacağına karar vermek zorunda olduğunda veya mevcut özel bir sistem ya da ürün yenilenecekse kullanılır.
-related: technology-selection, vendor-evaluation, cost-benefit-analysis, fit-gap-analysis, adr
-prompt: Müşteri bildirim servisimizi kendimiz mi geliştirelim yoksa SaaS bir ürün mü alalım? Ayda yaklaşık 2 milyon e-posta ve SMS gönderiyoruz, Türkçe ve İngilizce şablon gerekiyor.
+name: build-vs-buy
+description: "Bir yetkinlik için kendin geliştirme, satın alma (COTS/SaaS), mevcut platformu genişletme veya açık kaynak kullanma seçeneklerini stratejik farklılaşma, fonksiyonel uygunluk, çok yıllık toplam sahip olma maliyeti, risk, değere ulaşma süresi ve çıkış maliyeti açısından karşılaştırır ve gerekçeli bir öneri üretir. Bir ekip bir yetkinliği içeride mi geliştireceğine yoksa satın mı alacağına karar vermek zorunda olduğunda veya mevcut özel bir sistem ya da ürün yenilenecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Yap ya da satın al kararı"
+  related: "technology-selection, vendor-evaluation, cost-benefit-analysis, fit-gap-analysis, adr"
+  prompt: "Müşteri bildirim servisimizi kendimiz mi geliştirelim yoksa SaaS bir ürün mü alalım? Ayda yaklaşık 2 milyon e-posta ve SMS gönderiyoruz, Türkçe ve İngilizce şablon gerekiyor."
 ---
 
 # Yap ya da Satın Al Kararı

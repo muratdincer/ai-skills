@@ -1,7 +1,16 @@
 ---
+name: test-summary-report
 description: "Test edilen ve edilmeyen kapsamı, koşum sonuçlarını, gereksinim ve risklere göre kapsamı, önem derecesine göre açık hataları, plandan sapmaları, kalan riski ve net bir öneriyi belirten, ISO/IEC/IEEE 29119-3 içeriğiyle uyumlu bir test özet (tamamlama) raporu yazar. Bir test seviyesi, iterasyon veya sürüm döngüsünün sonunda, paydaşların karar vermeye hazır bir kalite durumuna ihtiyacı olduğunda ya da ham koşum sayılarının rapora dönüşmesi gerektiğinde kullanılır."
-related: test-plan, release-quality-gate, bug-triage, defect-trend-analysis, executive-summary
-prompt: "Şu sayılarla 3.4 sürümünün test özet raporunu yaz: 412 case, 389 geçti, 11 kaldı, 12 bloke, 7 açık hata (1 kritik), performans testi koşulmadı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Test özet raporu"
+  related: "test-plan, release-quality-gate, bug-triage, defect-trend-analysis, executive-summary"
+  prompt: "Şu sayılarla 3.4 sürümünün test özet raporunu yaz: 412 case, 389 geçti, 11 kaldı, 12 bloke, 7 açık hata (1 kritik), performans testi koşulmadı."
 ---
 
 # Test Özet Raporu

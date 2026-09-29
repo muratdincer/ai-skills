@@ -1,7 +1,16 @@
 ---
+name: error-budget-policy
 description: "Writes an error budget policy that states, for defined budget consumption thresholds, what the development and operations teams must do (release restrictions, reliability work, postmortem requirements), who decides exceptions, and how disputes are escalated. Use when SLOs exist but have no consequences, when feature pressure keeps overriding reliability, or when someone asks what happens when the error budget is exhausted."
-related: "slo-definition, alert-design, postmortem, release-quality-gate, go-no-go"
-prompt: "Our checkout SLO is 99.9% over 28 days and we burned 80% of the budget in the first week. Write an error budget policy that the product and engineering leads can sign."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Write an error budget policy"
+  related: "slo-definition, alert-design, postmortem, release-quality-gate, go-no-go"
+  prompt: "Our checkout SLO is 99.9% over 28 days and we burned 80% of the budget in the first week. Write an error budget policy that the product and engineering leads can sign."
 ---
 
 # Write an Error Budget Policy

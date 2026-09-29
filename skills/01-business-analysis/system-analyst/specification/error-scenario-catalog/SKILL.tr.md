@@ -1,7 +1,16 @@
 ---
+name: error-scenario-catalog
 description: "Bir özellik, akış veya arayüz için hata senaryoları kataloğu oluşturur: her hata durumu için tetikleyici, tespit noktası, beklenen sistem davranışı, sonrasındaki veri durumu, kullanıcıya veya çağırana dönen mesaj, hata kodu, loglama ve alarm ile kurtarma yolu. Gereksinimler yalnızca mutlu yolu anlattığında, bir entegrasyon veya işlem akışı tasarlanıp test edilmeden önce ya da destek ekibi ile geliştiriciler bir şey başarısız olduğunda sistemin ne yapması gerektiği konusunda anlaşamadığında kullanılır."
-related: "error-message-writing, edge-case-elicitation, sequence-flow, resilience-review, test-case-writing"
-prompt: "Para transferi akışımız için hata senaryoları kataloğu oluştur: doğrulama, limitler, core banking zaman aşımı ve tekrarlanan gönderimler."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Hata senaryoları kataloğu"
+  related: "error-message-writing, edge-case-elicitation, sequence-flow, resilience-review, test-case-writing"
+  prompt: "Para transferi akışımız için hata senaryoları kataloğu oluştur: doğrulama, limitler, core banking zaman aşımı ve tekrarlanan gönderimler."
 ---
 
 # Hata Senaryoları Kataloğu

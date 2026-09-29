@@ -1,7 +1,16 @@
 ---
+name: performance-optimization
 description: "Koddaki performans darboğazlarını tahminle değil ölçümle bulur ve giderir: hedef metriği tanımlar, profil, trace veya sorgu planlarını okur, darboğazları maliyet payına göre sıralar, beklenen kazanç ve ödünleşimlerle çözüm önerir ve iyileşmenin nasıl doğrulanacağını belirtir. Kod, bir uç nokta veya bir iş çok yavaş ya da çok kaynak tüketiyorsa veya optimize etme, hızlandırma ya da CPU, bellek veya gecikmeyi azaltma istendiğinde kullanılır."
-related: "sql-query-writing, query-optimization, load-test-analysis, web-performance-audit, logging-instrumentation"
-prompt: "Sipariş arama uç noktamızın normal yükte p95 değeri 2,4 sn. Handler kodu ve CPU profili burada, hızlandırmama yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Performans iyileştirme"
+  related: "sql-query-writing, query-optimization, load-test-analysis, web-performance-audit, logging-instrumentation"
+  prompt: "Sipariş arama uç noktamızın normal yükte p95 değeri 2,4 sn. Handler kodu ve CPU profili burada, hızlandırmama yardım et."
 ---
 
 # Performans İyileştirme

@@ -1,7 +1,16 @@
 ---
+name: conceptual-data-model
 description: "Temel iş varlıklarını, tanımlarını ve aralarındaki ilişkileri teknolojiden bağımsız olarak iş dilinde ifade eden kavramsal veri modelini oluşturur. Yeni bir alan, platform veya entegrasyon başlarken, paydaşlar arasında ortak terminoloji kurulurken ya da varlık haritası, konu alanı modeli veya iş nesnesi modeli istendiğinde kullanılır."
-related: "logical-data-model, glossary-builder, bounded-context-map, event-storming, data-requirements"
-prompt: "Bu çalıştay notlarından B2B siparişten tahsilata alanımız için kavramsal veri modeli çıkar."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Kavramsal veri modeli"
+  related: "logical-data-model, glossary-builder, bounded-context-map, event-storming, data-requirements"
+  prompt: "Bu çalıştay notlarından B2B siparişten tahsilata alanımız için kavramsal veri modeli çıkar."
 ---
 
 # Kavramsal Veri Modeli

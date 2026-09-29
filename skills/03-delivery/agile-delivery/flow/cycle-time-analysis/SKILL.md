@@ -1,7 +1,16 @@
 ---
+name: cycle-time-analysis
 description: "Analyzes cycle time and lead time from work item start/finish dates: computes percentiles, reads the distribution, finds bottleneck states from time-in-state data, flags aging work in progress against the historical percentiles and proposes a service level expectation. Use when someone shares item start/end dates or board state history and asks how long work takes, where it waits or which items are at risk of getting stuck."
-related: "wip-policy, monte-carlo-forecast, velocity-analysis, value-stream-map, engineering-metrics-review"
-prompt: "Here are 40 finished items with start and done dates and 9 items in progress with their start dates. How long does our work take and what is stuck?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Analyze cycle/lead time"
+  related: "wip-policy, monte-carlo-forecast, velocity-analysis, value-stream-map, engineering-metrics-review"
+  prompt: "Here are 40 finished items with start and done dates and 9 items in progress with their start dates. How long does our work take and what is stuck?"
 ---
 
 # Analyze Cycle/Lead Time

@@ -1,7 +1,16 @@
 ---
-description: Builds an audience-specific storyline and a slide-by-slide outline with one message per slide, supporting evidence, a clear ask and timing. Use when someone must present a proposal, status, design, result or decision to managers, customers, a committee or a team and needs the structure before designing slides.
-related: executive-summary, steering-committee-pack, demo-script, elevator-pitch, stakeholder-map
-prompt: Outline a 20-minute presentation to the leadership team proposing we move our reporting workloads to a new data platform next year.
+name: presentation-outline
+description: "Builds an audience-specific storyline and a slide-by-slide outline with one message per slide, supporting evidence, a clear ask and timing. Use when someone must present a proposal, status, design, result or decision to managers, customers, a committee or a team and needs the structure before designing slides."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Outline a presentation"
+  related: "executive-summary, steering-committee-pack, demo-script, elevator-pitch, stakeholder-map"
+  prompt: "Outline a 20-minute presentation to the leadership team proposing we move our reporting workloads to a new data platform next year."
 ---
 
 # Outline a Presentation

@@ -1,7 +1,16 @@
 ---
-description: Değer akışları, bilişsel yük ve bağımlılıklara dayanarak akışa hizalı, platform, destekleyici ve karmaşık alt sistem ekip türleri ile etkileşim modlarını kullanan bir ekip topolojisi tasarlar veya inceler. Ekipler kurulurken veya bölünürken, devirler ve ekipler arası bağımlılıklar teslimatı yavaşlattığında, bir platform ekibi düşünüldüğünde ya da ekip sınırları mimariyle örtüşmediğinde kullanılır.
-related: bounded-context-map, service-decomposition, role-definition, cross-team-dependency-board, org-change-communication
-prompt: 5 ekibimiz ve 40 mühendisimiz var, her özellik 3 ekibe ihtiyaç duyuyor. E-ticaret platformumuz için bir ekip topolojisi öner.
+name: team-topology
+description: "Değer akışları, bilişsel yük ve bağımlılıklara dayanarak akışa hizalı, platform, destekleyici ve karmaşık alt sistem ekip türleri ile etkileşim modlarını kullanan bir ekip topolojisi tasarlar veya inceler. Ekipler kurulurken veya bölünürken, devirler ve ekipler arası bağımlılıklar teslimatı yavaşlattığında, bir platform ekibi düşünüldüğünde ya da ekip sınırları mimariyle örtüşmediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Ekip topolojisi tasarlama"
+  related: "bounded-context-map, service-decomposition, role-definition, cross-team-dependency-board, org-change-communication"
+  prompt: "5 ekibimiz ve 40 mühendisimiz var, her özellik 3 ekibe ihtiyaç duyuyor. E-ticaret platformumuz için bir ekip topolojisi öner."
 ---
 
 # Ekip Topolojisi Tasarlama

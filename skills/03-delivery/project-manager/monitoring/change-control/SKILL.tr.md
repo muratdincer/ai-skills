@@ -1,7 +1,16 @@
 ---
-description: Bir değişiklik talebini değişiklik kontrolünden geçirir; talebi kaydeder, kapsam, takvim, maliyet, kalite, risk ve sözleşme üzerindeki etkisini değerlendirir, seçenekleri ortaya koyar, doğru karar merciine yönlendirir ve değişiklik kaydını ve temel planları günceller. Onaylı kapsam, tarih veya bütçeye ekleme, çıkarma ya da değişiklik istendiğinde, bir tedarikçi değişiklik talebi sunduğunda veya kapsam kaymasının görünür kılınıp karara bağlanması gerektiğinde kullanılır.
-related: scope-statement, impact-analysis, raid-log, decision-log, earned-value-analysis
-prompt: Müşteri artık kararlaştırılan girişe ek olarak kendi Azure AD'leriyle SSO istiyor. Değişiklik kurulu için etki değerlendirmeli bir değişiklik talebi hazırla.
+name: change-control
+description: "Bir değişiklik talebini değişiklik kontrolünden geçirir; talebi kaydeder, kapsam, takvim, maliyet, kalite, risk ve sözleşme üzerindeki etkisini değerlendirir, seçenekleri ortaya koyar, doğru karar merciine yönlendirir ve değişiklik kaydını ve temel planları günceller. Onaylı kapsam, tarih veya bütçeye ekleme, çıkarma ya da değişiklik istendiğinde, bir tedarikçi değişiklik talebi sunduğunda veya kapsam kaymasının görünür kılınıp karara bağlanması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Değişiklik kontrolü"
+  related: "scope-statement, impact-analysis, raid-log, decision-log, earned-value-analysis"
+  prompt: "Müşteri artık kararlaştırılan girişe ek olarak kendi Azure AD'leriyle SSO istiyor. Değişiklik kurulu için etki değerlendirmeli bir değişiklik talebi hazırla."
 ---
 
 # Değişiklik Kontrolü

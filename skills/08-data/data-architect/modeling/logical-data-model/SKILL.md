@@ -1,7 +1,16 @@
 ---
+name: logical-data-model
 description: "Turns a conceptual model or requirements into a normalized logical data model with entities, attributes, domains, primary/alternate/foreign keys, constraints and history handling, still independent of a specific database product. Use when preparing physical schema design, validating requirements against data, or when asked for an ERD, 3NF model or attribute-level model."
-related: "conceptual-data-model, database-schema-design, data-requirements, business-rules-catalog, data-classification"
-prompt: "Derive a logical data model in 3NF from this conceptual model and the attached field list for the claims domain."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Build a logical data model"
+  related: "conceptual-data-model, database-schema-design, data-requirements, business-rules-catalog, data-classification"
+  prompt: "Derive a logical data model in 3NF from this conceptual model and the attached field list for the claims domain."
 ---
 
 # Build a Logical Data Model

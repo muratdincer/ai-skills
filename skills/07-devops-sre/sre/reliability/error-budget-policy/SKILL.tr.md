@@ -1,7 +1,16 @@
 ---
+name: error-budget-policy
 description: "Tanımlı bütçe tüketim eşiklerinde geliştirme ve operasyon ekiplerinin ne yapması gerektiğini (sürüm kısıtları, güvenilirlik çalışması, olay sonrası analiz gereksinimleri), istisnalara kimin karar verdiğini ve anlaşmazlıkların nasıl eskale edildiğini belirten bir hata bütçesi politikası yazar. SLO'lar var ama hiçbir sonucu yoksa, özellik baskısı sürekli güvenilirliği ezip geçiyorsa ya da hata bütçesi bittiğinde ne olacağı sorulduğunda kullanılır."
-related: "slo-definition, alert-design, postmortem, release-quality-gate, go-no-go"
-prompt: "Checkout SLO'muz 28 günde %99,9 ve bütçenin %80'ini ilk haftada harcadık. Ürün ve mühendislik liderlerinin imzalayabileceği bir hata bütçesi politikası yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Hata bütçesi politikası"
+  related: "slo-definition, alert-design, postmortem, release-quality-gate, go-no-go"
+  prompt: "Checkout SLO'muz 28 günde %99,9 ve bütçenin %80'ini ilk haftada harcadık. Ürün ve mühendislik liderlerinin imzalayabileceği bir hata bütçesi politikası yaz."
 ---
 
 # Hata Bütçesi Politikası Yazma

@@ -1,7 +1,16 @@
 ---
-description: Toplantılardan, dokümanlardan ve yazışmalardan çözülmemiş soruları; net soru, neden önemli olduğu, neyi engellediği, sorumlusu, gereken tarih, durum ve cevapla birlikte bir takip listesinde toplar ve engellediği işe göre önceliklendirir. Bir projede çok sayıda dağınık soru olduğunda, analiz veya tasarım cevap beklediğinde ya da "hâlâ neyi bekliyoruz?" sorulduğunda kullanılır.
-related: action-item-extraction, meeting-notes, raid-log, request-clarification-questions, decision-log
-prompt: Bu üç toplantı notunu ve gereksinim dokümanını incele, sorumlu ve tarihleriyle bir açık sorular listesi oluştur.
+name: open-questions-tracker
+description: "Toplantılardan, dokümanlardan ve yazışmalardan çözülmemiş soruları; net soru, neden önemli olduğu, neyi engellediği, sorumlusu, gereken tarih, durum ve cevapla birlikte bir takip listesinde toplar ve engellediği işe göre önceliklendirir. Bir projede çok sayıda dağınık soru olduğunda, analiz veya tasarım cevap beklediğinde ya da \"hâlâ neyi bekliyoruz?\" sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Açık soruları takip etme"
+  related: "action-item-extraction, meeting-notes, raid-log, request-clarification-questions, decision-log"
+  prompt: "Bu üç toplantı notunu ve gereksinim dokümanını incele, sorumlu ve tarihleriyle bir açık sorular listesi oluştur."
 ---
 
 # Açık Soruları Takip Etme

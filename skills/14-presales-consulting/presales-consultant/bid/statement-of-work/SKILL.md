@@ -1,7 +1,16 @@
 ---
-description: Writes a statement of work (SOW) that defines objectives, in-scope and out-of-scope work, deliverables with acceptance criteria and procedure, milestones, roles and responsibilities of both parties, assumptions, dependencies, change control, and commercial references, in testable, unambiguous language. Use when a proposal is accepted and scope must be contractually fixed, when a project or phase needs a SOW under a master agreement, or when an existing SOW must be reviewed for ambiguity and scope-creep risk.
-related: proposal-writing, effort-estimate-for-bid, scope-statement, acceptance-certificate, change-control
-prompt: Draft a SOW for phase 1 of the customer portal project: SSO, order tracking and ERP order sync, fixed price, 4 months.
+name: statement-of-work
+description: "Writes a statement of work (SOW) that defines objectives, in-scope and out-of-scope work, deliverables with acceptance criteria and procedure, milestones, roles and responsibilities of both parties, assumptions, dependencies, change control, and commercial references, in testable, unambiguous language. Use when a proposal is accepted and scope must be contractually fixed, when a project or phase needs a SOW under a master agreement, or when an existing SOW must be reviewed for ambiguity and scope-creep risk."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Write a statement of work"
+  related: "proposal-writing, effort-estimate-for-bid, scope-statement, acceptance-certificate, change-control"
+  prompt: "Draft a SOW for phase 1 of the customer portal project: SSO, order tracking and ERP order sync, fixed price, 4 months."
 ---
 
 # Write a Statement of Work

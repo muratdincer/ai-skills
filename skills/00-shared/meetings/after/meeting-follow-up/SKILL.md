@@ -1,7 +1,16 @@
 ---
-description: Writes the post-meeting follow-up message to attendees and stakeholders with a thank-you line, outcome, decisions, action items with owners and dates, open questions, next meeting and a correction deadline. Use right after a meeting when a recap email or chat message must be sent so everyone leaves with the same understanding and commitments.
-related: meeting-summary, action-item-extraction, meeting-notes, stakeholder-email, open-questions-tracker
-prompt: Write a follow-up email to the attendees of today's kickoff with the vendor based on these notes.
+name: meeting-follow-up
+description: "Writes the post-meeting follow-up message to attendees and stakeholders with a thank-you line, outcome, decisions, action items with owners and dates, open questions, next meeting and a correction deadline. Use right after a meeting when a recap email or chat message must be sent so everyone leaves with the same understanding and commitments."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Write a meeting follow-up message"
+  related: "meeting-summary, action-item-extraction, meeting-notes, stakeholder-email, open-questions-tracker"
+  prompt: "Write a follow-up email to the attendees of today's kickoff with the vendor based on these notes."
 ---
 
 # Write a Meeting Follow-Up Message

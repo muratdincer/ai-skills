@@ -1,7 +1,16 @@
 ---
-description: Commit'lerden, merge edilmiş pull request'lerden veya bir değişiklik listesinden Keep a Changelog formatında (Added, Changed, Deprecated, Removed, Fixed, Security) değişiklik günlüğü girdileri yazar; yazılımı kullananlar için yazılır, kırıcı değişiklikleri ve geçiş adımlarını öne çıkarır. Bir sürüm bölümü hazırlanırken, bir merge sonrasında Unreleased bölümü güncellenirken veya gürültülü commit geçmişi okunabilir bir değişiklik geçmişine dönüştürülürken kullanılır.
-related: commit-message, release-notes, semantic-versioning, pull-request-description, app-store-release-notes
-prompt: Merge edilmiş bu PR başlıklarını istemci kütüphanemizin 2.4.0 sürümü için bir değişiklik günlüğü girdisine dönüştür.
+name: changelog-entry
+description: "Commit'lerden, merge edilmiş pull request'lerden veya bir değişiklik listesinden Keep a Changelog formatında (Added, Changed, Deprecated, Removed, Fixed, Security) değişiklik günlüğü girdileri yazar; yazılımı kullananlar için yazılır, kırıcı değişiklikleri ve geçiş adımlarını öne çıkarır. Bir sürüm bölümü hazırlanırken, bir merge sonrasında Unreleased bölümü güncellenirken veya gürültülü commit geçmişi okunabilir bir değişiklik geçmişine dönüştürülürken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Değişiklik günlüğü girdisi"
+  related: "commit-message, release-notes, semantic-versioning, pull-request-description, app-store-release-notes"
+  prompt: "Merge edilmiş bu PR başlıklarını istemci kütüphanemizin 2.4.0 sürümü için bir değişiklik günlüğü girdisine dönüştür."
 ---
 
 # Değişiklik Günlüğü Girdisi

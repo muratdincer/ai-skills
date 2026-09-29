@@ -1,7 +1,16 @@
 ---
+name: iteration-review-prep
 description: "Bir iterasyon/sprint değerlendirmesini hazırlar: artımı iterasyon hedefine göre özetler, demoyu kullanıcı senaryoları etrafında sıralar, yapılmayanları ve nedenlerini belirtir, hedefli geri bildirim soruları ve backlog etkisi soruları taslaklar. Ekibin iterasyon değerlendirmesi, sprint review veya iterasyon sonu demosu yaklaştığında ve gündem, demo sırası veya artım özeti istendiğinde kullanılır."
-related: "stakeholder-review-prep, demo-script, iteration-goal, burndown-analysis, retrospective-facilitation"
-prompt: "Perşembe günkü sprint review'ı hazırla. Hedef 'üye işyerleri kısmi iade yapabilir' idi. Biten: iade API, iade arayüzü, e-posta bildirimi. Bitmeyen: iade raporu. Finans ve destekten 8 paydaş gelecek."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "İterasyon değerlendirmesi hazırlığı"
+  related: "stakeholder-review-prep, demo-script, iteration-goal, burndown-analysis, retrospective-facilitation"
+  prompt: "Perşembe günkü sprint review'ı hazırla. Hedef 'üye işyerleri kısmi iade yapabilir' idi. Biten: iade API, iade arayüzü, e-posta bildirimi. Bitmeyen: iade raporu. Finans ve destekten 8 paydaş gelecek."
 ---
 
 # İterasyon Değerlendirmesi Hazırlığı

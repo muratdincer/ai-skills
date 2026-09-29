@@ -1,7 +1,16 @@
 ---
+name: database-schema-design
 description: "Bir alan tanımından ilişkisel veritabanı şeması tasarlar: tablolar, kolonlar ve tipler, birincil ve yabancı anahtarlar, kısıtlar, erişim desenlerine dayalı indeksler ve migration betiği taslağı. Yeni bir özellik kalıcı depolamaya ihtiyaç duyduğunda, mevcut şema genişletilecekse ya da bir alan için tablolar, ER modeli, DDL veya indeks istendiğinde kullanılır."
-related: "logical-data-model, data-requirements, schema-migration-plan, index-recommendation, aggregate-design"
-prompt: "Toplantı odası rezervasyon özelliği için veritabanı şemasını tasarla: odalar, başlangıç/bitiş saatli rezervasyonlar, katılımcılar ve aynı odada çakışan rezervasyon olmaması."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Veritabanı şeması tasarlama"
+  related: "logical-data-model, data-requirements, schema-migration-plan, index-recommendation, aggregate-design"
+  prompt: "Toplantı odası rezervasyon özelliği için veritabanı şemasını tasarla: odalar, başlangıç/bitiş saatli rezervasyonlar, katılımcılar ve aynı odada çakışan rezervasyon olmaması."
 ---
 
 # Veritabanı Şeması Tasarlama

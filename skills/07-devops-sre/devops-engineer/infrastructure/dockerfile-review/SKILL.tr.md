@@ -1,7 +1,16 @@
 ---
+name: dockerfile-review
 description: "Bir Dockerfile'ı (veya Containerfile) imaj boyutu, katman ve önbellek verimliliği, güvenlik sıkılaştırması ve derleme tekrarlanabilirliği açısından inceler; düzeltilmiş kod parçalarıyla önceliklendirilmiş bulgular verir. Bir Dockerfile inceleme için paylaşıldığında, imaj büyük veya yavaş derleniyorsa ya da tarayıcı bulgu veriyorsa ve bir servisin ilk üretim sürümünden önce kullanılır."
-related: "kubernetes-manifest-review, pipeline-design, secrets-management-plan, dependency-vulnerability-review"
-prompt: "Node.js servisimizin bu Dockerfile'ını incele. İmaj 1,2 GB ve güvenlik taraması 40 zafiyet raporluyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Dockerfile inceleme"
+  related: "kubernetes-manifest-review, pipeline-design, secrets-management-plan, dependency-vulnerability-review"
+  prompt: "Node.js servisimizin bu Dockerfile'ını incele. İmaj 1,2 GB ve güvenlik taraması 40 zafiyet raporluyor."
 ---
 
 # Dockerfile İnceleme

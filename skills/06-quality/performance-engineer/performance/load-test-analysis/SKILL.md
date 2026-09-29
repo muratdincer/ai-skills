@@ -1,7 +1,16 @@
 ---
-description: Analyzes load test results by validating the test run, comparing throughput, latency percentiles and error rates against acceptance criteria, correlating client-side results with server-side resource, pool, queue and database metrics to locate bottlenecks, and recommending evidence-based fixes and retests. Use when a load, stress, spike or soak test has been executed and its report, metrics or charts must be interpreted, or when a test result is disputed and needs a second opinion.
-related: performance-test-plan, capacity-test-report, performance-optimization, query-optimization, observability-plan
-prompt: Here are the results of yesterday's checkout load test: summary table, latency chart description and database CPU. Did we pass, and what is the bottleneck?
+name: load-test-analysis
+description: "Analyzes load test results by validating the test run, comparing throughput, latency percentiles and error rates against acceptance criteria, correlating client-side results with server-side resource, pool, queue and database metrics to locate bottlenecks, and recommending evidence-based fixes and retests. Use when a load, stress, spike or soak test has been executed and its report, metrics or charts must be interpreted, or when a test result is disputed and needs a second opinion."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: performance-engineer
+  area: performance
+  title: "Analyze load test results"
+  related: "performance-test-plan, capacity-test-report, performance-optimization, query-optimization, observability-plan"
+  prompt: "Here are the results of yesterday's checkout load test: summary table, latency chart description and database CPU. Did we pass, and what is the bottleneck?"
 ---
 
 # Analyze Load Test Results

@@ -1,7 +1,16 @@
 ---
-description: Bir dönüşüm hunisini adım adım analiz eder; adım ve kümülatif dönüşümü hesaplar, en büyük mutlak kayıpları bulur, bunları segmentlere ayırır, veri kaynaklı sapmaları gerçek davranıştan ayırır ve bulguları sıralanmış, test edilebilir iyileştirme hipotezlerine dönüştürür. Kayıt, onboarding, ödeme veya aktivasyon için huni sayıları ya da olay verisi verildiğinde veya biri "kullanıcıları nerede kaybediyoruz ve neden" diye sorduğunda kullanılır.
-related: experiment-design, hypothesis-statement, customer-journey-map, north-star-metric, data-exploration
-prompt: Geçen ayın adım ve cihaz bazında kayıt hunisi sayıları burada; kullanıcıları nerede kaybettiğimizi ve ne denememiz gerektiğini bul.
+name: funnel-analysis
+description: "Bir dönüşüm hunisini adım adım analiz eder; adım ve kümülatif dönüşümü hesaplar, en büyük mutlak kayıpları bulur, bunları segmentlere ayırır, veri kaynaklı sapmaları gerçek davranıştan ayırır ve bulguları sıralanmış, test edilebilir iyileştirme hipotezlerine dönüştürür. Kayıt, onboarding, ödeme veya aktivasyon için huni sayıları ya da olay verisi verildiğinde veya biri \"kullanıcıları nerede kaybediyoruz ve neden\" diye sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Huni analizi"
+  related: "experiment-design, hypothesis-statement, customer-journey-map, north-star-metric, data-exploration"
+  prompt: "Geçen ayın adım ve cihaz bazında kayıt hunisi sayıları burada; kullanıcıları nerede kaybettiğimizi ve ne denememiz gerektiğini bul."
 ---
 
 # Huni Analizi

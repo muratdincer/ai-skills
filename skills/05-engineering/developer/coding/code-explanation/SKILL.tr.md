@@ -1,7 +1,16 @@
 ---
+name: code-explanation
 description: "Bir kod parçasının ne yaptığını, muhtemelen neden böyle yazıldığını ve hangi riskleri taşıdığını okuyucunun ihtiyaç duyduğu derinlikte açıklar: tek paragraflık özet, kontrol ve veri akışının adım adım anlatımı, yan etkiler, varsayımlar, uç durumlar ve şüpheli noktalar. Biri kod yapıştırıp ne yaptığını, nasıl çalıştığını, neden belli bir şekilde davrandığını sorduğunda ya da kodu değiştirmeden veya incelemeden önce anlaması gerektiğinde kullanılır."
-related: "legacy-code-comprehension, code-documentation, clean-code-review, regex-builder, technical-onboarding"
-prompt: "Bu fonksiyonun ne yaptığını açıkla ve içinde riskli görünen bir şey var mı söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Kodu açıklama"
+  related: "legacy-code-comprehension, code-documentation, clean-code-review, regex-builder, technical-onboarding"
+  prompt: "Bu fonksiyonun ne yaptığını açıkla ve içinde riskli görünen bir şey var mı söyle."
 ---
 
 # Kodu Açıklama

@@ -1,7 +1,16 @@
 ---
-description: Reviews a solution or software architecture against its business drivers, quality attribute requirements, architecture principles, known risks and common anti-patterns, and produces severity-rated findings with concrete recommendations and a review verdict. Use when a design document, diagram set or ADRs are submitted for architecture board approval, before a major build or go-live, or when a system shows recurring structural problems.
-related: architecture-principles, nfr-to-architecture, atam-evaluation, resilience-review, scalability-review
-prompt: Review this solution architecture document for our new loan origination platform before the architecture board next week.
+name: architecture-review
+description: "Reviews a solution or software architecture against its business drivers, quality attribute requirements, architecture principles, known risks and common anti-patterns, and produces severity-rated findings with concrete recommendations and a review verdict. Use when a design document, diagram set or ADRs are submitted for architecture board approval, before a major build or go-live, or when a system shows recurring structural problems."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Review an architecture"
+  related: "architecture-principles, nfr-to-architecture, atam-evaluation, resilience-review, scalability-review"
+  prompt: "Review this solution architecture document for our new loan origination platform before the architecture board next week."
 ---
 
 # Review an Architecture

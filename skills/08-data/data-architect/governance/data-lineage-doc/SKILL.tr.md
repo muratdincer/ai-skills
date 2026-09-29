@@ -1,7 +1,16 @@
 ---
+name: data-lineage-doc
 description: "Veri kökenini kaynak sistemlerden alım, dönüşüm ve depolama katmanları üzerinden raporlara, modellere ve diğer tüketicilere kadar, veri seti ve kritik sütun düzeyinde, dönüşüm mantığı, sahipler ve doğrulama durumuyla belgeler. Bir rakamın nereden geldiği sorulduğunda, değişiklik öncesi etki analizi için, denetim veya yasal izlenebilirlik gerektiğinde ya da ekibe tanımadığı bir veri akışı anlatılırken kullanılır."
-related: "data-catalog-entry, source-to-target-mapping, impact-analysis, data-quality-rules, diagram-as-code"
-prompt: "Finans panosundaki 'net gelir' rakamının kaynak sistemlere kadar veri kökenini belgele."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Veri kökeni dokümantasyonu"
+  related: "data-catalog-entry, source-to-target-mapping, impact-analysis, data-quality-rules, diagram-as-code"
+  prompt: "Finans panosundaki 'net gelir' rakamının kaynak sistemlere kadar veri kökenini belgele."
 ---
 
 # Veri Kökeni Dokümantasyonu

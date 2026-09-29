@@ -1,7 +1,16 @@
 ---
-description: Mevcut durumu, iş, veri, uygulama ve teknoloji görünümlerinde hedef durumu, aralarındaki farkları ve bağımlılıklar ile karar noktaları içeren ara durumlardan oluşan bir geçiş yol haritasını tanımlayarak hedef mimariyi ortaya koyar. Bir dönüşüm, platform birleştirme veya çok yıllı program, mimarinin nereye gitmesi gerektiği ve oraya nasıl varılacağı konusunda ortak bir resme ihtiyaç duyduğunda kullanılır.
-related: capability-map, architecture-principles, migration-strategy, application-portfolio-assessment, roadmap
-prompt: Monolitik sipariş yönetimimizi ve gece çalışan toplu entegrasyonlarımızı üç yıl içinde olay akışı kullanan alan servislerine taşımak için hedef mimariyi tanımla.
+name: target-state-architecture
+description: "Mevcut durumu, iş, veri, uygulama ve teknoloji görünümlerinde hedef durumu, aralarındaki farkları ve bağımlılıklar ile karar noktaları içeren ara durumlardan oluşan bir geçiş yol haritasını tanımlayarak hedef mimariyi ortaya koyar. Bir dönüşüm, platform birleştirme veya çok yıllı program, mimarinin nereye gitmesi gerektiği ve oraya nasıl varılacağı konusunda ortak bir resme ihtiyaç duyduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Hedef mimari tanımlama"
+  related: "capability-map, architecture-principles, migration-strategy, application-portfolio-assessment, roadmap"
+  prompt: "Monolitik sipariş yönetimimizi ve gece çalışan toplu entegrasyonlarımızı üç yıl içinde olay akışı kullanan alan servislerine taşımak için hedef mimariyi tanımla."
 ---
 
 # Hedef Mimari Tanımlama

@@ -1,7 +1,16 @@
 ---
-description: Builds a user story map with a left-to-right backbone of user activities and steps, stories stacked by priority beneath each step, and horizontal release slices that each deliver a usable end-to-end outcome. Use when planning a product or large feature across the whole user journey, when the flat backlog has lost the big picture, or when a team must agree on what goes into the first and following releases.
-related: epic-breakdown, mvp-scoping, release-planning, customer-journey-map, roadmap
-prompt: Build a story map for our B2B expense management app, from employee submitting a receipt to finance reimbursing it.
+name: story-mapping
+description: "Builds a user story map with a left-to-right backbone of user activities and steps, stories stacked by priority beneath each step, and horizontal release slices that each deliver a usable end-to-end outcome. Use when planning a product or large feature across the whole user journey, when the flat backlog has lost the big picture, or when a team must agree on what goes into the first and following releases."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Build a user story map"
+  related: "epic-breakdown, mvp-scoping, release-planning, customer-journey-map, roadmap"
+  prompt: "Build a story map for our B2B expense management app, from employee submitting a receipt to finance reimbursing it."
 ---
 
 # Build a User Story Map

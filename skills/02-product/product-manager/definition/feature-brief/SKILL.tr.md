@@ -1,7 +1,16 @@
 ---
-description: Ekibi tek bir özellik etrafında hizalayan tek sayfalık bir özellik özeti yazar: problem ve kimin yaşadığı, beklenen sonuç ve başarı sinyali, önerilen yaklaşım, kapsam sınırları, temel riskler ve hâlâ gereken kararlar. Özellik tam bir PRD gerektirmeyecek kadar küçükse, bir paydaş kickoff veya refinement öncesinde "kısa bir yazı" istediğinde ya da bir talebin yap/yapma görüşmesi için çerçevelenmesi gerektiğinde kullanılır.
-related: prd-writing, hypothesis-statement, mvp-scoping, epic-breakdown, problem-statement
-prompt: CRM'imize kişilerin toplu CSV ile içe aktarılması için bir özellik özeti yaz.
+name: feature-brief
+description: "Ekibi tek bir özellik etrafında hizalayan tek sayfalık bir özellik özeti yazar: problem ve kimin yaşadığı, beklenen sonuç ve başarı sinyali, önerilen yaklaşım, kapsam sınırları, temel riskler ve hâlâ gereken kararlar. Özellik tam bir PRD gerektirmeyecek kadar küçükse, bir paydaş kickoff veya refinement öncesinde \"kısa bir yazı\" istediğinde ya da bir talebin yap/yapma görüşmesi için çerçevelenmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Özellik özeti yazma"
+  related: "prd-writing, hypothesis-statement, mvp-scoping, epic-breakdown, problem-statement"
+  prompt: "CRM'imize kişilerin toplu CSV ile içe aktarılması için bir özellik özeti yaz."
 ---
 
 # Özellik Özeti Yazma

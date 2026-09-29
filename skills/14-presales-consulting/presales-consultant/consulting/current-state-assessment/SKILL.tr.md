@@ -1,7 +1,16 @@
 ---
-description: Bir müşterinin mevcut durumunu iş süreci, uygulamalar, veri, teknoloji, organizasyon ve teslimat pratikleri boyutlarında değerlendirir; kanıta dayalı bulgular, belirtilmiş bir ölçekle boyut bazında olgunluk puanı, kök nedene bağlanmış sorunlar ve hızlı kazanımlar ile üst düzey yol haritası içeren önceliklendirilmiş öneriler üretir. Müşteri "neredeyiz" diye sorduğunda, bir dönüşüm veya modernizasyon teklifinden önce ya da keşif çıktıları, görüşmeler ve dokümanlar bir değerlendirme raporunda birleştirilecekken kullanılır.
-related: discovery-workshop, fit-gap-analysis, modernization-assessment, capability-map, client-steering-report
-prompt: Bu görüşme notları ve sistem envanterinden orta ölçekli bir sigortacının hasar platformunun mevcut durumunu değerlendir ve nereden başlanması gerektiğini öner.
+name: current-state-assessment
+description: "Bir müşterinin mevcut durumunu iş süreci, uygulamalar, veri, teknoloji, organizasyon ve teslimat pratikleri boyutlarında değerlendirir; kanıta dayalı bulgular, belirtilmiş bir ölçekle boyut bazında olgunluk puanı, kök nedene bağlanmış sorunlar ve hızlı kazanımlar ile üst düzey yol haritası içeren önceliklendirilmiş öneriler üretir. Müşteri \"neredeyiz\" diye sorduğunda, bir dönüşüm veya modernizasyon teklifinden önce ya da keşif çıktıları, görüşmeler ve dokümanlar bir değerlendirme raporunda birleştirilecekken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: consulting
+  title: "Müşteri mevcut durum değerlendirmesi"
+  related: "discovery-workshop, fit-gap-analysis, modernization-assessment, capability-map, client-steering-report"
+  prompt: "Bu görüşme notları ve sistem envanterinden orta ölçekli bir sigortacının hasar platformunun mevcut durumunu değerlendir ve nereden başlanması gerektiğini öner."
 ---
 
 # Müşteri Mevcut Durum Değerlendirmesi

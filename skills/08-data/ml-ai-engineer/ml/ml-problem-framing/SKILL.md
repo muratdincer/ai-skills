@@ -1,7 +1,16 @@
 ---
-description: Frames a business need as a machine learning problem - decision supported, prediction target and label, unit and timing of prediction, features available at prediction time, success metrics (offline and business), baseline, data feasibility and go/no-go. Use when someone proposes "let's use ML/AI to predict X", before any data work or model selection starts.
-related: ai-use-case-assessment, feature-engineering-plan, model-evaluation-report, analysis-plan, problem-statement
-prompt: Frame this as an ML problem: the collections team wants to predict which customers will not pay their invoice on time so they can call them earlier.
+name: ml-problem-framing
+description: "Frames a business need as a machine learning problem - decision supported, prediction target and label, unit and timing of prediction, features available at prediction time, success metrics (offline and business), baseline, data feasibility and go/no-go. Use when someone proposes \"let's use ML/AI to predict X\", before any data work or model selection starts."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Frame an ML problem"
+  related: "ai-use-case-assessment, feature-engineering-plan, model-evaluation-report, analysis-plan, problem-statement"
+  prompt: "Frame this as an ML problem: the collections team wants to predict which customers will not pay their invoice on time so they can call them earlier."
 ---
 
 # Frame an ML Problem

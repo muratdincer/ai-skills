@@ -1,7 +1,16 @@
 ---
+name: legacy-code-comprehension
 description: "Builds a working map of unfamiliar or legacy code: entry points, modules and their responsibilities, main runtime flows, data stores, external integrations, hidden business rules, dead or risky areas and safe places to change, with every conclusion tied to evidence in the code. Use when a developer inherits a system, must change code nobody fully understands, plans a modernization, or asks how an old codebase works."
-related: "code-explanation, refactoring, tech-debt-assessment, modernization-assessment, business-rules-catalog"
-prompt: "I inherited this billing module with no documentation. Here is the folder structure and the main classes; help me understand how an invoice gets created."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Understand legacy code"
+  related: "code-explanation, refactoring, tech-debt-assessment, modernization-assessment, business-rules-catalog"
+  prompt: "I inherited this billing module with no documentation. Here is the folder structure and the main classes; help me understand how an invoice gets created."
 ---
 
 # Understand Legacy Code

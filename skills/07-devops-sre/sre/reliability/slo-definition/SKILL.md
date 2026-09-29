@@ -1,7 +1,16 @@
 ---
+name: slo-definition
 description: "Defines user-centric SLIs and SLOs for a service: identifies critical user journeys, chooses indicator types (availability, latency, freshness, correctness, throughput), specifies exact good/valid event definitions and measurement points, and sets targets and compliance windows with the resulting error budget. Use when a service needs reliability targets, when alerts are noisy or unrelated to user pain, or when someone asks what an SLO should be."
-related: "error-budget-policy, alert-design, observability-plan, nfr-specification, kpi-definition"
-prompt: "Define SLIs and SLOs for our checkout API. We have load balancer logs and Prometheus metrics; business says checkout must 'always work'."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Define SLIs and SLOs"
+  related: "error-budget-policy, alert-design, observability-plan, nfr-specification, kpi-definition"
+  prompt: "Define SLIs and SLOs for our checkout API. We have load balancer logs and Prometheus metrics; business says checkout must 'always work'."
 ---
 
 # Define SLIs and SLOs

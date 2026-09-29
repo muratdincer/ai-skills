@@ -1,7 +1,16 @@
 ---
+name: data-catalog-entry
 description: "Bir veri seti, tablo, rapor veya veri ürünü için veri kataloğu kaydı yazar: iş açıklaması, sahip ve veri sorumlusu (steward), tanecik, anahtar alanlar, köken özeti, kalite durumu, tazelik, hassasiyet ve erişim, kullanım rehberi. Bir veri seti keşif için kaydedilirken veya belgelenirken, self-servise hazırlanırken ya da bir tablo veya veri ürünü katalog için tarif edilmek istendiğinde kullanılır."
-related: "data-lineage-doc, data-classification, data-quality-rules, data-contract, glossary-builder"
-prompt: "Bu DDL'i ve finans ekibinin notlarını kullanarak sales.fact_invoice_line tablosu için katalog kaydı yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Veri kataloğu kaydı"
+  related: "data-lineage-doc, data-classification, data-quality-rules, data-contract, glossary-builder"
+  prompt: "Bu DDL'i ve finans ekibinin notlarını kullanarak sales.fact_invoice_line tablosu için katalog kaydı yaz."
 ---
 
 # Veri Kataloğu Kaydı

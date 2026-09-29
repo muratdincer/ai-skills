@@ -1,7 +1,16 @@
 ---
-description: Plans and writes the communication of an organizational change (reorganization, new teams, reporting line changes, role changes, office or process changes): why, what changes, what does not, who is affected, timeline, support and where to ask, sequenced so affected people hear first and privately. Use when a leader announces a reorg or team change, when rumors must be addressed, or when a change needs a message set for different audiences.
-related: team-topology, announcement, bad-news-delivery, faq-builder, communication-plan
-prompt: We are merging the mobile and web teams into product-aligned teams next month; write the announcement and a plan for who hears what, when.
+name: org-change-communication
+description: "Plans and writes the communication of an organizational change (reorganization, new teams, reporting line changes, role changes, office or process changes): why, what changes, what does not, who is affected, timeline, support and where to ask, sequenced so affected people hear first and privately. Use when a leader announces a reorg or team change, when rumors must be addressed, or when a change needs a message set for different audiences."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Communicate an org change"
+  related: "team-topology, announcement, bad-news-delivery, faq-builder, communication-plan"
+  prompt: "We are merging the mobile and web teams into product-aligned teams next month; write the announcement and a plan for who hears what, when."
 ---
 
 # Communicate an Org Change

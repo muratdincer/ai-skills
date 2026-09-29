@@ -1,7 +1,16 @@
 ---
-description: Buton ve bağlantı etiketleri, form etiketleri, yardımcı metinler, yer tutucular, araç ipuçları, boş durumlar, onaylar ve başarı mesajları gibi arayüz mikro metinlerini kullanıcının görevine, ürünün sesine, uzunluk sınırlarına ve yerelleştirmeye uygun şekilde yazar. Bir ekranın veya akışın arayüz metinlerinin yazılması ya da iyileştirilmesi gerektiğinde, etiketler belirsiz veya tutarsız olduğunda ya da "bu buton ne demeli" sorusu sorulduğunda kullanılır.
-related: error-message-writing, voice-and-tone-guide, design-handoff, style-guide-check, glossary-builder
-prompt: Yeni "ekip arkadaşı davet et" penceremizin mikro metinlerini yaz: başlık, alan etiketleri, yardımcı metin, butonlar ve boş durum.
+name: microcopy
+description: "Buton ve bağlantı etiketleri, form etiketleri, yardımcı metinler, yer tutucular, araç ipuçları, boş durumlar, onaylar ve başarı mesajları gibi arayüz mikro metinlerini kullanıcının görevine, ürünün sesine, uzunluk sınırlarına ve yerelleştirmeye uygun şekilde yazar. Bir ekranın veya akışın arayüz metinlerinin yazılması ya da iyileştirilmesi gerektiğinde, etiketler belirsiz veya tutarsız olduğunda ya da \"bu buton ne demeli\" sorusu sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Mikro metin yazma"
+  related: "error-message-writing, voice-and-tone-guide, design-handoff, style-guide-check, glossary-builder"
+  prompt: "Yeni \"ekip arkadaşı davet et\" penceremizin mikro metinlerini yaz: başlık, alan etiketleri, yardımcı metin, butonlar ve boş durum."
 ---
 
 # Mikro Metin Yazma

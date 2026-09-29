@@ -1,7 +1,16 @@
 ---
-description: Bu kütüphanenin yazım rehberine uyan yeni, taşınabilir ve iki dilli bir skill (İngilizce SKILL.md ve Türkçe SKILL.tr.md) yazar; katalog satırını, üç alanlı frontmatter'ı, sabit dokuz bölümü, yapısal sınırları ve içerik kurallarını kapsar. Kütüphaneye yeni bir skill eklenmek istendiğinde, tekrarlanan bir görev veya kontrol listesi skill'e dönüştürülecekken ya da bir skill taslağı kurallara uygunluk açısından incelenecekken kullanılır.
-related: prompt-design, llm-eval-set, document-review, technical-translation, style-guide-check
-prompt: Kütüphanemiz için destek mühendisinin müşteriye kesinti bildirimi yazmasına yardım eden yeni bir skill yaz; katalog satırını ve iki dil dosyasını ver.
+name: ai-skill-authoring
+description: "Bu kütüphanenin yazım rehberine uyan yeni, taşınabilir ve iki dilli bir skill (İngilizce SKILL.md ve Türkçe SKILL.tr.md) yazar; katalog satırını, üç alanlı frontmatter'ı, sabit dokuz bölümü, yapısal sınırları ve içerik kurallarını kapsar. Kütüphaneye yeni bir skill eklenmek istendiğinde, tekrarlanan bir görev veya kontrol listesi skill'e dönüştürülecekken ya da bir skill taslağı kurallara uygunluk açısından incelenecekken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Yeni YZ skill'i yazma"
+  related: "prompt-design, llm-eval-set, document-review, technical-translation, style-guide-check"
+  prompt: "Kütüphanemiz için destek mühendisinin müşteriye kesinti bildirimi yazmasına yardım eden yeni bir skill yaz; katalog satırını ve iki dil dosyasını ver."
 ---
 
 # Yeni YZ Skill'i Yazma

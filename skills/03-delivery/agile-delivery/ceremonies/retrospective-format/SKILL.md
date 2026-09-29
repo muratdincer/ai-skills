@@ -1,7 +1,16 @@
 ---
+name: retrospective-format
 description: "Designs a retrospective format tailored to the team's current mood, topic, size and setting: picks or adapts activities for each retro phase, writes the prompts, timings and materials, and explains why the format fits. Use when retros feel stale, when a specific theme (incident, conflict, milestone, new team) needs a dedicated retro, or when someone asks for a new retro idea or template."
-related: "retrospective-facilitation, team-health-check, workshop-plan, facilitation-guide, conflict-resolution"
-prompt: "Our retros have become boring and the same three people talk. Design a 45-minute remote retro format for a tired team of 9 after a hard release."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Design a retrospective format"
+  related: "retrospective-facilitation, team-health-check, workshop-plan, facilitation-guide, conflict-resolution"
+  prompt: "Our retros have become boring and the same three people talk. Design a 45-minute remote retro format for a tired team of 9 after a hard release."
 ---
 
 # Design a Retrospective Format

@@ -1,7 +1,16 @@
 ---
+name: clean-code-review
 description: "Kodu sürdürülebilirlik açısından inceler: isimlendirme, fonksiyon büyüklüğü ve sorumluluğu, SOLID ve bağımlılık, tekrar, yorumlar ve tanınabilir kod kokuları; konum, etki ve somut düzeltme içeren önceliklendirilmiş bulgular üretir. Kodun temiz, okunabilir veya iyi tasarlanmış olup olmadığı sorulduğunda, bir dosya, sınıf veya modül için sürdürülebilirlik incelemesi istendiğinde ya da kod devre hazırlanırken kullanılır."
-related: "refactoring, code-review, coding-standards, review-comment-writing, code-quality-report"
-prompt: "Bu OrderService sınıfına Clean Code incelemesi yap; iki yılda büyüdü ve yeni gelenler değiştirmekte zorlanıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Clean Code incelemesi"
+  related: "refactoring, code-review, coding-standards, review-comment-writing, code-quality-report"
+  prompt: "Bu OrderService sınıfına Clean Code incelemesi yap; iki yılda büyüdü ve yeni gelenler değiştirmekte zorlanıyor."
 ---
 
 # Clean Code İncelemesi

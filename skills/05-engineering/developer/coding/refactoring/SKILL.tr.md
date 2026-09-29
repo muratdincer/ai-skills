@@ -1,7 +1,16 @@
 ---
+name: refactoring
 description: "Bir sonraki değişiklik için önemli olan kod kokularını belirleyerek, davranışı karakterizasyon testleriyle güvenceye alarak ve adlandırılmış refactoring'leri (Extract Function, Replace Conditional with Polymorphism, Introduce Parameter Object vb.) davranışı koruyan küçük adımlarla uygulayarak kodu güvenli biçimde yeniden düzenler. Kod değiştirilmesi zor olduğunda, dağınık koda özellik eklemeden önce ya da davranışı değiştirmeden kodun temizlenmesi, yeniden yapılandırılması istendiğinde kullanılır."
-related: "clean-code-review, legacy-code-comprehension, unit-test-writing, tech-debt-assessment, code-review"
-prompt: "Bu 200 satırlık calculatePrice metodunu refactor et; gelecek sprint yeni bir indirim türü eklemem gerekiyor ve burada her değişiklik bir şeyi bozuyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Kodu yeniden düzenleme"
+  related: "clean-code-review, legacy-code-comprehension, unit-test-writing, tech-debt-assessment, code-review"
+  prompt: "Bu 200 satırlık calculatePrice metodunu refactor et; gelecek sprint yeni bir indirim türü eklemem gerekiyor ve burada her değişiklik bir şeyi bozuyor."
 ---
 
 # Kodu Yeniden Düzenleme

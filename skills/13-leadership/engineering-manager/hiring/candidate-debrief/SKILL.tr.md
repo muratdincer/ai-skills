@@ -1,7 +1,16 @@
 ---
-description: Mülakat değerlendirme formlarını yetkinlik kapsama matrisi, çelişen sinyaller, çözülen ve çözülmeyen sorular ile seviyesiyle birlikte belgelenmiş bir işe alım kararı içeren yapılandırılmış bir toplantı özetine dönüştürür. Aday değerlendirme toplantısı hazırlanırken veya yapılırken, mülakatçılar anlaşamadığında ya da kararın kanıtı ve gerekçesiyle kayda geçmesi gerektiğinde kullanılır.
-related: interview-scorecard, interview-plan, decision-log, onboarding-plan-30-60-90, bias-check
-prompt: Bu dört değerlendirme formundan B adayının toplantı özetini çıkar ve kıdemli seviye için karar taslağı hazırla.
+name: candidate-debrief
+description: "Mülakat değerlendirme formlarını yetkinlik kapsama matrisi, çelişen sinyaller, çözülen ve çözülmeyen sorular ile seviyesiyle birlikte belgelenmiş bir işe alım kararı içeren yapılandırılmış bir toplantı özetine dönüştürür. Aday değerlendirme toplantısı hazırlanırken veya yapılırken, mülakatçılar anlaşamadığında ya da kararın kanıtı ve gerekçesiyle kayda geçmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Aday değerlendirme toplantısı özeti"
+  related: "interview-scorecard, interview-plan, decision-log, onboarding-plan-30-60-90, bias-check"
+  prompt: "Bu dört değerlendirme formundan B adayının toplantı özetini çıkar ve kıdemli seviye için karar taslağı hazırla."
 ---
 
 # Aday Değerlendirme Toplantısı Özeti

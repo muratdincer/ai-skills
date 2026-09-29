@@ -1,7 +1,16 @@
 ---
-description: Her hedef kitle için hangi bilgiyi, ne zaman ve hangi sıklıkta, hangi kanaldan, kimden alacağını ve geri bildirim ile eskalasyonların nasıl geri akacağını belirleyen proje iletişim planını oluşturur. Proje başında, paydaşlar bilgisiz kaldıklarından veya aşırı yüklendiklerinden şikayet ettiğinde ya da yönetişim ve raporlama ritimleri üzerinde anlaşılması gerektiğinde kullanılır.
-related: stakeholder-register, project-status-report, governance-framework, status-update, announcement
-prompt: Ana bankacılık yükseltmemiz için yöneticileri, şube personelini, BT operasyonu ve tedarikçiyi kapsayan bir iletişim planı oluştur.
+name: communication-plan
+description: "Her hedef kitle için hangi bilgiyi, ne zaman ve hangi sıklıkta, hangi kanaldan, kimden alacağını ve geri bildirim ile eskalasyonların nasıl geri akacağını belirleyen proje iletişim planını oluşturur. Proje başında, paydaşlar bilgisiz kaldıklarından veya aşırı yüklendiklerinden şikayet ettiğinde ya da yönetişim ve raporlama ritimleri üzerinde anlaşılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "İletişim planı"
+  related: "stakeholder-register, project-status-report, governance-framework, status-update, announcement"
+  prompt: "Ana bankacılık yükseltmemiz için yöneticileri, şube personelini, BT operasyonu ve tedarikçiyi kapsayan bir iletişim planı oluştur."
 ---
 
 # İletişim Planı

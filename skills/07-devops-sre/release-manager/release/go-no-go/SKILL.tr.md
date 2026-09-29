@@ -1,7 +1,16 @@
 ---
+name: go-no-go
 description: "Bir sürüm veya geçiş için yayına alma (go/no-go) kararını hazırlar ve kaydeder: üzerinde anlaşılmış kriterler, kriter başına kanıt, sorumlusu belli açık riskler, koşullu onay koşulları ve onaylayıcıları içeren bir karar kaydı. Bir sürüm, migration veya lansman resmi bir karar gerektirdiğinde, go/no-go toplantı paketi veya kontrol listesi istendiğinde ya da ekibin neden yayına çıktığını veya ertelediğini belgelemesi gerektiğinde kullanılır."
-related: "release-quality-gate, release-plan, rollback-plan, decision-log, test-summary-report"
-prompt: "Yarınki CRM migration geçişi için go/no-go hazırla. Test sonuçları, açık hatalar ve prova notları ekte."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Yayına alma kararı"
+  related: "release-quality-gate, release-plan, rollback-plan, decision-log, test-summary-report"
+  prompt: "Yarınki CRM migration geçişi için go/no-go hazırla. Test sonuçları, açık hatalar ve prova notları ekte."
 ---
 
 # Yayına Alma Kararı

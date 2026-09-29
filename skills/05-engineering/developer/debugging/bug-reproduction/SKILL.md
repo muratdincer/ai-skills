@@ -1,7 +1,16 @@
 ---
-description: Turns a vague bug report into a minimal, deterministic reproduction with exact steps, environment, data preconditions, expected versus actual result and a reproduction rate, ideally ending in a failing automated test. Use when a defect is reported as hard to reproduce, intermittent, environment-specific, or only described in user terms, and before starting a fix.
-related: bug-report, debugging-hypotheses, log-analysis, unit-test-writing, flaky-test-analysis
-prompt: Users say the export sometimes produces an empty file. Help me build a reliable reproduction.
+name: bug-reproduction
+description: "Turns a vague bug report into a minimal, deterministic reproduction with exact steps, environment, data preconditions, expected versus actual result and a reproduction rate, ideally ending in a failing automated test. Use when a defect is reported as hard to reproduce, intermittent, environment-specific, or only described in user terms, and before starting a fix."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Reproduce a bug"
+  related: "bug-report, debugging-hypotheses, log-analysis, unit-test-writing, flaky-test-analysis"
+  prompt: "Users say the export sometimes produces an empty file. Help me build a reliable reproduction."
 ---
 
 # Reproduce a Bug

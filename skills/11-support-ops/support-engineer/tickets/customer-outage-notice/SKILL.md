@@ -1,7 +1,16 @@
 ---
+name: customer-outage-notice
 description: "Writes customer-facing outage notices for each stage of a service disruption (investigating, identified, monitoring, resolved) and planned maintenance: plain-language impact, affected services and regions, status, workaround and next update time, without speculation or blame. Use when customers are affected by an outage or degradation, when a status page or email update is due, or when planned maintenance must be announced."
-related: "incident-communication, incident-response, ticket-response, postmortem, known-error-article"
-prompt: "Write the first status page notice: payments via card fail for about 30% of customers in Turkey since 14:05, cause unknown, team investigating."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Write a customer outage notice"
+  related: "incident-communication, incident-response, ticket-response, postmortem, known-error-article"
+  prompt: "Write the first status page notice: payments via card fail for about 30% of customers in Turkey since 14:05, cause unknown, team investigating."
 ---
 
 # Write a Customer Outage Notice

@@ -1,7 +1,16 @@
 ---
-description: Bir ürünü, akışı veya ekranları Nielsen'in 10 kullanılabilirlik ilkesine göre değerlendirir; ihlal edilen ilke, kanıt, 0-4 önem derecesi ve somut öneriyle konumlandırılmış bulgular ile önceliklendirilmiş bir özet üretir. Kullanıcı testinden önce veya onun yerine hızlı bir uzman kullanılabilirlik incelemesi gerektiğinde, "bu arayüzde ne yanlış" sorulduğunda ya da ekran görüntüleri, prototipler veya canlı bir akış denetlenecekse kullanılır.
-related: usability-test-script, accessibility-audit, design-critique, research-synthesis, user-flow
-prompt: Masraf girişi akışımız için sezgisel değerlendirme yap; 4 ekranın görüntüleri ekte.
+name: heuristic-evaluation
+description: "Bir ürünü, akışı veya ekranları Nielsen'in 10 kullanılabilirlik ilkesine göre değerlendirir; ihlal edilen ilke, kanıt, 0-4 önem derecesi ve somut öneriyle konumlandırılmış bulgular ile önceliklendirilmiş bir özet üretir. Kullanıcı testinden önce veya onun yerine hızlı bir uzman kullanılabilirlik incelemesi gerektiğinde, \"bu arayüzde ne yanlış\" sorulduğunda ya da ekran görüntüleri, prototipler veya canlı bir akış denetlenecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Sezgisel değerlendirme"
+  related: "usability-test-script, accessibility-audit, design-critique, research-synthesis, user-flow"
+  prompt: "Masraf girişi akışımız için sezgisel değerlendirme yap; 4 ekranın görüntüleri ekte."
 ---
 
 # Sezgisel Değerlendirme

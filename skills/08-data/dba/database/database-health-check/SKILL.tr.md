@@ -1,7 +1,16 @@
 ---
+name: database-health-check
 description: "Kullanıcının sağladığı metrikler, görünümler ve ayarlar üzerinden bir veritabanı instance'ının yapılandırılmış sağlık kontrolünü yapar: bekleme profili, en çok kaynak tüketen sorgular, kilitlenme ve bloklanma, depolama büyümesi ve şişkinlik/parçalanma, indeks ve istatistik sağlığı, yapılandırma, replikasyon, yedekler ve temel güvenlik; ardından bulguları kanıt ve çözümleriyle önceliklendirir. Periyodik veritabanı incelemelerinde, yoğun sezon veya geçiş öncesinde, veritabanı genel olarak yavaş hissettirdiğinde ya da tanınmayan bir veritabanı devralındığında kullanılır."
-related: "query-optimization, index-recommendation, backup-restore-plan, capacity-planning, alert-design"
-prompt: "Üretimdeki SQL veritabanımızın sağlık kontrolünü yap. En yüksek beklemeleri, CPU'ya göre ilk 10 sorguyu, dosya boyutlarını ve yapılandırma ayarlarını yapıştırdım."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: dba
+  area: database
+  title: "Veritabanı sağlık kontrolü"
+  related: "query-optimization, index-recommendation, backup-restore-plan, capacity-planning, alert-design"
+  prompt: "Üretimdeki SQL veritabanımızın sağlık kontrolünü yap. En yüksek beklemeleri, CPU'ya göre ilk 10 sorguyu, dosya boyutlarını ve yapılandırma ayarlarını yapıştırdım."
 ---
 
 # Veritabanı Sağlık Kontrolü

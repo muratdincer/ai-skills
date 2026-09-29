@@ -1,7 +1,16 @@
 ---
+name: velocity-analysis
 description: "Bir ekibin hız (iterasyon başına puan) veya verim (hafta/iterasyon başına madde) geçmişini analiz eder: trend, değişkenlik, aykırı değerler ve nedenleri ile kalan iş için aralık tabanlı bir öngörü üretir. İterasyon veya verim rakamları paylaşılıp ekibin hızlanıp yavaşladığı, ne kadar öngörülebilir olduğu ya da bir backlog'un kaç iterasyon süreceği sorulduğunda kullanılır."
-related: "monte-carlo-forecast, burndown-analysis, cycle-time-analysis, release-planning, engineering-metrics-review"
-prompt: "Son 10 sprint hızımız: 21, 34, 29, 18, 31, 33, 12, 30, 28, 32. Sürümde 180 puan kaldı. Bu bize ne söylüyor ve ne zaman bitirebiliriz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Hız/verim analizi"
+  related: "monte-carlo-forecast, burndown-analysis, cycle-time-analysis, release-planning, engineering-metrics-review"
+  prompt: "Son 10 sprint hızımız: 21, 34, 29, 18, 31, 33, 12, 30, 28, 32. Sürümde 180 puan kaldı. Bu bize ne söylüyor ve ne zaman bitirebiliriz?"
 ---
 
 # Hız/Verim Analizi

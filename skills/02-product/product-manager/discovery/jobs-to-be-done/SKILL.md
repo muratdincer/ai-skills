@@ -1,7 +1,16 @@
 ---
-description: Frames Jobs-to-be-Done by writing a solution-free core job statement, related and emotional/social jobs, job steps, and measurable desired outcome statements that can be prioritized by importance and satisfaction. Use when defining what customers are trying to get done, when innovation or roadmap work needs a solution-agnostic frame, or when someone asks for JTBD, job stories or desired outcomes.
-related: persona, opportunity-solution-tree, customer-journey-map, problem-interview-script, feedback-synthesis
-prompt: Frame the jobs-to-be-done for restaurant owners who manage supplier orders.
+name: jobs-to-be-done
+description: "Frames Jobs-to-be-Done by writing a solution-free core job statement, related and emotional/social jobs, job steps, and measurable desired outcome statements that can be prioritized by importance and satisfaction. Use when defining what customers are trying to get done, when innovation or roadmap work needs a solution-agnostic frame, or when someone asks for JTBD, job stories or desired outcomes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Frame Jobs-to-be-Done"
+  related: "persona, opportunity-solution-tree, customer-journey-map, problem-interview-script, feedback-synthesis"
+  prompt: "Frame the jobs-to-be-done for restaurant owners who manage supplier orders."
 ---
 
 # Frame Jobs-to-be-Done

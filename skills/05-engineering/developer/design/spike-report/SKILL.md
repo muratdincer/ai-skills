@@ -1,7 +1,16 @@
 ---
+name: spike-report
 description: "Writes a spike report that records the question a time-boxed investigation had to answer, what was tried, evidence found, options with trade-offs and a clear recommendation with follow-up work. Use when a spike, proof of concept or technical investigation has finished (or is being planned) and its result must be shared so the team can decide and estimate."
-related: "technical-design-doc, adr, technology-selection, trade-off-analysis, task-breakdown"
-prompt: "Write a spike report: we spent two days checking whether our current search can handle typo-tolerant product search or whether we need a dedicated search engine."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Write a spike report"
+  related: "technical-design-doc, adr, technology-selection, trade-off-analysis, task-breakdown"
+  prompt: "Write a spike report: we spent two days checking whether our current search can handle typo-tolerant product search or whether we need a dedicated search engine."
 ---
 
 # Write a Spike Report

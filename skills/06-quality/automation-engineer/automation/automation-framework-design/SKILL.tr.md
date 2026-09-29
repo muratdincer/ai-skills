@@ -1,7 +1,16 @@
 ---
+name: automation-framework-design
 description: "Bir test otomasyon çatısı tasarlar: test seviyeleri ve payları, katmanlı mimari (testler, iş aksiyonları, page object/API istemcileri, sürücüler), test verisi ve ortam yönetimi, konfigürasyon ve gizli bilgiler, raporlama ve izlenebilirlik, paralellik ve kalite kapılarıyla CI entegrasyonu ve bakım kolaylığı için kurallar. Bir ekip otomasyona başladığında, mevcut set yavaş, kırılgan veya sahipsiz olup yeniden tasarım gerektirdiğinde ya da UI, API ve sözleşme testleri için bir yapı seçilecekken kullanılır."
-related: test-strategy, automation-candidate-selection, test-automation-script, pipeline-design, flaky-test-analysis
-prompt: "Web uygulamamız ve REST API'lerimiz için bir test otomasyon çatısı tasarla; set her pull request'te 15 dakikadan kısa sürede koşmalı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Test otomasyon çatısı tasarımı"
+  related: "test-strategy, automation-candidate-selection, test-automation-script, pipeline-design, flaky-test-analysis"
+  prompt: "Web uygulamamız ve REST API'lerimiz için bir test otomasyon çatısı tasarla; set her pull request'te 15 dakikadan kısa sürede koşmalı."
 ---
 
 # Test Otomasyon Çatısı Tasarımı

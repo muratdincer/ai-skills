@@ -1,7 +1,16 @@
 ---
-description: Compares direct, indirect and substitute competitors on target segment, jobs served, features, pricing and positioning, then identifies gaps, threats and differentiation opportunities with dated sources. Use when entering a market, planning strategy or positioning, preparing for sales losses, or when someone asks how a product stacks up against rivals.
-related: market-analysis, positioning-statement, pricing-analysis, product-strategy-one-pager, swot-analysis
-prompt: Compare our expense management app with the main competitors used by Turkish SMEs and show where we can differentiate.
+name: competitor-analysis
+description: "Compares direct, indirect and substitute competitors on target segment, jobs served, features, pricing and positioning, then identifies gaps, threats and differentiation opportunities with dated sources. Use when entering a market, planning strategy or positioning, preparing for sales losses, or when someone asks how a product stacks up against rivals."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Analyze competitors"
+  related: "market-analysis, positioning-statement, pricing-analysis, product-strategy-one-pager, swot-analysis"
+  prompt: "Compare our expense management app with the main competitors used by Turkish SMEs and show where we can differentiate."
 ---
 
 # Analyze Competitors

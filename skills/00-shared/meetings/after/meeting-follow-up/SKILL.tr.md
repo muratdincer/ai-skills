@@ -1,7 +1,16 @@
 ---
-description: Toplantı sonrasında katılımcılara ve paydaşlara teşekkür satırı, sonuç, kararlar, sorumlu ve tarihli aksiyonlar, açık sorular, sonraki toplantı ve düzeltme son tarihi içeren takip mesajını yazar. Bir toplantının hemen ardından herkesin aynı anlayış ve taahhütlerle ayrılması için özet e-posta veya sohbet mesajı gönderilmesi gerektiğinde kullanılır.
-related: meeting-summary, action-item-extraction, meeting-notes, stakeholder-email, open-questions-tracker
-prompt: Bu notlara göre bugün tedarikçiyle yaptığımız başlangıç toplantısının katılımcılarına bir takip e-postası yaz.
+name: meeting-follow-up
+description: "Toplantı sonrasında katılımcılara ve paydaşlara teşekkür satırı, sonuç, kararlar, sorumlu ve tarihli aksiyonlar, açık sorular, sonraki toplantı ve düzeltme son tarihi içeren takip mesajını yazar. Bir toplantının hemen ardından herkesin aynı anlayış ve taahhütlerle ayrılması için özet e-posta veya sohbet mesajı gönderilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Toplantı sonrası takip mesajı"
+  related: "meeting-summary, action-item-extraction, meeting-notes, stakeholder-email, open-questions-tracker"
+  prompt: "Bu notlara göre bugün tedarikçiyle yaptığımız başlangıç toplantısının katılımcılarına bir takip e-postası yaz."
 ---
 
 # Toplantı Sonrası Takip Mesajı

@@ -1,7 +1,16 @@
 ---
+name: test-summary-report
 description: "Writes a test summary (completion) report that states scope tested and not tested, execution results, coverage against requirements and risks, open defects by severity, deviations from the plan, residual risk and a clear recommendation, aligned with ISO/IEC/IEEE 29119-3 content. Use at the end of a test level, iteration or release cycle, when stakeholders need a decision-ready quality status, or when raw execution numbers must be turned into a report."
-related: test-plan, release-quality-gate, bug-triage, defect-trend-analysis, executive-summary
-prompt: "Write the test summary report for release 3.4 from these numbers: 412 cases, 389 passed, 11 failed, 12 blocked, 7 open bugs (1 critical), performance test not run."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Write a test summary report"
+  related: "test-plan, release-quality-gate, bug-triage, defect-trend-analysis, executive-summary"
+  prompt: "Write the test summary report for release 3.4 from these numbers: 412 cases, 389 passed, 11 failed, 12 blocked, 7 open bugs (1 critical), performance test not run."
 ---
 
 # Write a Test Summary Report

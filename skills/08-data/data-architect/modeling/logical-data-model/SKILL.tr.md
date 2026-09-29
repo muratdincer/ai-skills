@@ -1,7 +1,16 @@
 ---
+name: logical-data-model
 description: "Kavramsal modeli veya gereksinimleri; varlıklar, nitelikler, değer alanları, birincil/alternatif/yabancı anahtarlar, kısıtlar ve tarihçe yönetimi içeren, veritabanı ürününden bağımsız normalize bir mantıksal veri modeline dönüştürür. Fiziksel şema tasarımına hazırlanırken, gereksinimleri veriyle doğrularken ya da ERD, 3NF model veya nitelik düzeyinde model istendiğinde kullanılır."
-related: "conceptual-data-model, database-schema-design, data-requirements, business-rules-catalog, data-classification"
-prompt: "Hasar alanı için bu kavramsal modelden ve ekteki alan listesinden 3NF mantıksal veri modeli çıkar."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Mantıksal veri modeli"
+  related: "conceptual-data-model, database-schema-design, data-requirements, business-rules-catalog, data-classification"
+  prompt: "Hasar alanı için bu kavramsal modelden ve ekteki alan listesinden 3NF mantıksal veri modeli çıkar."
 ---
 
 # Mantıksal Veri Modeli

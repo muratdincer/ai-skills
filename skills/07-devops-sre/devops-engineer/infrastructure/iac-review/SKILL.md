@@ -1,7 +1,16 @@
 ---
+name: iac-review
 description: "Reviews infrastructure as code (Terraform/OpenTofu, Bicep, CloudFormation, Pulumi, Ansible and similar) and plan output for security misconfigurations, state and drift risks, destructive changes, modularity, naming/tagging and cost. Use when an IaC pull request or plan needs review, before applying changes to shared or production infrastructure, or when auditing an existing IaC codebase."
-related: "secrets-management-plan, finops-review, environment-strategy, threat-model, pipeline-design"
-prompt: "Review this Terraform module and plan output. It creates a storage bucket, a database and a VPC for our new service."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Review infrastructure as code"
+  related: "secrets-management-plan, finops-review, environment-strategy, threat-model, pipeline-design"
+  prompt: "Review this Terraform module and plan output. It creates a storage bucket, a database and a VPC for our new service."
 ---
 
 # Review Infrastructure as Code

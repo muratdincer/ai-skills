@@ -1,7 +1,16 @@
 ---
+name: test-strategy
 description: "Bir ürün, program veya kurum için test seviyelerini, test türlerini, ortamları, araç kategorilerini, veri yaklaşımını ve risk bazlı odağı tanımlayan bir test stratejisi yazar. Yeni bir ürün veya büyük bir girişim başladığında, ekipler arasında test yaklaşımı tutarsız olduğunda ya da bir sistemin genel olarak nasıl test edileceği sorulduğunda kullanılır."
-related: test-plan, risk-based-testing, environment-strategy, automation-framework-design, nfr-specification
-prompt: "Yeni müşteri kazanım platformumuz için test stratejisi yaz: web + mobil ön yüz, 12 mikroservis, core banking ve KYC sağlayıcısı entegrasyonları var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Test stratejisi yazma"
+  related: "test-plan, risk-based-testing, environment-strategy, automation-framework-design, nfr-specification"
+  prompt: "Yeni müşteri kazanım platformumuz için test stratejisi yaz: web + mobil ön yüz, 12 mikroservis, core banking ve KYC sağlayıcısı entegrasyonları var."
 ---
 
 # Test Stratejisi Yazma

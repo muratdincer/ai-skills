@@ -1,7 +1,16 @@
 ---
-description: Bir sistemin dayanıklılığını, her kritik akışı ve bağımlılığı hata modları üzerinden geçirerek inceler; zaman aşımları, yeniden denemeler, devre kesiciler, bölmeler (bulkhead), idempotency, kademeli bozulma, veri kalıcılığı ve felaket kurtarmayı erişilebilirlik hedeflerine (SLO, RTO, RPO) göre kontrol eder. Kritik bir servis canlıya çıkmadan önce, bağımlılık hatalarından kaynaklanan olaylardan sonra, yeni bir dış bağımlılık eklenirken veya DR hazırlığının kanıtlanması gerektiğinde kullanılır.
-related: chaos-experiment, dr-plan, slo-definition, integration-pattern-selection, architecture-review
-prompt: Ödeme akışımızın dayanıklılığını incele: fiyatlama, stok, ödeme sağlayıcısı ve fraud servisini senkron çağırıyor; geçen ay fraud servisi yavaşladığında iki kesinti yaşadık.
+name: resilience-review
+description: "Bir sistemin dayanıklılığını, her kritik akışı ve bağımlılığı hata modları üzerinden geçirerek inceler; zaman aşımları, yeniden denemeler, devre kesiciler, bölmeler (bulkhead), idempotency, kademeli bozulma, veri kalıcılığı ve felaket kurtarmayı erişilebilirlik hedeflerine (SLO, RTO, RPO) göre kontrol eder. Kritik bir servis canlıya çıkmadan önce, bağımlılık hatalarından kaynaklanan olaylardan sonra, yeni bir dış bağımlılık eklenirken veya DR hazırlığının kanıtlanması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Dayanıklılık incelemesi"
+  related: "chaos-experiment, dr-plan, slo-definition, integration-pattern-selection, architecture-review"
+  prompt: "Ödeme akışımızın dayanıklılığını incele: fiyatlama, stok, ödeme sağlayıcısı ve fraud servisini senkron çağırıyor; geçen ay fraud servisi yavaşladığında iki kesinti yaşadık."
 ---
 
 # Dayanıklılık İncelemesi

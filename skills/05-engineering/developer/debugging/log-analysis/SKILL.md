@@ -1,7 +1,16 @@
 ---
-description: Analyzes application, infrastructure or access logs to build a timeline, correlate events across services by request or trace ID, detect anomalies and error clusters, and state what the evidence supports and what it does not. Use when a developer shares log excerpts or exports around an incident, failure, slowdown or odd behavior and asks what happened, when it started or which component is at fault.
-related: stack-trace-analysis, debugging-hypotheses, incident-response, postmortem, logging-instrumentation
-prompt: Here are logs from the API gateway and the order service between 14:00 and 14:20. What happened when checkout started failing?
+name: log-analysis
+description: "Analyzes application, infrastructure or access logs to build a timeline, correlate events across services by request or trace ID, detect anomalies and error clusters, and state what the evidence supports and what it does not. Use when a developer shares log excerpts or exports around an incident, failure, slowdown or odd behavior and asks what happened, when it started or which component is at fault."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Analyze logs"
+  related: "stack-trace-analysis, debugging-hypotheses, incident-response, postmortem, logging-instrumentation"
+  prompt: "Here are logs from the API gateway and the order service between 14:00 and 14:20. What happened when checkout started failing?"
 ---
 
 # Analyze Logs

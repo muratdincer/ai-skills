@@ -1,7 +1,16 @@
 ---
+name: document-analysis
 description: "Şartname, kullanım kılavuzu, prosedür, sözleşme, mevzuat, form ve rapor gibi mevcut dokümanlardan gereksinim çıkarır; kaynağa izlenebilen aday gereksinimler, iş kuralları, veri öğeleri ve çelişkiler listesi üretir. Eski sistem dokümanları, bir mevzuat veya sözleşme görüşmelerden önce taranacaksa ya da 'bu dokümanlardan hangi gereksinimleri çıkarabiliriz?' diye sorulduğunda kullanılır."
-related: "business-rules-catalog, interview-question-set, requirements-consistency-check, traceability-matrix, glossary-builder"
-prompt: "Mevcut hasar sistemimizin 20 sayfalık operasyon kılavuzundan ve yeni yönetmelik metninden gereksinimleri çıkar, nerede çeliştiklerini göster."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Mevcut dokümanlardan gereksinim çıkarma"
+  related: "business-rules-catalog, interview-question-set, requirements-consistency-check, traceability-matrix, glossary-builder"
+  prompt: "Mevcut hasar sistemimizin 20 sayfalık operasyon kılavuzundan ve yeni yönetmelik metninden gereksinimleri çıkar, nerede çeliştiklerini göster."
 ---
 
 # Mevcut Dokümanlardan Gereksinim Çıkarma

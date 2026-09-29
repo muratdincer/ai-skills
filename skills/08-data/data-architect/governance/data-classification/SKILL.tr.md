@@ -1,7 +1,16 @@
 ---
+name: data-classification
 description: "Veri setlerini ve alanları hassasiyet ve gizlilik kategorisine göre sınıflandırır: gizlilik düzeyi, kişisel veri, KVKK Madde 6 ve GDPR Madde 9-10 kapsamında özel nitelikli veri, doğrudan ve dolaylı tanımlayıcılar; buradan maskeleme, şifreleme, erişim ve saklama gibi işleme kontrollerini türetir. Veri bir platforma alınırken, DPIA veya erişim modeli hazırlanırken ya da kişisel veya hassas sütunlar etiketlenmek istendiğinde kullanılır."
-related: "privacy-impact-assessment, retention-policy, data-catalog-entry, access-review, secrets-management-plan"
-prompt: "Müşteri ve kredi başvuru tablolarımızın sütunlarını KVKK'ya göre sınıflandır ve maskeleme kuralları öner."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Veri hassasiyet sınıflandırması"
+  related: "privacy-impact-assessment, retention-policy, data-catalog-entry, access-review, secrets-management-plan"
+  prompt: "Müşteri ve kredi başvuru tablolarımızın sütunlarını KVKK'ya göre sınıflandır ve maskeleme kuralları öner."
 ---
 
 # Veri Hassasiyet Sınıflandırması

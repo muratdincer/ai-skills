@@ -1,7 +1,16 @@
 ---
-description: Hedef kitleye özel bir akış ve her slaytta tek mesaj, destekleyici kanıt, net bir talep ve süre planı içeren slayt slayt bir sunum iskeleti çıkarır. Birinin yöneticilere, müşteriye, bir kurula veya ekibe öneri, durum, tasarım, sonuç ya da karar sunması gerektiğinde ve slaytları tasarlamadan önce yapıya ihtiyaç duyduğunda kullanılır.
-related: executive-summary, steering-committee-pack, demo-script, elevator-pitch, stakeholder-map
-prompt: Yönetim ekibine, raporlama iş yüklerimizi gelecek yıl yeni veri platformuna taşımayı önerdiğimiz 20 dakikalık bir sunumun iskeletini çıkar.
+name: presentation-outline
+description: "Hedef kitleye özel bir akış ve her slaytta tek mesaj, destekleyici kanıt, net bir talep ve süre planı içeren slayt slayt bir sunum iskeleti çıkarır. Birinin yöneticilere, müşteriye, bir kurula veya ekibe öneri, durum, tasarım, sonuç ya da karar sunması gerektiğinde ve slaytları tasarlamadan önce yapıya ihtiyaç duyduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: verbal
+  title: "Sunum iskeleti çıkarma"
+  related: "executive-summary, steering-committee-pack, demo-script, elevator-pitch, stakeholder-map"
+  prompt: "Yönetim ekibine, raporlama iş yüklerimizi gelecek yıl yeni veri platformuna taşımayı önerdiğimiz 20 dakikalık bir sunumun iskeletini çıkar."
 ---
 
 # Sunum İskeleti Çıkarma

@@ -1,7 +1,16 @@
 ---
-description: Runs a SWOT analysis for a clearly scoped subject (product, team, platform, initiative, business unit) against a stated objective, keeping internal strengths and weaknesses separate from external opportunities and threats, backing each item with evidence and converting the result into TOWS strategies and prioritized actions. Use for strategy or planning sessions, before a major investment, when entering a market, or when someone asks for a SWOT.
-related: competitor-analysis, product-strategy-one-pager, technology-strategy, assumption-mapping, risk-register
-prompt: Do a SWOT analysis for our internal data platform team ahead of next year's planning.
+name: swot-analysis
+description: "Runs a SWOT analysis for a clearly scoped subject (product, team, platform, initiative, business unit) against a stated objective, keeping internal strengths and weaknesses separate from external opportunities and threats, backing each item with evidence and converting the result into TOWS strategies and prioritized actions. Use for strategy or planning sessions, before a major investment, when entering a market, or when someone asks for a SWOT."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Run a SWOT analysis"
+  related: "competitor-analysis, product-strategy-one-pager, technology-strategy, assumption-mapping, risk-register"
+  prompt: "Do a SWOT analysis for our internal data platform team ahead of next year's planning."
 ---
 
 # Run a SWOT Analysis

@@ -1,7 +1,16 @@
 ---
-description: Mevcut bir mesajı; olgularını, taahhütlerini ve taleplerini koruyarak hedef bir tona (daha net, daha yumuşak, daha kararlı, daha resmi, daha kısa, daha tarafsız) göre yeniden yazar ve temel değişiklikleri açıklar. Elinde fazla sert, fazla belirsiz, fazla uzun, fazla gayriresmi veya fazla çekingen görünen bir e-posta, sohbet mesajı, inceleme yorumu veya yanıt taslağı olduğunda ya da "daha iyi göster", "yumuşat", "daha kararlı yaz", "profesyonelleştir" istendiğinde kullanılır.
-related: stakeholder-email, feedback-sbi, bad-news-delivery, document-simplify, technical-translation
-prompt: Müşteriye yazdığım bu yanıtı nazik kalarak daha kararlı hale getir: "Kusura bakmayın, özel raporu bu ay yapamayabiliriz, mümkünse belki gelecek ay?"
+name: tone-rewrite
+description: "Mevcut bir mesajı; olgularını, taahhütlerini ve taleplerini koruyarak hedef bir tona (daha net, daha yumuşak, daha kararlı, daha resmi, daha kısa, daha tarafsız) göre yeniden yazar ve temel değişiklikleri açıklar. Elinde fazla sert, fazla belirsiz, fazla uzun, fazla gayriresmi veya fazla çekingen görünen bir e-posta, sohbet mesajı, inceleme yorumu veya yanıt taslağı olduğunda ya da \"daha iyi göster\", \"yumuşat\", \"daha kararlı yaz\", \"profesyonelleştir\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Ton düzenleme"
+  related: "stakeholder-email, feedback-sbi, bad-news-delivery, document-simplify, technical-translation"
+  prompt: "Müşteriye yazdığım bu yanıtı nazik kalarak daha kararlı hale getir: \"Kusura bakmayın, özel raporu bu ay yapamayabiliriz, mümkünse belki gelecek ay?"
 ---
 
 # Ton Düzenleme

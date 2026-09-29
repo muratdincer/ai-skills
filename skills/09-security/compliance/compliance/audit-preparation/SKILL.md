@@ -1,7 +1,16 @@
 ---
+name: audit-preparation
 description: "Prepares a team for an internal, certification, customer or regulatory audit: confirms scope and criteria, builds an evidence request list with owners and due dates, runs a readiness gap check, and plans the audit week and auditee briefing. Use when an audit date is announced (ISO 27001, SOC 2, KVKK, PCI DSS, BDDK, customer audit), when an auditor sends a PBC/request list, or when previous findings must be closed before the next audit."
-related: "control-mapping, access-review, policy-writing, it-risk-assessment, schedule-plan"
-prompt: "Our ISO 27001 surveillance audit is in six weeks. Prepare the evidence list, gaps and plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Prepare for an audit"
+  related: "control-mapping, access-review, policy-writing, it-risk-assessment, schedule-plan"
+  prompt: "Our ISO 27001 surveillance audit is in six weeks. Prepare the evidence list, gaps and plan."
 ---
 
 # Prepare for an Audit

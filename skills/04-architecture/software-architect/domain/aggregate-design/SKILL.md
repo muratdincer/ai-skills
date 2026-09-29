@@ -1,7 +1,16 @@
 ---
-description: Designs DDD aggregates by deriving the aggregate root, boundaries and members from the invariants that must hold in one transaction, then defines commands, emitted events, identity, cross-aggregate references and eventual-consistency rules, and checks size and contention. Use when a domain model must be turned into consistency boundaries, when aggregates are too large or cause lock contention, or when deciding what must be strongly versus eventually consistent.
-related: event-storming, bounded-context-map, event-driven-design, database-schema-design, business-rules-catalog
-prompt: Design the aggregates for our ordering context; rules are credit limit per customer, max 50 lines per order, and no changes after dispatch.
+name: aggregate-design
+description: "Designs DDD aggregates by deriving the aggregate root, boundaries and members from the invariants that must hold in one transaction, then defines commands, emitted events, identity, cross-aggregate references and eventual-consistency rules, and checks size and contention. Use when a domain model must be turned into consistency boundaries, when aggregates are too large or cause lock contention, or when deciding what must be strongly versus eventually consistent."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Design aggregates"
+  related: "event-storming, bounded-context-map, event-driven-design, database-schema-design, business-rules-catalog"
+  prompt: "Design the aggregates for our ordering context; rules are credit limit per customer, max 50 lines per order, and no changes after dispatch."
 ---
 
 # Design Aggregates

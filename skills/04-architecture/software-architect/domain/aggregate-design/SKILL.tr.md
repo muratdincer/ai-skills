@@ -1,7 +1,16 @@
 ---
-description: DDD aggregate'lerini tek işlemde (transaction) korunması gereken değişmezlerden yola çıkarak kök, sınır ve üyeleriyle tasarlar; komutları, yayınlanan olayları, kimliği, aggregate'ler arası referansları ve nihai tutarlılık kurallarını tanımlar, boyut ve çekişmeyi kontrol eder. Bir alan modeli tutarlılık sınırlarına dönüştürülecekse, aggregate'ler çok büyükse veya kilit çekişmesine yol açıyorsa ya da neyin anında, neyin nihai olarak tutarlı olacağına karar verilecekse kullanılır.
-related: event-storming, bounded-context-map, event-driven-design, database-schema-design, business-rules-catalog
-prompt: Sipariş bağlamımız için aggregate'leri tasarla; kurallar müşteri başına kredi limiti, sipariş başına en fazla 50 satır ve sevkiyattan sonra değişiklik yapılamaması.
+name: aggregate-design
+description: "DDD aggregate'lerini tek işlemde (transaction) korunması gereken değişmezlerden yola çıkarak kök, sınır ve üyeleriyle tasarlar; komutları, yayınlanan olayları, kimliği, aggregate'ler arası referansları ve nihai tutarlılık kurallarını tanımlar, boyut ve çekişmeyi kontrol eder. Bir alan modeli tutarlılık sınırlarına dönüştürülecekse, aggregate'ler çok büyükse veya kilit çekişmesine yol açıyorsa ya da neyin anında, neyin nihai olarak tutarlı olacağına karar verilecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Aggregate tasarımı"
+  related: "event-storming, bounded-context-map, event-driven-design, database-schema-design, business-rules-catalog"
+  prompt: "Sipariş bağlamımız için aggregate'leri tasarla; kurallar müşteri başına kredi limiti, sipariş başına en fazla 50 satır ve sevkiyattan sonra değişiklik yapılamaması."
 ---
 
 # Aggregate Tasarımı

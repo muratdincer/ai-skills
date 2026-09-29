@@ -1,7 +1,16 @@
 ---
-description: Bir analizi, öneriyi veya kararı doğrulama, çıpalama, hayatta kalan yanılgısı, batık maliyet, erişilebilirlik, aşırı özgüven ve grup düşüncesi gibi bilişsel yanlılıklar açısından inceler; her şüpheli yanlılığın kanıtını gösterir ve somut bir düzeltici aksiyon önerir. Bir karar verilmek veya analiz paylaşılmak üzereyken, "bir şeyi atlıyor muyum?", "bu yanlı mı?", "mantığımı sorgula" denildiğinde ya da bir sonuca karşı eleştirel bakış istendiğinde kullanılır.
-related: pre-mortem, assumption-mapping, decision-matrix, trade-off-analysis, decision-log
-prompt: Yönlendirme komitesine göndermeden önce bu öneriyi yanlılık açısından kontrol et: kurum içi zamanlayıcıya yatırıma devam etmeliyiz, çünkü üzerinde zaten 18 ay çalıştık ve iki pilot ekip çok memnun.
+name: bias-check
+description: "Bir analizi, öneriyi veya kararı doğrulama, çıpalama, hayatta kalan yanılgısı, batık maliyet, erişilebilirlik, aşırı özgüven ve grup düşüncesi gibi bilişsel yanlılıklar açısından inceler; her şüpheli yanlılığın kanıtını gösterir ve somut bir düzeltici aksiyon önerir. Bir karar verilmek veya analiz paylaşılmak üzereyken, \"bir şeyi atlıyor muyum?\", \"bu yanlı mı?\", \"mantığımı sorgula\" denildiğinde ya da bir sonuca karşı eleştirel bakış istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Bilişsel yanlılık kontrolü"
+  related: "pre-mortem, assumption-mapping, decision-matrix, trade-off-analysis, decision-log"
+  prompt: "Yönlendirme komitesine göndermeden önce bu öneriyi yanlılık açısından kontrol et: kurum içi zamanlayıcıya yatırıma devam etmeliyiz, çünkü üzerinde zaten 18 ay çalıştık ve iki pilot ekip çok memnun."
 ---
 
 # Bilişsel Yanlılık Kontrolü

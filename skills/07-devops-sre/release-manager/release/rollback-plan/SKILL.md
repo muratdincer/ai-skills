@@ -1,7 +1,16 @@
 ---
+name: rollback-plan
 description: "Writes a rollback plan for a release or change with measurable triggers, decision owner and deadline, component-by-component steps, data and schema considerations, roll-forward alternatives and post-rollback verification. Use before a production change is approved, when a change includes migrations or irreversible steps, or when someone asks how a release would be undone."
-related: "deployment-checklist, release-plan, deployment-strategy, schema-migration-plan, backup-restore-plan"
-prompt: "Write a rollback plan for our release that upgrades the order service and migrates the order status column from text to an enum table."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Write a rollback plan"
+  related: "deployment-checklist, release-plan, deployment-strategy, schema-migration-plan, backup-restore-plan"
+  prompt: "Write a rollback plan for our release that upgrades the order service and migrates the order status column from text to an enum table."
 ---
 
 # Write a Rollback Plan

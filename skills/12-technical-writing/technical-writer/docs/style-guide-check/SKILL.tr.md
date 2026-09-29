@@ -1,7 +1,16 @@
 ---
-description: Bir dokümanı stil rehberine ve terminoloji listesine göre kontrol eder; her sapmayı konum, kural, önem derecesi ve somut yeniden yazımla raporlar: terminoloji, anlatım ve ton, dil bilgisi ve yazım, biçim kuralları, arayüz ve kod atıfları, kapsayıcı ve erişilebilir dil. Dokümantasyon, arayüz metni, sürüm notu veya bilgi bankası makalesi yayımlanmadan ya da gözden geçirmeye gönderilmeden önce, birden fazla yazar tutarsız içerik ürettiğinde ya da bir ekip kendi veya kamuya açık bir stil rehberini uygulamak istediğinde kullanılır.
-related: glossary-builder, document-review, document-simplify, user-guide, how-to-guide
-prompt: Bu kurulum kılavuzunu stil rehberimize ve terminoloji listemize göre kontrol et, düzeltmeleri tablo olarak ver.
+name: style-guide-check
+description: "Bir dokümanı stil rehberine ve terminoloji listesine göre kontrol eder; her sapmayı konum, kural, önem derecesi ve somut yeniden yazımla raporlar: terminoloji, anlatım ve ton, dil bilgisi ve yazım, biçim kuralları, arayüz ve kod atıfları, kapsayıcı ve erişilebilir dil. Dokümantasyon, arayüz metni, sürüm notu veya bilgi bankası makalesi yayımlanmadan ya da gözden geçirmeye gönderilmeden önce, birden fazla yazar tutarsız içerik ürettiğinde ya da bir ekip kendi veya kamuya açık bir stil rehberini uygulamak istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Stil rehberi kontrolü"
+  related: "glossary-builder, document-review, document-simplify, user-guide, how-to-guide"
+  prompt: "Bu kurulum kılavuzunu stil rehberimize ve terminoloji listemize göre kontrol et, düzeltmeleri tablo olarak ver."
 ---
 
 # Stil Rehberi Kontrolü

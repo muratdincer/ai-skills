@@ -1,7 +1,16 @@
 ---
-description: Kullanıcıyla her seferinde tek soru sorarak ve her soruyu önceki cevaba göre uyarlayarak (teşhis et, daralt, teyit et) görüşme yapar; güncel bir spesifikasyonu görünür tutar, hazır olma kontrol listesi karşılandığında durur ve yapılandırılmış bir gereksinim özetiyle bitirir. Bir ihtiyaç belirsiz olduğunda ("bir dashboard lazım", "onayları otomatikleştirelim"), kullanıcı "bana soru sor", "bunu netleştirmeme yardım et" dediğinde veya zayıf bir girdiden story ya da PRD yazılmadan önce kullanılır.
-related: request-clarification-questions, requirements-gap-analysis, user-story, acceptance-criteria, edge-case-elicitation
-prompt: Geliştirilebilecek netliğe gelene kadar benimle görüş: tedarikçilerin faturalarını e-postayla göndermek yerine kendilerinin yüklemesini istiyoruz.
+name: requirements-interview
+description: "Kullanıcıyla her seferinde tek soru sorarak ve her soruyu önceki cevaba göre uyarlayarak (teşhis et, daralt, teyit et) görüşme yapar; güncel bir spesifikasyonu görünür tutar, hazır olma kontrol listesi karşılandığında durur ve yapılandırılmış bir gereksinim özetiyle bitirir. Bir ihtiyaç belirsiz olduğunda (\"bir dashboard lazım\", \"onayları otomatikleştirelim\"), kullanıcı \"bana soru sor\", \"bunu netleştirmeme yardım et\" dediğinde veya zayıf bir girdiden story ya da PRD yazılmadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Etkileşimli gereksinim görüşmesi"
+  related: "request-clarification-questions, requirements-gap-analysis, user-story, acceptance-criteria, edge-case-elicitation"
+  prompt: "Geliştirilebilecek netliğe gelene kadar benimle görüş: tedarikçilerin faturalarını e-postayla göndermek yerine kendilerinin yüklemesini istiyoruz."
 ---
 
 # Etkileşimli Gereksinim Görüşmesi

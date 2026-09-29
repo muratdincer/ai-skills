@@ -1,7 +1,16 @@
 ---
-description: Kurumsal veya alan düzeyinde az sayıda mimari ilke tanımlar; her ilke için TOGAF tarzında ifade, gerekçe ve etkileri, uyumun nasıl denetleneceğini ve istisnaların nasıl yönetileceğini belirler. Kurumun mimari kararlar için yol gösterici kurallara ihtiyacı olduğunda, ilkeler içi boş sloganlara dönüştüğünde veya tasarım incelemelerinde aynı ödünleşimler tekrar tekrar tartışıldığında kullanılır.
-related: architecture-review, adr, target-state-architecture, technology-strategy, governance-framework
-prompt: Bulut-yerel ve olay güdümlü sistemlere geçişimiz için 8-10 mimari ilke tanımla; hedeflerimiz daha hızlı teslimat, daha düşük işletim maliyeti ve KVKK uyumu.
+name: architecture-principles
+description: "Kurumsal veya alan düzeyinde az sayıda mimari ilke tanımlar; her ilke için TOGAF tarzında ifade, gerekçe ve etkileri, uyumun nasıl denetleneceğini ve istisnaların nasıl yönetileceğini belirler. Kurumun mimari kararlar için yol gösterici kurallara ihtiyacı olduğunda, ilkeler içi boş sloganlara dönüştüğünde veya tasarım incelemelerinde aynı ödünleşimler tekrar tekrar tartışıldığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Mimari ilkeler tanımlama"
+  related: "architecture-review, adr, target-state-architecture, technology-strategy, governance-framework"
+  prompt: "Bulut-yerel ve olay güdümlü sistemlere geçişimiz için 8-10 mimari ilke tanımla; hedeflerimiz daha hızlı teslimat, daha düşük işletim maliyeti ve KVKK uyumu."
 ---
 
 # Mimari İlkeler Tanımlama

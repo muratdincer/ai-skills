@@ -1,7 +1,16 @@
 ---
-description: Gives structured design critique that is anchored in the design's goals, users and constraints, specific about location and effect, separates observations from opinions, and prioritizes feedback into must-fix, should-consider and nits with suggested directions. Use when a designer shares work in progress and asks for feedback, when preparing for a design review or crit session, or when someone asks "what do you think of this design".
-related: heuristic-evaluation, accessibility-audit, wireframe-spec, feedback-sbi, review-comment-writing
-prompt: Critique this dashboard redesign; the goal is to help ops managers spot failing stores within 10 seconds.
+name: design-critique
+description: "Gives structured design critique that is anchored in the design's goals, users and constraints, specific about location and effect, separates observations from opinions, and prioritizes feedback into must-fix, should-consider and nits with suggested directions. Use when a designer shares work in progress and asks for feedback, when preparing for a design review or crit session, or when someone asks \"what do you think of this design\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Give design critique"
+  related: "heuristic-evaluation, accessibility-audit, wireframe-spec, feedback-sbi, review-comment-writing"
+  prompt: "Critique this dashboard redesign; the goal is to help ops managers spot failing stores within 10 seconds."
 ---
 
 # Give Design Critique

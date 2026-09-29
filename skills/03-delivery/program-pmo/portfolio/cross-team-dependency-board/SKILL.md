@@ -1,7 +1,16 @@
 ---
-description: Runs cross-team dependency planning by surfacing every dependency between teams, making each one explicit (provider, consumer, what, needed-by date), negotiating a commitment or alternative, and tracking status with escalation rules on a shared board. Use when several teams plan the same period together, when a program keeps slipping because of waiting between teams, or when someone asks to map, negotiate or track inter-team dependencies.
-related: dependency-map, program-roadmap, raid-log, escalation-message, negotiation-prep
-prompt: Set up a dependency board for next quarter's planning; 4 teams, and the checkout team depends on payments and identity for almost everything.
+name: cross-team-dependency-board
+description: "Runs cross-team dependency planning by surfacing every dependency between teams, making each one explicit (provider, consumer, what, needed-by date), negotiating a commitment or alternative, and tracking status with escalation rules on a shared board. Use when several teams plan the same period together, when a program keeps slipping because of waiting between teams, or when someone asks to map, negotiate or track inter-team dependencies."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Run cross-team dependency planning"
+  related: "dependency-map, program-roadmap, raid-log, escalation-message, negotiation-prep"
+  prompt: "Set up a dependency board for next quarter's planning; 4 teams, and the checkout team depends on payments and identity for almost everything."
 ---
 
 # Run Cross-Team Dependency Planning

@@ -1,7 +1,16 @@
 ---
-description: Designs a structured interview loop for a role, mapping each competency to exactly the stages that assess it, with stage formats, durations, interviewer profiles, rubrics, candidate communication and decision rules that reduce bias. Use when opening a role, when an existing loop is slow, inconsistent or has low offer acceptance, or when interviewers assess overlapping things and miss others.
-related: job-description, technical-interview-questions, interview-scorecard, candidate-debrief, career-ladder
-prompt: Design an interview loop for a mid-level frontend engineer. We can afford at most four hours of candidate time.
+name: interview-plan
+description: "Designs a structured interview loop for a role, mapping each competency to exactly the stages that assess it, with stage formats, durations, interviewer profiles, rubrics, candidate communication and decision rules that reduce bias. Use when opening a role, when an existing loop is slow, inconsistent or has low offer acceptance, or when interviewers assess overlapping things and miss others."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Design an interview loop"
+  related: "job-description, technical-interview-questions, interview-scorecard, candidate-debrief, career-ladder"
+  prompt: "Design an interview loop for a mid-level frontend engineer. We can afford at most four hours of candidate time."
 ---
 
 # Design an Interview Loop

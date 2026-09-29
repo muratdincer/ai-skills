@@ -1,7 +1,16 @@
 ---
+name: technical-design-doc
 description: "Writes a technical design document (RFC) covering problem, goals and non-goals, proposed design, alternatives, rollout, risks and open questions, sized to the change. Use when a feature or change is large, risky or cross-team enough to need review before coding, or when someone asks for an RFC, design doc or technical proposal."
-related: "adr, solution-architecture-document, task-breakdown, api-contract, trade-off-analysis"
-prompt: "Write a design doc for moving our order confirmation emails from synchronous sending in the checkout request to an outbox plus background worker."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Write a technical design doc (RFC)"
+  related: "adr, solution-architecture-document, task-breakdown, api-contract, trade-off-analysis"
+  prompt: "Write a design doc for moving our order confirmation emails from synchronous sending in the checkout request to an outbox plus background worker."
 ---
 
 # Write a Technical Design Doc (RFC)

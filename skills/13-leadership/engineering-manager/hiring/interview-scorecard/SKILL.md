@@ -1,7 +1,16 @@
 ---
-description: Turns an interviewer's raw notes into a scorecard with verbatim evidence per competency, a rubric-based score, and an independent hire recommendation with rationale. Use right after an interview, when notes must be written up before the debrief, or when checking a scorecard for missing evidence, bias or impressions presented as facts.
-related: technical-interview-questions, candidate-debrief, interview-plan, bias-check
-prompt: Here are my notes from the system design interview with candidate B. Turn them into a scorecard against our senior rubric.
+name: interview-scorecard
+description: "Turns an interviewer's raw notes into a scorecard with verbatim evidence per competency, a rubric-based score, and an independent hire recommendation with rationale. Use right after an interview, when notes must be written up before the debrief, or when checking a scorecard for missing evidence, bias or impressions presented as facts."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Write an interview scorecard"
+  related: "technical-interview-questions, candidate-debrief, interview-plan, bias-check"
+  prompt: "Here are my notes from the system design interview with candidate B. Turn them into a scorecard against our senior rubric."
 ---
 
 # Write an Interview Scorecard

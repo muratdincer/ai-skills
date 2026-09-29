@@ -1,7 +1,16 @@
 ---
+name: policy-writing
 description: "Amaç, kapsam, uygulanabilir kurallar, roller, istisnalar, uyum ölçümü ve gözden geçirme döngüsü içeren bir güvenlik veya BT politikası yazar ya da revize eder; politikayı standart ve prosedürlerden ayırır. Bir politika eksik, güncelliğini yitirmiş veya denetimde bulgu almışsa ya da ISO 27001, SOC 2, KVKK veya iç yönetişim için gerekiyorsa (ör. kabul edilebilir kullanım, erişim kontrolü, parola, yedekleme, uzaktan çalışma, yapay zekâ kullanımı) kullanılır."
-related: "control-mapping, audit-preparation, it-risk-assessment, retention-policy, document-review"
-prompt: "Şirketimiz için erişim kontrol politikası yaz; ISO 27001'e hazırlanıyoruz, Entra ID ve GitHub kullanıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Güvenlik/BT politikası yazma"
+  related: "control-mapping, audit-preparation, it-risk-assessment, retention-policy, document-review"
+  prompt: "Şirketimiz için erişim kontrol politikası yaz; ISO 27001'e hazırlanıyoruz, Entra ID ve GitHub kullanıyoruz."
 ---
 
 # Güvenlik/BT Politikası Yazma

@@ -1,7 +1,16 @@
 ---
+name: observability-plan
 description: "Bir veya birden çok servis için gözlemlenebilirliği planlar: hangi metriklerin, yapılandırılmış logların ve dağıtık izlerin üretileceği, korelasyon ve bağlam aktarımı, kardinalite ve saklama bütçeleri, hedef kitleye göre panolar ve SLO'lar ile runbook'lara karşı eksikler. Servis geliştirilirken veya canlıya alınırken, olayların teşhisi uzun sürdüğünde, telemetri maliyeti kontrolden çıktığında ya da neyin enstrümante edileceği sorulduğunda kullanılır."
-related: "slo-definition, alert-design, logging-instrumentation, dashboard-spec, runbook"
-prompt: "Sipariş servisimiz için gözlemlenebilirlik planla: .NET API, Kafka consumer, PostgreSQL. Bugün yalnızca konteyner CPU/bellek grafikleri ve yapılandırılmamış loglarımız var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Gözlemlenebilirlik planı"
+  related: "slo-definition, alert-design, logging-instrumentation, dashboard-spec, runbook"
+  prompt: "Sipariş servisimiz için gözlemlenebilirlik planla: .NET API, Kafka consumer, PostgreSQL. Bugün yalnızca konteyner CPU/bellek grafikleri ve yapılandırılmamış loglarımız var."
 ---
 
 # Gözlemlenebilirlik Planı

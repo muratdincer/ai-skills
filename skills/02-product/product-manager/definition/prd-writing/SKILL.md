@@ -1,7 +1,16 @@
 ---
-description: Writes a Product Requirements Document covering problem and evidence, goals and success metrics, target users, scope and non-goals, prioritized requirements with acceptance criteria, user experience, non-functional needs, dependencies, risks, release plan and open questions. Use when a product initiative must be aligned across engineering, design and stakeholders before build, when someone asks for a PRD or product spec, or when an existing PRD needs a review for gaps.
-related: feature-brief, mvp-scoping, epic-breakdown, nfr-specification, acceptance-criteria
-prompt: Write a PRD for letting B2B customers set approval workflows on purchase orders above a threshold.
+name: prd-writing
+description: "Writes a Product Requirements Document covering problem and evidence, goals and success metrics, target users, scope and non-goals, prioritized requirements with acceptance criteria, user experience, non-functional needs, dependencies, risks, release plan and open questions. Use when a product initiative must be aligned across engineering, design and stakeholders before build, when someone asks for a PRD or product spec, or when an existing PRD needs a review for gaps."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Write a Product Requirements Document"
+  related: "feature-brief, mvp-scoping, epic-breakdown, nfr-specification, acceptance-criteria"
+  prompt: "Write a PRD for letting B2B customers set approval workflows on purchase orders above a threshold."
 ---
 
 # Write a Product Requirements Document

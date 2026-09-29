@@ -1,7 +1,16 @@
 ---
-description: Ham veya otomatik oluşturulmuş bir toplantı dökümünü dolgu sözcüklerini, yarım cümleleri ve üst üste konuşmaları ayıklayarak, konuşmacı etiketlerini ve bariz tanıma hatalarını düzelterek, anlamı ve ifadeleri koruyarak temizler. Bir döküm özete dönüştürülmeden okunabilir, alıntılanabilir veya arşivlenebilir hâle getirilecekse kullanılır.
-related: meeting-notes, meeting-minutes, meeting-summary, glossary-builder
-prompt: Tedarikçi görüşmemizin otomatik dökümünü temizle. Konuşmacı 1 benim (Selin), Konuşmacı 2 tedarikçinin proje yöneticisi.
+name: transcript-cleanup
+description: "Ham veya otomatik oluşturulmuş bir toplantı dökümünü dolgu sözcüklerini, yarım cümleleri ve üst üste konuşmaları ayıklayarak, konuşmacı etiketlerini ve bariz tanıma hatalarını düzelterek, anlamı ve ifadeleri koruyarak temizler. Bir döküm özete dönüştürülmeden okunabilir, alıntılanabilir veya arşivlenebilir hâle getirilecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Toplantı dökümünü temizleme"
+  related: "meeting-notes, meeting-minutes, meeting-summary, glossary-builder"
+  prompt: "Tedarikçi görüşmemizin otomatik dökümünü temizle. Konuşmacı 1 benim (Selin), Konuşmacı 2 tedarikçinin proje yöneticisi."
 ---
 
 # Toplantı Dökümünü Temizleme

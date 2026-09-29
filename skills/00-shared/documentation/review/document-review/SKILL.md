@@ -1,7 +1,16 @@
 ---
+name: document-review
 description: "Reviews any document for clarity, completeness, internal consistency, correctness of claims and fit to its audience and purpose, returning prioritized, located findings with suggested fixes and a verdict. Use when someone asks for feedback on a draft, needs a document checked before approval or publication, or wants a second opinion on a specification, proposal, policy, guide or report."
-related: "requirements-review-checklist, architecture-review, document-simplify, style-guide-check, doc-diff-summary"
-prompt: "Review this incident process document before we send it to the operations directors for approval."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Review a document"
+  related: "requirements-review-checklist, architecture-review, document-simplify, style-guide-check, doc-diff-summary"
+  prompt: "Review this incident process document before we send it to the operations directors for approval."
 ---
 
 # Review a Document

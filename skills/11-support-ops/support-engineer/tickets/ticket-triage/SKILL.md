@@ -1,7 +1,16 @@
 ---
+name: ticket-triage
 description: "Triages an incoming support ticket: classifies it (incident, service request, question, defect, security or privacy report), sets priority from impact and urgency, checks for duplicates or an ongoing outage, identifies missing information and routes it to the right queue or level. Use when a new ticket, email or chat request arrives in a support queue, when a backlog of unclassified tickets needs sorting, or when priority is disputed."
-related: "ticket-response, ticket-escalation-summary, known-error-article, incident-response, bug-report"
-prompt: "Triage this ticket: 'Since this morning none of our 40 branch users can print invoices from the POS, we are writing them by hand.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Triage a support ticket"
+  related: "ticket-response, ticket-escalation-summary, known-error-article, incident-response, bug-report"
+  prompt: "Triage this ticket: 'Since this morning none of our 40 branch users can print invoices from the POS, we are writing them by hand.'"
 ---
 
 # Triage a Support Ticket

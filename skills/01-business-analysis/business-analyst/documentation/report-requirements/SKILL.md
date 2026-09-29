@@ -1,7 +1,16 @@
 ---
+name: report-requirements
 description: "Specifies report requirements starting from the decision the report supports: audience, questions answered, fields and measures with exact calculation and grain, dimensions, filters and parameters, sorting and grouping, data sources and freshness, access and masking, delivery and format, and acceptance checks against a reconciled figure. Use when someone asks for a new report, export or list, when an existing report is disputed, or when asked to 'spec a report'."
-related: "dashboard-spec, metric-definition, data-requirements, kpi-definition, request-intake-document"
-prompt: "Specify the monthly overdue receivables report Finance asked for, by customer segment and aging bucket."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Specify report requirements"
+  related: "dashboard-spec, metric-definition, data-requirements, kpi-definition, request-intake-document"
+  prompt: "Specify the monthly overdue receivables report Finance asked for, by customer segment and aging bucket."
 ---
 
 # Specify Report Requirements

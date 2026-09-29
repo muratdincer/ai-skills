@@ -1,7 +1,16 @@
 ---
-description: Yatırım (değişim) ile işletim maliyetlerini ayıran, her kalemi bir iş sonucuna bağlayan, finanse edilmemenin maliyetini gösteren ve sonuçlarıyla birlikte finansman senaryoları sunan bir teknoloji bütçe teklifi yazar. Bir teknoloji yöneticisi yıllık veya proje bütçesi istemek ya da savunmak, kişi sayısı, lisans veya bulut harcamasını gerekçelendirmek ya da finans veya üst yönetime seçenek sunmak zorunda olduğunda kullanılır.
-related: technology-strategy, cost-benefit-analysis, cloud-cost-estimate, budget-plan, board-update
-prompt: Gelecek yılın BT bütçe teklifini hazırla; bulut ve lisanslar yüzünden işletim maliyetleri %12 artıyor, ayrıca bir veri platformu ve 4 mühendis daha için finansman istiyoruz.
+name: budget-proposal
+description: "Yatırım (değişim) ile işletim maliyetlerini ayıran, her kalemi bir iş sonucuna bağlayan, finanse edilmemenin maliyetini gösteren ve sonuçlarıyla birlikte finansman senaryoları sunan bir teknoloji bütçe teklifi yazar. Bir teknoloji yöneticisi yıllık veya proje bütçesi istemek ya da savunmak, kişi sayısı, lisans veya bulut harcamasını gerekçelendirmek ya da finans veya üst yönetime seçenek sunmak zorunda olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Bütçe teklifi yazma"
+  related: "technology-strategy, cost-benefit-analysis, cloud-cost-estimate, budget-plan, board-update"
+  prompt: "Gelecek yılın BT bütçe teklifini hazırla; bulut ve lisanslar yüzünden işletim maliyetleri %12 artıyor, ayrıca bir veri platformu ve 4 mühendis daha için finansman istiyoruz."
 ---
 
 # Bütçe Teklifi Yazma

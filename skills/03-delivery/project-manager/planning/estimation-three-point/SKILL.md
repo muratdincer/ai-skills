@@ -1,7 +1,16 @@
 ---
-description: Produces three-point estimates (optimistic, most likely, pessimistic) per work item and aggregates them with PERT or triangular formulas into expected values, standard deviations and confidence ranges for the total. Use when effort or duration is uncertain and stakeholders need a range with a stated confidence instead of a single number.
-related: wbs, schedule-plan, budget-plan, technical-estimation, monte-carlo-forecast
-prompt: Give me a three-point estimate for these 12 work packages and tell me the total at 85% confidence.
+name: estimation-three-point
+description: "Produces three-point estimates (optimistic, most likely, pessimistic) per work item and aggregates them with PERT or triangular formulas into expected values, standard deviations and confidence ranges for the total. Use when effort or duration is uncertain and stakeholders need a range with a stated confidence instead of a single number."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Estimate with three-point/PERT"
+  related: "wbs, schedule-plan, budget-plan, technical-estimation, monte-carlo-forecast"
+  prompt: "Give me a three-point estimate for these 12 work packages and tell me the total at 85% confidence."
 ---
 
 # Estimate with Three-Point/PERT

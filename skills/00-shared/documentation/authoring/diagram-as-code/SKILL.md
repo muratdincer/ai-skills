@@ -1,7 +1,16 @@
 ---
+name: diagram-as-code
 description: "Turns a textual description of a system, process, sequence, data model or state machine into a correct, readable diagram in Mermaid or PlantUML, choosing the right diagram type and listing assumptions. Use when someone asks to draw, visualize or diagram something, needs a version-controllable diagram for docs or a pull request, or wants to convert a whiteboard photo description or legacy diagram into code."
-related: "c4-model, bpmn-model, sequence-flow, state-model, document-outline"
-prompt: "Draw a Mermaid sequence diagram: the mobile app calls the API gateway, which validates the token with the identity provider and then calls the order service, which publishes an OrderCreated event."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Produce a diagram as code"
+  related: "c4-model, bpmn-model, sequence-flow, state-model, document-outline"
+  prompt: "Draw a Mermaid sequence diagram: the mobile app calls the API gateway, which validates the token with the identity provider and then calls the order service, which publishes an OrderCreated event."
 ---
 
 # Produce a Diagram as Code

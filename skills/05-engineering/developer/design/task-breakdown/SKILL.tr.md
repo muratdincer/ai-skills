@@ -1,7 +1,16 @@
 ---
+name: task-breakdown
 description: "Bir kullanıcı hikayesini veya iş kalemini bağımlılıkları, göreli tahminleri ve her biri için tamamlanma tanımı olan, sıralı ve bağımsız doğrulanabilir teknik görevlere böler. Bir geliştirici veya ekip bir hikayeyi ele aldığında ve uygulama planına ihtiyaç duyduğunda, işi paralelleştirmek istediğinde veya hikayenin görevlere nasıl bölüneceği sorulduğunda kullanılır."
-related: "user-story, story-splitting, technical-estimation, implement-from-story, technical-design-doc"
-prompt: "Bu hikayeyi teknik görevlere böl: Müşteri olarak sipariş geçmişi sayfasından faturalarımı PDF olarak indirmek istiyorum."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Hikayeyi görevlere bölme"
+  related: "user-story, story-splitting, technical-estimation, implement-from-story, technical-design-doc"
+  prompt: "Bu hikayeyi teknik görevlere böl: Müşteri olarak sipariş geçmişi sayfasından faturalarımı PDF olarak indirmek istiyorum."
 ---
 
 # Hikayeyi Görevlere Bölme

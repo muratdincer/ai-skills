@@ -1,7 +1,16 @@
 ---
-description: WBS ve maliyet kategorisine göre maliyet kırılımı, gerektiğinde capex/opex ayrımı, yedek pay ve yönetim rezervi ile maliyet baz çizgisini oluşturan zamana yayılmış nakit akışını içeren proje bütçesini hazırlar. Bir proje onay için bütçeye, izleme için maliyet baz çizgisine ya da kapsam veya takvim değişikliği sonrası yeniden tahmine ihtiyaç duyduğunda kullanılır.
-related: wbs, resource-plan, estimation-three-point, earned-value-analysis, cloud-cost-estimate
-prompt: Bu kaynak planı ve tedarikçi tekliflerinden yedek paylı ve aylık nakit akışlı bir proje bütçesi oluştur.
+name: budget-plan
+description: "WBS ve maliyet kategorisine göre maliyet kırılımı, gerektiğinde capex/opex ayrımı, yedek pay ve yönetim rezervi ile maliyet baz çizgisini oluşturan zamana yayılmış nakit akışını içeren proje bütçesini hazırlar. Bir proje onay için bütçeye, izleme için maliyet baz çizgisine ya da kapsam veya takvim değişikliği sonrası yeniden tahmine ihtiyaç duyduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Proje bütçesi"
+  related: "wbs, resource-plan, estimation-three-point, earned-value-analysis, cloud-cost-estimate"
+  prompt: "Bu kaynak planı ve tedarikçi tekliflerinden yedek paylı ve aylık nakit akışlı bir proje bütçesi oluştur."
 ---
 
 # Proje Bütçesi

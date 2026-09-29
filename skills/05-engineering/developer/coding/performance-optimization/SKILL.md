@@ -1,7 +1,16 @@
 ---
+name: performance-optimization
 description: "Finds and fixes performance hotspots in code from measurements rather than guesses: defines the target metric, reads profiles, traces or query plans, ranks bottlenecks by share of cost, proposes fixes with expected gain and trade-offs, and specifies how to verify the improvement. Use when code, an endpoint or a job is too slow or too resource-hungry, or someone asks to optimize, speed up or reduce CPU, memory or latency."
-related: "sql-query-writing, query-optimization, load-test-analysis, web-performance-audit, logging-instrumentation"
-prompt: "Our order search endpoint has a p95 of 2.4 s under normal load. Here is the handler code and a CPU profile, help me make it faster."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Optimize performance"
+  related: "sql-query-writing, query-optimization, load-test-analysis, web-performance-audit, logging-instrumentation"
+  prompt: "Our order search endpoint has a p95 of 2.4 s under normal load. Here is the handler code and a CPU profile, help me make it faster."
 ---
 
 # Optimize Performance

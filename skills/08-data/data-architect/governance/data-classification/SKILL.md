@@ -1,7 +1,16 @@
 ---
+name: data-classification
 description: "Classifies datasets and fields by sensitivity and privacy category: confidentiality level, personal data, special-category data under KVKK Article 6 and GDPR Articles 9-10, direct vs. indirect identifiers, and derives handling controls such as masking, encryption, access and retention. Use when onboarding data to a platform, preparing a DPIA or access model, or when asked to tag PII or sensitive columns."
-related: "privacy-impact-assessment, retention-policy, data-catalog-entry, access-review, secrets-management-plan"
-prompt: "Classify the columns of our customer and loan application tables for KVKK and propose masking rules."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Classify data sensitivity"
+  related: "privacy-impact-assessment, retention-policy, data-catalog-entry, access-review, secrets-management-plan"
+  prompt: "Classify the columns of our customer and loan application tables for KVKK and propose masking rules."
 ---
 
 # Classify Data Sensitivity

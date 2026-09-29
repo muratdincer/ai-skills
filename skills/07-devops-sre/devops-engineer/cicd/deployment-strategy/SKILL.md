@@ -1,7 +1,16 @@
 ---
+name: deployment-strategy
 description: "Recommends a deployment strategy (recreate, rolling, blue-green, canary, shadow, feature flags or a combination) for a specific service by weighing risk, statefulness, database changes, traffic control, cost and rollback speed. Use when a team must decide how a release reaches users, or when current releases cause downtime or risky big-bang cutovers."
-related: "pipeline-design, rollback-plan, release-plan, schema-migration-plan, slo-definition"
-prompt: "We deploy our payment service with a 20-minute maintenance window. Which deployment strategy should we move to so we get zero downtime?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Choose a deployment strategy"
+  related: "pipeline-design, rollback-plan, release-plan, schema-migration-plan, slo-definition"
+  prompt: "We deploy our payment service with a 20-minute maintenance window. Which deployment strategy should we move to so we get zero downtime?"
 ---
 
 # Choose a Deployment Strategy

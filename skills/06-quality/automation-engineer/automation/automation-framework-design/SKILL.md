@@ -1,7 +1,16 @@
 ---
+name: automation-framework-design
 description: "Designs a test automation framework: test levels and their share, layered architecture (tests, business actions, page objects/API clients, drivers), test data and environment management, configuration and secrets, reporting and traceability, CI integration with parallelism and quality gates, and conventions for maintainability. Use when a team starts automation, when an existing suite is slow, brittle or unowned and needs a redesign, or when choosing a structure for UI, API and contract tests."
-related: test-strategy, automation-candidate-selection, test-automation-script, pipeline-design, flaky-test-analysis
-prompt: "Design a test automation framework for our web app and its REST APIs; the suite must run on every pull request in under 15 minutes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Design a test automation framework"
+  related: "test-strategy, automation-candidate-selection, test-automation-script, pipeline-design, flaky-test-analysis"
+  prompt: "Design a test automation framework for our web app and its REST APIs; the suite must run on every pull request in under 15 minutes."
 ---
 
 # Design a Test Automation Framework

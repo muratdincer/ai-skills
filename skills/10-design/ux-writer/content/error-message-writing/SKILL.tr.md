@@ -1,7 +1,16 @@
 ---
-description: Kullanıcıya dönük hata, doğrulama ve uyarı mesajlarını ne olduğunu, yardımcı olacaksa nedenini ve şimdi ne yapılacağını söyleyecek şekilde; suçlama, jargon veya iç detay sızdırmadan, doğru konum, önem derecesi ve erişilebilirlik davranışıyla yazar. Hata durumları için metin gerektiğinde, mevcut mesajlar belirsiz ("Bir şeyler ters gitti") veya teknik olduğunda ya da bir hata kataloğu kullanıcıya dönük metne çevrilecekse kullanılır.
-related: microcopy, voice-and-tone-guide, error-scenario-catalog, error-handling-review, design-handoff
-prompt: Bu beş ödeme hata mesajını kullanıcı ne olduğunu ve ne yapacağını anlayacak şekilde yeniden yaz; şu an sadece API hata kodlarını gösteriyorlar.
+name: error-message-writing
+description: "Kullanıcıya dönük hata, doğrulama ve uyarı mesajlarını ne olduğunu, yardımcı olacaksa nedenini ve şimdi ne yapılacağını söyleyecek şekilde; suçlama, jargon veya iç detay sızdırmadan, doğru konum, önem derecesi ve erişilebilirlik davranışıyla yazar. Hata durumları için metin gerektiğinde, mevcut mesajlar belirsiz (\"Bir şeyler ters gitti\") veya teknik olduğunda ya da bir hata kataloğu kullanıcıya dönük metne çevrilecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Hata mesajı yazma"
+  related: "microcopy, voice-and-tone-guide, error-scenario-catalog, error-handling-review, design-handoff"
+  prompt: "Bu beş ödeme hata mesajını kullanıcı ne olduğunu ve ne yapacağını anlayacak şekilde yeniden yaz; şu an sadece API hata kodlarını gösteriyorlar."
 ---
 
 # Hata Mesajı Yazma

@@ -1,7 +1,16 @@
 ---
+name: interview-notes-analysis
 description: "Analyzes raw interview notes or transcripts and extracts needs, pain points, business rules, exceptions, data and system mentions, conflicts and open questions, each traced to its source. Use after one or more elicitation interviews, when notes are messy, or when asked 'what did we learn from these interviews?'."
-related: "interview-question-set, business-rules-catalog, requirements-consistency-check, feedback-synthesis, open-questions-tracker"
-prompt: "Here are my notes from interviews with three accounts payable clerks. Extract the needs, pains, rules and any contradictions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Analyze interview notes"
+  related: "interview-question-set, business-rules-catalog, requirements-consistency-check, feedback-synthesis, open-questions-tracker"
+  prompt: "Here are my notes from interviews with three accounts payable clerks. Extract the needs, pains, rules and any contradictions."
 ---
 
 # Analyze Interview Notes

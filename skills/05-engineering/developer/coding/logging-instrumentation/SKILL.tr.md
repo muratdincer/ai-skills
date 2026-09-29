@@ -1,7 +1,16 @@
 ---
+name: logging-instrumentation
 description: "Koda, gerçek operasyonel soruları yanıtlayan noktalarda yapılandırılmış log, metrik ve dağıtık iz (trace) ekler; tutarlı alan adları, doğru seviyeler, düşük kardinaliteli metrik etiketleri, trace bağlamı aktarımı sağlar ve sır ya da kişisel veri yazmaz. Bir özellik canlıya çıkacağında, bir olay görünürlük eksikliğini ortaya koyduğunda veya koda loglama, metrik, tracing ya da telemetri (ör. OpenTelemetry) eklenmesi istendiğinde kullanılır."
-related: "observability-plan, alert-design, slo-definition, error-handling-review, log-analysis"
-prompt: "Dosya okuyan, satırları doğrulayan ve stok API'sini çağıran bu sipariş içe aktarma işine loglama, metrik ve tracing ekle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Loglama ve ölçümleme ekleme"
+  related: "observability-plan, alert-design, slo-definition, error-handling-review, log-analysis"
+  prompt: "Dosya okuyan, satırları doğrulayan ve stok API'sini çağıran bu sipariş içe aktarma işine loglama, metrik ve tracing ekle."
 ---
 
 # Loglama ve Ölçümleme Ekleme

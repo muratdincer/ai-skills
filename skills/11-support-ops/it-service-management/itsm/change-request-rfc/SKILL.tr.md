@@ -1,7 +1,16 @@
 ---
+name: change-request-rfc
 description: "Değişiklik onayı veya değişiklik danışma kurulu (CAB) için hazır bir BT değişiklik talebi (RFC) yazar: gerekçe, kapsam ve etkilenen konfigürasyon öğeleri, değişiklik türü, risk ve etki değerlendirmesi, uygulama planı, test kanıtları, tetikleyicisiyle geri alma planı, takvim, iletişim ve doğrulama. Altyapı, uygulama, yapılandırma veya veride bir üretim değişikliği onay gerektirdiğinde, CAB'a sunum yapılacağında veya acil bir değişikliğin belgelenmesi gerektiğinde kullanılır."
-related: "rollback-plan, deployment-checklist, deployment-strategy, technical-risk-review, problem-management"
-prompt: "Üretimdeki PostgreSQL kümesini bu cumartesi gecesi 14'ten 16'ya yükseltmek için RFC yaz; 3 uygulama buna bağlı, geçen hafta staging'de test ettik."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Değişiklik talebi (RFC) yazma"
+  related: "rollback-plan, deployment-checklist, deployment-strategy, technical-risk-review, problem-management"
+  prompt: "Üretimdeki PostgreSQL kümesini bu cumartesi gecesi 14'ten 16'ya yükseltmek için RFC yaz; 3 uygulama buna bağlı, geçen hafta staging'de test ettik."
 ---
 
 # Değişiklik Talebi (RFC) Yazma

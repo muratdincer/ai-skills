@@ -1,7 +1,16 @@
 ---
+name: incident-communication
 description: "Her aşama (araştırılıyor, tespit edildi, izleniyor, çözüldü) ve hedef kitle için olay iletişimini yazar: iç paydaş güncellemeleri, yönetici özetleri ve herkese açık durum sayfası paylaşımları; teyitli etki, müşteri aksiyonları, sonraki güncelleme zamanı içerir ve neden hakkında spekülasyon yapmaz. Bir olay sırasında veya hemen sonrasında bir güncelleme, durum sayfası girdisi, müşteri bildirimi ya da yönetim brifingi yazılması veya gözden geçirilmesi gerektiğinde kullanılır."
-related: "incident-response, customer-outage-notice, postmortem, bad-news-delivery, status-update"
-prompt: "İlk durum sayfası güncellemesini ve iç Slack güncellemesini yaz: 09:40'tan beri AB müşterilerinin yaklaşık %20'sinde ödemeler başarısız, neden bilinmiyor, ekip inceliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Olay iletişimi yazma"
+  related: "incident-response, customer-outage-notice, postmortem, bad-news-delivery, status-update"
+  prompt: "İlk durum sayfası güncellemesini ve iç Slack güncellemesini yaz: 09:40'tan beri AB müşterilerinin yaklaşık %20'sinde ödemeler başarısız, neden bilinmiyor, ekip inceliyor."
 ---
 
 # Olay İletişimi Yazma

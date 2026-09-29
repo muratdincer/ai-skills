@@ -1,7 +1,16 @@
 ---
+name: requirements-prioritization
 description: "Bir gereksinim setini uygun bir teknikle (MoSCoW, Kano, değer/efor, ağırlıklı puanlama veya gecikme maliyeti) önceliklendirir, kriterleri açıkça ortaya koyar ve her sıralamayı kanıt ve belirtilen varsayımlarla gerekçelendirir. Kapsamın bir tarihe veya bütçeye sığdırılması gerektiğinde, paydaşlar neyin önce geleceği konusunda anlaşamadığında ya da bir sürüm veya MVP kapsamı için savunulabilir bir sıra gerektiğinde kullanılır."
-related: "backlog-prioritization, decision-matrix, mvp-scoping, stakeholder-map, requirements-sign-off"
-prompt: "İlk sürüm için bu 25 gereksinimi MoSCoW ile önceliklendir; canlıya geçiş tarihimiz sabit."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Gereksinim önceliklendirme"
+  related: "backlog-prioritization, decision-matrix, mvp-scoping, stakeholder-map, requirements-sign-off"
+  prompt: "İlk sürüm için bu 25 gereksinimi MoSCoW ile önceliklendir; canlıya geçiş tarihimiz sabit."
 ---
 
 # Gereksinim Önceliklendirme

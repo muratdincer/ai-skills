@@ -1,7 +1,16 @@
 ---
-description: Writes a goal-oriented how-to guide in the Diátaxis sense: a focused recipe that takes a reader who already knows the basics from a stated starting point to one real-world result, with preconditions, numbered action steps, decision points, verification and troubleshooting, and no teaching or background detours. Use when users ask "how do I ...", when a support ticket or recurring question reveals a task without documentation, or when existing docs mix tutorial, reference and explanation for a practical task.
-related: tutorial, user-guide, docs-information-architecture, style-guide-check, runbook
-prompt: Write a how-to guide for rotating the API signing key in our platform without downtime, for integration developers.
+name: how-to-guide
+description: "Writes a goal-oriented how-to guide in the Diátaxis sense: a focused recipe that takes a reader who already knows the basics from a stated starting point to one real-world result, with preconditions, numbered action steps, decision points, verification and troubleshooting, and no teaching or background detours. Use when users ask \"how do I ...\", when a support ticket or recurring question reveals a task without documentation, or when existing docs mix tutorial, reference and explanation for a practical task."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Write a how-to guide"
+  related: "tutorial, user-guide, docs-information-architecture, style-guide-check, runbook"
+  prompt: "Write a how-to guide for rotating the API signing key in our platform without downtime, for integration developers."
 ---
 
 # Write a How-to Guide

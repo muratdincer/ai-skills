@@ -1,7 +1,16 @@
 ---
-description: Writes a project scope statement that defines in-scope and out-of-scope work, deliverables with acceptance criteria, constraints, assumptions and exclusions, forming the baseline for change control. Use when a charter exists and scope must be made precise enough to plan, estimate and contract against, or when scope creep needs a clear reference.
-related: project-charter, wbs, change-control, acceptance-certificate, statement-of-work
-prompt: Write a scope statement for the customer self-service portal project based on this charter and the workshop notes.
+name: scope-statement
+description: "Writes a project scope statement that defines in-scope and out-of-scope work, deliverables with acceptance criteria, constraints, assumptions and exclusions, forming the baseline for change control. Use when a charter exists and scope must be made precise enough to plan, estimate and contract against, or when scope creep needs a clear reference."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Write a scope statement"
+  related: "project-charter, wbs, change-control, acceptance-certificate, statement-of-work"
+  prompt: "Write a scope statement for the customer self-service portal project based on this charter and the workshop notes."
 ---
 
 # Write a Scope Statement

@@ -1,7 +1,16 @@
 ---
-description: Projenin iç ve dış bağımlılıklarını haritalar; neyin, kimden, ne zamana kadar gerektiğini, sağlayan ve alan sahipleri, taahhüt durumunu, kritikliği ve bağımlılık kayarsa geri dönüş planını belirtir. Proje başka ekiplere, tedarikçilere, platformlara veya kararlara dayandığında ya da kaçırılan devirler kilometre taşlarını tehdit ettiğinde kullanılır.
-related: schedule-plan, raid-log, cross-team-dependency-board, risk-register, integration-requirements
-prompt: Sadakat programı lansmanımızın tüm bağımlılıklarını haritala: pazarlama, POS tedarikçisi, veri ekibi ve hukuk incelemesi.
+name: dependency-map
+description: "Projenin iç ve dış bağımlılıklarını haritalar; neyin, kimden, ne zamana kadar gerektiğini, sağlayan ve alan sahipleri, taahhüt durumunu, kritikliği ve bağımlılık kayarsa geri dönüş planını belirtir. Proje başka ekiplere, tedarikçilere, platformlara veya kararlara dayandığında ya da kaçırılan devirler kilometre taşlarını tehdit ettiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Bağımlılık haritası"
+  related: "schedule-plan, raid-log, cross-team-dependency-board, risk-register, integration-requirements"
+  prompt: "Sadakat programı lansmanımızın tüm bağımlılıklarını haritala: pazarlama, POS tedarikçisi, veri ekibi ve hukuk incelemesi."
 ---
 
 # Bağımlılık Haritası

@@ -1,7 +1,16 @@
 ---
-description: Defines a business metric precisely enough that two analysts would compute the same number - purpose, formula, numerator/denominator, filters, grain, time logic, edge cases, source fields and owner. Use when a metric is disputed, reported differently across teams, about to be added to a dashboard or OKR, or needs to be documented in a metrics catalog.
-related: kpi-definition, dashboard-spec, north-star-metric, data-quality-rules, glossary-builder
-prompt: Define "active customer" precisely; finance and product report different numbers every month.
+name: metric-definition
+description: "Defines a business metric precisely enough that two analysts would compute the same number - purpose, formula, numerator/denominator, filters, grain, time logic, edge cases, source fields and owner. Use when a metric is disputed, reported differently across teams, about to be added to a dashboard or OKR, or needs to be documented in a metrics catalog."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Define a metric precisely"
+  related: "kpi-definition, dashboard-spec, north-star-metric, data-quality-rules, glossary-builder"
+  prompt: "Define \"active customer\" precisely; finance and product report different numbers every month."
 ---
 
 # Define a Metric Precisely

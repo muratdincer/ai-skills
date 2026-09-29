@@ -1,7 +1,16 @@
 ---
-description: Prepares a developer-ready design handoff for a screen, flow or feature, covering layout and spacing specs, design tokens, component mapping, interactions and motion, all edge states, responsive rules, accessibility annotations, content and assets, plus open decisions. Use when a design is approved and moves to implementation, when developers ask "what exactly should this do", or when a handoff note must accompany mockups or a design file.
-related: wireframe-spec, design-system-component-spec, user-flow, microcopy, acceptance-criteria
-prompt: Prepare a design handoff for the new checkout payment step so the web team can start building it next iteration.
+name: design-handoff
+description: "Prepares a developer-ready design handoff for a screen, flow or feature, covering layout and spacing specs, design tokens, component mapping, interactions and motion, all edge states, responsive rules, accessibility annotations, content and assets, plus open decisions. Use when a design is approved and moves to implementation, when developers ask \"what exactly should this do\", or when a handoff note must accompany mockups or a design file."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Prepare a design handoff"
+  related: "wireframe-spec, design-system-component-spec, user-flow, microcopy, acceptance-criteria"
+  prompt: "Prepare a design handoff for the new checkout payment step so the web team can start building it next iteration."
 ---
 
 # Prepare a Design Handoff

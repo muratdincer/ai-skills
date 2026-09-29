@@ -1,7 +1,16 @@
 ---
+name: bug-report
 description: "Net başlık, ortam ve build, ön koşullar, en az sayıda numaralı adım, beklenen ve gerçekleşen sonuç, tekrarlanma oranı, kanıt, etki ve önerilen önem derecesi içeren, tekrarlanabilir ve önceliklendirmeye hazır bir hata raporu yazar. Bir test uzmanı, geliştirici veya kullanıcı bir hata bulduğunda ve kaydedilmesi gerektiğinde, mevcut rapor belirsiz ya da tekrarlanamıyorsa veya biri gözlemlerini yapıştırıp hata kaydına dönüştürülmesini istediğinde kullanılır."
-related: bug-triage, bug-reproduction, log-analysis, test-case-writing, ticket-triage
-prompt: "Hata raporu yaz: iOS uygulamasında ödeme adımında teslimat adresi değiştirildikten sonra kargo ücreti hâlâ eski şehre göre hesaplanıyor. Çoğu zaman oluyor, staging'de build 4.12.0."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Hata raporu yazma"
+  related: "bug-triage, bug-reproduction, log-analysis, test-case-writing, ticket-triage"
+  prompt: "Hata raporu yaz: iOS uygulamasında ödeme adımında teslimat adresi değiştirildikten sonra kargo ücreti hâlâ eski şehre göre hesaplanıyor. Çoğu zaman oluyor, staging'de build 4.12.0."
 ---
 
 # Hata Raporu Yazma

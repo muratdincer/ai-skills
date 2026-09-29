@@ -1,7 +1,16 @@
 ---
+name: interview-notes-analysis
 description: "Ham görüşme notlarını veya dökümlerini analiz eder; ihtiyaçları, sorunları, iş kurallarını, istisnaları, anılan veri ve sistemleri, çelişkileri ve açık soruları kaynağına bağlı olarak çıkarır. Bir veya daha fazla gereksinim görüşmesinden sonra, notlar dağınıksa veya 'bu görüşmelerden ne öğrendik?' sorusu geldiğinde kullanılır."
-related: "interview-question-set, business-rules-catalog, requirements-consistency-check, feedback-synthesis, open-questions-tracker"
-prompt: "Üç borç muhasebesi uzmanıyla yaptığım görüşmelerin notları burada. İhtiyaçları, sorunları, kuralları ve çelişkileri çıkar."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Görüşme notlarını analiz etme"
+  related: "interview-question-set, business-rules-catalog, requirements-consistency-check, feedback-synthesis, open-questions-tracker"
+  prompt: "Üç borç muhasebesi uzmanıyla yaptığım görüşmelerin notları burada. İhtiyaçları, sorunları, kuralları ve çelişkileri çıkar."
 ---
 
 # Görüşme Notlarını Analiz Etme

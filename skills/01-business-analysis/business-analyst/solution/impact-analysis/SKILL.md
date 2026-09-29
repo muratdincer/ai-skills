@@ -1,7 +1,16 @@
 ---
+name: impact-analysis
 description: "Analyzes the impact of a proposed change on processes, systems, interfaces, data, reports, users, documents, controls and tests, following direct and indirect dependencies, and rates each impact with evidence and confidence. Use when a new requirement, change request, rule change or system modification is proposed and the team must know what else it touches before estimating, approving or releasing it."
-related: "change-request-analysis, traceability-matrix, process-gap-analysis, regression-selection, dependency-map"
-prompt: "What is the impact of changing the customer ID from numeric to alphanumeric in our core banking system?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Analyze change impact"
+  related: "change-request-analysis, traceability-matrix, process-gap-analysis, regression-selection, dependency-map"
+  prompt: "What is the impact of changing the customer ID from numeric to alphanumeric in our core banking system?"
 ---
 
 # Analyze Change Impact

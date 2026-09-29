@@ -1,7 +1,16 @@
 ---
-description: Tanıdık olmayan bir veri seti için yapılandırılmış bir keşifsel veri analizi yürütür; yapı, tanecik, dağılımlar, boş değerler, mükerrer kayıtlar, aykırı değerler, zaman kapsamı, ilişkiler ve kalite sorunları; bulguları ve kullanıma uygunluğu raporlar. Yeni bir tablo, veri çekimi veya dosya geldiğinde, üzerine model, metrik veya dashboard kurulmadan önce ya da "bu veride ne var?" sorulduğunda kullanılır.
-related: analysis-plan, data-quality-rules, metric-definition, feature-engineering-plan, data-catalog-entry
-prompt: Bu veri setini keşfet: order_id, customer_id, order_ts, amount, currency, status, channel kolonlarını içeren 250 bin e-ticaret siparişlik bir CSV. Profil çıktısı ekte.
+name: data-exploration
+description: "Tanıdık olmayan bir veri seti için yapılandırılmış bir keşifsel veri analizi yürütür; yapı, tanecik, dağılımlar, boş değerler, mükerrer kayıtlar, aykırı değerler, zaman kapsamı, ilişkiler ve kalite sorunları; bulguları ve kullanıma uygunluğu raporlar. Yeni bir tablo, veri çekimi veya dosya geldiğinde, üzerine model, metrik veya dashboard kurulmadan önce ya da \"bu veride ne var?\" sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Veri setini keşfetme"
+  related: "analysis-plan, data-quality-rules, metric-definition, feature-engineering-plan, data-catalog-entry"
+  prompt: "Bu veri setini keşfet: order_id, customer_id, order_ts, amount, currency, status, channel kolonlarını içeren 250 bin e-ticaret siparişlik bir CSV. Profil çıktısı ekte."
 ---
 
 # Veri Setini Keşfetme

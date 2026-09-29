@@ -1,7 +1,16 @@
 ---
+name: iteration-goal
 description: "Ekibin taahhüt ettiği sonucu, bunun neden önemli olduğunu ve başarının nasıl gözlemleneceğini belirten tek ve tutarlı bir iterasyon/sprint hedefi yazar; aday maddelerden hangilerinin hedefe hizmet ettiğini, hangilerinin etmediğini kontrol eder. İterasyon/sprint planlamasına hazırlanırken, taslak hedef sadece bir kayıt listesiyse ya da sprint hedefi veya iterasyon amacı istendiğinde kullanılır."
-related: "iteration-planning, backlog-prioritization, roadmap, okr-definition, iteration-review-prep"
-prompt: "Sonraki sprint adaylarımız: SSO girişi, parola sıfırlama e-postası düzeltmesi, denetim logu dışa aktarma ve iki teknik borç maddesi. Bir sprint hedefi yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "İterasyon hedefi yazma"
+  related: "iteration-planning, backlog-prioritization, roadmap, okr-definition, iteration-review-prep"
+  prompt: "Sonraki sprint adaylarımız: SSO girişi, parola sıfırlama e-postası düzeltmesi, denetim logu dışa aktarma ve iki teknik borç maddesi. Bir sprint hedefi yaz."
 ---
 
 # İterasyon Hedefi Yazma

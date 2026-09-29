@@ -1,7 +1,16 @@
 ---
+name: retention-policy
 description: "Defines a data retention policy for datasets or systems: retention periods with their legal or business basis, trigger events, archival tiers, deletion or anonymization methods, legal holds, backup handling and evidence of deletion. Use when data is kept indefinitely by default, a privacy law such as KVKK or GDPR requires storage limitation, storage costs grow, or someone asks how long data may or must be kept."
-related: "data-classification, privacy-impact-assessment, backup-restore-plan, policy-writing, data-catalog-entry"
-prompt: "Define a retention policy for our customer, order and application log data under KVKK and GDPR."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Define data retention"
+  related: "data-classification, privacy-impact-assessment, backup-restore-plan, policy-writing, data-catalog-entry"
+  prompt: "Define a retention policy for our customer, order and application log data under KVKK and GDPR."
 ---
 
 # Define Data Retention

@@ -1,7 +1,16 @@
 ---
-description: Fiyat modellerini (sabit, kademeli, kullanıcı başı, kullanım bazlı, freemium, hibrit) değer metriği, hizmet maliyeti, rakip çıpaları ve ödeme isteği sinyallerine göre karşılaştırır; fiyat testi seçenekleriyle bir model önerir. Bir ürün yayına alınırken, ücretli bir paket eklenirken, fiyatlar yeniden ele alınırken ya da bir ürünün nasıl fiyatlanacağı veya paketleneceği sorulduğunda kullanılır.
-related: market-analysis, competitor-analysis, business-model-canvas, experiment-design, persona
-prompt: API izleme aracımız için fiyatlandırma seçeneklerini analiz et; şu an aylık sabit 49 USD.
+name: pricing-analysis
+description: "Fiyat modellerini (sabit, kademeli, kullanıcı başı, kullanım bazlı, freemium, hibrit) değer metriği, hizmet maliyeti, rakip çıpaları ve ödeme isteği sinyallerine göre karşılaştırır; fiyat testi seçenekleriyle bir model önerir. Bir ürün yayına alınırken, ücretli bir paket eklenirken, fiyatlar yeniden ele alınırken ya da bir ürünün nasıl fiyatlanacağı veya paketleneceği sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Fiyatlandırma analizi"
+  related: "market-analysis, competitor-analysis, business-model-canvas, experiment-design, persona"
+  prompt: "API izleme aracımız için fiyatlandırma seçeneklerini analiz et; şu an aylık sabit 49 USD."
 ---
 
 # Fiyatlandırma Analizi

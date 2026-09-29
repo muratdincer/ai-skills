@@ -1,7 +1,16 @@
 ---
-description: Writes a product or feature positioning statement in the For/Who/Is a/That/Unlike/Our product format, grounded in a specific target segment, a real alternative and a provable differentiator, plus the proof points and messaging guardrails that follow from it. Use when launching a product or major feature, when sales and marketing describe the product inconsistently, or when someone asks "how do we position this" or "what makes us different".
-related: value-proposition-canvas, competitor-analysis, persona, go-to-market-plan, elevator-pitch
-prompt: Write a positioning statement for our new invoice-matching module aimed at mid-size manufacturers' finance teams.
+name: positioning-statement
+description: "Writes a product or feature positioning statement in the For/Who/Is a/That/Unlike/Our product format, grounded in a specific target segment, a real alternative and a provable differentiator, plus the proof points and messaging guardrails that follow from it. Use when launching a product or major feature, when sales and marketing describe the product inconsistently, or when someone asks \"how do we position this\" or \"what makes us different\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Write a positioning statement"
+  related: "value-proposition-canvas, competitor-analysis, persona, go-to-market-plan, elevator-pitch"
+  prompt: "Write a positioning statement for our new invoice-matching module aimed at mid-size manufacturers' finance teams."
 ---
 
 # Write a Positioning Statement

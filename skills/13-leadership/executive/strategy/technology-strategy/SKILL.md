@@ -1,7 +1,16 @@
 ---
-description: Writes a technology strategy structured as diagnosis, guiding policy and coherent actions, linked to business goals, with explicit trade-offs, what will not be done, and measures of progress. Use when a CTO or technology leader needs a multi-year direction, when existing plans are wish lists without choices, or when aligning architecture, platform, talent and investment decisions with business strategy.
-related: target-state-architecture, architecture-principles, product-strategy-one-pager, tech-radar, budget-proposal
-prompt: Write a 3-year technology strategy for our insurance company; we have a legacy core, slow releases and a new digital sales goal.
+name: technology-strategy
+description: "Writes a technology strategy structured as diagnosis, guiding policy and coherent actions, linked to business goals, with explicit trade-offs, what will not be done, and measures of progress. Use when a CTO or technology leader needs a multi-year direction, when existing plans are wish lists without choices, or when aligning architecture, platform, talent and investment decisions with business strategy."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Write a technology strategy"
+  related: "target-state-architecture, architecture-principles, product-strategy-one-pager, tech-radar, budget-proposal"
+  prompt: "Write a 3-year technology strategy for our insurance company; we have a legacy core, slow releases and a new digital sales goal."
 ---
 
 # Write a Technology Strategy

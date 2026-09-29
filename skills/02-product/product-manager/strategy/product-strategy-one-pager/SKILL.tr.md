@@ -1,7 +1,16 @@
 ---
-description: Teşhisi, nerede oynanacağını, nasıl kazanılacağını, az sayıdaki stratejik bahsi ve açık hedef dışı konuları vizyon ve sonuç metriklerine bağlayarak tek sayfalık bir ürün stratejisi yazar. Bir ürünün önümüzdeki 12-24 ay için stratejiye ihtiyacı olduğunda, yol haritasının gerekçesi olmadığında ya da yönetim "ürün stratejimiz ne" diye sorduğunda kullanılır.
-related: product-vision, market-analysis, competitor-analysis, okr-definition, roadmap
-prompt: B2B saha servis uygulamamız için önümüzdeki 18 aya yönelik tek sayfalık ürün stratejisi taslağı hazırla.
+name: product-strategy-one-pager
+description: "Teşhisi, nerede oynanacağını, nasıl kazanılacağını, az sayıdaki stratejik bahsi ve açık hedef dışı konuları vizyon ve sonuç metriklerine bağlayarak tek sayfalık bir ürün stratejisi yazar. Bir ürünün önümüzdeki 12-24 ay için stratejiye ihtiyacı olduğunda, yol haritasının gerekçesi olmadığında ya da yönetim \"ürün stratejimiz ne\" diye sorduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Tek sayfalık ürün stratejisi"
+  related: "product-vision, market-analysis, competitor-analysis, okr-definition, roadmap"
+  prompt: "B2B saha servis uygulamamız için önümüzdeki 18 aya yönelik tek sayfalık ürün stratejisi taslağı hazırla."
 ---
 
 # Tek Sayfalık Ürün Stratejisi

@@ -1,7 +1,16 @@
 ---
-description: Bir ürün fikrini, özellik talebini veya varsayımı "İnanıyoruz ki / şu sonucu doğuracak / bunu şuradan anlayacağız" formatında, hedef segmenti, en riskli varsayımı, ölçülebilir sinyali, eşik değeri ve süre sınırı olan yanlışlanabilir bir hipoteze dönüştürür. Ekip bir fikri tam geliştirmeden önce sınamak istediğinde, bir backlog maddesinin beklenen sonucu belirsiz olduğunda ya da ürün hipotezi yazılması, keskinleştirilmesi veya gözden geçirilmesi istendiğinde kullanılır.
-related: experiment-design, assumption-mapping, opportunity-solution-tree, problem-statement, ab-test-analysis
-prompt: "Sepeti sonraya kaydet" butonu için bir hipotez yaz; mobilde ödeme adımındaki terk oranını düşüreceğini düşünüyoruz.
+name: hypothesis-statement
+description: "Bir ürün fikrini, özellik talebini veya varsayımı \"İnanıyoruz ki / şu sonucu doğuracak / bunu şuradan anlayacağız\" formatında, hedef segmenti, en riskli varsayımı, ölçülebilir sinyali, eşik değeri ve süre sınırı olan yanlışlanabilir bir hipoteze dönüştürür. Ekip bir fikri tam geliştirmeden önce sınamak istediğinde, bir backlog maddesinin beklenen sonucu belirsiz olduğunda ya da ürün hipotezi yazılması, keskinleştirilmesi veya gözden geçirilmesi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Ürün hipotezi yazma"
+  related: "experiment-design, assumption-mapping, opportunity-solution-tree, problem-statement, ab-test-analysis"
+  prompt: "Sepeti sonraya kaydet\" butonu için bir hipotez yaz; mobilde ödeme adımındaki terk oranını düşüreceğini düşünüyoruz."
 ---
 
 # Ürün Hipotezi Yazma

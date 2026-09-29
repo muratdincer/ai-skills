@@ -1,7 +1,16 @@
 ---
-description: Writes a product or brand voice and tone guide with 3-5 voice principles, each defined by what it is and is not, do/don't example pairs, a tone map that shifts by user context (success, error, onboarding, sensitive moments), grammar and terminology conventions, and a review checklist for writers. Use when a product lacks consistent UI writing, when several teams write copy differently, when entering a new language or market, or when an existing voice guide is too vague to apply.
-related: microcopy, error-message-writing, style-guide-check, positioning-statement, glossary-builder
-prompt: Create a voice and tone guide for our B2B invoicing app in Turkish and English; our copy currently sounds different on every screen.
+name: voice-and-tone-guide
+description: "Writes a product or brand voice and tone guide with 3-5 voice principles, each defined by what it is and is not, do/don't example pairs, a tone map that shifts by user context (success, error, onboarding, sensitive moments), grammar and terminology conventions, and a review checklist for writers. Use when a product lacks consistent UI writing, when several teams write copy differently, when entering a new language or market, or when an existing voice guide is too vague to apply."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Write a voice and tone guide"
+  related: "microcopy, error-message-writing, style-guide-check, positioning-statement, glossary-builder"
+  prompt: "Create a voice and tone guide for our B2B invoicing app in Turkish and English; our copy currently sounds different on every screen."
 ---
 
 # Write a Voice and Tone Guide

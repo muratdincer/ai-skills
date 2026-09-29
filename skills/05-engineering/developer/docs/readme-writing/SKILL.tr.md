@@ -1,7 +1,16 @@
 ---
-description: Projenin ne olduğunu, kimin için olduğunu, nasıl çalıştırılacağını, nasıl kullanılıp yapılandırılacağını ve nasıl katkı verileceğini kopyalanıp doğrulanabilir komutlarla anlatan bir repository README'si yazar veya yeniden düzenler. Repository'de README yoksa, mevcut olan eskimiş veya dağınıksa, yeni katılanlar projeyi çalıştırmakta zorlanıyorsa ya da bir kütüphane veya servis diğer ekiplerle paylaşılmak üzereyse kullanılır.
-related: code-documentation, api-reference-docs, technical-onboarding, how-to-guide, changelog-entry
-prompt: Dahili invoice-service repository'miz için README yaz. PostgreSQL veritabanı ve bir arka plan worker'ı olan bir REST API; klasör yapısı ve Makefile ekte.
+name: readme-writing
+description: "Projenin ne olduğunu, kimin için olduğunu, nasıl çalıştırılacağını, nasıl kullanılıp yapılandırılacağını ve nasıl katkı verileceğini kopyalanıp doğrulanabilir komutlarla anlatan bir repository README'si yazar veya yeniden düzenler. Repository'de README yoksa, mevcut olan eskimiş veya dağınıksa, yeni katılanlar projeyi çalıştırmakta zorlanıyorsa ya da bir kütüphane veya servis diğer ekiplerle paylaşılmak üzereyse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "README yazma"
+  related: "code-documentation, api-reference-docs, technical-onboarding, how-to-guide, changelog-entry"
+  prompt: "Dahili invoice-service repository'miz için README yaz. PostgreSQL veritabanı ve bir arka plan worker'ı olan bir REST API; klasör yapısı ve Makefile ekte."
 ---
 
 # README Yazma

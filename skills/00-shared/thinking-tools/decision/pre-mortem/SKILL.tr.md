@@ -1,7 +1,16 @@
 ---
-description: Bir plan, proje, lansman veya karar için başarısızlığın zaten gerçekleştiğini varsayarak geriye doğru çalışır; en olası nedenleri, erken uyarı sinyallerini ve önlemleri ortaya çıkarır. Bir plan, lansman, geçiş veya büyük karar kesinleşmeden önce, ekip aşırı iyimser göründüğünde ya da "ne ters gidebilir?" veya "pre-mortem yapalım" dendiğinde kullanılır.
-related: risk-register, assumption-mapping, bias-check, raid-log, technical-risk-review
-prompt: Faturalama veritabanını mart ayında tek bir hafta sonunda yeni bir bulut bölgesine taşıma planımız için pre-mortem yap.
+name: pre-mortem
+description: "Bir plan, proje, lansman veya karar için başarısızlığın zaten gerçekleştiğini varsayarak geriye doğru çalışır; en olası nedenleri, erken uyarı sinyallerini ve önlemleri ortaya çıkarır. Bir plan, lansman, geçiş veya büyük karar kesinleşmeden önce, ekip aşırı iyimser göründüğünde ya da \"ne ters gidebilir?\" veya \"pre-mortem yapalım\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Pre-mortem"
+  related: "risk-register, assumption-mapping, bias-check, raid-log, technical-risk-review"
+  prompt: "Faturalama veritabanını mart ayında tek bir hafta sonunda yeni bir bulut bölgesine taşıma planımız için pre-mortem yap."
 ---
 
 # Pre-Mortem

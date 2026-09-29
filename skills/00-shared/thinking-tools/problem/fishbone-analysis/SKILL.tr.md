@@ -1,7 +1,16 @@
 ---
-description: Açıkça tanımlanmış bir sonucun tüm makul nedenlerini alana uygun kategorilerde düzenleyen bir Ishikawa (balık kılçığı) diyagramı oluşturur, kanıtlı nedenleri hipotezlerden ayırır ve önce doğrulanmaya değer birkaç nedeni seçer. Bir problemin birden fazla etkileşen nedeni olabileceğinde, ekip nedenler üzerine beyin fırtınası yapıp yapıya ihtiyaç duyduğunda veya en umut verici dallarda 5 Neden çalıştırmadan önce kullanılır.
-related: problem-statement, five-whys, postmortem, diagram-as-code, assumption-mapping
-prompt: Balık kılçığı analizi yap: sürüm teslim süremiz son iki çeyrekte 3 günden 2 haftaya çıktı.
+name: fishbone-analysis
+description: "Açıkça tanımlanmış bir sonucun tüm makul nedenlerini alana uygun kategorilerde düzenleyen bir Ishikawa (balık kılçığı) diyagramı oluşturur, kanıtlı nedenleri hipotezlerden ayırır ve önce doğrulanmaya değer birkaç nedeni seçer. Bir problemin birden fazla etkileşen nedeni olabileceğinde, ekip nedenler üzerine beyin fırtınası yapıp yapıya ihtiyaç duyduğunda veya en umut verici dallarda 5 Neden çalıştırmadan önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Balık kılçığı analizi"
+  related: "problem-statement, five-whys, postmortem, diagram-as-code, assumption-mapping"
+  prompt: "Balık kılçığı analizi yap: sürüm teslim süremiz son iki çeyrekte 3 günden 2 haftaya çıktı."
 ---
 
 # Balık Kılçığı Analizi

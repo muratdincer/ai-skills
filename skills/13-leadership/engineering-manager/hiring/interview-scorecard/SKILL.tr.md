@@ -1,7 +1,16 @@
 ---
-description: Mülakatçının ham notlarını yetkinlik başına birebir kanıt, ölçeğe dayalı puan ve gerekçeli, bağımsız bir işe alım önerisi içeren bir değerlendirme formuna dönüştürür. Mülakattan hemen sonra, notların değerlendirme toplantısından önce yazılması gerektiğinde ya da bir formu eksik kanıt, önyargı veya olgu gibi sunulan izlenimler açısından kontrol ederken kullanılır.
-related: technical-interview-questions, candidate-debrief, interview-plan, bias-check
-prompt: B adayıyla yaptığım sistem tasarımı mülakatının notları burada. Kıdemli seviye ölçeğimize göre değerlendirme formuna dönüştür.
+name: interview-scorecard
+description: "Mülakatçının ham notlarını yetkinlik başına birebir kanıt, ölçeğe dayalı puan ve gerekçeli, bağımsız bir işe alım önerisi içeren bir değerlendirme formuna dönüştürür. Mülakattan hemen sonra, notların değerlendirme toplantısından önce yazılması gerektiğinde ya da bir formu eksik kanıt, önyargı veya olgu gibi sunulan izlenimler açısından kontrol ederken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Mülakat değerlendirme formu"
+  related: "technical-interview-questions, candidate-debrief, interview-plan, bias-check"
+  prompt: "B adayıyla yaptığım sistem tasarımı mülakatının notları burada. Kıdemli seviye ölçeğimize göre değerlendirme formuna dönüştür."
 ---
 
 # Mülakat Değerlendirme Formu

@@ -1,7 +1,16 @@
 ---
+name: pipeline-spec
 description: "Specifies a batch or streaming data pipeline end to end: sources and extraction, schedule or trigger, dependencies, transformation steps, targets and write mode, load strategy, data quality gates, SLAs, failure handling, backfill, observability, security and ownership. Use before building or changing a pipeline, when handing pipeline work to an engineer, or when someone asks to design or document an ETL/ELT or streaming job."
-related: "source-to-target-mapping, incremental-load-design, data-quality-rules, data-contract, runbook"
-prompt: "Write a pipeline spec for loading daily orders from the ERP database into the warehouse for the finance mart."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Specify a data pipeline"
+  related: "source-to-target-mapping, incremental-load-design, data-quality-rules, data-contract, runbook"
+  prompt: "Write a pipeline spec for loading daily orders from the ERP database into the warehouse for the finance mart."
 ---
 
 # Specify a Data Pipeline

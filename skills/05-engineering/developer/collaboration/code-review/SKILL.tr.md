@@ -1,7 +1,16 @@
 ---
-description: Bir pull request'i veya diff'i doğruluk, tasarım, testler, güvenlik, performans ve okunabilirlik açısından inceler; önceliklendirilmiş, uygulanabilir bulgular ve net bir karar sunar. Birisi merge öncesinde bir PR'ın, diff'in, yamanın veya kod parçasının incelenmesini istediğinde ya da bir değişiklik için ikinci görüş aradığında kullanılır.
-related: review-comment-writing, clean-code-review, secure-code-review, error-handling-review, pull-request-description
-prompt: Bu pull request diff'ini incele. Sipariş servisine indirim hesaplama endpoint'i ekliyor.
+name: code-review
+description: "Bir pull request'i veya diff'i doğruluk, tasarım, testler, güvenlik, performans ve okunabilirlik açısından inceler; önceliklendirilmiş, uygulanabilir bulgular ve net bir karar sunar. Birisi merge öncesinde bir PR'ın, diff'in, yamanın veya kod parçasının incelenmesini istediğinde ya da bir değişiklik için ikinci görüş aradığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Pull request inceleme"
+  related: "review-comment-writing, clean-code-review, secure-code-review, error-handling-review, pull-request-description"
+  prompt: "Bu pull request diff'ini incele. Sipariş servisine indirim hesaplama endpoint'i ekliyor."
 ---
 
 # Pull Request İnceleme

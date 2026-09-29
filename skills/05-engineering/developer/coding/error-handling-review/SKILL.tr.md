@@ -1,7 +1,16 @@
 ---
+name: error-handling-review
 description: "Kodun hataları nasıl tespit ettiğini, ilettiğini, yeniden denediğini, yedek davranışa geçtiğini ve raporladığını inceler: istisna tasarımı, yutulan veya fazla geniş catch'ler, yeniden deneme ve zaman aşımı politikası, idempotency, kaynak temizliği, transaction tutarlılığı ve kullanıcıya gösterilen hata mesajları. Hatalar sessiz veya kafa karıştırıcı olduğunda, bir servis veya entegrasyon sağlamlaştırılmadan önce ya da kodun hata yönetimi, istisnaları veya dayanıklılığı incelenmek istendiğinde kullanılır."
-related: "resilience-review, logging-instrumentation, error-message-writing, code-review, error-scenario-catalog"
-prompt: "Bu ödeme istemcisindeki hata yönetimini incele: sağlayıcıyı HTTP ile çağırıyor, hata olursa yeniden deniyor ve sipariş durumunu güncelliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Hata yönetimi incelemesi"
+  related: "resilience-review, logging-instrumentation, error-message-writing, code-review, error-scenario-catalog"
+  prompt: "Bu ödeme istemcisindeki hata yönetimini incele: sağlayıcıyı HTTP ile çağırıyor, hata olursa yeniden deniyor ve sipariş durumunu güncelliyor."
 ---
 
 # Hata Yönetimi İncelemesi

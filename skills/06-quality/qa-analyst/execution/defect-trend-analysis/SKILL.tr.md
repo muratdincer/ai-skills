@@ -1,7 +1,16 @@
 ---
+name: defect-trend-analysis
 description: "Hata verisini zaman içinde analiz ederek yoğunluk, kaçak hata (leakage) oranı, yeniden açılma oranı, yaşlanma ve kök neden kategorilerini ortaya koyar; gerçek kalite sinyalini raporlama gürültüsünden ayırır ve kanıta dayalı iyileştirme aksiyonlarıyla bitirir. Ekip kalitenin neden düştüğünü sorduğunda, retrospektif veya kalite değerlendirmesi hazırlanırken, canlıya kaçan hatalar açıklanmak istendiğinde ya da elde bir hata dökümü olup trendlerin yorumlanması gerektiğinde kullanılır."
-related: bug-triage, test-summary-report, five-whys, engineering-metrics-review, code-quality-report
-prompt: "Son 6 sürümün hata dökümü ekte. Trendleri analiz et: hatalar nereden geliyor, ne kadarı canlıya kaçıyor, neyi değiştirmeliyiz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Hata trendi analizi"
+  related: "bug-triage, test-summary-report, five-whys, engineering-metrics-review, code-quality-report"
+  prompt: "Son 6 sürümün hata dökümü ekte. Trendleri analiz et: hatalar nereden geliyor, ne kadarı canlıya kaçıyor, neyi değiştirmeliyiz?"
 ---
 
 # Hata Trendi Analizi

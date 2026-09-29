@@ -1,7 +1,16 @@
 ---
+name: estimation-session
 description: "Göreli tahmin oturumunu (planning poker, tişört bedeni, benzerlik tahmini) hazırlar ve yönlendirir: ölçeği seçer, referans hikaye merdiveni kurar, varsayımları ortaya çıkaran tahmin turlarını yürütür ve boyutları, dağılımı ve takip işlerini kaydeder. Ekip backlog maddelerini boyutlandırmak, yeni bir ölçeği kalibre etmek veya yavaş tahmin toplantılarını hızlandırmak istediğinde ya da planning poker veya tişört bedeni oturumunun nasıl yürütüleceği sorulduğunda kullanılır."
-related: "backlog-refinement, story-splitting, technical-estimation, velocity-analysis, iteration-planning"
-prompt: "Yeni onboarding epic'i için boyutlandırılmamış 25 hikayemiz ve 1 saatlik bir oturumumuz var. Ekip yeni ve referans hikaye yok. Nasıl tahmin yapalım?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Göreli tahmin oturumu"
+  related: "backlog-refinement, story-splitting, technical-estimation, velocity-analysis, iteration-planning"
+  prompt: "Yeni onboarding epic'i için boyutlandırılmamış 25 hikayemiz ve 1 saatlik bir oturumumuz var. Ekip yeni ve referans hikaye yok. Nasıl tahmin yapalım?"
 ---
 
 # Göreli Tahmin Oturumu

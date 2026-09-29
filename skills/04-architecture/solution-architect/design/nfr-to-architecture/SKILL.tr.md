@@ -1,7 +1,16 @@
 ---
-description: Fonksiyonel olmayan gereksinimleri ölçülebilir kalite niteliği senaryolarına (kaynak, uyaran, ortam, eser, yanıt, yanıt ölçüsü) dönüştürür ve her birini ödünleşimleri ve doğrulama yöntemiyle birlikte mimari taktiklere eşler. NFR'ler belirsiz olduğunda ("hızlı", "güvenli", "yüksek erişilebilir"), bir tasarımın kalite hedeflerini nasıl karşıladığını göstermesi gerektiğinde veya mimari inceleme ya da ATAM öncesinde kullanılır.
-related: nfr-specification, solution-architecture-document, atam-evaluation, trade-off-analysis, slo-definition
-prompt: Bu NFR'leri mimari taktiklere eşle: ödeme adımı hızlı olmalı, 7/24 erişilebilir olmalı, Black Friday tepe yüklerini kaldırmalı ve PCI DSS'e uymalı.
+name: nfr-to-architecture
+description: "Fonksiyonel olmayan gereksinimleri ölçülebilir kalite niteliği senaryolarına (kaynak, uyaran, ortam, eser, yanıt, yanıt ölçüsü) dönüştürür ve her birini ödünleşimleri ve doğrulama yöntemiyle birlikte mimari taktiklere eşler. NFR'ler belirsiz olduğunda (\"hızlı\", \"güvenli\", \"yüksek erişilebilir\"), bir tasarımın kalite hedeflerini nasıl karşıladığını göstermesi gerektiğinde veya mimari inceleme ya da ATAM öncesinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "NFR'leri mimari taktiklere eşleme"
+  related: "nfr-specification, solution-architecture-document, atam-evaluation, trade-off-analysis, slo-definition"
+  prompt: "Bu NFR'leri mimari taktiklere eşle: ödeme adımı hızlı olmalı, 7/24 erişilebilir olmalı, Black Friday tepe yüklerini kaldırmalı ve PCI DSS'e uymalı."
 ---
 
 # NFR'leri Mimari Taktiklere Eşleme

@@ -1,7 +1,16 @@
 ---
+name: faq-builder
 description: "Generates the questions a specific audience is likely to ask about a product, change, policy or project, and answers them strictly from provided source material, flagging gaps. Use when preparing an FAQ for a launch, migration, policy change, internal tool or customer help page, or when repeated questions keep arriving through support or chat channels."
-related: "kb-article, announcement, org-change-communication, user-guide, ticket-response"
-prompt: "Create an FAQ for employees about the move from our old VPN to the new zero-trust access client, based on this rollout plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Build an FAQ"
+  related: "kb-article, announcement, org-change-communication, user-guide, ticket-response"
+  prompt: "Create an FAQ for employees about the move from our old VPN to the new zero-trust access client, based on this rollout plan."
 ---
 
 # Build an FAQ

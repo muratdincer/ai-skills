@@ -1,7 +1,16 @@
 ---
+name: pipeline-design
 description: "CI ürününden bağımsız olarak uçtan uca bir CI/CD hattı tasarlar: aşamalar, kalite ve güvenlik kapıları, artefakt yönetimi, ortamlar ve terfi kuralları. Yeni bir hat kurulurken, yavaş veya kırılgan bir hat yeniden yapılandırılırken ya da kodun commit'ten üretime nasıl ilerlediği dokümante edilecekken kullanılır."
-related: "environment-strategy, deployment-strategy, branching-strategy, release-quality-gate, secrets-management-plan"
-prompt: "Kubernetes üzerinde dev, staging ve prod ortamlarına dağıtılan .NET API'miz için, prod öncesi manuel onay içeren bir CI/CD hattı tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "CI/CD hattı tasarlama"
+  related: "environment-strategy, deployment-strategy, branching-strategy, release-quality-gate, secrets-management-plan"
+  prompt: "Kubernetes üzerinde dev, staging ve prod ortamlarına dağıtılan .NET API'miz için, prod öncesi manuel onay içeren bir CI/CD hattı tasarla."
 ---
 
 # CI/CD Hattı Tasarlama

@@ -1,7 +1,16 @@
 ---
+name: to-be-process
 description: "Mevcut süreç tarifi, sorunlar ve hedeflerden iyileştirilmiş (to-be) bir iş süreci tasarlar: yeniden tasarım kaldıraçlarını (kaldır, sadeleştir, otomatikleştir, paralelleştir, kararı taşı, kontrol ekle) uygular, her değişikliği as-is'e göre gösterir, beklenen etkileri, varsayımları ve gereken sağlayıcıları belirtir. Bir süreç iyileştirilecek, dijitalleştirilecek veya yeniden yapılandırılacaksa ve gereksinim ya da sistem tasarımından önce hedef çalışma biçiminde uzlaşılması gerekiyorsa kullanılır."
-related: "as-is-process, process-gap-analysis, bpmn-model, value-stream-map, business-rules-catalog"
-prompt: "Bu mevcut fatura onay süreci ve sorunlarından yola çıkarak onay süresini yarıya indiren bir hedef süreç tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Hedef süreci (to-be) tasarlama"
+  related: "as-is-process, process-gap-analysis, bpmn-model, value-stream-map, business-rules-catalog"
+  prompt: "Bu mevcut fatura onay süreci ve sorunlarından yola çıkarak onay süresini yarıya indiren bir hedef süreç tasarla."
 ---
 
 # Hedef Süreci (To-Be) Tasarlama

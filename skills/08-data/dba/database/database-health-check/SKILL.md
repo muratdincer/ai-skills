@@ -1,7 +1,16 @@
 ---
+name: database-health-check
 description: "Runs a structured health check of a database instance from the metrics, views and settings the user provides: wait profile, top resource-consuming queries, locking and blocking, storage growth and bloat/fragmentation, index and statistics health, configuration, replication, backups and security basics, then prioritizes findings with evidence and fixes. Use for periodic database reviews, before peak season or a migration, when a database feels slow overall, or when taking over an unfamiliar database."
-related: "query-optimization, index-recommendation, backup-restore-plan, capacity-planning, alert-design"
-prompt: "Do a health check of our production SQL database. I pasted the top waits, the top 10 queries by CPU, file sizes and the configuration settings."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: dba
+  area: database
+  title: "Run a database health check"
+  related: "query-optimization, index-recommendation, backup-restore-plan, capacity-planning, alert-design"
+  prompt: "Do a health check of our production SQL database. I pasted the top waits, the top 10 queries by CPU, file sizes and the configuration settings."
 ---
 
 # Run a Database Health Check

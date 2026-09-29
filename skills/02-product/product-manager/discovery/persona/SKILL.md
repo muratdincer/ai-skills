@@ -1,7 +1,16 @@
 ---
-description: Builds an evidence-based persona with context, goals, pains, behaviors, decision criteria and quotes, tracing every attribute to research and flagging proto-persona assumptions. Use when research data (interviews, surveys, analytics, support tickets) must be turned into a shared user model, or when someone asks for a persona or user profile for design and product decisions.
-related: jobs-to-be-done, customer-journey-map, research-synthesis, feedback-synthesis, problem-interview-script
-prompt: Create a persona for warehouse shift supervisors from these 8 interview summaries.
+name: persona
+description: "Builds an evidence-based persona with context, goals, pains, behaviors, decision criteria and quotes, tracing every attribute to research and flagging proto-persona assumptions. Use when research data (interviews, surveys, analytics, support tickets) must be turned into a shared user model, or when someone asks for a persona or user profile for design and product decisions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Build a persona"
+  related: "jobs-to-be-done, customer-journey-map, research-synthesis, feedback-synthesis, problem-interview-script"
+  prompt: "Create a persona for warehouse shift supervisors from these 8 interview summaries."
 ---
 
 # Build a Persona

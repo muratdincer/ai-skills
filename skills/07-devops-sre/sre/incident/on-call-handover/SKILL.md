@@ -1,7 +1,16 @@
 ---
-description: Writes an on-call handover for the incoming engineer from the outgoing shift's notes, alerts, incidents and change calendar: open incidents and their state, recent and upcoming changes, known risks and degraded components, noisy or silenced alerts, pending follow-ups with owners, and explicit watch items with thresholds and first actions. Use at the end of an on-call shift or rotation, before a holiday or freeze period, or whenever responsibility for a production system passes between people or teams.
-related: incident-response, runbook, postmortem, alert-design, incident-communication
-prompt: My on-call week ends tomorrow. Here are my notes, the alert summary and the change calendar. Write the handover for the next on-call engineer.
+name: on-call-handover
+description: "Writes an on-call handover for the incoming engineer from the outgoing shift's notes, alerts, incidents and change calendar: open incidents and their state, recent and upcoming changes, known risks and degraded components, noisy or silenced alerts, pending follow-ups with owners, and explicit watch items with thresholds and first actions. Use at the end of an on-call shift or rotation, before a holiday or freeze period, or whenever responsibility for a production system passes between people or teams."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Write an on-call handover"
+  related: "incident-response, runbook, postmortem, alert-design, incident-communication"
+  prompt: "My on-call week ends tomorrow. Here are my notes, the alert summary and the change calendar. Write the handover for the next on-call engineer."
 ---
 
 # Write an On-Call Handover

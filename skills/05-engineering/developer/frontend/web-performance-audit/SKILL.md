@@ -1,7 +1,16 @@
 ---
-description: Audits a web page or front-end application for loading and runtime performance using Core Web Vitals (LCP, INP, CLS) and supporting metrics, traces each problem to its cause in the critical rendering path, JavaScript, images, fonts or third parties, and returns prioritized fixes with expected effect and a way to verify them. Use when a page feels slow, Core Web Vitals fail in field data, a performance budget is exceeded, or a lab report or trace needs interpreting.
-related: performance-optimization, performance-test-plan, observability-plan, slo-definition, component-design
-prompt: Our product listing page has LCP around 4.8 s and INP 350 ms on mobile. Here is the lab report and the page's head section. What should we fix first?
+name: web-performance-audit
+description: "Audits a web page or front-end application for loading and runtime performance using Core Web Vitals (LCP, INP, CLS) and supporting metrics, traces each problem to its cause in the critical rendering path, JavaScript, images, fonts or third parties, and returns prioritized fixes with expected effect and a way to verify them. Use when a page feels slow, Core Web Vitals fail in field data, a performance budget is exceeded, or a lab report or trace needs interpreting."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Audit web performance"
+  related: "performance-optimization, performance-test-plan, observability-plan, slo-definition, component-design"
+  prompt: "Our product listing page has LCP around 4.8 s and INP 350 ms on mobile. Here is the lab report and the page's head section. What should we fix first?"
 ---
 
 # Audit Web Performance

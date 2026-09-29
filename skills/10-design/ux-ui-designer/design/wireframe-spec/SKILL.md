@@ -1,7 +1,16 @@
 ---
-description: Describes a wireframe in text for one screen or view, covering purpose, layout regions, components, content priority, interactions, all states (default, loading, empty, error, partial, permission), responsive behavior and accessibility notes. Use when a screen must be defined before or instead of visual mockups, when someone asks "what goes on this screen", or when a wireframe must be reviewable by product and engineering in text.
-related: user-flow, information-architecture, screen-requirements, design-handoff, microcopy
-prompt: Describe a wireframe for the order history screen of our e-commerce web app, including empty and error states.
+name: wireframe-spec
+description: "Describes a wireframe in text for one screen or view, covering purpose, layout regions, components, content priority, interactions, all states (default, loading, empty, error, partial, permission), responsive behavior and accessibility notes. Use when a screen must be defined before or instead of visual mockups, when someone asks \"what goes on this screen\", or when a wireframe must be reviewable by product and engineering in text."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Describe a wireframe"
+  related: "user-flow, information-architecture, screen-requirements, design-handoff, microcopy"
+  prompt: "Describe a wireframe for the order history screen of our e-commerce web app, including empty and error states."
 ---
 
 # Describe a Wireframe

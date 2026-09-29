@@ -1,7 +1,16 @@
 ---
+name: sla-breach-analysis
 description: "Bir dönemdeki SLA ihlallerini analiz eder: veriyi ve süre sayım kurallarını doğrular, ihlal oranlarını öncelik, kategori, ekip, zaman ve müşteri bazında ölçer, örüntüleri ve kök nedenleri (süreç, kapasite, yönlendirme, bağımlılık, ölçüm) bulur ve sahipli, hedef metrikli, önceliklendirilmiş iyileştirme aksiyonları önerir. SLA performansı düştüğünde, bir hizmet değerlendirmesi veya sözleşme görüşmesi öncesinde, ceza veya iade söz konusu olduğunda ya da bir ekip kayıtların neden hedefi kaçırdığını anlamak istediğinde kullanılır."
-related: "problem-management, ticket-triage, slo-definition, kpi-definition, dashboard-spec"
-prompt: "Geçen çeyreğin SLA ihlallerini analiz et: P2 çözüm hedefi 8 iş saati, %90 hedefe karşı %71 tutturduk; kayıt dökümü ekte."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "SLA ihlal analizi"
+  related: "problem-management, ticket-triage, slo-definition, kpi-definition, dashboard-spec"
+  prompt: "Geçen çeyreğin SLA ihlallerini analiz et: P2 çözüm hedefi 8 iş saati, %90 hedefe karşı %71 tutturduk; kayıt dökümü ekte."
 ---
 
 # SLA İhlal Analizi

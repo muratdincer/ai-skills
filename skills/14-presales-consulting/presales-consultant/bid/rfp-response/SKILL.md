@@ -1,7 +1,16 @@
 ---
-description: Writes compliant, benefit-led answers to RFP/RFI/tender requirements, one per requirement, stating the compliance level first, then how the solution meets it, the evidence and the client benefit, in the client's format and within limits. Use when drafting or improving answers to an RFP questionnaire or compliance table, when answers are too generic or feature-led, or when partial compliance must be stated honestly.
-related: rfp-analysis, proposal-writing, effort-estimate-for-bid, statement-of-work, traceability-matrix
-prompt: Write our answers for requirements R-10 to R-25 in this RFP; our product covers most of them, two need customization.
+name: rfp-response
+description: "Writes compliant, benefit-led answers to RFP/RFI/tender requirements, one per requirement, stating the compliance level first, then how the solution meets it, the evidence and the client benefit, in the client's format and within limits. Use when drafting or improving answers to an RFP questionnaire or compliance table, when answers are too generic or feature-led, or when partial compliance must be stated honestly."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Write an RFP response"
+  related: "rfp-analysis, proposal-writing, effort-estimate-for-bid, statement-of-work, traceability-matrix"
+  prompt: "Write our answers for requirements R-10 to R-25 in this RFP; our product covers most of them, two need customization."
 ---
 
 # Write an RFP Response

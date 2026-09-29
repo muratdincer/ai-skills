@@ -1,7 +1,16 @@
 ---
+name: test-scenarios-from-requirements
 description: "Gereksinimlerden, user story'lerden, use case'lerden veya kabul kriterlerinden kaynağa izlenebilir ve öncelikli üst düzey test senaryoları (pozitif, negatif, uç, yetki, entegrasyon, fonksiyonel olmayan) çıkarır. Bir özellik için test tasarımı başladığında, bir story'nin kapsamı kontrol edilirken ya da bir gereksinim için neyin test edilmesi gerektiği sorulduğunda kullanılır."
-related: test-case-writing, testability-review, equivalence-boundary-analysis, traceability-matrix, bdd-feature-file
-prompt: "Bu story için test senaryolarını çıkar: müşteri siparişini kargoya verilene kadar iptal edebilir ve ödemesi orijinal ödeme yöntemine iade edilir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Gereksinimden test senaryosu çıkarma"
+  related: "test-case-writing, testability-review, equivalence-boundary-analysis, traceability-matrix, bdd-feature-file"
+  prompt: "Bu story için test senaryolarını çıkar: müşteri siparişini kargoya verilene kadar iptal edebilir ve ödemesi orijinal ödeme yöntemine iade edilir."
 ---
 
 # Gereksinimden Test Senaryosu Çıkarma

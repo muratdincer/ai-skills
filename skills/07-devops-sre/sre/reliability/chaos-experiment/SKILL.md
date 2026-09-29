@@ -1,7 +1,16 @@
 ---
+name: chaos-experiment
 description: "Designs a controlled chaos experiment: steady-state definition, falsifiable hypothesis, fault to inject, blast radius and progressive scope, abort conditions and rollback, observation plan, prerequisites and a findings record. Use when a team wants to verify resilience claims (failover, retries, timeouts, autoscaling), prepare for a game day, or validate a disaster recovery or degradation design before relying on it."
-related: "resilience-review, dr-plan, slo-definition, runbook, observability-plan"
-prompt: "Design a chaos experiment to check that our order service survives losing one of three Redis replicas without customer-visible errors."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Design a chaos experiment"
+  related: "resilience-review, dr-plan, slo-definition, runbook, observability-plan"
+  prompt: "Design a chaos experiment to check that our order service survives losing one of three Redis replicas without customer-visible errors."
 ---
 
 # Design a Chaos Experiment

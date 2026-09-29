@@ -1,7 +1,16 @@
 ---
+name: bug-triage
 description: "Triages a set of bugs by validating completeness, detecting duplicates, separating severity (impact) from priority (order of fixing), assigning owner and target, and flagging release blockers, producing a decision table and follow-up list. Use when new or backlog defects must be reviewed in a triage meeting, when a release is near and open bugs need a blocker decision, or when someone asks which bugs to fix first."
-related: bug-report, release-quality-gate, defect-trend-analysis, risk-based-testing, ticket-triage
-prompt: "Triage these 14 open bugs before Friday's release: decide severity, priority, duplicates and which ones block the release."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Triage bugs"
+  related: "bug-report, release-quality-gate, defect-trend-analysis, risk-based-testing, ticket-triage"
+  prompt: "Triage these 14 open bugs before Friday's release: decide severity, priority, duplicates and which ones block the release."
 ---
 
 # Triage Bugs

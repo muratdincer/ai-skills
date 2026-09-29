@@ -1,7 +1,16 @@
 ---
-description: Condenses a document, analysis, proposal or discussion into a one-page, decision-oriented executive summary that leads with the conclusion and the ask, followed by the supporting points, options, risks and next steps. Use when a senior reader must understand and act on long or technical content quickly, or someone asks for a "TL;DR", "exec summary" or "one-pager for leadership".
-related: status-update, steering-committee-pack, document-simplify, decision-matrix, presentation-outline
-prompt: Turn this 20-page vendor evaluation into an executive summary for the CIO, who has to choose between the two shortlisted vendors next week.
+name: executive-summary
+description: "Condenses a document, analysis, proposal or discussion into a one-page, decision-oriented executive summary that leads with the conclusion and the ask, followed by the supporting points, options, risks and next steps. Use when a senior reader must understand and act on long or technical content quickly, or someone asks for a \"TL;DR\", \"exec summary\" or \"one-pager for leadership\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Write an executive summary"
+  related: "status-update, steering-committee-pack, document-simplify, decision-matrix, presentation-outline"
+  prompt: "Turn this 20-page vendor evaluation into an executive summary for the CIO, who has to choose between the two shortlisted vendors next week."
 ---
 
 # Write an Executive Summary

@@ -1,7 +1,16 @@
 ---
+name: kubernetes-manifest-review
 description: "Reviews Kubernetes manifests, Helm charts or Kustomize output for resource requests and limits, health probes, security context, availability (replicas, disruption budgets, spread), configuration and secret handling, and operability. Returns prioritized findings with corrected YAML. Use when manifests are submitted for review, pods restart or get evicted, or a workload is being prepared for production."
-related: "dockerfile-review, secrets-management-plan, capacity-planning, deployment-strategy, resilience-review"
-prompt: "Review this Deployment and Service YAML for our order API before we go live on the production cluster."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: infrastructure
+  title: "Review Kubernetes manifests"
+  related: "dockerfile-review, secrets-management-plan, capacity-planning, deployment-strategy, resilience-review"
+  prompt: "Review this Deployment and Service YAML for our order API before we go live on the production cluster."
 ---
 
 # Review Kubernetes Manifests

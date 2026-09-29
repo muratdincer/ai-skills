@@ -1,7 +1,16 @@
 ---
+name: dimensional-model
 description: "Designs a dimensional (star/snowflake) model from business processes: declares the grain, fact tables and measure additivity, conformed dimensions, SCD type per attribute and handling of late-arriving and unknown members. Use when building a warehouse or lakehouse gold/mart layer, a semantic model for BI, or when asked for a star schema, bus matrix or fact/dimension design."
-related: "metric-definition, dashboard-spec, report-requirements, data-vault-model, source-to-target-mapping"
-prompt: "Design a star schema for retail sales and returns analysis; users need daily store/product KPIs and customer segment history."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Design a dimensional model"
+  related: "metric-definition, dashboard-spec, report-requirements, data-vault-model, source-to-target-mapping"
+  prompt: "Design a star schema for retail sales and returns analysis; users need daily store/product KPIs and customer segment history."
 ---
 
 # Design a Dimensional Model

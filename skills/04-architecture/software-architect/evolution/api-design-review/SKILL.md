@@ -1,7 +1,16 @@
 ---
-description: Reviews an API design (OpenAPI/AsyncAPI spec, gRPC/protobuf definition, GraphQL schema or a written proposal) for resource modeling, naming consistency, versioning and compatibility, error model, pagination and filtering, idempotency and concurrency, security and operability, and returns rated findings with concrete fixes. Use when an API is proposed or changed before implementation or publication, when a public or partner API is about to be released, or when an existing API needs a consistency audit.
-related: api-contract, api-deprecation-plan, api-test-design, threat-model, api-reference-docs
-prompt: Review this OpenAPI spec for our new orders API before we publish it to partners. Focus on versioning, errors and pagination.
+name: api-design-review
+description: "Reviews an API design (OpenAPI/AsyncAPI spec, gRPC/protobuf definition, GraphQL schema or a written proposal) for resource modeling, naming consistency, versioning and compatibility, error model, pagination and filtering, idempotency and concurrency, security and operability, and returns rated findings with concrete fixes. Use when an API is proposed or changed before implementation or publication, when a public or partner API is about to be released, or when an existing API needs a consistency audit."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Review an API design"
+  related: "api-contract, api-deprecation-plan, api-test-design, threat-model, api-reference-docs"
+  prompt: "Review this OpenAPI spec for our new orders API before we publish it to partners. Focus on versioning, errors and pagination."
 ---
 
 # Review an API Design

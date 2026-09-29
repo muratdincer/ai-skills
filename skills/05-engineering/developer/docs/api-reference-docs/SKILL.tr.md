@@ -1,7 +1,16 @@
 ---
-description: HTTP, RPC veya mesaj tabanlı API'ler için kimlik doğrulamayı, her uç noktayı veya işlemi parametreleriyle, istek ve yanıt örneklerini, hata kodlarını, sayfalamayı, hız sınırlarını ve sürümlemeyi kapsayan API referans dokümantasyonunu bir sözleşmeden, koddan veya notlardan yazar. Bir API'nin tüketicilere yönelik referans dokümanına ihtiyacı olduğunda, mevcut doküman uygulamadan saptığında veya şartname olduğu hâlde açıklama ve örnek içermediğinde kullanılır.
-related: api-contract, api-design-review, readme-writing, error-message-writing, changelog-entry
-prompt: Bu OpenAPI dosyasından sipariş API'miz için referans doküman yaz. Tüketiciler hata kodlarının ne anlama geldiğini ve sayfalamanın nasıl çalıştığını sürekli soruyor.
+name: api-reference-docs
+description: "HTTP, RPC veya mesaj tabanlı API'ler için kimlik doğrulamayı, her uç noktayı veya işlemi parametreleriyle, istek ve yanıt örneklerini, hata kodlarını, sayfalamayı, hız sınırlarını ve sürümlemeyi kapsayan API referans dokümantasyonunu bir sözleşmeden, koddan veya notlardan yazar. Bir API'nin tüketicilere yönelik referans dokümanına ihtiyacı olduğunda, mevcut doküman uygulamadan saptığında veya şartname olduğu hâlde açıklama ve örnek içermediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "API referans dokümanı"
+  related: "api-contract, api-design-review, readme-writing, error-message-writing, changelog-entry"
+  prompt: "Bu OpenAPI dosyasından sipariş API'miz için referans doküman yaz. Tüketiciler hata kodlarının ne anlama geldiğini ve sayfalamanın nasıl çalıştığını sürekli soruyor."
 ---
 
 # API Referans Dokümanı

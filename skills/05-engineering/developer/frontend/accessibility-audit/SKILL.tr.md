@@ -1,7 +1,16 @@
 ---
-description: Bir web veya mobil arayüzü (sayfa, akış, bileşen ya da işaretleme kodu) WCAG 2.2 A ve AA başarı kriterlerine göre denetler; her bulguyu kriter, etkilenen kullanıcılar, kanıt ve önem derecesiyle kaydeder, somut kod veya tasarım düzeltmeleri önerir. Bir ekran veya bileşenin yayın öncesi erişilebilirlik kontrolü gerektiğinde, bir şikâyet ya da yasal talep sonrasında veya "bu erişilebilir mi?", "WCAG'ye göre kontrol et" dendiğinde kullanılır.
-related: component-design, heuristic-evaluation, design-handoff, microcopy, test-case-writing
-prompt: Bu ödeme formu işaretlemesini WCAG 2.2 AA'ya göre denetle ve önce neyi düzeltmem gerektiğini söyle.
+name: accessibility-audit
+description: "Bir web veya mobil arayüzü (sayfa, akış, bileşen ya da işaretleme kodu) WCAG 2.2 A ve AA başarı kriterlerine göre denetler; her bulguyu kriter, etkilenen kullanıcılar, kanıt ve önem derecesiyle kaydeder, somut kod veya tasarım düzeltmeleri önerir. Bir ekran veya bileşenin yayın öncesi erişilebilirlik kontrolü gerektiğinde, bir şikâyet ya da yasal talep sonrasında veya \"bu erişilebilir mi?\", \"WCAG'ye göre kontrol et\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Erişilebilirlik denetimi (WCAG)"
+  related: "component-design, heuristic-evaluation, design-handoff, microcopy, test-case-writing"
+  prompt: "Bu ödeme formu işaretlemesini WCAG 2.2 AA'ya göre denetle ve önce neyi düzeltmem gerektiğini söyle."
 ---
 
 # Erişilebilirlik Denetimi (WCAG)

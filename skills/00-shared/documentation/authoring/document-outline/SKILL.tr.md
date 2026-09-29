@@ -1,7 +1,16 @@
 ---
+name: document-outline
 description: "Herhangi bir doküman (tasarım dokümanı, politika, rehber, rapor, teklif, şartname) için amacından, hedef kitlesinden ve desteklemesi gereken kararlardan yola çıkarak bölüm hedefleri ve içerik notlarıyla uygun bir yapı önerir. Yeni bir doküman başlatılacağında, boş sayfa karşısında kalındığında, dağınık bir doküman yeniden yapılandırılacağında veya bir dokümanda hangi bölümlerin olması gerektiği sorulduğunda kullanılır."
-related: "docs-information-architecture, document-review, executive-summary, technical-design-doc, brd-writing"
-prompt: "Batch raporlama işlerimizi event-driven bir pipeline'a taşımayı öneren bir dokümanın iskeletini çıkar; okuyucular mimari kurul."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Doküman iskeleti çıkarma"
+  related: "docs-information-architecture, document-review, executive-summary, technical-design-doc, brd-writing"
+  prompt: "Batch raporlama işlerimizi event-driven bir pipeline'a taşımayı öneren bir dokümanın iskeletini çıkar; okuyucular mimari kurul."
 ---
 
 # Doküman İskeleti Çıkarma

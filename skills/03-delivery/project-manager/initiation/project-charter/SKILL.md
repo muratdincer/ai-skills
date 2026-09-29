@@ -1,7 +1,16 @@
 ---
-description: Drafts a project charter that formally authorizes a project, stating purpose, measurable objectives, high-level scope, key stakeholders, budget envelope, milestones, risks and the project manager's authority. Use when a project has been approved or is seeking approval and needs a one-document mandate signed by a sponsor.
-related: scope-statement, stakeholder-register, kickoff-deck, business-model-canvas, governance-framework
-prompt: Write a project charter for migrating our on-prem CRM to a SaaS platform; sponsor is the Sales VP, target go-live is Q2.
+name: project-charter
+description: "Drafts a project charter that formally authorizes a project, stating purpose, measurable objectives, high-level scope, key stakeholders, budget envelope, milestones, risks and the project manager's authority. Use when a project has been approved or is seeking approval and needs a one-document mandate signed by a sponsor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Write a project charter"
+  related: "scope-statement, stakeholder-register, kickoff-deck, business-model-canvas, governance-framework"
+  prompt: "Write a project charter for migrating our on-prem CRM to a SaaS platform; sponsor is the Sales VP, target go-live is Q2."
 ---
 
 # Write a Project Charter

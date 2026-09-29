@@ -1,7 +1,16 @@
 ---
+name: dr-plan
 description: "Writes a disaster recovery plan for a system: business-driven RTO/RPO per service tier, disaster scenarios, recovery strategy and dependency order, step-by-step failover and failback procedures, roles and declaration authority, communication and a test schedule with evidence. Use when a system lacks a DR plan, when RTO/RPO targets must be set or verified, before an audit, or after a DR test or incident revealed gaps."
-related: "backup-restore-plan, runbook, chaos-experiment, incident-communication, resilience-review"
-prompt: "Write a DR plan for our core banking API and its PostgreSQL database. Business wants RTO 1 hour and RPO 5 minutes; we run in one region with nightly backups."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Write a disaster recovery plan"
+  related: "backup-restore-plan, runbook, chaos-experiment, incident-communication, resilience-review"
+  prompt: "Write a DR plan for our core banking API and its PostgreSQL database. Business wants RTO 1 hour and RPO 5 minutes; we run in one region with nightly backups."
 ---
 
 # Write a Disaster Recovery Plan

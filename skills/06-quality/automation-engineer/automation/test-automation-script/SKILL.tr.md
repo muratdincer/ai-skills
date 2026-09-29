@@ -1,7 +1,16 @@
 ---
+name: test-automation-script
 description: "Ekibin dili ve framework'ünde page object veya API istemcileri, bağımsız test verisi, koşula dayalı açık beklemeler ve kesin doğrulamalar kullanan bakımı kolay bir otomatik test yazar; önce testin doğru nedenle kaldığını gösterir. Manuel bir test case, senaryo veya Gherkin adımı otomatik test koduna dönüştürülecekken, bir UI veya API testi yazılması istendiğinde ya da mevcut bir otomatik test güvenilir olacak şekilde yeniden yazılacakken kullanılır."
-related: automation-candidate-selection, automation-framework-design, test-case-writing, bdd-feature-file, flaky-test-analysis
-prompt: "Bu test case'i TypeScript setimizde API testi olarak otomatikleştir: süresi dolmuş kuponla sipariş oluşturmak 422 dönmeli ve stok ayırmamalı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Otomatik test yazma"
+  related: "automation-candidate-selection, automation-framework-design, test-case-writing, bdd-feature-file, flaky-test-analysis"
+  prompt: "Bu test case'i TypeScript setimizde API testi olarak otomatikleştir: süresi dolmuş kuponla sipariş oluşturmak 422 dönmeli ve stok ayırmamalı."
 ---
 
 # Otomatik Test Yazma

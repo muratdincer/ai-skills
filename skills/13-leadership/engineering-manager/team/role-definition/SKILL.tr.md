@@ -1,7 +1,16 @@
 ---
-description: Bir rolü misyonu, sonuçları, sorumlulukları, karar yetkileri, diğer rollerle arayüzleri ve rolün hesap vermediği konularla birlikte tanımlar. Yeni bir rol (ör. staff mühendis, teknik lider, platform ürün sahibi) oluşturulurken, iki rol çakıştığında veya çatıştığında ya da karar yetkileri belirsiz olduğu için işler rollerin arasında kaldığında kullanılır.
-related: raci-matrix, career-ladder, job-description, team-topology, governance-framework
-prompt: Ekiplerimizdeki teknik lider rolünü tanımla; insanlar bu rolü mühendislik yöneticisi ve mimarla karıştırıyor.
+name: role-definition
+description: "Bir rolü misyonu, sonuçları, sorumlulukları, karar yetkileri, diğer rollerle arayüzleri ve rolün hesap vermediği konularla birlikte tanımlar. Yeni bir rol (ör. staff mühendis, teknik lider, platform ürün sahibi) oluşturulurken, iki rol çakıştığında veya çatıştığında ya da karar yetkileri belirsiz olduğu için işler rollerin arasında kaldığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Rol tanımlama"
+  related: "raci-matrix, career-ladder, job-description, team-topology, governance-framework"
+  prompt: "Ekiplerimizdeki teknik lider rolünü tanımla; insanlar bu rolü mühendislik yöneticisi ve mimarla karıştırıyor."
 ---
 
 # Rol Tanımlama

@@ -1,7 +1,16 @@
 ---
+name: flaky-test-analysis
 description: "Kararsız (flaky) otomatik testleri analiz eder: koşum geçmişinden kararsızlık oranını ölçer, nedeni sınıflar (zamanlama ve async, paylaşılan durum ve sıra bağımlılığı, test verisi, ortam ve altyapı, dış bağımlılıklar, eşzamanlılık, ürünün deterministik olmayan davranışı), tek değişkenli deneylerle teyit eder ve kök nedene yönelik kararlılaştırma ile karantina politikası önerir. Kod değişmeden testler bazen geçip bazen kaldığında, CI'da yeniden koşum rutinleştiğinde ya da ekip kırmızı build'lere artık güvenmediğinde kullanılır."
-related: test-automation-script, automation-framework-design, debugging-hypotheses, pipeline-failure-triage, log-analysis
-prompt: "Bu 6 uçtan uca test CI'da yaklaşık 10 koşumda bir rastgele kalıyor, lokalde hiç kalmıyor. Hata logları ekte. Neden ve nasıl düzeltiriz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Kararsız test analizi"
+  related: "test-automation-script, automation-framework-design, debugging-hypotheses, pipeline-failure-triage, log-analysis"
+  prompt: "Bu 6 uçtan uca test CI'da yaklaşık 10 koşumda bir rastgele kalıyor, lokalde hiç kalmıyor. Hata logları ekte. Neden ve nasıl düzeltiriz?"
 ---
 
 # Kararsız Test Analizi

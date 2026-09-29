@@ -1,7 +1,16 @@
 ---
+name: as-is-process
 description: "Mevcut (as-is) iş sürecini görüşme ve gözlem notları, prosedürler veya sistem kayıtlarından belgeler: tetikleyici, adımlar, aktörler, sistemler, girdi/çıktılar, karar noktaları, süreler, hacimler, sorunlar ve geçici çözümler. Bir süreç iyileştirilecek, otomatikleştirilecek veya değiştirilecekse ve ekibin önce işin bugün gerçekte nasıl yapıldığına dair ortak, kanıta dayalı bir resme ihtiyacı varsa kullanılır."
-related: "to-be-process, bpmn-model, value-stream-map, observation-notes, interview-notes-analysis"
-prompt: "Muhasebe ve iki departman yöneticisiyle yapılan görüşme notlarından tedarikçi fatura onayı için mevcut süreci belgele."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Mevcut süreci (as-is) belgeleme"
+  related: "to-be-process, bpmn-model, value-stream-map, observation-notes, interview-notes-analysis"
+  prompt: "Muhasebe ve iki departman yöneticisiyle yapılan görüşme notlarından tedarikçi fatura onayı için mevcut süreci belgele."
 ---
 
 # Mevcut Süreci (As-Is) Belgeleme

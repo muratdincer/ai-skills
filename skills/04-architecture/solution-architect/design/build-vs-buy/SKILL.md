@@ -1,7 +1,16 @@
 ---
-description: Compares building, buying (COTS/SaaS), extending an existing platform or using open source for a capability, across strategic differentiation, functional fit, multi-year total cost of ownership, risk, time to value and exit cost, and produces a reasoned recommendation. Use when a team must decide whether to develop a capability in-house or acquire it, or when an existing custom system or product is up for replacement.
-related: technology-selection, vendor-evaluation, cost-benefit-analysis, fit-gap-analysis, adr
-prompt: Should we build our own customer notification service or buy a SaaS product? We send about 2 million emails and SMS a month and need templates in Turkish and English.
+name: build-vs-buy
+description: "Compares building, buying (COTS/SaaS), extending an existing platform or using open source for a capability, across strategic differentiation, functional fit, multi-year total cost of ownership, risk, time to value and exit cost, and produces a reasoned recommendation. Use when a team must decide whether to develop a capability in-house or acquire it, or when an existing custom system or product is up for replacement."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Decide build vs buy"
+  related: "technology-selection, vendor-evaluation, cost-benefit-analysis, fit-gap-analysis, adr"
+  prompt: "Should we build our own customer notification service or buy a SaaS product? We send about 2 million emails and SMS a month and need templates in Turkish and English."
 ---
 
 # Decide Build vs Buy

@@ -1,7 +1,16 @@
 ---
-description: Soldan sağa kullanıcı aktiviteleri ve adımlarından oluşan bir omurga, her adımın altında önceliğe göre dizilmiş hikayeler ve her biri kullanılabilir uçtan uca bir sonuç sunan yatay sürüm dilimleriyle kullanıcı hikaye haritası oluşturur. Bir ürün veya büyük özellik tüm kullanıcı yolculuğu boyunca planlanacaksa, düz backlog büyük resmi kaybettirdiyse ya da ekip ilk ve sonraki sürümlere ne gireceğinde uzlaşmalıysa kullanılır.
-related: epic-breakdown, mvp-scoping, release-planning, customer-journey-map, roadmap
-prompt: B2B masraf yönetimi uygulamamız için, çalışanın fiş göndermesinden finansın ödemesine kadar bir hikaye haritası çıkar.
+name: story-mapping
+description: "Soldan sağa kullanıcı aktiviteleri ve adımlarından oluşan bir omurga, her adımın altında önceliğe göre dizilmiş hikayeler ve her biri kullanılabilir uçtan uca bir sonuç sunan yatay sürüm dilimleriyle kullanıcı hikaye haritası oluşturur. Bir ürün veya büyük özellik tüm kullanıcı yolculuğu boyunca planlanacaksa, düz backlog büyük resmi kaybettirdiyse ya da ekip ilk ve sonraki sürümlere ne gireceğinde uzlaşmalıysa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Kullanıcı hikaye haritası"
+  related: "epic-breakdown, mvp-scoping, release-planning, customer-journey-map, roadmap"
+  prompt: "B2B masraf yönetimi uygulamamız için, çalışanın fiş göndermesinden finansın ödemesine kadar bir hikaye haritası çıkar."
 ---
 
 # Kullanıcı Hikaye Haritası

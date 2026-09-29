@@ -1,7 +1,16 @@
 ---
-description: Cuts a product or feature scope down to the smallest release that tests the riskiest value assumption with real users, using an assumption-led cut, a must/later/never scope table, explicit quality floor, learning goals and exit criteria. Use when a scope is too big for the available time, when someone asks "what is our MVP", or when a team must decide what to leave out of a first release.
-related: hypothesis-statement, story-mapping, prd-writing, assumption-mapping, release-planning
-prompt: We have 8 weeks and a 40-item feature list for a field-service scheduling app; help me scope the MVP.
+name: mvp-scoping
+description: "Cuts a product or feature scope down to the smallest release that tests the riskiest value assumption with real users, using an assumption-led cut, a must/later/never scope table, explicit quality floor, learning goals and exit criteria. Use when a scope is too big for the available time, when someone asks \"what is our MVP\", or when a team must decide what to leave out of a first release."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Scope an MVP"
+  related: "hypothesis-statement, story-mapping, prd-writing, assumption-mapping, release-planning"
+  prompt: "We have 8 weeks and a 40-item feature list for a field-service scheduling app; help me scope the MVP."
 ---
 
 # Scope an MVP

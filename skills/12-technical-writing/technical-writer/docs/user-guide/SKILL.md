@@ -1,7 +1,16 @@
 ---
-description: Writes a task-based user guide for a product or feature, organized around what users need to accomplish, with prerequisites, numbered steps, expected results, screenshot placeholders, troubleshooting and cross-links. Use when end users or administrators need documentation for a new or changed feature, when a release needs user-facing docs, or when an existing manual is feature-oriented and hard to follow.
-related: how-to-guide, tutorial, docs-information-architecture, style-guide-check, faq-builder
-prompt: Write the user guide section for our new invoice approval workflow for finance approvers, based on these specs and screen names.
+name: user-guide
+description: "Writes a task-based user guide for a product or feature, organized around what users need to accomplish, with prerequisites, numbered steps, expected results, screenshot placeholders, troubleshooting and cross-links. Use when end users or administrators need documentation for a new or changed feature, when a release needs user-facing docs, or when an existing manual is feature-oriented and hard to follow."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Write a user guide"
+  related: "how-to-guide, tutorial, docs-information-architecture, style-guide-check, faq-builder"
+  prompt: "Write the user guide section for our new invoice approval workflow for finance approvers, based on these specs and screen names."
 ---
 
 # Write a User Guide

@@ -1,7 +1,16 @@
 ---
+name: requirements-prioritization
 description: "Prioritizes a set of requirements using a fitting technique (MoSCoW, Kano, value/effort, weighted scoring or cost of delay), makes the criteria explicit, and justifies each ranking with evidence and stated assumptions. Use when scope must be cut to fit a date or budget, stakeholders disagree on what comes first, or a release or MVP scope needs a defensible order."
-related: "backlog-prioritization, decision-matrix, mvp-scoping, stakeholder-map, requirements-sign-off"
-prompt: "Prioritize these 25 requirements for the first release with MoSCoW; we have a fixed go-live date."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Prioritize requirements"
+  related: "backlog-prioritization, decision-matrix, mvp-scoping, stakeholder-map, requirements-sign-off"
+  prompt: "Prioritize these 25 requirements for the first release with MoSCoW; we have a fixed go-live date."
 ---
 
 # Prioritize Requirements

@@ -1,7 +1,16 @@
 ---
-description: Writes an analysis plan that fixes the business question, hypotheses, data sources, method, validity checks and deliverable before any query is run. Use when a stakeholder asks "why did X change", "does Y work" or "should we do Z" and the analysis needs scope, method and expectations agreed up front.
-related: metric-definition, data-exploration, ab-test-analysis, insight-summary, hypothesis-statement
-prompt: Write an analysis plan for this question: marketing wants to know whether the new onboarding email series improved 30-day retention.
+name: analysis-plan
+description: "Writes an analysis plan that fixes the business question, hypotheses, data sources, method, validity checks and deliverable before any query is run. Use when a stakeholder asks \"why did X change\", \"does Y work\" or \"should we do Z\" and the analysis needs scope, method and expectations agreed up front."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Write an analysis plan"
+  related: "metric-definition, data-exploration, ab-test-analysis, insight-summary, hypothesis-statement"
+  prompt: "Write an analysis plan for this question: marketing wants to know whether the new onboarding email series improved 30-day retention."
 ---
 
 # Write an Analysis Plan

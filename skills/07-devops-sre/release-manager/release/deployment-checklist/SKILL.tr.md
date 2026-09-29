@@ -1,7 +1,16 @@
 ---
+name: deployment-checklist
 description: "Sistemin bileşenlerine, veri değişikliklerine ve dağıtım mekanizmasına göre uyarlanmış, her biri sorumlu, beklenen sonuç ve durdurma koşulu içeren dağıtım öncesi, sırası ve sonrası kontrollerden oluşan bir dağıtım kontrol listesi hazırlar. Bir üretim dağıtımı planlandığında, dağıtımlar unutulan adımlar yüzünden başarısız olduğunda ya da geçiş veya dağıtım günü kontrol listesi istendiğinde kullanılır."
-related: "release-plan, rollback-plan, go-no-go, runbook, deployment-strategy"
-prompt: "Bu geceki sürüm için dağıtım kontrol listesi hazırla: Kubernetes üzerinde iki API servisi, bir SQL migration'ı ve gateway'de bir yapılandırma değişikliği var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Dağıtım kontrol listesi"
+  related: "release-plan, rollback-plan, go-no-go, runbook, deployment-strategy"
+  prompt: "Bu geceki sürüm için dağıtım kontrol listesi hazırla: Kubernetes üzerinde iki API servisi, bir SQL migration'ı ve gateway'de bir yapılandırma değişikliği var."
 ---
 
 # Dağıtım Kontrol Listesi

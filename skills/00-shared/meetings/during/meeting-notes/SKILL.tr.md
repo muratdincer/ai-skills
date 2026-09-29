@@ -1,7 +1,16 @@
 ---
-description: Ham toplantı notlarını, sohbet kayıtlarını veya bir dökümü; tartışma noktalarını, kararları, aksiyonları ve açık soruları ayıran, gerektiğinde konuşmacıyı belirten konu bazlı yapılandırılmış notlara dönüştürür. Dağınık notlar veya bir döküm paylaşılıp konuşulanların "toparlanması", "yapılandırılması" ya da "yazıya dökülmesi" istendiğinde kullanılır.
-related: transcript-cleanup, meeting-summary, action-item-extraction, decision-log, open-questions-tracker
-prompt: Platform ekibiyle bugünkü sprint planlamasından ham notlarım bunlar. Bunları yapılandırılmış toplantı notlarına çevir.
+name: meeting-notes
+description: "Ham toplantı notlarını, sohbet kayıtlarını veya bir dökümü; tartışma noktalarını, kararları, aksiyonları ve açık soruları ayıran, gerektiğinde konuşmacıyı belirten konu bazlı yapılandırılmış notlara dönüştürür. Dağınık notlar veya bir döküm paylaşılıp konuşulanların \"toparlanması\", \"yapılandırılması\" ya da \"yazıya dökülmesi\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Yapılandırılmış toplantı notu tutma"
+  related: "transcript-cleanup, meeting-summary, action-item-extraction, decision-log, open-questions-tracker"
+  prompt: "Platform ekibiyle bugünkü sprint planlamasından ham notlarım bunlar. Bunları yapılandırılmış toplantı notlarına çevir."
 ---
 
 # Yapılandırılmış Toplantı Notu Tutma

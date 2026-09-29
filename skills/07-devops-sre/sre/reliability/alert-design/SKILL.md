@@ -1,7 +1,16 @@
 ---
+name: alert-design
 description: "Designs a paging and ticketing alert set for a service: symptom-based alerts tied to SLOs, multi-window multi-burn-rate conditions, severity and routing, runbook links and an audit of existing noisy alerts. Use when alerts are missing, noisy, cause-based (CPU, disk) instead of user-impacting, when on-call is burning out, or when new SLOs need alerting."
-related: "slo-definition, error-budget-policy, observability-plan, runbook, incident-response"
-prompt: "Design alerts for our payments API. SLO is 99.9% availability over 28 days; today we page on CPU > 80% and get 40 pages a week."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Design alerts"
+  related: "slo-definition, error-budget-policy, observability-plan, runbook, incident-response"
+  prompt: "Design alerts for our payments API. SLO is 99.9% availability over 28 days; today we page on CPU > 80% and get 40 pages a week."
 ---
 
 # Design Alerts

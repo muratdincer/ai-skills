@@ -1,7 +1,16 @@
 ---
+name: technical-translation
 description: "Translates technical content (specifications, documentation, UI text, error messages, release notes, runbooks) between English and Turkish while preserving terminology, code, identifiers, formatting and meaning, and flags ambiguous source text. Use when a technical document, message or interface must be delivered in the other language, or when an existing translation needs terminology alignment."
-related: "glossary-builder, microcopy, error-message-writing, document-review, style-guide-check"
-prompt: "Translate this API error-handling section of our developer guide from English to Turkish; keep code and HTTP terms as they are."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Translate technical content"
+  related: "glossary-builder, microcopy, error-message-writing, document-review, style-guide-check"
+  prompt: "Translate this API error-handling section of our developer guide from English to Turkish; keep code and HTTP terms as they are."
 ---
 
 # Translate Technical Content

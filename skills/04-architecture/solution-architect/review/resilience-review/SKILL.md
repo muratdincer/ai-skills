@@ -1,7 +1,16 @@
 ---
-description: Reviews the resilience of a system by walking every critical flow and dependency through its failure modes, and checking timeouts, retries, circuit breakers, bulkheads, idempotency, graceful degradation, data durability and disaster recovery against availability targets (SLO, RTO, RPO). Use before go-live of a critical service, after incidents caused by dependency failures, when adding a new external dependency, or when DR readiness must be demonstrated.
-related: chaos-experiment, dr-plan, slo-definition, integration-pattern-selection, architecture-review
-prompt: Review the resilience of our checkout flow: it calls pricing, inventory, a payment provider and a fraud service synchronously, and we had two outages last month when the fraud service slowed down.
+name: resilience-review
+description: "Reviews the resilience of a system by walking every critical flow and dependency through its failure modes, and checking timeouts, retries, circuit breakers, bulkheads, idempotency, graceful degradation, data durability and disaster recovery against availability targets (SLO, RTO, RPO). Use before go-live of a critical service, after incidents caused by dependency failures, when adding a new external dependency, or when DR readiness must be demonstrated."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Review resilience"
+  related: "chaos-experiment, dr-plan, slo-definition, integration-pattern-selection, architecture-review"
+  prompt: "Review the resilience of our checkout flow: it calls pricing, inventory, a payment provider and a fraud service synchronously, and we had two outages last month when the fraud service slowed down."
 ---
 
 # Review Resilience

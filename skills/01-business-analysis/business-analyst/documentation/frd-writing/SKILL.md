@@ -1,7 +1,16 @@
 ---
+name: frd-writing
 description: "Writes a Functional Requirements Document that specifies system behavior per function: actors and permissions, triggers, inputs with validations, processing and business rules, outputs, states, error handling and interfaces, each requirement uniquely identified, testable and traced to a business need. Use when business requirements are agreed and development or a vendor needs an unambiguous behavioral specification, or when asked to 'write the FRD'."
-related: "brd-writing, use-case-spec, business-rules-catalog, nfr-specification, traceability-matrix"
-prompt: "Based on this BRD, write the FRD for the supplier self-registration and document verification functions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Write a Functional Requirements Document"
+  related: "brd-writing, use-case-spec, business-rules-catalog, nfr-specification, traceability-matrix"
+  prompt: "Based on this BRD, write the FRD for the supplier self-registration and document verification functions."
 ---
 
 # Write a Functional Requirements Document

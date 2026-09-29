@@ -1,7 +1,16 @@
 ---
+name: stakeholder-identification
 description: "Bir girişimi etkileyen, ondan etkilenen veya hakkında karar veren herkesi, gizli ve dolaylı paydaşlar (uyum, operasyon, veri sahipleri, dış taraflar) dahil olmak üzere rolleri, ilgi alanları ve onlardan ne gerektiğiyle birlikte belirler. Bir talebin, projenin veya analizin başında ya da 'kimleri dahil etmemiz gerekiyor?' sorusu geldiğinde kullanılır."
-related: "stakeholder-map, raci-matrix, stakeholder-register, request-intake-document, communication-plan"
-prompt: "Kağıt tabanlı masraf onayını dijital iş akışıyla değiştirme projesinin paydaşları kimler?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "Paydaşları belirleme"
+  related: "stakeholder-map, raci-matrix, stakeholder-register, request-intake-document, communication-plan"
+  prompt: "Kağıt tabanlı masraf onayını dijital iş akışıyla değiştirme projesinin paydaşları kimler?"
 ---
 
 # Paydaşları Belirleme

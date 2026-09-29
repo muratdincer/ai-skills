@@ -1,7 +1,16 @@
 ---
-description: Sürüm sıklığı, paralel desteklenen sürüm sayısı, ekip büyüklüğü, CI olgunluğu ve uyum gereksinimlerine göre bir branch stratejisi (trunk-based development, GitHub Flow, GitFlow veya belgelenmiş bir varyant) önerir ve ortaya çıkan branch, merge ve sürüm kurallarını tanımlar. Ekip yeni bir repository kurduğunda, merge çakışmaları veya uzun ömürlü branch'lerle boğuştuğunda, sürüm modelini değiştirdiğinde ya da birden fazla canlı sürümü desteklemesi gerektiğinde kullanılır.
-related: pipeline-design, release-plan, semantic-versioning, deployment-strategy, working-agreement
-prompt: Tek serviste 12 geliştiriciyiz, haftalık yayına çıkıyoruz ama günlük istiyoruz; develop branch'i yüzünden hotfix'ler çok uzun sürüyor. Hangi branch stratejisini kullanalım?
+name: branching-strategy
+description: "Sürüm sıklığı, paralel desteklenen sürüm sayısı, ekip büyüklüğü, CI olgunluğu ve uyum gereksinimlerine göre bir branch stratejisi (trunk-based development, GitHub Flow, GitFlow veya belgelenmiş bir varyant) önerir ve ortaya çıkan branch, merge ve sürüm kurallarını tanımlar. Ekip yeni bir repository kurduğunda, merge çakışmaları veya uzun ömürlü branch'lerle boğuştuğunda, sürüm modelini değiştirdiğinde ya da birden fazla canlı sürümü desteklemesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Branch stratejisi seçme"
+  related: "pipeline-design, release-plan, semantic-versioning, deployment-strategy, working-agreement"
+  prompt: "Tek serviste 12 geliştiriciyiz, haftalık yayına çıkıyoruz ama günlük istiyoruz; develop branch'i yüzünden hotfix'ler çok uzun sürüyor. Hangi branch stratejisini kullanalım?"
 ---
 
 # Branch Stratejisi Seçme

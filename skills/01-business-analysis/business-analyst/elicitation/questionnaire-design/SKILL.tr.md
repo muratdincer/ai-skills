@@ -1,7 +1,16 @@
 ---
+name: questionnaire-design
 description: "Geniş veya dağınık bir kitle için yanlılıksız bir gereksinim anketi tasarlar: bilgi hedefleri, hedef kitle, yönlendirici veya çift konulu olmayan soru tipleri ve ifadeleri, dallanma mantığı, pilot planı, aydınlatma metni ve analiz planı. Çok sayıda kullanıcıya veya lokasyona aynı sorular sorulacaksa ya da 'gereksinim toplamak için bir anket hazırla' dendiğinde kullanılır."
-related: "interview-question-set, screener-survey, feedback-synthesis, research-plan, data-classification"
-prompt: "Mevcut kredi başvuru ekranında en çok zaman alan adımları bulmak için 400 şube çalışanına yönelik bir anket tasarla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Anket tasarlama"
+  related: "interview-question-set, screener-survey, feedback-synthesis, research-plan, data-classification"
+  prompt: "Mevcut kredi başvuru ekranında en çok zaman alan adımları bulmak için 400 şube çalışanına yönelik bir anket tasarla."
 ---
 
 # Anket Tasarlama

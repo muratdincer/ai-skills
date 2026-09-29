@@ -1,7 +1,16 @@
 ---
-description: Analyzes a client RFP/RFQ/tender document from the bidder's side, extracting mandatory and scored requirements, evaluation criteria, commercial and legal terms, deadlines, hidden expectations and risks, and produces a compliance matrix and a reasoned bid/no-bid recommendation. Use when a new RFP or tender arrives, before committing presales effort, or when the team must decide whether and how to bid.
-related: rfp-response, effort-estimate-for-bid, proposal-writing, requirements-gap-analysis, risk-register
-prompt: Analyze this 80-page RFP for a core banking integration project and tell me whether we should bid.
+name: rfp-analysis
+description: "Analyzes a client RFP/RFQ/tender document from the bidder's side, extracting mandatory and scored requirements, evaluation criteria, commercial and legal terms, deadlines, hidden expectations and risks, and produces a compliance matrix and a reasoned bid/no-bid recommendation. Use when a new RFP or tender arrives, before committing presales effort, or when the team must decide whether and how to bid."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Analyze an RFP"
+  related: "rfp-response, effort-estimate-for-bid, proposal-writing, requirements-gap-analysis, risk-register"
+  prompt: "Analyze this 80-page RFP for a core banking integration project and tell me whether we should bid."
 ---
 
 # Analyze an RFP

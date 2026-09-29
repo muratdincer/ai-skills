@@ -1,7 +1,16 @@
 ---
-description: Önerilen bir yapay zeka veya makine öğrenmesi kullanım senaryosunu iş değeri, teknik fizibilite, veri hazırlığı, risk (gizlilik, adillik, güvenlik, mevzuat) ve işletme maliyeti açısından değerlendirir; en küçük sonraki deneyle birlikte puanlı bir devam / pilot / dur önerisi verir. Birisi "X için yapay zeka kullanalım" dediğinde, bir YZ fikirleri portföyü önceliklendirilirken veya bir YZ pilotu finanse edilmeden önce kullanılır.
-related: ml-problem-framing, rag-design, privacy-impact-assessment, cost-benefit-analysis, decision-matrix
-prompt: Bu fikri değerlendir: çağrı merkezi temsilcilerimiz için gelen tüm müşteri şikâyetlerine ilk yanıt taslağını bir LLM hazırlasın.
+name: ai-use-case-assessment
+description: "Önerilen bir yapay zeka veya makine öğrenmesi kullanım senaryosunu iş değeri, teknik fizibilite, veri hazırlığı, risk (gizlilik, adillik, güvenlik, mevzuat) ve işletme maliyeti açısından değerlendirir; en küçük sonraki deneyle birlikte puanlı bir devam / pilot / dur önerisi verir. Birisi \"X için yapay zeka kullanalım\" dediğinde, bir YZ fikirleri portföyü önceliklendirilirken veya bir YZ pilotu finanse edilmeden önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "YZ kullanım senaryosu değerlendirmesi"
+  related: "ml-problem-framing, rag-design, privacy-impact-assessment, cost-benefit-analysis, decision-matrix"
+  prompt: "Bu fikri değerlendir: çağrı merkezi temsilcilerimiz için gelen tüm müşteri şikâyetlerine ilk yanıt taslağını bir LLM hazırlasın."
 ---
 
 # YZ Kullanım Senaryosu Değerlendirmesi

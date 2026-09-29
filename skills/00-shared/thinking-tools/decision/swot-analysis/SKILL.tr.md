@@ -1,7 +1,16 @@
 ---
-description: Sınırları belirli bir konu (ürün, ekip, platform, girişim, iş birimi) için belirtilen bir hedefe göre SWOT analizi yapar; iç güçlü ve zayıf yönleri dış fırsat ve tehditlerden ayrı tutar, her maddeyi kanıtla destekler ve sonucu TOWS stratejilerine ve önceliklendirilmiş aksiyonlara dönüştürür. Strateji veya planlama oturumlarında, büyük bir yatırımdan önce, yeni bir pazara girerken ya da SWOT istendiğinde kullanılır.
-related: competitor-analysis, product-strategy-one-pager, technology-strategy, assumption-mapping, risk-register
-prompt: Gelecek yılın planlaması öncesinde kurum içi veri platformu ekibimiz için SWOT analizi yap.
+name: swot-analysis
+description: "Sınırları belirli bir konu (ürün, ekip, platform, girişim, iş birimi) için belirtilen bir hedefe göre SWOT analizi yapar; iç güçlü ve zayıf yönleri dış fırsat ve tehditlerden ayrı tutar, her maddeyi kanıtla destekler ve sonucu TOWS stratejilerine ve önceliklendirilmiş aksiyonlara dönüştürür. Strateji veya planlama oturumlarında, büyük bir yatırımdan önce, yeni bir pazara girerken ya da SWOT istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "SWOT analizi"
+  related: "competitor-analysis, product-strategy-one-pager, technology-strategy, assumption-mapping, risk-register"
+  prompt: "Gelecek yılın planlaması öncesinde kurum içi veri platformu ekibimiz için SWOT analizi yap."
 ---
 
 # SWOT Analizi

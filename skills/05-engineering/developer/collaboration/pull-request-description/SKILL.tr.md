@@ -1,7 +1,16 @@
 ---
-description: Neyin değiştiğini, nedenini, nasıl test edildiğini, riskleri ve yayına alma notlarını ve inceleyenlerin nereye odaklanması gerektiğini anlatan bir pull request açıklaması yazar. Geliştirici bir pull/merge request açtığında veya güncellediğinde ve elindeki diff, commit listesi, iş kaydı veya kaba notları inceleyenler için özetlemesi gerektiğinde kullanılır.
-related: commit-message, code-review, implement-from-story, release-notes, rollback-plan
-prompt: Bu commit'ler için PR açıklaması yaz. Değişiklik fatura PDF üretimini arka plan işine taşıyor.
+name: pull-request-description
+description: "Neyin değiştiğini, nedenini, nasıl test edildiğini, riskleri ve yayına alma notlarını ve inceleyenlerin nereye odaklanması gerektiğini anlatan bir pull request açıklaması yazar. Geliştirici bir pull/merge request açtığında veya güncellediğinde ve elindeki diff, commit listesi, iş kaydı veya kaba notları inceleyenler için özetlemesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Pull request açıklaması"
+  related: "commit-message, code-review, implement-from-story, release-notes, rollback-plan"
+  prompt: "Bu commit'ler için PR açıklaması yaz. Değişiklik fatura PDF üretimini arka plan işine taşıyor."
 ---
 
 # Pull Request Açıklaması

@@ -1,7 +1,16 @@
 ---
+name: data-catalog-entry
 description: "Writes a data catalog entry for a dataset, table, report or data product: business description, owner and steward, grain, key fields, lineage summary, quality status, freshness, sensitivity and access, and usage guidance. Use when registering or documenting a dataset for discovery, preparing it for self-service, or when asked to describe a table or data product for the catalog."
-related: "data-lineage-doc, data-classification, data-quality-rules, data-contract, glossary-builder"
-prompt: "Write a catalog entry for the table sales.fact_invoice_line using this DDL and the notes from the finance team."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Write a data catalog entry"
+  related: "data-lineage-doc, data-classification, data-quality-rules, data-contract, glossary-builder"
+  prompt: "Write a catalog entry for the table sales.fact_invoice_line using this DDL and the notes from the finance team."
 ---
 
 # Write a Data Catalog Entry

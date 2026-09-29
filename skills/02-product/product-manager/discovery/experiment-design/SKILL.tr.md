@@ -1,7 +1,16 @@
 ---
-description: Bir hipotezden yola çıkarak ürün deneyi (A/B testi, sahte kapı, boyalı kapı, concierge veya prototip testi) tasarlar; varyantları, rastgeleleştirme birimini, birincil ve koruma metriklerini, tespit edilebilir en küçük etkiyi, örneklem büyüklüğünü ve süreyi, durdurma kurallarını ve önceden taahhüt edilmiş karar kuralını belirler. Ekip bir hipotezi gerçek kullanıcılarla doğrulamak istediğinde, A/B veya sahte kapı testinin nasıl kurulacağını sorduğunda ya da bir deney planının yayından önce kontrol edilmesi gerektiğinde kullanılır.
-related: hypothesis-statement, ab-test-analysis, assumption-mapping, metric-definition, funnel-analysis
-prompt: Yeni fiyatlandırma sayfası tasarımımız için bir A/B testi tasarla; haftada yaklaşık 40.000 ziyaretçimiz var ve deneme kaydı oranı %3,2.
+name: experiment-design
+description: "Bir hipotezden yola çıkarak ürün deneyi (A/B testi, sahte kapı, boyalı kapı, concierge veya prototip testi) tasarlar; varyantları, rastgeleleştirme birimini, birincil ve koruma metriklerini, tespit edilebilir en küçük etkiyi, örneklem büyüklüğünü ve süreyi, durdurma kurallarını ve önceden taahhüt edilmiş karar kuralını belirler. Ekip bir hipotezi gerçek kullanıcılarla doğrulamak istediğinde, A/B veya sahte kapı testinin nasıl kurulacağını sorduğunda ya da bir deney planının yayından önce kontrol edilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Ürün deneyi tasarlama"
+  related: "hypothesis-statement, ab-test-analysis, assumption-mapping, metric-definition, funnel-analysis"
+  prompt: "Yeni fiyatlandırma sayfası tasarımımız için bir A/B testi tasarla; haftada yaklaşık 40.000 ziyaretçimiz var ve deneme kaydı oranı %3,2."
 ---
 
 # Ürün Deneyi Tasarlama

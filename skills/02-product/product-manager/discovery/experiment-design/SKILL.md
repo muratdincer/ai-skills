@@ -1,7 +1,16 @@
 ---
-description: Designs a product experiment (A/B test, fake-door, painted-door, concierge or prototype test) from a hypothesis, with variants, randomization unit, primary and guardrail metrics, minimum detectable effect, sample size and duration, stop rules and a pre-committed decision rule. Use when a team wants to validate a hypothesis with real users, asks how to set up an A/B or fake-door test, or needs to check an experiment plan before launch.
-related: hypothesis-statement, ab-test-analysis, assumption-mapping, metric-definition, funnel-analysis
-prompt: Design an A/B test for our new pricing page layout; we get about 40,000 visitors a week and trial sign-up is 3.2%.
+name: experiment-design
+description: "Designs a product experiment (A/B test, fake-door, painted-door, concierge or prototype test) from a hypothesis, with variants, randomization unit, primary and guardrail metrics, minimum detectable effect, sample size and duration, stop rules and a pre-committed decision rule. Use when a team wants to validate a hypothesis with real users, asks how to set up an A/B or fake-door test, or needs to check an experiment plan before launch."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Design a product experiment"
+  related: "hypothesis-statement, ab-test-analysis, assumption-mapping, metric-definition, funnel-analysis"
+  prompt: "Design an A/B test for our new pricing page layout; we get about 40,000 visitors a week and trial sign-up is 3.2%."
 ---
 
 # Design a Product Experiment

@@ -1,7 +1,16 @@
 ---
+name: definition-of-done
 description: "Creates or revises a Definition of Done: the shared quality checklist every increment or work item must pass to count as complete, layered by item, release and organization level, with verification method per criterion and a plan to close gaps. Use when 'done' means different things to different people, quality escapes to production, or someone asks for a DoD or completion criteria."
-related: "definition-of-ready, release-quality-gate, acceptance-criteria, coding-standards, working-agreement"
-prompt: "Draft a Definition of Done for our mobile banking team; we have code review and unit tests but releases still break accessibility and security checks."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Define Definition of Done"
+  related: "definition-of-ready, release-quality-gate, acceptance-criteria, coding-standards, working-agreement"
+  prompt: "Draft a Definition of Done for our mobile banking team; we have code review and unit tests but releases still break accessibility and security checks."
 ---
 
 # Define Definition of Done

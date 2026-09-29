@@ -1,7 +1,16 @@
 ---
-description: Builds a one-page competitive battle card for sales and presales against a named competitor, covering when we win and lose, strengths and weaknesses on both sides, discovery and landmine questions, objection handling with proof points and quick-dismiss answers. Use when sales meets a competitor in deals, before a competitive pitch or RFP, when win/loss notes need to become field guidance, or when someone asks for a "battle card", "kill sheet" or "how do we beat X".
-related: competitor-analysis, positioning-statement, pricing-analysis, rfp-response, elevator-pitch
-prompt: Build a battle card for our sales team against VendorX; we keep losing mid-size deals to them on price but win when integrations matter.
+name: competitive-battle-card
+description: "Builds a one-page competitive battle card for sales and presales against a named competitor, covering when we win and lose, strengths and weaknesses on both sides, discovery and landmine questions, objection handling with proof points and quick-dismiss answers. Use when sales meets a competitor in deals, before a competitive pitch or RFP, when win/loss notes need to become field guidance, or when someone asks for a \"battle card\", \"kill sheet\" or \"how do we beat X\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Build a competitive battle card"
+  related: "competitor-analysis, positioning-statement, pricing-analysis, rfp-response, elevator-pitch"
+  prompt: "Build a battle card for our sales team against VendorX; we keep losing mid-size deals to them on price but win when integrations matter."
 ---
 
 # Build a Competitive Battle Card

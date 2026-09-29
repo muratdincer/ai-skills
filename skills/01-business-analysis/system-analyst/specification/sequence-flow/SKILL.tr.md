@@ -1,7 +1,16 @@
 ---
+name: sequence-flow
 description: "Uçtan uca tek bir senaryoda sistemlerin, servislerin ve aktörlerin nasıl etkileştiğini tarif eder: katılımcılar, sıralı mesajlar, senkron veya asenkron yapı, temel yük alanları, yanıtlar, zaman aşımları, yeniden denemeler ve alternatif ya da hata yolları; çıktı bir adım tablosu ve sıralama diyagramı kodudur. Bir senaryo birden çok sistemi kestiğinde, entegrasyon davranışı ekipler arasında netleştirilmesi gerektiğinde ya da 'ne neyi, hangi sırayla çağırıyor, hata olursa ne oluyor?' sorusu sorulduğunda kullanılır."
-related: "integration-requirements, api-contract, error-scenario-catalog, state-model, diagram-as-code"
-prompt: "Online sipariş için akışı tarif et: web mağaza, sipariş servisi, ödeme geçidi, stok servisi ve bildirim; ödeme zaman aşımı dahil."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Sistem etkileşim akışı"
+  related: "integration-requirements, api-contract, error-scenario-catalog, state-model, diagram-as-code"
+  prompt: "Online sipariş için akışı tarif et: web mağaza, sipariş servisi, ödeme geçidi, stok servisi ve bildirim; ödeme zaman aşımı dahil."
 ---
 
 # Sistem Etkileşim Akışı

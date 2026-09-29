@@ -1,7 +1,16 @@
 ---
+name: state-model
 description: "Bir iş varlığının (sipariş, başvuru, hasar dosyası, sözleşme, kayıt) yaşam döngüsünü modeller: durumlar, geçişler, tetikleyici olaylar, koşullar (guard), eylemler, her geçişi kimin tetikleyebileceği ve geçersiz geçişler; çıktı bir geçiş tablosu ve diyagram kodudur. Bir varlığın davranışı belirleyen durumları olduğunda, durum kuralları dağınık veya tartışmalı olduğunda ya da iş akışı, API veya durum geçiş testleri tasarlanmadan önce kullanılır."
-related: "business-rules-catalog, state-transition-testing, sequence-flow, error-scenario-catalog, diagram-as-code"
-prompt: "Bir sigorta hasar dosyasının başvurudan ödemeye veya redde kadar durumlarını, yeniden açma ve iptal dahil modelle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Durum modeli çıkarma"
+  related: "business-rules-catalog, state-transition-testing, sequence-flow, error-scenario-catalog, diagram-as-code"
+  prompt: "Bir sigorta hasar dosyasının başvurudan ödemeye veya redde kadar durumlarını, yeniden açma ve iptal dahil modelle."
 ---
 
 # Durum Modeli Çıkarma

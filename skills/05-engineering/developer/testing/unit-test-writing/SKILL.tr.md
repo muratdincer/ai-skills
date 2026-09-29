@@ -1,7 +1,16 @@
 ---
+name: unit-test-writing
 description: "Bir fonksiyonun, sınıfın veya modülün gözlemlenebilir davranışını Arrange-Act-Assert yapısında sabitleyen birim testleri yazar; mutlu yolu, denklik sınıflarını, sınır değerleri, hata yollarını ve durum geçişlerini kapsar, test dublörlerini yalnızca gerçek sınırlarda kullanır ve test adlarını birer şartname gibi yazar. Birim testi yazma, ekleme veya iyileştirme, belirli bir kodun kapsamını artırma ya da değişiklikten önce kodu güvence altına alma istendiğinde kullanılır."
-related: "tdd-cycle, test-gap-finder, integration-test-writing, equivalence-boundary-analysis, refactoring"
-prompt: "Bu ShippingCostCalculator sınıfı için birim testleri yaz; ağırlık kademeleri, belli tutarın üzerinde ücretsiz kargo ve ekspres ek ücreti kuralları var."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Birim testi yazma"
+  related: "tdd-cycle, test-gap-finder, integration-test-writing, equivalence-boundary-analysis, refactoring"
+  prompt: "Bu ShippingCostCalculator sınıfı için birim testleri yaz; ağırlık kademeleri, belli tutarın üzerinde ücretsiz kargo ve ekspres ek ücreti kuralları var."
 ---
 
 # Birim Testi Yazma

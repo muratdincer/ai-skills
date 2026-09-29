@@ -1,7 +1,16 @@
 ---
-description: Bir ürün veya marka için ses ve ton rehberi yazar; her biri ne olduğu ve ne olmadığıyla tanımlanan 3-5 ses ilkesi, yap/yapma örnek çiftleri, kullanıcı bağlamına göre değişen bir ton haritası (başarı, hata, ilk kullanım, hassas anlar), dil bilgisi ve terminoloji kuralları ile yazarlar için bir gözden geçirme listesi içerir. Bir üründe tutarlı arayüz yazımı olmadığında, birden fazla ekip farklı yazdığında, yeni bir dile veya pazara girilirken ya da mevcut rehber uygulanamayacak kadar belirsiz olduğunda kullanılır.
-related: microcopy, error-message-writing, style-guide-check, positioning-statement, glossary-builder
-prompt: B2B faturalama uygulamamız için Türkçe ve İngilizce bir ses ve ton rehberi oluştur; metinlerimiz şu an her ekranda farklı konuşuyor.
+name: voice-and-tone-guide
+description: "Bir ürün veya marka için ses ve ton rehberi yazar; her biri ne olduğu ve ne olmadığıyla tanımlanan 3-5 ses ilkesi, yap/yapma örnek çiftleri, kullanıcı bağlamına göre değişen bir ton haritası (başarı, hata, ilk kullanım, hassas anlar), dil bilgisi ve terminoloji kuralları ile yazarlar için bir gözden geçirme listesi içerir. Bir üründe tutarlı arayüz yazımı olmadığında, birden fazla ekip farklı yazdığında, yeni bir dile veya pazara girilirken ya da mevcut rehber uygulanamayacak kadar belirsiz olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Ses ve ton rehberi"
+  related: "microcopy, error-message-writing, style-guide-check, positioning-statement, glossary-builder"
+  prompt: "B2B faturalama uygulamamız için Türkçe ve İngilizce bir ses ve ton rehberi oluştur; metinlerimiz şu an her ekranda farklı konuşuyor."
 ---
 
 # Ses ve Ton Rehberi

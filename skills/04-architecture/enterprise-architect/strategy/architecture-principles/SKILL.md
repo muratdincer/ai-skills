@@ -1,7 +1,16 @@
 ---
-description: Defines a small set of enterprise or domain architecture principles, each with a statement, rationale and implications in the TOGAF style, plus how compliance is checked and how exceptions are handled. Use when an organization needs guiding rules for architecture decisions, when principles are vague slogans, or when design reviews keep re-arguing the same trade-offs.
-related: architecture-review, adr, target-state-architecture, technology-strategy, governance-framework
-prompt: Define 8-10 architecture principles for our move to cloud-native, event-driven systems; our drivers are faster delivery, lower run cost and KVKK compliance.
+name: architecture-principles
+description: "Defines a small set of enterprise or domain architecture principles, each with a statement, rationale and implications in the TOGAF style, plus how compliance is checked and how exceptions are handled. Use when an organization needs guiding rules for architecture decisions, when principles are vague slogans, or when design reviews keep re-arguing the same trade-offs."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Define architecture principles"
+  related: "architecture-review, adr, target-state-architecture, technology-strategy, governance-framework"
+  prompt: "Define 8-10 architecture principles for our move to cloud-native, event-driven systems; our drivers are faster delivery, lower run cost and KVKK compliance."
 ---
 
 # Define Architecture Principles

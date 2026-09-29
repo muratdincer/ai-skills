@@ -1,7 +1,16 @@
 ---
+name: brd-writing
 description: "İş problemini, ölçülebilir başarı kriterli hedefleri, kapsamı, paydaşları, üst düzey iş gereksinimlerini, iş kurallarını, kısıtları, varsayımları ve riskleri herhangi bir çözüm tasarımından bağımsız olarak ortaya koyan bir İş Gereksinimleri Dokümanı (BRD) yazar. Bir girişimin çözüm veya fonksiyonel tasarımdan önce uzlaşılmış bir iş temeline ihtiyacı olduğunda ya da bir proje veya değişiklik için 'BRD yaz' dendiğinde kullanılır."
-related: "request-intake-document, frd-writing, stakeholder-identification, requirements-review-checklist, requirements-sign-off"
-prompt: "Manuel tedarikçi kaydını (e-posta ve Excel) self-servis bir süreçle değiştirmek için BRD yaz; çalıştay notları ekte."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "İş Gereksinimleri Dokümanı (BRD) yazma"
+  related: "request-intake-document, frd-writing, stakeholder-identification, requirements-review-checklist, requirements-sign-off"
+  prompt: "Manuel tedarikçi kaydını (e-posta ve Excel) self-servis bir süreçle değiştirmek için BRD yaz; çalıştay notları ekte."
 ---
 
 # İş Gereksinimleri Dokümanı (BRD) Yazma

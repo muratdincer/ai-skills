@@ -1,7 +1,16 @@
 ---
-description: Ekibe katılan bir geliştirici için teknik oryantasyon planı hazırlar: doğrulama adımlı ortam kurulumu, rehberli kod tabanı ve mimari turu, çalışma biçimi, giderek zorlaşan ilk işler, kilit kişiler ve kontrol noktaları; hepsini kişinin deneyimine ve rolüne göre uyarlar. Yeni veya başka ekipten gelen bir geliştirici başladığında, teknik liderin yeni gelen için ilk haftaları hazırlaması gerektiğinde ya da mevcut oryantasyon çok yavaş olduğu için yeniden yapılandırılacağında kullanılır.
-related: onboarding-plan-30-60-90, readme-writing, legacy-code-comprehension, coding-standards, onboarding-guide
-prompt: Pazartesi ödeme ekibimize orta seviye bir backend geliştirici katılıyor. Kurulum ve ilk işler dahil ilk iki hafta için teknik oryantasyon planı hazırla.
+name: technical-onboarding
+description: "Ekibe katılan bir geliştirici için teknik oryantasyon planı hazırlar: doğrulama adımlı ortam kurulumu, rehberli kod tabanı ve mimari turu, çalışma biçimi, giderek zorlaşan ilk işler, kilit kişiler ve kontrol noktaları; hepsini kişinin deneyimine ve rolüne göre uyarlar. Yeni veya başka ekipten gelen bir geliştirici başladığında, teknik liderin yeni gelen için ilk haftaları hazırlaması gerektiğinde ya da mevcut oryantasyon çok yavaş olduğu için yeniden yapılandırılacağında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Geliştirici oryantasyonu"
+  related: "onboarding-plan-30-60-90, readme-writing, legacy-code-comprehension, coding-standards, onboarding-guide"
+  prompt: "Pazartesi ödeme ekibimize orta seviye bir backend geliştirici katılıyor. Kurulum ve ilk işler dahil ilk iki hafta için teknik oryantasyon planı hazırla."
 ---
 
 # Geliştirici Oryantasyonu

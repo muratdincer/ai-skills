@@ -1,7 +1,16 @@
 ---
+name: schema-migration-plan
 description: "Plans a database schema migration on a live system with zero or minimal downtime: assesses lock and rewrite behavior of each DDL, splits breaking changes into expand-migrate-contract steps aligned with application releases, designs batched backfills, and defines verification, rollback and the point of no return. Use when adding, renaming, retyping or dropping columns, tables, constraints or indexes on production databases, or when a migration script needs a safety review before release."
-related: "schema-evolution-plan, index-recommendation, backup-restore-plan, deployment-strategy, rollback-plan"
-prompt: "We need to split the customers.full_name column into first_name and last_name on a 90-million-row PostgreSQL table without downtime. Write the migration plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: dba
+  area: database
+  title: "Plan a schema migration"
+  related: "schema-evolution-plan, index-recommendation, backup-restore-plan, deployment-strategy, rollback-plan"
+  prompt: "We need to split the customers.full_name column into first_name and last_name on a 90-million-row PostgreSQL table without downtime. Write the migration plan."
 ---
 
 # Plan a Schema Migration

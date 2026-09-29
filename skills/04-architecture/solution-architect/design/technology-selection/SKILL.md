@@ -1,7 +1,16 @@
 ---
-description: Runs a structured technology selection - problem framing, weighted criteria including quality attributes, cost, risk and ecosystem health, a long-to-short list, a proof-of-concept plan with pass/fail criteria and a recommendation recorded as an ADR. Use when choosing a database, message broker, framework, platform, SaaS product or library for a significant need, or when a team's preferred tool must be justified objectively.
-related: adr, build-vs-buy, tech-radar, vendor-evaluation, spike-report
-prompt: Help us select a message broker for order and inventory events; we need ordering per order, replay for 7 days and we run on Kubernetes.
+name: technology-selection
+description: "Runs a structured technology selection - problem framing, weighted criteria including quality attributes, cost, risk and ecosystem health, a long-to-short list, a proof-of-concept plan with pass/fail criteria and a recommendation recorded as an ADR. Use when choosing a database, message broker, framework, platform, SaaS product or library for a significant need, or when a team's preferred tool must be justified objectively."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Select a technology"
+  related: "adr, build-vs-buy, tech-radar, vendor-evaluation, spike-report"
+  prompt: "Help us select a message broker for order and inventory events; we need ordering per order, replay for 7 days and we run on Kubernetes."
 ---
 
 # Select a Technology

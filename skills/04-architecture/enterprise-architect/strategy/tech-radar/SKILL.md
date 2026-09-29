@@ -1,7 +1,16 @@
 ---
-description: Builds or updates a technology radar that classifies technologies into Adopt, Trial, Assess and Hold rings across quadrants (techniques, platforms, tools, languages and frameworks), with evidence-based rationale, movement since the last edition and guidance for teams. Use when standardizing a technology landscape, publishing a periodic radar, or deciding whether a team may use a new technology.
-related: technology-selection, architecture-principles, technology-strategy, adr, dependency-upgrade
-prompt: Update our tech radar with these proposals: move gRPC from Assess to Trial, put AngularJS on Hold, and add OpenTelemetry.
+name: tech-radar
+description: "Builds or updates a technology radar that classifies technologies into Adopt, Trial, Assess and Hold rings across quadrants (techniques, platforms, tools, languages and frameworks), with evidence-based rationale, movement since the last edition and guidance for teams. Use when standardizing a technology landscape, publishing a periodic radar, or deciding whether a team may use a new technology."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Maintain a technology radar"
+  related: "technology-selection, architecture-principles, technology-strategy, adr, dependency-upgrade"
+  prompt: "Update our tech radar with these proposals: move gRPC from Assess to Trial, put AngularJS on Hold, and add OpenTelemetry."
 ---
 
 # Maintain a Technology Radar

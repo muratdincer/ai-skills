@@ -1,7 +1,16 @@
 ---
+name: legacy-code-comprehension
 description: "Yabancı veya eski (legacy) bir kodun çalışılabilir haritasını çıkarır: giriş noktaları, modüller ve sorumlulukları, ana çalışma akışları, veri depoları, dış entegrasyonlar, gizli iş kuralları, ölü veya riskli alanlar ve güvenle değiştirilebilecek yerler; her sonucu koddaki bir kanıta bağlar. Bir geliştirici bir sistemi devraldığında, kimsenin tam anlamadığı kodu değiştirmesi gerektiğinde, bir modernizasyon planlandığında veya eski bir kod tabanının nasıl çalıştığı sorulduğunda kullanılır."
-related: "code-explanation, refactoring, tech-debt-assessment, modernization-assessment, business-rules-catalog"
-prompt: "Dokümantasyonu olmayan bu faturalama modülünü devraldım. Klasör yapısı ve ana sınıflar burada; bir faturanın nasıl oluşturulduğunu anlamama yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Eski kodu anlama"
+  related: "code-explanation, refactoring, tech-debt-assessment, modernization-assessment, business-rules-catalog"
+  prompt: "Dokümantasyonu olmayan bu faturalama modülünü devraldım. Klasör yapısı ve ana sınıflar burada; bir faturanın nasıl oluşturulduğunu anlamama yardım et."
 ---
 
 # Eski Kodu Anlama

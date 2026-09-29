@@ -1,7 +1,16 @@
 ---
+name: deployment-checklist
 description: "Builds a deployment checklist with pre-deployment, execution and post-deployment checks, each with an owner, expected result and a stop condition, tailored to the system's components, data changes and deployment mechanism. Use when a production deployment is scheduled, when deployments keep failing on forgotten steps, or when someone asks for a cut-over or deployment-day checklist."
-related: "release-plan, rollback-plan, go-no-go, runbook, deployment-strategy"
-prompt: "Create a deployment checklist for tonight's release: two API services on Kubernetes, one SQL migration, a config change in the gateway."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Build a deployment checklist"
+  related: "release-plan, rollback-plan, go-no-go, runbook, deployment-strategy"
+  prompt: "Create a deployment checklist for tonight's release: two API services on Kubernetes, one SQL migration, a config change in the gateway."
 ---
 
 # Build a Deployment Checklist

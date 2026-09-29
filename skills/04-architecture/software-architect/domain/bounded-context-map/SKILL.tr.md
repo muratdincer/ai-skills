@@ -1,7 +1,16 @@
 ---
-description: Her sınırlı bağlamı, ortak dilini (ubiquitous language) ve sahipliğini adlandıran; bağlamlar arası ilişkileri (partnership, paylaşılan çekirdek, müşteri-tedarikçi, conformist, ACL, OHS, published language, ayrı yollar) upstream/downstream yönü ve entegrasyon biçimiyle sınıflandıran bir bağlam haritası üretir. Modül veya servis sınırları tanımlanırken, bir ekip sistem haritasına alıştırılırken ya da ekipler arası bağımlılık ve çeviri sorunları teşhis edilirken kullanılır.
-related: event-storming, service-decomposition, aggregate-design, integration-pattern-selection, team-topology
-prompt: Perakende platformumuz için bağlam haritası çiz: katalog, fiyatlama, sipariş, ödeme (harici PSP), depo ve CRM; dört ekip sahip.
+name: bounded-context-map
+description: "Her sınırlı bağlamı, ortak dilini (ubiquitous language) ve sahipliğini adlandıran; bağlamlar arası ilişkileri (partnership, paylaşılan çekirdek, müşteri-tedarikçi, conformist, ACL, OHS, published language, ayrı yollar) upstream/downstream yönü ve entegrasyon biçimiyle sınıflandıran bir bağlam haritası üretir. Modül veya servis sınırları tanımlanırken, bir ekip sistem haritasına alıştırılırken ya da ekipler arası bağımlılık ve çeviri sorunları teşhis edilirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Sınırlı bağlam haritası"
+  related: "event-storming, service-decomposition, aggregate-design, integration-pattern-selection, team-topology"
+  prompt: "Perakende platformumuz için bağlam haritası çiz: katalog, fiyatlama, sipariş, ödeme (harici PSP), depo ve CRM; dört ekip sahip."
 ---
 
 # Sınırlı Bağlam Haritası

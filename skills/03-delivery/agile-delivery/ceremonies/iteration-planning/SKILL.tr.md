@@ -1,7 +1,16 @@
 ---
+name: iteration-planning
 description: "Bir iterasyon/sprint planlama oturumunu baştan sona kolaylaştırır: gerçekçi kapasiteyi hesaplar, iterasyon hedefini teyit eder, kapasiteye sığan işi seçip görevlere böler, riskleri ve ortaya çıkan planı kaydeder. Ekip yeni bir iterasyona/sprint'e başlamak üzereyken, planlama gündemi veya kapasite hesabı istendiğinde ya da geçmiş planlar sürekli aşırı taahhütle bittiğinde kullanılır."
-related: "iteration-goal, estimation-session, velocity-analysis, task-breakdown, definition-of-ready"
-prompt: "2 haftalık sprint için 6 geliştiricili sprint planlamasını yürütmeme yardım et; biri 3 gün izinli ve son gün sürüm dondurma var. En üstteki 12 backlog maddesi ekte."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "İterasyon planlaması kolaylaştırma"
+  related: "iteration-goal, estimation-session, velocity-analysis, task-breakdown, definition-of-ready"
+  prompt: "2 haftalık sprint için 6 geliştiricili sprint planlamasını yürütmeme yardım et; biri 3 gün izinli ve son gün sürüm dondurma var. En üstteki 12 backlog maddesi ekte."
 ---
 
 # İterasyon Planlaması Kolaylaştırma

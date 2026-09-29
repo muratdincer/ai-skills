@@ -1,7 +1,16 @@
 ---
-description: Olay notlarından, sohbet loglarından, alarmlardan ve zaman çizelgelerinden suçlamasız bir olay sonrası analiz (postmortem) yazar: özet, müşteri ve iş etkisi, zaman damgalı zaman çizelgesi, tespit ve müdahale analizi, tetikleyicinin ötesine izlenen katkıda bulunan etkenler ve kök nedenler, iyi gidenler ve sorumlu ile tarihleri belli önceliklendirilmiş düzeltici aksiyonlar. Bir olay çözüldükten sonra, bir SLO ihlali veya kıl payı atlatılan bir durum resmi incelemeyi gerektirdiğinde ya da taslak bir postmortem'in suçlamasız ve uygulanabilir hale getirilmesi gerektiğinde kullanılır.
-related: incident-response, incident-communication, runbook, error-budget-policy, alert-design
-prompt: Dün geceki ödeme kesintisinin sohbet logu ve alarm geçmişi ekte. Zaman çizelgesi, kök nedenler ve aksiyon maddeleriyle suçlamasız bir postmortem yaz.
+name: postmortem
+description: "Olay notlarından, sohbet loglarından, alarmlardan ve zaman çizelgelerinden suçlamasız bir olay sonrası analiz (postmortem) yazar: özet, müşteri ve iş etkisi, zaman damgalı zaman çizelgesi, tespit ve müdahale analizi, tetikleyicinin ötesine izlenen katkıda bulunan etkenler ve kök nedenler, iyi gidenler ve sorumlu ile tarihleri belli önceliklendirilmiş düzeltici aksiyonlar. Bir olay çözüldükten sonra, bir SLO ihlali veya kıl payı atlatılan bir durum resmi incelemeyi gerektirdiğinde ya da taslak bir postmortem'in suçlamasız ve uygulanabilir hale getirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Suçlamasız olay sonrası analiz"
+  related: "incident-response, incident-communication, runbook, error-budget-policy, alert-design"
+  prompt: "Dün geceki ödeme kesintisinin sohbet logu ve alarm geçmişi ekte. Zaman çizelgesi, kök nedenler ve aksiyon maddeleriyle suçlamasız bir postmortem yaz."
 ---
 
 # Suçlamasız Olay Sonrası Analiz

@@ -1,7 +1,16 @@
 ---
-description: Zaman içinde gereken rolleri ve yetkinlikleri, dönem bazında kişi veya rol atamalarını, aşırı yüklemeleri, kapasite açıklarını ve bunları kapatma seçeneklerini (işe alım, dış kaynak, yeniden önceliklendirme, yeniden planlama) gösteren proje kaynak planını oluşturur. Takvim hazır olduğunda ekip kurulacaksa, kişiler projeler arasında paylaşılıyorsa ya da bir yetkinlik açığı planı tehdit ediyorsa kullanılır.
-related: schedule-plan, wbs, budget-plan, raci-matrix, onboarding-plan-30-60-90
-prompt: Ödeme geçidi projemizin önümüzdeki 6 ayı için kaynak planı oluştur; takvim ve müsaitlikleriyle ekip listesi ekte.
+name: resource-plan
+description: "Zaman içinde gereken rolleri ve yetkinlikleri, dönem bazında kişi veya rol atamalarını, aşırı yüklemeleri, kapasite açıklarını ve bunları kapatma seçeneklerini (işe alım, dış kaynak, yeniden önceliklendirme, yeniden planlama) gösteren proje kaynak planını oluşturur. Takvim hazır olduğunda ekip kurulacaksa, kişiler projeler arasında paylaşılıyorsa ya da bir yetkinlik açığı planı tehdit ediyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Kaynak planı"
+  related: "schedule-plan, wbs, budget-plan, raci-matrix, onboarding-plan-30-60-90"
+  prompt: "Ödeme geçidi projemizin önümüzdeki 6 ayı için kaynak planı oluştur; takvim ve müsaitlikleriyle ekip listesi ekte."
 ---
 
 # Kaynak Planı

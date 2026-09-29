@@ -1,7 +1,16 @@
 ---
+name: daily-sync-summary
 description: "Günlük ekip toplantısının (stand-up) notlarını veya dökümünü; iterasyon hedefine göre ilerlemeyi, günün planını, sahipli engelleri ve takip görüşmelerini kişi ve ekip bazında veren kısa bir özete dönüştürür. Stand-up notları, asenkron güncelleme mesajları veya toplantı dökümü paylaşılıp özet, engel listesi ya da katılmayanlar için bilgi istendiğinde kullanılır."
-related: "impediment-tracking, meeting-summary, action-item-extraction, burndown-analysis, iteration-goal"
-prompt: "Bu notlardan bugünkü stand-up'ı özetle ve engelleri listele: Emre ödeme API mock'unu bitirdi, test ortamı sertifikasında takıldı; Selin Emre'nin PR'ını inceliyor, sonra iade akışına başlayacak..."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Günlük toplantı özeti"
+  related: "impediment-tracking, meeting-summary, action-item-extraction, burndown-analysis, iteration-goal"
+  prompt: "Bu notlardan bugünkü stand-up'ı özetle ve engelleri listele: Emre ödeme API mock'unu bitirdi, test ortamı sertifikasında takıldı; Selin Emre'nin PR'ını inceliyor, sonra iade akışına başlayacak..."
 ---
 
 # Günlük Toplantı Özeti

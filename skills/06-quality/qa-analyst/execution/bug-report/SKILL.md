@@ -1,7 +1,16 @@
 ---
+name: bug-report
 description: "Writes a reproducible, triage-ready bug report with a precise title, environment and build, preconditions, minimal numbered steps, expected versus actual result, reproduction rate, evidence, impact and a proposed severity. Use when a tester, developer or user has found a defect and it must be logged, when an existing report is vague or cannot be reproduced, or when someone pastes observations and asks to turn them into a bug ticket."
-related: bug-triage, bug-reproduction, log-analysis, test-case-writing, ticket-triage
-prompt: "Write a bug report: on the iOS app, after changing the delivery address at checkout, the shipping fee still uses the old city. Happens most of the time, build 4.12.0 on staging."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Write a bug report"
+  related: "bug-triage, bug-reproduction, log-analysis, test-case-writing, ticket-triage"
+  prompt: "Write a bug report: on the iOS app, after changing the delivery address at checkout, the shipping fee still uses the old city. Happens most of the time, build 4.12.0 on staging."
 ---
 
 # Write a Bug Report

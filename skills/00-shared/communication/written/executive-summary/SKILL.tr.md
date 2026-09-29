@@ -1,7 +1,16 @@
 ---
-description: Bir dokümanı, analizi, teklifi veya tartışmayı; önce sonucu ve talebi, ardından destekleyici noktaları, seçenekleri, riskleri ve sonraki adımları veren tek sayfalık, karar odaklı bir yönetici özetine indirger. Üst düzey bir okuyucunun uzun veya teknik bir içeriği hızla anlayıp harekete geçmesi gerektiğinde ya da "kısaca", "yönetici özeti", "yönetim için tek sayfa" istendiğinde kullanılır.
-related: status-update, steering-committee-pack, document-simplify, decision-matrix, presentation-outline
-prompt: Bu 20 sayfalık tedarikçi değerlendirmesini, gelecek hafta kısa listedeki iki tedarikçi arasında seçim yapacak CIO için yönetici özetine dönüştür.
+name: executive-summary
+description: "Bir dokümanı, analizi, teklifi veya tartışmayı; önce sonucu ve talebi, ardından destekleyici noktaları, seçenekleri, riskleri ve sonraki adımları veren tek sayfalık, karar odaklı bir yönetici özetine indirger. Üst düzey bir okuyucunun uzun veya teknik bir içeriği hızla anlayıp harekete geçmesi gerektiğinde ya da \"kısaca\", \"yönetici özeti\", \"yönetim için tek sayfa\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Yönetici özeti yazma"
+  related: "status-update, steering-committee-pack, document-simplify, decision-matrix, presentation-outline"
+  prompt: "Bu 20 sayfalık tedarikçi değerlendirmesini, gelecek hafta kısa listedeki iki tedarikçi arasında seçim yapacak CIO için yönetici özetine dönüştür."
 ---
 
 # Yönetici Özeti Yazma

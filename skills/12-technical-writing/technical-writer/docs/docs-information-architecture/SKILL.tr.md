@@ -1,7 +1,16 @@
 ---
-description: Bir doküman setinin bilgi mimarisini Diátaxis dört türüne (eğitim, nasıl yapılır, referans, açıklama) göre tasarlar veya yeniden yapılandırır; mevcut sayfaları denetler, karışık içeriği sınıflandırıp böler, gezinme, adlandırma ve sayfa türlerini tanımlar, hedef site haritası ve geçiş planı üretir. Dokümanlarda gezinmek zor olduğunda, sayfalar öğrenme, görev, referans ve kavramı karıştırdığında, yeni bir ürün veya portal doküman yapısına ihtiyaç duyduğunda ya da bir doküman taşıma veya birleştirme öncesinde kullanılır.
-related: tutorial, how-to-guide, user-guide, api-reference-docs, glossary-builder
-prompt: Mevcut 60 sayfalık doküman menümüz burada; geliştiricilerin kurulumu, görevleri ve API referansını daha hızlı bulması için yeniden yapılandırma öner.
+name: docs-information-architecture
+description: "Bir doküman setinin bilgi mimarisini Diátaxis dört türüne (eğitim, nasıl yapılır, referans, açıklama) göre tasarlar veya yeniden yapılandırır; mevcut sayfaları denetler, karışık içeriği sınıflandırıp böler, gezinme, adlandırma ve sayfa türlerini tanımlar, hedef site haritası ve geçiş planı üretir. Dokümanlarda gezinmek zor olduğunda, sayfalar öğrenme, görev, referans ve kavramı karıştırdığında, yeni bir ürün veya portal doküman yapısına ihtiyaç duyduğunda ya da bir doküman taşıma veya birleştirme öncesinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Doküman bilgi mimarisi"
+  related: "tutorial, how-to-guide, user-guide, api-reference-docs, glossary-builder"
+  prompt: "Mevcut 60 sayfalık doküman menümüz burada; geliştiricilerin kurulumu, görevleri ve API referansını daha hızlı bulması için yeniden yapılandırma öner."
 ---
 
 # Doküman Bilgi Mimarisi

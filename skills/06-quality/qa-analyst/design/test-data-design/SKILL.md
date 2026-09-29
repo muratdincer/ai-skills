@@ -1,7 +1,16 @@
 ---
+name: test-data-design
 description: "Designs test datasets that are realistic, privacy-safe and cover partitions, boundaries, states and referential edge cases, with a provisioning and reset approach per environment. Use when tests need specific data, when production data is being considered for testing, when data setup is blocking execution or automation, or when someone asks what data a feature needs to be tested."
-related: equivalence-boundary-analysis, test-case-writing, data-classification, environment-strategy, privacy-impact-assessment
-prompt: "Design the test data for our loan application flow: applicants with different income bands, co-applicants, existing customers and blacklisted IDs, for SIT and UAT."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Design test data"
+  related: "equivalence-boundary-analysis, test-case-writing, data-classification, environment-strategy, privacy-impact-assessment"
+  prompt: "Design the test data for our loan application flow: applicants with different income bands, co-applicants, existing customers and blacklisted IDs, for SIT and UAT."
 ---
 
 # Design Test Data

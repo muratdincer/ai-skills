@@ -1,7 +1,16 @@
 ---
+name: state-transition-testing
 description: "Models an entity or workflow as states, events, guards and actions, then derives tests for all valid transitions, invalid transitions (state-event pairs that must be rejected) and key transition sequences (0-switch and 1-switch coverage). Use when behavior depends on status or history, such as orders, applications, approvals, accounts, sessions or devices, or when someone asks to test a workflow or lifecycle."
-related: state-model, decision-table-testing, test-case-writing, test-scenarios-from-requirements, api-test-design
-prompt: "Create state transition tests for our purchase request: Draft, Submitted, Approved, Rejected, Cancelled, Ordered. Only the requester can cancel, only before Ordered."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Build state transition tests"
+  related: "state-model, decision-table-testing, test-case-writing, test-scenarios-from-requirements, api-test-design"
+  prompt: "Create state transition tests for our purchase request: Draft, Submitted, Approved, Rejected, Cancelled, Ordered. Only the requester can cancel, only before Ordered."
 ---
 
 # Build State Transition Tests

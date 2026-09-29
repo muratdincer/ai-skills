@@ -1,7 +1,16 @@
 ---
-description: Builds a deliverable-oriented work breakdown structure that decomposes project scope into a numbered hierarchy of work packages, with a WBS dictionary covering description, owner, acceptance and dependencies. Use when scope is agreed and must be broken down for estimation, scheduling, resourcing and progress tracking.
-related: scope-statement, estimation-three-point, schedule-plan, resource-plan, task-breakdown
-prompt: Create a WBS for the mobile banking app redesign using this scope statement.
+name: wbs
+description: "Builds a deliverable-oriented work breakdown structure that decomposes project scope into a numbered hierarchy of work packages, with a WBS dictionary covering description, owner, acceptance and dependencies. Use when scope is agreed and must be broken down for estimation, scheduling, resourcing and progress tracking."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a work breakdown structure"
+  related: "scope-statement, estimation-three-point, schedule-plan, resource-plan, task-breakdown"
+  prompt: "Create a WBS for the mobile banking app redesign using this scope statement."
 ---
 
 # Build a Work Breakdown Structure

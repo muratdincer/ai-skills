@@ -1,7 +1,16 @@
 ---
-description: Analyzes a conversion funnel step by step, computing step and cumulative conversion, locating the biggest absolute drop-offs, segmenting them, separating data artefacts from real behaviour and turning findings into ranked, testable improvement hypotheses. Use when given funnel numbers or event data for sign-up, onboarding, checkout or activation, or when someone asks "where are we losing users and why".
-related: experiment-design, hypothesis-statement, customer-journey-map, north-star-metric, data-exploration
-prompt: Here are our sign-up funnel numbers for last month by step and device; find where we lose users and what to try.
+name: funnel-analysis
+description: "Analyzes a conversion funnel step by step, computing step and cumulative conversion, locating the biggest absolute drop-offs, segmenting them, separating data artefacts from real behaviour and turning findings into ranked, testable improvement hypotheses. Use when given funnel numbers or event data for sign-up, onboarding, checkout or activation, or when someone asks \"where are we losing users and why\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Analyze a funnel"
+  related: "experiment-design, hypothesis-statement, customer-journey-map, north-star-metric, data-exploration"
+  prompt: "Here are our sign-up funnel numbers for last month by step and device; find where we lose users and what to try."
 ---
 
 # Analyze a Funnel

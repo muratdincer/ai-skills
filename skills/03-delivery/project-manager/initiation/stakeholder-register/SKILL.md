@@ -1,7 +1,16 @@
 ---
-description: Builds a project stakeholder register listing each stakeholder's role, interest, influence, current and desired engagement, key concerns and communication needs, with an engagement strategy per group. Use when a project starts, when new parties join, or when resistance or silence from a group signals that engagement must be planned deliberately.
-related: stakeholder-identification, stakeholder-map, raci-matrix, communication-plan, project-charter
-prompt: Build a stakeholder register for our ERP rollout to three plants; here is the org chart and the charter.
+name: stakeholder-register
+description: "Builds a project stakeholder register listing each stakeholder's role, interest, influence, current and desired engagement, key concerns and communication needs, with an engagement strategy per group. Use when a project starts, when new parties join, or when resistance or silence from a group signals that engagement must be planned deliberately."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Build a stakeholder register"
+  related: "stakeholder-identification, stakeholder-map, raci-matrix, communication-plan, project-charter"
+  prompt: "Build a stakeholder register for our ERP rollout to three plants; here is the org chart and the charter."
 ---
 
 # Build a Stakeholder Register

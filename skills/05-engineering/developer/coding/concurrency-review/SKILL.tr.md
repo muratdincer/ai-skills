@@ -1,7 +1,16 @@
 ---
+name: concurrency-review
 description: "Kodu eşzamanlılık hatalarına karşı inceler: veri yarışları, kontrol-et-sonra-yap ve kayıp güncellemeler, kilitlenmeler ve kilit sırası, güvensiz yayımlama, async/await yanlış kullanımı, thread pool açlığı ve dağıtık tüketicilerde mükerrer ya da sırasız işleme; her bulgu için somut bir iç içe geçme senaryosu ve çözüm verir. Kod thread, async, kilit, paylaşılan durum, arka plan işçisi, mesaj tüketicisi veya eşzamanlı veritabanı güncellemesi kullanıyorsa ya da zamanlamaya bağlı görünen aralıklı hatalar bildirildiğinde kullanılır."
-related: "code-review, error-handling-review, debugging-hypotheses, resilience-review, integration-test-writing"
-prompt: "Bu cüzdan bakiye yükleme servisini eşzamanlılık sorunlarına karşı incele; bakiyeyi okuyor, tutarı ekliyor ve kaydediyor, hem API'den hem de bir mesaj tüketicisinden çağrılıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Eşzamanlılık incelemesi"
+  related: "code-review, error-handling-review, debugging-hypotheses, resilience-review, integration-test-writing"
+  prompt: "Bu cüzdan bakiye yükleme servisini eşzamanlılık sorunlarına karşı incele; bakiyeyi okuyor, tutarı ekliyor ve kaydediyor, hem API'den hem de bir mesaj tüketicisinden çağrılıyor."
 ---
 
 # Eşzamanlılık İncelemesi

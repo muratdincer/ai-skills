@@ -1,7 +1,16 @@
 ---
-description: Structures a market analysis with TAM/SAM/SOM sizing (top-down and bottom-up, with every figure sourced or marked as assumption), segments, trends, drivers and barriers. Use when evaluating a new market, product idea or expansion, when a business case needs market size, or when someone asks how big a market is or which segment to target.
-related: competitor-analysis, business-model-canvas, product-strategy-one-pager, persona, pricing-analysis
-prompt: Do a market analysis for a scheduling SaaS for independent physiotherapy clinics in Turkey.
+name: market-analysis
+description: "Structures a market analysis with TAM/SAM/SOM sizing (top-down and bottom-up, with every figure sourced or marked as assumption), segments, trends, drivers and barriers. Use when evaluating a new market, product idea or expansion, when a business case needs market size, or when someone asks how big a market is or which segment to target."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Analyze a market"
+  related: "competitor-analysis, business-model-canvas, product-strategy-one-pager, persona, pricing-analysis"
+  prompt: "Do a market analysis for a scheduling SaaS for independent physiotherapy clinics in Turkey."
 ---
 
 # Analyze a Market

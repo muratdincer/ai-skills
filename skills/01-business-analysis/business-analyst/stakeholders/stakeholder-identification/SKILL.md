@@ -1,7 +1,16 @@
 ---
+name: stakeholder-identification
 description: "Identifies everyone who affects, is affected by, or decides on an initiative, including hidden and indirect stakeholders (compliance, operations, data owners, external parties), with their role, interest and what is needed from them. Use at the start of a request, project or analysis, or when asked 'who do we need to involve?'."
-related: "stakeholder-map, raci-matrix, stakeholder-register, request-intake-document, communication-plan"
-prompt: "Who are the stakeholders for replacing our paper-based expense approval with a digital workflow?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "Identify stakeholders"
+  related: "stakeholder-map, raci-matrix, stakeholder-register, request-intake-document, communication-plan"
+  prompt: "Who are the stakeholders for replacing our paper-based expense approval with a digital workflow?"
 ---
 
 # Identify Stakeholders

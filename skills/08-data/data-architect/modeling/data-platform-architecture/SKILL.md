@@ -1,7 +1,16 @@
 ---
+name: data-platform-architecture
 description: "Designs a vendor-neutral data platform architecture: ingestion, storage and processing layers, serving patterns, governance, security, operating model and the choice between warehouse, lakehouse, mesh or hybrid, with decisions traced to requirements. Use when defining a target data platform, modernizing a legacy warehouse, or when asked for a lakehouse, data mesh or reference data architecture."
-related: "target-state-architecture, technology-selection, adr, data-contract, cloud-cost-estimate"
-prompt: "Design a target data platform for a manufacturer with SAP, MES and IoT sources, BI and ML consumers, and a small central data team."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Design a data platform"
+  related: "target-state-architecture, technology-selection, adr, data-contract, cloud-cost-estimate"
+  prompt: "Design a target data platform for a manufacturer with SAP, MES and IoT sources, BI and ML consumers, and a small central data team."
 ---
 
 # Design a Data Platform

@@ -1,7 +1,16 @@
 ---
+name: iteration-review-prep
 description: "Prepares an iteration/sprint review: summarizes the increment against the iteration goal, orders the demo around user scenarios, states what was not done and why, and drafts targeted feedback questions and backlog-impact prompts. Use when a team's iteration review, sprint review or end-of-iteration demo is coming up and someone asks for an agenda, demo order or increment summary."
-related: "stakeholder-review-prep, demo-script, iteration-goal, burndown-analysis, retrospective-facilitation"
-prompt: "Prepare our sprint review for Thursday. Goal was 'merchants can issue partial refunds'. Done: refund API, refund UI, email notice. Not done: refund report. 8 stakeholders from finance and support are coming."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: ceremonies
+  title: "Prepare an iteration review"
+  related: "stakeholder-review-prep, demo-script, iteration-goal, burndown-analysis, retrospective-facilitation"
+  prompt: "Prepare our sprint review for Thursday. Goal was 'merchants can issue partial refunds'. Done: refund API, refund UI, email notice. Not done: refund report. 8 stakeholders from finance and support are coming."
 ---
 
 # Prepare an Iteration Review

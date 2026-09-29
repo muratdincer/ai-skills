@@ -1,7 +1,16 @@
 ---
+name: raci-matrix
 description: "Builds a RACI matrix that assigns Responsible, Accountable, Consulted and Informed roles per activity or deliverable, then validates it (exactly one A, at least one R, no overloaded roles, no empty rows). Use when responsibilities are unclear, work falls between teams, or someone asks 'who owns what?' for a project, process or analysis activity."
-related: "stakeholder-identification, stakeholder-map, communication-plan, project-charter, role-definition"
-prompt: "Create a RACI for the requirements phase of our payment gateway integration: BA, PO, architect, dev lead, QA, security, vendor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: stakeholders
+  title: "Build a RACI matrix"
+  related: "stakeholder-identification, stakeholder-map, communication-plan, project-charter, role-definition"
+  prompt: "Create a RACI for the requirements phase of our payment gateway integration: BA, PO, architect, dev lead, QA, security, vendor."
 ---
 
 # Build a RACI Matrix

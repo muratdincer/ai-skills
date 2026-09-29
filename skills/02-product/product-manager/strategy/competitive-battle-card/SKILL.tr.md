@@ -1,7 +1,16 @@
 ---
-description: Satış ve ön satış ekipleri için adı belli bir rakibe karşı tek sayfalık rekabet kartı hazırlar; ne zaman kazanıp ne zaman kaybettiğimizi, iki tarafın güçlü ve zayıf yönlerini, keşif ve tuzak sorularını, kanıtlı itiraz yanıtlarını ve kısa savuşturma cümlelerini içerir. Satış ekibi anlaşmalarda bir rakiple karşılaştığında, rekabetçi bir sunum veya RFP öncesinde, kazanma/kaybetme notları sahaya yönelik rehbere dönüştürülecekse ya da "battle card", "rakibi nasıl yeneriz" istendiğinde kullanılır.
-related: competitor-analysis, positioning-statement, pricing-analysis, rfp-response, elevator-pitch
-prompt: Satış ekibimiz için VendorX'e karşı bir rekabet kartı hazırla; orta ölçekli anlaşmaları fiyat yüzünden onlara kaybediyoruz ama entegrasyon önemli olduğunda kazanıyoruz.
+name: competitive-battle-card
+description: "Satış ve ön satış ekipleri için adı belli bir rakibe karşı tek sayfalık rekabet kartı hazırlar; ne zaman kazanıp ne zaman kaybettiğimizi, iki tarafın güçlü ve zayıf yönlerini, keşif ve tuzak sorularını, kanıtlı itiraz yanıtlarını ve kısa savuşturma cümlelerini içerir. Satış ekibi anlaşmalarda bir rakiple karşılaştığında, rekabetçi bir sunum veya RFP öncesinde, kazanma/kaybetme notları sahaya yönelik rehbere dönüştürülecekse ya da \"battle card\", \"rakibi nasıl yeneriz\" istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Rekabet kartı hazırlama"
+  related: "competitor-analysis, positioning-statement, pricing-analysis, rfp-response, elevator-pitch"
+  prompt: "Satış ekibimiz için VendorX'e karşı bir rekabet kartı hazırla; orta ölçekli anlaşmaları fiyat yüzünden onlara kaybediyoruz ama entegrasyon önemli olduğunda kazanıyoruz."
 ---
 
 # Rekabet Kartı Hazırlama

@@ -1,7 +1,16 @@
 ---
+name: technical-design-doc
 description: "Değişikliğin büyüklüğüne uygun olarak problem, hedefler ve hedef dışı konular, önerilen tasarım, alternatifler, yayına alma, riskler ve açık soruları kapsayan bir teknik tasarım dokümanı (RFC) yazar. Bir özellik veya değişiklik kodlamadan önce incelenmesi gerekecek kadar büyük, riskli ya da ekipler arası olduğunda veya RFC, tasarım dokümanı ya da teknik öneri istendiğinde kullanılır."
-related: "adr, solution-architecture-document, task-breakdown, api-contract, trade-off-analysis"
-prompt: "Sipariş onay e-postalarını checkout isteği içinde senkron göndermek yerine outbox ve arka plan worker'ı ile göndermek için bir tasarım dokümanı yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Teknik tasarım dokümanı (RFC)"
+  related: "adr, solution-architecture-document, task-breakdown, api-contract, trade-off-analysis"
+  prompt: "Sipariş onay e-postalarını checkout isteği içinde senkron göndermek yerine outbox ve arka plan worker'ı ile göndermek için bir tasarım dokümanı yaz."
 ---
 
 # Teknik Tasarım Dokümanı (RFC)

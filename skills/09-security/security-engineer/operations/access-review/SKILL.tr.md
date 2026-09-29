@@ -1,7 +1,16 @@
 ---
+name: access-review
 description: "Bir uygulama, veritabanı, bulut hesabı veya dizin grubu için kullanıcı erişim gözden geçirmesi (erişim yeniden onayı) yapar: yetkileri İK ve rol verileriyle karşılaştırarak fazla, sahipsiz, kullanılmayan, paylaşılan ve görevler ayrılığıyla çakışan yetkileri tespit eder, denetçiler için kanıtlı kaldır/koru kararları üretir. ISO 27001, SOC 2, SOX veya BDDK kapsamındaki periyodik erişim gözden geçirmelerinde, yeniden yapılanmalardan sonra ya da yetki birikmesinden şüphelenildiğinde kullanılır."
-related: "authn-authz-design, audit-preparation, control-mapping, it-risk-assessment, raci-matrix"
-prompt: "ERP'mizden alınan kullanıcı-rol listesi ve İK'nın aktif çalışan listesi burada. Çeyreklik erişim gözden geçirmesini yap ve kaldırılması gerekenleri işaretle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: operations
+  title: "Erişim yetkisi gözden geçirme"
+  related: "authn-authz-design, audit-preparation, control-mapping, it-risk-assessment, raci-matrix"
+  prompt: "ERP'mizden alınan kullanıcı-rol listesi ve İK'nın aktif çalışan listesi burada. Çeyreklik erişim gözden geçirmesini yap ve kaldırılması gerekenleri işaretle."
 ---
 
 # Erişim Yetkisi Gözden Geçirme

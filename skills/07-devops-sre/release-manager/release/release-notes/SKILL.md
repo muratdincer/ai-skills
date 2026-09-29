@@ -1,7 +1,16 @@
 ---
+name: release-notes
 description: "Writes release notes from a change list, commits or work items, grouped into new features, improvements, fixes, breaking changes, deprecations and known issues, and written for a named audience (end users, administrators, API consumers or internal teams). Use when a version is about to ship and users, customers or support need to know what changed and what they must do."
-related: "changelog-entry, semantic-versioning, release-announcement, app-store-release-notes, release-plan"
-prompt: "Turn this list of 23 merged tickets into release notes for our customers' administrators for version 3.8."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Write release notes"
+  related: "changelog-entry, semantic-versioning, release-announcement, app-store-release-notes, release-plan"
+  prompt: "Turn this list of 23 merged tickets into release notes for our customers' administrators for version 3.8."
 ---
 
 # Write Release Notes

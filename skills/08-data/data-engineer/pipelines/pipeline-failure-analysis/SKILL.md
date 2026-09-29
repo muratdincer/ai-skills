@@ -1,7 +1,16 @@
 ---
+name: pipeline-failure-analysis
 description: "Analyzes a failed or silently wrong data pipeline run: reconstructs the timeline, isolates the root cause (source, code, infrastructure, data, dependency), quantifies the data impact on partitions, tables and consumers, and produces a safe, idempotent backfill and prevention plan. Use when a load failed, produced duplicates, missing or late data, a quality check tripped, or a consumer reports numbers that stopped matching."
-related: "incremental-load-design, pipeline-spec, data-lineage-doc, data-quality-rules, postmortem"
-prompt: "Last night's orders load succeeded but today's revenue dashboard is 12% low. Here are the run logs and row counts; find out what happened and how to fix the data."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-engineer
+  area: pipelines
+  title: "Analyze a data pipeline failure"
+  related: "incremental-load-design, pipeline-spec, data-lineage-doc, data-quality-rules, postmortem"
+  prompt: "Last night's orders load succeeded but today's revenue dashboard is 12% low. Here are the run logs and row counts; find out what happened and how to fix the data."
 ---
 
 # Analyze a Data Pipeline Failure

@@ -1,7 +1,16 @@
 ---
+name: implement-from-story
 description: "Plans and implements a feature from a user story by mapping acceptance criteria to behaviors, reading the existing code conventions, writing code and tests in small verifiable steps, and reporting what was built, how it was verified and what remains open. Use when a developer asks to implement, build or code a story, ticket or feature against given acceptance criteria."
-related: "task-breakdown, acceptance-criteria, tdd-cycle, unit-test-writing, pull-request-description"
-prompt: "Implement this story in our service: a customer can set a default shipping address; only one address can be default; the default is preselected at checkout."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Implement a feature from a story"
+  related: "task-breakdown, acceptance-criteria, tdd-cycle, unit-test-writing, pull-request-description"
+  prompt: "Implement this story in our service: a customer can set a default shipping address; only one address can be default; the default is preselected at checkout."
 ---
 
 # Implement a Feature From a Story

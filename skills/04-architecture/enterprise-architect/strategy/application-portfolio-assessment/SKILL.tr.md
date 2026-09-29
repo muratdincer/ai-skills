@@ -1,7 +1,16 @@
 ---
-description: Uygulama portföyünü iş uygunluğu ve teknik uygunluk açısından değerlendirir; her uygulamaya gerekçe, maliyet ve risk sinyalleriyle bir TIME kararı (Tolere et, Yatırım yap, Taşı, Kaldır) ve sıralanmış bir sadeleştirme planı atar. Uygulama sadeleştirmesinde, bütçe döneminde, bulut veya ERP programlarının planlanmasında ya da birleşme sonrası çakışan sistemler olduğunda kullanılır.
-related: capability-map, modernization-assessment, tech-debt-assessment, build-vs-buy, target-state-architecture
-prompt: Sahipleri, maliyetleri ve kullanıcı sayılarıyla 40 uygulamalık listemiz ekte; bunları TIME ile sınıflandır ve önce hangilerini kaldırmamız gerektiğini öner.
+name: application-portfolio-assessment
+description: "Uygulama portföyünü iş uygunluğu ve teknik uygunluk açısından değerlendirir; her uygulamaya gerekçe, maliyet ve risk sinyalleriyle bir TIME kararı (Tolere et, Yatırım yap, Taşı, Kaldır) ve sıralanmış bir sadeleştirme planı atar. Uygulama sadeleştirmesinde, bütçe döneminde, bulut veya ERP programlarının planlanmasında ya da birleşme sonrası çakışan sistemler olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "Uygulama portföyü değerlendirmesi"
+  related: "capability-map, modernization-assessment, tech-debt-assessment, build-vs-buy, target-state-architecture"
+  prompt: "Sahipleri, maliyetleri ve kullanıcı sayılarıyla 40 uygulamalık listemiz ekte; bunları TIME ile sınıflandır ve önce hangilerini kaldırmamız gerektiğini öner."
 ---
 
 # Uygulama Portföyü Değerlendirmesi

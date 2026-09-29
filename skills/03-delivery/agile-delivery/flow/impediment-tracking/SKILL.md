@@ -1,7 +1,16 @@
 ---
+name: impediment-tracking
 description: "Builds and maintains an impediment log: captures each blocker with the blocked work, impact, owner and next action, classifies it by what is needed to remove it (team, other team, management, external), applies an escalation ladder with time thresholds, and surfaces recurring systemic causes. Use when a team reports blockers in a daily sync, work is stuck waiting on others, or someone asks to organize, escalate or report on open impediments."
-related: "daily-sync-summary, escalation-message, cross-team-dependency-board, raid-log, retrospective-facilitation"
-prompt: "Here are the blockers from this week's syncs: test environment down since Tuesday, waiting for the security team's approval on the firewall rule, and the product owner hasn't answered on the refund rules. Organize and tell me what to escalate."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Track impediments"
+  related: "daily-sync-summary, escalation-message, cross-team-dependency-board, raid-log, retrospective-facilitation"
+  prompt: "Here are the blockers from this week's syncs: test environment down since Tuesday, waiting for the security team's approval on the firewall rule, and the product owner hasn't answered on the refund rules. Organize and tell me what to escalate."
 ---
 
 # Track Impediments

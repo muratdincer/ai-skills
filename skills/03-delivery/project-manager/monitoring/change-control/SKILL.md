@@ -1,7 +1,16 @@
 ---
-description: Runs a change request through change control: captures the request, assesses impact on scope, schedule, cost, quality, risk and contract, lays out options, routes it to the right decision authority and updates the change log and baselines. Use when someone asks to add, remove or alter approved scope, dates or budget, when a vendor submits a change order, or when scope creep must be made visible and decided.
-related: scope-statement, impact-analysis, raid-log, decision-log, earned-value-analysis
-prompt: The client now wants SSO with their Azure AD in addition to the agreed login. Prepare a change request with impact assessment for the change board.
+name: change-control
+description: "Runs a change request through change control: captures the request, assesses impact on scope, schedule, cost, quality, risk and contract, lays out options, routes it to the right decision authority and updates the change log and baselines. Use when someone asks to add, remove or alter approved scope, dates or budget, when a vendor submits a change order, or when scope creep must be made visible and decided."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Run change control"
+  related: "scope-statement, impact-analysis, raid-log, decision-log, earned-value-analysis"
+  prompt: "The client now wants SSO with their Azure AD in addition to the agreed login. Prepare a change request with impact assessment for the change board."
 ---
 
 # Run Change Control

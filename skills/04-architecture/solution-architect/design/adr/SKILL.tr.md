@@ -1,7 +1,16 @@
 ---
-description: Bağlamı, karar etkenlerini, artı ve eksileriyle değerlendirilen seçenekleri, kararı ve sonuçlarını Nygard veya MADR tarzında, durum ve yerine geçme bağlantılarıyla birlikte kaydeden bir Mimari Karar Kaydı (ADR) yazar. Mimari açıdan önemli bir karar verildiğinde veya verilmesi gerektiğinde, geçmiş bir kararın geriye dönük belgelenmesi gerektiğinde ya da bir karar geri alınırken kullanılır.
-related: decision-log, trade-off-analysis, technology-selection, solution-architecture-document, architecture-principles
-prompt: Sipariş servisi için MongoDB yerine PostgreSQL seçimimizle ilgili bir ADR yaz; etkenler işlemsel tutarlılık, ekip yetkinliği ve raporlama ihtiyaçları.
+name: adr
+description: "Bağlamı, karar etkenlerini, artı ve eksileriyle değerlendirilen seçenekleri, kararı ve sonuçlarını Nygard veya MADR tarzında, durum ve yerine geçme bağlantılarıyla birlikte kaydeden bir Mimari Karar Kaydı (ADR) yazar. Mimari açıdan önemli bir karar verildiğinde veya verilmesi gerektiğinde, geçmiş bir kararın geriye dönük belgelenmesi gerektiğinde ya da bir karar geri alınırken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Mimari karar kaydı (ADR) yazma"
+  related: "decision-log, trade-off-analysis, technology-selection, solution-architecture-document, architecture-principles"
+  prompt: "Sipariş servisi için MongoDB yerine PostgreSQL seçimimizle ilgili bir ADR yaz; etkenler işlemsel tutarlılık, ekip yetkinliği ve raporlama ihtiyaçları."
 ---
 
 # Mimari Karar Kaydı (ADR) Yazma

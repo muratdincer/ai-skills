@@ -1,7 +1,16 @@
 ---
-description: Bir teklif için efor tahmini oluşturur; iş kırılımından gelen aşağıdan-yukarı tahmini yukarıdan-aşağı veya benzetme kontrolüyle birleştirir, her varsayımı ve kapsam dışını açık yazar, riske dayalı yedek pay ekler ve eforu rol bazlı bir kadro profiline çevirir. Ön satış ekibinin sabit fiyatlı veya zaman-malzeme teklifi fiyatlaması gerektiğinde, bir RFP efor veya ekip büyüklüğü istediğinde ya da mevcut bir teklif tahmininin sağlamasının yapılması gerektiğinde kullanılır.
-related: rfp-analysis, proposal-writing, statement-of-work, estimation-three-point, wbs
-prompt: SSO, sipariş takibi ve ERP entegrasyonu olan bir B2B müşteri portalı teklifimiz için efor tahmini yap; müşteri sabit fiyat istiyor.
+name: effort-estimate-for-bid
+description: "Bir teklif için efor tahmini oluşturur; iş kırılımından gelen aşağıdan-yukarı tahmini yukarıdan-aşağı veya benzetme kontrolüyle birleştirir, her varsayımı ve kapsam dışını açık yazar, riske dayalı yedek pay ekler ve eforu rol bazlı bir kadro profiline çevirir. Ön satış ekibinin sabit fiyatlı veya zaman-malzeme teklifi fiyatlaması gerektiğinde, bir RFP efor veya ekip büyüklüğü istediğinde ya da mevcut bir teklif tahmininin sağlamasının yapılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "Teklif için efor tahmini"
+  related: "rfp-analysis, proposal-writing, statement-of-work, estimation-three-point, wbs"
+  prompt: "SSO, sipariş takibi ve ERP entegrasyonu olan bir B2B müşteri portalı teklifimiz için efor tahmini yap; müşteri sabit fiyat istiyor."
 ---
 
 # Teklif İçin Efor Tahmini

@@ -1,7 +1,16 @@
 ---
-description: Writes changelog entries in the Keep a Changelog format (Added, Changed, Deprecated, Removed, Fixed, Security) from commits, merged pull requests or a change list, written for the people who consume the software, with breaking changes and migration steps called out. Use when preparing a release section, updating the Unreleased section after a merge, or turning noisy commit history into a readable change history.
-related: commit-message, release-notes, semantic-versioning, pull-request-description, app-store-release-notes
-prompt: Turn these merged PR titles into a changelog entry for version 2.4.0 of our client library.
+name: changelog-entry
+description: "Writes changelog entries in the Keep a Changelog format (Added, Changed, Deprecated, Removed, Fixed, Security) from commits, merged pull requests or a change list, written for the people who consume the software, with breaking changes and migration steps called out. Use when preparing a release section, updating the Unreleased section after a merge, or turning noisy commit history into a readable change history."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Write a changelog entry"
+  related: "commit-message, release-notes, semantic-versioning, pull-request-description, app-store-release-notes"
+  prompt: "Turn these merged PR titles into a changelog entry for version 2.4.0 of our client library."
 ---
 
 # Write a Changelog Entry

@@ -1,7 +1,16 @@
 ---
-description: Writes a purpose-first email to a stakeholder with a subject line that states the action, the ask or key message in the first two lines, only the context needed, and a tone matched to the reader's role and relationship. Use when someone needs to request something, inform, align or follow up with a manager, sponsor, customer, vendor or another team by email or long chat message.
-related: tone-rewrite, escalation-message, bad-news-delivery, stakeholder-map, meeting-follow-up
-prompt: Write an email to the head of finance asking her team to validate the new cost allocation rules by Friday so we can start UAT next week.
+name: stakeholder-email
+description: "Writes a purpose-first email to a stakeholder with a subject line that states the action, the ask or key message in the first two lines, only the context needed, and a tone matched to the reader's role and relationship. Use when someone needs to request something, inform, align or follow up with a manager, sponsor, customer, vendor or another team by email or long chat message."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Write a stakeholder email"
+  related: "tone-rewrite, escalation-message, bad-news-delivery, stakeholder-map, meeting-follow-up"
+  prompt: "Write an email to the head of finance asking her team to validate the new cost allocation rules by Friday so we can start UAT next week."
 ---
 
 # Write a Stakeholder Email

@@ -1,7 +1,16 @@
 ---
-description: Analyzes an industry or market segment with Porter's five forces (rivalry, threat of new entrants, threat of substitutes, buyer power, supplier power), rates each force with its drivers and evidence, and derives what the structure means for profitability, positioning and product strategy. Use when assessing the attractiveness of a market or segment, preparing a strategy or entry decision, explaining margin pressure, or when someone asks for a five forces or industry structure analysis.
-related: pestle-analysis, competitor-analysis, market-analysis, swot-analysis, pricing-analysis
-prompt: Run a five forces analysis for the mid-market field service management software segment in Turkey; we are deciding whether to enter it.
+name: porters-five-forces
+description: "Analyzes an industry or market segment with Porter's five forces (rivalry, threat of new entrants, threat of substitutes, buyer power, supplier power), rates each force with its drivers and evidence, and derives what the structure means for profitability, positioning and product strategy. Use when assessing the attractiveness of a market or segment, preparing a strategy or entry decision, explaining margin pressure, or when someone asks for a five forces or industry structure analysis."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Analyze Porter's five forces"
+  related: "pestle-analysis, competitor-analysis, market-analysis, swot-analysis, pricing-analysis"
+  prompt: "Run a five forces analysis for the mid-market field service management software segment in Turkey; we are deciding whether to enter it."
 ---
 
 # Analyze Porter's Five Forces

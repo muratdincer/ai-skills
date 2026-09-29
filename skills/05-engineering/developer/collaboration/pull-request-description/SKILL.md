@@ -1,7 +1,16 @@
 ---
-description: Writes a pull request description that states what changed, why, how it was tested, the risks and rollout notes, and where reviewers should focus. Use when a developer opens or updates a pull/merge request and has a diff, commit list, work item or rough notes to summarize for reviewers.
-related: commit-message, code-review, implement-from-story, release-notes, rollback-plan
-prompt: Write a PR description for these commits. The change moves invoice PDF generation to a background job.
+name: pull-request-description
+description: "Writes a pull request description that states what changed, why, how it was tested, the risks and rollout notes, and where reviewers should focus. Use when a developer opens or updates a pull/merge request and has a diff, commit list, work item or rough notes to summarize for reviewers."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Write a pull request description"
+  related: "commit-message, code-review, implement-from-story, release-notes, rollback-plan"
+  prompt: "Write a PR description for these commits. The change moves invoice PDF generation to a background job."
 ---
 
 # Write a Pull Request Description

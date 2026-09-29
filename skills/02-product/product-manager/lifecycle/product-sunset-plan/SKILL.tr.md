@@ -1,7 +1,16 @@
 ---
-description: Bir ürünün, paketin veya özelliğin kullanımdan kaldırılmasını; açık karar kriterleri, etkilenen müşteri segmentleri, geçiş yolları, aşamalı iletişim sırası, takvim kapıları ve veri saklama/silme yükümlülükleriyle planlar. Bir ürün veya özellik emekliye ayrılırken, yenisiyle değiştirilirken ya da birleştirilirken veya "müşteri ve güven kaybetmeden bunu nasıl kapatırız" sorusu sorulduğunda kullanılır.
-related: communication-plan, migration-strategy, api-deprecation-plan, impact-analysis, kpi-definition
-prompt: Eski raporlama modülümüzü gelecek yıl kapatıp herkesi yeni analitik panoya taşımak istiyoruz. Kullanımdan kaldırma planını hazırla.
+name: product-sunset-plan
+description: "Bir ürünün, paketin veya özelliğin kullanımdan kaldırılmasını; açık karar kriterleri, etkilenen müşteri segmentleri, geçiş yolları, aşamalı iletişim sırası, takvim kapıları ve veri saklama/silme yükümlülükleriyle planlar. Bir ürün veya özellik emekliye ayrılırken, yenisiyle değiştirilirken ya da birleştirilirken veya \"müşteri ve güven kaybetmeden bunu nasıl kapatırız\" sorusu sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: lifecycle
+  title: "Ürün/özellik kullanımdan kaldırma planı"
+  related: "communication-plan, migration-strategy, api-deprecation-plan, impact-analysis, kpi-definition"
+  prompt: "Eski raporlama modülümüzü gelecek yıl kapatıp herkesi yeni analitik panoya taşımak istiyoruz. Kullanımdan kaldırma planını hazırla."
 ---
 
 # Ürün/Özellik Kullanımdan Kaldırma Planı

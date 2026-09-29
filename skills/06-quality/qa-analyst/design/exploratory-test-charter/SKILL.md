@@ -1,7 +1,16 @@
 ---
+name: exploratory-test-charter
 description: "Writes session-based exploratory test charters with a mission, target areas, resources, risks to probe, test heuristics and oracles, a timebox and a debrief template for notes, bugs and questions. Use when a new or changed feature needs discovery testing, when scripted tests are not yet available or not enough, or when someone asks for exploratory testing ideas."
-related: test-scenarios-from-requirements, risk-based-testing, bug-report, heuristic-evaluation, test-summary-report
-prompt: "Write exploratory test charters for the new bulk import of product prices from CSV. We have 2 testers for one afternoon."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Write exploratory test charters"
+  related: "test-scenarios-from-requirements, risk-based-testing, bug-report, heuristic-evaluation, test-summary-report"
+  prompt: "Write exploratory test charters for the new bulk import of product prices from CSV. We have 2 testers for one afternoon."
 ---
 
 # Write Exploratory Test Charters

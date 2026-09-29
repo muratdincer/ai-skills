@@ -1,7 +1,16 @@
 ---
-description: Builds a weighted decision matrix that compares options against agreed, independent criteria with explicit weights, scoring scales and must-have knock-out rules, then tests how sensitive the result is to weights and uncertain scores. Use when choosing between three or more options (vendors, technologies, designs, candidates for investment), when a decision must be defensible to others, or when a group needs to converge.
-related: trade-off-analysis, pros-cons, vendor-evaluation, technology-selection, decision-log
-prompt: Build a weighted decision matrix to choose between three message brokers for our order platform.
+name: decision-matrix
+description: "Builds a weighted decision matrix that compares options against agreed, independent criteria with explicit weights, scoring scales and must-have knock-out rules, then tests how sensitive the result is to weights and uncertain scores. Use when choosing between three or more options (vendors, technologies, designs, candidates for investment), when a decision must be defensible to others, or when a group needs to converge."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Build a weighted decision matrix"
+  related: "trade-off-analysis, pros-cons, vendor-evaluation, technology-selection, decision-log"
+  prompt: "Build a weighted decision matrix to choose between three message brokers for our order platform."
 ---
 
 # Build a Weighted Decision Matrix

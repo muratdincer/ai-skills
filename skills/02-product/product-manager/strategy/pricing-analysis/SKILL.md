@@ -1,7 +1,16 @@
 ---
-description: Compares pricing models (flat, tiered, per-seat, usage-based, freemium, hybrid) against value metric, cost-to-serve, competitor anchors and willingness-to-pay signals, and recommends a model with price-test options. Use when launching a product, adding a paid tier, revisiting prices, or when someone asks how to price or package a product.
-related: market-analysis, competitor-analysis, business-model-canvas, experiment-design, persona
-prompt: Analyze pricing options for our API monitoring tool; today it is a flat 49 USD per month.
+name: pricing-analysis
+description: "Compares pricing models (flat, tiered, per-seat, usage-based, freemium, hybrid) against value metric, cost-to-serve, competitor anchors and willingness-to-pay signals, and recommends a model with price-test options. Use when launching a product, adding a paid tier, revisiting prices, or when someone asks how to price or package a product."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Analyze pricing options"
+  related: "market-analysis, competitor-analysis, business-model-canvas, experiment-design, persona"
+  prompt: "Analyze pricing options for our API monitoring tool; today it is a flat 49 USD per month."
 ---
 
 # Analyze Pricing Options

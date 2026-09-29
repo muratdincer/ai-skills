@@ -1,7 +1,16 @@
 ---
+name: velocity-analysis
 description: "Analyzes a team's velocity (points per iteration) or throughput (items per week/iteration) history: trend, variability, outliers and their causes, and a range-based forecast for remaining work. Use when someone shares iteration or throughput numbers and asks whether the team is speeding up or slowing down, how predictable it is, or how many iterations a backlog will take."
-related: "monte-carlo-forecast, burndown-analysis, cycle-time-analysis, release-planning, engineering-metrics-review"
-prompt: "Here are our last 10 sprint velocities: 21, 34, 29, 18, 31, 33, 12, 30, 28, 32. We have 180 points left in the release. What does this tell us and when can we finish?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Analyze velocity/throughput"
+  related: "monte-carlo-forecast, burndown-analysis, cycle-time-analysis, release-planning, engineering-metrics-review"
+  prompt: "Here are our last 10 sprint velocities: 21, 34, 29, 18, 31, 33, 12, 30, 28, 32. We have 180 points left in the release. What does this tell us and when can we finish?"
 ---
 
 # Analyze Velocity/Throughput

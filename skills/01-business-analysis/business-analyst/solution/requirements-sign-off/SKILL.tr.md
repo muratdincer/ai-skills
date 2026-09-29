@@ -1,7 +1,16 @@
 ---
+name: requirements-sign-off
 description: "Gereksinim onay paketini hazırlar: onaylanan temel sürüm (dokümanlar, sürümler, gereksinim ID'leri), son incelemeden bu yana değişenler, açık konular ve kabul edilen riskler, koşullar, gereken onaycılar ve sonraki değişikliklerin nasıl kontrol edileceği. Gereksinimler incelenip temel sürüme bağlanmaya hazır olduğunda, sponsor 'tam olarak neyi imzalıyorum?' diye sorduğunda ya da tasarım, geliştirme veya bir sözleşme kilometre taşı başlamadan önce kullanılır."
-related: "requirements-review-checklist, traceability-matrix, change-control, change-request-analysis, decision-log"
-prompt: "Hasar portalı FRD v1.3 için onay paketini hazırla; iş sahibi ve BT lideri bu hafta onaylayabilsin."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Gereksinim onayı hazırlama"
+  related: "requirements-review-checklist, traceability-matrix, change-control, change-request-analysis, decision-log"
+  prompt: "Hasar portalı FRD v1.3 için onay paketini hazırla; iş sahibi ve BT lideri bu hafta onaylayabilsin."
 ---
 
 # Gereksinim Onayı Hazırlama

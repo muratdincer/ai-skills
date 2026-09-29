@@ -1,7 +1,16 @@
 ---
+name: schema-migration-plan
 description: "Canlı bir sistemde sıfır veya asgari kesintiyle veritabanı şema geçişi planlar: her DDL'in kilit ve yeniden yazma davranışını değerlendirir, kırıcı değişiklikleri uygulama sürümleriyle hizalı expand-migrate-contract adımlarına böler, parçalı backfill tasarlar ve doğrulama, geri dönüş ile geri dönüşü olmayan noktayı tanımlar. Üretim veritabanlarında sütun, tablo, kısıt veya indeks eklenirken, yeniden adlandırılırken, tipi değiştirilirken veya silinirken ya da bir geçiş betiği yayından önce güvenlik incelemesine ihtiyaç duyduğunda kullanılır."
-related: "schema-evolution-plan, index-recommendation, backup-restore-plan, deployment-strategy, rollback-plan"
-prompt: "90 milyon satırlık bir PostgreSQL tablosunda customers.full_name sütununu kesinti olmadan first_name ve last_name olarak bölmemiz gerekiyor. Geçiş planını yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: dba
+  area: database
+  title: "Şema geçiş planı"
+  related: "schema-evolution-plan, index-recommendation, backup-restore-plan, deployment-strategy, rollback-plan"
+  prompt: "90 milyon satırlık bir PostgreSQL tablosunda customers.full_name sütununu kesinti olmadan first_name ve last_name olarak bölmemiz gerekiyor. Geçiş planını yaz."
 ---
 
 # Şema Geçiş Planı

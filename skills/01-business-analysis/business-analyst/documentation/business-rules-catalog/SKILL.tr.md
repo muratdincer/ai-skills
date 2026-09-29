@@ -1,7 +1,16 @@
 ---
+name: business-rules-catalog
 description: "Doküman, not, gereksinim veya kod tariflerinden iş kurallarını çıkarır ve ID, kural tipi (kısıt, hesaplama, çıkarım, aksiyon tetikleyici, olgu), atomik ve bildirimsel ifade, kaynak, sahip, geçerlilik tarihleri, istisnalar ve kuralı kullanan gereksinimlerle bir katalogda standartlaştırır. Kurallar dağınık veya süreç ve ekranlara gömülü olduğunda, kaynaklar arasında çeliştiğinde ya da 'iş kurallarını listele' veya kural kitabı oluştur dendiğinde kullanılır."
-related: "document-analysis, decision-table-testing, requirements-consistency-check, frd-writing, glossary-builder"
-prompt: "Bu kredi başvurusu prosedür notlarındaki iş kurallarını çıkar ve bir katalogda standartlaştır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "İş kuralları kataloğu"
+  related: "document-analysis, decision-table-testing, requirements-consistency-check, frd-writing, glossary-builder"
+  prompt: "Bu kredi başvurusu prosedür notlarındaki iş kurallarını çıkar ve bir katalogda standartlaştır."
 ---
 
 # İş Kuralları Kataloğu

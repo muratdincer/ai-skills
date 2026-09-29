@@ -1,7 +1,16 @@
 ---
+name: control-mapping
 description: "Maps an organization's existing controls, processes and evidence to a target standard such as ISO/IEC 27001 Annex A or SOC 2 Trust Services Criteria, and shows coverage, evidence gaps and overlaps with other frameworks. Use when preparing for certification, answering a customer security questionnaire, merging frameworks (ISO 27001, SOC 2, KVKK, PCI DSS) or checking whether a control actually produces audit evidence."
-related: "audit-preparation, policy-writing, it-risk-assessment, access-review, traceability-matrix"
-prompt: "Map our current controls to ISO 27001:2022 Annex A and show which ones have no evidence."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Map controls to a standard"
+  related: "audit-preparation, policy-writing, it-risk-assessment, access-review, traceability-matrix"
+  prompt: "Map our current controls to ISO 27001:2022 Annex A and show which ones have no evidence."
 ---
 
 # Map Controls to a Standard

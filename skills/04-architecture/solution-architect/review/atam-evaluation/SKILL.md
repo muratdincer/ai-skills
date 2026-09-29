@@ -1,7 +1,16 @@
 ---
-description: Plans and documents an evaluation modeled on the Architecture Tradeoff Analysis Method (ATAM), producing business drivers, a prioritized quality attribute utility tree, analysis of architectural approaches against high-priority scenarios, and the resulting sensitivity points, trade-off points, risks, non-risks and risk themes. Use when a significant architecture must be evaluated with stakeholders before commitment, when quality goals conflict, or when an independent structured evaluation is requested.
-related: nfr-to-architecture, architecture-review, trade-off-analysis, workshop-plan, adr
-prompt: Prepare an ATAM-style evaluation for our event-driven payments platform; the key concerns are latency, availability across two data centers and auditability.
+name: atam-evaluation
+description: "Plans and documents an evaluation modeled on the Architecture Tradeoff Analysis Method (ATAM), producing business drivers, a prioritized quality attribute utility tree, analysis of architectural approaches against high-priority scenarios, and the resulting sensitivity points, trade-off points, risks, non-risks and risk themes. Use when a significant architecture must be evaluated with stakeholders before commitment, when quality goals conflict, or when an independent structured evaluation is requested."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Run an ATAM-style evaluation"
+  related: "nfr-to-architecture, architecture-review, trade-off-analysis, workshop-plan, adr"
+  prompt: "Prepare an ATAM-style evaluation for our event-driven payments platform; the key concerns are latency, availability across two data centers and auditability."
 ---
 
 # Run an ATAM-Style Evaluation

@@ -1,7 +1,16 @@
 ---
+name: risk-based-testing
 description: "Ürün risk öğelerini olasılık ve etkiye göre değerlendirerek test eforunu önceliklendirir; risk matrisi, öğe bazında test derinliği ve koşum sırası üretir. Zaman veya kişi kısıtlı olduğunda, önce neyin ve ne derinlikte test edileceğine karar verilirken ya da paydaşlar hangi risklerin kapsandığını ve hangilerinin kaldığını görmek istediğinde kullanılır."
-related: test-strategy, test-plan, regression-selection, risk-register, impact-analysis
-prompt: "Bu sürüm için 5 test günümüz var. İşte 14 değişiklik. Önce neyi, ne derinlikte test edelim?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: strategy
+  title: "Risk bazlı test önceliklendirme"
+  related: "test-strategy, test-plan, regression-selection, risk-register, impact-analysis"
+  prompt: "Bu sürüm için 5 test günümüz var. İşte 14 değişiklik. Önce neyi, ne derinlikte test edelim?"
 ---
 
 # Risk Bazlı Test Önceliklendirme

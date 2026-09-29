@@ -1,7 +1,16 @@
 ---
+name: interview-question-set
 description: "Prepares a requirements interview guide tailored to a stakeholder type (executive, process owner, end user, IT/system owner, compliance), with opening, context, open, probing and validation questions, timing and follow-up prompts. Use before an elicitation interview or when asked 'what should I ask the users/managers in the interview?'."
-related: "interview-notes-analysis, request-clarification-questions, workshop-plan, stakeholder-identification, problem-interview-script"
-prompt: "Prepare a 45-minute interview for warehouse shift supervisors about how they handle stock discrepancies today."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Prepare interview questions"
+  related: "interview-notes-analysis, request-clarification-questions, workshop-plan, stakeholder-identification, problem-interview-script"
+  prompt: "Prepare a 45-minute interview for warehouse shift supervisors about how they handle stock discrepancies today."
 ---
 
 # Prepare Interview Questions

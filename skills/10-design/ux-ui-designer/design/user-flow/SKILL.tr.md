@@ -1,7 +1,16 @@
 ---
-description: Tek bir kullanıcı hedefi için kullanıcı akışı tasarlar; giriş noktaları, ekranlar ve adımlar, karar noktaları, sistem aksiyonları, hata ve kurtarma yolları, boş ve uç durumlar ile çıkış noktalarını bir adım tablosu ve diagram-as-code akış şemasıyla verir. Bir özellik veya yolculuk ekran ekran tasarlanacaksa, "adımlar neler" ya da "mutlu ve mutsuz yolları çıkar" dendiğinde veya wireframe'den önce kullanılır.
-related: customer-journey-map, wireframe-spec, information-architecture, edge-case-elicitation, diagram-as-code
-prompt: Mobil bankacılık uygulamamızda unutulan şifreyi sıfırlama için kullanıcı akışını hatalar ve hesap kilitlenmesi dahil tasarla.
+name: user-flow
+description: "Tek bir kullanıcı hedefi için kullanıcı akışı tasarlar; giriş noktaları, ekranlar ve adımlar, karar noktaları, sistem aksiyonları, hata ve kurtarma yolları, boş ve uç durumlar ile çıkış noktalarını bir adım tablosu ve diagram-as-code akış şemasıyla verir. Bir özellik veya yolculuk ekran ekran tasarlanacaksa, \"adımlar neler\" ya da \"mutlu ve mutsuz yolları çıkar\" dendiğinde veya wireframe'den önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Kullanıcı akışı tasarlama"
+  related: "customer-journey-map, wireframe-spec, information-architecture, edge-case-elicitation, diagram-as-code"
+  prompt: "Mobil bankacılık uygulamamızda unutulan şifreyi sıfırlama için kullanıcı akışını hatalar ve hesap kilitlenmesi dahil tasarla."
 ---
 
 # Kullanıcı Akışı Tasarlama

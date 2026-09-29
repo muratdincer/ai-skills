@@ -1,7 +1,16 @@
 ---
-description: Writes a commit message in Conventional Commits format with a precise subject, a body that explains why the change was made, and footers for breaking changes and work item references. Use when a developer has a diff, a list of changes or a short description and needs a commit message, or wants to split a mixed change into well-scoped commits.
-related: pull-request-description, changelog-entry, semantic-versioning, branching-strategy
-prompt: Write a commit message for this diff. It adds retry with backoff to the payment client and fixes the timeout config key name.
+name: commit-message
+description: "Writes a commit message in Conventional Commits format with a precise subject, a body that explains why the change was made, and footers for breaking changes and work item references. Use when a developer has a diff, a list of changes or a short description and needs a commit message, or wants to split a mixed change into well-scoped commits."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: collaboration
+  title: "Write a commit message"
+  related: "pull-request-description, changelog-entry, semantic-versioning, branching-strategy"
+  prompt: "Write a commit message for this diff. It adds retry with backoff to the payment client and fixes the timeout config key name."
 ---
 
 # Write a Commit Message

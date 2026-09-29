@@ -1,7 +1,16 @@
 ---
-description: Writes a working-backwards press release dated at a future launch, plus a customer FAQ and an internal FAQ, to test whether a product idea is compelling, clear and feasible before anything is built; ends with the open questions and risks the document exposed. Use when a new product or major feature is proposed, when a team needs to align on the customer outcome before design, or when someone asks for a "PR/FAQ", "working backwards" document or "future press release".
-related: product-vision, prd-writing, value-proposition-canvas, positioning-statement, pre-mortem
-prompt: Write a working-backwards PR/FAQ for a feature that lets our B2B customers get a delivery ETA on WhatsApp without logging into the portal.
+name: press-release-faq
+description: "Writes a working-backwards press release dated at a future launch, plus a customer FAQ and an internal FAQ, to test whether a product idea is compelling, clear and feasible before anything is built; ends with the open questions and risks the document exposed. Use when a new product or major feature is proposed, when a team needs to align on the customer outcome before design, or when someone asks for a \"PR/FAQ\", \"working backwards\" document or \"future press release\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: launch
+  title: "Write a working-backwards press release and FAQ"
+  related: "product-vision, prd-writing, value-proposition-canvas, positioning-statement, pre-mortem"
+  prompt: "Write a working-backwards PR/FAQ for a feature that lets our B2B customers get a delivery ETA on WhatsApp without logging into the portal."
 ---
 
 # Write a Working-Backwards Press Release and FAQ

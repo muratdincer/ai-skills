@@ -1,7 +1,16 @@
 ---
-description: Collects unresolved questions from meetings, documents and threads into a tracker with a precise question, why it matters, what it blocks, owner, needed-by date, status and answer, and prioritizes by what each blocks. Use when a project has many loose questions, when analysis or design is waiting on answers, or when someone asks "what are we still waiting on?".
-related: action-item-extraction, meeting-notes, raid-log, request-clarification-questions, decision-log
-prompt: Go through these three meeting notes and the requirements doc and build an open questions list with owners and due dates.
+name: open-questions-tracker
+description: "Collects unresolved questions from meetings, documents and threads into a tracker with a precise question, why it matters, what it blocks, owner, needed-by date, status and answer, and prioritizes by what each blocks. Use when a project has many loose questions, when analysis or design is waiting on answers, or when someone asks \"what are we still waiting on?\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Track open questions"
+  related: "action-item-extraction, meeting-notes, raid-log, request-clarification-questions, decision-log"
+  prompt: "Go through these three meeting notes and the requirements doc and build an open questions list with owners and due dates."
 ---
 
 # Track Open Questions

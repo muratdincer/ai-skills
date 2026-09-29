@@ -1,7 +1,16 @@
 ---
+name: ambiguity-detection
 description: "Gereksinim metnini muğlak sözcükler, tanımsız terimler, zayıf veya öznel ifadeler, sınırsız listeler, aktörü belirsiz edilgen cümleler ve test edilemez ifadeler açısından tarar; net yeniden yazımlar önerir. Gereksinimler, kullanıcı hikayeleri veya kabul kriterleri netlik açısından incelenirken ya da testçiler veya geliştiriciler bir gereksinimin birden fazla şekilde okunabildiğini söylediğinde kullanılır."
-related: "requirements-gap-analysis, requirements-consistency-check, glossary-builder, acceptance-criteria, testability-review"
-prompt: "Bu 20 gereksinimi belirsiz ifadeler açısından kontrol et ve test edilebilir yeniden yazımlar öner."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Belirsiz gereksinim tespiti"
+  related: "requirements-gap-analysis, requirements-consistency-check, glossary-builder, acceptance-criteria, testability-review"
+  prompt: "Bu 20 gereksinimi belirsiz ifadeler açısından kontrol et ve test edilebilir yeniden yazımlar öner."
 ---
 
 # Belirsiz Gereksinim Tespiti

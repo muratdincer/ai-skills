@@ -1,7 +1,16 @@
 ---
+name: document-outline
 description: "Proposes a fit-for-purpose structure for any document (design doc, policy, guide, report, proposal, specification) from its purpose, audience and decisions it must support, with section goals and content notes. Use when someone must start a new document, faces a blank page, inherited a messy document to restructure, or asks what sections a document should have."
-related: "docs-information-architecture, document-review, executive-summary, technical-design-doc, brd-writing"
-prompt: "Outline a document proposing that we move our batch reporting jobs to an event-driven pipeline; readers are the architecture board."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Outline a document"
+  related: "docs-information-architecture, document-review, executive-summary, technical-design-doc, brd-writing"
+  prompt: "Outline a document proposing that we move our batch reporting jobs to an event-driven pipeline; readers are the architecture board."
 ---
 
 # Outline a Document

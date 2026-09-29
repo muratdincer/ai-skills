@@ -1,7 +1,16 @@
 ---
+name: known-error-article
 description: "Destek bilgi bankası için bilinen hata makalesi yazar: aranabilir belirti, kapsam ve etkilenen sürümler, doğrulanmış veya şüphelenilen neden, riskleriyle adım adım geçici çözüm, kalıcı çözüm durumu ve ilişkili kayıtlar. Bir problemin kök nedeni veya geçici çözümü belgelendiğinde, aynı kayıt tekrar tekrar geldiğinde ya da kalıcı çözüm beklenirken destek ekibinin tutarlı bir yanıt vermesi gerektiğinde kullanılır."
-related: "problem-management, ticket-response, ticket-triage, how-to-guide, faq-builder"
-prompt: "Bilinen hata makalesi yaz: 7.3 sürümünden beri 10.000 satırı aşan raporlarda PDF dışa aktarma 'Error 500' ile başarısız oluyor; geçici çözüm CSV'ye aktarmak; düzeltme 7.4'te planlandı."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Bilinen hata makalesi"
+  related: "problem-management, ticket-response, ticket-triage, how-to-guide, faq-builder"
+  prompt: "Bilinen hata makalesi yaz: 7.3 sürümünden beri 10.000 satırı aşan raporlarda PDF dışa aktarma 'Error 500' ile başarısız oluyor; geçici çözüm CSV'ye aktarmak; düzeltme 7.4'te planlandı."
 ---
 
 # Bilinen Hata Makalesi

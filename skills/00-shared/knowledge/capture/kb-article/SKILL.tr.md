@@ -1,7 +1,16 @@
 ---
-description: Notlardan, kayıtlardan, sohbet yazışmalarından veya uzman girdisinden aranabilir bir bilgi bankası makalesi (nasıl yapılır, sorun giderme veya açıklama) yazar; bulunabilir bir başlık, okuyucuların gerçekten kullandığı belirtiler ve arama terimleri, geçerlilik kapsamı, doğrulanmış adımlar, beklenen sonuçlar ve sahiplik içerir. Aynı soru sürekli sorulduğunda, bir destek kaydı veya olay yeniden kullanılabilir bir çözüm ürettiğinde, kayıt dışı bilgi yazıya dökülmesi gerektiğinde ya da "bilgi bankası makalesi yaz" veya "bunu wiki için dokümante et" dendiğinde kullanılır.
-related: how-to-guide, faq-builder, runbook, document-review, glossary-builder
-prompt: Yeni dizüstü bilgisayarlardaki VPN sertifika hatalarıyla ilgili bu destek yazışmasını bir bilgi bankası makalesine dönüştür.
+name: kb-article
+description: "Notlardan, kayıtlardan, sohbet yazışmalarından veya uzman girdisinden aranabilir bir bilgi bankası makalesi (nasıl yapılır, sorun giderme veya açıklama) yazar; bulunabilir bir başlık, okuyucuların gerçekten kullandığı belirtiler ve arama terimleri, geçerlilik kapsamı, doğrulanmış adımlar, beklenen sonuçlar ve sahiplik içerir. Aynı soru sürekli sorulduğunda, bir destek kaydı veya olay yeniden kullanılabilir bir çözüm ürettiğinde, kayıt dışı bilgi yazıya dökülmesi gerektiğinde ya da \"bilgi bankası makalesi yaz\" veya \"bunu wiki için dokümante et\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Bilgi bankası makalesi yazma"
+  related: "how-to-guide, faq-builder, runbook, document-review, glossary-builder"
+  prompt: "Yeni dizüstü bilgisayarlardaki VPN sertifika hatalarıyla ilgili bu destek yazışmasını bir bilgi bankası makalesine dönüştür."
 ---
 
 # Bilgi Bankası Makalesi Yazma

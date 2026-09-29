@@ -1,7 +1,16 @@
 ---
-description: Sonuçları özgün hedefler ve temel planlarla karşılaştıran, kapsam, takvim, maliyet ve kalite sapmalarını açıklayan, kabulü ve operasyona devri teyit eden, açık maddeleri sahipleriyle listeleyen, öğrenilen dersleri kaydeden ve fayda takibini kuran bir proje kapanış raporu yazar. Bir proje veya faz sona ererken, sponsorun resmî bir kapanış kararına ihtiyacı olduğunda ya da iptal edilen bir projenin düzenli biçimde kapatılması gerektiğinde kullanılır.
-related: acceptance-certificate, handover-document, lessons-learned, benefits-realization, earned-value-analysis
-prompt: CRM taşıma projemiz geçen ay canlıya çıktı. Proje başlatma belgesi, son durum raporu ve gerçekleşen bütçeden kapanış raporunu yaz.
+name: project-closure-report
+description: "Sonuçları özgün hedefler ve temel planlarla karşılaştıran, kapsam, takvim, maliyet ve kalite sapmalarını açıklayan, kabulü ve operasyona devri teyit eden, açık maddeleri sahipleriyle listeleyen, öğrenilen dersleri kaydeden ve fayda takibini kuran bir proje kapanış raporu yazar. Bir proje veya faz sona ererken, sponsorun resmî bir kapanış kararına ihtiyacı olduğunda ya da iptal edilen bir projenin düzenli biçimde kapatılması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: closure
+  title: "Proje kapanış raporu"
+  related: "acceptance-certificate, handover-document, lessons-learned, benefits-realization, earned-value-analysis"
+  prompt: "CRM taşıma projemiz geçen ay canlıya çıktı. Proje başlatma belgesi, son durum raporu ve gerçekleşen bütçeden kapanış raporunu yaz."
 ---
 
 # Proje Kapanış Raporu

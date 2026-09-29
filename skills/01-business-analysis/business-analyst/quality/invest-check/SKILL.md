@@ -1,7 +1,16 @@
 ---
+name: invest-check
 description: "Evaluates user stories against the INVEST criteria (Independent, Negotiable, Valuable, Estimable, Small, Testable), scores each criterion with evidence and gives concrete fixes such as splits, rewrites or missing acceptance criteria. Use when refining a backlog, before stories enter an iteration or commitment, or when a story keeps getting re-estimated or carried over."
-related: "user-story, acceptance-criteria, story-splitting, definition-of-ready, backlog-refinement"
-prompt: "Run an INVEST check on these 8 stories for the checkout epic and tell me which ones are not ready."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Check stories against INVEST"
+  related: "user-story, acceptance-criteria, story-splitting, definition-of-ready, backlog-refinement"
+  prompt: "Run an INVEST check on these 8 stories for the checkout epic and tell me which ones are not ready."
 ---
 
 # Check Stories Against INVEST

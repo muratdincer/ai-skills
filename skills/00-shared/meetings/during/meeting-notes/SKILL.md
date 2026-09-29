@@ -1,7 +1,16 @@
 ---
-description: Turns raw meeting notes, chat logs or a transcript into topic-based structured notes that separate discussion points, decisions, action items and open questions, with speakers attributed where it matters. Use when someone shares messy notes or a transcript and asks to "clean up", "structure" or "write up" what was discussed.
-related: transcript-cleanup, meeting-summary, action-item-extraction, decision-log, open-questions-tracker
-prompt: Here are my raw notes from today's sprint planning with the platform team. Turn them into structured meeting notes.
+name: meeting-notes
+description: "Turns raw meeting notes, chat logs or a transcript into topic-based structured notes that separate discussion points, decisions, action items and open questions, with speakers attributed where it matters. Use when someone shares messy notes or a transcript and asks to \"clean up\", \"structure\" or \"write up\" what was discussed."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Take structured meeting notes"
+  related: "transcript-cleanup, meeting-summary, action-item-extraction, decision-log, open-questions-tracker"
+  prompt: "Here are my raw notes from today's sprint planning with the platform team. Turn them into structured meeting notes."
 ---
 
 # Take Structured Meeting Notes

@@ -1,7 +1,16 @@
 ---
-description: Assesses a legacy system across business fit, technical health, operational risk and change drivers, then evaluates the 7R options (retire, retain, rehost, relocate, replatform, repurchase, refactor/re-architect) with relative effort, value and risk, and recommends a path with decision criteria and first steps. Use when a legacy application is under pressure (end of support, cost, skills, scalability, compliance), when leadership asks "what should we do with system X?", or before committing budget to a migration or rewrite.
-related: legacy-code-comprehension, tech-debt-assessment, migration-strategy, build-vs-buy, application-portfolio-assessment
-prompt: Assess our 15-year-old .NET Framework order management monolith on-premises. Support for its OS ends next year and only two people know it. What are our options?
+name: modernization-assessment
+description: "Assesses a legacy system across business fit, technical health, operational risk and change drivers, then evaluates the 7R options (retire, retain, rehost, relocate, replatform, repurchase, refactor/re-architect) with relative effort, value and risk, and recommends a path with decision criteria and first steps. Use when a legacy application is under pressure (end of support, cost, skills, scalability, compliance), when leadership asks \"what should we do with system X?\", or before committing budget to a migration or rewrite."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Assess a legacy system"
+  related: "legacy-code-comprehension, tech-debt-assessment, migration-strategy, build-vs-buy, application-portfolio-assessment"
+  prompt: "Assess our 15-year-old .NET Framework order management monolith on-premises. Support for its OS ends next year and only two people know it. What are our options?"
 ---
 
 # Assess a Legacy System

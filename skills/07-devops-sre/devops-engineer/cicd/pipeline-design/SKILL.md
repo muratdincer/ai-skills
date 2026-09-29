@@ -1,7 +1,16 @@
 ---
+name: pipeline-design
 description: "Designs a CI/CD pipeline end to end: stages, quality and security gates, artifact handling, environments and promotion rules, independent of the CI product. Use when a team sets up a new pipeline, restructures a slow or fragile one, or needs to document how code moves from commit to production."
-related: "environment-strategy, deployment-strategy, branching-strategy, release-quality-gate, secrets-management-plan"
-prompt: "Design a CI/CD pipeline for our .NET API that deploys to Kubernetes in dev, staging and prod, with a manual approval before prod."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Design a CI/CD pipeline"
+  related: "environment-strategy, deployment-strategy, branching-strategy, release-quality-gate, secrets-management-plan"
+  prompt: "Design a CI/CD pipeline for our .NET API that deploys to Kubernetes in dev, staging and prod, with a manual approval before prod."
 ---
 
 # Design a CI/CD Pipeline

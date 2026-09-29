@@ -1,7 +1,16 @@
 ---
+name: diagram-as-code
 description: "Bir sistemin, sürecin, etkileşim sırasının, veri modelinin veya durum makinesinin metinsel tarifini Mermaid veya PlantUML ile doğru ve okunabilir bir diyagrama çevirir; uygun diyagram türünü seçer ve varsayımları listeler. Bir şeyin çizilmesi, görselleştirilmesi veya diyagramının çıkarılması istendiğinde, dokümanlar veya pull request için sürüm kontrolüne uygun bir diyagram gerektiğinde ya da bir beyaz tahta fotoğrafı tarifi veya eski bir diyagram koda çevrilecekse kullanılır."
-related: "c4-model, bpmn-model, sequence-flow, state-model, document-outline"
-prompt: "Mermaid sequence diyagramı çiz: mobil uygulama API gateway'i çağırıyor, gateway token'ı kimlik sağlayıcıyla doğruluyor, sonra sipariş servisini çağırıyor, sipariş servisi OrderCreated event'i yayınlıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: documentation
+  area: authoring
+  title: "Kod olarak diyagram üretme"
+  related: "c4-model, bpmn-model, sequence-flow, state-model, document-outline"
+  prompt: "Mermaid sequence diyagramı çiz: mobil uygulama API gateway'i çağırıyor, gateway token'ı kimlik sağlayıcıyla doğruluyor, sonra sipariş servisini çağırıyor, sipariş servisi OrderCreated event'i yayınlıyor."
 ---
 
 # Kod Olarak Diyagram Üretme

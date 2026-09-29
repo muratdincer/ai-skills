@@ -1,7 +1,16 @@
 ---
-description: Yapılandırılmış bir teknoloji seçimi yürütür - problemin çerçevelenmesi, kalite nitelikleri, maliyet, risk ve ekosistem sağlığını içeren ağırlıklı ölçütler, uzun listeden kısa listeye iniş, geçti/kaldı kriterli bir kavram kanıtı (PoC) planı ve ADR olarak kaydedilen bir öneri. Önemli bir ihtiyaç için veritabanı, mesaj kuyruğu, framework, platform, SaaS ürünü veya kütüphane seçerken ya da bir ekibin tercih ettiği aracın nesnel olarak gerekçelendirilmesi gerektiğinde kullanılır.
-related: adr, build-vs-buy, tech-radar, vendor-evaluation, spike-report
-prompt: Sipariş ve stok olayları için bir mesaj kuyruğu seçmemize yardım et; sipariş bazında sıralama, 7 gün geriye oynatma gerekiyor ve Kubernetes üzerinde çalışıyoruz.
+name: technology-selection
+description: "Yapılandırılmış bir teknoloji seçimi yürütür - problemin çerçevelenmesi, kalite nitelikleri, maliyet, risk ve ekosistem sağlığını içeren ağırlıklı ölçütler, uzun listeden kısa listeye iniş, geçti/kaldı kriterli bir kavram kanıtı (PoC) planı ve ADR olarak kaydedilen bir öneri. Önemli bir ihtiyaç için veritabanı, mesaj kuyruğu, framework, platform, SaaS ürünü veya kütüphane seçerken ya da bir ekibin tercih ettiği aracın nesnel olarak gerekçelendirilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Teknoloji seçimi"
+  related: "adr, build-vs-buy, tech-radar, vendor-evaluation, spike-report"
+  prompt: "Sipariş ve stok olayları için bir mesaj kuyruğu seçmemize yardım et; sipariş bazında sıralama, 7 gün geriye oynatma gerekiyor ve Kubernetes üzerinde çalışıyoruz."
 ---
 
 # Teknoloji Seçimi

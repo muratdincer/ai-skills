@@ -1,7 +1,16 @@
 ---
-description: Bir web sayfasını veya front-end uygulamasını Core Web Vitals (LCP, INP, CLS) ve destekleyici metriklerle yükleme ve çalışma zamanı performansı açısından denetler; her sorunu kritik render yolu, JavaScript, görseller, fontlar veya üçüncü taraf kodlardaki nedenine bağlar ve beklenen etkisi ile doğrulama yöntemi belirtilmiş öncelikli düzeltmeler verir. Bir sayfa yavaş hissettirdiğinde, saha verisinde Core Web Vitals kaldığında, performans bütçesi aşıldığında veya bir lab raporu ya da trace'in yorumlanması gerektiğinde kullanılır.
-related: performance-optimization, performance-test-plan, observability-plan, slo-definition, component-design
-prompt: Ürün listeleme sayfamızda mobilde LCP 4,8 sn, INP 350 ms civarında. Lab raporu ve sayfanın head bölümü ekte. Önce neyi düzeltmeliyiz?
+name: web-performance-audit
+description: "Bir web sayfasını veya front-end uygulamasını Core Web Vitals (LCP, INP, CLS) ve destekleyici metriklerle yükleme ve çalışma zamanı performansı açısından denetler; her sorunu kritik render yolu, JavaScript, görseller, fontlar veya üçüncü taraf kodlardaki nedenine bağlar ve beklenen etkisi ile doğrulama yöntemi belirtilmiş öncelikli düzeltmeler verir. Bir sayfa yavaş hissettirdiğinde, saha verisinde Core Web Vitals kaldığında, performans bütçesi aşıldığında veya bir lab raporu ya da trace'in yorumlanması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Web performans denetimi"
+  related: "performance-optimization, performance-test-plan, observability-plan, slo-definition, component-design"
+  prompt: "Ürün listeleme sayfamızda mobilde LCP 4,8 sn, INP 350 ms civarında. Lab raporu ve sayfanın head bölümü ekte. Önce neyi düzeltmeliyiz?"
 ---
 
 # Web Performans Denetimi

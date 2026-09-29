@@ -1,7 +1,16 @@
 ---
-description: Front-end'deki her durum parçasının nerede tutulacağını (yerel bileşen, URL, form, paylaşılan istemci, sunucu önbelleği, kalıcı depolama) ve nasıl aktığını, eşitlendiğini, geçersiz kılındığını ve test edildiğini framework'ten bağımsız biçimde tasarlar; global store kullanımını gerekçelendirir. Bir front-end özelliği veya uygulaması başlarken, durum ekranlar arasında tekrarlandığında ya da tutarsızlaştığında, ekip global store eklemeyi veya kaldırmayı tartışırken ya da sunucu verisi önbellekleme ve iyimser güncelleme kararları verilecekken kullanılır.
-related: component-design, technical-design-doc, api-contract, adr, web-performance-audit
-prompt: Sipariş yönetimi ekranlarımız düzenlemeden sonra eski veri gösteriyor ve her şey tek bir global store'da. Durum yönetimini yeniden tasarlamamıza yardım et.
+name: state-management-design
+description: "Front-end'deki her durum parçasının nerede tutulacağını (yerel bileşen, URL, form, paylaşılan istemci, sunucu önbelleği, kalıcı depolama) ve nasıl aktığını, eşitlendiğini, geçersiz kılındığını ve test edildiğini framework'ten bağımsız biçimde tasarlar; global store kullanımını gerekçelendirir. Bir front-end özelliği veya uygulaması başlarken, durum ekranlar arasında tekrarlandığında ya da tutarsızlaştığında, ekip global store eklemeyi veya kaldırmayı tartışırken ya da sunucu verisi önbellekleme ve iyimser güncelleme kararları verilecekken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Durum yönetimi tasarımı"
+  related: "component-design, technical-design-doc, api-contract, adr, web-performance-audit"
+  prompt: "Sipariş yönetimi ekranlarımız düzenlemeden sonra eski veri gösteriyor ve her şey tek bir global store'da. Durum yönetimini yeniden tasarlamamıza yardım et."
 ---
 
 # Durum Yönetimi Tasarımı

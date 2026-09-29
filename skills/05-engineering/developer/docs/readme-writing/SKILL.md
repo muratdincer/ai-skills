@@ -1,7 +1,16 @@
 ---
-description: Writes or restructures a repository README that states what the project is, who it is for, how to get it running, how to use and configure it, and how to contribute, with commands that can be copied and verified. Use when a repository has no README, an outdated or sprawling one, new joiners struggle to run the project, or a library or service is about to be shared with other teams.
-related: code-documentation, api-reference-docs, technical-onboarding, how-to-guide, changelog-entry
-prompt: Write a README for our internal invoice-service repo. It is a REST API with a PostgreSQL database and a background worker; here is the folder structure and the Makefile.
+name: readme-writing
+description: "Writes or restructures a repository README that states what the project is, who it is for, how to get it running, how to use and configure it, and how to contribute, with commands that can be copied and verified. Use when a repository has no README, an outdated or sprawling one, new joiners struggle to run the project, or a library or service is about to be shared with other teams."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: docs
+  title: "Write a README"
+  related: "code-documentation, api-reference-docs, technical-onboarding, how-to-guide, changelog-entry"
+  prompt: "Write a README for our internal invoice-service repo. It is a REST API with a PostgreSQL database and a background worker; here is the folder structure and the Makefile."
 ---
 
 # Write a README

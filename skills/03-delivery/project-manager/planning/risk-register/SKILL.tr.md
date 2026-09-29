@@ -1,7 +1,16 @@
 ---
-description: Neden-olay-etki biçiminde risk ifadeleri, olasılık ve etki puanları, yakınlık, sahipler, aksiyon ve tetikleyicileriyle yanıt stratejileri (kaçın, azalt, devret, kabul et, fırsatı kullan) ve kalıntı risk içeren proje risk kaydını oluşturur. Proje planlanırken, bir geçiş kapısı veya yönlendirme toplantısı öncesinde ya da yeni tehdit veya fırsatlar ortaya çıktığında kullanılır.
-related: raid-log, pre-mortem, technical-risk-review, it-risk-assessment, budget-plan
-prompt: Depo yönetim sistemi geçişimiz için risk kaydı oluştur; plan ve açılış toplantısında dile getirilen kaygılar ekte.
+name: risk-register
+description: "Neden-olay-etki biçiminde risk ifadeleri, olasılık ve etki puanları, yakınlık, sahipler, aksiyon ve tetikleyicileriyle yanıt stratejileri (kaçın, azalt, devret, kabul et, fırsatı kullan) ve kalıntı risk içeren proje risk kaydını oluşturur. Proje planlanırken, bir geçiş kapısı veya yönlendirme toplantısı öncesinde ya da yeni tehdit veya fırsatlar ortaya çıktığında kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Risk kaydı"
+  related: "raid-log, pre-mortem, technical-risk-review, it-risk-assessment, budget-plan"
+  prompt: "Depo yönetim sistemi geçişimiz için risk kaydı oluştur; plan ve açılış toplantısında dile getirilen kaygılar ekte."
 ---
 
 # Risk Kaydı

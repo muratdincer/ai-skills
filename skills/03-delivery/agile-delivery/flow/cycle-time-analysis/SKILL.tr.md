@@ -1,7 +1,16 @@
 ---
+name: cycle-time-analysis
 description: "İş maddelerinin başlangıç/bitiş tarihlerinden döngü süresini (cycle time) ve teslim süresini (lead time) analiz eder: yüzdelikleri hesaplar, dağılımı okur, durumda geçen süreden darboğaz durumları bulur, devam eden işleri geçmiş yüzdeliklere göre yaşlanma açısından işaretler ve bir hizmet seviyesi beklentisi önerir. Madde başlangıç/bitiş tarihleri veya pano durum geçmişi paylaşılıp işin ne kadar sürdüğü, nerede beklediği ya da hangi maddelerin takılma riski taşıdığı sorulduğunda kullanılır."
-related: "wip-policy, monte-carlo-forecast, velocity-analysis, value-stream-map, engineering-metrics-review"
-prompt: "Başlangıç ve bitiş tarihleriyle 40 biten madde ve başlangıç tarihleriyle devam eden 9 madde var. İşimiz ne kadar sürüyor ve ne takılmış?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Döngü/teslim süresi analizi"
+  related: "wip-policy, monte-carlo-forecast, velocity-analysis, value-stream-map, engineering-metrics-review"
+  prompt: "Başlangıç ve bitiş tarihleriyle 40 biten madde ve başlangıç tarihleriyle devam eden 9 madde var. İşimiz ne kadar sürüyor ve ne takılmış?"
 ---
 
 # Döngü/Teslim Süresi Analizi

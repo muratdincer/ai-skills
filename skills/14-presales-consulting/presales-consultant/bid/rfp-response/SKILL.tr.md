@@ -1,7 +1,16 @@
 ---
-description: RFP/RFI/ihale gereksinimlerine uyumlu ve fayda odaklı yanıtlar yazar; her gereksinim için önce uyum düzeyini, ardından çözümün onu nasıl karşıladığını, kanıtı ve müşteriye faydayı, müşterinin formatında ve sınırlar içinde verir. Bir RFP soru listesine veya uyum tablosuna yanıt taslaklanırken ya da iyileştirilirken, yanıtlar fazla genel veya özellik odaklı kaldığında ya da kısmi uyumun dürüstçe belirtilmesi gerektiğinde kullanılır.
-related: rfp-analysis, proposal-writing, effort-estimate-for-bid, statement-of-work, traceability-matrix
-prompt: Bu RFP'deki R-10 ile R-25 arası gereksinimlere yanıtlarımızı yaz; ürünümüz çoğunu karşılıyor, ikisi özelleştirme gerektiriyor.
+name: rfp-response
+description: "RFP/RFI/ihale gereksinimlerine uyumlu ve fayda odaklı yanıtlar yazar; her gereksinim için önce uyum düzeyini, ardından çözümün onu nasıl karşıladığını, kanıtı ve müşteriye faydayı, müşterinin formatında ve sınırlar içinde verir. Bir RFP soru listesine veya uyum tablosuna yanıt taslaklanırken ya da iyileştirilirken, yanıtlar fazla genel veya özellik odaklı kaldığında ya da kısmi uyumun dürüstçe belirtilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "RFP yanıtı yazma"
+  related: "rfp-analysis, proposal-writing, effort-estimate-for-bid, statement-of-work, traceability-matrix"
+  prompt: "Bu RFP'deki R-10 ile R-25 arası gereksinimlere yanıtlarımızı yaz; ürünümüz çoğunu karşılıyor, ikisi özelleştirme gerektiriyor."
 ---
 
 # RFP Yanıtı Yazma

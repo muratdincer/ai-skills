@@ -1,7 +1,16 @@
 ---
+name: test-gap-finder
 description: "Kodu mevcut testleriyle karşılaştırarak test edilmemiş yolları bulur: dalları, sınırları, hata işleyicilerini, durum geçişlerini ve gereksinim kurallarını sıralar, her birini kapsayan testlerle eşler, boşlukları ve zayıf testleri (assertion'sız, aşırı mock'lu, yalnızca mutlu yol) işaretler ve eklenecek somut testle birlikte riske göre sıralar. Testlerde neyin eksik olduğu sorulduğunda, kapsam anlamlı biçimde artırılmak istendiğinde, bir pull request'in testleri incelendiğinde ya da elde bir kapsam raporu olup hangi boşlukların önemli olduğu bilinmek istendiğinde kullanılır."
-related: "unit-test-writing, integration-test-writing, code-review, regression-selection, risk-based-testing"
-prompt: "InvoiceService ve test sınıfı burada. Hangi yollar test edilmemiş ve hangi boşluklar en önemli?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Test edilmemiş yolları bulma"
+  related: "unit-test-writing, integration-test-writing, code-review, regression-selection, risk-based-testing"
+  prompt: "InvoiceService ve test sınıfı burada. Hangi yollar test edilmemiş ve hangi boşluklar en önemli?"
 ---
 
 # Test Edilmemiş Yolları Bulma

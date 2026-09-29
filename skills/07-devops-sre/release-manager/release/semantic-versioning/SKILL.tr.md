@@ -1,7 +1,16 @@
 ---
+name: semantic-versioning
 description: "Semantic Versioning 2.0.0 kurallarını bir değişiklik listesine uygulayarak sonraki sürüm numarasını belirler: her değişikliği public API'ye göre sınıflandırır, gizli kırıcı değişiklikleri yakalar, 0.x, pre-release ve build metadata durumlarını ele alır. Bir kütüphane, API, SDK, paket veya servis yayına çıkmak üzereyken hangi sürüm olması gerektiği ya da bir değişikliğin major artış gerektirip gerektirmediği sorulduğunda kullanılır."
-related: "release-notes, changelog-entry, api-deprecation-plan, api-design-review, release-plan"
-prompt: "Mevcut sürüm 2.4.1. Değişiklikler: isteğe bağlı 'locale' parametresi eklendi, INVALID_TOKEN hata kodu TOKEN_INVALID olarak değiştirildi, yuvarlama hatası düzeltildi. Sonraki sürüm ne olmalı?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Sürüm numarası belirleme"
+  related: "release-notes, changelog-entry, api-deprecation-plan, api-design-review, release-plan"
+  prompt: "Mevcut sürüm 2.4.1. Değişiklikler: isteğe bağlı 'locale' parametresi eklendi, INVALID_TOKEN hata kodu TOKEN_INVALID olarak değiştirildi, yuvarlama hatası düzeltildi. Sonraki sürüm ne olmalı?"
 ---
 
 # Sürüm Numarası Belirleme

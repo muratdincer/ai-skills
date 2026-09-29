@@ -1,7 +1,16 @@
 ---
+name: it-risk-assessment
 description: "Bir varlık veya hizmet kapsamı için BT ve bilgi güvenliği riskini değerlendirir: varlıkları, tehditleri ve zafiyetleri belirler, mevcut kontrollerle olasılık ve etkiyi puanlar, işleme seçeneğine (azaltma, transfer, kaçınma, kabul) karar verir ve her risk için bir risk kaydı üretir. ISO 27001 risk değerlendirmesi kurulurken veya yenilenirken, yeni bir tedarikçi, sistem ya da değişiklik değerlendirilirken, risk kabulü hazırlanırken veya yönetim bir şeyin ne kadar riskli olduğunu sorduğunda kullanılır."
-related: "threat-model, risk-register, control-mapping, vulnerability-triage, privacy-impact-assessment"
-prompt: "Şirket içi ERP'mizi barındırılan bir bulut sağlayıcıya taşımanın BT riskini, tedarikçi ve veri riskleri dahil değerlendir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "BT risk değerlendirmesi"
+  related: "threat-model, risk-register, control-mapping, vulnerability-triage, privacy-impact-assessment"
+  prompt: "Şirket içi ERP'mizi barındırılan bir bulut sağlayıcıya taşımanın BT riskini, tedarikçi ve veri riskleri dahil değerlendir."
 ---
 
 # BT Risk Değerlendirmesi

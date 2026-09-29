@@ -1,7 +1,16 @@
 ---
-description: Builds or revises a career ladder for a job family with levels, scope and impact per level, competency expectations with observable examples, and parallel individual contributor and management tracks. Use when an organization needs consistent levelling for promotions, hiring and reviews, when levels are vague or inconsistent across teams, or when adding a staff/principal or management track.
-related: role-definition, performance-review, career-development-plan, job-description, interview-plan
-prompt: Build a career ladder for our software engineers from junior to principal, with a separate management track from team lead to director.
+name: career-ladder
+description: "Builds or revises a career ladder for a job family with levels, scope and impact per level, competency expectations with observable examples, and parallel individual contributor and management tracks. Use when an organization needs consistent levelling for promotions, hiring and reviews, when levels are vague or inconsistent across teams, or when adding a staff/principal or management track."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: team
+  title: "Build a career ladder"
+  related: "role-definition, performance-review, career-development-plan, job-description, interview-plan"
+  prompt: "Build a career ladder for our software engineers from junior to principal, with a separate management track from team lead to director."
 ---
 
 # Build a Career Ladder

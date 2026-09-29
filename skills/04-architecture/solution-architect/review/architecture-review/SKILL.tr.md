@@ -1,7 +1,16 @@
 ---
-description: Bir çözüm veya yazılım mimarisini iş sürücüleri, kalite niteliği gereksinimleri, mimari ilkeler, bilinen riskler ve yaygın anti-desenlere göre gözden geçirir; somut önerilerle önem derecelendirilmiş bulgular ve bir inceleme kararı üretir. Bir tasarım dokümanı, diyagram seti veya ADR'ler mimari kurul onayına sunulduğunda, büyük bir geliştirme ya da canlıya geçiş öncesinde veya bir sistemde tekrarlayan yapısal sorunlar görüldüğünde kullanılır.
-related: architecture-principles, nfr-to-architecture, atam-evaluation, resilience-review, scalability-review
-prompt: Gelecek haftaki mimari kurul öncesinde yeni kredi başvuru platformumuzun çözüm mimarisi dokümanını gözden geçir.
+name: architecture-review
+description: "Bir çözüm veya yazılım mimarisini iş sürücüleri, kalite niteliği gereksinimleri, mimari ilkeler, bilinen riskler ve yaygın anti-desenlere göre gözden geçirir; somut önerilerle önem derecelendirilmiş bulgular ve bir inceleme kararı üretir. Bir tasarım dokümanı, diyagram seti veya ADR'ler mimari kurul onayına sunulduğunda, büyük bir geliştirme ya da canlıya geçiş öncesinde veya bir sistemde tekrarlayan yapısal sorunlar görüldüğünde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: review
+  title: "Mimari gözden geçirme"
+  related: "architecture-principles, nfr-to-architecture, atam-evaluation, resilience-review, scalability-review"
+  prompt: "Gelecek haftaki mimari kurul öncesinde yeni kredi başvuru platformumuzun çözüm mimarisi dokümanını gözden geçir."
 ---
 
 # Mimari Gözden Geçirme

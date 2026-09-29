@@ -1,7 +1,16 @@
 ---
+name: release-plan
 description: "Writes a release plan that fixes the release contents, schedule with freeze and cut-over points, named owners, dependencies, communication and the rollback decision point. Use when a release spans several teams, components or environments, needs a change window, or when someone asks for a release schedule, cut-over plan or release runbook overview."
-related: "deployment-checklist, rollback-plan, go-no-go, release-notes, change-request-rfc"
-prompt: "Write a release plan for version 4.2: three services, a database migration and a mobile app update, target production date next Thursday night."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Write a release plan"
+  related: "deployment-checklist, rollback-plan, go-no-go, release-notes, change-request-rfc"
+  prompt: "Write a release plan for version 4.2: three services, a database migration and a mobile app update, target production date next Thursday night."
 ---
 
 # Write a Release Plan

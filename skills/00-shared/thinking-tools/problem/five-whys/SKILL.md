@@ -1,7 +1,16 @@
 ---
+name: five-whys
 description: "Runs a disciplined 5 Whys analysis from a clearly stated symptom down to one or more verifiable root causes, with evidence for each link, a branch per contributing cause and countermeasures that address the cause, not the symptom. Use when an incident, defect, missed target or recurring problem needs a root cause, when someone asks 'why does this keep happening', or when a postmortem or lessons-learned needs causal depth."
-related: "problem-statement, fishbone-analysis, postmortem, debugging-hypotheses, lessons-learned"
-prompt: "Run a 5 Whys on this: the nightly customer export failed three times this month and finance got the report late each time."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Run a 5 Whys analysis"
+  related: "problem-statement, fishbone-analysis, postmortem, debugging-hypotheses, lessons-learned"
+  prompt: "Run a 5 Whys on this: the nightly customer export failed three times this month and finance got the report late each time."
 ---
 
 # Run a 5 Whys Analysis

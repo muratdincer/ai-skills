@@ -1,7 +1,16 @@
 ---
+name: observability-plan
 description: "Plans observability for one or more services: which metrics, structured logs and distributed traces to emit, correlation and context propagation, cardinality and retention budgets, dashboards per audience and gaps against SLOs and runbooks. Use when a service is being built or onboarded, when incidents take long to diagnose, when telemetry cost is out of control, or when someone asks what to instrument."
-related: "slo-definition, alert-design, logging-instrumentation, dashboard-spec, runbook"
-prompt: "Plan observability for our order service: .NET API, Kafka consumer, PostgreSQL. We only have container CPU/memory graphs and unstructured logs today."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Plan observability"
+  related: "slo-definition, alert-design, logging-instrumentation, dashboard-spec, runbook"
+  prompt: "Plan observability for our order service: .NET API, Kafka consumer, PostgreSQL. We only have container CPU/memory graphs and unstructured logs today."
 ---
 
 # Plan Observability

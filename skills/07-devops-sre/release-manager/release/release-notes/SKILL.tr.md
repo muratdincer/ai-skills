@@ -1,7 +1,16 @@
 ---
+name: release-notes
 description: "Bir değişiklik listesinden, commit'lerden veya iş kalemlerinden; yeni özellikler, iyileştirmeler, düzeltmeler, kırıcı değişiklikler, kullanımdan kaldırmalar ve bilinen sorunlar olarak gruplanmış ve belirli bir hedef kitle (son kullanıcılar, yöneticiler, API tüketicileri veya iç ekipler) için yazılmış sürüm notları hazırlar. Bir sürüm yayına çıkmak üzereyken kullanıcıların, müşterilerin veya desteğin neyin değiştiğini ve ne yapmaları gerektiğini bilmesi gerektiğinde kullanılır."
-related: "changelog-entry, semantic-versioning, release-announcement, app-store-release-notes, release-plan"
-prompt: "Birleştirilmiş şu 23 kaydı 3.8 sürümü için müşterilerimizin sistem yöneticilerine yönelik sürüm notlarına dönüştür."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Sürüm notları yazma"
+  related: "changelog-entry, semantic-versioning, release-announcement, app-store-release-notes, release-plan"
+  prompt: "Birleştirilmiş şu 23 kaydı 3.8 sürümü için müşterilerimizin sistem yöneticilerine yönelik sürüm notlarına dönüştür."
 ---
 
 # Sürüm Notları Yazma

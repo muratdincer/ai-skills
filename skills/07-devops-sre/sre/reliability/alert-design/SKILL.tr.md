@@ -1,7 +1,16 @@
 ---
+name: alert-design
 description: "Bir servis için sayfalama (page) ve kayıt (ticket) alarm setini tasarlar: SLO'lara bağlı belirti bazlı alarmlar, çok pencereli ve çok burn-rate'li koşullar, önem derecesi ve yönlendirme, runbook bağlantıları ve mevcut gürültülü alarmların denetimi. Alarm yoksa, gürültülüyse, kullanıcı etkisi yerine nedene (CPU, disk) dayalıysa, nöbetçiler tükeniyorsa veya yeni SLO'lar için alarm gerekiyorsa kullanılır."
-related: "slo-definition, error-budget-policy, observability-plan, runbook, incident-response"
-prompt: "Ödeme API'miz için alarm tasarla. SLO 28 günde %99,9 erişilebilirlik; şu an CPU > %80 olunca page atıyoruz ve haftada 40 page geliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "Alarm tasarımı"
+  related: "slo-definition, error-budget-policy, observability-plan, runbook, incident-response"
+  prompt: "Ödeme API'miz için alarm tasarla. SLO 28 günde %99,9 erişilebilirlik; şu an CPU > %80 olunca page atıyoruz ve haftada 40 page geliyor."
 ---
 
 # Alarm Tasarımı

@@ -1,7 +1,16 @@
 ---
+name: regex-builder
 description: "Belirtilen eşleşme ihtiyacı için hedef motorun lehçesinde bir düzenli ifade (regex) yazar; sade dille parça parça açıklama, eşleşmesi ve eşleşmemesi gereken test durumları tablosu, çapa ve kaçış kararları ve felaket düzeyinde geri izleme (catastrophic backtracking) kontrolü sunar. Mevcut bir regex'i açıklar veya düzeltir. Metni doğrulamak, çıkarmak, aramak veya değiştirmek için desen gerektiğinde, biri regex yapıştırıp ne yaptığını sorduğunda ya da fazla, eksik eşleşen veya yavaş çalışan bir regex bildirdiğinde kullanılır."
-related: "code-explanation, unit-test-writing, data-quality-rules, secure-code-review, business-rules-catalog"
-prompt: "E-posta konularından INV-2024-000123 gibi fatura numaralarını çıkaran bir regex yaz; JavaScript'te kullanıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Regex oluşturma ve açıklama"
+  related: "code-explanation, unit-test-writing, data-quality-rules, secure-code-review, business-rules-catalog"
+  prompt: "E-posta konularından INV-2024-000123 gibi fatura numaralarını çıkaran bir regex yaz; JavaScript'te kullanıyoruz."
 ---
 
 # Regex Oluşturma ve Açıklama

@@ -1,7 +1,16 @@
 ---
-description: Prepares a project kickoff session, producing a timeboxed agenda and slide-by-slide content covering objectives, scope, team and roles, plan and milestones, ways of working, risks and immediate next steps for the team and sponsors. Use when a project is about to start or a new phase or major team change needs a shared start.
-related: project-charter, scope-statement, stakeholder-register, communication-plan, meeting-agenda
-prompt: Prepare the kickoff for our data warehouse modernization project: 20 people, sponsor attends the first 30 minutes.
+name: kickoff-deck
+description: "Prepares a project kickoff session, producing a timeboxed agenda and slide-by-slide content covering objectives, scope, team and roles, plan and milestones, ways of working, risks and immediate next steps for the team and sponsors. Use when a project is about to start or a new phase or major team change needs a shared start."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Prepare a kickoff"
+  related: "project-charter, scope-statement, stakeholder-register, communication-plan, meeting-agenda"
+  prompt: "Prepare the kickoff for our data warehouse modernization project: 20 people, sponsor attends the first 30 minutes."
 ---
 
 # Prepare a Kickoff

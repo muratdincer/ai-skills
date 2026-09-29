@@ -1,7 +1,16 @@
 ---
-description: Builds a project communication plan that specifies, for each audience, what information they receive, when and how often, through which channel, from whom, and how feedback and escalations flow back. Use at project start, when stakeholders complain about being uninformed or overloaded, or when governance and reporting cadences must be agreed.
-related: stakeholder-register, project-status-report, governance-framework, status-update, announcement
-prompt: Create a communication plan for our core banking upgrade covering executives, branch staff, IT operations and the vendor.
+name: communication-plan
+description: "Builds a project communication plan that specifies, for each audience, what information they receive, when and how often, through which channel, from whom, and how feedback and escalations flow back. Use at project start, when stakeholders complain about being uninformed or overloaded, or when governance and reporting cadences must be agreed."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a communication plan"
+  related: "stakeholder-register, project-status-report, governance-framework, status-update, announcement"
+  prompt: "Create a communication plan for our core banking upgrade covering executives, branch staff, IT operations and the vendor."
 ---
 
 # Build a Communication Plan

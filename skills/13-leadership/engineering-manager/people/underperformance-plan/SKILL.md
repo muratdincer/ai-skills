@@ -1,7 +1,16 @@
 ---
-description: Drafts a fair, evidence-based performance improvement plan (PIP) with specific expectation gaps, measurable success criteria, the support provided, milestone reviews and clearly stated consequences, ready for HR review. Use when informal feedback has not resolved a sustained performance gap, or when a manager needs to check whether a situation is ready for a formal plan.
-related: performance-review, feedback-sbi, one-on-one-notes, bad-news-delivery, goal-setting
-prompt: Draft a 60-day improvement plan for a developer whose PRs repeatedly fail review and who missed three sprint commitments despite feedback since April.
+name: underperformance-plan
+description: "Drafts a fair, evidence-based performance improvement plan (PIP) with specific expectation gaps, measurable success criteria, the support provided, milestone reviews and clearly stated consequences, ready for HR review. Use when informal feedback has not resolved a sustained performance gap, or when a manager needs to check whether a situation is ready for a formal plan."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Write a performance improvement plan"
+  related: "performance-review, feedback-sbi, one-on-one-notes, bad-news-delivery, goal-setting"
+  prompt: "Draft a 60-day improvement plan for a developer whose PRs repeatedly fail review and who missed three sprint commitments despite feedback since April."
 ---
 
 # Write a Performance Improvement Plan

@@ -1,7 +1,16 @@
 ---
-description: Bir API'nin, sürümün, endpoint'in, alanın veya olayın kullanımdan kaldırılmasını; tüketici envanteri, sürümleme stratejisi, makinece okunabilir Deprecation/Sunset sinyalleri, geçiş rehberi, brownout'lar ve ölçülebilir kaldırma kapılarıyla planlar. Kırıcı bir değişiklik, yeni bir API sürümü veya kaldırılan bir endpoint, iç ekiplere, iş ortaklarına ya da herkese açık tüketicilere sürpriz kesinti yaşatmadan ulaştırılacağı zaman kullanılır.
-related: api-design-review, api-contract, migration-strategy, api-reference-docs, product-sunset-plan
-prompt: /v1/orders yerine /v2/orders geliyor (yeni sayfalama ve para formatı). İş ortaklarımız ve iç uygulamalarımız için v1'in kullanımdan kaldırma planını hazırla.
+name: api-deprecation-plan
+description: "Bir API'nin, sürümün, endpoint'in, alanın veya olayın kullanımdan kaldırılmasını; tüketici envanteri, sürümleme stratejisi, makinece okunabilir Deprecation/Sunset sinyalleri, geçiş rehberi, brownout'lar ve ölçülebilir kaldırma kapılarıyla planlar. Kırıcı bir değişiklik, yeni bir API sürümü veya kaldırılan bir endpoint, iç ekiplere, iş ortaklarına ya da herkese açık tüketicilere sürpriz kesinti yaşatmadan ulaştırılacağı zaman kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "API kullanımdan kaldırma planı"
+  related: "api-design-review, api-contract, migration-strategy, api-reference-docs, product-sunset-plan"
+  prompt: "/v1/orders yerine /v2/orders geliyor (yeni sayfalama ve para formatı). İş ortaklarımız ve iç uygulamalarımız için v1'in kullanımdan kaldırma planını hazırla."
 ---
 
 # API Kullanımdan Kaldırma Planı

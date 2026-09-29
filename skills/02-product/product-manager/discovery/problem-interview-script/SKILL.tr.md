@@ -1,7 +1,16 @@
 ---
-description: The Mom Test yaklaşımıyla, görüş veya satış konuşması yerine geçmiş davranışları, gerçek harcamaları ve mevcut geçici çözümleri soran, yönlendirmeyen bir müşteri problem görüşmesi senaryosu yazar; huni sıralı rehber, derinleştirme soruları, taahhüt sinyalleri ve not formu içerir. Ekip bir problemin var olduğunu geliştirmeden önce doğrulamak istediğinde, keşif görüşmelerine hazırlanırken ya da yönlendirici veya varsayımsal olabilecek soruların gözden geçirilmesi istendiğinde kullanılır.
-related: interview-question-set, research-plan, screener-survey, jobs-to-be-done, research-synthesis
-prompt: Küçük klinik sahiplerinin randevuya gelmeyen hastalarla gerçekten sorun yaşayıp yaşamadığını anlamak için bir problem görüşmesi senaryosu yaz.
+name: problem-interview-script
+description: "The Mom Test yaklaşımıyla, görüş veya satış konuşması yerine geçmiş davranışları, gerçek harcamaları ve mevcut geçici çözümleri soran, yönlendirmeyen bir müşteri problem görüşmesi senaryosu yazar; huni sıralı rehber, derinleştirme soruları, taahhüt sinyalleri ve not formu içerir. Ekip bir problemin var olduğunu geliştirmeden önce doğrulamak istediğinde, keşif görüşmelerine hazırlanırken ya da yönlendirici veya varsayımsal olabilecek soruların gözden geçirilmesi istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Problem görüşmesi senaryosu"
+  related: "interview-question-set, research-plan, screener-survey, jobs-to-be-done, research-synthesis"
+  prompt: "Küçük klinik sahiplerinin randevuya gelmeyen hastalarla gerçekten sorun yaşayıp yaşamadığını anlamak için bir problem görüşmesi senaryosu yaz."
 ---
 
 # Problem Görüşmesi Senaryosu

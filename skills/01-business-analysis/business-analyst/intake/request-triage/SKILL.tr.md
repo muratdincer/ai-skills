@@ -1,7 +1,16 @@
 ---
+name: request-triage
 description: "Gelen bir veya birden çok iş talebini tür, aciliyet, değer, efor sınıfı ve riske göre sınıflandırır, mükerrerleri bulur ve her birini doğru yola (hızlı yol, analiz, fizibilite, proje, destek, ret) yönlendirir. Yeni taleplerden oluşan bir kuyruk sıralanacağında, talep değerlendirme toplantısında veya 'bu talepler nereye gitmeli, önce hangisi?' sorusu geldiğinde kullanılır."
-related: "request-intake-document, request-completeness-check, ticket-triage, backlog-prioritization, change-request-analysis"
-prompt: "Bu haftaki gelen kutusundaki 8 talebi sınıflandır; hangileri analize gider, hangileri destek kaydı, hangilerini reddetmeliyiz söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Gelen talepleri sınıflandırma"
+  related: "request-intake-document, request-completeness-check, ticket-triage, backlog-prioritization, change-request-analysis"
+  prompt: "Bu haftaki gelen kutusundaki 8 talebi sınıflandır; hangileri analize gider, hangileri destek kaydı, hangilerini reddetmeliyiz söyle."
 ---
 
 # Gelen Talepleri Sınıflandırma

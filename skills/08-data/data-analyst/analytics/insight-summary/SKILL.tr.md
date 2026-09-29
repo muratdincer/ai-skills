@@ -1,7 +1,16 @@
 ---
-description: Analiz sonuçlarını, sorgu çıktılarını veya grafikleri kısa bir "ne anlama geliyor" içgörü özetine dönüştürür; ana bulgu, kanıt, güven düzeyi, etkiler ve önerilen aksiyon. Rakamlar hazır olduğunda ama kitlenin ne anlama geldiğini ve ne yapılacağını bilmesi gerektiğinde kullanılır; örneğin bir analizden, aylık gözden geçirmeden veya dashboard'daki bir anomaliden sonra.
-related: analysis-plan, executive-summary, ab-test-analysis, dashboard-spec, presentation-outline
-prompt: Şu sonuçlardan içgörü özeti yaz: Q3'te müşteri kaybı %3,1'den %4,0'a çıktı, çoğunlukla aylık plandaki KOBİ segmentinde.
+name: insight-summary
+description: "Analiz sonuçlarını, sorgu çıktılarını veya grafikleri kısa bir \"ne anlama geliyor\" içgörü özetine dönüştürür; ana bulgu, kanıt, güven düzeyi, etkiler ve önerilen aksiyon. Rakamlar hazır olduğunda ama kitlenin ne anlama geldiğini ve ne yapılacağını bilmesi gerektiğinde kullanılır; örneğin bir analizden, aylık gözden geçirmeden veya dashboard'daki bir anomaliden sonra."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "İçgörü özeti yazma"
+  related: "analysis-plan, executive-summary, ab-test-analysis, dashboard-spec, presentation-outline"
+  prompt: "Şu sonuçlardan içgörü özeti yaz: Q3'te müşteri kaybı %3,1'den %4,0'a çıktı, çoğunlukla aylık plandaki KOBİ segmentinde."
 ---
 
 # İçgörü Özeti Yazma

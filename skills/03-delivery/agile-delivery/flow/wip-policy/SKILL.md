@@ -1,7 +1,16 @@
 ---
+name: wip-policy
 description: "Designs a board and its flow policies: columns that mirror the real workflow including wait states, work-in-progress limits per column or person, explicit entry and exit criteria, classes of service, blocked-item and aging rules, and a review cadence for adjusting the limits. Use when a team sets up or redesigns its board, has too much work started and little finished, or asks what WIP limits and pull rules to use."
-related: "cycle-time-analysis, working-agreement, definition-of-ready, definition-of-done, impediment-tracking"
-prompt: "We are 6 developers and 1 tester, everything is 'in progress' and nothing finishes. Help us define board columns and WIP limits."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: agile-delivery
+  area: flow
+  title: "Define WIP limits and flow policies"
+  related: "cycle-time-analysis, working-agreement, definition-of-ready, definition-of-done, impediment-tracking"
+  prompt: "We are 6 developers and 1 tester, everything is 'in progress' and nothing finishes. Help us define board columns and WIP limits."
 ---
 
 # Define WIP Limits and Flow Policies

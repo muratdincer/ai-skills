@@ -1,7 +1,16 @@
 ---
+name: interview-question-set
 description: "Paydaş tipine (üst yönetici, süreç sahibi, son kullanıcı, BT/sistem sahibi, uyum) göre uyarlanmış; açılış, bağlam, açık uçlu, derinleştirici ve doğrulayıcı sorular, süre planı ve takip sorularını içeren bir gereksinim görüşmesi rehberi hazırlar. Gereksinim görüşmesi öncesinde veya 'görüşmede kullanıcılara/yöneticilere ne sormalıyım?' sorusu geldiğinde kullanılır."
-related: "interview-notes-analysis, request-clarification-questions, workshop-plan, stakeholder-identification, problem-interview-script"
-prompt: "Depo vardiya amirleriyle bugün stok farklarını nasıl yönettiklerine dair 45 dakikalık bir görüşme hazırla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Görüşme soruları hazırlama"
+  related: "interview-notes-analysis, request-clarification-questions, workshop-plan, stakeholder-identification, problem-interview-script"
+  prompt: "Depo vardiya amirleriyle bugün stok farklarını nasıl yönettiklerine dair 45 dakikalık bir görüşme hazırla."
 ---
 
 # Görüşme Soruları Hazırlama

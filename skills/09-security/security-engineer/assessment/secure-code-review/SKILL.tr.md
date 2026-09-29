@@ -1,7 +1,16 @@
 ---
+name: secure-code-review
 description: "Kaynak kodu veya bir diff'i güvenlik zafiyetleri açısından inceler; bulguları OWASP Top 10 kategorileri ve CWE numaralarıyla eşler, güvenilmeyen girdiyi kaynaktan hedefe (sink) izler ve her bulgu için önem derecesi, kanıt ve somut düzeltme verir. Bir pull request kimlik doğrulama, yetkilendirme, girdi işleme, kriptografi, dosya veya ağ erişimine dokunduğunda ya da kodun zafiyet açısından kontrol edilmesi istendiğinde kullanılır."
-related: "code-review, security-finding-report, vulnerability-triage, security-requirements, threat-model"
-prompt: "Merge etmeden önce bu ASP.NET Core controller'ı ve repository sınıfını güvenlik açısından incele."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: assessment
+  title: "Güvenli kod incelemesi"
+  related: "code-review, security-finding-report, vulnerability-triage, security-requirements, threat-model"
+  prompt: "Merge etmeden önce bu ASP.NET Core controller'ı ve repository sınıfını güvenlik açısından incele."
 ---
 
 # Güvenli Kod İncelemesi

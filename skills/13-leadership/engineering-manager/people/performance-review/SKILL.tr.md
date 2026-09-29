@@ -1,7 +1,16 @@
 ---
-description: Bir mühendis veya ekip üyesi için kanıta dayalı, yetkinliklerle uyumlu ve dengeli bir performans değerlendirmesi yazar; kalibre edilmiş puan gerekçesi, güçlü yönler, gelişim alanları ve sonraki dönem odağını içerir. Değerlendirme dönemi geldiğinde, birebir notları, ekip arkadaşı geri bildirimleri ve teslimat kanıtları yazılı bir değerlendirmeye dönüştürülürken veya taslak bir değerlendirme önyargı ve dayanaksız iddialar açısından kontrol edilirken kullanılır.
-related: career-ladder, goal-setting, one-on-one-notes, career-development-plan, feedback-sbi
-prompt: Bu notlardan, ekip arkadaşı geri bildirimlerinden ve hedeflerinden Can'ın yıllık değerlendirmesinin taslağını çıkar. Kariyer basamağımızdaki seviyesi Kıdemli Mühendis.
+name: performance-review
+description: "Bir mühendis veya ekip üyesi için kanıta dayalı, yetkinliklerle uyumlu ve dengeli bir performans değerlendirmesi yazar; kalibre edilmiş puan gerekçesi, güçlü yönler, gelişim alanları ve sonraki dönem odağını içerir. Değerlendirme dönemi geldiğinde, birebir notları, ekip arkadaşı geri bildirimleri ve teslimat kanıtları yazılı bir değerlendirmeye dönüştürülürken veya taslak bir değerlendirme önyargı ve dayanaksız iddialar açısından kontrol edilirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Performans değerlendirmesi yazma"
+  related: "career-ladder, goal-setting, one-on-one-notes, career-development-plan, feedback-sbi"
+  prompt: "Bu notlardan, ekip arkadaşı geri bildirimlerinden ve hedeflerinden Can'ın yıllık değerlendirmesinin taslağını çıkar. Kariyer basamağımızdaki seviyesi Kıdemli Mühendis."
 ---
 
 # Performans Değerlendirmesi Yazma

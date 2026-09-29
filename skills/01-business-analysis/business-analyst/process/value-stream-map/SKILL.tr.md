@@ -1,7 +1,16 @@
 ---
+name: value-stream-map
 description: "Müşteri talebinden teslim edilen değere kadar bir değer akışını haritalar; her adımda işlem süresini bekleme süresinden ayırır, adımları değer katan, gerekli ama değer katmayan veya israf olarak sınıflandırır ve toplam süre (lead time), işlem süresi, akış verimliliği ve yeniden işleme oranlarını hesaplar. Bir süreç veya teslimat akışı yavaş geldiğinde, toplam sürenin kısaltılması gerektiğinde ya da israfın, beklemenin veya darboğazın nerede olduğu sorulduğunda kullanılır."
-related: "as-is-process, to-be-process, cycle-time-analysis, five-whys, process-gap-analysis"
-prompt: "Müşteri kazanım sürecimizin değer akışını çıkar: başvurudan aktif hesaba yaklaşık 12 gün sürüyor, zamanın nereye gittiğini görmek istiyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Değer akışı haritalama"
+  related: "as-is-process, to-be-process, cycle-time-analysis, five-whys, process-gap-analysis"
+  prompt: "Müşteri kazanım sürecimizin değer akışını çıkar: başvurudan aktif hesaba yaklaşık 12 gün sürüyor, zamanın nereye gittiğini görmek istiyoruz."
 ---
 
 # Değer Akışı Haritalama

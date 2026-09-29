@@ -1,7 +1,16 @@
 ---
+name: backlog-health-check
 description: "Bir backlog dökümünü veya listesini sağlık sorunları (bayat, tekrar eden, fazla büyük, sahipsiz, önceliksiz veya hedefsiz maddeler, çok fazla veya çok az hazır iş) açısından denetler; metriklerle bulgular, temizlik önerisi ve düzen kuralları üretir. Backlog yönetilemez hale geldiğinde, kimse ona güvenmediğinde, planlama döngüsünden önce ya da backlog'un temizlenmesi, denetlenmesi istendiğinde kullanılır."
-related: "backlog-refinement, backlog-prioritization, definition-of-ready, roadmap, cycle-time-analysis"
-prompt: "Ekte 340 maddelik backlog dökümümüz var (başlık, tür, oluşturma tarihi, son güncelleme, epic, durum). Sağlığını kontrol et ve neleri silmem gerektiğini söyle."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Backlog sağlık kontrolü"
+  related: "backlog-refinement, backlog-prioritization, definition-of-ready, roadmap, cycle-time-analysis"
+  prompt: "Ekte 340 maddelik backlog dökümümüz var (başlık, tür, oluşturma tarihi, son güncelleme, epic, durum). Sağlığını kontrol et ve neleri silmem gerektiğini söyle."
 ---
 
 # Backlog Sağlık Kontrolü

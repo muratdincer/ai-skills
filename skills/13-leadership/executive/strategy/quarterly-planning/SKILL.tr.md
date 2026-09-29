@@ -1,7 +1,16 @@
 ---
-description: Bir teknoloji organizasyonu için çeyreklik planlama döngüsünü yürütür; stratejiyi ve talepleri kapasiteye dayalı taahhütlere, iddialı hedeflere (stretch) ve açık ödünleşimlere dönüştürür, bağımlılıkları ve riskleri görünür kılar. Bir CTO, başkan yardımcısı veya direktör ekiplerin gelecek çeyrekte neyi taahhüt edeceğine karar vermek zorunda olduğunda, talep kapasiteyi aştığında ya da önceki çeyrekler fazla taahhüt edilip eksik teslim edildiğinde kullanılır.
-related: technology-strategy, capacity-planning, okr-definition, portfolio-prioritization, cross-team-dependency-board
-prompt: 6 mühendislik ekibimiz için 3. çeyreği planlamama yardım et; işten 40 talep var, bir platform geçişi var ve kapasitenin %20'si zaten desteğe gidiyor.
+name: quarterly-planning
+description: "Bir teknoloji organizasyonu için çeyreklik planlama döngüsünü yürütür; stratejiyi ve talepleri kapasiteye dayalı taahhütlere, iddialı hedeflere (stretch) ve açık ödünleşimlere dönüştürür, bağımlılıkları ve riskleri görünür kılar. Bir CTO, başkan yardımcısı veya direktör ekiplerin gelecek çeyrekte neyi taahhüt edeceğine karar vermek zorunda olduğunda, talep kapasiteyi aştığında ya da önceki çeyrekler fazla taahhüt edilip eksik teslim edildiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Çeyreklik planlama"
+  related: "technology-strategy, capacity-planning, okr-definition, portfolio-prioritization, cross-team-dependency-board"
+  prompt: "6 mühendislik ekibimiz için 3. çeyreği planlamama yardım et; işten 40 talep var, bir platform geçişi var ve kapasitenin %20'si zaten desteğe gidiyor."
 ---
 
 # Çeyreklik Planlama

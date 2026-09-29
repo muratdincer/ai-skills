@@ -1,7 +1,16 @@
 ---
-description: Prepares a focused 1:1 meeting plan with a direct report, including follow-ups from the previous session, report-owned topics, open coaching questions and signals to watch. Use when a manager has an upcoming 1:1, wants to structure a recurring 1:1, or needs to prepare for a harder conversation (feedback, workload, career, morale).
-related: one-on-one-notes, feedback-sbi, career-development-plan, goal-setting, conflict-resolution
-prompt: Prepare my 1:1 with Ayşe tomorrow. Last time she said she felt stuck on the billing migration and wanted more design ownership.
+name: one-on-one-prep
+description: "Prepares a focused 1:1 meeting plan with a direct report, including follow-ups from the previous session, report-owned topics, open coaching questions and signals to watch. Use when a manager has an upcoming 1:1, wants to structure a recurring 1:1, or needs to prepare for a harder conversation (feedback, workload, career, morale)."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Prepare a 1:1"
+  related: "one-on-one-notes, feedback-sbi, career-development-plan, goal-setting, conflict-resolution"
+  prompt: "Prepare my 1:1 with Ayşe tomorrow. Last time she said she felt stuck on the billing migration and wanted more design ownership."
 ---
 
 # Prepare a 1:1

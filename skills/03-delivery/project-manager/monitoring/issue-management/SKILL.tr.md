@@ -1,7 +1,16 @@
 ---
-description: Tek bir proje sorununu kayıttan kapanışa kadar yönetir; sorunu net biçimde tanımlar, etkisini ve aciliyetini değerlendirir, nedenini bulur, sahip ve tarihlerle çözüm planı kurar, eskalasyon tetikleyicilerini ve kapanış kriterlerini belirler ve doğrulanmış çözüme kadar izler. Engellenen bir ekip, aksayan bir bağımlılık, tedarikçi gecikmesi veya gerçekleşmiş bir risk gibi, şu anda ters giden ve kapsamı, takvimi, maliyeti ya da kaliteyi etkileyen bir durum olduğunda kullanılır.
-related: raid-log, escalation-message, five-whys, change-control, decision-log
-prompt: Test ortamımız 4 gündür çalışmıyor ve tedarikçi sürekli erteliyor. Bunu bir sorun olarak kaydedip eskalasyon yoluyla yönetmeme yardım et.
+name: issue-management
+description: "Tek bir proje sorununu kayıttan kapanışa kadar yönetir; sorunu net biçimde tanımlar, etkisini ve aciliyetini değerlendirir, nedenini bulur, sahip ve tarihlerle çözüm planı kurar, eskalasyon tetikleyicilerini ve kapanış kriterlerini belirler ve doğrulanmış çözüme kadar izler. Engellenen bir ekip, aksayan bir bağımlılık, tedarikçi gecikmesi veya gerçekleşmiş bir risk gibi, şu anda ters giden ve kapsamı, takvimi, maliyeti ya da kaliteyi etkileyen bir durum olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Sorun yönetimi"
+  related: "raid-log, escalation-message, five-whys, change-control, decision-log"
+  prompt: "Test ortamımız 4 gündür çalışmıyor ve tedarikçi sürekli erteliyor. Bunu bir sorun olarak kaydedip eskalasyon yoluyla yönetmeme yardım et."
 ---
 
 # Sorun Yönetimi

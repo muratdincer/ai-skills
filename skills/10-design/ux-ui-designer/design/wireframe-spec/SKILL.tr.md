@@ -1,7 +1,16 @@
 ---
-description: Tek bir ekran veya görünüm için wireframe'i metinle tarif eder; amaç, yerleşim bölgeleri, bileşenler, içerik önceliği, etkileşimler, tüm durumlar (varsayılan, yükleniyor, boş, hata, kısmi, yetki), duyarlı davranış ve erişilebilirlik notlarını kapsar. Bir ekranın görsel maketten önce veya onun yerine tanımlanması gerektiğinde, "bu ekranda ne olacak" sorulduğunda ya da wireframe'in ürün ve yazılım ekiplerince metin üzerinden incelenmesi gerektiğinde kullanılır.
-related: user-flow, information-architecture, screen-requirements, design-handoff, microcopy
-prompt: E-ticaret web uygulamamızın sipariş geçmişi ekranı için boş ve hata durumları dahil wireframe tarifi yaz.
+name: wireframe-spec
+description: "Tek bir ekran veya görünüm için wireframe'i metinle tarif eder; amaç, yerleşim bölgeleri, bileşenler, içerik önceliği, etkileşimler, tüm durumlar (varsayılan, yükleniyor, boş, hata, kısmi, yetki), duyarlı davranış ve erişilebilirlik notlarını kapsar. Bir ekranın görsel maketten önce veya onun yerine tanımlanması gerektiğinde, \"bu ekranda ne olacak\" sorulduğunda ya da wireframe'in ürün ve yazılım ekiplerince metin üzerinden incelenmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Wireframe tarifi"
+  related: "user-flow, information-architecture, screen-requirements, design-handoff, microcopy"
+  prompt: "E-ticaret web uygulamamızın sipariş geçmişi ekranı için boş ve hata durumları dahil wireframe tarifi yaz."
 ---
 
 # Wireframe Tarifi

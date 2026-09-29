@@ -1,7 +1,16 @@
 ---
+name: pairwise-testing
 description: "Parametre değerlerinin her ikilisini (kritik parametreler için daha yüksek dereceyi) değerler arası kısıtlara uyarak kapsayan azaltılmış bir test kombinasyonu seti üretir; azaltmayı ve kalan riski açıklar. Çok sayıda parametre veya yapılandırma (tarayıcı, cihaz, rol, ayar, ürün seçeneği) birleşince tümünü test etmek mümkün olmadığında kullanılır."
-related: equivalence-boundary-analysis, decision-table-testing, test-case-writing, risk-based-testing, test-data-design
-prompt: "Ödeme adımı için ikili kombinasyonlar üret: 4 tarayıcı, 3 ödeme yöntemi, 2 kullanıcı tipi, 3 teslimat seçeneği, kupon var/yok. Apple Pay yalnızca Safari'de."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "İkili kombinasyon testi"
+  related: "equivalence-boundary-analysis, decision-table-testing, test-case-writing, risk-based-testing, test-data-design"
+  prompt: "Ödeme adımı için ikili kombinasyonlar üret: 4 tarayıcı, 3 ödeme yöntemi, 2 kullanıcı tipi, 3 teslimat seçeneği, kupon var/yok. Apple Pay yalnızca Safari'de."
 ---
 
 # İkili Kombinasyon Testi

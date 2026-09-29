@@ -1,7 +1,16 @@
 ---
-description: İş paketlerini bağımlılık türleri ve gecikmeleriyle sıralayarak, süreleri atayarak, kilometre taşlarını belirleyerek, kritik yolu ve bolluğu hesaplayarak ve takvim tamponları ekleyerek proje takvimi oluşturur. WBS ve tahminler hazır olduğunda baz takvim, kritik yol veya gerçekçi bir bitiş tarihi üretilmesi ya da kontrol edilmesi gerektiğinde kullanılır.
-related: wbs, estimation-three-point, dependency-map, resource-plan, release-planning
-prompt: Bu iş paketleri ve sürelerden bir takvim oluştur ve Haziran canlıya geçişine giden kritik yolu göster.
+name: schedule-plan
+description: "İş paketlerini bağımlılık türleri ve gecikmeleriyle sıralayarak, süreleri atayarak, kilometre taşlarını belirleyerek, kritik yolu ve bolluğu hesaplayarak ve takvim tamponları ekleyerek proje takvimi oluşturur. WBS ve tahminler hazır olduğunda baz takvim, kritik yol veya gerçekçi bir bitiş tarihi üretilmesi ya da kontrol edilmesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Proje takvimi oluşturma"
+  related: "wbs, estimation-three-point, dependency-map, resource-plan, release-planning"
+  prompt: "Bu iş paketleri ve sürelerden bir takvim oluştur ve Haziran canlıya geçişine giden kritik yolu göster."
 ---
 
 # Proje Takvimi Oluşturma

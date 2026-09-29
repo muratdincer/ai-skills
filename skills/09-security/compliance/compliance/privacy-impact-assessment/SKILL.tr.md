@@ -1,7 +1,16 @@
 ---
+name: privacy-impact-assessment
 description: "Bir özellik veya sistem için KVKK/GDPR kişisel veri etki değerlendirmesi (DPIA) yapar: işleme faaliyetlerini, hukuki sebepleri, veri akışlarını ve aktarımları çıkarır, ilgili kişiler açısından riskleri puanlar ve tasarımda gizlilik önlemleri önerir. Yeni bir özellik veya sistem kişisel ya da özel nitelikli veri işlediğinde, profilleme, izleme, yeni alıcılar veya yurt dışı aktarım getirdiğinde ya da hukuk birimi veya veri koruma sorumlusu DPIA istediğinde kullanılır."
-related: "data-classification, threat-model, retention-policy, security-requirements, it-risk-assessment"
-prompt: "Mağaza ziyaretlerini konumla izleyip kişiye özel kampanya gönderen yeni müşteri sadakat uygulamamız için kişisel veri etki değerlendirmesi yap."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: compliance
+  area: compliance
+  title: "Kişisel veri etki değerlendirmesi"
+  related: "data-classification, threat-model, retention-policy, security-requirements, it-risk-assessment"
+  prompt: "Mağaza ziyaretlerini konumla izleyip kişiye özel kampanya gönderen yeni müşteri sadakat uygulamamız için kişisel veri etki değerlendirmesi yap."
 ---
 
 # Kişisel Veri Etki Değerlendirmesi

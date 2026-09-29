@@ -1,7 +1,16 @@
 ---
-description: Statik analiz ve kod metriklerini (kapsam, karmaşıklık, tekrar, code smell'ler, güvenlik açıkları, bağımlılık yaşı) ve trendlerini sinyali gürültüden ayıran, sıcak noktaları değişim sıklığı ve hatalarla ilişkilendiren ve az sayıda önceliklendirilmiş aksiyon öneren bir kod kalitesi raporuna dönüştürür. Teknik lider kod sağlığını ekibe veya yönetime raporlayacağında, kalite kapısı sonuçları veya bir metrik panosu yorumlanacağında ya da refactoring eforunun nereye yatırılacağına karar verilirken kullanılır.
-related: tech-debt-assessment, coding-standards, test-gap-finder, refactoring, defect-trend-analysis
-prompt: Son üç sürümün statik analiz dökümü ekte. Mühendislik yöneticisi için bir kod kalitesi raporu yaz ve gelecek çeyrekte nereye odaklanmamız gerektiğini söyle.
+name: code-quality-report
+description: "Statik analiz ve kod metriklerini (kapsam, karmaşıklık, tekrar, code smell'ler, güvenlik açıkları, bağımlılık yaşı) ve trendlerini sinyali gürültüden ayıran, sıcak noktaları değişim sıklığı ve hatalarla ilişkilendiren ve az sayıda önceliklendirilmiş aksiyon öneren bir kod kalitesi raporuna dönüştürür. Teknik lider kod sağlığını ekibe veya yönetime raporlayacağında, kalite kapısı sonuçları veya bir metrik panosu yorumlanacağında ya da refactoring eforunun nereye yatırılacağına karar verilirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: tech-lead
+  area: leadership
+  title: "Kod kalitesi raporu"
+  related: "tech-debt-assessment, coding-standards, test-gap-finder, refactoring, defect-trend-analysis"
+  prompt: "Son üç sürümün statik analiz dökümü ekte. Mühendislik yöneticisi için bir kod kalitesi raporu yaz ve gelecek çeyrekte nereye odaklanmamız gerektiğini söyle."
 ---
 
 # Kod Kalitesi Raporu

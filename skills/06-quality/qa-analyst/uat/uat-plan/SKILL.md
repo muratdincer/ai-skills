@@ -1,7 +1,16 @@
 ---
+name: uat-plan
 description: "Plans user acceptance testing: objectives, business participants and their roles, scenario coverage, environment and data readiness, schedule, defect handling, entry/exit criteria and the formal sign-off route. Use when a release, project phase or vendor delivery needs business acceptance, when someone asks how to organize UAT, or when business users must confirm a solution supports their real work before go-live."
-related: uat-scenarios, test-plan, acceptance-certificate, requirements-sign-off, release-quality-gate
-prompt: "Plan UAT for the new invoicing module: finance and sales users will test for two weeks before the go-live."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: uat
+  title: "Plan UAT"
+  related: "uat-scenarios, test-plan, acceptance-certificate, requirements-sign-off, release-quality-gate"
+  prompt: "Plan UAT for the new invoicing module: finance and sales users will test for two weeks before the go-live."
 ---
 
 # Plan UAT

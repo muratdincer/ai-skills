@@ -1,7 +1,16 @@
 ---
-description: Clusters raw customer feedback (support tickets, NPS/CSAT verbatims, app reviews, sales notes, community posts) into themes with frequency, severity, affected segments, representative anonymized quotes and the underlying need behind each request. Use when a pile of feedback must be turned into prioritizable insights, when someone asks "what are customers telling us", or before roadmap and backlog discussions.
-related: research-synthesis, jobs-to-be-done, opportunity-solution-tree, persona, backlog-prioritization
-prompt: Here are 120 NPS comments from last quarter; group them into themes and tell me what matters most.
+name: feedback-synthesis
+description: "Clusters raw customer feedback (support tickets, NPS/CSAT verbatims, app reviews, sales notes, community posts) into themes with frequency, severity, affected segments, representative anonymized quotes and the underlying need behind each request. Use when a pile of feedback must be turned into prioritizable insights, when someone asks \"what are customers telling us\", or before roadmap and backlog discussions."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Synthesize customer feedback"
+  related: "research-synthesis, jobs-to-be-done, opportunity-solution-tree, persona, backlog-prioritization"
+  prompt: "Here are 120 NPS comments from last quarter; group them into themes and tell me what matters most."
 ---
 
 # Synthesize Customer Feedback

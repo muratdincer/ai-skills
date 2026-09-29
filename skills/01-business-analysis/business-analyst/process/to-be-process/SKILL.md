@@ -1,7 +1,16 @@
 ---
+name: to-be-process
 description: "Designs an improved (to-be) business process from an as-is description, pain points and goals: applies redesign levers (eliminate, simplify, automate, parallelize, move decisions, add controls), shows each change against the as-is, and states expected effects, assumptions and required enablers. Use when a process must be improved, digitized or re-engineered and the target way of working must be agreed before requirements or system design."
-related: "as-is-process, process-gap-analysis, bpmn-model, value-stream-map, business-rules-catalog"
-prompt: "Using this as-is invoice approval process and its pain points, design a to-be process that cuts approval time in half."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: process
+  title: "Design the to-be process"
+  related: "as-is-process, process-gap-analysis, bpmn-model, value-stream-map, business-rules-catalog"
+  prompt: "Using this as-is invoice approval process and its pain points, design a to-be process that cuts approval time in half."
 ---
 
 # Design the To-Be Process

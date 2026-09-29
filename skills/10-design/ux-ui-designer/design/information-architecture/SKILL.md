@@ -1,7 +1,16 @@
 ---
-description: Structures the information architecture of a product or site, producing a content inventory, organization scheme, sitemap hierarchy, navigation model, labeling system and a card sort or tree test plan to validate it. Use when a product, portal or documentation site is being created or restructured, when users "can't find things", or when navigation and menu labels must be decided.
-related: user-flow, wireframe-spec, docs-information-architecture, research-plan, persona
-prompt: Restructure the navigation of our HR self-service portal; employees can't find leave, payroll and expense pages.
+name: information-architecture
+description: "Structures the information architecture of a product or site, producing a content inventory, organization scheme, sitemap hierarchy, navigation model, labeling system and a card sort or tree test plan to validate it. Use when a product, portal or documentation site is being created or restructured, when users \"can't find things\", or when navigation and menu labels must be decided."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-ui-designer
+  area: design
+  title: "Structure information architecture"
+  related: "user-flow, wireframe-spec, docs-information-architecture, research-plan, persona"
+  prompt: "Restructure the navigation of our HR self-service portal; employees can't find leave, payroll and expense pages."
 ---
 
 # Structure Information Architecture

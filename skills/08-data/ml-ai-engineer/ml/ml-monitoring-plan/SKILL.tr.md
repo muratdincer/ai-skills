@@ -1,7 +1,16 @@
 ---
-description: Bir makine öğrenmesi modeli için veri ve tahmin kayması, gecikmeli etiketlerle performans düşüşü, veri kalitesi, operasyonel sağlık, alarm eşikleri, sorumlular ve yeniden eğitim tetikleyicilerini kapsayan üretim izleme planı hazırlar. Model canlıya çıkmak üzereyken, sessiz model bozulmasının yol açtığı bir olaydan sonra veya modelin hâlâ çalışıp çalışmadığının nasıl anlaşılacağı sorulduğunda kullanılır.
-related: model-evaluation-report, model-card, alert-design, observability-plan, feature-engineering-plan
-prompt: Churn modelimiz için izleme planı yaz; tüm müşterileri her gece skorluyor ve gerçek churn'ü ancak 60 gün sonra öğreniyoruz.
+name: ml-monitoring-plan
+description: "Bir makine öğrenmesi modeli için veri ve tahmin kayması, gecikmeli etiketlerle performans düşüşü, veri kalitesi, operasyonel sağlık, alarm eşikleri, sorumlular ve yeniden eğitim tetikleyicilerini kapsayan üretim izleme planı hazırlar. Model canlıya çıkmak üzereyken, sessiz model bozulmasının yol açtığı bir olaydan sonra veya modelin hâlâ çalışıp çalışmadığının nasıl anlaşılacağı sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Model izleme planı"
+  related: "model-evaluation-report, model-card, alert-design, observability-plan, feature-engineering-plan"
+  prompt: "Churn modelimiz için izleme planı yaz; tüm müşterileri her gece skorluyor ve gerçek churn'ü ancak 60 gün sonra öğreniyoruz."
 ---
 
 # Model İzleme Planı

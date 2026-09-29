@@ -1,7 +1,16 @@
 ---
+name: regression-selection
 description: "Selects a regression test set for a specific change by analyzing what changed, its direct and indirect impact (shared code, data, integrations, configuration), risk and recent defect history, then tiers tests into must-run, should-run and optional with explicit residual risk. Use when a release, hotfix or merge needs regression testing but the full suite is too slow or expensive, or when someone asks what must be retested after a change."
-related: impact-analysis, risk-based-testing, test-summary-report, automation-candidate-selection, test-gap-finder
-prompt: "We changed the discount calculation service and upgraded the PDF library. Which regression tests must we run before tomorrow's hotfix?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Select regression tests"
+  related: "impact-analysis, risk-based-testing, test-summary-report, automation-candidate-selection, test-gap-finder"
+  prompt: "We changed the discount calculation service and upgraded the PDF library. Which regression tests must we run before tomorrow's hotfix?"
 ---
 
 # Select Regression Tests

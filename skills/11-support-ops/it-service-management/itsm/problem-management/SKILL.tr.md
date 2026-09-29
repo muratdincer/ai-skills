@@ -1,7 +1,16 @@
 ---
+name: problem-management
 description: "Tekrarlayan veya büyük olaylar için problem yönetimi yürütür: ilişkili olayları gruplar, problemi tanımlar, kanıta dayalı kök neden analizini yönetir, geçici çözümüyle birlikte bilinen hata kaydı oluşturur ve doğrulama kriterleriyle kalıcı çözümleri değişiklik kontrolü üzerinden önerir. Aynı olay türü tekrarladığında, büyük bir olaydan sonra, olay eğilimleri altta yatan bir nedene işaret ettiğinde veya bir problem kaydı açılacağında, ilerletileceğinde ya da kapatılacağında kullanılır."
-related: "known-error-article, five-whys, fishbone-analysis, change-request-rfc, postmortem"
-prompt: "Problem kaydı aç: 3 haftada gece batch'inin uzayıp sabah raporlarının geciktiği 7 olay yaşadık; her birinde job yeniden başlatılarak çözüldü."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Problem yönetimi"
+  related: "known-error-article, five-whys, fishbone-analysis, change-request-rfc, postmortem"
+  prompt: "Problem kaydı aç: 3 haftada gece batch'inin uzayıp sabah raporlarının geciktiği 7 olay yaşadık; her birinde job yeniden başlatılarak çözüldü."
 ---
 
 # Problem Yönetimi

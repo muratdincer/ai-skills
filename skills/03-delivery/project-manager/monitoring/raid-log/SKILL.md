@@ -1,7 +1,16 @@
 ---
-description: Creates or updates a RAID log that tracks Risks, Assumptions, Issues and Dependencies in one place with consistent IDs, owners, dates, status and cross-links, and produces a short summary of what changed and what needs attention. Use for ongoing project control, when raw notes, meeting outputs or emails must be triaged into the right RAID category, or before status reporting.
-related: risk-register, issue-management, dependency-map, decision-log, project-status-report
-prompt: Update our RAID log with the points from today's steering meeting notes and tell me what needs escalation.
+name: raid-log
+description: "Creates or updates a RAID log that tracks Risks, Assumptions, Issues and Dependencies in one place with consistent IDs, owners, dates, status and cross-links, and produces a short summary of what changed and what needs attention. Use for ongoing project control, when raw notes, meeting outputs or emails must be triaged into the right RAID category, or before status reporting."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Maintain a RAID log"
+  related: "risk-register, issue-management, dependency-map, decision-log, project-status-report"
+  prompt: "Update our RAID log with the points from today's steering meeting notes and tell me what needs escalation."
 ---
 
 # Maintain a RAID Log

@@ -1,7 +1,16 @@
 ---
-description: Defines project or program governance sized to its risk: decision rights by decision type, governance forums with membership and mandate, stage or decision gates with entry criteria, tolerances and escalation paths, and the reporting cadence that feeds each forum. Use when a new project or program is being set up, when decisions stall or are taken in the wrong place, when an audit or sponsor asks "who decides what", or when existing governance is too heavy or too light.
-related: raci-matrix, steering-committee-pack, project-charter, change-control, communication-plan
-prompt: Define governance for a 14-month ERP replacement program with an external integrator, three business units and an IT steering committee that already exists.
+name: governance-framework
+description: "Defines project or program governance sized to its risk: decision rights by decision type, governance forums with membership and mandate, stage or decision gates with entry criteria, tolerances and escalation paths, and the reporting cadence that feeds each forum. Use when a new project or program is being set up, when decisions stall or are taken in the wrong place, when an audit or sponsor asks \"who decides what\", or when existing governance is too heavy or too light."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Define project governance"
+  related: "raci-matrix, steering-committee-pack, project-charter, change-control, communication-plan"
+  prompt: "Define governance for a 14-month ERP replacement program with an external integrator, three business units and an IT steering committee that already exists."
 ---
 
 # Define Project Governance

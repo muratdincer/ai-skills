@@ -1,7 +1,16 @@
 ---
+name: rollback-plan
 description: "Bir sürüm veya değişiklik için ölçülebilir tetikleyiciler, karar sahibi ve son saati, bileşen bazlı adımlar, veri ve şema konuları, ileri düzeltme alternatifleri ve geri dönüş sonrası doğrulama içeren bir geri dönüş planı yazar. Bir üretim değişikliği onaylanmadan önce, değişiklik migration'lar veya geri alınamaz adımlar içerdiğinde ya da bir sürümün nasıl geri alınacağı sorulduğunda kullanılır."
-related: "deployment-checklist, release-plan, deployment-strategy, schema-migration-plan, backup-restore-plan"
-prompt: "Sipariş servisini yükselten ve sipariş durum kolonunu metinden enum tablosuna taşıyan sürümümüz için bir geri dönüş planı yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: release-manager
+  area: release
+  title: "Geri dönüş planı"
+  related: "deployment-checklist, release-plan, deployment-strategy, schema-migration-plan, backup-restore-plan"
+  prompt: "Sipariş servisini yükselten ve sipariş durum kolonunu metinden enum tablosuna taşıyan sürümümüz için bir geri dönüş planı yaz."
 ---
 
 # Geri Dönüş Planı Yazma

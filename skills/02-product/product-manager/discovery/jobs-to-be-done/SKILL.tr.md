@@ -1,7 +1,16 @@
 ---
-description: Çözümden bağımsız bir temel iş ifadesi, ilişkili ve duygusal/sosyal işler, iş adımları ile önem ve memnuniyete göre önceliklendirilebilecek ölçülebilir istenen sonuç ifadeleri yazarak Yapılacak İşler (JTBD) çerçevesini kurar. Müşterilerin neyi başarmaya çalıştığı tanımlanırken, inovasyon veya yol haritası çalışması çözümden bağımsız bir çerçeveye ihtiyaç duyduğunda ya da JTBD, iş hikâyeleri veya istenen sonuçlar istendiğinde kullanılır.
-related: persona, opportunity-solution-tree, customer-journey-map, problem-interview-script, feedback-synthesis
-prompt: Tedarikçi siparişlerini yöneten restoran sahipleri için yapılacak işleri (JTBD) çerçevele.
+name: jobs-to-be-done
+description: "Çözümden bağımsız bir temel iş ifadesi, ilişkili ve duygusal/sosyal işler, iş adımları ile önem ve memnuniyete göre önceliklendirilebilecek ölçülebilir istenen sonuç ifadeleri yazarak Yapılacak İşler (JTBD) çerçevesini kurar. Müşterilerin neyi başarmaya çalıştığı tanımlanırken, inovasyon veya yol haritası çalışması çözümden bağımsız bir çerçeveye ihtiyaç duyduğunda ya da JTBD, iş hikâyeleri veya istenen sonuçlar istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Yapılacak İşler (JTBD)"
+  related: "persona, opportunity-solution-tree, customer-journey-map, problem-interview-script, feedback-synthesis"
+  prompt: "Tedarikçi siparişlerini yöneten restoran sahipleri için yapılacak işleri (JTBD) çerçevele."
 ---
 
 # Yapılacak İşler (JTBD)

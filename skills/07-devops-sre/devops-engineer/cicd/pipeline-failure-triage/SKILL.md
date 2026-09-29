@@ -1,7 +1,16 @@
 ---
+name: pipeline-failure-triage
 description: "Analyzes a failed CI/CD run from its logs and context, classifies the failure (code, test, flaky, dependency, infrastructure, configuration, credentials), identifies the most likely cause with evidence and proposes a fix and a prevention step. Use when a build, test, scan or deploy job fails and someone pastes the log or error."
-related: "pipeline-design, flaky-test-analysis, log-analysis, stack-trace-analysis, dependency-upgrade"
-prompt: "Our main branch pipeline started failing at the Docker build step this morning, here is the log. What is wrong and how do we fix it?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 07-devops-sre
+  role: devops-engineer
+  area: cicd
+  title: "Triage a pipeline failure"
+  related: "pipeline-design, flaky-test-analysis, log-analysis, stack-trace-analysis, dependency-upgrade"
+  prompt: "Our main branch pipeline started failing at the Docker build step this morning, here is the log. What is wrong and how do we fix it?"
 ---
 
 # Triage a Pipeline Failure

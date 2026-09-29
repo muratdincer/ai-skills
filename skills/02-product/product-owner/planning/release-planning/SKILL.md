@@ -1,7 +1,16 @@
 ---
+name: release-planning
 description: "Plans a release: target outcome, candidate scope split into committed and stretch, forecast of when the scope can be done based on throughput or velocity ranges, dependencies, milestones, risks and a confidence level, plus the scope-versus-date trade-off options. Use when a product owner must answer what will be in a release and when, negotiate a fixed date, or prepare a release plan for stakeholders."
-related: "roadmap, monte-carlo-forecast, velocity-analysis, release-plan, dependency-map"
-prompt: "We want to release the new onboarding flow by 15 March. Here are the 18 remaining items and our last 8 iterations' throughput. Is it feasible and what scope should we commit?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Plan a release"
+  related: "roadmap, monte-carlo-forecast, velocity-analysis, release-plan, dependency-map"
+  prompt: "We want to release the new onboarding flow by 15 March. Here are the 18 remaining items and our last 8 iterations' throughput. Is it feasible and what scope should we commit?"
 ---
 
 # Plan a Release

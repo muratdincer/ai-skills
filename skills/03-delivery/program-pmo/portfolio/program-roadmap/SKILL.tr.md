@@ -1,7 +1,16 @@
 ---
-description: Birden fazla ekibin veya projenin işini ortak sonuçlara doğru sıralayan; ekipler arası kilometre taşlarını, entegrasyon noktalarını, karar kapılarını ve kritik yolu sahte kesinlik yerine güven düzeyleriyle gösteren bir program yol haritası oluşturur. Program birden fazla ekibe veya tedarikçiye yayıldığında, yönetim paralel iş akışlarının nasıl birleştiğini tek görünümde görmek istediğinde ya da program düzeyinde plan, zaman çizelgesi veya bütünleşik yol haritası istendiğinde kullanılır.
-related: cross-team-dependency-board, portfolio-prioritization, roadmap, release-planning, schedule-plan
-prompt: Çekirdek bankacılık geçişimiz için program yol haritası oluştur: 5 ekip, bir tedarikçi ve 4. çeyrekte yasal zorunlu canlıya geçiş var.
+name: program-roadmap
+description: "Birden fazla ekibin veya projenin işini ortak sonuçlara doğru sıralayan; ekipler arası kilometre taşlarını, entegrasyon noktalarını, karar kapılarını ve kritik yolu sahte kesinlik yerine güven düzeyleriyle gösteren bir program yol haritası oluşturur. Program birden fazla ekibe veya tedarikçiye yayıldığında, yönetim paralel iş akışlarının nasıl birleştiğini tek görünümde görmek istediğinde ya da program düzeyinde plan, zaman çizelgesi veya bütünleşik yol haritası istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Program yol haritası"
+  related: "cross-team-dependency-board, portfolio-prioritization, roadmap, release-planning, schedule-plan"
+  prompt: "Çekirdek bankacılık geçişimiz için program yol haritası oluştur: 5 ekip, bir tedarikçi ve 4. çeyrekte yasal zorunlu canlıya geçiş var."
 ---
 
 # Program Yol Haritası

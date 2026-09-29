@@ -1,7 +1,16 @@
 ---
+name: index-recommendation
 description: "Bir tablo veya veritabanı için gerçek iş yükünden indeks önerir: sorguları erişim desenine göre gruplar, anahtar sütun sırasını, dahil edilen sütunları, filtreli/kısmi indeksleri tasarlar, örtüşen indeksleri birleştirir ve kullanılmayanları kaldırır; okuma kazancını yazma yükü, depolama ve bakım maliyetine karşı tartar. Yeni bir şema veya özellik için indeks tasarlanırken, fazla ya da eksik indeksli bir tablo gözden geçirilirken veya motorun eksik indeks önerileri değerlendirilirken kullanılır."
-related: "query-optimization, database-health-check, schema-migration-plan, database-schema-design, capacity-planning"
-prompt: "orders tablomuzda 14 indeks var, insert'ler yavaşlıyor ve bazı raporlar hâlâ tarama yapıyor. En pahalı 20 sorgu ve indeks kullanım istatistikleri ekte; bir indeks seti öner."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: dba
+  area: database
+  title: "İndeks önerisi"
+  related: "query-optimization, database-health-check, schema-migration-plan, database-schema-design, capacity-planning"
+  prompt: "orders tablomuzda 14 indeks var, insert'ler yavaşlıyor ve bazı raporlar hâlâ tarama yapıyor. En pahalı 20 sorgu ve indeks kullanım istatistikleri ekte; bir indeks seti öner."
 ---
 
 # İndeks Önerisi

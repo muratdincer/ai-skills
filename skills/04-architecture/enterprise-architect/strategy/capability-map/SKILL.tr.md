@@ -1,7 +1,16 @@
 ---
-description: Olgunluk, stratejik önem ve ısı haritası içeren hiyerarşik bir iş yetkinlik haritası (seviye 1-3) oluşturur; uygulamaları ve sahipleri yetkinliklere eşler. Yatırım planlarken, uygulama sadeleştirmesi yaparken, bir dönüşümün kapsamını belirlerken veya BT'yi iş stratejisiyle hizalarken ya da organizasyon şemasından ve sistemlerden bağımsız olarak işin ne yaptığı sorulduğunda kullanılır.
-related: application-portfolio-assessment, target-state-architecture, value-stream-map, bounded-context-map, portfolio-prioritization
-prompt: Bireysel bankamız için olgunluk ve stratejik önem içeren seviye 2 yetkinlik haritası oluştur ve gelecek yıl nereye yatırım yapmamız gerektiğini vurgula.
+name: capability-map
+description: "Olgunluk, stratejik önem ve ısı haritası içeren hiyerarşik bir iş yetkinlik haritası (seviye 1-3) oluşturur; uygulamaları ve sahipleri yetkinliklere eşler. Yatırım planlarken, uygulama sadeleştirmesi yaparken, bir dönüşümün kapsamını belirlerken veya BT'yi iş stratejisiyle hizalarken ya da organizasyon şemasından ve sistemlerden bağımsız olarak işin ne yaptığı sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: enterprise-architect
+  area: strategy
+  title: "İş yetkinlik haritası"
+  related: "application-portfolio-assessment, target-state-architecture, value-stream-map, bounded-context-map, portfolio-prioritization"
+  prompt: "Bireysel bankamız için olgunluk ve stratejik önem içeren seviye 2 yetkinlik haritası oluştur ve gelecek yıl nereye yatırım yapmamız gerektiğini vurgula."
 ---
 
 # İş Yetkinlik Haritası

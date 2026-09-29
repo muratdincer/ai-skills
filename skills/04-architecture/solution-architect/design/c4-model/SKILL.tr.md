@@ -1,7 +1,16 @@
 ---
-description: Bir yazılım sistemini C4 modeliyle - sistem bağlamı, konteyner ve faydalı olduğu yerde bileşen diyagramları - tutarlı öğe adları, sorumluluklar, teknolojiler ve etiketli ilişkilerle kod olarak diyagram (Structurizr DSL, PlantUML C4 veya Mermaid) biçiminde tanımlar. Bir tasarım, inceleme, oryantasyon veya dokümantasyon için mimari diyagram gerektiğinde ya da metinsel bir tanım veya mevcut bir taslak C4 görünümlerine dönüştürülmek istendiğinde kullanılır.
-related: solution-architecture-document, diagram-as-code, bounded-context-map, adr, architecture-review
-prompt: E-ticaret ödeme akışımız için Structurizr DSL ile C4 bağlam ve konteyner diyagramları oluştur: web mağaza, mobil uygulama, checkout API, ödeme sağlayıcı, sipariş veritabanı ve mesaj kuyruğu.
+name: c4-model
+description: "Bir yazılım sistemini C4 modeliyle - sistem bağlamı, konteyner ve faydalı olduğu yerde bileşen diyagramları - tutarlı öğe adları, sorumluluklar, teknolojiler ve etiketli ilişkilerle kod olarak diyagram (Structurizr DSL, PlantUML C4 veya Mermaid) biçiminde tanımlar. Bir tasarım, inceleme, oryantasyon veya dokümantasyon için mimari diyagram gerektiğinde ya da metinsel bir tanım veya mevcut bir taslak C4 görünümlerine dönüştürülmek istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "C4 ile mimari tanımlama"
+  related: "solution-architecture-document, diagram-as-code, bounded-context-map, adr, architecture-review"
+  prompt: "E-ticaret ödeme akışımız için Structurizr DSL ile C4 bağlam ve konteyner diyagramları oluştur: web mağaza, mobil uygulama, checkout API, ödeme sağlayıcı, sipariş veritabanı ve mesaj kuyruğu."
 ---
 
 # C4 ile Mimari Tanımlama

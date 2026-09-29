@@ -1,7 +1,16 @@
 ---
+name: conceptual-data-model
 description: "Builds a conceptual data model that names the core business entities, their definitions and relationships in business language, independent of any database technology. Use when starting a new domain, platform or integration, aligning stakeholders on vocabulary, or when asked for an entity map, subject-area model or business object model."
-related: "logical-data-model, glossary-builder, bounded-context-map, event-storming, data-requirements"
-prompt: "Create a conceptual data model for our B2B order-to-cash domain from these workshop notes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Build a conceptual data model"
+  related: "logical-data-model, glossary-builder, bounded-context-map, event-storming, data-requirements"
+  prompt: "Create a conceptual data model for our B2B order-to-cash domain from these workshop notes."
 ---
 
 # Build a Conceptual Data Model

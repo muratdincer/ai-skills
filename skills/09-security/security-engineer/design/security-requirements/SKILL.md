@@ -1,7 +1,16 @@
 ---
+name: security-requirements
 description: "Defines testable security requirements for a system or feature, aligned to OWASP ASVS levels and chapters, with rationale, verification method and priority. Use when a new application or feature needs security acceptance criteria, when a threat model must be turned into backlog items, or when a customer or regulator asks for a security requirements baseline."
-related: "threat-model, nfr-specification, authn-authz-design, secure-code-review, acceptance-criteria"
-prompt: "Define security requirements for our new customer self-service portal; it handles personal data and payments are done via a hosted payment page."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Define security requirements"
+  related: "threat-model, nfr-specification, authn-authz-design, secure-code-review, acceptance-criteria"
+  prompt: "Define security requirements for our new customer self-service portal; it handles personal data and payments are done via a hosted payment page."
 ---
 
 # Define Security Requirements

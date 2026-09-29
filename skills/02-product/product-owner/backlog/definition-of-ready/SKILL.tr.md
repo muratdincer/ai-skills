@@ -1,7 +1,16 @@
 ---
+name: definition-of-ready
 description: "Bir ekibin Hazır Tanımını (DoR) oluşturur veya revize eder: ekibin bir iş maddesini taahhüt etmeden veya başlatmadan önce aranan giriş kriterlerini madde türlerine göre uyarlar, her kriterin nasıl kontrol edileceğini ve hangi durumlarda istisna yapılabileceğini belirtir. Ekip belirsiz işlere başlayıp takıldığında, planlama eksik bilgi yüzünden durduğunda ya da DoR, hazır olma kriterleri veya giriş kontrol listesi istendiğinde kullanılır."
-related: "definition-of-done, backlog-refinement, invest-check, acceptance-criteria, working-agreement"
-prompt: "Ekibimiz için bir Hazır Tanımı yaz; B2B bir web portalı geliştiriyoruz ve sürekli eksik API sözleşmeleri ve UX tasarımları yüzünden takılıyoruz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: backlog
+  title: "Hazır Tanımı (DoR) oluşturma"
+  related: "definition-of-done, backlog-refinement, invest-check, acceptance-criteria, working-agreement"
+  prompt: "Ekibimiz için bir Hazır Tanımı yaz; B2B bir web portalı geliştiriyoruz ve sürekli eksik API sözleşmeleri ve UX tasarımları yüzünden takılıyoruz."
 ---
 
 # Hazır Tanımı (DoR) Oluşturma

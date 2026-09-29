@@ -1,7 +1,16 @@
 ---
+name: incident-response
 description: "Canlı bir olayı ilandan çözüme kadar yönetir: önem derecesi değerlendirmesi, rol ataması (olay komutanı, operasyon, iletişim, kayıt tutucu), hipotezler ve paralel iş kollarıyla önce hafifletmeye odaklı plan, zaman damgalı zaman çizelgesi, güncelleme sıklığı ve çıkış kriterleri. Bir kesinti veya performans düşüşü yaşanırken ya da şüphelenilirken, canlı ortam etkisi için şu an ne yapılması gerektiği sorulduğunda veya devam eden bir olay kanalını düzene sokmak için kullanılır."
-related: "runbook, incident-communication, postmortem, log-analysis, security-incident-response"
-prompt: "Bir olayımız var: 14:05 deploy'undan on dakika sonra checkout hata oranı %15'e çıktı. Yönetmeme yardım et."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: incident
+  title: "Olay müdahalesi yürütme"
+  related: "runbook, incident-communication, postmortem, log-analysis, security-incident-response"
+  prompt: "Bir olayımız var: 14:05 deploy'undan on dakika sonra checkout hata oranı %15'e çıktı. Yönetmeme yardım et."
 ---
 
 # Olay Müdahalesi Yürütme

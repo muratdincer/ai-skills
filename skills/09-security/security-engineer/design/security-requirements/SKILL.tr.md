@@ -1,7 +1,16 @@
 ---
+name: security-requirements
 description: "Bir sistem veya özellik için OWASP ASVS seviye ve bölümleriyle uyumlu, gerekçesi, doğrulama yöntemi ve önceliği belli, test edilebilir güvenlik gereksinimleri tanımlar. Yeni bir uygulama veya özellik için güvenlik kabul kriterleri gerektiğinde, tehdit modeli backlog kalemlerine dönüştürülecekken ya da müşteri veya denetçi güvenlik gereksinimi temel çizgisi istediğinde kullanılır."
-related: "threat-model, nfr-specification, authn-authz-design, secure-code-review, acceptance-criteria"
-prompt: "Yeni müşteri self-servis portalımız için güvenlik gereksinimlerini tanımla; portal kişisel veri işliyor, ödemeler barındırılan ödeme sayfası üzerinden alınıyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: design
+  title: "Güvenlik gereksinimleri"
+  related: "threat-model, nfr-specification, authn-authz-design, secure-code-review, acceptance-criteria"
+  prompt: "Yeni müşteri self-servis portalımız için güvenlik gereksinimlerini tanımla; portal kişisel veri işliyor, ödemeler barındırılan ödeme sayfası üzerinden alınıyor."
 ---
 
 # Güvenlik Gereksinimleri

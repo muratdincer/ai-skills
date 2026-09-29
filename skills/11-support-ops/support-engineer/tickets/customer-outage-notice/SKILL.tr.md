@@ -1,7 +1,16 @@
 ---
+name: customer-outage-notice
 description: "Bir hizmet kesintisinin her aşaması (inceleniyor, neden bulundu, izleniyor, çözüldü) ve planlı bakım için müşteriye yönelik kesinti bildirimleri yazar: sade dille etki, etkilenen hizmetler ve bölgeler, durum, geçici çözüm ve sonraki güncelleme zamanı; spekülasyon ve suçlama içermez. Müşteriler bir kesinti veya performans düşüşünden etkilendiğinde, durum sayfası veya e-posta güncellemesi gerektiğinde ya da planlı bakım duyurulacağında kullanılır."
-related: "incident-communication, incident-response, ticket-response, postmortem, known-error-article"
-prompt: "İlk durum sayfası bildirimini yaz: 14:05'ten beri Türkiye'deki müşterilerin yaklaşık %30'unda kartla ödeme başarısız oluyor, neden bilinmiyor, ekip inceliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Müşteriye kesinti bildirimi"
+  related: "incident-communication, incident-response, ticket-response, postmortem, known-error-article"
+  prompt: "İlk durum sayfası bildirimini yaz: 14:05'ten beri Türkiye'deki müşterilerin yaklaşık %30'unda kartla ödeme başarısız oluyor, neden bilinmiyor, ekip inceliyor."
 ---
 
 # Müşteriye Kesinti Bildirimi

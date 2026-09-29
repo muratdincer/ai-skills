@@ -1,7 +1,16 @@
 ---
-description: Belirli beklenti açıkları, ölçülebilir başarı kriterleri, sağlanan destek, ara değerlendirmeler ve açıkça belirtilmiş sonuçlarla adil ve kanıta dayalı bir performans iyileştirme planı (PIP) taslağı hazırlar; plan İK incelemesine hazır olur. Gayri resmi geri bildirimle çözülmeyen süregelen bir performans açığı olduğunda veya yönetici bir durumun resmi plana hazır olup olmadığını kontrol etmek istediğinde kullanılır.
-related: performance-review, feedback-sbi, one-on-one-notes, bad-news-delivery, goal-setting
-prompt: Nisan'dan beri geri bildirime rağmen PR'ları sürekli incelemeden geçemeyen ve üç sprint taahhüdünü kaçıran bir geliştirici için 60 günlük iyileştirme planı taslağı hazırla.
+name: underperformance-plan
+description: "Belirli beklenti açıkları, ölçülebilir başarı kriterleri, sağlanan destek, ara değerlendirmeler ve açıkça belirtilmiş sonuçlarla adil ve kanıta dayalı bir performans iyileştirme planı (PIP) taslağı hazırlar; plan İK incelemesine hazır olur. Gayri resmi geri bildirimle çözülmeyen süregelen bir performans açığı olduğunda veya yönetici bir durumun resmi plana hazır olup olmadığını kontrol etmek istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Performans iyileştirme planı"
+  related: "performance-review, feedback-sbi, one-on-one-notes, bad-news-delivery, goal-setting"
+  prompt: "Nisan'dan beri geri bildirime rağmen PR'ları sürekli incelemeden geçemeyen ve üç sprint taahhüdünü kaçıran bir geliştirici için 60 günlük iyileştirme planı taslağı hazırla."
 ---
 
 # Performans İyileştirme Planı

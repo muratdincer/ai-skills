@@ -1,7 +1,16 @@
 ---
-description: Analyzes an A/B or multivariate test end to end - validity checks (sample ratio mismatch, exposure, duration), primary metric effect with confidence interval, guardrail metrics, segments and a ship / iterate / stop recommendation. Use when experiment results are in and a decision is needed, or when someone asks whether a test result is significant or trustworthy.
-related: experiment-design, hypothesis-statement, metric-definition, insight-summary, analysis-plan
-prompt: Analyze this A/B test: control 48,210 users 2.31% conversion, variant 48,950 users 2.52% conversion, ran 14 days; guardrail is refund rate.
+name: ab-test-analysis
+description: "Analyzes an A/B or multivariate test end to end - validity checks (sample ratio mismatch, exposure, duration), primary metric effect with confidence interval, guardrail metrics, segments and a ship / iterate / stop recommendation. Use when experiment results are in and a decision is needed, or when someone asks whether a test result is significant or trustworthy."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Analyze an A/B test"
+  related: "experiment-design, hypothesis-statement, metric-definition, insight-summary, analysis-plan"
+  prompt: "Analyze this A/B test: control 48,210 users 2.31% conversion, variant 48,950 users 2.52% conversion, ran 14 days; guardrail is refund rate."
 ---
 
 # Analyze an A/B Test

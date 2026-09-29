@@ -1,7 +1,16 @@
 ---
-description: Writes a participant screener that recruits the right users for a study, with behavioral inclusion and exclusion criteria, non-leading questions that hide the qualifying answer, quotas per segment, disqualification logic and consent. Use before recruiting for interviews, usability tests or diary studies, or when someone asks "who should we talk to" or "write a recruitment survey".
-related: research-plan, usability-test-script, questionnaire-design, persona, interview-question-set
-prompt: Write a screener to recruit 8 small business owners who send invoices at least monthly and tried a competitor app in the last year.
+name: screener-survey
+description: "Writes a participant screener that recruits the right users for a study, with behavioral inclusion and exclusion criteria, non-leading questions that hide the qualifying answer, quotas per segment, disqualification logic and consent. Use before recruiting for interviews, usability tests or diary studies, or when someone asks \"who should we talk to\" or \"write a recruitment survey\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Write a participant screener"
+  related: "research-plan, usability-test-script, questionnaire-design, persona, interview-question-set"
+  prompt: "Write a screener to recruit 8 small business owners who send invoices at least monthly and tried a competitor app in the last year."
 ---
 
 # Write a Participant Screener

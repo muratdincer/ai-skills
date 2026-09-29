@@ -1,7 +1,16 @@
 ---
-description: Bir tedarikçinin teslimat performansını sözleşmeye veya iş tanımına (SOW) göre değerlendirir; teslimatlar ve kilometre taşları, SLA ve KPI sonuçları, kalite, kadro, faturalar ve her iki tarafın açık yükümlülüklerini inceler ve kanıta dayalı puanlı bir değerlendirme, sorunlar ve kararlaştırılan aksiyonlar üretir. Dönemsel tedarikçi yönetişim toplantısı öncesinde, bir tedarikçi geciktiğinde, bir fatura veya kilometre taşı ödemesi onaylanmadan önce ya da eskalasyon veya sözleşme yaptırımlarına karar verirken kullanılır.
-related: statement-of-work, sla-breach-analysis, issue-management, acceptance-certificate, vendor-evaluation
-prompt: SOW kilometre taşlarını, uygulama ortağımızın durum raporunu ve SLA raporumuzu kullanarak aylık performans değerlendirmesini hazırla.
+name: vendor-status-review
+description: "Bir tedarikçinin teslimat performansını sözleşmeye veya iş tanımına (SOW) göre değerlendirir; teslimatlar ve kilometre taşları, SLA ve KPI sonuçları, kalite, kadro, faturalar ve her iki tarafın açık yükümlülüklerini inceler ve kanıta dayalı puanlı bir değerlendirme, sorunlar ve kararlaştırılan aksiyonlar üretir. Dönemsel tedarikçi yönetişim toplantısı öncesinde, bir tedarikçi geciktiğinde, bir fatura veya kilometre taşı ödemesi onaylanmadan önce ya da eskalasyon veya sözleşme yaptırımlarına karar verirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Tedarikçi performans değerlendirmesi"
+  related: "statement-of-work, sla-breach-analysis, issue-management, acceptance-certificate, vendor-evaluation"
+  prompt: "SOW kilometre taşlarını, uygulama ortağımızın durum raporunu ve SLA raporumuzu kullanarak aylık performans değerlendirmesini hazırla."
 ---
 
 # Tedarikçi Performans Değerlendirmesi

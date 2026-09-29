@@ -1,7 +1,16 @@
 ---
+name: uat-plan
 description: "Kullanıcı kabul testini planlar: hedefler, iş tarafı katılımcıları ve rolleri, senaryo kapsamı, ortam ve veri hazırlığı, takvim, hata yönetimi, giriş/çıkış kriterleri ve resmî onay yolu. Bir sürüm, proje aşaması veya tedarikçi teslimatı iş birimi kabulü gerektirdiğinde, UAT'nin nasıl organize edileceği sorulduğunda ya da iş kullanıcılarının canlıya geçmeden önce çözümün gerçek işlerini desteklediğini teyit etmesi gerektiğinde kullanılır."
-related: uat-scenarios, test-plan, acceptance-certificate, requirements-sign-off, release-quality-gate
-prompt: "Yeni faturalama modülü için UAT planla: finans ve satış kullanıcıları canlıya geçişten önce iki hafta test edecek."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: uat
+  title: "Kullanıcı kabul testi planı"
+  related: "uat-scenarios, test-plan, acceptance-certificate, requirements-sign-off, release-quality-gate"
+  prompt: "Yeni faturalama modülü için UAT planla: finans ve satış kullanıcıları canlıya geçişten önce iki hafta test edecek."
 ---
 
 # Kullanıcı Kabul Testi Planı

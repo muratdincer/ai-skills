@@ -1,7 +1,16 @@
 ---
-description: Writes a new portable, bilingual skill (SKILL.md in English and SKILL.tr.md in Turkish) that follows this library's authoring guide, including catalog line, three-field frontmatter, the nine fixed sections, structural limits and content rules. Use when someone wants to add a skill to the library, turn a repeatable task or checklist into a skill, or review a draft skill for conformance.
-related: prompt-design, llm-eval-set, document-review, technical-translation, style-guide-check
-prompt: Write a new skill for our library that helps a support engineer write a customer outage notice; give me the catalog line and both language files.
+name: ai-skill-authoring
+description: "Writes a new portable, bilingual skill (SKILL.md in English and SKILL.tr.md in Turkish) that follows this library's authoring guide, including catalog line, three-field frontmatter, the nine fixed sections, structural limits and content rules. Use when someone wants to add a skill to the library, turn a repeatable task or checklist into a skill, or review a draft skill for conformance."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Author a new AI skill"
+  related: "prompt-design, llm-eval-set, document-review, technical-translation, style-guide-check"
+  prompt: "Write a new skill for our library that helps a support engineer write a customer outage notice; give me the catalog line and both language files."
 ---
 
 # Author a New AI Skill

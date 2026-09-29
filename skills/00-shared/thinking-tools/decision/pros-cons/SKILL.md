@@ -1,7 +1,16 @@
 ---
-description: Produces a balanced pros and cons analysis for one proposal or a small set of options, weighing each point by impact and likelihood, separating facts from opinions, including the do-nothing baseline and ending with a clear, conditional recommendation. Use for quick decisions, yes/no proposals, or when someone asks for the advantages and disadvantages of an approach before committing.
-related: decision-matrix, trade-off-analysis, bias-check, pre-mortem, decision-log
-prompt: Give me the pros and cons of moving our weekly release to on-demand releases, and a recommendation.
+name: pros-cons
+description: "Produces a balanced pros and cons analysis for one proposal or a small set of options, weighing each point by impact and likelihood, separating facts from opinions, including the do-nothing baseline and ending with a clear, conditional recommendation. Use for quick decisions, yes/no proposals, or when someone asks for the advantages and disadvantages of an approach before committing."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "List pros and cons"
+  related: "decision-matrix, trade-off-analysis, bias-check, pre-mortem, decision-log"
+  prompt: "Give me the pros and cons of moving our weekly release to on-demand releases, and a recommendation."
 ---
 
 # List Pros and Cons

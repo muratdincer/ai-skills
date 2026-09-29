@@ -1,7 +1,16 @@
 ---
-description: Bir epic'i belirli bir persona, gerçek bir sonuç ve ilk dilim olarak uçtan uca bir iskelet (walking skeleton) içeren, değer, risk ve bağımlılığa göre sıralanmış ince, dikey ve bağımsız değer üreten hikayelere böler. Bir epic, girişim veya büyük özellik backlog maddelerine dönüşecekse, hikayeler katman (UI/API/DB) ya da teknik görev olarak çıkıyorsa veya ekip "bu epic'i nasıl bölelim" diye soruyorsa kullanılır.
-related: story-splitting, user-story, acceptance-criteria, story-mapping, invest-check
-prompt: Bu epic'i hikayelere böl: "KOBİ müşterileri için müşteri portalında self-servis sözleşme yenileme".
+name: epic-breakdown
+description: "Bir epic'i belirli bir persona, gerçek bir sonuç ve ilk dilim olarak uçtan uca bir iskelet (walking skeleton) içeren, değer, risk ve bağımlılığa göre sıralanmış ince, dikey ve bağımsız değer üreten hikayelere böler. Bir epic, girişim veya büyük özellik backlog maddelerine dönüşecekse, hikayeler katman (UI/API/DB) ya da teknik görev olarak çıkıyorsa veya ekip \"bu epic'i nasıl bölelim\" diye soruyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Epic'i hikayelere bölme"
+  related: "story-splitting, user-story, acceptance-criteria, story-mapping, invest-check"
+  prompt: "Bu epic'i hikayelere böl: \"KOBİ müşterileri için müşteri portalında self-servis sözleşme yenileme\"."
 ---
 
 # Epic'i Hikayelere Bölme

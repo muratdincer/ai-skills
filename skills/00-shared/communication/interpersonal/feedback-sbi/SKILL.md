@@ -1,7 +1,16 @@
 ---
-description: Frames positive or corrective feedback with the Situation-Behavior-Impact model, separating observed behavior from interpretation, stating the concrete impact, and ending with a request and an open question. Use when someone must give feedback to a colleague, report, peer or manager, prepare a difficult conversation, or rewrite feedback that sounds like a judgment of the person.
-related: one-on-one-prep, performance-review, conflict-resolution, tone-rewrite, underperformance-plan
-prompt: Help me give feedback to a senior developer who keeps merging pull requests without waiting for review, in a way that doesn't make him defensive.
+name: feedback-sbi
+description: "Frames positive or corrective feedback with the Situation-Behavior-Impact model, separating observed behavior from interpretation, stating the concrete impact, and ending with a request and an open question. Use when someone must give feedback to a colleague, report, peer or manager, prepare a difficult conversation, or rewrite feedback that sounds like a judgment of the person."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Give feedback (SBI)"
+  related: "one-on-one-prep, performance-review, conflict-resolution, tone-rewrite, underperformance-plan"
+  prompt: "Help me give feedback to a senior developer who keeps merging pull requests without waiting for review, in a way that doesn't make him defensive."
 ---
 
 # Give Feedback (SBI)

@@ -1,7 +1,16 @@
 ---
-description: Decomposes an epic into thin, vertical, independently valuable stories with a specific persona, a real outcome and a walking-skeleton first slice, ordered by value, risk and dependency. Use when an epic, initiative or large feature must become backlog items, when stories keep coming out as layers (UI/API/DB) or technical tasks, or when a team asks "how do we split this epic".
-related: story-splitting, user-story, acceptance-criteria, story-mapping, invest-check
-prompt: Break this epic into stories: "Self-service contract renewal for SME customers in the customer portal".
+name: epic-breakdown
+description: "Decomposes an epic into thin, vertical, independently valuable stories with a specific persona, a real outcome and a walking-skeleton first slice, ordered by value, risk and dependency. Use when an epic, initiative or large feature must become backlog items, when stories keep coming out as layers (UI/API/DB) or technical tasks, or when a team asks \"how do we split this epic\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: definition
+  title: "Break an epic into stories"
+  related: "story-splitting, user-story, acceptance-criteria, story-mapping, invest-check"
+  prompt: "Break this epic into stories: \"Self-service contract renewal for SME customers in the customer portal\"."
 ---
 
 # Break an Epic Into Stories

@@ -1,7 +1,16 @@
 ---
-description: Seçenekleri açık ağırlıklara, puanlama ölçeklerine ve eleyici zorunlu kurallara sahip, üzerinde uzlaşılmış ve birbirinden bağımsız kriterlere göre karşılaştıran ağırlıklı bir karar matrisi oluşturur; ardından sonucun ağırlıklara ve belirsiz puanlara ne kadar duyarlı olduğunu test eder. Üç veya daha fazla seçenek (tedarikçi, teknoloji, tasarım, yatırım adayı) arasında seçim yapılırken, kararın başkalarına savunulabilir olması gerektiğinde veya bir grubun uzlaşması gerektiğinde kullanılır.
-related: trade-off-analysis, pros-cons, vendor-evaluation, technology-selection, decision-log
-prompt: Sipariş platformumuz için üç mesaj kuyruğu (broker) arasında seçim yapmak üzere ağırlıklı bir karar matrisi oluştur.
+name: decision-matrix
+description: "Seçenekleri açık ağırlıklara, puanlama ölçeklerine ve eleyici zorunlu kurallara sahip, üzerinde uzlaşılmış ve birbirinden bağımsız kriterlere göre karşılaştıran ağırlıklı bir karar matrisi oluşturur; ardından sonucun ağırlıklara ve belirsiz puanlara ne kadar duyarlı olduğunu test eder. Üç veya daha fazla seçenek (tedarikçi, teknoloji, tasarım, yatırım adayı) arasında seçim yapılırken, kararın başkalarına savunulabilir olması gerektiğinde veya bir grubun uzlaşması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Ağırlıklı karar matrisi"
+  related: "trade-off-analysis, pros-cons, vendor-evaluation, technology-selection, decision-log"
+  prompt: "Sipariş platformumuz için üç mesaj kuyruğu (broker) arasında seçim yapmak üzere ağırlıklı bir karar matrisi oluştur."
 ---
 
 # Ağırlıklı Karar Matrisi

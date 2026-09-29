@@ -1,7 +1,16 @@
 ---
-description: Designs an event-driven flow end to end, covering event types and naming, schemas and versioning, topics and partition keys, ordering, delivery semantics, idempotent consumers, outbox publishing, error handling with retries and dead-letter queues, and saga orchestration or choreography with compensations. Use when services must integrate asynchronously through events, when a business process spans several services, or when an existing event flow suffers duplicates, lost messages or ordering bugs.
-related: event-storming, aggregate-design, integration-pattern-selection, data-contract, schema-evolution-plan
-prompt: Design the event flow for order placement across ordering, payment, inventory and shipping, with compensation when payment fails.
+name: event-driven-design
+description: "Designs an event-driven flow end to end, covering event types and naming, schemas and versioning, topics and partition keys, ordering, delivery semantics, idempotent consumers, outbox publishing, error handling with retries and dead-letter queues, and saga orchestration or choreography with compensations. Use when services must integrate asynchronously through events, when a business process spans several services, or when an existing event flow suffers duplicates, lost messages or ordering bugs."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Design an event-driven flow"
+  related: "event-storming, aggregate-design, integration-pattern-selection, data-contract, schema-evolution-plan"
+  prompt: "Design the event flow for order placement across ordering, payment, inventory and shipping, with compensation when payment fails."
 ---
 
 # Design an Event-Driven Flow

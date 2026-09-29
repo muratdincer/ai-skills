@@ -1,7 +1,16 @@
 ---
-description: Builds a project budget with a cost breakdown by WBS and cost category, separation of capex and opex where relevant, contingency and management reserves, and a time-phased cash flow that becomes the cost baseline. Use when a project needs a budget for approval, a cost baseline for tracking, or a re-forecast after scope or schedule changes.
-related: wbs, resource-plan, estimation-three-point, earned-value-analysis, cloud-cost-estimate
-prompt: Build a project budget from this resource plan and vendor quotes, with contingency and monthly cash flow.
+name: budget-plan
+description: "Builds a project budget with a cost breakdown by WBS and cost category, separation of capex and opex where relevant, contingency and management reserves, and a time-phased cash flow that becomes the cost baseline. Use when a project needs a budget for approval, a cost baseline for tracking, or a re-forecast after scope or schedule changes."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: planning
+  title: "Build a project budget"
+  related: "wbs, resource-plan, estimation-three-point, earned-value-analysis, cloud-cost-estimate"
+  prompt: "Build a project budget from this resource plan and vendor quotes, with contingency and monthly cash flow."
 ---
 
 # Build a Project Budget

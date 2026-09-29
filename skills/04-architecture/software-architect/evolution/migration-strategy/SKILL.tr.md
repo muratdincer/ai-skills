@@ -1,7 +1,16 @@
 ---
-description: Mevcut bir sistemden veya platformdan hedefe geçişi; strangler fig, paralel çalıştırma, aşamalı ve tek seferde geçiş yaklaşımlarını karşılaştırarak, dilimleri ve sıralarını, veri taşıma ve senkronizasyonu, birlikte çalışma ve yönlendirmeyi, her adım için doğrulama ve geri dönüşü ve geçiş (cutover) kriterlerini tanımlayarak planlar. Bir sistem değiştirilirken veya platform değiştirirken, monolitten servis ayrılırken, yeni bir veritabanına ya da buluta geçilirken veya bir göç planının risk incelemesi gerektiğinde kullanılır.
-related: target-state-architecture, service-decomposition, modernization-assessment, rollback-plan, schema-migration-plan
-prompt: Şirket içindeki sipariş yönetimi monolitimizin yeni bulut tabanlı sipariş servislerine, satış sezonunda kesinti olmadan göçünü planla.
+name: migration-strategy
+description: "Mevcut bir sistemden veya platformdan hedefe geçişi; strangler fig, paralel çalıştırma, aşamalı ve tek seferde geçiş yaklaşımlarını karşılaştırarak, dilimleri ve sıralarını, veri taşıma ve senkronizasyonu, birlikte çalışma ve yönlendirmeyi, her adım için doğrulama ve geri dönüşü ve geçiş (cutover) kriterlerini tanımlayarak planlar. Bir sistem değiştirilirken veya platform değiştirirken, monolitten servis ayrılırken, yeni bir veritabanına ya da buluta geçilirken veya bir göç planının risk incelemesi gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Göç stratejisi planlama"
+  related: "target-state-architecture, service-decomposition, modernization-assessment, rollback-plan, schema-migration-plan"
+  prompt: "Şirket içindeki sipariş yönetimi monolitimizin yeni bulut tabanlı sipariş servislerine, satış sezonunda kesinti olmadan göçünü planla."
 ---
 
 # Göç Stratejisi Planlama

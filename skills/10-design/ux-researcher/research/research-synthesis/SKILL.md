@@ -1,7 +1,16 @@
 ---
-description: Synthesizes raw research data (interview notes, usability observations, open survey answers) into evidence-backed findings, insights and prioritized recommendations through affinity clustering, with frequency, severity and confidence for each. Use after interviews or usability sessions, when someone asks "what did we learn", or when notes must become a readout for a decision.
-related: research-plan, usability-test-script, interview-notes-analysis, feedback-synthesis, customer-journey-map
-prompt: Synthesize these notes from 8 onboarding interviews into key insights and recommendations for the product team.
+name: research-synthesis
+description: "Synthesizes raw research data (interview notes, usability observations, open survey answers) into evidence-backed findings, insights and prioritized recommendations through affinity clustering, with frequency, severity and confidence for each. Use after interviews or usability sessions, when someone asks \"what did we learn\", or when notes must become a readout for a decision."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-researcher
+  area: research
+  title: "Synthesize research findings"
+  related: "research-plan, usability-test-script, interview-notes-analysis, feedback-synthesis, customer-journey-map"
+  prompt: "Synthesize these notes from 8 onboarding interviews into key insights and recommendations for the product team."
 ---
 
 # Synthesize Research Findings

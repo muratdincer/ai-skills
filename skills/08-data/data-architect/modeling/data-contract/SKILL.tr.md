@@ -1,7 +1,16 @@
 ---
+name: data-contract
 description: "Veri üreticisi ile tüketicileri arasında veri sözleşmesi yazar: şema, anlam, kalite beklentileri, tazelik ve erişilebilirlik SLA'ları, sahiplik, erişim ve gizlilik koşulları, sürümleme ve değişiklik/kullanımdan kaldırma kuralları; makinece okunmaya uygun bir biçimde. Bir veri seti, olay akışı veya veri ürünü yayımlanırken, yeni bir tüketici alınırken ya da üretici-tüketici beklentileri resmileştirilmek istendiğinde kullanılır."
-related: "schema-evolution-plan, data-quality-rules, api-contract, data-catalog-entry, data-classification"
-prompt: "Finans ve öneri ekibinin tükettiği sipariş olay akışı için veri sözleşmesi yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Veri sözleşmesi yazma"
+  related: "schema-evolution-plan, data-quality-rules, api-contract, data-catalog-entry, data-classification"
+  prompt: "Finans ve öneri ekibinin tükettiği sipariş olay akışı için veri sözleşmesi yaz."
 ---
 
 # Veri Sözleşmesi Yazma

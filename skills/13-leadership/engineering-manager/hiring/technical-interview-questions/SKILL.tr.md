@@ -1,7 +1,16 @@
 ---
-description: Tek bir mülakat aşaması için seviyeye göre ayarlanmış teknik sorular, takip soruları ve davranışa dayalı bir puanlama ölçeği hazırlar. Kodlama, sistem tasarımı, hata ayıklama veya alan bilgisi aşaması için soru seti gerektiğinde, soruları bir seviyeye kalibre ederken ya da ezber ve bulmaca sorularını işle ilgili sorularla değiştirirken kullanılır.
-related: interview-plan, interview-scorecard, career-ladder, job-description, candidate-debrief
-prompt: Kıdemli backend mühendisi için 60 dakikalık sistem tasarımı soru seti ve puanlama ölçeği hazırla. Olay güdümlü sipariş işleme üzerinde çalışıyoruz.
+name: technical-interview-questions
+description: "Tek bir mülakat aşaması için seviyeye göre ayarlanmış teknik sorular, takip soruları ve davranışa dayalı bir puanlama ölçeği hazırlar. Kodlama, sistem tasarımı, hata ayıklama veya alan bilgisi aşaması için soru seti gerektiğinde, soruları bir seviyeye kalibre ederken ya da ezber ve bulmaca sorularını işle ilgili sorularla değiştirirken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: hiring
+  title: "Teknik mülakat soruları"
+  related: "interview-plan, interview-scorecard, career-ladder, job-description, candidate-debrief"
+  prompt: "Kıdemli backend mühendisi için 60 dakikalık sistem tasarımı soru seti ve puanlama ölçeği hazırla. Olay güdümlü sipariş işleme üzerinde çalışıyoruz."
 ---
 
 # Teknik Mülakat Soruları

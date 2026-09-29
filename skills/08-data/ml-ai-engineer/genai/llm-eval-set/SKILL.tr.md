@@ -1,7 +1,16 @@
 ---
-description: Bir LLM özelliği için kategorilere ayrılmış test vakaları, puanlama kriterleri (rubric), değerlendirici seçimi (birebir eşleşme, programatik, model ile puanlama, insan), geçme eşikleri ve regresyon süreci içeren bir değerlendirme seti oluşturur. Bir LLM özelliği, prompt veya RAG hattı yayından önce ölçülebilir kalite gerektirdiğinde, modeller ya da prompt sürümleri karşılaştırılırken veya "yeni prompt daha iyi mi bilmiyoruz" dendiğinde kullanılır.
-related: prompt-design, rag-design, model-evaluation-report, test-strategy, ai-use-case-assessment
-prompt: Sözleşme özetleme asistanımız için, yayından önce iki prompt sürümünü karşılaştırabileceğimiz bir değerlendirme seti oluştur.
+name: llm-eval-set
+description: "Bir LLM özelliği için kategorilere ayrılmış test vakaları, puanlama kriterleri (rubric), değerlendirici seçimi (birebir eşleşme, programatik, model ile puanlama, insan), geçme eşikleri ve regresyon süreci içeren bir değerlendirme seti oluşturur. Bir LLM özelliği, prompt veya RAG hattı yayından önce ölçülebilir kalite gerektirdiğinde, modeller ya da prompt sürümleri karşılaştırılırken veya \"yeni prompt daha iyi mi bilmiyoruz\" dendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "LLM değerlendirme seti"
+  related: "prompt-design, rag-design, model-evaluation-report, test-strategy, ai-use-case-assessment"
+  prompt: "Sözleşme özetleme asistanımız için, yayından önce iki prompt sürümünü karşılaştırabileceğimiz bir değerlendirme seti oluştur."
 ---
 
 # LLM Değerlendirme Seti

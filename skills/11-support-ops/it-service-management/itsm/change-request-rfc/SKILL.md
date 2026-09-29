@@ -1,7 +1,16 @@
 ---
+name: change-request-rfc
 description: "Writes an IT change request (RFC) ready for change approval or a change advisory board: reason, scope and affected configuration items, change type, risk and impact assessment, implementation plan, test evidence, backout plan with trigger, schedule, communication and verification. Use when a production change to infrastructure, applications, configuration or data needs approval, when a CAB submission is due, or when an emergency change must be documented."
-related: "rollback-plan, deployment-checklist, deployment-strategy, technical-risk-review, problem-management"
-prompt: "Write an RFC to upgrade the production PostgreSQL cluster from 14 to 16 this Saturday night; 3 apps depend on it, we tested on staging last week."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Write a change request (RFC)"
+  related: "rollback-plan, deployment-checklist, deployment-strategy, technical-risk-review, problem-management"
+  prompt: "Write an RFC to upgrade the production PostgreSQL cluster from 14 to 16 this Saturday night; 3 apps depend on it, we tested on staging last week."
 ---
 
 # Write a Change Request (RFC)

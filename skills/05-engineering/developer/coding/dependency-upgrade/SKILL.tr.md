@@ -1,7 +1,16 @@
 ---
+name: dependency-upgrade
 description: "Bir kütüphane, framework veya çalışma ortamı güncellemesini planlar ve uygular: mevcut ve hedef sürüm arasındaki sürüm notlarını ve geçiş kılavuzlarını okur, kod tabanını gerçekten etkileyen kırıcı değişiklikleri listeler, geçiş adımlarını sıralar, geçişli bağımlılık çakışmalarını ele alır, doğrulama ve geri dönüşü tanımlar. Güvenlik, destek sonu veya ihtiyaç duyulan bir özellik nedeniyle bağımlılık güncellenmesi gerektiğinde, otomatik güncelleme pull request'i başarısız olduğunda veya X sürümünden Y'ye nasıl geçileceği sorulduğunda kullanılır."
-related: "dependency-vulnerability-review, semantic-versioning, refactoring, changelog-entry, pull-request-description"
-prompt: "Web framework'ümüzü 6. ana sürümden 8'e yükseltmeyi planla; bağımlılık manifesti ve kullandığımız özelliklerin listesi burada."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Bağımlılık güncelleme"
+  related: "dependency-vulnerability-review, semantic-versioning, refactoring, changelog-entry, pull-request-description"
+  prompt: "Web framework'ümüzü 6. ana sürümden 8'e yükseltmeyi planla; bağımlılık manifesti ve kullandığımız özelliklerin listesi burada."
 ---
 
 # Bağımlılık Güncelleme

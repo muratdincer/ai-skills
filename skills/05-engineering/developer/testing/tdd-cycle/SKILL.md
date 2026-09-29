@@ -1,7 +1,16 @@
 ---
+name: tdd-cycle
 description: "Drives a behavior into code with strict red-green-refactor cycles: a test list ordered from simplest to hardest, one failing test at a time that is seen failing for the right reason, the minimal code to pass, and refactoring only on green, with no production code written without a failing test. Use when someone wants to build a feature, function or bug fix test-first, asks for TDD steps, or wants to practice or demonstrate TDD on a concrete behavior."
-related: "unit-test-writing, implement-from-story, refactoring, acceptance-criteria, test-gap-finder"
-prompt: "Let's build a password strength validator with TDD: min 12 chars, at least one digit and one symbol, and it must reject the user's email."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: testing
+  title: "Drive code with TDD"
+  related: "unit-test-writing, implement-from-story, refactoring, acceptance-criteria, test-gap-finder"
+  prompt: "Let's build a password strength validator with TDD: min 12 chars, at least one digit and one symbol, and it must reject the user's email."
 ---
 
 # Drive Code With TDD

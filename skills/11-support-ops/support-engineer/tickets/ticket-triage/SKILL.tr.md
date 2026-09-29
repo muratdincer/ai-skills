@@ -1,7 +1,16 @@
 ---
+name: ticket-triage
 description: "Gelen bir destek kaydını sınıflandırır: türünü belirler (olay, hizmet talebi, soru, hata, güvenlik veya kişisel veri bildirimi), etki ve aciliyetten önceliği çıkarır, mükerrer kayıt veya süren bir kesinti olup olmadığını kontrol eder, eksik bilgileri belirler ve doğru kuyruğa veya seviyeye yönlendirir. Destek kuyruğuna yeni bir kayıt, e-posta veya sohbet talebi geldiğinde, sınıflandırılmamış kayıt birikimi ayıklanacağında veya öncelik tartışmalı olduğunda kullanılır."
-related: "ticket-response, ticket-escalation-summary, known-error-article, incident-response, bug-report"
-prompt: "Bu kaydı sınıflandır: 'Bu sabahtan beri 40 şube kullanıcımızın hiçbiri POS'tan fatura yazdıramıyor, elle yazıyoruz.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 11-support-ops
+  role: support-engineer
+  area: tickets
+  title: "Destek kaydı sınıflandırma"
+  related: "ticket-response, ticket-escalation-summary, known-error-article, incident-response, bug-report"
+  prompt: "Bu kaydı sınıflandır: 'Bu sabahtan beri 40 şube kullanıcımızın hiçbiri POS'tan fatura yazdıramıyor, elle yazıyoruz.'"
 ---
 
 # Destek Kaydı Sınıflandırma

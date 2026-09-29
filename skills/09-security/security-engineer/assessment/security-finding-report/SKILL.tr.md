@@ -1,7 +1,16 @@
 ---
+name: security-finding-report
 description: "Başlık, etkilenen varlık, önem derecesi ve puanlama, açıklama, etki, tekrar üretme adımları, kanıt, çözüm ve referanslar içeren, sızma testi raporu, bug bounty yanıtı veya iç takip sistemi için uygun, net ve tekrar üretilebilir bir güvenlik bulgusu yazar. Doğrulanmış veya şüpheli bir güvenlik sorununun geliştiriciler, yönetim veya denetçiler için belgelenmesi gerektiğinde kullanılır."
-related: "vulnerability-triage, secure-code-review, pentest-scope, bug-report, security-incident-response"
-prompt: "Şunun için güvenlik bulgusu yaz: giriş yapmış herhangi bir kullanıcı URL'deki fatura numarasını değiştirerek başka bir kullanıcının fatura PDF'ini indirebiliyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 09-security
+  role: security-engineer
+  area: assessment
+  title: "Güvenlik bulgusu yazma"
+  related: "vulnerability-triage, secure-code-review, pentest-scope, bug-report, security-incident-response"
+  prompt: "Şunun için güvenlik bulgusu yaz: giriş yapmış herhangi bir kullanıcı URL'deki fatura numarasını değiştirerek başka bir kullanıcının fatura PDF'ini indirebiliyor."
 ---
 
 # Güvenlik Bulgusu Yazma

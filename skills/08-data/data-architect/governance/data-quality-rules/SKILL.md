@@ -1,7 +1,16 @@
 ---
+name: data-quality-rules
 description: "Defines testable data quality rules for a dataset or data product across completeness, validity, uniqueness, consistency, referential integrity, timeliness and volume, each with a threshold, severity, on-failure action and owner. Use when a dataset needs quality checks, a data contract needs its quality section, recurring data issues must be prevented, or someone asks which checks to put on a table or pipeline."
-related: "data-contract, data-catalog-entry, pipeline-spec, business-rules-catalog, pipeline-failure-analysis"
-prompt: "Define data quality rules for the customer and orders tables that feed our monthly revenue report."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Define data quality rules"
+  related: "data-contract, data-catalog-entry, pipeline-spec, business-rules-catalog, pipeline-failure-analysis"
+  prompt: "Define data quality rules for the customer and orders tables that feed our monthly revenue report."
 ---
 
 # Define Data Quality Rules

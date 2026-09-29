@@ -1,7 +1,16 @@
 ---
-description: Toplantı notları, dökümler, e-postalar veya sohbet akışlarındaki tüm açık ve örtük taahhütleri bulur ve her birini tek bir sorumlusu, tarihi, durumu ve kaynak atfı olan doğrulanabilir bir aksiyona dönüştürür; sorumlusu veya tarihi eksik olanları işaretler. "Aksiyonlar neler?", "kim ne yapacak?" sorulduğunda ya da bir toplantı veya tartışma sonrasında takip aracına hazır işler gerektiğinde kullanılır.
-related: meeting-notes, meeting-follow-up, open-questions-tracker, decision-log, task-breakdown
-prompt: Sürüm hazırlık görüşmemizin dökümündeki tüm aksiyonları çıkar ve bir tabloya koy.
+name: action-item-extraction
+description: "Toplantı notları, dökümler, e-postalar veya sohbet akışlarındaki tüm açık ve örtük taahhütleri bulur ve her birini tek bir sorumlusu, tarihi, durumu ve kaynak atfı olan doğrulanabilir bir aksiyona dönüştürür; sorumlusu veya tarihi eksik olanları işaretler. \"Aksiyonlar neler?\", \"kim ne yapacak?\" sorulduğunda ya da bir toplantı veya tartışma sonrasında takip aracına hazır işler gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Aksiyon maddelerini çıkarma"
+  related: "meeting-notes, meeting-follow-up, open-questions-tracker, decision-log, task-breakdown"
+  prompt: "Sürüm hazırlık görüşmemizin dökümündeki tüm aksiyonları çıkar ve bir tabloya koy."
 ---
 
 # Aksiyon Maddelerini Çıkarma

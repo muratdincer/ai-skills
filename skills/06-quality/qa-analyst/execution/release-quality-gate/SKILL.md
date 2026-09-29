@@ -1,7 +1,16 @@
 ---
+name: release-quality-gate
 description: "Evaluates release readiness against agreed exit criteria (tests, defects, coverage, non-functional results, operational readiness, approvals), rates each criterion met, not met or waived with evidence, and produces a go, conditional go or no-go recommendation with conditions and accepted risks. Use before a production release or major deployment, in a go/no-go meeting, or when someone asks whether a build is ready to ship."
-related: test-summary-report, bug-triage, go-no-go, deployment-checklist, rollback-plan
-prompt: "Assess release 5.2 against our exit criteria: no open critical/major bugs, 95% pass rate, regression complete, performance p95 under 800 ms, security scan clean."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: execution
+  title: "Evaluate release readiness"
+  related: "test-summary-report, bug-triage, go-no-go, deployment-checklist, rollback-plan"
+  prompt: "Assess release 5.2 against our exit criteria: no open critical/major bugs, 95% pass rate, regression complete, performance p95 under 800 ms, security scan clean."
 ---
 
 # Evaluate Release Readiness

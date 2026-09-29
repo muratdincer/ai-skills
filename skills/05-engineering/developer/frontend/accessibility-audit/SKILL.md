@@ -1,7 +1,16 @@
 ---
-description: Audits a web or mobile UI (page, flow, component, or its markup) against WCAG 2.2 Level A and AA success criteria, records each finding with the criterion, affected users, evidence and severity, and proposes concrete code or design fixes. Use when a screen or component needs an accessibility check before release, after a complaint or legal request, or when someone asks "is this accessible?" or "check this for WCAG".
-related: component-design, heuristic-evaluation, design-handoff, microcopy, test-case-writing
-prompt: Audit this checkout form markup against WCAG 2.2 AA and tell me what to fix first.
+name: accessibility-audit
+description: "Audits a web or mobile UI (page, flow, component, or its markup) against WCAG 2.2 Level A and AA success criteria, records each finding with the criterion, affected users, evidence and severity, and proposes concrete code or design fixes. Use when a screen or component needs an accessibility check before release, after a complaint or legal request, or when someone asks \"is this accessible?\" or \"check this for WCAG\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: frontend
+  title: "Audit accessibility (WCAG)"
+  related: "component-design, heuristic-evaluation, design-handoff, microcopy, test-case-writing"
+  prompt: "Audit this checkout form markup against WCAG 2.2 AA and tell me what to fix first."
 ---
 
 # Audit Accessibility (WCAG)

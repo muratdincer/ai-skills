@@ -1,7 +1,16 @@
 ---
+name: master-data-strategy
 description: "Bir veya daha fazla alan (müşteri, ürün, tedarikçi, lokasyon vb.) için ana veri yönetimi yaklaşımını tanımlar: nitelik bazında kayıt sistemi, altın kayıt ve hayatta kalma kuralları, eşleştirme/birleştirme mantığı, uygulama stili, veri sorumluluğu rolleri ve iş akışları, tüketen sistemlere dağıtım. Aynı varlık sistemler arasında tutarsız bulunduğunda, mükerrer kayıtlar operasyona veya raporlamaya zarar verdiğinde ya da bir ana veri veya altın kayıt girişimi kapsamlandırılırken kullanılır."
-related: "data-quality-rules, logical-data-model, data-lineage-doc, raci-matrix, data-classification"
-prompt: "CRM, ERP ve e-ticaret platformunda bulunan müşteri verisi için bir ana veri yaklaşımı tanımla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 08-data
+  role: data-architect
+  area: governance
+  title: "Ana veri yönetimi tanımlama"
+  related: "data-quality-rules, logical-data-model, data-lineage-doc, raci-matrix, data-classification"
+  prompt: "CRM, ERP ve e-ticaret platformunda bulunan müşteri verisi için bir ana veri yaklaşımı tanımla."
 ---
 
 # Ana Veri Yönetimi Tanımlama

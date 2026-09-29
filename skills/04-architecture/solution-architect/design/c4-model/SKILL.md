@@ -1,7 +1,16 @@
 ---
-description: Describes a software system with the C4 model - system context, container and, where useful, component diagrams - as diagrams-as-code (Structurizr DSL, PlantUML C4 or Mermaid) with consistent element names, responsibilities, technologies and labeled relationships. Use when someone needs architecture diagrams for a design, review, onboarding or documentation, or wants to turn a textual description or existing sketch into C4 views.
-related: solution-architecture-document, diagram-as-code, bounded-context-map, adr, architecture-review
-prompt: Create C4 context and container diagrams in Structurizr DSL for our e-commerce checkout: web shop, mobile app, checkout API, payment provider, order DB and message broker.
+name: c4-model
+description: "Describes a software system with the C4 model - system context, container and, where useful, component diagrams - as diagrams-as-code (Structurizr DSL, PlantUML C4 or Mermaid) with consistent element names, responsibilities, technologies and labeled relationships. Use when someone needs architecture diagrams for a design, review, onboarding or documentation, or wants to turn a textual description or existing sketch into C4 views."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Describe architecture with C4"
+  related: "solution-architecture-document, diagram-as-code, bounded-context-map, adr, architecture-review"
+  prompt: "Create C4 context and container diagrams in Structurizr DSL for our e-commerce checkout: web shop, mobile app, checkout API, payment provider, order DB and message broker."
 ---
 
 # Describe Architecture with C4

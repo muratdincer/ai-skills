@@ -1,7 +1,16 @@
 ---
+name: spike-report
 description: "Süre sınırlı bir araştırmanın yanıtlaması gereken soruyu, denenenleri, bulunan kanıtları, artı ve eksileriyle seçenekleri ve takip işleriyle birlikte net bir öneriyi kaydeden bir spike raporu yazar. Bir spike, proof of concept veya teknik araştırma bittiğinde (ya da planlanırken) ve ekibin karar verip tahmin yapabilmesi için sonucun paylaşılması gerektiğinde kullanılır."
-related: "technical-design-doc, adr, technology-selection, trade-off-analysis, task-breakdown"
-prompt: "Bir spike raporu yaz: mevcut aramamızın yazım hatasına toleranslı ürün aramasını kaldırıp kaldıramayacağını ya da ayrı bir arama motoruna ihtiyacımız olup olmadığını iki gün inceledik."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: design
+  title: "Spike raporu yazma"
+  related: "technical-design-doc, adr, technology-selection, trade-off-analysis, task-breakdown"
+  prompt: "Bir spike raporu yaz: mevcut aramamızın yazım hatasına toleranslı ürün aramasını kaldırıp kaldıramayacağını ya da ayrı bir arama motoruna ihtiyacımız olup olmadığını iki gün inceledik."
 ---
 
 # Spike Raporu Yazma

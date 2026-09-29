@@ -1,7 +1,16 @@
 ---
-description: Builds an opportunity solution tree that links one measurable outcome to customer opportunities (needs, pains, desires) from research, several candidate solutions per target opportunity, and assumption tests. Use when a team must choose what to work on to move an outcome, when discovery work lacks structure, or when someone asks to connect a goal to ideas and experiments.
-related: okr-definition, jobs-to-be-done, hypothesis-statement, experiment-design, assumption-mapping
-prompt: Build an opportunity solution tree for increasing 30-day retention of new mobile banking users.
+name: opportunity-solution-tree
+description: "Builds an opportunity solution tree that links one measurable outcome to customer opportunities (needs, pains, desires) from research, several candidate solutions per target opportunity, and assumption tests. Use when a team must choose what to work on to move an outcome, when discovery work lacks structure, or when someone asks to connect a goal to ideas and experiments."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Build an opportunity solution tree"
+  related: "okr-definition, jobs-to-be-done, hypothesis-statement, experiment-design, assumption-mapping"
+  prompt: "Build an opportunity solution tree for increasing 30-day retention of new mobile banking users."
 ---
 
 # Build an Opportunity Solution Tree

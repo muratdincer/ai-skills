@@ -1,7 +1,16 @@
 ---
-description: Records decisions from meetings, threads or documents as numbered decision log entries with context, options considered, rationale, decider, date, consequences, reversibility and review trigger, and flags conflicts with earlier decisions. Use when a team needs a durable, searchable record of why something was decided, or when decisions keep being reopened.
-related: adr, meeting-minutes, meeting-notes, trade-off-analysis, raid-log
-prompt: Add the decisions from today's data platform meeting to our decision log; we chose Delta Lake over Iceberg and postponed the catalog choice.
+name: decision-log
+description: "Records decisions from meetings, threads or documents as numbered decision log entries with context, options considered, rationale, decider, date, consequences, reversibility and review trigger, and flags conflicts with earlier decisions. Use when a team needs a durable, searchable record of why something was decided, or when decisions keep being reopened."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: meetings
+  area: after
+  title: "Record decisions"
+  related: "adr, meeting-minutes, meeting-notes, trade-off-analysis, raid-log"
+  prompt: "Add the decisions from today's data platform meeting to our decision log; we chose Delta Lake over Iceberg and postponed the catalog choice."
 ---
 
 # Record Decisions

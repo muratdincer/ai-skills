@@ -1,7 +1,16 @@
 ---
-description: Runs a pre-mortem on a plan, project, launch or decision by assuming it has already failed and working backwards to the most plausible causes, early warning signals and mitigations. Use before committing to a plan, launch, migration or major decision, when a team seems overconfident, or when someone asks "what could go wrong?" or "run a pre-mortem".
-related: risk-register, assumption-mapping, bias-check, raid-log, technical-risk-review
-prompt: Run a pre-mortem on our plan to migrate the billing database to a new cloud region over one weekend in March.
+name: pre-mortem
+description: "Runs a pre-mortem on a plan, project, launch or decision by assuming it has already failed and working backwards to the most plausible causes, early warning signals and mitigations. Use before committing to a plan, launch, migration or major decision, when a team seems overconfident, or when someone asks \"what could go wrong?\" or \"run a pre-mortem\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: decision
+  title: "Run a pre-mortem"
+  related: "risk-register, assumption-mapping, bias-check, raid-log, technical-risk-review"
+  prompt: "Run a pre-mortem on our plan to migrate the billing database to a new cloud region over one weekend in March."
 ---
 
 # Run a Pre-Mortem

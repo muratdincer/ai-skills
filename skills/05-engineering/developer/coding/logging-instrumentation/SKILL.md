@@ -1,7 +1,16 @@
 ---
+name: logging-instrumentation
 description: "Adds structured logs, metrics and distributed traces to code at the points that answer real operational questions, with consistent field names, correct levels, low-cardinality metric labels, trace context propagation and no secrets or personal data. Use when a feature is going to production, an incident showed missing visibility, or someone asks to add logging, metrics, tracing or telemetry (e.g. OpenTelemetry) to code."
-related: "observability-plan, alert-design, slo-definition, error-handling-review, log-analysis"
-prompt: "Add logging, metrics and tracing to this order import job that reads a file, validates rows and calls the inventory API."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: coding
+  title: "Add logging and instrumentation"
+  related: "observability-plan, alert-design, slo-definition, error-handling-review, log-analysis"
+  prompt: "Add logging, metrics and tracing to this order import job that reads a file, validates rows and calls the inventory API."
 ---
 
 # Add Logging and Instrumentation

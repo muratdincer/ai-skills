@@ -1,7 +1,16 @@
 ---
+name: data-requirements
 description: "Defines data requirements from a business perspective: entities and relationships, attributes with meaning, type, format, mandatory rules, validations and allowed values, identifiers, data ownership, sources and consumers, sensitivity classification, quality expectations, retention and deletion. Use when a feature or system introduces or changes data, when a data dictionary is needed for development or migration, or when asked to 'define the data' or 'what fields do we need'."
-related: "conceptual-data-model, data-classification, data-quality-rules, retention-policy, frd-writing"
-prompt: "Define the data requirements for the supplier onboarding feature: supplier, contacts, bank details and documents."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Define data requirements"
+  related: "conceptual-data-model, data-classification, data-quality-rules, retention-policy, frd-writing"
+  prompt: "Define the data requirements for the supplier onboarding feature: supplier, contacts, bank details and documents."
 ---
 
 # Define Data Requirements

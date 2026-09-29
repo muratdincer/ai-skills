@@ -1,7 +1,16 @@
 ---
+name: stakeholder-review-prep
 description: "Bir ürün veya paydaş değerlendirme toplantısını hazırlar: ne yapıldı ve neden, ürün hedefini nasıl ilerletiyor, kimden hangi geri bildirim gerekiyor, hangi kararlar alınmalı; demo akışı ve güncel görünümle birlikte bir gündem sunar. İterasyon/sprint değerlendirmesi, aylık ürün değerlendirmesi veya paydaşların ilerlemeyi inceleyip girdi vermesi gereken ürün kontrol noktalarından önce kullanılır."
-related: "iteration-review-prep, demo-script, roadmap, feature-adoption-review, meeting-agenda"
-prompt: "Satış ve operasyon direktörleriyle aylık ürün değerlendirme toplantımızı hazırla: toplu yükleme ve yeni fatura ekranını yayınladık; fiyatlandırma sayfası için karar ve mobil beta için geri bildirim almam gerekiyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Ürün değerlendirme toplantısı hazırlığı"
+  related: "iteration-review-prep, demo-script, roadmap, feature-adoption-review, meeting-agenda"
+  prompt: "Satış ve operasyon direktörleriyle aylık ürün değerlendirme toplantımızı hazırla: toplu yükleme ve yeni fatura ekranını yayınladık; fiyatlandırma sayfası için karar ve mobil beta için geri bildirim almam gerekiyor."
 ---
 
 # Ürün Değerlendirme Toplantısı Hazırlığı

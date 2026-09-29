@@ -1,7 +1,16 @@
 ---
+name: uat-scenarios
 description: "Writes end-to-end user acceptance scenarios in business language, built from real roles, business events and outcomes rather than screens and clicks, each with realistic data, business-verifiable checkpoints and pass criteria. Use when business users need scenarios to execute in UAT, when requirements or processes must be turned into acceptance walkthroughs, or when existing UAT scripts read like technical test cases."
-related: uat-plan, test-scenarios-from-requirements, to-be-process, acceptance-criteria, test-data-design
-prompt: "Write UAT scenarios for the returns process: store staff, warehouse and finance will test the new returns flow end to end."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: uat
+  title: "Write UAT scenarios"
+  related: "uat-plan, test-scenarios-from-requirements, to-be-process, acceptance-criteria, test-data-design"
+  prompt: "Write UAT scenarios for the returns process: store staff, warehouse and finance will test the new returns flow end to end."
 ---
 
 # Write UAT Scenarios

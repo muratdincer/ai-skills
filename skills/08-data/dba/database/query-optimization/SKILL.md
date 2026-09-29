@@ -1,7 +1,16 @@
 ---
+name: query-optimization
 description: "Diagnoses a slow SQL query from its text, execution plan and statistics, finds the dominant cost (bad cardinality estimate, wrong join order or method, scans, spills, non-sargable predicates, parameter sensitivity, blocking) and proposes ranked rewrites, index or statistics changes with expected effect and verification. Use when a query, report or endpoint is slow, a plan regressed after a release or data growth, or someone shares an execution plan and asks why it is slow."
-related: "index-recommendation, database-health-check, sql-query-writing, performance-optimization, schema-migration-plan"
-prompt: "This order search query went from 200 ms to 9 seconds after last week's data import. Here are the query and the actual execution plan; why is it slow and how do we fix it?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: dba
+  area: database
+  title: "Optimize a slow query"
+  related: "index-recommendation, database-health-check, sql-query-writing, performance-optimization, schema-migration-plan"
+  prompt: "This order search query went from 200 ms to 9 seconds after last week's data import. Here are the query and the actual execution plan; why is it slow and how do we fix it?"
 ---
 
 # Optimize a Slow Query

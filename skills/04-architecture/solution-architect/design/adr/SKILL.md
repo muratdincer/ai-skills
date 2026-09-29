@@ -1,7 +1,16 @@
 ---
-description: Writes an Architecture Decision Record (ADR) capturing context, decision drivers, considered options with pros and cons, the decision, and its consequences, in a Nygard or MADR style, including status and supersession links. Use when an architecturally significant decision has been made or must be made, when a past decision needs to be documented retroactively, or when a decision is being reversed.
-related: decision-log, trade-off-analysis, technology-selection, solution-architecture-document, architecture-principles
-prompt: Write an ADR for choosing PostgreSQL over MongoDB for the order service; drivers are transactional consistency, team skills and reporting needs.
+name: adr
+description: "Writes an Architecture Decision Record (ADR) capturing context, decision drivers, considered options with pros and cons, the decision, and its consequences, in a Nygard or MADR style, including status and supersession links. Use when an architecturally significant decision has been made or must be made, when a past decision needs to be documented retroactively, or when a decision is being reversed."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: solution-architect
+  area: design
+  title: "Write an Architecture Decision Record"
+  related: "decision-log, trade-off-analysis, technology-selection, solution-architecture-document, architecture-principles"
+  prompt: "Write an ADR for choosing PostgreSQL over MongoDB for the order service; drivers are transactional consistency, team skills and reporting needs."
 ---
 
 # Write an Architecture Decision Record

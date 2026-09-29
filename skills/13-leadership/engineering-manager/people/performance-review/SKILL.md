@@ -1,7 +1,16 @@
 ---
-description: Writes an evidence-based, competency-aligned and balanced performance review for an engineer or other team member, with a calibrated rating rationale, strengths, growth areas and next-period focus. Use when a review cycle is due, when converting 1:1 notes, peer feedback and delivery evidence into a written review, or when checking a draft review for bias and unsupported claims.
-related: career-ladder, goal-setting, one-on-one-notes, career-development-plan, feedback-sbi
-prompt: Draft Can's annual review from these notes, peer feedback and his goals. Our ladder level is Senior Engineer.
+name: performance-review
+description: "Writes an evidence-based, competency-aligned and balanced performance review for an engineer or other team member, with a calibrated rating rationale, strengths, growth areas and next-period focus. Use when a review cycle is due, when converting 1:1 notes, peer feedback and delivery evidence into a written review, or when checking a draft review for bias and unsupported claims."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Write a performance review"
+  related: "career-ladder, goal-setting, one-on-one-notes, career-development-plan, feedback-sbi"
+  prompt: "Draft Can's annual review from these notes, peer feedback and his goals. Our ladder level is Senior Engineer."
 ---
 
 # Write a Performance Review

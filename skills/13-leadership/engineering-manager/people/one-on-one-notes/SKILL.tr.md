@@ -1,7 +1,16 @@
 ---
-description: Birebir görüşmenin ham notlarını veya dökümünü; konuşulan konular, sorumlu ve tarihli taahhütler, verilen/alınan geri bildirim ve takip edilecek kariyer veya iyi oluş sinyallerinden oluşan kısa ve olgusal notlara dönüştürür. Bir ekip üyesi veya mentiyle yapılan birebirden sonra ya da ileride değerlendirme ve gelişim planlarını besleyecek sürekli bir birebir kaydı tutarken kullanılır.
-related: one-on-one-prep, action-item-extraction, performance-review, career-development-plan, meeting-notes
-prompt: Bugün Emre ile yaptığım birebirin notlarını düzenle ve ikimizin de neyi taahhüt ettiğini çıkar.
+name: one-on-one-notes
+description: "Birebir görüşmenin ham notlarını veya dökümünü; konuşulan konular, sorumlu ve tarihli taahhütler, verilen/alınan geri bildirim ve takip edilecek kariyer veya iyi oluş sinyallerinden oluşan kısa ve olgusal notlara dönüştürür. Bir ekip üyesi veya mentiyle yapılan birebirden sonra ya da ileride değerlendirme ve gelişim planlarını besleyecek sürekli bir birebir kaydı tutarken kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: engineering-manager
+  area: people
+  title: "Birebir görüşme notları"
+  related: "one-on-one-prep, action-item-extraction, performance-review, career-development-plan, meeting-notes"
+  prompt: "Bugün Emre ile yaptığım birebirin notlarını düzenle ve ikimizin de neyi taahhüt ettiğini çıkar."
 ---
 
 # Birebir Görüşme Notları

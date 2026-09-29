@@ -1,7 +1,16 @@
 ---
+name: secure-code-review
 description: "Reviews source code or a diff for security weaknesses, mapped to OWASP Top 10 categories and CWE IDs, tracing untrusted input from source to sink and giving severity, evidence and a concrete fix per finding. Use when a pull request touches authentication, authorization, input handling, crypto, file or network access, or when someone asks to check code for vulnerabilities."
-related: "code-review, security-finding-report, vulnerability-triage, security-requirements, threat-model"
-prompt: "Review this ASP.NET Core controller and its repository class for security issues before we merge."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: assessment
+  title: "Review code for security"
+  related: "code-review, security-finding-report, vulnerability-triage, security-requirements, threat-model"
+  prompt: "Review this ASP.NET Core controller and its repository class for security issues before we merge."
 ---
 
 # Review Code for Security

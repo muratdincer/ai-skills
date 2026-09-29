@@ -1,7 +1,16 @@
 ---
-description: Hedefleri, kapsam içi ve kapsam dışı işleri, kabul kriterleri ve prosedürüyle teslimatları, kilometre taşlarını, iki tarafın rol ve sorumluluklarını, varsayımları, bağımlılıkları, değişiklik kontrolünü ve ticari referansları sınanabilir ve yoruma kapalı bir dille tanımlayan bir iş tanımı (SOW) yazar. Bir teklif kabul edilip kapsamın sözleşmeyle sabitlenmesi gerektiğinde, bir çerçeve sözleşme altında proje veya faz için SOW gerektiğinde ya da mevcut bir SOW belirsizlik ve kapsam kayması riski açısından gözden geçirilecekse kullanılır.
-related: proposal-writing, effort-estimate-for-bid, scope-statement, acceptance-certificate, change-control
-prompt: Müşteri portalı projesinin 1. fazı için SOW taslağı hazırla: SSO, sipariş takibi ve ERP sipariş senkronizasyonu, sabit fiyat, 4 ay.
+name: statement-of-work
+description: "Hedefleri, kapsam içi ve kapsam dışı işleri, kabul kriterleri ve prosedürüyle teslimatları, kilometre taşlarını, iki tarafın rol ve sorumluluklarını, varsayımları, bağımlılıkları, değişiklik kontrolünü ve ticari referansları sınanabilir ve yoruma kapalı bir dille tanımlayan bir iş tanımı (SOW) yazar. Bir teklif kabul edilip kapsamın sözleşmeyle sabitlenmesi gerektiğinde, bir çerçeve sözleşme altında proje veya faz için SOW gerektiğinde ya da mevcut bir SOW belirsizlik ve kapsam kayması riski açısından gözden geçirilecekse kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 14-presales-consulting
+  role: presales-consultant
+  area: bid
+  title: "İş tanımı (SOW) yazma"
+  related: "proposal-writing, effort-estimate-for-bid, scope-statement, acceptance-certificate, change-control"
+  prompt: "Müşteri portalı projesinin 1. fazı için SOW taslağı hazırla: SSO, sipariş takibi ve ERP sipariş senkronizasyonu, sabit fiyat, 4 ay."
 ---
 
 # İş Tanımı (SOW) Yazma

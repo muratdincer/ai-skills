@@ -1,7 +1,16 @@
 ---
-description: Bir organizasyon değişikliğinin (yeniden yapılanma, yeni ekipler, raporlama hattı değişiklikleri, rol değişiklikleri, ofis veya süreç değişiklikleri) iletişimini planlar ve yazar: neden, ne değişiyor, ne değişmiyor, kim etkileniyor, zaman çizelgesi, destek ve nereye sorulacağı; etkilenenlerin önce ve özel olarak duyacağı şekilde sıralanır. Bir yönetici yeniden yapılanma veya ekip değişikliği duyururken, söylentilere yanıt vermek gerektiğinde ya da farklı kitleler için bir mesaj seti gerektiğinde kullanılır.
-related: team-topology, announcement, bad-news-delivery, faq-builder, communication-plan
-prompt: Gelecek ay mobil ve web ekiplerini ürün odaklı ekiplerde birleştiriyoruz; duyuruyu ve kimin neyi ne zaman duyacağını gösteren planı yaz.
+name: org-change-communication
+description: "Bir organizasyon değişikliğinin (yeniden yapılanma, yeni ekipler, raporlama hattı değişiklikleri, rol değişiklikleri, ofis veya süreç değişiklikleri) iletişimini planlar ve yazar: neden, ne değişiyor, ne değişmiyor, kim etkileniyor, zaman çizelgesi, destek ve nereye sorulacağı; etkilenenlerin önce ve özel olarak duyacağı şekilde sıralanır. Bir yönetici yeniden yapılanma veya ekip değişikliği duyururken, söylentilere yanıt vermek gerektiğinde ya da farklı kitleler için bir mesaj seti gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Organizasyon değişikliği iletişimi"
+  related: "team-topology, announcement, bad-news-delivery, faq-builder, communication-plan"
+  prompt: "Gelecek ay mobil ve web ekiplerini ürün odaklı ekiplerde birleştiriyoruz; duyuruyu ve kimin neyi ne zaman duyacağını gösteren planı yaz."
 ---
 
 # Organizasyon Değişikliği İletişimi

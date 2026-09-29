@@ -1,7 +1,16 @@
 ---
+name: release-planning
 description: "Bir sürümü planlar: hedef sonuç, taahhüt edilen ve esnek olarak ayrılmış aday kapsam, verim veya hız aralıklarına dayanarak kapsamın ne zaman bitebileceğine dair öngörü, bağımlılıklar, kilometre taşları, riskler, güven seviyesi ve kapsam-tarih ödünleşim seçenekleri. Ürün sahibinin bir sürümde ne olacağını ve ne zaman çıkacağını cevaplaması, sabit bir tarih için pazarlık yapması ya da paydaşlar için sürüm planı hazırlaması gerektiğinde kullanılır."
-related: "roadmap, monte-carlo-forecast, velocity-analysis, release-plan, dependency-map"
-prompt: "Yeni onboarding akışını 15 Mart'a kadar yayınlamak istiyoruz. Kalan 18 madde ve son 8 iterasyonun verimi burada. Mümkün mü, hangi kapsamı taahhüt etmeliyiz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Sürüm planlama"
+  related: "roadmap, monte-carlo-forecast, velocity-analysis, release-plan, dependency-map"
+  prompt: "Yeni onboarding akışını 15 Mart'a kadar yayınlamak istiyoruz. Kalan 18 madde ve son 8 iterasyonun verimi burada. Mümkün mü, hangi kapsamı taahhüt etmeliyiz?"
 ---
 
 # Sürüm Planlama

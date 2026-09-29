@@ -1,7 +1,16 @@
 ---
-description: Plans the end-of-life of a product, plan or feature with explicit sunset decision criteria, affected-customer segmentation, migration paths, a staged communication sequence, timeline gates and data retention/deletion handling. Use when a product or feature is being retired, replaced or consolidated, or when someone asks "how do we shut this down without losing customers or trust".
-related: communication-plan, migration-strategy, api-deprecation-plan, impact-analysis, kpi-definition
-prompt: We want to retire our legacy reporting module next year and move everyone to the new analytics dashboard. Draft the sunset plan.
+name: product-sunset-plan
+description: "Plans the end-of-life of a product, plan or feature with explicit sunset decision criteria, affected-customer segmentation, migration paths, a staged communication sequence, timeline gates and data retention/deletion handling. Use when a product or feature is being retired, replaced or consolidated, or when someone asks \"how do we shut this down without losing customers or trust\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 02-product
+  role: product-manager
+  area: lifecycle
+  title: "Plan a product or feature end-of-life"
+  related: "communication-plan, migration-strategy, api-deprecation-plan, impact-analysis, kpi-definition"
+  prompt: "We want to retire our legacy reporting module next year and move everyone to the new analytics dashboard. Draft the sunset plan."
 ---
 
 # Plan a Product or Feature End-of-Life

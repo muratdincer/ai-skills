@@ -1,7 +1,16 @@
 ---
+name: data-contract
 description: "Writes a data contract between a data producer and its consumers: schema, semantics, quality expectations, freshness and availability SLAs, ownership, access and privacy terms, versioning and change/deprecation rules, in a machine-readable-friendly form. Use when publishing a dataset, event stream or data product, onboarding a new consumer, or when asked to formalize producer-consumer expectations."
-related: "schema-evolution-plan, data-quality-rules, api-contract, data-catalog-entry, data-classification"
-prompt: "Write a data contract for the orders event stream that finance and the recommendation team consume."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-architect
+  area: modeling
+  title: "Write a data contract"
+  related: "schema-evolution-plan, data-quality-rules, api-contract, data-catalog-entry, data-classification"
+  prompt: "Write a data contract for the orders event stream that finance and the recommendation team consume."
 ---
 
 # Write a Data Contract

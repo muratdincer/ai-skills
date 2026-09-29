@@ -1,7 +1,16 @@
 ---
-description: Riskleri, Varsayımları, Sorunları ve Bağımlılıkları tutarlı numaralar, sahipler, tarihler, durumlar ve çapraz bağlantılarla tek yerde izleyen RAID kaydını oluşturur veya günceller ve neyin değiştiğine ve neyin dikkat gerektirdiğine dair kısa bir özet üretir. Süregelen proje kontrolünde, ham notların, toplantı çıktılarının veya e-postaların doğru RAID kategorisine ayrılması gerektiğinde ya da durum raporlamasından önce kullanılır.
-related: risk-register, issue-management, dependency-map, decision-log, project-status-report
-prompt: Bugünkü yönlendirme toplantısı notlarındaki maddelerle RAID kaydımızı güncelle ve neyin eskale edilmesi gerektiğini söyle.
+name: raid-log
+description: "Riskleri, Varsayımları, Sorunları ve Bağımlılıkları tutarlı numaralar, sahipler, tarihler, durumlar ve çapraz bağlantılarla tek yerde izleyen RAID kaydını oluşturur veya günceller ve neyin değiştiğine ve neyin dikkat gerektirdiğine dair kısa bir özet üretir. Süregelen proje kontrolünde, ham notların, toplantı çıktılarının veya e-postaların doğru RAID kategorisine ayrılması gerektiğinde ya da durum raporlamasından önce kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "RAID kaydı tutma"
+  related: "risk-register, issue-management, dependency-map, decision-log, project-status-report"
+  prompt: "Bugünkü yönlendirme toplantısı notlarındaki maddelerle RAID kaydımızı güncelle ve neyin eskale edilmesi gerektiğini söyle."
 ---
 
 # RAID Kaydı Tutma

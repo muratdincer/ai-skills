@@ -1,7 +1,16 @@
 ---
+name: requirements-review-checklist
 description: "Runs a structured, checklist-driven review of a requirements document or story set before sign-off, covering structure, individual requirement quality (ISO/IEC/IEEE 29148 characteristics), set-level completeness and consistency, NFRs, traceability and approval readiness, and returns findings with a go/no-go recommendation. Use when a BRD, FRD, SRS or backlog slice is about to be baselined, handed to a vendor or approved."
-related: "ambiguity-detection, requirements-gap-analysis, requirements-consistency-check, requirements-sign-off, document-review"
-prompt: "Review this FRD before we send it to the business for sign-off. Use a proper checklist and tell me if it is ready."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Run a requirements review"
+  related: "ambiguity-detection, requirements-gap-analysis, requirements-consistency-check, requirements-sign-off, document-review"
+  prompt: "Review this FRD before we send it to the business for sign-off. Use a proper checklist and tell me if it is ready."
 ---
 
 # Run a Requirements Review

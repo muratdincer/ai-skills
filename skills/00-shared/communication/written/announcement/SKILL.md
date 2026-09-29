@@ -1,7 +1,16 @@
 ---
-description: Writes an announcement of a change, release, policy, process or decision structured as what is changing, why, who is affected and how, when it takes effect, what readers must do, and where to get help. Use when a team, department or user base must be informed of something new or different through email, chat channel, intranet post or newsletter.
-related: release-announcement, org-change-communication, communication-plan, faq-builder, stakeholder-email
-prompt: Announce to all engineering teams that from 1 March every production deployment must pass the new security scan gate, and what they need to do before then.
+name: announcement
+description: "Writes an announcement of a change, release, policy, process or decision structured as what is changing, why, who is affected and how, when it takes effect, what readers must do, and where to get help. Use when a team, department or user base must be informed of something new or different through email, chat channel, intranet post or newsletter."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: communication
+  area: written
+  title: "Write an announcement"
+  related: "release-announcement, org-change-communication, communication-plan, faq-builder, stakeholder-email"
+  prompt: "Announce to all engineering teams that from 1 March every production deployment must pass the new security scan gate, and what they need to do before then."
 ---
 
 # Write an Announcement

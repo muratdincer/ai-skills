@@ -1,7 +1,16 @@
 ---
+name: srs-writing
 description: "ISO/IEC/IEEE 29148 ile uyumlu bir Yazılım Gereksinim Şartnamesi (SRS) yazar: amaç ve kapsam, sistem bağlamı ve arayüzler, fonksiyonel gereksinimler, kalite nitelikleri, veri, kısıtlar ve her gereksinim için doğrulama yöntemi; her gereksinim tekil ID'li ve izlenebilirdir. Bir sistem veya alt sistemin tasarım, geliştirme, tedarikçi ya da denetim için tanımlanması gerektiğinde veya iş gereksinimlerinin doğrulanabilir bir sistem şartnamesine dönüştürülmesi gerektiğinde kullanılır."
-related: "frd-writing, nfr-specification, use-case-spec, integration-requirements, traceability-matrix"
-prompt: "Bu FRD ve arayüz listesine göre ödeme mutabakat servisi için bir SRS yaz."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: system-analyst
+  area: specification
+  title: "Yazılım Gereksinim Şartnamesi (SRS) yazma"
+  related: "frd-writing, nfr-specification, use-case-spec, integration-requirements, traceability-matrix"
+  prompt: "Bu FRD ve arayüz listesine göre ödeme mutabakat servisi için bir SRS yaz."
 ---
 
 # Yazılım Gereksinim Şartnamesi (SRS) Yazma

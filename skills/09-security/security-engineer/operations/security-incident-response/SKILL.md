@@ -1,7 +1,16 @@
 ---
+name: security-incident-response
 description: "Guides the response to a suspected or confirmed security incident through triage, containment, evidence preservation, eradication, recovery and notification, including KVKK and GDPR personal data breach duties, and produces an incident log and action plan. Use when there are signs of compromise, credential leakage, malware, data exfiltration or unauthorized access and the team needs a structured, defensive response."
-related: "incident-response, incident-communication, postmortem, vulnerability-triage, security-finding-report"
-prompt: "We found an AWS access key of our CI user in a public GitHub repo and CloudTrail shows calls from an unknown IP. Help us respond."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 09-security
+  role: security-engineer
+  area: operations
+  title: "Respond to a security incident"
+  related: "incident-response, incident-communication, postmortem, vulnerability-triage, security-finding-report"
+  prompt: "We found an AWS access key of our CI user in a public GitHub repo and CloudTrail shows calls from an unknown IP. Help us respond."
 ---
 
 # Respond to a Security Incident

@@ -1,7 +1,16 @@
 ---
+name: problem-management
 description: "Runs problem management for recurring or major incidents: groups related incidents, frames the problem, drives evidence-based root cause analysis, records a known error with workaround, and proposes permanent fixes through change control with verification criteria. Use when the same incident type keeps recurring, after a major incident, when incident trends point to an underlying cause, or when a problem record must be opened, progressed or closed."
-related: "known-error-article, five-whys, fishbone-analysis, change-request-rfc, postmortem"
-prompt: "Open a problem record: we had 7 incidents in 3 weeks where the nightly batch overran and the morning reports were late; each was fixed by restarting the job."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 11-support-ops
+  role: it-service-management
+  area: itsm
+  title: "Run problem management"
+  related: "known-error-article, five-whys, fishbone-analysis, change-request-rfc, postmortem"
+  prompt: "Open a problem record: we had 7 incidents in 3 weeks where the nightly batch overran and the morning reports were late; each was fixed by restarting the job."
 ---
 
 # Run Problem Management

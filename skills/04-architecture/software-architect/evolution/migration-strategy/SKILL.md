@@ -1,7 +1,16 @@
 ---
-description: Plans how to move from a current system or platform to a target one by comparing strangler fig, parallel run, phased and big-bang approaches, defining slices and their order, data migration and synchronization, coexistence and routing, verification and rollback per step, and cutover criteria. Use when replacing or re-platforming a system, extracting services from a monolith, moving to a new database or cloud, or when a migration plan needs a risk review.
-related: target-state-architecture, service-decomposition, modernization-assessment, rollback-plan, schema-migration-plan
-prompt: Plan the migration of our on-premise order management monolith to the new cloud-based order services without downtime during the sales season.
+name: migration-strategy
+description: "Plans how to move from a current system or platform to a target one by comparing strangler fig, parallel run, phased and big-bang approaches, defining slices and their order, data migration and synchronization, coexistence and routing, verification and rollback per step, and cutover criteria. Use when replacing or re-platforming a system, extracting services from a monolith, moving to a new database or cloud, or when a migration plan needs a risk review."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: evolution
+  title: "Plan a migration"
+  related: "target-state-architecture, service-decomposition, modernization-assessment, rollback-plan, schema-migration-plan"
+  prompt: "Plan the migration of our on-premise order management monolith to the new cloud-based order services without downtime during the sales season."
 ---
 
 # Plan a Migration

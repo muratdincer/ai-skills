@@ -1,7 +1,16 @@
 ---
-description: Evaluates vendors or products for a technology purchase, from requirements and knock-out criteria through a weighted scoring model fixed before responses are read, evidence-based scoring, total cost of ownership and risk, to a documented recommendation. Use when selecting a software product, platform, cloud or service provider, preparing or scoring an RFP, or when a vendor choice must be defensible to procurement, audit or leadership.
-related: decision-matrix, build-vs-buy, fit-gap-analysis, vendor-status-review, it-risk-assessment
-prompt: We have 3 responses to our RFP for an API management platform; build the evaluation model and recommend a vendor.
+name: vendor-evaluation
+description: "Evaluates vendors or products for a technology purchase, from requirements and knock-out criteria through a weighted scoring model fixed before responses are read, evidence-based scoring, total cost of ownership and risk, to a documented recommendation. Use when selecting a software product, platform, cloud or service provider, preparing or scoring an RFP, or when a vendor choice must be defensible to procurement, audit or leadership."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 13-leadership
+  role: executive
+  area: strategy
+  title: "Evaluate vendors (RFP)"
+  related: "decision-matrix, build-vs-buy, fit-gap-analysis, vendor-status-review, it-risk-assessment"
+  prompt: "We have 3 responses to our RFP for an API management platform; build the evaluation model and recommend a vendor."
 ---
 
 # Evaluate Vendors (RFP)

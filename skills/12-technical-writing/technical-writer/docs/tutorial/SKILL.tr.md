@@ -1,7 +1,16 @@
 ---
-description: Diátaxis anlamında öğrenme odaklı bir eğitim (tutorial) yazar; yeni başlayan birinin somut bir şey inşa ettiği, tanımlı bir öğrenme çıktısı, ön koşulları, küçük ve doğrulanabilir adımları, her adımdan sonra görünür sonuçları olan ve sapma içermeyen tek bir yönlendirilmiş yol sunar. Yeni kullanıcıları veya geliştiricileri bir ürüne, API'ye, SDK'ya ya da platforma alıştırırken, bir "başlarken" veya ilk proje dersi gerektiğinde ya da mevcut başlangıç içeriği referans ve nasıl yapılır karışımı olduğunda kullanılır.
-related: how-to-guide, user-guide, docs-information-architecture, technical-onboarding, readme-writing
-prompt: Ödeme API'miz için, bir geliştiricinin yaklaşık 30 dakikada test ödemesi oluşturup webhook'u işlediği bir başlangıç eğitimi yaz.
+name: tutorial
+description: "Diátaxis anlamında öğrenme odaklı bir eğitim (tutorial) yazar; yeni başlayan birinin somut bir şey inşa ettiği, tanımlı bir öğrenme çıktısı, ön koşulları, küçük ve doğrulanabilir adımları, her adımdan sonra görünür sonuçları olan ve sapma içermeyen tek bir yönlendirilmiş yol sunar. Yeni kullanıcıları veya geliştiricileri bir ürüne, API'ye, SDK'ya ya da platforma alıştırırken, bir \"başlarken\" veya ilk proje dersi gerektiğinde ya da mevcut başlangıç içeriği referans ve nasıl yapılır karışımı olduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Eğitim (tutorial) yazma"
+  related: "how-to-guide, user-guide, docs-information-architecture, technical-onboarding, readme-writing"
+  prompt: "Ödeme API'miz için, bir geliştiricinin yaklaşık 30 dakikada test ödemesi oluşturup webhook'u işlediği bir başlangıç eğitimi yaz."
 ---
 
 # Eğitim (Tutorial) Yazma

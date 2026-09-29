@@ -1,7 +1,16 @@
 ---
-description: Guides a structured exploratory data analysis of an unfamiliar dataset - structure, grain, distributions, nulls, duplicates, outliers, time coverage, relationships and quality issues - and reports findings and fitness for use. Use when a new table, extract or file arrives, before building a model, metric or dashboard on it, or when someone asks "what is in this data?".
-related: analysis-plan, data-quality-rules, metric-definition, feature-engineering-plan, data-catalog-entry
-prompt: Explore this dataset: a CSV of 250k e-commerce orders with columns order_id, customer_id, order_ts, amount, currency, status, channel. Here is the profile output.
+name: data-exploration
+description: "Guides a structured exploratory data analysis of an unfamiliar dataset - structure, grain, distributions, nulls, duplicates, outliers, time coverage, relationships and quality issues - and reports findings and fitness for use. Use when a new table, extract or file arrives, before building a model, metric or dashboard on it, or when someone asks \"what is in this data?\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: data-analyst
+  area: analytics
+  title: "Explore a dataset"
+  related: "analysis-plan, data-quality-rules, metric-definition, feature-engineering-plan, data-catalog-entry"
+  prompt: "Explore this dataset: a CSV of 250k e-commerce orders with columns order_id, customer_id, order_ts, amount, currency, status, channel. Here is the profile output."
 ---
 
 # Explore a Dataset

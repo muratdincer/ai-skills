@@ -1,7 +1,16 @@
 ---
-description: Decomposes a system or monolith into service or module boundaries by combining business capabilities, bounded contexts, data ownership, change and scaling drivers and team structure, then evaluates each candidate for coupling, chattiness and distributed-transaction risk and recommends a granularity, including a modular monolith when services are not justified. Use when splitting a monolith, designing a new service landscape, or reviewing whether existing services are too fine or too coarse.
-related: bounded-context-map, event-storming, migration-strategy, team-topology, database-schema-design
-prompt: We want to split our 400k-line insurance monolith into services; help us find the boundaries and data ownership for policy, claims, billing and customer.
+name: service-decomposition
+description: "Decomposes a system or monolith into service or module boundaries by combining business capabilities, bounded contexts, data ownership, change and scaling drivers and team structure, then evaluates each candidate for coupling, chattiness and distributed-transaction risk and recommends a granularity, including a modular monolith when services are not justified. Use when splitting a monolith, designing a new service landscape, or reviewing whether existing services are too fine or too coarse."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 04-architecture
+  role: software-architect
+  area: domain
+  title: "Decompose into services"
+  related: "bounded-context-map, event-storming, migration-strategy, team-topology, database-schema-design"
+  prompt: "We want to split our 400k-line insurance monolith into services; help us find the boundaries and data ownership for policy, claims, billing and customer."
 ---
 
 # Decompose Into Services

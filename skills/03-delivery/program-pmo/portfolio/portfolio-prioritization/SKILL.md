@@ -1,7 +1,16 @@
 ---
-description: Prioritizes a portfolio of projects or initiatives by scoring them on value, strategic fit, risk and effort, checking the ranked list against real capacity and dependencies, and producing a funded / queued / stopped recommendation with rationale. Use when there are more initiatives than capacity, during annual or quarterly portfolio planning, when a new demand must be slotted in, or when leadership asks "what should we fund or stop".
-related: decision-matrix, cost-benefit-analysis, okr-definition, program-roadmap, steering-committee-pack
-prompt: Prioritize these 12 initiatives for next year; we have roughly 6 delivery teams and the strategy is to grow digital sales and cut operating cost.
+name: portfolio-prioritization
+description: "Prioritizes a portfolio of projects or initiatives by scoring them on value, strategic fit, risk and effort, checking the ranked list against real capacity and dependencies, and producing a funded / queued / stopped recommendation with rationale. Use when there are more initiatives than capacity, during annual or quarterly portfolio planning, when a new demand must be slotted in, or when leadership asks \"what should we fund or stop\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: program-pmo
+  area: portfolio
+  title: "Prioritize a project portfolio"
+  related: "decision-matrix, cost-benefit-analysis, okr-definition, program-roadmap, steering-committee-pack"
+  prompt: "Prioritize these 12 initiatives for next year; we have roughly 6 delivery teams and the strategy is to grow digital sales and cut operating cost."
 ---
 
 # Prioritize a Project Portfolio

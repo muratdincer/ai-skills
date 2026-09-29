@@ -1,7 +1,16 @@
 ---
+name: request-clarification-questions
 description: "Yeni bir talep için talep sahibine sorulacak netleştirme sorularını konu başlıklarına (iş, kullanıcılar, veri, entegrasyon, NFR, yasal, operasyon, raporlama, geçiş) göre gruplar ve cevabın analizi ne kadar engellediğine göre önceliklendirir. Talep belirsizse, netleştirme toplantısı veya e-postası öncesinde ya da 'iş birimine bununla ilgili ne sormalıyım?' sorusu geldiğinde kullanılır."
-related: "request-intake-document, request-completeness-check, interview-question-set, open-questions-tracker"
-prompt: "Bu talep için talep sahibine ne sormalıyım: 'Müşteriler adreslerini mobil uygulamadan kendileri güncelleyebilsin.'"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Talep netleştirme soruları"
+  related: "request-intake-document, request-completeness-check, interview-question-set, open-questions-tracker"
+  prompt: "Bu talep için talep sahibine ne sormalıyım: 'Müşteriler adreslerini mobil uygulamadan kendileri güncelleyebilsin.'"
 ---
 
 # Talep Netleştirme Soruları

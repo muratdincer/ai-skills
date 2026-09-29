@@ -1,7 +1,16 @@
 ---
+name: roadmap
 description: "Sonuçlara bağlı bir ürün yol haritası oluşturur; Şimdi/Sonra/Daha Sonra ya da güven seviyeli zaman çizelgesi biçiminde temaları, hedef sonuçları, ana girişimleri, bağımlılıkları, açıkça planlanmayanları ve yol haritasının nasıl güncelleneceğini gösterir. Ürün sahibi veya yöneticisinin yönü paydaşlara anlatması, önümüzdeki çeyrekler için ekipleri hizalaması ya da bir özellik listesini sonuç odaklı bir plana dönüştürmesi gerektiğinde kullanılır."
-related: "product-vision, okr-definition, release-planning, backlog-prioritization, program-roadmap"
-prompt: "İK self-servis uygulamamız için bu 25 özellik talebini Şimdi/Sonra/Daha Sonra yol haritasına dönüştür; bu yılki hedeflerimiz daha az İK talebi ve daha yüksek mobil kullanım."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-owner
+  area: planning
+  title: "Ürün yol haritası"
+  related: "product-vision, okr-definition, release-planning, backlog-prioritization, program-roadmap"
+  prompt: "İK self-servis uygulamamız için bu 25 özellik talebini Şimdi/Sonra/Daha Sonra yol haritasına dönüştür; bu yılki hedeflerimiz daha az İK talebi ve daha yüksek mobil kullanım."
 ---
 
 # Ürün Yol Haritası

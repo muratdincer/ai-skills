@@ -1,7 +1,16 @@
 ---
-description: Bir persona ve senaryo için müşteri yolculuğunu aşamalar boyunca eylemler, düşünceler, duygular, temas noktaları, kanallar, sorunlar, kritik anlar ve arka plandaki sorumlularla haritalar; iyileştirme fırsatlarını sıralar. Uçtan uca bir deneyimin anlaşılması, müşterilerin nerede zorlandığının veya vazgeçtiğinin bulunması, kanallar arası ekiplerin hizalanması gerektiğinde ya da yolculuk haritası istendiğinde kullanılır.
-related: persona, jobs-to-be-done, funnel-analysis, user-flow, as-is-process
-prompt: Web sitemiz ve çağrı merkezimiz üzerinden ilk kez konut sigortası alan müşterinin yolculuğunu haritala.
+name: customer-journey-map
+description: "Bir persona ve senaryo için müşteri yolculuğunu aşamalar boyunca eylemler, düşünceler, duygular, temas noktaları, kanallar, sorunlar, kritik anlar ve arka plandaki sorumlularla haritalar; iyileştirme fırsatlarını sıralar. Uçtan uca bir deneyimin anlaşılması, müşterilerin nerede zorlandığının veya vazgeçtiğinin bulunması, kanallar arası ekiplerin hizalanması gerektiğinde ya da yolculuk haritası istendiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: discovery
+  title: "Müşteri yolculuğu haritası"
+  related: "persona, jobs-to-be-done, funnel-analysis, user-flow, as-is-process"
+  prompt: "Web sitemiz ve çağrı merkezimiz üzerinden ilk kez konut sigortası alan müşterinin yolculuğunu haritala."
 ---
 
 # Müşteri Yolculuğu Haritası

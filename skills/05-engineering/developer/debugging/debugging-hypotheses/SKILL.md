@@ -1,7 +1,16 @@
 ---
-description: Generates a ranked list of debugging hypotheses from symptoms and evidence, and pairs each with the cheapest discriminating test, so the investigation converges instead of wandering. Use when a bug's cause is unknown, several explanations seem plausible, a debugging session is going in circles, or a team needs to split investigation work.
-related: bug-reproduction, stack-trace-analysis, log-analysis, five-whys, fishbone-analysis
-prompt: After the last deploy, about 2% of API requests take over 5 seconds, only on some pods. Give me ranked hypotheses and how to test each.
+name: debugging-hypotheses
+description: "Generates a ranked list of debugging hypotheses from symptoms and evidence, and pairs each with the cheapest discriminating test, so the investigation converges instead of wandering. Use when a bug's cause is unknown, several explanations seem plausible, a debugging session is going in circles, or a team needs to split investigation work."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 05-engineering
+  role: developer
+  area: debugging
+  title: "Generate debugging hypotheses"
+  related: "bug-reproduction, stack-trace-analysis, log-analysis, five-whys, fishbone-analysis"
+  prompt: "After the last deploy, about 2% of API requests take over 5 seconds, only on some pods. Give me ranked hypotheses and how to test each."
 ---
 
 # Generate Debugging Hypotheses

@@ -1,7 +1,16 @@
 ---
+name: document-simplify
 description: "Rewrites a document or passage to be shorter and easier to read for its audience by removing redundancy, jargon, hedging and nominalizations while preserving every obligation, number, condition and decision. Use when a text is too long, dense or technical for its readers, when someone asks to shorten, simplify or make something plain-language, or when a document must fit a length limit."
-related: "document-review, executive-summary, tone-rewrite, microcopy, technical-translation"
-prompt: "Simplify this three-page data retention policy so that team leads can understand what they must do; keep all obligations."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: documentation
+  area: review
+  title: "Simplify a document"
+  related: "document-review, executive-summary, tone-rewrite, microcopy, technical-translation"
+  prompt: "Simplify this three-page data retention policy so that team leads can understand what they must do; keep all obligations."
 ---
 
 # Simplify a Document

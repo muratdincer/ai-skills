@@ -1,7 +1,16 @@
 ---
-description: Captures lessons learned from a project, release, phase, incident or initiative as evidence-backed observations of what worked and what did not, their causes, and specific actions to keep or change, each with an owner and a place where it will be applied. Use at the end of a project or phase, after a release or major event, when preparing a closure report, or when someone asks to "write up lessons learned" from notes, retrospectives or timelines.
-related: retrospective-facilitation, postmortem, project-closure-report, kb-article, action-item-extraction
-prompt: Write up lessons learned from our CRM migration project using these retro notes and the timeline.
+name: lessons-learned
+description: "Captures lessons learned from a project, release, phase, incident or initiative as evidence-backed observations of what worked and what did not, their causes, and specific actions to keep or change, each with an owner and a place where it will be applied. Use at the end of a project or phase, after a release or major event, when preparing a closure report, or when someone asks to \"write up lessons learned\" from notes, retrospectives or timelines."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Capture lessons learned"
+  related: "retrospective-facilitation, postmortem, project-closure-report, kb-article, action-item-extraction"
+  prompt: "Write up lessons learned from our CRM migration project using these retro notes and the timeline."
 ---
 
 # Capture Lessons Learned

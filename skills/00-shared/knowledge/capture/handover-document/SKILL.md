@@ -1,7 +1,16 @@
 ---
-description: Writes a handover document that transfers ownership of a system, project, service, workstream or role to a new owner, covering context, current state, responsibilities, contacts, access, recurring duties, risks, open items and a transition plan with an acceptance point. Use when someone leaves, changes role, goes on long leave, when a project moves from delivery to operations, when a vendor or team changes, or when asked to "prepare a handover".
-related: on-call-handover, runbook, onboarding-guide, raid-log, kb-article
-prompt: I'm moving to another team in two weeks. Help me write a handover for the payment reconciliation service I own.
+name: handover-document
+description: "Writes a handover document that transfers ownership of a system, project, service, workstream or role to a new owner, covering context, current state, responsibilities, contacts, access, recurring duties, risks, open items and a transition plan with an acceptance point. Use when someone leaves, changes role, goes on long leave, when a project moves from delivery to operations, when a vendor or team changes, or when asked to \"prepare a handover\"."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: knowledge
+  area: capture
+  title: "Write a handover document"
+  related: "on-call-handover, runbook, onboarding-guide, raid-log, kb-article"
+  prompt: "I'm moving to another team in two weeks. Help me write a handover for the payment reconciliation service I own."
 ---
 
 # Write a Handover Document

@@ -1,7 +1,16 @@
 ---
-description: Produces a production monitoring plan for a machine learning model covering data and prediction drift, performance decay with delayed labels, data quality, operational health, alert thresholds, owners and retraining triggers. Use when a model is about to go live, after an incident caused by silent model degradation, or when someone asks how to know if a model is still working.
-related: model-evaluation-report, model-card, alert-design, observability-plan, feature-engineering-plan
-prompt: Write a monitoring plan for our churn model; it scores all customers nightly and we only learn true churn 60 days later.
+name: ml-monitoring-plan
+description: "Produces a production monitoring plan for a machine learning model covering data and prediction drift, performance decay with delayed labels, data quality, operational health, alert thresholds, owners and retraining triggers. Use when a model is about to go live, after an incident caused by silent model degradation, or when someone asks how to know if a model is still working."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: ml
+  title: "Plan model monitoring"
+  related: "model-evaluation-report, model-card, alert-design, observability-plan, feature-engineering-plan"
+  prompt: "Write a monitoring plan for our churn model; it scores all customers nightly and we only learn true churn 60 days later."
 ---
 
 # Plan Model Monitoring

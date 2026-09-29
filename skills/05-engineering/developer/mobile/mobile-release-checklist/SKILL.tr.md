@@ -1,7 +1,16 @@
 ---
-description: Bir mobil uygulama sürümü için sürümleme, build ve imzalama, izinler ve gizlilik beyanları, mağaza sayfası ve görselleri, kalite kapıları, backend ve zorunlu güncelleme uyumluluğu, kademeli yayın, izleme ve geri alma konularını kapsayan bir go/no-go kontrol listesi oluşturup yürütür; her maddeyi kanıtıyla tamam, açık veya engelli olarak raporlar. Bir iOS veya Android build'i mağaza gönderimine ya da kademeli yayına hazırlanırken veya ekip tekrarlanabilir bir mobil sürüm kontrol listesi istediğinde kullanılır.
-related: app-store-release-notes, release-quality-gate, deployment-checklist, rollback-plan, go-no-go
-prompt: Android ve iOS uygulamalarımızın 4.2.0 sürümünü gelecek salı gönderiyoruz. Konuma dayalı kampanyalar ekliyor. Mobil sürüm kontrol listesini benimle birlikte yürüt.
+name: mobile-release-checklist
+description: "Bir mobil uygulama sürümü için sürümleme, build ve imzalama, izinler ve gizlilik beyanları, mağaza sayfası ve görselleri, kalite kapıları, backend ve zorunlu güncelleme uyumluluğu, kademeli yayın, izleme ve geri alma konularını kapsayan bir go/no-go kontrol listesi oluşturup yürütür; her maddeyi kanıtıyla tamam, açık veya engelli olarak raporlar. Bir iOS veya Android build'i mağaza gönderimine ya da kademeli yayına hazırlanırken veya ekip tekrarlanabilir bir mobil sürüm kontrol listesi istediğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 05-engineering
+  role: developer
+  area: mobile
+  title: "Mobil sürüm kontrol listesi"
+  related: "app-store-release-notes, release-quality-gate, deployment-checklist, rollback-plan, go-no-go"
+  prompt: "Android ve iOS uygulamalarımızın 4.2.0 sürümünü gelecek salı gönderiyoruz. Konuma dayalı kampanyalar ekliyor. Mobil sürüm kontrol listesini benimle birlikte yürüt."
 ---
 
 # Mobil Sürüm Kontrol Listesi

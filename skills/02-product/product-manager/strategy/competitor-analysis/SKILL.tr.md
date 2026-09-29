@@ -1,7 +1,16 @@
 ---
-description: Doğrudan, dolaylı ve ikame rakipleri hedef segment, karşılanan iş, özellikler, fiyatlandırma ve konumlandırma açısından karşılaştırır; tarihli kaynaklarla boşlukları, tehditleri ve farklılaşma fırsatlarını belirler. Bir pazara girerken, strateji veya konumlandırma planlarken, satış kayıplarına hazırlanırken ya da ürünün rakiplerle nasıl kıyaslandığı sorulduğunda kullanılır.
-related: market-analysis, positioning-statement, pricing-analysis, product-strategy-one-pager, swot-analysis
-prompt: Masraf yönetimi uygulamamızı Türk KOBİ'lerinin kullandığı başlıca rakiplerle karşılaştır ve nerede farklılaşabileceğimizi göster.
+name: competitor-analysis
+description: "Doğrudan, dolaylı ve ikame rakipleri hedef segment, karşılanan iş, özellikler, fiyatlandırma ve konumlandırma açısından karşılaştırır; tarihli kaynaklarla boşlukları, tehditleri ve farklılaşma fırsatlarını belirler. Bir pazara girerken, strateji veya konumlandırma planlarken, satış kayıplarına hazırlanırken ya da ürünün rakiplerle nasıl kıyaslandığı sorulduğunda kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: strategy
+  title: "Rakip analizi"
+  related: "market-analysis, positioning-statement, pricing-analysis, product-strategy-one-pager, swot-analysis"
+  prompt: "Masraf yönetimi uygulamamızı Türk KOBİ'lerinin kullandığı başlıca rakiplerle karşılaştır ve nerede farklılaşabileceğimizi göster."
 ---
 
 # Rakip Analizi

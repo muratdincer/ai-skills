@@ -1,7 +1,16 @@
 ---
+name: test-scenarios-from-requirements
 description: "Derives high-level test scenarios (positive, negative, edge, permission, integration and non-functional) from requirements, user stories, use cases or acceptance criteria, with traceability to the source and a priority for each. Use when test design starts for a feature, when checking coverage of a story, or when someone asks what should be tested for a requirement."
-related: test-case-writing, testability-review, equivalence-boundary-analysis, traceability-matrix, bdd-feature-file
-prompt: "Derive test scenarios for this story: a customer can cancel an order until it is shipped and gets a refund to the original payment method."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Derive test scenarios"
+  related: "test-case-writing, testability-review, equivalence-boundary-analysis, traceability-matrix, bdd-feature-file"
+  prompt: "Derive test scenarios for this story: a customer can cancel an order until it is shipped and gets a refund to the original payment method."
 ---
 
 # Derive Test Scenarios

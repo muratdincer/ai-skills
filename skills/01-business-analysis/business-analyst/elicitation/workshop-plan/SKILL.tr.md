@@ -1,7 +1,16 @@
 ---
+name: workshop-plan
 description: "Bir gereksinim çalıştayı tasarlar: hedefler, katılımcılar ve roller, ön hazırlık, süreleri belli gereksinim toplama aktiviteleri (ör. süreç yürüyüşü, story mapping, kural/istisna turu, önceliklendirme), materyaller, karar kuralları ve beklenen çıktılar; yerinde veya uzaktan formatlar için. Birden çok paydaşın gereksinimler üzerinde uzlaşması veya birlikte üretmesi gerektiğinde ya da 'şunun için bir çalıştay planla' denildiğinde kullanılır."
-related: "facilitation-guide, meeting-agenda, interview-question-set, story-mapping, discovery-workshop"
-prompt: "Otomatik kredi limiti kontrolü gereksinimlerini tanımlamak için finans, satış operasyon ve BT ile yarım günlük uzaktan bir çalıştay planla."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: elicitation
+  title: "Gereksinim çalıştayı planlama"
+  related: "facilitation-guide, meeting-agenda, interview-question-set, story-mapping, discovery-workshop"
+  prompt: "Otomatik kredi limiti kontrolü gereksinimlerini tanımlamak için finans, satış operasyon ve BT ile yarım günlük uzaktan bir çalıştay planla."
 ---
 
 # Gereksinim Çalıştayı Planlama

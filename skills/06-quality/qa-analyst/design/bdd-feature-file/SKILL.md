@@ -1,7 +1,16 @@
 ---
+name: bdd-feature-file
 description: "Writes Gherkin feature files with a business-readable feature description, background, declarative scenarios and scenario outlines with example tables, tagged and traceable to requirements. Use when a team practices behavior-driven development or specification by example, when acceptance criteria must become executable specifications, or when existing Gherkin is imperative, UI-bound or hard to maintain."
-related: acceptance-criteria, user-story, test-scenarios-from-requirements, test-automation-script, equivalence-boundary-analysis
-prompt: "Write a feature file for the coupon rule: one coupon per order, minimum basket 250 TL, not combinable with campaign prices, expired coupons rejected."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Write BDD feature files"
+  related: "acceptance-criteria, user-story, test-scenarios-from-requirements, test-automation-script, equivalence-boundary-analysis"
+  prompt: "Write a feature file for the coupon rule: one coupon per order, minimum basket 250 TL, not combinable with campaign prices, expired coupons rejected."
 ---
 
 # Write BDD Feature Files

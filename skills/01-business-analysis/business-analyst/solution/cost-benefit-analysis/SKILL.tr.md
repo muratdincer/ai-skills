@@ -1,7 +1,16 @@
 ---
+name: cost-benefit-analysis
 description: "Bir girişimin veya rakip seçeneklerin maliyet ve faydalarını belirli bir dönem boyunca sayısallaştırır; tek seferlik ve tekrarlayan kalemleri, somut ve soyut faydaları ayırır; net faydayı, ROI'yi, geri dönüş süresini ve istenirse NPV'yi temel varsayımlara duyarlılık analiziyle hesaplar. Bir iş gerekçesi, yatırım kararı veya seçenek karşılaştırması rakam gerektirdiğinde ya da 'değer mi?' veya 'ROI ne?' diye sorulduğunda kullanılır."
-related: "feasibility-study, budget-proposal, cloud-cost-estimate, benefits-realization, decision-matrix"
-prompt: "Fatura eşleştirme otomasyonu için maliyet-fayda analizi yap: lisans yıllık 40 bin, uygulama 120 bin, 3 FTE'lik manuel işi azaltması bekleniyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: solution
+  title: "Maliyet-fayda analizi"
+  related: "feasibility-study, budget-proposal, cloud-cost-estimate, benefits-realization, decision-matrix"
+  prompt: "Fatura eşleştirme otomasyonu için maliyet-fayda analizi yap: lisans yıllık 40 bin, uygulama 120 bin, 3 FTE'lik manuel işi azaltması bekleniyor."
 ---
 
 # Maliyet-Fayda Analizi

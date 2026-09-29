@@ -1,7 +1,16 @@
 ---
-description: Olumlu veya düzeltici geri bildirimi Durum-Davranış-Etki (SBI) modeliyle kurgular; gözlenen davranışı yorumdan ayırır, somut etkiyi belirtir ve bir talep ile açık bir soruyla bitirir. Birinin bir çalışma arkadaşına, ekip üyesine, eşdüzey birine veya yöneticisine geri bildirim vermesi, zor bir konuşmaya hazırlanması ya da kişiyi yargılar gibi duran bir geri bildirimi yeniden yazması gerektiğinde kullanılır.
-related: one-on-one-prep, performance-review, conflict-resolution, tone-rewrite, underperformance-plan
-prompt: Review beklemeden pull request'leri merge eden kıdemli bir geliştiriciye, onu savunmaya geçirmeden geri bildirim vermeme yardım et.
+name: feedback-sbi
+description: "Olumlu veya düzeltici geri bildirimi Durum-Davranış-Etki (SBI) modeliyle kurgular; gözlenen davranışı yorumdan ayırır, somut etkiyi belirtir ve bir talep ile açık bir soruyla bitirir. Birinin bir çalışma arkadaşına, ekip üyesine, eşdüzey birine veya yöneticisine geri bildirim vermesi, zor bir konuşmaya hazırlanması ya da kişiyi yargılar gibi duran bir geri bildirimi yeniden yazması gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: communication
+  area: interpersonal
+  title: "Geri bildirim verme (SBI)"
+  related: "one-on-one-prep, performance-review, conflict-resolution, tone-rewrite, underperformance-plan"
+  prompt: "Review beklemeden pull request'leri merge eden kıdemli bir geliştiriciye, onu savunmaya geçirmeden geri bildirim vermeme yardım et."
 ---
 
 # Geri Bildirim Verme (SBI)

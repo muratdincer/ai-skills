@@ -1,7 +1,16 @@
 ---
+name: automation-candidate-selection
 description: "Adayları koşum sıklığı, iş riski, özelliğin kararlılığı, deterministiklik, veri ve ortam kontrolü ile yazma/bakım maliyetine göre puanlayarak hangi testlerin otomatikleştirileceğini seçer; her birini güvenilir en ucuz test seviyesine yerleştirir ve kaba geri dönüş tahminiyle sıralı bir backlog verir. Ekip sırada neyi otomatikleştireceğini sorduğunda, büyük bir manuel regresyon seti olduğunda, otomasyon yatırımı gerekçelendirilecekken ya da düşük değerli UI testlerinin otomasyonu durdurulmak istendiğinde kullanılır."
-related: automation-framework-design, test-automation-script, regression-selection, risk-based-testing, flaky-test-analysis
-prompt: "350 manuel regresyon case'imiz var. Önce hangilerini, hangi seviyede otomatikleştirmeliyiz?"
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: automation-engineer
+  area: automation
+  title: "Otomasyon adayı seçimi"
+  related: "automation-framework-design, test-automation-script, regression-selection, risk-based-testing, flaky-test-analysis"
+  prompt: "350 manuel regresyon case'imiz var. Önce hangilerini, hangi seviyede otomatikleştirmeliyiz?"
 ---
 
 # Otomasyon Adayı Seçimi

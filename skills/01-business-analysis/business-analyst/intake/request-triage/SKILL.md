@@ -1,7 +1,16 @@
 ---
+name: request-triage
 description: "Classifies one or more incoming business requests by type, urgency, value, effort class and risk, detects duplicates, and routes each to the right path (fast track, analysis, feasibility, project, support, reject). Use when a queue of new requests must be sorted, at a demand review, or when asked 'where should these requests go and what comes first?'."
-related: "request-intake-document, request-completeness-check, ticket-triage, backlog-prioritization, change-request-analysis"
-prompt: "Triage these 8 requests from this week's inbox and tell me which go to analysis, which are support tickets and which we should reject."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: intake
+  title: "Triage incoming requests"
+  related: "request-intake-document, request-completeness-check, ticket-triage, backlog-prioritization, change-request-analysis"
+  prompt: "Triage these 8 requests from this week's inbox and tell me which go to analysis, which are support tickets and which we should reject."
 ---
 
 # Triage Incoming Requests

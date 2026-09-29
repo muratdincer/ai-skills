@@ -1,7 +1,16 @@
 ---
+name: decision-table-testing
 description: "Builds decision tables from business rules by listing conditions and actions, enumerating combinations, collapsing irrelevant ones and deriving one test per rule column, while exposing missing and contradictory rules. Use when behavior depends on combinations of conditions (eligibility, pricing, approvals, discounts, routing), or when someone asks to test a set of if-then rules."
-related: equivalence-boundary-analysis, business-rules-catalog, test-case-writing, pairwise-testing, state-transition-testing
-prompt: "Build a decision table for shipping fees: free for members over 200 TL, 29 TL standard, express +40 TL, islands add 50 TL, members get express at half price."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Build decision table tests"
+  related: "equivalence-boundary-analysis, business-rules-catalog, test-case-writing, pairwise-testing, state-transition-testing"
+  prompt: "Build a decision table for shipping fees: free for members over 200 TL, 29 TL standard, express +40 TL, islands add 50 TL, members get express at half price."
 ---
 
 # Build Decision Table Tests

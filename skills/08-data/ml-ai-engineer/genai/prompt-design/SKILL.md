@@ -1,7 +1,16 @@
 ---
-description: Designs or rewrites a production prompt for a language-model feature with role, task, context, constraints, examples, output format and failure handling, plus a small test set to verify it. Use when building a new LLM-powered feature, when an existing prompt gives inconsistent, verbose or wrongly formatted answers, or when someone asks to improve, structure or harden a prompt.
-related: llm-eval-set, rag-design, ai-skill-authoring, ai-use-case-assessment
-prompt: Design a prompt that classifies incoming support emails into 8 categories and returns JSON with category, confidence and a one-line reason.
+name: prompt-design
+description: "Designs or rewrites a production prompt for a language-model feature with role, task, context, constraints, examples, output format and failure handling, plus a small test set to verify it. Use when building a new LLM-powered feature, when an existing prompt gives inconsistent, verbose or wrongly formatted answers, or when someone asks to improve, structure or harden a prompt."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 08-data
+  role: ml-ai-engineer
+  area: genai
+  title: "Design a prompt"
+  related: "llm-eval-set, rag-design, ai-skill-authoring, ai-use-case-assessment"
+  prompt: "Design a prompt that classifies incoming support emails into 8 categories and returns JSON with category, confidence and a one-line reason."
 ---
 
 # Design a Prompt

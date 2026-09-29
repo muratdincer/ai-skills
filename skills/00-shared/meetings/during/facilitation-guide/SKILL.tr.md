@@ -1,7 +1,16 @@
 ---
-description: Bir toplantı veya çalıştay için dakika dakika akış planı, açılış ve kapanış metni, gündem maddesi başına yönlendirici sorular, karar kuralı ve baskınlık, sessizlik, konudan sapma ve çatışma için taktikler içeren kolaylaştırıcı metni hazırlar. Birisi bir toplantıyı yönetecek ve özellikle karar, uyum veya ekipler arası oturumları güvenle yürütmek istiyorsa kullanılır.
-related: meeting-agenda, conflict-resolution, retrospective-facilitation, workshop-plan, decision-matrix
-prompt: Ürün, satış ve mühendislikle 3. çeyrek önceliklerinde anlaşmak için 90 dakikalık bir oturumu kolaylaştıracağım. Bana bir kolaylaştırma rehberi ver.
+name: facilitation-guide
+description: "Bir toplantı veya çalıştay için dakika dakika akış planı, açılış ve kapanış metni, gündem maddesi başına yönlendirici sorular, karar kuralı ve baskınlık, sessizlik, konudan sapma ve çatışma için taktikler içeren kolaylaştırıcı metni hazırlar. Birisi bir toplantıyı yönetecek ve özellikle karar, uyum veya ekipler arası oturumları güvenle yürütmek istiyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 00-shared
+  role: meetings
+  area: during
+  title: "Toplantı kolaylaştırma"
+  related: "meeting-agenda, conflict-resolution, retrospective-facilitation, workshop-plan, decision-matrix"
+  prompt: "Ürün, satış ve mühendislikle 3. çeyrek önceliklerinde anlaşmak için 90 dakikalık bir oturumu kolaylaştıracağım. Bana bir kolaylaştırma rehberi ver."
 ---
 
 # Toplantı Kolaylaştırma

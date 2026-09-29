@@ -1,7 +1,16 @@
 ---
-description: Writes user-facing error, validation and warning messages that say what happened, why if it helps, and what to do next, without blame, jargon or leaking internals, with the right placement, severity and accessibility behavior. Use when error states need copy, when existing messages are vague ("Something went wrong") or technical, or when an error catalog must be turned into user-facing text.
-related: microcopy, voice-and-tone-guide, error-scenario-catalog, error-handling-review, design-handoff
-prompt: Rewrite these five payment error messages so users know what happened and what to do; the current ones just show API error codes.
+name: error-message-writing
+description: "Writes user-facing error, validation and warning messages that say what happened, why if it helps, and what to do next, without blame, jargon or leaking internals, with the right placement, severity and accessibility behavior. Use when error states need copy, when existing messages are vague (\"Something went wrong\") or technical, or when an error catalog must be turned into user-facing text."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 10-design
+  role: ux-writer
+  area: content
+  title: "Write error messages"
+  related: "microcopy, voice-and-tone-guide, error-scenario-catalog, error-handling-review, design-handoff"
+  prompt: "Rewrite these five payment error messages so users know what happened and what to do; the current ones just show API error codes."
 ---
 
 # Write Error Messages

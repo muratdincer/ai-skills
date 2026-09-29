@@ -1,7 +1,16 @@
 ---
-description: Writes a periodic project status report covering overall and per-dimension RAG status (schedule, cost, scope, quality, resources), progress against milestones, variance explanations, top risks and issues, and decisions needed from sponsors. Use for weekly or monthly reporting to sponsors or steering bodies, or when project health must be summarized objectively from plan and actual data.
-related: status-update, steering-committee-pack, earned-value-analysis, raid-log, executive-summary
-prompt: Write this month's status report for the HR system project from these milestone updates, budget actuals and the RAID log.
+name: project-status-report
+description: "Writes a periodic project status report covering overall and per-dimension RAG status (schedule, cost, scope, quality, resources), progress against milestones, variance explanations, top risks and issues, and decisions needed from sponsors. Use for weekly or monthly reporting to sponsors or steering bodies, or when project health must be summarized objectively from plan and actual data."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 03-delivery
+  role: project-manager
+  area: monitoring
+  title: "Write a project status report"
+  related: "status-update, steering-committee-pack, earned-value-analysis, raid-log, executive-summary"
+  prompt: "Write this month's status report for the HR system project from these milestone updates, budget actuals and the RAID log."
 ---
 
 # Write a Project Status Report

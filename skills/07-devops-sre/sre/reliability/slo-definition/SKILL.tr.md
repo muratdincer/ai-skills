@@ -1,7 +1,16 @@
 ---
+name: slo-definition
 description: "Bir servis için kullanıcı odaklı SLI ve SLO'lar tanımlar: kritik kullanıcı yolculuklarını belirler, gösterge türlerini (erişilebilirlik, gecikme, tazelik, doğruluk, verim) seçer, iyi/geçerli olay tanımlarını ve ölçüm noktalarını netleştirir, hedefleri ve uyum pencerelerini ortaya çıkan hata bütçesiyle belirler. Bir servisin güvenilirlik hedeflerine ihtiyacı olduğunda, alarmlar gürültülü veya kullanıcı acısıyla ilgisiz olduğunda ya da bir SLO'nun ne olması gerektiği sorulduğunda kullanılır."
-related: "error-budget-policy, alert-design, observability-plan, nfr-specification, kpi-definition"
-prompt: "Checkout API'miz için SLI ve SLO tanımla. Load balancer logları ve Prometheus metriklerimiz var; iş birimi checkout'un 'her zaman çalışması' gerektiğini söylüyor."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 07-devops-sre
+  role: sre
+  area: reliability
+  title: "SLI ve SLO tanımlama"
+  related: "error-budget-policy, alert-design, observability-plan, nfr-specification, kpi-definition"
+  prompt: "Checkout API'miz için SLI ve SLO tanımla. Load balancer logları ve Prometheus metriklerimiz var; iş birimi checkout'un 'her zaman çalışması' gerektiğini söylüyor."
 ---
 
 # SLI ve SLO Tanımlama

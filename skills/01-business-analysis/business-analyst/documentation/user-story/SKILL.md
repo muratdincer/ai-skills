@@ -1,7 +1,16 @@
 ---
+name: user-story
 description: "Writes user stories in the As a / I want / So that form with a specific persona, a real outcome, context, business rules, dependencies and acceptance criteria hooks, and flags items that are really technical tasks or need splitting. Use when a need, requirement or feature must become backlog items, or when asked to 'write stories', 'turn this into user stories' or rewrite weak ones."
-related: "acceptance-criteria, invest-check, story-splitting, persona, epic-breakdown"
-prompt: "Write user stories for letting store managers approve staff shift swaps from their phone."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 01-business-analysis
+  role: business-analyst
+  area: documentation
+  title: "Write user stories"
+  related: "acceptance-criteria, invest-check, story-splitting, persona, epic-breakdown"
+  prompt: "Write user stories for letting store managers approve staff shift swaps from their phone."
 ---
 
 # Write User Stories

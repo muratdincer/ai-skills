@@ -1,7 +1,16 @@
 ---
-description: Projeyi resmi olarak yetkilendiren proje başlatma belgesini (project charter) hazırlar; amaç, ölçülebilir hedefler, üst düzey kapsam, kilit paydaşlar, bütçe zarfı, kilometre taşları, riskler ve proje yöneticisinin yetkilerini içerir. Bir proje onaylandığında ya da onay beklerken sponsor tarafından imzalanacak tek belgelik bir yetki metni gerektiğinde kullanılır.
-related: scope-statement, stakeholder-register, kickoff-deck, business-model-canvas, governance-framework
-prompt: Şirket içi CRM'imizi SaaS platforma taşıma projesi için proje başlatma belgesi yaz; sponsor Satış Direktörü, hedef canlıya geçiş 2. çeyrek.
+name: project-charter
+description: "Projeyi resmi olarak yetkilendiren proje başlatma belgesini (project charter) hazırlar; amaç, ölçülebilir hedefler, üst düzey kapsam, kilit paydaşlar, bütçe zarfı, kilometre taşları, riskler ve proje yöneticisinin yetkilerini içerir. Bir proje onaylandığında ya da onay beklerken sponsor tarafından imzalanacak tek belgelik bir yetki metni gerektiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 03-delivery
+  role: project-manager
+  area: initiation
+  title: "Proje başlatma belgesi"
+  related: "scope-statement, stakeholder-register, kickoff-deck, business-model-canvas, governance-framework"
+  prompt: "Şirket içi CRM'imizi SaaS platforma taşıma projesi için proje başlatma belgesi yaz; sponsor Satış Direktörü, hedef canlıya geçiş 2. çeyrek."
 ---
 
 # Proje Başlatma Belgesi

@@ -1,7 +1,16 @@
 ---
+name: requirements-gap-analysis
 description: "Bir gereksinim setini (BRD, FRD, kullanıcı hikayeleri, use case'ler) inceler ve eksikleri tespit eder: akışlar, aktörler ve roller, uç durumlar, hata yönetimi, veri kuralları, fonksiyonel olmayan gereksinimler ve geçiş ihtiyaçları. Gereksinimler tamam görünse de sınanmamışsa, tahmin veya onaydan önce ya da 'neyi atlıyoruz?' sorusu sorulduğunda kullanılır."
-related: "ambiguity-detection, requirements-consistency-check, requirements-review-checklist, nfr-specification, error-scenario-catalog"
-prompt: "Kredi başvuru modülünün FRD'si ekte. Tahmine göndermeden önce eksikleri bul."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 01-business-analysis
+  role: business-analyst
+  area: quality
+  title: "Gereksinimlerde eksik bulma"
+  related: "ambiguity-detection, requirements-consistency-check, requirements-review-checklist, nfr-specification, error-scenario-catalog"
+  prompt: "Kredi başvuru modülünün FRD'si ekte. Tahmine göndermeden önce eksikleri bul."
 ---
 
 # Gereksinimlerde Eksik Bulma

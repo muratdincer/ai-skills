@@ -1,7 +1,16 @@
 ---
-description: Bir ürün veya özellik için, kullanıcıların başarması gereken işler etrafında düzenlenmiş; ön koşullar, numaralı adımlar, beklenen sonuçlar, ekran görüntüsü yer tutucuları, sorun giderme ve çapraz bağlantılar içeren görev bazlı bir kullanıcı kılavuzu yazar. Son kullanıcıların veya yöneticilerin yeni ya da değişen bir özellik için dokümantasyona ihtiyaç duyduğunda, bir sürüm kullanıcıya yönelik doküman gerektirdiğinde veya mevcut kılavuz özellik odaklı olup zor takip edildiğinde kullanılır.
-related: how-to-guide, tutorial, docs-information-architecture, style-guide-check, faq-builder
-prompt: Bu spesifikasyonlara ve ekran adlarına göre finans onaylayıcıları için yeni fatura onay akışımızın kullanıcı kılavuzu bölümünü yaz.
+name: user-guide
+description: "Bir ürün veya özellik için, kullanıcıların başarması gereken işler etrafında düzenlenmiş; ön koşullar, numaralı adımlar, beklenen sonuçlar, ekran görüntüsü yer tutucuları, sorun giderme ve çapraz bağlantılar içeren görev bazlı bir kullanıcı kılavuzu yazar. Son kullanıcıların veya yöneticilerin yeni ya da değişen bir özellik için dokümantasyona ihtiyaç duyduğunda, bir sürüm kullanıcıya yönelik doküman gerektirdiğinde veya mevcut kılavuz özellik odaklı olup zor takip edildiğinde kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Kullanıcı kılavuzu yazma"
+  related: "how-to-guide, tutorial, docs-information-architecture, style-guide-check, faq-builder"
+  prompt: "Bu spesifikasyonlara ve ekran adlarına göre finans onaylayıcıları için yeni fatura onay akışımızın kullanıcı kılavuzu bölümünü yaz."
 ---
 
 # Kullanıcı Kılavuzu Yazma

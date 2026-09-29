@@ -1,7 +1,16 @@
 ---
+name: equivalence-boundary-analysis
 description: "Girdi alanlarına, parametrelere ve iş kurallarına denklik sınıfı bölümleme ve sınır değer analizi uygular; geçerli ve geçersiz sınıfları, sınır değerlerini (iki veya üç değerli) ve beklenen sonuçlarıyla en küçük test değeri setini üretir. Bir girdide aralık, uzunluk, format, tarih veya sabit liste olduğunda ya da bir alan veya kural için hangi değerlerin test edileceği sorulduğunda kullanılır."
-related: test-case-writing, decision-table-testing, pairwise-testing, test-data-design, test-scenarios-from-requirements
-prompt: "Kredi başvurusuna sınır değer analizi uygula: tutar 1.000-50.000, vade 6-60 ay, başvuru sahibinin kredi bitişindeki yaşı 18-70."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Denklik sınıfı ve sınır değer analizi"
+  related: "test-case-writing, decision-table-testing, pairwise-testing, test-data-design, test-scenarios-from-requirements"
+  prompt: "Kredi başvurusuna sınır değer analizi uygula: tutar 1.000-50.000, vade 6-60 ay, başvuru sahibinin kredi bitişindeki yaşı 18-70."
 ---
 
 # Denklik Sınıfı ve Sınır Değer Analizi

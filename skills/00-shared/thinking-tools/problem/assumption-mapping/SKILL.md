@@ -1,7 +1,16 @@
 ---
-description: Surfaces the assumptions behind a plan, product idea, estimate or decision, classifies them (desirability, viability, feasibility, usability, ethical/regulatory, delivery), plots them by importance and evidence, and turns the riskiest into testable statements with the cheapest test. Use before committing budget or scope, when a plan feels optimistic, or when someone asks what must be true for this to work.
-related: hypothesis-statement, experiment-design, pre-mortem, risk-register, problem-statement
-prompt: Map the assumptions behind our plan to launch self-service onboarding for SME customers next quarter.
+name: assumption-mapping
+description: "Surfaces the assumptions behind a plan, product idea, estimate or decision, classifies them (desirability, viability, feasibility, usability, ethical/regulatory, delivery), plots them by importance and evidence, and turns the riskiest into testable statements with the cheapest test. Use before committing budget or scope, when a plan feels optimistic, or when someone asks what must be true for this to work."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 00-shared
+  role: thinking-tools
+  area: problem
+  title: "Map assumptions"
+  related: "hypothesis-statement, experiment-design, pre-mortem, risk-register, problem-statement"
+  prompt: "Map the assumptions behind our plan to launch self-service onboarding for SME customers next quarter."
 ---
 
 # Map Assumptions

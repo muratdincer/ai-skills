@@ -1,7 +1,16 @@
 ---
+name: state-transition-testing
 description: "Bir varlığı veya iş akışını durumlar, olaylar, koşullar ve aksiyonlar olarak modeller; ardından tüm geçerli geçişler, geçersiz geçişler (reddedilmesi gereken durum-olay çiftleri) ve önemli geçiş dizileri (0-switch ve 1-switch kapsamı) için testler türetir. Davranış duruma veya geçmişe bağlı olduğunda (sipariş, başvuru, onay, hesap, oturum, cihaz) ya da bir iş akışının veya yaşam döngüsünün test edilmesi istendiğinde kullanılır."
-related: state-model, decision-table-testing, test-case-writing, test-scenarios-from-requirements, api-test-design
-prompt: "Satın alma talebi için durum geçiş testleri oluştur: Taslak, Gönderildi, Onaylandı, Reddedildi, İptal, Sipariş verildi. Yalnızca talep sahibi, sipariş verilmeden önce iptal edebilir."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 06-quality
+  role: qa-analyst
+  area: design
+  title: "Durum geçiş testi"
+  related: "state-model, decision-table-testing, test-case-writing, test-scenarios-from-requirements, api-test-design"
+  prompt: "Satın alma talebi için durum geçiş testleri oluştur: Taslak, Gönderildi, Onaylandı, Reddedildi, İptal, Sipariş verildi. Yalnızca talep sahibi, sipariş verilmeden önce iptal edebilir."
 ---
 
 # Durum Geçiş Testi

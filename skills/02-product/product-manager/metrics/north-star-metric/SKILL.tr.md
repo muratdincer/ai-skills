@@ -1,7 +1,16 @@
 ---
-description: Müşterinin üründen aldığı değeri yakalayan ve gelire bağlanan bir Kuzey Yıldızı metriği seçer; bunu sahipleri ve karşı metrikleriyle birlikte kontrol edilebilir 3-5 girdi metriğinden oluşan bir ağaca ayırır. Ürün ekibinin ortak bir değer metriği yoksa, ekipler birbiriyle çelişen sayıları optimize ediyorsa ya da biri "Kuzey Yıldızımız ne olmalı" diye soruyor veya ürün için metrik ağacı istiyorsa kullanılır.
-related: kpi-definition, okr-definition, metric-definition, product-strategy-one-pager, funnel-analysis
-prompt: Küçük işletmelere yönelik B2B faturalama SaaS ürünümüz için Kuzey Yıldızı metriği ve girdi metrik ağacı tanımla.
+name: north-star-metric
+description: "Müşterinin üründen aldığı değeri yakalayan ve gelire bağlanan bir Kuzey Yıldızı metriği seçer; bunu sahipleri ve karşı metrikleriyle birlikte kontrol edilebilir 3-5 girdi metriğinden oluşan bir ağaca ayırır. Ürün ekibinin ortak bir değer metriği yoksa, ekipler birbiriyle çelişen sayıları optimize ediyorsa ya da biri \"Kuzey Yıldızımız ne olmalı\" diye soruyor veya ürün için metrik ağacı istiyorsa kullanılır."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: tr
+  category: 02-product
+  role: product-manager
+  area: metrics
+  title: "Kuzey Yıldızı metriği tanımlama"
+  related: "kpi-definition, okr-definition, metric-definition, product-strategy-one-pager, funnel-analysis"
+  prompt: "Küçük işletmelere yönelik B2B faturalama SaaS ürünümüz için Kuzey Yıldızı metriği ve girdi metrik ağacı tanımla."
 ---
 
 # Kuzey Yıldızı Metriği Tanımlama

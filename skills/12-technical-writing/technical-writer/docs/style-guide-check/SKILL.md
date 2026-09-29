@@ -1,7 +1,16 @@
 ---
-description: Checks a document against a style guide and terminology list and reports each deviation with location, rule, severity and a concrete rewrite: terminology, voice and tone, grammar and mechanics, formatting conventions, UI and code references, inclusive and accessible language. Use before publishing or reviewing documentation, UI text, release notes or knowledge-base articles, when several authors have produced inconsistent content, or when a team wants to enforce its own or a public style guide.
-related: glossary-builder, document-review, document-simplify, user-guide, how-to-guide
-prompt: Check this installation guide against our style guide and terminology list and give me the fixes as a table.
+name: style-guide-check
+description: "Checks a document against a style guide and terminology list and reports each deviation with location, rule, severity and a concrete rewrite: terminology, voice and tone, grammar and mechanics, formatting conventions, UI and code references, inclusive and accessible language. Use before publishing or reviewing documentation, UI text, release notes or knowledge-base articles, when several authors have produced inconsistent content, or when a team wants to enforce its own or a public style guide."
+license: MIT
+metadata:
+  version: "1.0.0"
+  language: en
+  category: 12-technical-writing
+  role: technical-writer
+  area: docs
+  title: "Check against a style guide"
+  related: "glossary-builder, document-review, document-simplify, user-guide, how-to-guide"
+  prompt: "Check this installation guide against our style guide and terminology list and give me the fixes as a table."
 ---
 
 # Check Against a Style Guide
