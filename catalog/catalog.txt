@@ -1,0 +1,579 @@
+// Skill catalog source of truth.
+// Format:
+//   # <category-dir> | <EN name> | <TR name>
+//   ## <role-dir> | <EN name> | <TR name>
+//   ### <area-dir> | <EN name> | <TR name>
+//   - <skill-id> | <EN title> | <TR title> | <EN one-liner> | <TR one-liner>
+// Skill IDs are globally unique, lowercase, hyphenated (Agent Skills spec).
+
+# 00-shared | Shared (Cross-Role) | Ortak (Roller Arası)
+## meetings | Meetings | Toplantılar
+### before | Before the Meeting | Toplantı Öncesi
+- meeting-agenda | Prepare a meeting agenda | Toplantı gündemi hazırlama | Build a timeboxed agenda with goals, owners and pre-reads | Hedef, sorumlu ve ön okumaları olan, süreleri belli bir gündem hazırlar
+- meeting-invite | Write a meeting invitation | Toplantı daveti yazma | Draft a clear invite: purpose, expected outcome, attendees, prep | Amacı, beklenen çıktısı, katılımcıları ve hazırlığı net bir davet yazar
+- meeting-necessity-check | Decide if a meeting is needed | Toplantı gerekli mi kararı | Assess whether the goal can be met async and propose an alternative | Hedefin asenkron karşılanıp karşılanamayacağını değerlendirir, alternatif önerir
+### during | During the Meeting | Toplantı Sırasında
+- meeting-notes | Take structured meeting notes | Yapılandırılmış toplantı notu tutma | Turn raw notes or transcript into topic-based structured notes | Ham notu veya dökümü konu bazlı yapılandırılmış notlara çevirir
+- transcript-cleanup | Clean up a meeting transcript | Toplantı dökümünü temizleme | Remove filler, fix speakers, keep meaning intact | Dolgu sözcüklerini ayıklar, konuşmacıları düzeltir, anlamı korur
+- facilitation-guide | Facilitate a meeting | Toplantı kolaylaştırma | Give a facilitator script with timeboxes, prompts and conflict handling | Süre planı, yönlendirici sorular ve çatışma yönetimi içeren kolaylaştırıcı metni verir
+### after | After the Meeting | Toplantı Sonrası
+- meeting-summary | Summarize a meeting | Toplantı özeti çıkarma | Produce a short executive summary of outcomes, decisions and open points | Sonuçların, kararların ve açık noktaların kısa yönetici özetini çıkarır
+- meeting-minutes | Write formal meeting minutes | Resmi toplantı tutanağı yazma | Produce formal minutes with attendance, agenda items and resolutions | Katılımcı, gündem maddeleri ve kararlarla resmi tutanak oluşturur
+- action-item-extraction | Extract action items | Aksiyon maddelerini çıkarma | Find every commitment and assign owner, due date and status | Tüm taahhütleri bulur, sorumlu, tarih ve durum atar
+- decision-log | Record decisions | Karar kaydı tutma | Capture decisions with context, alternatives and rationale | Kararları bağlamı, alternatifleri ve gerekçesiyle kaydeder
+- meeting-follow-up | Write a meeting follow-up message | Toplantı sonrası takip mesajı | Send a recap with decisions, actions and next meeting | Kararlar, aksiyonlar ve sonraki toplantıyla özet mesajı yazar
+- open-questions-tracker | Track open questions | Açık soruları takip etme | List unresolved questions with owner and needed-by date | Çözülmemiş soruları sorumlu ve gereken tarihle listeler
+## communication | Communication | İletişim
+### written | Written Communication | Yazılı İletişim
+- status-update | Write a status update | Durum güncellemesi yazma | Summarize progress, risks and next steps using RAG status | İlerlemeyi, riskleri ve sonraki adımları RAG durumuyla özetler
+- executive-summary | Write an executive summary | Yönetici özeti yazma | Condense any content to a one-page decision-oriented summary | Herhangi bir içeriği karar odaklı tek sayfalık özete indirger
+- stakeholder-email | Write a stakeholder email | Paydaş e-postası yazma | Write a purpose-first email adapted to audience and tone | Amacı önde olan, hedef kitleye ve tona uygun e-posta yazar
+- escalation-message | Write an escalation | Eskalasyon mesajı yazma | Escalate with facts, impact, options and a clear ask | Olgu, etki, seçenekler ve net bir taleple eskalasyon yazar
+- announcement | Write an announcement | Duyuru yazma | Announce a change, release or decision with what/why/impact/when | Değişiklik, sürüm veya kararı ne/neden/etki/ne zaman yapısıyla duyurur
+- tone-rewrite | Rewrite for tone | Ton düzenleme | Rewrite a message to be clearer, softer, firmer or more formal | Mesajı daha net, yumuşak, kararlı veya resmi olacak şekilde yeniden yazar
+- bad-news-delivery | Deliver bad news | Kötü haber iletme | Communicate delays, cancellations or failures transparently | Gecikme, iptal veya başarısızlığı şeffaf biçimde iletir
+### verbal | Presentation & Verbal | Sunum ve Sözlü
+- presentation-outline | Outline a presentation | Sunum iskeleti çıkarma | Build a storyline and slide-by-slide outline for an audience | Hedef kitleye göre akış ve slayt slayt iskelet çıkarır
+- demo-script | Write a demo script | Demo senaryosu yazma | Script a product or feature demo with flow, talking points and fallbacks | Akış, anlatım noktaları ve yedek planla ürün/özellik demosu senaryosu yazar
+- elevator-pitch | Write an elevator pitch | Asansör konuşması hazırlama | Explain an idea in 30-60 seconds for a given audience | Bir fikri belirli bir kitleye 30-60 saniyede anlatır
+### interpersonal | Interpersonal | Kişilerarası
+- feedback-sbi | Give feedback (SBI) | Geri bildirim verme (SBI) | Frame feedback as Situation-Behavior-Impact, constructive and specific | Geri bildirimi Durum-Davranış-Etki kalıbında, yapıcı ve somut kurgular
+- conflict-resolution | Resolve a conflict | Çatışma çözme | Map positions and interests and propose a mediated resolution | Pozisyonları ve çıkarları haritalar, arabulucu bir çözüm önerir
+- negotiation-prep | Prepare for a negotiation | Müzakereye hazırlanma | Define BATNA, interests, concessions and opening position | BATNA, çıkarlar, tavizler ve açılış pozisyonunu belirler
+## documentation | Documentation | Dokümantasyon
+### authoring | Authoring | Yazım
+- document-outline | Outline a document | Doküman iskeleti çıkarma | Propose a structure for any document type from its purpose | Amacından yola çıkarak her tür doküman için yapı önerir
+- glossary-builder | Build a glossary | Sözlük oluşturma | Extract domain terms and write unambiguous definitions | Alan terimlerini çıkarır ve belirsizlik içermeyen tanımlar yazar
+- faq-builder | Build an FAQ | SSS oluşturma | Generate likely questions and answers from source material | Kaynak materyalden olası soru ve cevapları üretir
+- diagram-as-code | Produce a diagram as code | Kod olarak diyagram üretme | Turn a description into Mermaid/PlantUML diagrams | Bir tarifi Mermaid/PlantUML diyagramına çevirir
+- technical-translation | Translate technical content | Teknik çeviri | Translate technical text EN<->TR preserving terminology | Teknik metni terminolojiyi koruyarak EN<->TR çevirir
+### review | Review | Gözden Geçirme
+- document-review | Review a document | Doküman gözden geçirme | Review for clarity, completeness, consistency and audience fit | Açıklık, bütünlük, tutarlılık ve hedef kitleye uygunluk açısından inceler
+- document-simplify | Simplify a document | Dokümanı sadeleştirme | Cut length and jargon without losing meaning | Anlamı kaybetmeden uzunluğu ve jargonu azaltır
+- doc-diff-summary | Summarize document changes | Doküman değişikliklerini özetleme | Compare two versions and explain what changed and why it matters | İki sürümü karşılaştırır, neyin değiştiğini ve önemini açıklar
+## thinking-tools | Problem Solving & Decision Tools | Problem Çözme ve Karar Araçları
+### problem | Problem Framing | Problem Tanımlama
+- problem-statement | Write a problem statement | Problem tanımı yazma | Frame who has what problem, when, with what impact | Kimin, ne zaman, hangi etkiyle hangi problemi yaşadığını tanımlar
+- five-whys | Run a 5 Whys analysis | 5 Neden analizi | Drill down from a symptom to a root cause | Belirtiden kök nedene iner
+- fishbone-analysis | Run a fishbone analysis | Balık kılçığı analizi | Categorize possible causes (Ishikawa) | Olası nedenleri kategorize eder (Ishikawa)
+- assumption-mapping | Map assumptions | Varsayım haritalama | List assumptions and rank them by risk and evidence | Varsayımları listeler, risk ve kanıta göre sıralar
+### decision | Decision Making | Karar Verme
+- decision-matrix | Build a weighted decision matrix | Ağırlıklı karar matrisi | Score options against weighted criteria | Seçenekleri ağırlıklı kriterlere göre puanlar
+- pros-cons | List pros and cons | Artı-eksi analizi | Balanced pros/cons with a recommendation | Önerisiyle birlikte dengeli artı/eksi listesi çıkarır
+- swot-analysis | Run a SWOT analysis | SWOT analizi | Strengths, weaknesses, opportunities, threats with actions | Güçlü/zayıf yönler, fırsatlar ve tehditleri aksiyonlarıyla çıkarır
+- trade-off-analysis | Analyze trade-offs | Ödünleşim analizi | Make explicit what is gained and lost per option | Her seçenekte neyin kazanılıp neyin kaybedildiğini açıkça ortaya koyar
+- pre-mortem | Run a pre-mortem | Pre-mortem | Imagine failure and list how it happened to find risks early | Başarısızlığı varsayıp nasıl olduğunu listeleyerek riskleri erken bulur
+- bias-check | Check for cognitive bias | Bilişsel yanlılık kontrolü | Detect confirmation, anchoring, survivorship and other biases in an analysis or decision | Bir analiz veya karardaki doğrulama, çıpalama, hayatta kalan yanılgısı gibi yanlılıkları tespit eder
+## knowledge | Knowledge Management | Bilgi Yönetimi
+### capture | Capture & Transfer | Kayıt ve Aktarım
+- lessons-learned | Capture lessons learned | Çıkarılan dersleri kaydetme | Record what worked, what didn't and actions to keep/change | Neyin işe yarayıp neyin yaramadığını ve korunacak/değişecek aksiyonları kaydeder
+- handover-document | Write a handover document | Devir-teslim dokümanı yazma | Transfer ownership: context, state, contacts, risks, open items | Sahipliği devreder: bağlam, durum, iletişim, riskler, açık işler
+- kb-article | Write a knowledge base article | Bilgi bankası makalesi yazma | Write a searchable how-to or explanation article | Aranabilir bir nasıl-yapılır veya açıklama makalesi yazar
+- onboarding-guide | Write an onboarding guide | Oryantasyon rehberi yazma | Guide a newcomer through context, tools, people and first tasks | Yeni geleni bağlam, araçlar, kişiler ve ilk görevler boyunca yönlendirir
+
+# 01-business-analysis | Business Analysis | İş Analizi
+## business-analyst | Business Analyst | İş Analisti
+### intake | Request Intake | Talep Alma
+- request-intake-document | Create a request intake document | Talep alma dokümanı oluşturma | Turn a raw request into a structured intake form with goal, scope, value and owner | Ham talebi hedef, kapsam, değer ve sahip içeren yapılandırılmış talep formuna çevirir
+- request-clarification-questions | Generate request clarification questions | Talep netleştirme soruları | Produce the questions to ask the requester, grouped and prioritized | Talep sahibine sorulacak soruları gruplu ve önceliklendirilmiş şekilde üretir
+- request-triage | Triage incoming requests | Gelen talepleri sınıflandırma | Classify requests by type, urgency, value and route them | Talepleri tür, aciliyet ve değere göre sınıflandırır ve yönlendirir
+- request-completeness-check | Check request completeness | Talep eksiklik kontrolü | Find what is missing or vague in a request before work starts | İş başlamadan önce talepteki eksik veya belirsiz noktaları bulur
+### stakeholders | Stakeholder Analysis | Paydaş Analizi
+- stakeholder-identification | Identify stakeholders | Paydaşları belirleme | List everyone affected, influencing or deciding | Etkilenen, etkileyen veya karar veren herkesi listeler
+- stakeholder-map | Map stakeholders by power/interest | Güç/ilgi paydaş haritası | Place stakeholders on a power/interest grid with engagement strategy | Paydaşları güç/ilgi matrisine yerleştirir, iletişim stratejisi belirler
+- raci-matrix | Build a RACI matrix | RACI matrisi | Assign Responsible/Accountable/Consulted/Informed per activity | Her aktivite için Sorumlu/Hesap Veren/Danışılan/Bilgilendirilen atar
+### elicitation | Elicitation | Gereksinim Toplama
+- interview-question-set | Prepare interview questions | Görüşme soruları hazırlama | Build open, probing and validation questions per stakeholder type | Paydaş tipine göre açık uçlu, derinleştirici ve doğrulayıcı sorular hazırlar
+- interview-notes-analysis | Analyze interview notes | Görüşme notlarını analiz etme | Extract needs, pains, rules and conflicts from interview notes | Görüşme notlarından ihtiyaç, sorun, kural ve çelişkileri çıkarır
+- workshop-plan | Plan a requirements workshop | Gereksinim çalıştayı planlama | Design workshop goals, activities, timing and outputs | Çalıştayın hedeflerini, aktivitelerini, zamanlamasını ve çıktılarını tasarlar
+- questionnaire-design | Design a questionnaire | Anket tasarlama | Create an unbiased survey to gather requirements at scale | Gereksinimleri geniş kitleden toplamak için yanlılıksız anket hazırlar
+- document-analysis | Elicit from existing documents | Mevcut dokümanlardan gereksinim çıkarma | Mine specs, manuals, regulations for requirements | Şartname, kılavuz ve mevzuattan gereksinim çıkarır
+- observation-notes | Structure job-shadowing observations | Gözlem notlarını yapılandırma | Turn shadowing notes into tasks, pains and workarounds | Gözlem notlarını görev, sorun ve geçici çözümlere çevirir
+- requirements-interview | Run an interactive requirements interview | Etkileşimli gereksinim görüşmesi | Interview the user one question at a time until a need is specified well enough to build | İhtiyaç geliştirilebilecek netliğe gelene kadar kullanıcıyla tek tek soru sorarak görüşür
+### documentation | Requirements Documentation | Gereksinim Dokümantasyonu
+- brd-writing | Write a Business Requirements Document | İş Gereksinimleri Dokümanı (BRD) yazma | Document business goals, scope, stakeholders and high-level requirements | İş hedefleri, kapsam, paydaşlar ve üst düzey gereksinimleri belgeler
+- frd-writing | Write a Functional Requirements Document | Fonksiyonel Gereksinim Dokümanı (FRD) yazma | Specify system behavior, inputs, outputs and rules | Sistem davranışını, girdileri, çıktıları ve kuralları tanımlar
+- user-story | Write user stories | Kullanıcı hikayesi yazma | Write As a/I want/So that stories with context | Bağlamıyla birlikte "... olarak ... istiyorum ki ..." hikayeleri yazar
+- acceptance-criteria | Write acceptance criteria | Kabul kriteri yazma | Write testable criteria in Given/When/Then or rule form | Given/When/Then veya kural biçiminde test edilebilir kriterler yazar
+- use-case-spec | Write a use case specification | Kullanım senaryosu (use case) yazma | Actors, preconditions, main/alternate/exception flows | Aktörler, ön koşullar, ana/alternatif/istisna akışları
+- nfr-specification | Specify non-functional requirements | Fonksiyonel olmayan gereksinimleri tanımlama | Make performance, security, availability etc. measurable | Performans, güvenlik, erişilebilirlik vb. gereksinimleri ölçülebilir kılar
+- business-rules-catalog | Build a business rules catalog | İş kuralları kataloğu | Extract and normalize business rules with IDs and sources | İş kurallarını ID ve kaynaklarıyla çıkarıp standartlaştırır
+- data-requirements | Define data requirements | Veri gereksinimlerini tanımlama | Entities, attributes, validations, ownership and retention | Varlıklar, nitelikler, doğrulamalar, sahiplik ve saklama süresi
+- report-requirements | Specify report requirements | Rapor gereksinimi tanımlama | Define report purpose, fields, filters, calculations and audience | Raporun amacını, alanlarını, filtrelerini, hesaplamalarını ve kitlesini tanımlar
+- screen-requirements | Specify screen/UI requirements | Ekran gereksinimi tanımlama | Describe fields, validations, states and behaviors per screen | Ekran bazında alanları, doğrulamaları, durumları ve davranışları tarif eder
+- integration-requirements | Specify integration requirements | Entegrasyon gereksinimi tanımlama | Define systems, data exchanged, frequency, errors and SLAs | Sistemleri, aktarılan veriyi, sıklığı, hataları ve SLA'ları tanımlar
+### quality | Requirements Quality | Gereksinim Kalitesi
+- requirements-gap-analysis | Find gaps in requirements | Gereksinimlerde eksik bulma | Detect missing flows, roles, edge cases, errors and NFRs | Eksik akışları, rolleri, uç durumları, hataları ve NFR'leri tespit eder
+- ambiguity-detection | Detect ambiguous requirements | Belirsiz gereksinim tespiti | Flag vague words, undefined terms and untestable statements | Muğlak ifadeleri, tanımsız terimleri ve test edilemez cümleleri işaretler
+- edge-case-elicitation | Elicit edge cases | Uç durumları ortaya çıkarma | Systematically surface boundary, empty, concurrent, failure and abuse cases | Sınır, boş, eşzamanlı, hata ve kötüye kullanım durumlarını sistematik olarak ortaya çıkarır
+- requirements-consistency-check | Check requirements consistency | Gereksinim tutarlılık kontrolü | Find contradictions and duplicates across requirements | Gereksinimler arasındaki çelişki ve tekrarları bulur
+- invest-check | Check stories against INVEST | INVEST kontrolü | Evaluate stories for Independent, Negotiable, Valuable, Estimable, Small, Testable | Hikayeleri Bağımsız, Tartışılabilir, Değerli, Tahmin Edilebilir, Küçük, Test Edilebilir kriterlerine göre değerlendirir
+- traceability-matrix | Build a traceability matrix | İzlenebilirlik matrisi | Link requirements to goals, designs, tests and releases | Gereksinimleri hedeflere, tasarıma, testlere ve sürümlere bağlar
+- requirements-prioritization | Prioritize requirements | Gereksinim önceliklendirme | Apply MoSCoW, Kano or value/effort and justify ranking | MoSCoW, Kano veya değer/efor uygular ve sıralamayı gerekçelendirir
+- requirements-review-checklist | Run a requirements review | Gereksinim gözden geçirme | Checklist-driven review before sign-off | Onay öncesi kontrol listesine dayalı inceleme yapar
+### process | Process Analysis | Süreç Analizi
+- as-is-process | Document the as-is process | Mevcut süreci (as-is) belgeleme | Capture current steps, actors, systems, pains and timings | Mevcut adımları, aktörleri, sistemleri, sorunları ve süreleri kaydeder
+- to-be-process | Design the to-be process | Hedef süreci (to-be) tasarlama | Propose an improved process and highlight changes | İyileştirilmiş süreci önerir, değişiklikleri vurgular
+- bpmn-model | Describe a process in BPMN | BPMN süreç modeli | Produce BPMN elements (events, gateways, lanes) as text/diagram code | BPMN öğelerini (olay, geçit, kulvar) metin/diyagram kodu olarak üretir
+- process-gap-analysis | Analyze as-is vs to-be gaps | As-is/to-be fark analizi | List gaps and required changes in people, process, tech | İnsan, süreç ve teknolojide farkları ve gereken değişiklikleri listeler
+- value-stream-map | Map a value stream | Değer akışı haritalama | Identify value-add vs waste and lead/process times | Değer katan adımları israftan ayırır, bekleme/işlem sürelerini çıkarır
+### solution | Solution Assessment | Çözüm Değerlendirme
+- feasibility-study | Assess feasibility | Fizibilite değerlendirmesi | Evaluate technical, operational, economic and schedule feasibility | Teknik, operasyonel, ekonomik ve zaman fizibilitesini değerlendirir
+- cost-benefit-analysis | Run a cost-benefit analysis | Maliyet-fayda analizi | Quantify costs, benefits, ROI and payback | Maliyet, fayda, ROI ve geri dönüş süresini sayısallaştırır
+- impact-analysis | Analyze change impact | Etki analizi | Find affected processes, systems, data, users and reports | Etkilenen süreç, sistem, veri, kullanıcı ve raporları bulur
+- change-request-analysis | Analyze a change request | Değişiklik talebi analizi | Assess scope, effort, risk and recommend accept/defer/reject | Kapsam, efor ve riski değerlendirir; kabul/erteleme/ret önerir
+- requirements-sign-off | Prepare requirements sign-off | Gereksinim onayı hazırlama | Summarize baseline, open issues and approvals needed | Temel sürümü, açık konuları ve gereken onayları özetler
+## system-analyst | System Analyst | Sistem Analisti
+### specification | System Specification | Sistem Tanımı
+- srs-writing | Write a Software Requirements Specification | Yazılım Gereksinim Şartnamesi (SRS) yazma | ISO/IEC/IEEE 29148 aligned SRS | ISO/IEC/IEEE 29148 uyumlu SRS hazırlar
+- state-model | Model entity states | Durum modeli çıkarma | Define states, transitions, triggers and guards for an entity | Bir varlığın durumlarını, geçişlerini, tetikleyicilerini ve koşullarını tanımlar
+- sequence-flow | Describe a system interaction sequence | Sistem etkileşim akışı | Produce sequence diagrams for a scenario across systems | Sistemler arası bir senaryo için sıralama diyagramı üretir
+- field-mapping | Map fields between systems | Sistemler arası alan eşleme | Source-to-target mapping with transformations and rules | Dönüşüm ve kurallarıyla kaynak-hedef eşlemesi yapar
+- error-scenario-catalog | Catalog error scenarios | Hata senaryoları kataloğu | List failure cases, messages and expected system behavior | Hata durumlarını, mesajları ve beklenen sistem davranışını listeler
+
+# 02-product | Product Management | Ürün Yönetimi
+## product-manager | Product Manager | Ürün Yöneticisi
+### strategy | Product Strategy | Ürün Stratejisi
+- product-vision | Write a product vision | Ürün vizyonu yazma | Vision statement and vision board (target group, needs, product, goals) | Vizyon cümlesi ve vizyon panosu (hedef kitle, ihtiyaç, ürün, hedefler)
+- product-strategy-one-pager | Write a product strategy one-pager | Tek sayfalık ürün stratejisi | Where to play, how to win, bets and non-goals | Nerede oynanacağı, nasıl kazanılacağı, bahisler ve hedef dışı olanlar
+- okr-definition | Define OKRs | OKR tanımlama | Write outcome-based objectives and measurable key results | Sonuç odaklı hedefler ve ölçülebilir anahtar sonuçlar yazar
+- market-analysis | Analyze a market | Pazar analizi | TAM/SAM/SOM, segments, trends and drivers | TAM/SAM/SOM, segmentler, trendler ve itici güçler
+- competitor-analysis | Analyze competitors | Rakip analizi | Feature, pricing, positioning comparison and gaps | Özellik, fiyat ve konumlandırma karşılaştırması ile boşluklar
+- pestle-analysis | Run a PESTLE analysis | PESTLE analizi | Political, economic, social, technological, legal, environmental factors with implications | Politik, ekonomik, sosyal, teknolojik, yasal ve çevresel faktörleri etkileriyle çıkarır
+- porters-five-forces | Analyze Porter's five forces | Porter'ın beş gücü analizi | Assess industry rivalry, entrants, substitutes, buyer and supplier power | Sektör rekabetini, yeni girenleri, ikameleri, alıcı ve tedarikçi gücünü değerlendirir
+- competitive-battle-card | Build a competitive battle card | Rekabet kartı hazırlama | One-page sales/presales card: strengths, weaknesses, objections, landmines | Satış/ön satış için tek sayfa: güçlü/zayıf yönler, itirazlar, tuzak sorular
+- business-model-canvas | Fill a business/lean canvas | İş modeli / lean kanvas | Complete Business Model or Lean Canvas for an idea | Bir fikir için İş Modeli veya Lean Kanvas'ı doldurur
+- pricing-analysis | Analyze pricing options | Fiyatlandırma analizi | Compare pricing models and willingness-to-pay signals | Fiyat modellerini ve ödeme isteği sinyallerini karşılaştırır
+### discovery | Discovery | Keşif
+- persona | Build a persona | Persona oluşturma | Evidence-based persona with goals, pains, behaviors | Hedefleri, sorunları ve davranışlarıyla kanıta dayalı persona oluşturur
+- jobs-to-be-done | Frame Jobs-to-be-Done | Yapılacak İşler (JTBD) | Write job statements and desired outcomes | İş ifadelerini ve istenen sonuçları yazar
+- value-proposition-canvas | Fill a value proposition canvas | Değer önerisi kanvası | Map customer jobs, pains, gains to products, pain relievers, gain creators | Müşteri işlerini, sorunlarını ve kazanımlarını ürün, çözüm ve kazanım yaratıcılarıyla eşler
+- customer-journey-map | Map the customer journey | Müşteri yolculuğu haritası | Stages, actions, thoughts, emotions, touchpoints, pains | Aşamalar, eylemler, düşünceler, duygular, temas noktaları, sorunlar
+- opportunity-solution-tree | Build an opportunity solution tree | Fırsat-çözüm ağacı | Link outcome to opportunities, solutions and experiments | Hedef sonucu fırsatlara, çözümlere ve deneylere bağlar
+- hypothesis-statement | Write a product hypothesis | Ürün hipotezi yazma | We believe/will result in/we'll know when format | "İnanıyoruz ki / sonuç / bunu şuradan anlayacağız" formatında hipotez yazar
+- experiment-design | Design a product experiment | Ürün deneyi tasarlama | A/B or fake-door test with metric, sample and stop rules | Metrik, örneklem ve durdurma kurallarıyla A/B veya sahte kapı testi tasarlar
+- feedback-synthesis | Synthesize customer feedback | Müşteri geri bildirimi sentezi | Cluster feedback into themes with frequency and severity | Geri bildirimleri sıklık ve önem derecesiyle temalara ayırır
+- problem-interview-script | Write a problem interview script | Problem görüşmesi senaryosu | Non-leading customer interview (Mom Test style) | Yönlendirmeyen müşteri görüşmesi (Mom Test tarzı)
+### definition | Product Definition | Ürün Tanımı
+- prd-writing | Write a Product Requirements Document | Ürün Gereksinim Dokümanı (PRD) yazma | Problem, goals, users, scope, requirements, metrics, risks | Problem, hedefler, kullanıcılar, kapsam, gereksinimler, metrikler, riskler
+- feature-brief | Write a feature brief | Özellik özeti yazma | One-page brief of a feature for alignment | Uyum için bir özelliğin tek sayfalık özeti
+- mvp-scoping | Scope an MVP | MVP kapsamını belirleme | Cut scope to the smallest testable value | Kapsamı test edilebilir en küçük değere indirir
+- epic-breakdown | Break an epic into stories | Epic'i hikayelere bölme | Decompose epics into thin vertical slices | Epic'leri ince dikey dilimlere böler
+- story-mapping | Build a user story map | Kullanıcı hikaye haritası | Backbone activities, steps, stories and release slices | Ana aktiviteler, adımlar, hikayeler ve sürüm dilimleri
+### metrics | Metrics | Metrikler
+- north-star-metric | Define a North Star metric | Kuzey Yıldızı metriği tanımlama | Pick a value metric and its input metrics tree | Değer metriğini ve girdi metrik ağacını belirler
+- kpi-definition | Define KPIs | KPI tanımlama | Name, formula, source, target, owner, cadence | Ad, formül, kaynak, hedef, sahip, periyot
+- funnel-analysis | Analyze a funnel | Huni analizi | Find drop-off points and hypotheses to improve | Kayıp noktalarını ve iyileştirme hipotezlerini bulur
+- feature-adoption-review | Review feature adoption | Özellik benimsenme analizi | Assess usage, retention and outcome of a shipped feature | Yayınlanmış bir özelliğin kullanımını, tutunmasını ve sonucunu değerlendirir
+### launch | Launch | Lansman
+- go-to-market-plan | Write a go-to-market plan | Pazara çıkış planı | Audience, messaging, channels, timing, enablement | Hedef kitle, mesaj, kanallar, zamanlama, hazırlık
+- release-announcement | Write a release announcement | Sürüm duyurusu yazma | Customer-facing announcement focused on benefits | Faydaya odaklanan müşteriye yönelik duyuru
+- positioning-statement | Write a positioning statement | Konumlandırma cümlesi | For/who/is a/that/unlike format | Kimin için/kim/nedir/ne yapar/rakiplerden farkı formatı
+- press-release-faq | Write a working-backwards press release and FAQ | Tersine çalışma basın bülteni ve SSS | Future press release plus customer/internal FAQ to test an idea before building | Geliştirmeden önce fikri sınamak için gelecekteki basın bülteni ve müşteri/iç SSS
+### lifecycle | Product Lifecycle | Ürün Yaşam Döngüsü
+- product-sunset-plan | Plan a product or feature end-of-life | Ürün/özellik kullanımdan kaldırma planı | Decision criteria, customer migration, communication sequence, timeline | Karar kriterleri, müşteri geçişi, iletişim sırası, takvim
+## product-owner | Product Owner | Ürün Sahibi
+### backlog | Backlog Management | Backlog Yönetimi
+- backlog-refinement | Refine the backlog | Backlog iyileştirme | Clarify, split, estimate-ready and order items | Maddeleri netleştirir, böler, tahmine hazır hale getirir ve sıralar
+- backlog-prioritization | Prioritize the backlog | Backlog önceliklendirme | Apply WSJF, RICE, value/effort with rationale | WSJF, RICE, değer/efor ile gerekçeli sıralama yapar
+- story-splitting | Split large stories | Büyük hikayeleri bölme | Split by workflow, rule, data, interface or spike | İş akışı, kural, veri, arayüz veya spike'a göre böler
+- definition-of-ready | Define Definition of Ready | Hazır Tanımı (DoR) oluşturma | Entry criteria for work to start | İşin başlaması için giriş kriterleri
+- definition-of-done | Define Definition of Done | Bitti Tanımı (DoD) oluşturma | Quality checklist for work to be complete | İşin tamamlanması için kalite kontrol listesi
+- backlog-health-check | Check backlog health | Backlog sağlık kontrolü | Detect stale, duplicate, oversized or orphan items | Bayat, tekrar eden, fazla büyük veya sahipsiz maddeleri tespit eder
+### planning | Planning | Planlama
+- roadmap | Build a product roadmap | Ürün yol haritası | Now/Next/Later or timeline roadmap tied to outcomes | Sonuçlara bağlı Şimdi/Sonra/Daha Sonra veya zaman çizelgeli yol haritası
+- release-planning | Plan a release | Sürüm planlama | Scope, dates, dependencies and confidence for a release | Bir sürüm için kapsam, tarihler, bağımlılıklar ve güven seviyesi
+- iteration-goal | Write an iteration goal | İterasyon hedefi yazma | Single coherent goal for a sprint/iteration | Bir sprint/iterasyon için tek ve tutarlı hedef
+- stakeholder-review-prep | Prepare a product review | Ürün değerlendirme toplantısı hazırlığı | What was built, feedback asked, decisions needed | Ne yapıldı, hangi geri bildirim isteniyor, hangi kararlar gerekiyor
+
+# 03-delivery | Project & Delivery Management | Proje ve Teslimat Yönetimi
+## project-manager | Project Manager | Proje Yöneticisi
+### initiation | Initiation | Başlatma
+- project-charter | Write a project charter | Proje başlatma belgesi | Purpose, objectives, scope, stakeholders, budget, authority | Amaç, hedefler, kapsam, paydaşlar, bütçe, yetki
+- scope-statement | Write a scope statement | Kapsam tanımı yazma | In-scope, out-of-scope, deliverables, constraints, assumptions | Kapsam içi/dışı, teslimatlar, kısıtlar, varsayımlar
+- kickoff-deck | Prepare a kickoff | Proje açılış toplantısı hazırlığı | Kickoff agenda and content for team and sponsors | Ekip ve sponsorlar için açılış gündemi ve içeriği
+- stakeholder-register | Build a stakeholder register | Paydaş kaydı | Roles, interests, influence, communication needs | Roller, ilgiler, etki, iletişim ihtiyaçları
+### planning | Planning | Planlama
+- wbs | Build a work breakdown structure | İş kırılım yapısı (WBS) | Decompose deliverables into work packages | Teslimatları iş paketlerine böler
+- estimation-three-point | Estimate with three-point/PERT | Üç noktalı (PERT) tahmin | Optimistic/likely/pessimistic with expected value and range | İyimser/olası/kötümser ile beklenen değer ve aralık
+- schedule-plan | Build a project schedule | Proje takvimi oluşturma | Sequence tasks, dependencies, milestones, critical path | Görevleri, bağımlılıkları, kilometre taşlarını ve kritik yolu sıralar
+- resource-plan | Build a resource plan | Kaynak planı | Skills, allocation and gaps over time | Zamana yayılmış yetkinlik, atama ve eksikler
+- budget-plan | Build a project budget | Proje bütçesi | Cost breakdown, contingency and cash flow | Maliyet kırılımı, yedek pay ve nakit akışı
+- communication-plan | Build a communication plan | İletişim planı | Who gets what, when, how, from whom | Kime, ne, ne zaman, nasıl, kimden
+- risk-register | Build a risk register | Risk kaydı | Risks with probability, impact, owner, response | Olasılık, etki, sahip ve yanıtıyla riskler
+- dependency-map | Map dependencies | Bağımlılık haritası | Internal/external dependencies with owners and dates | Sahip ve tarihleriyle iç/dış bağımlılıklar
+### monitoring | Monitoring & Control | İzleme ve Kontrol
+- project-status-report | Write a project status report | Proje durum raporu | Schedule, cost, scope, risks, decisions needed | Takvim, maliyet, kapsam, riskler, gereken kararlar
+- raid-log | Maintain a RAID log | RAID kaydı tutma | Risks, Assumptions, Issues, Dependencies | Riskler, Varsayımlar, Sorunlar, Bağımlılıklar
+- earned-value-analysis | Run earned value analysis | Kazanılmış değer analizi | PV, EV, AC, SPI, CPI and forecast | PV, EV, AC, SPI, CPI ve tahmin
+- change-control | Run change control | Değişiklik kontrolü | Evaluate and log scope/time/cost changes | Kapsam/zaman/maliyet değişikliklerini değerlendirir ve kaydeder
+- issue-management | Manage an issue | Sorun yönetimi | Log, assess, assign and track an issue to closure | Sorunu kaydeder, değerlendirir, atar ve kapanışa kadar izler
+- vendor-status-review | Review vendor performance | Tedarikçi performans değerlendirmesi | Check deliverables, SLAs and contract obligations | Teslimatları, SLA'ları ve sözleşme yükümlülüklerini kontrol eder
+### closure | Closure | Kapanış
+- project-closure-report | Write a project closure report | Proje kapanış raporu | Outcomes vs objectives, variances, handover, lessons | Hedeflere karşı sonuçlar, sapmalar, devir, dersler
+- acceptance-certificate | Prepare deliverable acceptance | Teslimat kabul belgesi | Acceptance record with criteria and sign-offs | Kriterler ve onaylarla kabul kaydı
+## agile-delivery | Scrum Master / Agile Coach | Scrum Master / Çevik Koç
+### ceremonies | Team Events | Ekip Etkinlikleri
+- iteration-planning | Facilitate iteration planning | İterasyon planlaması kolaylaştırma | Capacity, goal, selection and task breakdown | Kapasite, hedef, seçim ve görev kırılımı
+- daily-sync-summary | Summarize a daily sync | Günlük toplantı özeti | Progress, plan, blockers per person and team | Kişi ve ekip bazında ilerleme, plan, engeller
+- iteration-review-prep | Prepare an iteration review | İterasyon değerlendirmesi hazırlığı | Demo order, increment summary, feedback questions | Demo sırası, artım özeti, geri bildirim soruları
+- retrospective-facilitation | Facilitate a retrospective | Retrospektif kolaylaştırma | Pick a format, run it and produce actions | Format seçer, yürütür ve aksiyon üretir
+- retrospective-format | Design a retrospective format | Retrospektif formatı tasarlama | Tailor a retro format to team mood and topic | Ekibin durumuna ve konuya uygun retro formatı tasarlar
+- estimation-session | Facilitate relative estimation | Göreli tahmin oturumu | Planning poker / t-shirt sizing guidance and reference stories | Planning poker / tişört bedeni yönlendirmesi ve referans hikayeler
+### flow | Flow & Metrics | Akış ve Metrikler
+- velocity-analysis | Analyze velocity/throughput | Hız/verim analizi | Trends, variability and forecast | Trendler, değişkenlik ve öngörü
+- burndown-analysis | Read burndown/burnup charts | Burndown/burnup analizi | Interpret charts and flag risks | Grafikleri yorumlar, riskleri işaretler
+- cycle-time-analysis | Analyze cycle/lead time | Döngü/teslim süresi analizi | Percentiles, bottlenecks, aging work | Yüzdelikler, darboğazlar, yaşlanan işler
+- wip-policy | Define WIP limits and flow policies | WIP limiti ve akış kuralları | Board columns, WIP limits, entry/exit policies | Pano kolonları, WIP limitleri, giriş/çıkış kuralları
+- monte-carlo-forecast | Forecast delivery with Monte Carlo | Monte Carlo ile teslim tahmini | Probabilistic "when/how many" forecast from throughput | Verim verisinden olasılıksal "ne zaman/kaç tane" tahmini
+- impediment-tracking | Track impediments | Engel takibi | Log, escalate and resolve blockers | Engelleri kaydeder, eskale eder ve çözer
+### team | Team Development | Ekip Gelişimi
+- working-agreement | Create a team working agreement | Ekip çalışma sözleşmesi | Norms for communication, availability, reviews, meetings | İletişim, erişilebilirlik, inceleme, toplantı normları
+- team-health-check | Run a team health check | Ekip sağlık kontrolü | Survey dimensions, trends and follow-ups | Anket boyutları, trendler ve takip aksiyonları
+- agile-maturity-assessment | Assess agile maturity | Çeviklik olgunluk değerlendirmesi | Score practices and suggest next improvements | Pratikleri puanlar, sonraki iyileştirmeleri önerir
+## program-pmo | Program Manager / PMO | Program Yöneticisi / PMO
+### portfolio | Portfolio & Program | Portföy ve Program
+- portfolio-prioritization | Prioritize a project portfolio | Proje portföyü önceliklendirme | Score initiatives on value, risk, strategic fit, capacity | Girişimleri değer, risk, stratejik uyum ve kapasiteye göre puanlar
+- program-roadmap | Build a program roadmap | Program yol haritası | Cross-team milestones and integration points | Ekipler arası kilometre taşları ve entegrasyon noktaları
+- cross-team-dependency-board | Run cross-team dependency planning | Ekipler arası bağımlılık planlaması | Identify, negotiate and track inter-team dependencies | Ekipler arası bağımlılıkları belirler, müzakere eder ve izler
+- steering-committee-pack | Prepare a steering committee pack | Yönlendirme kurulu sunumu | Status, decisions needed, risks, financials | Durum, gereken kararlar, riskler, finansal durum
+- governance-framework | Define project governance | Proje yönetişimi tanımlama | Decision rights, forums, gates, reporting cadence | Karar yetkileri, kurullar, geçiş kapıları, raporlama sıklığı
+- benefits-realization | Track benefits realization | Fayda gerçekleşme takibi | Planned vs actual benefits after delivery | Teslimat sonrası planlanan ve gerçekleşen faydalar
+
+# 04-architecture | Architecture | Mimari
+## enterprise-architect | Enterprise Architect | Kurumsal Mimar
+### strategy | Architecture Strategy | Mimari Strateji
+- architecture-principles | Define architecture principles | Mimari ilkeler tanımlama | Principle, rationale and implications (TOGAF style) | İlke, gerekçe ve etkiler (TOGAF tarzı)
+- capability-map | Build a business capability map | İş yetkinlik haritası | Hierarchical capabilities with maturity and heatmap | Olgunluk ve ısı haritasıyla hiyerarşik yetkinlikler
+- application-portfolio-assessment | Assess the application portfolio | Uygulama portföyü değerlendirmesi | TIME model: tolerate, invest, migrate, eliminate | TIME modeli: tolere et, yatırım yap, taşı, kaldır
+- target-state-architecture | Define target-state architecture | Hedef mimari tanımlama | Baseline, target, gap and transition roadmap | Mevcut, hedef, fark ve geçiş yol haritası
+- tech-radar | Maintain a technology radar | Teknoloji radarı | Classify technologies into adopt/trial/assess/hold | Teknolojileri benimse/dene/değerlendir/beklet olarak sınıflar
+## solution-architect | Solution Architect | Çözüm Mimarı
+### design | Solution Design | Çözüm Tasarımı
+- solution-architecture-document | Write a solution architecture document | Çözüm mimarisi dokümanı | arc42-style document: context, constraints, building blocks, runtime, deployment | arc42 tarzı doküman: bağlam, kısıtlar, yapı taşları, çalışma zamanı, dağıtım
+- c4-model | Describe architecture with C4 | C4 ile mimari tanımlama | Context, container, component diagrams as code | Bağlam, konteyner, bileşen diyagramlarını kod olarak üretir
+- adr | Write an Architecture Decision Record | Mimari karar kaydı (ADR) yazma | Context, options, decision, consequences | Bağlam, seçenekler, karar, sonuçlar
+- technology-selection | Select a technology | Teknoloji seçimi | Criteria, shortlist, PoC plan and recommendation | Kriterler, kısa liste, PoC planı ve öneri
+- integration-pattern-selection | Choose integration patterns | Entegrasyon deseni seçimi | Sync/async, API, messaging, file, CDC with trade-offs | Ödünleşimleriyle senkron/asenkron, API, mesajlaşma, dosya, CDC
+- nfr-to-architecture | Map NFRs to architecture tactics | NFR'leri mimari taktiklere eşleme | Quality attribute scenarios and tactics | Kalite niteliği senaryoları ve taktikler
+- build-vs-buy | Decide build vs buy | Yap ya da satın al kararı | TCO, fit, risk, strategic value comparison | TCO, uygunluk, risk ve stratejik değer karşılaştırması
+- cloud-cost-estimate | Estimate cloud cost of a design | Tasarımın bulut maliyet tahmini | Size components and estimate monthly run cost | Bileşenleri boyutlandırır, aylık işletim maliyetini tahmin eder
+### review | Architecture Review | Mimari Gözden Geçirme
+- architecture-review | Review an architecture | Mimari gözden geçirme | Check against principles, NFRs, risks, anti-patterns | İlkelere, NFR'lere, risklere ve anti-desenlere göre kontrol eder
+- atam-evaluation | Run an ATAM-style evaluation | ATAM tarzı değerlendirme | Utility tree, sensitivity points, trade-offs, risks | Fayda ağacı, hassasiyet noktaları, ödünleşimler, riskler
+- resilience-review | Review resilience | Dayanıklılık incelemesi | Failure modes, timeouts, retries, circuit breakers, DR | Hata modları, zaman aşımı, yeniden deneme, devre kesici, felaket kurtarma
+- scalability-review | Review scalability | Ölçeklenebilirlik incelemesi | Bottlenecks, state, partitioning, caching | Darboğazlar, durum yönetimi, bölümleme, önbellek
+## software-architect | Software Architect | Yazılım Mimarı
+### domain | Domain Design | Alan Tasarımı
+- event-storming | Run event storming | Event storming | Domain events, commands, aggregates, policies, hot spots | Alan olayları, komutlar, aggregate'ler, politikalar, sıcak noktalar
+- bounded-context-map | Map bounded contexts | Sınırlı bağlam haritası | Contexts and relationships (ACL, OHS, shared kernel) | Bağlamlar ve ilişkileri (ACL, OHS, paylaşılan çekirdek)
+- aggregate-design | Design aggregates | Aggregate tasarımı | Invariants, boundaries, consistency rules | Değişmezler, sınırlar, tutarlılık kuralları
+- event-driven-design | Design an event-driven flow | Olay güdümlü akış tasarımı | Events, schemas, topics, ordering, idempotency, sagas | Olaylar, şemalar, topic'ler, sıralama, idempotency, saga'lar
+- service-decomposition | Decompose into services | Servislere ayrıştırma | Identify service boundaries and data ownership | Servis sınırlarını ve veri sahipliğini belirler
+### evolution | Architecture Evolution | Mimari Evrim
+- tech-debt-assessment | Assess technical debt | Teknik borç değerlendirmesi | Inventory, classify, estimate interest and prioritize | Envanter çıkarır, sınıflar, maliyetini tahmin eder ve önceliklendirir
+- migration-strategy | Plan a migration | Göç stratejisi planlama | Strangler fig, parallel run, big bang with risks | Riskleriyle strangler fig, paralel çalıştırma, tek seferde geçiş
+- modernization-assessment | Assess a legacy system | Eski sistem modernizasyon değerlendirmesi | 7R options with effort and value | Efor ve değerle 7R seçenekleri
+- api-deprecation-plan | Plan an API deprecation | API kullanımdan kaldırma planı | Versioning, sunset headers, consumer inventory, migration guide, removal gates | Sürümleme, sunset başlıkları, tüketici envanteri, geçiş rehberi, kaldırma kapıları
+- api-design-review | Review an API design | API tasarımı inceleme | Naming, versioning, errors, pagination, idempotency, security | İsimlendirme, sürümleme, hatalar, sayfalama, idempotency, güvenlik
+
+# 05-engineering | Software Engineering | Yazılım Geliştirme
+## developer | Developer (Backend/Frontend/Mobile) | Geliştirici (Backend/Frontend/Mobil)
+### design | Technical Design | Teknik Tasarım
+- technical-design-doc | Write a technical design doc (RFC) | Teknik tasarım dokümanı (RFC) | Problem, approach, alternatives, rollout, risks | Problem, yaklaşım, alternatifler, yayına alma, riskler
+- task-breakdown | Break a story into tasks | Hikayeyi görevlere bölme | Technical tasks with order and estimates | Sıralı ve tahminli teknik görevler
+- api-contract | Write an API contract | API sözleşmesi yazma | OpenAPI/AsyncAPI spec from requirements | Gereksinimlerden OpenAPI/AsyncAPI şartnamesi
+- database-schema-design | Design a database schema | Veritabanı şeması tasarlama | Tables, keys, constraints, indexes from a domain | Alan modelinden tablolar, anahtarlar, kısıtlar, indeksler
+- spike-report | Write a spike report | Spike raporu yazma | Question, findings, options, recommendation | Soru, bulgular, seçenekler, öneri
+### coding | Implementation | Kodlama
+- implement-from-story | Implement a feature from a story | Hikayeden özellik geliştirme | Plan and implement against acceptance criteria | Kabul kriterlerine göre planlar ve uygular
+- refactoring | Refactor code | Kodu yeniden düzenleme | Apply named refactorings safely with tests | Testlerle güvence altında adlandırılmış refactoring'ler uygular
+- clean-code-review | Review for clean code | Clean Code incelemesi | Naming, functions, SOLID, duplication, smells | İsimlendirme, fonksiyonlar, SOLID, tekrar, kod kokuları
+- error-handling-review | Review error handling | Hata yönetimi incelemesi | Exceptions, retries, fallbacks, user-facing errors | İstisnalar, yeniden denemeler, yedek davranışlar, kullanıcıya gösterilen hatalar
+- logging-instrumentation | Add logging and instrumentation | Loglama ve ölçümleme ekleme | Structured logs, metrics and traces at the right points | Doğru noktalarda yapılandırılmış log, metrik ve iz
+- performance-optimization | Optimize performance | Performans iyileştirme | Profile-driven hotspots and fixes | Profil verisine dayalı darboğazlar ve çözümler
+- concurrency-review | Review concurrency | Eşzamanlılık incelemesi | Races, deadlocks, thread safety, async pitfalls | Yarış durumları, kilitlenmeler, thread güvenliği, async tuzakları
+- dependency-upgrade | Upgrade a dependency | Bağımlılık güncelleme | Breaking changes, migration steps, verification | Kırıcı değişiklikler, geçiş adımları, doğrulama
+- code-explanation | Explain code | Kodu açıklama | Explain what code does, why, and its risks | Kodun ne yaptığını, nedenini ve risklerini açıklar
+- legacy-code-comprehension | Understand legacy code | Eski kodu anlama | Map modules, flows and hidden rules in unfamiliar code | Yabancı kodda modülleri, akışları ve gizli kuralları çıkarır
+- regex-builder | Build and explain a regex | Regex oluşturma ve açıklama | Write, test cases and explain a regular expression | Düzenli ifade yazar, test durumlarını verir ve açıklar
+- sql-query-writing | Write a SQL query | SQL sorgusu yazma | Correct, readable, index-friendly queries | Doğru, okunabilir, indeks dostu sorgular
+### testing | Developer Testing | Geliştirici Testleri
+- unit-test-writing | Write unit tests | Birim testi yazma | Arrange-Act-Assert tests covering behavior and edges | Davranış ve uç durumları kapsayan AAA testleri
+- integration-test-writing | Write integration tests | Entegrasyon testi yazma | Tests across real boundaries with test doubles where needed | Gerektiğinde test dublörleriyle gerçek sınırlar arası testler
+- tdd-cycle | Drive code with TDD | TDD ile geliştirme | Red-green-refactor steps for a behavior | Bir davranış için kırmızı-yeşil-refactor adımları
+- test-gap-finder | Find untested code paths | Test edilmemiş yolları bulma | Spot missing tests for branches and edge cases | Dallar ve uç durumlar için eksik testleri bulur
+### collaboration | Code Collaboration | Kod İşbirliği
+- commit-message | Write a commit message | Commit mesajı yazma | Conventional Commits with why | Nedeniyle birlikte Conventional Commits formatında
+- pull-request-description | Write a pull request description | Pull request açıklaması | What, why, how tested, risks, screenshots | Ne, neden, nasıl test edildi, riskler, ekran görüntüleri
+- code-review | Review a pull request | Pull request inceleme | Correctness, design, tests, security, readability | Doğruluk, tasarım, testler, güvenlik, okunabilirlik
+- review-comment-writing | Write review comments | İnceleme yorumu yazma | Specific, kind, actionable, labeled (nit/blocker) | Somut, nazik, uygulanabilir, etiketli (nit/blocker)
+- branching-strategy | Choose a branching strategy | Branch stratejisi seçme | Trunk-based vs GitFlow vs GitHub Flow for context | Bağlama göre trunk-based, GitFlow veya GitHub Flow
+### debugging | Debugging | Hata Ayıklama
+- bug-reproduction | Reproduce a bug | Hatayı yeniden üretme | Minimal reproduction steps and environment | Minimum tekrar adımları ve ortam
+- stack-trace-analysis | Analyze a stack trace | Stack trace analizi | Locate failing frame, cause and fix candidates | Hatalı çerçeveyi, nedeni ve çözüm adaylarını bulur
+- log-analysis | Analyze logs | Log analizi | Correlate events, find anomalies and timeline | Olayları ilişkilendirir, anomali ve zaman çizelgesi çıkarır
+- debugging-hypotheses | Generate debugging hypotheses | Hata ayıklama hipotezleri | Ranked hypotheses and cheapest test for each | Sıralı hipotezler ve her biri için en ucuz test
+### docs | Developer Documentation | Geliştirici Dokümantasyonu
+- readme-writing | Write a README | README yazma | Purpose, setup, usage, config, contributing | Amaç, kurulum, kullanım, yapılandırma, katkı
+- code-documentation | Write code documentation | Kod dokümantasyonu | Docstrings/comments that explain why, not what | Neyi değil nedeni açıklayan docstring/yorumlar
+- api-reference-docs | Write API reference docs | API referans dokümanı | Endpoints, params, examples, errors | Uç noktalar, parametreler, örnekler, hatalar
+- changelog-entry | Write a changelog entry | Değişiklik günlüğü girdisi | Keep a Changelog formatted entries | Keep a Changelog formatında girdiler
+### frontend | Frontend Specific | Frontend'e Özel
+- component-design | Design a UI component | UI bileşeni tasarlama | Props, state, events, variants, accessibility | Prop'lar, durum, olaylar, varyantlar, erişilebilirlik
+- accessibility-audit | Audit accessibility (WCAG) | Erişilebilirlik denetimi (WCAG) | Check WCAG 2.2 criteria and propose fixes | WCAG 2.2 kriterlerini kontrol eder, düzeltme önerir
+- web-performance-audit | Audit web performance | Web performans denetimi | Core Web Vitals issues and fixes | Core Web Vitals sorunları ve çözümleri
+- state-management-design | Design state management | Durum yönetimi tasarımı | Local vs global vs server state decisions | Yerel, global ve sunucu durumu kararları
+### mobile | Mobile Specific | Mobile Özel
+- app-store-release-notes | Write app store release notes | Uygulama mağazası sürüm notları | Short user-facing notes per store limits | Mağaza sınırlarına uygun kısa kullanıcı notları
+- mobile-release-checklist | Run a mobile release checklist | Mobil sürüm kontrol listesi | Versioning, signing, permissions, store assets, rollout | Sürümleme, imzalama, izinler, mağaza görselleri, kademeli yayın
+## tech-lead | Tech Lead | Teknik Lider
+### leadership | Technical Leadership | Teknik Liderlik
+- coding-standards | Write coding standards | Kodlama standartları yazma | Team conventions with examples and rationale | Örnek ve gerekçeleriyle ekip kuralları
+- technical-estimation | Estimate technical work | Teknik iş tahmini | Decompose, estimate with ranges and assumptions | Böler, aralık ve varsayımlarla tahmin eder
+- technical-onboarding | Onboard a developer | Geliştirici oryantasyonu | Codebase tour, setup, first issues, contacts | Kod tabanı turu, kurulum, ilk işler, kişiler
+- technical-risk-review | Review technical risks | Teknik risk incelemesi | Identify delivery and quality risks early | Teslimat ve kalite risklerini erken belirler
+- code-quality-report | Report on code quality | Kod kalitesi raporu | Interpret static analysis metrics and trends | Statik analiz metriklerini ve trendleri yorumlar
+
+# 06-quality | Quality Assurance & Testing | Kalite Güvence ve Test
+## qa-analyst | QA Analyst / Test Engineer | Test Analisti / Test Mühendisi
+### strategy | Test Strategy & Planning | Test Stratejisi ve Planlama
+- test-strategy | Write a test strategy | Test stratejisi yazma | Levels, types, environments, tools, risk-based focus | Seviyeler, türler, ortamlar, araçlar, risk bazlı odak
+- test-plan | Write a test plan | Test planı yazma | Scope, approach, schedule, entry/exit criteria (ISO 29119) | Kapsam, yaklaşım, takvim, giriş/çıkış kriterleri (ISO 29119)
+- risk-based-testing | Prioritize tests by risk | Risk bazlı test önceliklendirme | Likelihood x impact to focus test effort | Olasılık x etki ile test eforunu odaklar
+- testability-review | Review requirements for testability | Gereksinimlerin test edilebilirlik incelemesi | Flag untestable or unclear requirements | Test edilemez veya belirsiz gereksinimleri işaretler
+### design | Test Design | Test Tasarımı
+- test-scenarios-from-requirements | Derive test scenarios | Gereksinimden test senaryosu çıkarma | High-level positive, negative and edge scenarios | Üst düzey pozitif, negatif ve uç senaryolar
+- test-case-writing | Write test cases | Test case yazma | Steps, data, expected results, preconditions | Adımlar, veri, beklenen sonuç, ön koşullar
+- equivalence-boundary-analysis | Apply equivalence and boundary analysis | Denklik sınıfı ve sınır değer analizi | Partition inputs and pick boundary values | Girdileri bölümler, sınır değerleri seçer
+- decision-table-testing | Build decision table tests | Karar tablosu testi | Combine conditions and actions for rules | Kurallar için koşul ve aksiyonları birleştirir
+- state-transition-testing | Build state transition tests | Durum geçiş testi | Cover valid/invalid transitions | Geçerli/geçersiz geçişleri kapsar
+- pairwise-testing | Generate pairwise combinations | İkili kombinasyon testi | Reduce combinations while covering pairs | Çiftleri kapsayarak kombinasyon sayısını azaltır
+- exploratory-test-charter | Write exploratory test charters | Keşif testi görev tanımı | Mission, areas, heuristics, timebox | Görev, alanlar, sezgisel yöntemler, süre
+- test-data-design | Design test data | Test verisi tasarlama | Realistic, anonymized, edge-covering datasets | Gerçekçi, anonimleştirilmiş, uç durumları kapsayan veri setleri
+- bdd-feature-file | Write BDD feature files | BDD feature dosyası yazma | Gherkin scenarios and scenario outlines | Gherkin senaryoları ve senaryo taslakları
+- api-test-design | Design API tests | API testi tasarlama | Contract, status codes, auth, validation, negative cases | Sözleşme, durum kodları, yetkilendirme, doğrulama, negatif durumlar
+### execution | Execution & Defects | Koşum ve Hatalar
+- bug-report | Write a bug report | Hata raporu yazma | Title, steps, expected/actual, environment, evidence, severity | Başlık, adımlar, beklenen/gerçekleşen, ortam, kanıt, önem
+- bug-triage | Triage bugs | Hata önceliklendirme | Severity vs priority, duplicates, assignment | Önem ve öncelik, tekrarlar, atama
+- regression-selection | Select regression tests | Regresyon testi seçimi | Pick tests based on change impact | Değişiklik etkisine göre test seçer
+- test-summary-report | Write a test summary report | Test özet raporu | Coverage, results, defects, residual risk, recommendation | Kapsam, sonuçlar, hatalar, kalan risk, öneri
+- release-quality-gate | Evaluate release readiness | Sürüm kalite kapısı değerlendirmesi | Go/no-go assessment against exit criteria | Çıkış kriterlerine göre yayına alınır/alınmaz kararı
+- defect-trend-analysis | Analyze defect trends | Hata trendi analizi | Density, leakage, root cause categories | Yoğunluk, kaçak hatalar, kök neden kategorileri
+### uat | User Acceptance | Kullanıcı Kabul
+- uat-plan | Plan UAT | Kullanıcı kabul testi planı | Participants, scenarios, schedule, sign-off | Katılımcılar, senaryolar, takvim, onay
+- uat-scenarios | Write UAT scenarios | Kabul testi senaryoları | Business-language end-to-end scenarios | İş dilinde uçtan uca senaryolar
+## automation-engineer | Test Automation Engineer | Test Otomasyon Mühendisi
+### automation | Automation | Otomasyon
+- automation-candidate-selection | Select automation candidates | Otomasyon adayı seçimi | ROI-based selection of what to automate | Neyin otomatikleştirileceğini ROI'ye göre seçer
+- test-automation-script | Write an automated test | Otomatik test yazma | Framework-agnostic page/API object test code | Framework'ten bağımsız page/API object test kodu
+- flaky-test-analysis | Analyze flaky tests | Kararsız test analizi | Classify causes and propose stabilizations | Nedenleri sınıflar, kararlı hale getirme önerir
+- automation-framework-design | Design a test automation framework | Test otomasyon çatısı tasarımı | Layers, patterns, reporting, CI integration | Katmanlar, desenler, raporlama, CI entegrasyonu
+## performance-engineer | Performance Test Engineer | Performans Test Mühendisi
+### performance | Performance Testing | Performans Testi
+- performance-test-plan | Write a performance test plan | Performans test planı | Workload model, scenarios, SLAs, environment | İş yükü modeli, senaryolar, SLA'lar, ortam
+- load-test-analysis | Analyze load test results | Yük testi sonuç analizi | Throughput, latency percentiles, errors, bottlenecks | Verim, gecikme yüzdelikleri, hatalar, darboğazlar
+- capacity-test-report | Write a capacity report | Kapasite raporu | Max sustainable load and headroom | Sürdürülebilir maksimum yük ve pay
+
+# 07-devops-sre | DevOps, SRE & Platform | DevOps, SRE ve Platform
+## devops-engineer | DevOps / Platform Engineer | DevOps / Platform Mühendisi
+### cicd | CI/CD | CI/CD
+- pipeline-design | Design a CI/CD pipeline | CI/CD hattı tasarlama | Stages, gates, artifacts, environments, promotion | Aşamalar, kapılar, artefaktlar, ortamlar, terfi
+- pipeline-failure-triage | Triage a pipeline failure | Hat hatası analizi | Read logs, find cause, propose fix | Logları okur, nedeni bulur, çözüm önerir
+- deployment-strategy | Choose a deployment strategy | Dağıtım stratejisi seçme | Blue-green, canary, rolling, feature flags | Blue-green, canary, rolling, feature flag
+- environment-strategy | Define environment strategy | Ortam stratejisi | Env purposes, parity, data, access | Ortam amaçları, eşdeğerlik, veri, erişim
+### infrastructure | Infrastructure & Containers | Altyapı ve Konteynerler
+- dockerfile-review | Review a Dockerfile | Dockerfile inceleme | Size, layers, security, reproducibility | Boyut, katmanlar, güvenlik, tekrarlanabilirlik
+- kubernetes-manifest-review | Review Kubernetes manifests | Kubernetes manifest inceleme | Resources, probes, security context, HA | Kaynaklar, probe'lar, güvenlik bağlamı, yüksek erişilebilirlik
+- iac-review | Review infrastructure as code | Kod olarak altyapı incelemesi | Terraform/Bicep/etc. for security, drift, modularity | Terraform/Bicep vb. için güvenlik, sapma, modülerlik
+- secrets-management-plan | Plan secrets management | Gizli bilgi yönetimi planı | Vaults, rotation, injection, least privilege | Kasa, rotasyon, enjeksiyon, en az yetki
+- finops-review | Review cloud cost | Bulut maliyet incelemesi | Waste, rightsizing, commitments, tagging | İsraf, doğru boyutlandırma, taahhütler, etiketleme
+## release-manager | Release Manager | Sürüm Yöneticisi
+### release | Release Management | Sürüm Yönetimi
+- release-plan | Write a release plan | Sürüm planı yazma | Contents, schedule, owners, comms, rollback | İçerik, takvim, sorumlular, iletişim, geri dönüş
+- release-notes | Write release notes | Sürüm notları yazma | Features, fixes, breaking changes, known issues | Özellikler, düzeltmeler, kırıcı değişiklikler, bilinen sorunlar
+- deployment-checklist | Build a deployment checklist | Dağıtım kontrol listesi | Pre, during, post deployment checks | Dağıtım öncesi, sırası ve sonrası kontroller
+- rollback-plan | Write a rollback plan | Geri dönüş planı | Triggers, steps, data considerations, verification | Tetikleyiciler, adımlar, veri konuları, doğrulama
+- go-no-go | Run a go/no-go decision | Yayına alma kararı | Criteria, evidence, decision record | Kriterler, kanıtlar, karar kaydı
+- semantic-versioning | Decide a version number | Sürüm numarası belirleme | Apply SemVer from change list | Değişiklik listesinden SemVer uygular
+## sre | Site Reliability Engineer | Site Güvenilirlik Mühendisi
+### reliability | Reliability | Güvenilirlik
+- slo-definition | Define SLIs and SLOs | SLI ve SLO tanımlama | User-centric indicators, targets, windows | Kullanıcı odaklı göstergeler, hedefler, zaman pencereleri
+- error-budget-policy | Write an error budget policy | Hata bütçesi politikası | Actions when budget burns | Bütçe tükendiğinde yapılacaklar
+- alert-design | Design alerts | Alarm tasarımı | Symptom-based, actionable, burn-rate alerts | Belirti bazlı, aksiyon alınabilir, burn-rate alarmları
+- observability-plan | Plan observability | Gözlemlenebilirlik planı | Logs, metrics, traces, dashboards per service | Servis başına log, metrik, iz ve panolar
+- capacity-planning | Plan capacity | Kapasite planlama | Forecast demand and resources with headroom | Talep ve kaynakları pay bırakarak öngörür
+- chaos-experiment | Design a chaos experiment | Kaos deneyi tasarlama | Hypothesis, blast radius, abort conditions | Hipotez, etki alanı, durdurma koşulları
+- dr-plan | Write a disaster recovery plan | Felaket kurtarma planı | RTO/RPO, scenarios, procedures, tests | RTO/RPO, senaryolar, prosedürler, testler
+### incident | Incident Management | Olay Yönetimi
+- runbook | Write a runbook | Runbook yazma | Symptom, diagnosis, remediation, escalation | Belirti, teşhis, çözüm, eskalasyon
+- incident-response | Run incident response | Olay müdahalesi yürütme | Roles, severity, timeline, mitigation steps | Roller, önem derecesi, zaman çizelgesi, hafifletme adımları
+- incident-communication | Write incident communications | Olay iletişimi yazma | Internal and status-page updates per phase | Aşama bazında iç ve durum sayfası güncellemeleri
+- postmortem | Write a blameless postmortem | Suçlamasız olay sonrası analiz | Timeline, impact, root causes, actions | Zaman çizelgesi, etki, kök nedenler, aksiyonlar
+- on-call-handover | Write an on-call handover | Nöbet devri | Open incidents, risks, changes, watch items | Açık olaylar, riskler, değişiklikler, izlenecekler
+
+# 08-data | Data & AI | Veri ve Yapay Zeka
+## data-architect | Data Architect | Veri Mimarı
+### modeling | Data Modeling | Veri Modelleme
+- conceptual-data-model | Build a conceptual data model | Kavramsal veri modeli | Entities and relationships in business language | İş dilinde varlıklar ve ilişkiler
+- logical-data-model | Build a logical data model | Mantıksal veri modeli | Normalized entities, attributes, keys | Normalize varlıklar, nitelikler, anahtarlar
+- dimensional-model | Design a dimensional model | Boyutsal model tasarlama | Facts, dimensions, grain, SCD types | Olgular, boyutlar, tanecik, SCD tipleri
+- data-vault-model | Design a Data Vault model | Data Vault modeli tasarlama | Hubs, links, satellites | Hub, link, satellite yapıları
+- data-platform-architecture | Design a data platform | Veri platformu tasarlama | Lakehouse/warehouse/mesh layers and flows | Lakehouse/warehouse/mesh katmanları ve akışları
+- data-contract | Write a data contract | Veri sözleşmesi yazma | Schema, semantics, SLAs, ownership, versioning | Şema, anlam, SLA, sahiplik, sürümleme
+### governance | Data Governance | Veri Yönetişimi
+- data-catalog-entry | Write a data catalog entry | Veri kataloğu kaydı | Description, owner, lineage, quality, sensitivity | Açıklama, sahip, köken, kalite, hassasiyet
+- data-classification | Classify data sensitivity | Veri hassasiyet sınıflandırması | PII/special category tagging (KVKK/GDPR) | KVKK/GDPR kapsamında kişisel/özel nitelikli veri etiketleme
+- data-quality-rules | Define data quality rules | Veri kalitesi kuralları | Completeness, validity, uniqueness, timeliness checks | Bütünlük, geçerlilik, teklik, güncellik kontrolleri
+- data-lineage-doc | Document data lineage | Veri kökeni dokümantasyonu | Source to consumption flow with transformations | Dönüşümleriyle kaynaktan tüketime akış
+- master-data-strategy | Define master data management | Ana veri yönetimi tanımlama | Golden record, match/merge, stewardship | Altın kayıt, eşleştirme/birleştirme, veri sorumluluğu
+- retention-policy | Define data retention | Veri saklama politikası | Retention periods, archival, deletion rules | Saklama süreleri, arşivleme, silme kuralları
+## data-engineer | Data Engineer | Veri Mühendisi
+### pipelines | Data Pipelines | Veri Hatları
+- pipeline-spec | Specify a data pipeline | Veri hattı tanımlama | Sources, schedule, transformations, targets, SLAs | Kaynaklar, zamanlama, dönüşümler, hedefler, SLA
+- source-to-target-mapping | Write a source-to-target mapping | Kaynak-hedef eşleme dokümanı | Column-level mapping with transformation logic | Dönüşüm mantığıyla sütun düzeyinde eşleme
+- incremental-load-design | Design incremental loads | Artımlı yükleme tasarımı | CDC, watermarks, idempotency, late data | CDC, watermark, idempotency, geç gelen veri
+- pipeline-failure-analysis | Analyze a data pipeline failure | Veri hattı hata analizi | Root cause, data impact, backfill plan | Kök neden, veri etkisi, geriye dönük yükleme planı
+- schema-evolution-plan | Plan schema evolution | Şema evrimi planlama | Backward/forward compatible changes and migration | Geriye/ileriye uyumlu değişiklikler ve geçiş
+## dba | Database Administrator | Veritabanı Yöneticisi
+### database | Database Operations | Veritabanı Operasyonları
+- query-optimization | Optimize a slow query | Yavaş sorgu iyileştirme | Read execution plan and propose rewrites/indexes | Çalışma planını okur, yeniden yazım/indeks önerir
+- index-recommendation | Recommend indexes | İndeks önerisi | Workload-based indexes with write-cost trade-off | Yazma maliyeti dengesiyle iş yüküne göre indeksler
+- schema-migration-plan | Plan a schema migration | Şema geçiş planı | Zero-downtime steps, rollback, verification | Kesintisiz adımlar, geri dönüş, doğrulama
+- backup-restore-plan | Plan backup and restore | Yedekleme ve geri yükleme planı | Frequency, retention, restore tests, RPO/RTO | Sıklık, saklama, geri yükleme testleri, RPO/RTO
+- database-health-check | Run a database health check | Veritabanı sağlık kontrolü | Waits, locks, growth, fragmentation, config | Beklemeler, kilitler, büyüme, parçalanma, yapılandırma
+## data-analyst | Data / BI Analyst | Veri / BI Analisti
+### analytics | Analytics & Reporting | Analitik ve Raporlama
+- analysis-plan | Write an analysis plan | Analiz planı yazma | Question, hypotheses, data, method, output | Soru, hipotezler, veri, yöntem, çıktı
+- dashboard-spec | Specify a dashboard | Gösterge paneli tanımlama | Audience, questions, KPIs, visuals, filters | Kitle, sorular, KPI'lar, görseller, filtreler
+- insight-summary | Write an insight summary | İçgörü özeti yazma | So-what narrative from data results | Veri sonuçlarından "ne anlama geliyor" anlatısı
+- metric-definition | Define a metric precisely | Metriği kesin tanımlama | Formula, filters, grain, edge cases | Formül, filtreler, tanecik, uç durumlar
+- data-exploration | Explore a dataset | Veri setini keşfetme | Profile distributions, nulls, outliers, correlations | Dağılımları, boş değerleri, aykırı değerleri ve korelasyonları profiller
+- ab-test-analysis | Analyze an A/B test | A/B testi analizi | Significance, effect size, guardrails, decision | Anlamlılık, etki büyüklüğü, koruyucu metrikler, karar
+## ml-ai-engineer | Data Scientist / ML & AI Engineer | Veri Bilimci / ML ve YZ Mühendisi
+### ml | Machine Learning | Makine Öğrenmesi
+- ml-problem-framing | Frame an ML problem | ML problemini tanımlama | Target, features, success metric, baseline, feasibility | Hedef, öznitelikler, başarı metriği, taban çizgisi, fizibilite
+- feature-engineering-plan | Plan feature engineering | Öznitelik mühendisliği planı | Candidate features, leakage checks, transformations | Aday öznitelikler, sızıntı kontrolleri, dönüşümler
+- model-evaluation-report | Write a model evaluation report | Model değerlendirme raporu | Metrics, slices, errors, fairness, comparison | Metrikler, dilimler, hatalar, adillik, karşılaştırma
+- model-card | Write a model card | Model kartı yazma | Intended use, data, performance, limits, ethics | Kullanım amacı, veri, performans, sınırlar, etik
+- ml-monitoring-plan | Plan model monitoring | Model izleme planı | Drift, performance decay, retraining triggers | Kayma, performans düşüşü, yeniden eğitim tetikleyicileri
+### genai | Generative AI | Üretken Yapay Zeka
+- prompt-design | Design a prompt | Prompt tasarlama | Role, task, context, constraints, examples, output format | Rol, görev, bağlam, kısıtlar, örnekler, çıktı formatı
+- llm-eval-set | Build an LLM evaluation set | LLM değerlendirme seti | Test cases, rubrics and graders for an LLM feature | Bir LLM özelliği için test durumları, puanlama kriterleri ve değerlendiriciler
+- rag-design | Design a RAG system | RAG sistemi tasarlama | Chunking, embedding, retrieval, reranking, grounding | Parçalama, embedding, erişim, yeniden sıralama, dayanak
+- ai-skill-authoring | Author a new AI skill | Yeni YZ skill'i yazma | Write a portable SKILL.md following this library's conventions | Bu kütüphanenin kurallarına uygun taşınabilir SKILL.md yazar
+- ai-use-case-assessment | Assess an AI use case | YZ kullanım senaryosu değerlendirmesi | Value, feasibility, risk, data readiness | Değer, fizibilite, risk, veri hazırlığı
+
+# 09-security | Security & Compliance | Güvenlik ve Uyum
+## security-engineer | Security Architect / AppSec Engineer | Güvenlik Mimarı / Uygulama Güvenliği Mühendisi
+### design | Secure Design | Güvenli Tasarım
+- threat-model | Build a threat model | Tehdit modeli oluşturma | STRIDE per element with mitigations | Eleman bazında STRIDE ve önlemler
+- security-requirements | Define security requirements | Güvenlik gereksinimleri | OWASP ASVS aligned requirements | OWASP ASVS uyumlu gereksinimler
+- authn-authz-design | Design authentication and authorization | Kimlik doğrulama ve yetkilendirme tasarımı | Flows, tokens, roles/claims, least privilege | Akışlar, token'lar, roller/claim'ler, en az yetki
+### assessment | Security Assessment | Güvenlik Değerlendirmesi
+- secure-code-review | Review code for security | Güvenli kod incelemesi | OWASP Top 10 and CWE focused review | OWASP Top 10 ve CWE odaklı inceleme
+- vulnerability-triage | Triage a vulnerability | Zafiyet önceliklendirme | CVSS, exploitability, reachability, fix plan | CVSS, istismar edilebilirlik, erişilebilirlik, düzeltme planı
+- dependency-vulnerability-review | Review dependency vulnerabilities | Bağımlılık zafiyetleri incelemesi | SCA findings, upgrade paths, risk acceptance | SCA bulguları, güncelleme yolları, risk kabulü
+- pentest-scope | Define a penetration test scope | Sızma testi kapsamı | Targets, rules of engagement, exclusions, reporting | Hedefler, çalışma kuralları, hariç tutulanlar, raporlama
+- security-finding-report | Write a security finding | Güvenlik bulgusu yazma | Description, impact, reproduction, remediation | Açıklama, etki, tekrar adımları, çözüm
+### operations | Security Operations | Güvenlik Operasyonları
+- security-incident-response | Respond to a security incident | Güvenlik olayına müdahale | Contain, eradicate, recover, notify | Sınırlandır, temizle, kurtar, bildir
+- access-review | Run an access review | Erişim yetkisi gözden geçirme | Detect excessive, orphaned and toxic permissions | Fazla, sahipsiz ve çakışan yetkileri tespit eder
+## compliance | GRC / Compliance | Yönetişim, Risk ve Uyum
+### compliance | Compliance | Uyum
+- privacy-impact-assessment | Run a privacy impact assessment | Kişisel veri etki değerlendirmesi | KVKK/GDPR DPIA for a feature or system | Bir özellik veya sistem için KVKK/GDPR etki değerlendirmesi
+- control-mapping | Map controls to a standard | Kontrolleri standarda eşleme | ISO 27001 / SOC 2 control evidence mapping | ISO 27001 / SOC 2 kontrol-kanıt eşlemesi
+- policy-writing | Write a security/IT policy | Güvenlik/BT politikası yazma | Purpose, scope, rules, roles, exceptions | Amaç, kapsam, kurallar, roller, istisnalar
+- audit-preparation | Prepare for an audit | Denetime hazırlık | Evidence list, gaps, owners, timeline | Kanıt listesi, eksikler, sorumlular, takvim
+- it-risk-assessment | Assess IT risk | BT risk değerlendirmesi | Asset, threat, vulnerability, likelihood, impact | Varlık, tehdit, zafiyet, olasılık, etki
+
+# 10-design | UX / UI Design | UX / UI Tasarım
+## ux-researcher | UX Researcher | UX Araştırmacısı
+### research | User Research | Kullanıcı Araştırması
+- research-plan | Write a research plan | Araştırma planı | Objectives, questions, methods, participants, timeline | Hedefler, sorular, yöntemler, katılımcılar, takvim
+- usability-test-script | Write a usability test script | Kullanılabilirlik testi senaryosu | Tasks, prompts, success criteria, debrief | Görevler, yönlendirmeler, başarı kriterleri, kapanış
+- research-synthesis | Synthesize research findings | Araştırma bulgularını sentezleme | Affinity clustering into insights and recommendations | Benzerlik gruplamasıyla içgörü ve öneriler
+- screener-survey | Write a participant screener | Katılımcı eleme anketi | Criteria and questions to recruit the right users | Doğru kullanıcıları seçmek için kriterler ve sorular
+## ux-ui-designer | UX / UI Designer | UX / UI Tasarımcı
+### design | Interaction & Visual Design | Etkileşim ve Görsel Tasarım
+- user-flow | Design a user flow | Kullanıcı akışı tasarlama | Steps, decisions, entry/exit, error paths | Adımlar, kararlar, giriş/çıkış, hata yolları
+- information-architecture | Structure information architecture | Bilgi mimarisi oluşturma | Navigation, hierarchy, labeling, card sort plan | Navigasyon, hiyerarşi, etiketleme, kart sıralama planı
+- wireframe-spec | Describe a wireframe | Wireframe tarifi | Layout, components, content priority, states | Yerleşim, bileşenler, içerik önceliği, durumlar
+- heuristic-evaluation | Run a heuristic evaluation | Sezgisel değerlendirme | Nielsen's 10 heuristics with severity | Önem derecesiyle Nielsen'in 10 ilkesi
+- design-critique | Give design critique | Tasarım eleştirisi | Goal-based, specific, prioritized feedback | Hedef bazlı, somut, önceliklendirilmiş geri bildirim
+- design-system-component-spec | Specify a design system component | Tasarım sistemi bileşeni tanımlama | Anatomy, variants, states, tokens, usage rules | Anatomi, varyantlar, durumlar, token'lar, kullanım kuralları
+- design-handoff | Prepare a design handoff | Tasarım teslimi hazırlama | Specs, interactions, edge states, assets for developers | Geliştiriciler için ölçüler, etkileşimler, uç durumlar, varlıklar
+## ux-writer | UX Writer / Content Designer | UX Yazarı / İçerik Tasarımcısı
+### content | Content | İçerik
+- microcopy | Write microcopy | Mikro metin yazma | Buttons, labels, hints, empty states | Butonlar, etiketler, ipuçları, boş durumlar
+- error-message-writing | Write error messages | Hata mesajı yazma | What happened, why, what to do next | Ne oldu, neden, şimdi ne yapmalı
+- voice-and-tone-guide | Write a voice and tone guide | Ses ve ton rehberi | Brand voice principles with do/don't examples | Yap/yapma örnekleriyle marka sesi ilkeleri
+
+# 11-support-ops | Support & IT Operations | Destek ve BT Operasyonları
+## support-engineer | Support Engineer (L1-L3) | Destek Mühendisi (L1-L3)
+### tickets | Ticket Handling | Kayıt Yönetimi
+- ticket-triage | Triage a support ticket | Destek kaydı sınıflandırma | Category, priority, impact, routing | Kategori, öncelik, etki, yönlendirme
+- ticket-response | Write a ticket response | Destek kaydı yanıtı | Empathetic, clear, next-step focused reply | Empatik, net, sonraki adıma odaklı yanıt
+- ticket-escalation-summary | Summarize a ticket for escalation | Eskalasyon için kayıt özeti | Context, attempts, evidence for next level | Bir üst seviye için bağlam, denenenler, kanıt
+- known-error-article | Write a known error article | Bilinen hata makalesi | Symptom, cause, workaround, fix status | Belirti, neden, geçici çözüm, kalıcı çözüm durumu
+- customer-outage-notice | Write a customer outage notice | Müşteriye kesinti bildirimi | Impact, status, ETA, workaround | Etki, durum, tahmini süre, geçici çözüm
+## it-service-management | IT Service Management | BT Hizmet Yönetimi
+### itsm | ITSM Processes | ITSM Süreçleri
+- problem-management | Run problem management | Problem yönetimi | Link incidents, find root cause, known error | Olayları ilişkilendirir, kök nedeni bulur, bilinen hata kaydı açar
+- change-request-rfc | Write a change request (RFC) | Değişiklik talebi (RFC) yazma | Description, risk, backout, schedule for CAB | CAB için açıklama, risk, geri alma, takvim
+- sla-breach-analysis | Analyze SLA breaches | SLA ihlal analizi | Patterns, causes, improvement actions | Örüntüler, nedenler, iyileştirme aksiyonları
+- service-catalog-entry | Write a service catalog entry | Hizmet kataloğu kaydı | Service description, SLAs, request process | Hizmet tanımı, SLA'lar, talep süreci
+
+# 12-technical-writing | Technical Writing | Teknik Yazarlık
+## technical-writer | Technical Writer | Teknik Yazar
+### docs | Product Documentation | Ürün Dokümantasyonu
+- user-guide | Write a user guide | Kullanıcı kılavuzu yazma | Task-based guide with steps and screenshots placeholders | Adımlar ve ekran görüntüsü yer tutucularıyla görev bazlı kılavuz
+- tutorial | Write a tutorial | Eğitim (tutorial) yazma | Learning-oriented step-by-step walkthrough (Diátaxis) | Öğrenme odaklı adım adım anlatım (Diátaxis)
+- how-to-guide | Write a how-to guide | Nasıl yapılır rehberi | Goal-oriented recipe (Diátaxis) | Hedef odaklı tarif (Diátaxis)
+- docs-information-architecture | Structure documentation | Doküman bilgi mimarisi | Organize docs into tutorials, how-tos, reference, explanation | Dokümanları eğitim, nasıl yapılır, referans ve açıklama olarak düzenler
+- style-guide-check | Check against a style guide | Stil rehberi kontrolü | Consistency with terminology and writing rules | Terminoloji ve yazım kurallarıyla tutarlılık
+
+# 13-leadership | Engineering Management & Leadership | Mühendislik Yönetimi ve Liderlik
+## engineering-manager | Engineering Manager | Mühendislik Yöneticisi
+### people | People Management | İnsan Yönetimi
+- one-on-one-prep | Prepare a 1:1 | Birebir görüşme hazırlığı | Agenda, questions, follow-ups from last time | Gündem, sorular, önceki görüşmeden takipler
+- one-on-one-notes | Capture 1:1 notes | Birebir görüşme notları | Topics, commitments, career signals | Konular, taahhütler, kariyer sinyalleri
+- performance-review | Write a performance review | Performans değerlendirmesi yazma | Evidence-based, competency-aligned, balanced | Kanıta dayalı, yetkinliklerle uyumlu, dengeli
+- goal-setting | Set individual goals | Bireysel hedef belirleme | SMART goals tied to team outcomes and growth | Ekip sonuçlarına ve gelişime bağlı SMART hedefler
+- career-development-plan | Write a career development plan | Kariyer gelişim planı | Current vs target level, gaps, actions | Mevcut ve hedef seviye, eksikler, aksiyonlar
+- underperformance-plan | Write a performance improvement plan | Performans iyileştirme planı | Expectations, support, milestones, consequences | Beklentiler, destek, ara hedefler, sonuçlar
+- recognition-message | Write a recognition message | Takdir mesajı yazma | Specific, impact-focused appreciation | Somut, etki odaklı takdir
+### hiring | Hiring | İşe Alım
+- job-description | Write a job description | İş ilanı yazma | Role mission, responsibilities, requirements, inclusive language | Rolün amacı, sorumluluklar, gereksinimler, kapsayıcı dil
+- interview-plan | Design an interview loop | Mülakat süreci tasarlama | Stages, competencies per stage, interviewers | Aşamalar, aşama başına yetkinlikler, mülakatçılar
+- technical-interview-questions | Prepare technical interview questions | Teknik mülakat soruları | Level-calibrated questions with rubric | Seviyeye göre ayarlanmış sorular ve puanlama
+- interview-scorecard | Write an interview scorecard | Mülakat değerlendirme formu | Evidence per competency and hire recommendation | Yetkinlik başına kanıt ve işe alım önerisi
+- candidate-debrief | Summarize a candidate debrief | Aday değerlendirme toplantısı özeti | Consolidate signals into a decision | Sinyalleri birleştirip karara bağlar
+- onboarding-plan-30-60-90 | Write a 30-60-90 day onboarding plan | 30-60-90 günlük oryantasyon planı | Goals and milestones for a new hire | Yeni çalışan için hedefler ve ara hedefler
+### team | Team & Org Design | Ekip ve Organizasyon Tasarımı
+- team-topology | Design team topology | Ekip topolojisi tasarlama | Stream-aligned, platform, enabling, subsystem teams | Akışa hizalı, platform, destekleyici, alt sistem ekipleri
+- role-definition | Define a role | Rol tanımlama | Responsibilities, decision rights, interfaces | Sorumluluklar, karar yetkileri, arayüzler
+- career-ladder | Build a career ladder | Kariyer basamakları oluşturma | Levels with expectations per competency | Yetkinlik bazında beklentileriyle seviyeler
+- engineering-metrics-review | Review engineering metrics (DORA/SPACE) | Mühendislik metrikleri incelemesi (DORA/SPACE) | Interpret delivery metrics without gaming | Metrikleri manipülasyona açık hale getirmeden teslimat metriklerini yorumlar
+## executive | CTO / VP / Director | CTO / Başkan Yardımcısı / Direktör
+### strategy | Technology Strategy | Teknoloji Stratejisi
+- technology-strategy | Write a technology strategy | Teknoloji stratejisi yazma | Diagnosis, guiding policy, coherent actions | Teşhis, yol gösterici politika, tutarlı aksiyonlar
+- quarterly-planning | Run quarterly planning | Çeyreklik planlama | Capacity, priorities, commitments, trade-offs | Kapasite, öncelikler, taahhütler, ödünleşimler
+- budget-proposal | Write a budget proposal | Bütçe teklifi yazma | Investments, run costs, justification, scenarios | Yatırımlar, işletim maliyetleri, gerekçe, senaryolar
+- vendor-evaluation | Evaluate vendors (RFP) | Tedarikçi değerlendirme (RFP) | Requirements, scoring model, comparison, recommendation | Gereksinimler, puanlama modeli, karşılaştırma, öneri
+- board-update | Write an executive/board update | Yönetim kurulu güncellemesi | Highlights, metrics, risks, asks | Öne çıkanlar, metrikler, riskler, talepler
+- org-change-communication | Communicate an org change | Organizasyon değişikliği iletişimi | Why, what changes, what doesn't, support | Neden, ne değişiyor, ne değişmiyor, destek
+
+# 14-presales-consulting | Presales & Consulting | Ön Satış ve Danışmanlık
+## presales-consultant | Presales / Solution Consultant | Ön Satış / Çözüm Danışmanı
+### bid | Bids & Proposals | Teklif Süreci
+- rfp-analysis | Analyze an RFP | RFP analizi | Requirements, evaluation criteria, risks, bid/no-bid | Gereksinimler, değerlendirme kriterleri, riskler, teklif ver/verme
+- rfp-response | Write an RFP response | RFP yanıtı yazma | Compliant, benefit-led answers per requirement | Her gereksinime uyumlu ve fayda odaklı yanıtlar
+- proposal-writing | Write a proposal | Teklif dokümanı yazma | Understanding, solution, approach, plan, team, commercials | Anlayış, çözüm, yaklaşım, plan, ekip, ticari koşullar
+- effort-estimate-for-bid | Estimate effort for a bid | Teklif için efor tahmini | Top-down/bottom-up estimate with assumptions and contingency | Varsayımlar ve yedek payla yukarıdan-aşağı/aşağıdan-yukarı tahmin
+- statement-of-work | Write a statement of work | İş tanımı (SOW) yazma | Scope, deliverables, acceptance, responsibilities, assumptions | Kapsam, teslimatlar, kabul, sorumluluklar, varsayımlar
+### consulting | Consulting | Danışmanlık
+- discovery-workshop | Run a client discovery workshop | Müşteri keşif çalıştayı | Agenda, questions and output for early engagement | Erken aşama için gündem, sorular ve çıktı
+- current-state-assessment | Assess a client's current state | Müşteri mevcut durum değerlendirmesi | Findings, maturity, pain points, recommendations | Bulgular, olgunluk, sorunlar, öneriler
+- fit-gap-analysis | Run a fit-gap analysis | Fit-gap analizi | Compare package/standard capabilities to requirements | Paket/standart yetenekleri gereksinimlerle karşılaştırır
+- client-steering-report | Write a client steering report | Müşteri yönlendirme raporu | Progress, value delivered, risks, decisions | İlerleme, sağlanan değer, riskler, kararlar
