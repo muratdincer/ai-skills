@@ -41,6 +41,7 @@ Kod veya diff yoksa iste. Plan çıktısı yoksa statik incele ve yıkıcı değ
 8. Güvenilirlik ve maliyet: gerekiyorsa zone yedekliliği, yedekler ve saklama, doğru boyutlu SKU'lar, yaşam döngüsü kuralları; maliyetli seçimleri nitel olarak işaretle.
 9. Hat: pull request'te plan, apply yalnızca hattan ve onayla, policy-as-code kontrolleri.
 10. Bulguları derecelendir, kod düzeltmeleri öner.
+11. Her çıkarımı `[VARSAYIM]` olarak etiketle ve desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa kimlik bilgisi bulguları için `secrets-management-plan`, açığa çıkan saldırı yüzeyi için `threat-model`, maliyet bulguları için `finops-review` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -60,6 +61,7 @@ Karar: Onay / Değişikliklerle onay / Engelle
 - [ ] Secret'lar kodda, değişken varsayılanlarında veya maskelenmemiş çıktılarda yok.
 - [ ] Provider/modül sürümleri sabitlenmiş.
 - [ ] Plan çıktısı yoksa inceleme bunu belirtiyor.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Bir kaynağın veya modül adresinin adını değiştirip veritabanının silinip yeniden oluşturulmasına yol açmak. moved/import blokları kullan.

@@ -39,6 +39,7 @@ Log veya hata metni yoksa iste. Yalnızca iş adından tahmin yürütme.
 7. Yeniden deneme kararını ver: yalnızca sınıf geçiciyse ve kanıt bunu gösteriyorsa kabul edilir. Aksi halde yeniden denemeyi çözüm olarak önerme.
 8. Önleme öner: sabitleme, önbellek, yeni bir kontrol, kararsız testi kayıt açarak karantinaya alma, kimlik bilgisi süre dolumu için alarm.
 9. Güvenlik konularını not et: log bir secret'ı açığa çıkarıyorsa rotasyon ve log maskelemesi öner.
+10. Her çıkarımı `[VARSAYIM]` olarak etiketle ve desteklenmeyen maddeleri açık sorulara taşı. Hedef devam ediyorsa aralıklı bir test hatasıysa `flaky-test-analysis`, build'i bir bağımlılık değişikliği bozduysa `dependency-upgrade`, neden yapısalsa `pipeline-design` öner.
 
 ## Çıktı formatı
 ```markdown
@@ -65,6 +66,7 @@ Log veya hata metni yoksa iste. Yalnızca iş adından tahmin yürütme.
 - [ ] Deterministik bir hata için yeniden deneme çözüm olarak önerilmedi.
 - [ ] Çözüm, anlık blokaj kaldırmayı kalıcı çözümden ayırıyor.
 - [ ] Açığa çıkan her secret rotasyon için işaretlendi.
+- [ ] Tüm kontroller geçiyor; biri geçmiyorsa çıktıyı düzelt ve yanıtlamadan önce listeyi yeniden çalıştır.
 
 ## Sık yapılan hatalar
 - Genellikle bir sonuç olan son hata satırını okumak. İlk hatayı bulmak için yukarı doğru ara.
